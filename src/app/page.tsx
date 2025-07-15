@@ -65,13 +65,13 @@ export default function Home() {
             className="mx-auto sm:mx-0 drop-shadow-lg"
             priority
           />
-          <span className="text-4xl sm:text-6xl font-extrabold tracking-widest text-white uppercase">ACTARION</span>
+          <span className="text-4xl sm:text-6xl font-extrabold tracking-widest text-white uppercase">act<span className="text-cyan-400">AR</span>ion</span>
         </div>
         <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight mb-4 max-w-2xl mt-4">
           Revolutionize SOP Execution with <span className={accent}>Augmented Reality</span>
         </h1>
         <p className="text-xl sm:text-2xl text-gray-300 max-w-2xl mb-6">
-          ActArion delivers next-generation SOP solutions powered by AR technology—transforming how frontline teams work, learn, and stay safe.
+          act<span className={accent}>AR</span>ion delivers next-generation SOP solutions powered by AR technology—transforming how frontline teams work, learn, and stay safe.
         </p>
         <a
           href="#contact"
@@ -98,7 +98,7 @@ export default function Home() {
       >
         <h2 className={sectionTitle}>Augmented SOPs for Frontline Excellence</h2>
         <p className={sectionText}>
-          ActArion provides advanced AR-driven software that turns traditional SOPs into immersive, step-by-step visual workflows. Using AR glasses or mobile devices, your workforce can follow real-time instructions overlaid on physical environments—enhancing precision, safety, and operational consistency.
+          act<span className={accent}>AR</span>ion provides advanced AR-driven software that turns traditional SOPs into immersive, step-by-step visual workflows. Using AR glasses or mobile devices, your workforce can follow real-time instructions overlaid on physical environments—enhancing precision, safety, and operational consistency.
         </p>
       </motion.section>
 
@@ -221,7 +221,7 @@ export default function Home() {
       >
         <h2 className={sectionTitle}>Where Action Meets Augmented Reality</h2>
         <p className={sectionText}>
-          ActArion combines deep operational understanding with cutting-edge AR solutions. Our mission: to modernize frontline work by transforming SOPs into dynamic, interactive AR workflows.
+          act<span className={accent}>AR</span>ion combines deep operational understanding with cutting-edge AR solutions. Our mission: to modernize frontline work by transforming SOPs into dynamic, interactive AR workflows.
         </p>
         <p className={sectionText}>
           We operate as a trusted distributor and value-added partner—working with top-tier AR vendors and local implementation experts across Europe. Our focus is on solving real-world challenges in SOP execution, workforce training, and process compliance.
