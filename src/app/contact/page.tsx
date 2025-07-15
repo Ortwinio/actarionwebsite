@@ -27,7 +27,7 @@ export default function Contact() {
           <span className="font-semibold text-white">Ready to take action with AR?</span>
           <span>We’d love to hear from you.</span>
           <span>
-            Whether you're exploring smart SOP solutions, interested in a partnership, or simply curious about how Augmented Reality can transform frontline work — reach out to us. Fill in the form and our team will get back to you shortly. Together, we’ll take the next step toward smarter, visual support on the job.
+            Whether you&apos;re exploring smart SOP solutions, interested in a partnership, or simply curious about how Augmented Reality can transform frontline work — reach out to us. Fill in the form and our team will get back to you shortly. Together, we&apos;ll take the next step toward smarter, visual support on the job.
           </span>
           <span className="italic text-cyan-400 mt-2">actARion – Where Action meets AR.</span>
         </div>
