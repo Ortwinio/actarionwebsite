@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -18,7 +19,39 @@ export default function About() {
         <p className="text-lg sm:text-xl text-gray-300 mb-4">
           By combining world-class technology with local expertise, we help companies across Europe close the gap between procedure and performance.
         </p>
+        <div className="flex flex-col sm:flex-row gap-8 justify-center items-center mt-8">
+          <div className="flex flex-col items-center">
+            <Image
+              src="/Marc Dercksen.png"
+              alt="Marc Dercksen"
+              width={160}
+              height={160}
+              className="w-40 h-40 rounded-full object-cover shadow-lg mb-2"
+            />
+            <span className="text-lg font-semibold text-white mt-2">Marc Dercksen</span>
+            <span className="text-sm text-gray-400">Managing Partner</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <Image
+              src="/Ortwin Vereck.png"
+              alt="Ortwin Vereck"
+              width={160}
+              height={160}
+              className="w-40 h-40 rounded-full object-cover shadow-lg mb-2"
+            />
+            <span className="text-lg font-semibold text-white mt-2">Ortwin Vereck</span>
+            <span className="text-sm text-gray-400">Managing Partner</span>
+          </div>
+        </div>
         <Link href="/" className="text-cyan-400 hover:underline text-base font-medium mt-4">← Back to Home</Link>
+      </div>
+      <div className="flex justify-center mt-8">
+        <a
+          href="/partner-contact"
+          className="inline-block bg-cyan-500 hover:bg-cyan-400 text-white font-semibold text-lg px-8 py-3 rounded-full shadow-lg transition-colors"
+        >
+          Become our partner
+        </a>
       </div>
     </div>
   );

@@ -74,7 +74,7 @@ export default function Home() {
           act<span className={accent}>AR</span>ion delivers next-generation SOP solutions powered by AR technology—transforming how frontline teams work, learn, and stay safe.
         </p>
         <a
-          href="#contact"
+          href="/contact"
           className="inline-block bg-cyan-500 hover:bg-cyan-400 text-white font-semibold text-lg px-8 py-3 rounded-full shadow-lg transition-colors flex items-center gap-2"
         >
           <PhoneArrowUpRightIcon className="h-6 w-6" />
@@ -236,10 +236,32 @@ export default function Home() {
         className={sectionClass}
         id="technology-partnerships"
       >
-        <h2 className={sectionTitle}>Technology Partnerships</h2>
+        <h2 className={sectionTitle}>Partner With Us</h2>
         <p className={sectionText}>
-          We partner with global AR leaders to bring best-in-class SOP software to European industries. Our local implementation partners ensure every deployment is tailored to your operational context—from factory floor to field site.
+          At ActArion, we believe in the power of collaboration to drive innovation on the frontline.
         </p>
+        <p className={sectionText}>
+          We work with leading AR technology providers to offer advanced SOP solutions tailored to the unique demands of European industries. To ensure every implementation delivers real impact, we also team up with local integration experts who understand the operational realities on the ground — from factory floors to complex field operations.
+        </p>
+        <p className={sectionText + " font-semibold mt-4 mb-2"}>We’re actively looking for:</p>
+        <ul className="list-disc list-inside text-lg text-gray-300 mb-4 pl-4">
+          <li>Technology vendors with cutting-edge AR and AI capabilities</li>
+          <li>System integrators experienced in industrial digital transformation</li>
+          <li>Consulting firms focused on process optimization and frontline enablement</li>
+          <li>Training & HSE specialists seeking scalable, immersive solutions</li>
+          <li>Field service providers aiming to modernize operational workflows</li>
+        </ul>
+        <p className={sectionText + " mt-4"}>
+          Join our growing partner ecosystem and help shape the future of work through Augmented Reality.
+        </p>
+        <div className="flex justify-center mt-8">
+          <a
+            href="/partner-contact"
+            className="inline-block bg-cyan-500 hover:bg-cyan-400 text-white font-semibold text-lg px-8 py-3 rounded-full shadow-lg transition-colors flex items-center gap-2"
+          >
+            Become a Partner
+          </a>
+        </div>
       </motion.section>
 
       {/* Contact Us */}
@@ -262,6 +284,10 @@ export default function Home() {
           <span className="text-gray-400 text-base flex items-center gap-2"><span>📍</span> Serving Benelux, DACH & Nordics</span>
         </div>
       </motion.section>
+      <footer className="w-full py-8 bg-neutral-950 flex flex-col sm:flex-row justify-center items-center border-t border-neutral-800 mt-8 gap-2">
+        <a href="/terms" className="text-gray-400 hover:text-cyan-400 text-sm underline">General Terms and Conditions</a>
+        <a href="/onepager.png" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-cyan-400 text-sm underline ml-0 sm:ml-6">View our onepager</a>
+      </footer>
     </div>
   );
 }
