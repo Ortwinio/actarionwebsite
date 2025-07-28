@@ -261,10 +261,24 @@ export default function Home() {
         className={sectionClass + " bg-neutral-900 bg-opacity-50 backdrop-blur-sm"}
         id="what-we-do"
       >
-        <h2 className={sectionTitle}>Augmented SOPs for Frontline Excellence</h2>
-        <p className={sectionText}>
-          act<span className={accent}>AR</span>ion provides advanced AR-driven software that turns traditional SOPs into immersive, step-by-step visual workflows. Using AR glasses or mobile devices, your workforce can follow real-time instructions overlaid on physical environments—enhancing precision, safety, and operational consistency.
-        </p>
+        <div className="flex flex-col gap-6 mb-6">
+          <div>
+            <h2 className={sectionTitle}>Augmented SOPs for Frontline Excellence</h2>
+            <p className={sectionText}>
+              act<span className={accent}>AR</span>ion provides advanced AR-driven software that turns traditional SOPs into immersive, step-by-step visual workflows. Using AR glasses or mobile devices, your workforce can follow real-time instructions overlaid on physical environments—enhancing precision, safety, and operational consistency.
+            </p>
+          </div>
+          <div className="w-full">
+            <Image
+              src="/ActARion header1.png"
+              alt="ActARion Header Image"
+              width={800}
+              height={600}
+              className="w-full h-auto rounded-lg shadow-lg"
+              priority
+            />
+          </div>
+        </div>
       </motion.section>
 
       {/* Why AR-Powered SOPs */}
@@ -323,6 +337,16 @@ export default function Home() {
         className={sectionClass + " bg-neutral-900 bg-opacity-50 backdrop-blur-sm"}
         id="industries"
       >
+        <div className="w-full mb-6">
+          <Image
+            src="/ActARion header2.png"
+            alt="ActARion Header Image"
+            width={800}
+            height={600}
+            className="w-full h-auto rounded-lg shadow-lg"
+            priority
+          />
+        </div>
         <h2 className={sectionTitle}>Industries We Support</h2>
         <div className="flex flex-wrap justify-center gap-8 mt-8">
           <div className="flex flex-col items-center">
@@ -384,6 +408,16 @@ export default function Home() {
         className={sectionClass + " bg-neutral-900 bg-opacity-50 backdrop-blur-sm"}
         id="about-actarion"
       >
+        <div className="w-full mb-6">
+          <Image
+            src="/ActARion header 3.png"
+            alt="ActARion Header Image"
+            width={800}
+            height={600}
+            className="w-full h-auto rounded-lg shadow-lg"
+            priority
+          />
+        </div>
         <h2 className={sectionTitle}>Where Action Meets Augmented Reality</h2>
         <p className={sectionText}>
           act<span className={accent}>AR</span>ion combines deep operational understanding with cutting-edge AR solutions. Our mission: to modernize frontline work by transforming SOPs into dynamic, interactive AR workflows.

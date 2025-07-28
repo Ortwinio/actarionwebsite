@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Navigation from '../components/Navigation';
 import CookieBanner from '../components/CookieBanner';
 import ConditionalAnalytics from '../components/ConditionalAnalytics';
 import "./globals.css";
@@ -100,11 +101,12 @@ export default function RootLayout({
         <meta name="msapplication-TileColor" content="#000000" />
         <meta name="msapplication-tap-highlight" content="no" />
       </head>
-                    <body className={inter.className}>
-                {children}
-                <CookieBanner />
-                <ConditionalAnalytics />
-              </body>
+                          <body className={inter.className}>
+        <Navigation />
+        {children}
+        <CookieBanner />
+        <ConditionalAnalytics />
+      </body>
     </html>
   );
 }
