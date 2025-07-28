@@ -15,13 +15,14 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
+    "@vercel/analytics": "^1.5.0",
+    "@vercel/speed-insights": "^1.2.0",
     "framer-motion": "^10.16.4",
     "next": "15.4.1",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
-    "@next/eslint-config-next": "15.4.1",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
