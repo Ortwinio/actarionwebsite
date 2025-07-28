@@ -7,10 +7,12 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Actarion - Revolutionizing SOP Execution with Augmented Reality",
-  description: "Actarion delivers next-generation SOP solutions powered by AR technology—transforming how frontline teams work, learn, and stay safe. Serving Benelux, DACH & Nordics.",
+  title: "ActARion - Action with AR Revolutionize Excellence",
+  description: "ActARion - Action with AR Revolutionize Excellence. Delivering next-generation SOP solutions powered by AR technology—transforming how frontline teams work, learn, and stay safe. Serving Benelux, DACH & Nordics.",
   keywords: [
-    "Actarion",
+    "ActARion",
+    "Action with AR",
+    "Revolutionize Excellence",
     "Augmented Reality",
     "AR",
     "SOP",
@@ -27,9 +29,9 @@ export const metadata: Metadata = {
     "Workforce Training",
     "Process Optimization"
   ],
-  authors: [{ name: "Actarion Team" }],
-  creator: "Actarion",
-  publisher: "Actarion",
+  authors: [{ name: "ActARion Team" }],
+  creator: "ActARion",
+  publisher: "ActARion",
   formatDetection: {
     email: false,
     address: false,
@@ -40,10 +42,10 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: "Actarion - Revolutionizing SOP Execution with Augmented Reality",
-    description: "Actarion delivers next-generation SOP solutions powered by AR technology—transforming how frontline teams work, learn, and stay safe.",
+    title: "ActARion - Action with AR Revolutionize Excellence",
+    description: "ActARion - Action with AR Revolutionize Excellence. Delivering next-generation SOP solutions powered by AR technology—transforming how frontline teams work, learn, and stay safe.",
     url: 'https://actarion.com',
-    siteName: 'Actarion',
+    siteName: 'ActARion',
     images: [
       {
         url: '/Actarionlogo.png',
@@ -57,8 +59,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Actarion - Revolutionizing SOP Execution with Augmented Reality",
-    description: "Actarion delivers next-generation SOP solutions powered by AR technology—transforming how frontline teams work, learn, and stay safe.",
+    title: "ActARion - Action with AR Revolutionize Excellence",
+    description: "ActARion - Action with AR Revolutionize Excellence. Delivering next-generation SOP solutions powered by AR technology—transforming how frontline teams work, learn, and stay safe.",
     images: ['/Actarionlogo.png'],
   },
   robots: {
@@ -90,10 +92,10 @@ export default function RootLayout({
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#000000" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
-        <meta name="application-name" content="Actarion" />
+        <meta name="application-name" content="ActARion" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="Actarion" />
+        <meta name="apple-mobile-web-app-title" content="ActARion" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="msapplication-TileColor" content="#000000" />
         <meta name="msapplication-tap-highlight" content="no" />

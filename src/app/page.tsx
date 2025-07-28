@@ -36,18 +36,39 @@ export default function Home() {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
   const [showVideo, setShowVideo] = useState(true);
 
-  // Hide video on scroll
+  // Hide video on scroll down, show on scroll to top
   useEffect(() => {
     const handleScroll = () => {
+      const video = videoRef.current;
+      
       if (window.scrollY > 100) { // Hide video after scrolling 100px
-        setShowVideo(false);
-        setIsVideoPlaying(false);
-      }
+        if (showVideo) {
+          setShowVideo(false);
+          setIsVideoPlaying(false);
+          if (video) {
+            video.pause();
+          }
+        }
+              } else { // Show video when back at top
+          if (!showVideo) {
+            setShowVideo(true);
+            if (video) {
+              // Reset video to beginning and play
+              video.currentTime = 0;
+              video.play().then(() => {
+                setIsVideoPlaying(true);
+                console.log('✅ Video restarted when scrolling to top');
+              }).catch(err => {
+                console.log('❌ Failed to restart video:', err);
+              });
+            }
+          }
+        }
     };
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [showVideo]);
 
   // Ensure video autoplays
   useEffect(() => {
