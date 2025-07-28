@@ -1,29 +1,59 @@
 {
-  "name": "actarionwebsite",
-  "version": "0.1.0",
+  "name": "actarion-website",
+  "version": "1.0.0",
+  "description": "Actarion - Revolutionizing SOP Execution with Augmented Reality",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev --turbopack -p 3000",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "analyze": "ANALYZE=true npm run build"
   },
   "dependencies": {
-    "@heroicons/react": "^2.2.0",
-    "framer-motion": "^12.23.6",
+    "@heroicons/react": "^2.0.18",
+    "framer-motion": "^10.16.4",
     "next": "15.4.1",
-    "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react": "^18",
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4",
+    "@next/eslint-config-next": "15.4.1",
     "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
     "eslint-config-next": "15.4.1",
-    "tailwindcss": "^4",
+    "postcss": "^8",
+    "prettier": "^3.0.0",
+    "tailwindcss": "^3.3.0",
     "typescript": "^5"
-  }
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "actarion",
+    "augmented-reality",
+    "sop",
+    "nextjs",
+    "react",
+    "tailwindcss",
+    "framer-motion"
+  ],
+  "author": "Actarion Team",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/actarionwebsite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/actarionwebsite/issues"
+  },
+  "homepage": "https://actarion.com"
 }
