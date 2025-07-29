@@ -95,6 +95,16 @@ export default function Navigation() {
             >
               Career
             </Link>
+            <Link
+              href="/faq"
+              className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                isActive('/faq')
+                  ? 'text-cyan-400 bg-neutral-800'
+                  : 'text-gray-300 hover:text-white hover:bg-neutral-800'
+              }`}
+            >
+              FAQ
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -184,6 +194,17 @@ export default function Navigation() {
               onClick={closeMobileMenu}
             >
               Career
+            </Link>
+            <Link
+              href="/faq"
+              className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${
+                isActive('/faq')
+                  ? 'text-cyan-400 bg-neutral-800'
+                  : 'text-gray-300 hover:text-white hover:bg-neutral-800'
+              }`}
+              onClick={closeMobileMenu}
+            >
+              FAQ
             </Link>
           </div>
         </div>
