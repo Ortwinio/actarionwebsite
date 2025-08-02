@@ -1,25 +1,37 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  turbopack: {
-    rules: {
-      '*.svg': {
-        loaders: ['@svgr/webpack'],
-        as: '*.js',
-      },
-    },
+  // Enable experimental features for better performance
+  experimental: {
+    optimizePackageImports: ['@heroicons/react'],
   },
+  // Image optimization
   images: {
     formats: ['image/webp', 'image/avif'],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    minimumCacheTTL: 31536000, // 1 year
+    dangerouslyAllowSVG: true,
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
+  // Production optimizations
   compress: true,
   poweredByHeader: false,
-  reactStrictMode: true,
+  generateEtags: false,
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
   },
+  // Bundle analyzer (optional for debugging)
+  ...(process.env.ANALYZE === 'true' && {
+    webpack: (config) => {
+      config.plugins.push(
+        new (require('@next/bundle-analyzer'))({
+          enabled: true,
+        })
+      );
+      return config;
+    },
+  }),
   async headers() {
     return [
       {
@@ -49,22 +61,11 @@ const nextConfig: NextConfig = {
             key: 'Referrer-Policy',
             value: 'origin-when-cross-origin'
           }
-        ],
-      },
-    ]
+        ]
+      }
+    ];
   },
-  async rewrites() {
-    return [
-      {
-        source: '/about',
-        destination: '/',
-      },
-      {
-        source: '/contact',
-        destination: '/',
-      },
-    ]
-  },
+
 };
 
 export default nextConfig;

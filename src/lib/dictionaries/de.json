@@ -1,0 +1,295 @@
+{
+  "navigation": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "demo": "Demo",
+    "partner": "Partner",
+    "career": "Karriere",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "title": "Revolutionieren Sie die SOP-Ausführung mit Augmented Reality",
+    "subtitle": "actARion liefert SOP-Lösungen der nächsten Generation, die von AR-Technologie angetrieben werden und die Art und Weise verändern, wie Frontline-Teams arbeiten, lernen und sicher bleiben.",
+    "cta": "Demo vereinbaren",
+    "aboutLink": "Über uns"
+  },
+  "sections": {
+    "whatWeDo": {
+      "title": "Augmentierte SOPs für Frontline-Exzellenz",
+      "description": "actARion bietet fortschrittliche AR-gestützte Software, die traditionelle SOPs in immersive, schrittweise visuelle Arbeitsabläufe verwandelt. Mit AR-Brillen oder mobilen Geräten kann Ihre Belegschaft Echtzeit-Anweisungen überlagert auf physischen Umgebungen befolgen – was Präzision, Sicherheit und betriebliche Konsistenz verbessert."
+    },
+    "whyAR": {
+      "title": "Warum AR-gestützte SOPs?",
+      "features": {
+        "handsFree": {
+          "title": "Freihand-Führung:",
+          "description": "Arbeiter erhalten visuelle Anweisungen durch AR-Headsets – kein Papier, kein Rätselraten."
+        },
+        "realTime": {
+          "title": "Echtzeit-Validierung:",
+          "description": "AR-Systeme überprüfen die Fertigstellung jedes Schritts und stellen sicher, dass Verfahren korrekt befolgt werden."
+        },
+        "safety": {
+          "title": "Verbesserte Sicherheit:",
+          "description": "Kritische Sicherheitswarnungen und Gefahrenhinweise werden prominent im Sichtfeld der Arbeiter angezeigt."
+        },
+        "training": {
+          "title": "Beschleunigte Schulung:",
+          "description": "Neue Mitarbeiter lernen schneller mit visueller, interaktiver Führung und reduzieren die Schulungszeit um bis zu 60%."
+        }
+      }
+    },
+    "industries": {
+      "title": "Industrien, die wir unterstützen",
+      "description": "actARions AR-gestützte SOP-Lösungen sind für Industrien konzipiert, in denen Präzision, Sicherheit und betriebliche Exzellenz kritisch sind."
+    },
+    "howItWorks": {
+      "title": "Wie es funktioniert",
+      "steps": {
+        "step1": {
+          "title": "Ihre SOPs hochladen",
+          "description": "Konvertieren Sie bestehende Verfahren in unser AR-kompatibles Format mit unseren intuitiven Tools."
+        },
+        "step2": {
+          "title": "Auf Geräte bereitstellen",
+          "description": "Verteilen Sie AR-Arbeitsabläufe auf die Geräte Ihres Teams – Brillen, Tablets oder Smartphones."
+        },
+        "step3": {
+          "title": "Mit Vertrauen ausführen",
+          "description": "Arbeiter befolgen schrittweise AR-Führung mit Echtzeit-Validierung und Sicherheitswarnungen."
+        }
+      }
+    },
+    "about": {
+      "title": "Wo Aktion auf Augmented Reality trifft",
+      "description": "actARion ist an der Spitze der industriellen AR-Innovation und liefert Lösungen, die die Lücke zwischen digitalen Anweisungen und physischer Ausführung überbrücken. Unsere Plattform verwandelt komplexe Verfahren in intuitive, visuelle Erfahrungen, die die Arbeitsleistung und betriebliche Ergebnisse verbessern."
+    },
+    "partnerships": {
+      "title": "Technologie-Partnerschaften",
+      "description": "Wir arbeiten mit führenden AR-Hardware-Herstellern und Enterprise-Software-Anbietern zusammen, um umfassende Lösungen zu liefern.",
+      "cta": "Werden Sie unser Partner"
+    },
+    "contact": {
+      "title": "Bereit, Ihre Abläufe zu transformieren?",
+      "description": "Schließen Sie sich führenden Herstellern an, die bereits actARion nutzen, um ihre Frontline-Abläufe zu revolutionieren.",
+      "cta": "Demo vereinbaren"
+    }
+  },
+  "footer": {
+    "sitemap": "Sitemap",
+    "terms": "Allgemeine Geschäftsbedingungen",
+    "privacy": "Datenschutzrichtlinie",
+    "onepager": "Unseren Onepager ansehen",
+    "copyright": "© 2024 ActARion. Alle Rechte vorbehalten."
+  },
+  "pages": {
+    "about": {
+      "title": "Über ActARion",
+      "subtitle": "Wo Aktion auf Augmented Reality trifft",
+      "description": "ActARion steht an der Spitze der industriellen AR-Innovation und liefert Lösungen, die die Lücke zwischen digitalen Anweisungen und physischer Ausführung überbrücken. Unsere Plattform verwandelt komplexe Verfahren in intuitive, visuelle Erfahrungen, die die Arbeitsleistung und betriebliche Ergebnisse verbessern.",
+      "mission": "Unsere Mission",
+      "missionText": "Frontline-Arbeit zu modernisieren, indem wir SOPs in dynamische, interaktive AR-Arbeitsabläufe verwandeln, die Sicherheit, Effizienz und betriebliche Exzellenz verbessern.",
+      "partners": "Unsere Partner",
+      "partnersText": "Wir arbeiten als vertrauenswürdiger Distributor und Value-Added-Partner mit erstklassigen AR-Anbietern und lokalen Implementierungsexperten in ganz Europa zusammen.",
+      "backToHome": "Zurück zur Startseite"
+    },
+    "contact": {
+      "title": "Demo vereinbaren",
+      "subtitle": "Bereit, Ihre Abläufe zu transformieren?",
+      "description": "Schließen Sie sich führenden Herstellern an, die bereits ActARion nutzen, um ihre Frontline-Abläufe zu revolutionieren.",
+      "form": {
+        "name": "Vollständiger Name",
+        "email": "E-Mail-Adresse",
+        "company": "Firmenname",
+        "phone": "Telefonnummer",
+        "message": "Nachricht",
+        "submit": "Demo vereinbaren",
+        "success": "Vielen Dank! Wir werden uns bald bei Ihnen melden."
+      },
+      "backToHome": "Zurück zur Startseite"
+    },
+    "partnerContact": {
+      "title": "Werden Sie unser Partner",
+      "subtitle": "Schließen Sie sich unserem wachsenden Partner-Ökosystem an",
+      "description": "Wir suchen aktiv nach Technologieanbietern, Systemintegratoren, Beratungsunternehmen und Field-Service-Anbietern, um die Zukunft der Arbeit durch Augmented Reality zu gestalten.",
+      "form": {
+        "name": "Vollständiger Name",
+        "email": "E-Mail-Adresse",
+        "company": "Firmenname",
+        "phone": "Telefonnummer",
+        "message": "Erzählen Sie uns von Ihrem Partnerschaftsinteresse",
+        "submit": "Partnerschaftsanfrage senden",
+        "success": "Vielen Dank! Wir werden Ihre Partnerschaftsanfrage prüfen und uns bald bei Ihnen melden."
+      },
+      "backToHome": "Zurück zur Startseite"
+    },
+    "career": {
+      "title": "Unserem Team beitreten",
+      "subtitle": "Gestalten Sie die Zukunft der Arbeit mit Augmented Reality",
+      "description": "Wir suchen leidenschaftliche Menschen, die die Art und Weise revolutionieren wollen, wie Frontline-Mitarbeiter mit Technologie interagieren. Schließen Sie sich uns an, um die nächste Generation von AR-gestützten Lösungen zu entwickeln.",
+      "positions": {
+        "title": "Offene Positionen",
+        "arDeveloper": {
+          "title": "AR-Entwickler",
+          "description": "Entwickeln Sie wegweisende AR-Anwendungen für industrielle Anwendungsfälle",
+          "requirements": ["Erfahrung mit Unity/Unreal Engine", "Kenntnisse von AR-Frameworks", "C# Programmierkenntnisse"]
+        },
+        "salesEngineer": {
+          "title": "Vertriebsingenieur",
+          "description": "Helfen Sie Kunden, AR-Lösungen zu verstehen und zu implementieren",
+          "requirements": ["Technischer Hintergrund", "Vertriebserfahrung", "AR/VR-Kenntnisse"]
+        },
+        "productManager": {
+          "title": "Produktmanager",
+          "description": "Definieren und ausführen der Produktstrategie für AR-Lösungen",
+          "requirements": ["Produktmanagement-Erfahrung", "Technischer Hintergrund", "Marktforschungskenntnisse"]
+        }
+      },
+      "culture": {
+        "title": "Unsere Kultur",
+        "description": "Wir glauben an Innovation, Zusammenarbeit und echte Wirkung. Unser Team ist leidenschaftlich für Technologie und ihr Potenzial, Branchen zu transformieren."
+      },
+      "contact": "Interessiert? Senden Sie uns Ihren Lebenslauf und Ihr Anschreiben.",
+      "backToHome": "Zurück zur Startseite"
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "subtitle": "Alles, was Sie über ActARion wissen müssen",
+      "backToHome": "Zurück zur Startseite",
+      "sections": {
+        "general": {
+          "title": "Allgemein",
+          "questions": [
+            {
+              "q": "Was ist ActARion?",
+              "a": "ActARion ist eine Augmented Reality (AR) Plattform, die traditionelle Standard Operating Procedures (SOPs) in visuelle, interaktive Arbeitsabläufe umwandelt. Sie ermöglicht es Teams, On-the-Job-Training, Echtzeit-Anleitung und Wissenserfassung im großen Maßstab zu liefern - über mobile Geräte und Smart Glasses."
+            },
+            {
+              "q": "Für wen ist ActARion?",
+              "a": "ActARion ist für Industrieunternehmen entwickelt - Hersteller, Field-Service-Anbieter, Logistikunternehmen und Versorgungsunternehmen -, die die Effizienz, Sicherheit und Qualität an der Frontline verbessern möchten."
+            },
+            {
+              "q": "Was macht ActARion anders?",
+              "a": "Im Gegensatz zu textlastigen SOPs oder getrennten Trainingssystemen bietet ActARion: No-Code-Erstellung von 3D- und AR-Arbeitsanweisungen, Cross-Device-Bereitstellung auf mobilen Geräten, Tablets und Smart Glasses, Integrierte Remote-Unterstützung und Feedback-Schleifen, Zentralisiertes Wissensmanagement für Teams und Schichten."
+            }
+          ]
+        },
+        "hardware": {
+          "title": "Hardware & Geräte",
+          "questions": [
+            {
+              "q": "Welche Hardware ist mit ActARion kompatibel?",
+              "a": "ActARion unterstützt: Smart Glasses: Microsoft HoloLens 2, Apple Vision Pro, Smartphones und Tablets: iOS und Android, Robuste Geräte für industrielle Nutzung."
+            },
+            {
+              "q": "Liefern Sie Hardware?",
+              "a": "Wir verkaufen keine Hardware, arbeiten aber mit zertifizierten Partnern zusammen, um unterstützte Geräte zu empfehlen und zu bündeln, die auf Ihre betriebliche Umgebung zugeschnitten sind."
+            }
+          ]
+        },
+        "software": {
+          "title": "Software & Integrationen",
+          "questions": [
+            {
+              "q": "Kann ActARion mit unseren bestehenden Systemen integriert werden?",
+              "a": "Ja. Wir bieten API-Support und Custom-Integration-Services für: ERP (z.B. SAP, Microsoft Dynamics 365), MES-Systeme, Learning Management Systems (LMS), HR- und Qualitätssysteme."
+            },
+            {
+              "q": "Welche Daten können gesammelt und analysiert werden?",
+              "a": "Unsere Plattform erfasst: Zeit-auf-Aufgabe und Schritt-Dauer, Multiple-Choice-Antworten, Benutzer-generierte Fotos und Videos, Digitale Checklisten und numerische Einträge."
+            },
+            {
+              "q": "Ist Integration standardmäßig enthalten?",
+              "a": "Basis-APIs sind enthalten. Komplexere Integrationen können Implementierungs-Support oder Customization-Services erfordern."
+            }
+          ]
+        },
+        "implementation": {
+          "title": "Implementierung & Partnerschaften",
+          "questions": [
+            {
+              "q": "Wie sieht die Implementierung aus?",
+              "a": "Ein typisches Rollout dauert 2-6 Monate, je nach Ihren Zielen. Jeder Kunde erhält einen dedizierten Account Manager zur Überwachung von Onboarding und Bereitstellung."
+            },
+            {
+              "q": "Arbeiten Sie mit Implementierungspartnern?",
+              "a": "Ja. Wir arbeiten mit Systemintegratoren, Trainingsberatern und Lösungsanbietern in ganz Europa zusammen."
+            },
+            {
+              "q": "Ich interessiere mich für eine Partnerschaft. Wie ist der Prozess?",
+              "a": "Kontaktieren Sie uns, um mehr über das ActARion Partner-Programm zu erfahren, das Training, Co-Selling und Integrations-Support für Reseller und Service-Provider umfasst."
+            },
+            {
+              "q": "Welche Art von Support wird nach dem Launch angeboten?",
+              "a": "Wir bieten: Helpdesk-Support mit SLA-Optionen, Feature-Updates alle 3 Wochen, Customer-Success-Reviews und Feedback-Zyklen."
+            }
+          ]
+        },
+        "value": {
+          "title": "Wert & Business Case",
+          "questions": [
+            {
+              "q": "Was ist der Mehrwert von ActARion?",
+              "a": "ActARion hilft Ihrem Unternehmen: Onboarding um 50-75% zu beschleunigen, Betriebsfehler um über 80% zu reduzieren, Expertenwissen visuell zu erfassen, Selbstgesteuerte Ausführung auf dem Shopfloor zu ermöglichen, Compliance und Zertifizierungs-Tracking zu verbessern."
+            },
+            {
+              "q": "Wie kann ich einen Business Case für ActARion erstellen?",
+              "a": "Bewerten Sie die Auswirkungen in Bereichen wie: Zeit bis zum Onboarding (4-6 Wochen → 1-2 Wochen), SOP-Fehlerrate (10-15% → <2%), Monatliche Ausfallzeit pro Team (8-10 Stunden → <2 Stunden), Trainingskosten pro Mitarbeiter (€1.000-€2.000 → bis zu 50% Einsparungen), Expertenabhängigkeit (Hoch → Reduziert)."
+            },
+            {
+              "q": "Welchen ROI kann ich erwarten?",
+              "a": "Die meisten Kunden erreichen ROI innerhalb von 6-12 Monaten durch: Erhöhte Produktivität, Weniger Support-Eskalationen, Kürzere Zeit bis zur Kompetenz, Verbesserte Qualitäts- und Sicherheitsmetriken."
+            },
+            {
+              "q": "Wie adressiert ActARion Personalfluktuation und Alterung?",
+              "a": "Wir helfen Organisationen, kritisches Wissen digital zu behalten und es neuen Mitarbeitern sofort verfügbar zu machen - um die Erfahrungslücke zu schließen und betriebliche Risiken zu minimieren."
+            }
+          ]
+        },
+        "content": {
+          "title": "Content-Erstellung & Training",
+          "questions": [
+            {
+              "q": "Benötige ich Programmiererfahrung für ActARion?",
+              "a": "Überhaupt nicht. Unser No-Code-Web-Authoring-Tool ermöglicht es Trainern und Fachexperten, interaktive AR-Anweisungen schnell zu erstellen und bereitzustellen."
+            },
+            {
+              "q": "Kann ich ActARion für Compliance-Training verwenden?",
+              "a": "Ja. Sie können Zertifizierungspfade definieren, den Fortschritt der Benutzer verfolgen und Bewertungen für Compliance und Audits protokollieren."
+            },
+            {
+              "q": "Ist die Plattform mehrsprachig?",
+              "a": "Ja, wir unterstützen Content-Erstellung und -Bereitstellung in mehreren Sprachen - ideal für internationale und multikulturelle Teams."
+            },
+            {
+              "q": "Unterstützt ActARion Remote-Assistenz?",
+              "a": "Ja. Experten können Frontline-Mitarbeiter in Echtzeit über Live-Video und AR-Overlays für Troubleshooting und Mentoring unterstützen."
+            }
+          ]
+        }
+      },
+      "cta": {
+        "title": "Haben Sie noch Fragen?",
+        "description": "Bereit, ActARion in Aktion zu sehen? Vereinbaren Sie eine personalisierte Demo, um zu erkunden, wie unsere Plattform Ihre Abläufe transformieren kann.",
+        "demo": "Demo vereinbaren",
+        "partner": "Partner werden"
+      }
+    },
+    "terms": {
+      "title": "Allgemeine Geschäftsbedingungen",
+      "subtitle": "ActARion Nutzungsbedingungen",
+      "backToHome": "Zurück zur Startseite"
+    },
+    "privacy": {
+      "title": "Datenschutzrichtlinie",
+      "subtitle": "Wie wir Ihre Daten schützen",
+      "backToHome": "Zurück zur Startseite"
+    }
+  },
+  "languageSelector": {
+    "title": "Sprache",
+    "en": "English",
+    "de": "Deutsch",
+    "nl": "Nederlands"
+  }
+} 

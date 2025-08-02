@@ -1,15 +1,22 @@
 {
   "version": 2,
   "buildCommand": "npm run build",
-  "devCommand": "npm run dev",
+  "outputDirectory": ".next",
   "installCommand": "npm install",
   "framework": "nextjs",
   "regions": ["iad1"],
   "functions": {
-    "src/app/**/*.tsx": {
+    "src/app/[locale]/page.tsx": {
       "maxDuration": 30
     }
   },
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/en",
+      "permanent": false
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
@@ -25,6 +32,10 @@
         {
           "key": "X-XSS-Protection",
           "value": "1; mode=block"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
         }
       ]
     },
@@ -38,7 +49,7 @@
       ]
     },
     {
-      "source": "/(.*\\.png)",
+      "source": "/(.*\\.(png|jpg|jpeg|gif|svg|ico|webp))",
       "headers": [
         {
           "key": "Cache-Control",
@@ -47,43 +58,7 @@
       ]
     },
     {
-      "source": "/(.*\\.jpg)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
-        }
-      ]
-    },
-    {
-      "source": "/(.*\\.jpeg)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
-        }
-      ]
-    },
-    {
-      "source": "/(.*\\.gif)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
-        }
-      ]
-    },
-    {
-      "source": "/(.*\\.svg)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
-        }
-      ]
-    },
-    {
-      "source": "/(.*\\.ico)",
+      "source": "/(.*\\.(css|js))",
       "headers": [
         {
           "key": "Cache-Control",
@@ -92,10 +67,7 @@
       ]
     }
   ],
-  "rewrites": [
-    {
-      "source": "/demo",
-      "destination": "/contact"
-    }
-  ]
+  "env": {
+    "NEXT_PUBLIC_SITE_URL": "https://www.actarion.com"
+  }
 } 

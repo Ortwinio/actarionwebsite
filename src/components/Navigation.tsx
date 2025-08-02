@@ -1,12 +1,23 @@
 "use client";
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import Image from 'next/image';
+import LanguageSelector from './LanguageSelector';
 
-export default function Navigation() {
+interface NavigationProps {
+  locale: string;
+  dictionary: any;
+}
+
+export default function Navigation({ locale, dictionary }: NavigationProps) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isClient, setIsClient] = useState(false);
   const pathname = usePathname();
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   const isActive = (path: string) => {
     if (path === '/') {
@@ -46,166 +57,176 @@ export default function Navigation() {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <Link
-              href="/"
+              href={locale === 'en' ? '/' : `/${locale}`}
               className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                isActive('/')
+                isActive(locale === 'en' ? '/' : `/${locale}`)
                   ? 'text-cyan-400 bg-neutral-800'
                   : 'text-gray-300 hover:text-white hover:bg-neutral-800'
               }`}
             >
-              Home
+              {dictionary.navigation.home}
             </Link>
             <Link
-              href="/about"
+              href={locale === 'en' ? '/about' : `/${locale}/about`}
               className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                isActive('/about')
+                isActive(locale === 'en' ? '/about' : `/${locale}/about`)
                   ? 'text-cyan-400 bg-neutral-800'
                   : 'text-gray-300 hover:text-white hover:bg-neutral-800'
               }`}
             >
-              About Us
+              {dictionary.navigation.about}
             </Link>
             <Link
-              href="/contact"
+              href={locale === 'en' ? '/contact' : `/${locale}/contact`}
               className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                isActive('/contact')
+                isActive(locale === 'en' ? '/contact' : `/${locale}/contact`)
                   ? 'text-cyan-400 bg-neutral-800'
                   : 'text-gray-300 hover:text-white hover:bg-neutral-800'
               }`}
             >
-              Demo
+              {dictionary.navigation.demo}
             </Link>
             <Link
-              href="/partner-contact"
+              href={locale === 'en' ? '/partner-contact' : `/${locale}/partner-contact`}
               className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                isActive('/partner-contact')
+                isActive(locale === 'en' ? '/partner-contact' : `/${locale}/partner-contact`)
                   ? 'text-cyan-400 bg-neutral-800'
                   : 'text-gray-300 hover:text-white hover:bg-neutral-800'
               }`}
             >
-              Partner
+              {dictionary.navigation.partner}
             </Link>
             <Link
-              href="/career"
+              href={locale === 'en' ? '/career' : `/${locale}/career`}
               className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                isActive('/career')
+                isActive(locale === 'en' ? '/career' : `/${locale}/career`)
                   ? 'text-cyan-400 bg-neutral-800'
                   : 'text-gray-300 hover:text-white hover:bg-neutral-800'
               }`}
             >
-              Career
+              {dictionary.navigation.career}
             </Link>
             <Link
-              href="/faq"
+              href={locale === 'en' ? '/faq' : `/${locale}/faq`}
               className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                isActive('/faq')
+                isActive(locale === 'en' ? '/faq' : `/${locale}/faq`)
                   ? 'text-cyan-400 bg-neutral-800'
                   : 'text-gray-300 hover:text-white hover:bg-neutral-800'
               }`}
             >
-              FAQ
+              {dictionary.navigation.faq}
             </Link>
+            
+            {/* Language Selector */}
+            <LanguageSelector currentLocale={locale} dictionary={dictionary} />
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden">
-            <button
-              type="button"
-              onClick={toggleMobileMenu}
-              className="text-gray-300 hover:text-white hover:bg-neutral-800 px-3 py-2 rounded-md text-sm font-medium transition-colors"
-              aria-controls="mobile-menu"
-              aria-expanded={isMobileMenuOpen}
-            >
-              <span className="sr-only">Open main menu</span>
-              <svg
-                className="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                aria-hidden="true"
+          {isClient && (
+            <div className="md:hidden">
+              <button
+                type="button"
+                onClick={toggleMobileMenu}
+                className="text-gray-300 hover:text-white hover:bg-neutral-800 px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                aria-controls="mobile-menu"
+                aria-expanded={isMobileMenuOpen}
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d={isMobileMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}
-                />
-              </svg>
-            </button>
-          </div>
+                <span className="sr-only">Open main menu</span>
+                <svg
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d={isMobileMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}
+                  />
+                </svg>
+              </button>
+            </div>
+          )}
         </div>
       </div>
 
       {/* Mobile Navigation */}
-      {isMobileMenuOpen && (
+      {isClient && isMobileMenuOpen && (
         <div className="md:hidden" id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-neutral-900 bg-opacity-95 backdrop-blur-md border-t border-neutral-700">
             <Link
-              href="/"
+              href={locale === 'en' ? '/' : `/${locale}`}
               className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${
-                isActive('/')
+                isActive(locale === 'en' ? '/' : `/${locale}`)
                   ? 'text-cyan-400 bg-neutral-800'
                   : 'text-gray-300 hover:text-white hover:bg-neutral-800'
               }`}
               onClick={closeMobileMenu}
             >
-              Home
+              {dictionary.navigation.home}
             </Link>
             <Link
-              href="/about"
+              href={locale === 'en' ? '/about' : `/${locale}/about`}
               className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${
-                isActive('/about')
+                isActive(locale === 'en' ? '/about' : `/${locale}/about`)
                   ? 'text-cyan-400 bg-neutral-800'
                   : 'text-gray-300 hover:text-white hover:bg-neutral-800'
               }`}
               onClick={closeMobileMenu}
             >
-              About Us
+              {dictionary.navigation.about}
             </Link>
             <Link
-              href="/contact"
+              href={locale === 'en' ? '/contact' : `/${locale}/contact`}
               className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${
-                isActive('/contact')
+                isActive(locale === 'en' ? '/contact' : `/${locale}/contact`)
                   ? 'text-cyan-400 bg-neutral-800'
                   : 'text-gray-300 hover:text-white hover:bg-neutral-800'
               }`}
               onClick={closeMobileMenu}
             >
-              Demo
+              {dictionary.navigation.demo}
             </Link>
             <Link
-              href="/partner-contact"
+              href={locale === 'en' ? '/partner-contact' : `/${locale}/partner-contact`}
               className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${
-                isActive('/partner-contact')
+                isActive(locale === 'en' ? '/partner-contact' : `/${locale}/partner-contact`)
                   ? 'text-cyan-400 bg-neutral-800'
                   : 'text-gray-300 hover:text-white hover:bg-neutral-800'
               }`}
               onClick={closeMobileMenu}
             >
-              Partner
+              {dictionary.navigation.partner}
             </Link>
             <Link
-              href="/career"
+              href={locale === 'en' ? '/career' : `/${locale}/career`}
               className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${
-                isActive('/career')
+                isActive(locale === 'en' ? '/career' : `/${locale}/career`)
                   ? 'text-cyan-400 bg-neutral-800'
                   : 'text-gray-300 hover:text-white hover:bg-neutral-800'
               }`}
               onClick={closeMobileMenu}
             >
-              Career
+              {dictionary.navigation.career}
             </Link>
             <Link
-              href="/faq"
+              href={locale === 'en' ? '/faq' : `/${locale}/faq`}
               className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${
-                isActive('/faq')
+                isActive(locale === 'en' ? '/faq' : `/${locale}/faq`)
                   ? 'text-cyan-400 bg-neutral-800'
                   : 'text-gray-300 hover:text-white hover:bg-neutral-800'
               }`}
               onClick={closeMobileMenu}
             >
-              FAQ
+              {dictionary.navigation.faq}
             </Link>
+            
+            {/* Mobile Language Selector */}
+            <div className="px-3 py-2">
+              <LanguageSelector currentLocale={locale} dictionary={dictionary} />
+            </div>
           </div>
         </div>
       )}

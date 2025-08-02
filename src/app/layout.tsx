@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Navigation from '../components/Navigation';
 import CookieBanner from '../components/CookieBanner';
 import ConditionalAnalytics from '../components/ConditionalAnalytics';
 import "./globals.css";
@@ -8,27 +7,28 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "ActARion - Action with AR Revolutionize Excellence",
-  description: "ActARion - Action with AR Revolutionize Excellence. Delivering next-generation SOP solutions powered by AR technology—transforming how frontline teams work, learn, and stay safe. Serving Benelux, DACH & Nordics.",
+  title: "ActARion – Augmented Reality SOP & AR Work Instruction Software",
+  description: "ActARion transforms SOPs into interactive AR work instructions. Train faster, reduce errors, and improve frontline quality with digital SOP software.",
   keywords: [
     "ActARion",
-    "Action with AR",
-    "Revolutionize Excellence",
-    "Augmented Reality",
-    "AR",
-    "SOP",
-    "Standard Operating Procedures",
-    "Frontline Operations",
+    "Augmented Reality SOP",
+    "AR Work Instructions",
+    "Digital SOP Software",
+    "Interactive Work Instructions",
+    "Frontline Training",
+    "AR Training Software",
+    "Industrial AR Solutions",
+    "Smart Manufacturing",
+    "Digital Work Instructions",
+    "AR-powered SOPs",
+    "Workforce Training Software",
+    "Process Optimization",
     "Industrial Manufacturing",
-    "Smart Factories",
     "Energy & Utilities",
     "Aerospace",
     "Pharma & Biotech",
     "Field Services",
-    "Maintenance Operations",
-    "Digital Transformation",
-    "Workforce Training",
-    "Process Optimization"
+    "Maintenance Operations"
   ],
   authors: [{ name: "ActARion Team" }],
   creator: "ActARion",
@@ -38,14 +38,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://actarion.com'),
+  metadataBase: new URL('https://www.actarion.com'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: "ActARion - Action with AR Revolutionize Excellence",
-    description: "ActARion - Action with AR Revolutionize Excellence. Delivering next-generation SOP solutions powered by AR technology—transforming how frontline teams work, learn, and stay safe.",
-    url: 'https://actarion.com',
+    title: "ActARion – Augmented Reality SOP & AR Work Instruction Software",
+    description: "ActARion transforms SOPs into interactive AR work instructions. Train faster, reduce errors, and improve frontline quality with digital SOP software.",
+    url: 'https://www.actarion.com',
     siteName: 'ActARion',
     images: [
       {
@@ -60,8 +60,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "ActARion - Action with AR Revolutionize Excellence",
-    description: "ActARion - Action with AR Revolutionize Excellence. Delivering next-generation SOP solutions powered by AR technology—transforming how frontline teams work, learn, and stay safe.",
+    title: "ActARion – Augmented Reality SOP & AR Work Instruction Software",
+    description: "ActARion transforms SOPs into interactive AR work instructions. Train faster, reduce errors, and improve frontline quality with digital SOP software.",
     images: ['/Actarionlogo.png'],
   },
   robots: {
@@ -102,7 +102,6 @@ export default function RootLayout({
         <meta name="msapplication-tap-highlight" content="no" />
       </head>
                           <body className={inter.className}>
-        <Navigation />
         {children}
         <CookieBanner />
         <ConditionalAnalytics />

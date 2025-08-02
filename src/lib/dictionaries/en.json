@@ -1,0 +1,295 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "demo": "Demo",
+    "partner": "Partner",
+    "career": "Career",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "title": "Revolutionize SOP Execution with Augmented Reality",
+    "subtitle": "actARion delivers next-generation SOP solutions powered by AR technology—transforming how frontline teams work, learn, and stay safe.",
+    "cta": "Schedule a Demo",
+    "aboutLink": "About Us"
+  },
+  "sections": {
+    "whatWeDo": {
+      "title": "Augmented SOPs for Frontline Excellence",
+      "description": "actARion provides advanced AR-driven software that turns traditional SOPs into immersive, step-by-step visual workflows. Using AR glasses or mobile devices, your workforce can follow real-time instructions overlaid on physical environments—enhancing precision, safety, and operational consistency."
+    },
+    "whyAR": {
+      "title": "Why AR-Powered SOPs?",
+      "features": {
+        "handsFree": {
+          "title": "Hands-Free Guidance:",
+          "description": "Workers receive visual instructions through AR headsets—no paper, no guesswork."
+        },
+        "realTime": {
+          "title": "Real-Time Validation:",
+          "description": "AR systems verify each step completion, ensuring procedures are followed correctly."
+        },
+        "safety": {
+          "title": "Enhanced Safety:",
+          "description": "Critical safety warnings and hazard alerts are prominently displayed in workers' field of view."
+        },
+        "training": {
+          "title": "Accelerated Training:",
+          "description": "New employees learn faster with visual, interactive guidance reducing training time by up to 60%."
+        }
+      }
+    },
+    "industries": {
+      "title": "Industries We Support",
+      "description": "actARion's AR-powered SOP solutions are designed for industries where precision, safety, and operational excellence are critical."
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "steps": {
+        "step1": {
+          "title": "Upload Your SOPs",
+          "description": "Convert existing procedures into our AR-compatible format using our intuitive tools."
+        },
+        "step2": {
+          "title": "Deploy to Devices",
+          "description": "Distribute AR workflows to your team's devices—glasses, tablets, or smartphones."
+        },
+        "step3": {
+          "title": "Execute with Confidence",
+          "description": "Workers follow step-by-step AR guidance with real-time validation and safety alerts."
+        }
+      }
+    },
+    "about": {
+      "title": "Where Action Meets Augmented Reality",
+      "description": "actARion is at the forefront of industrial AR innovation, delivering solutions that bridge the gap between digital instructions and physical execution. Our platform transforms complex procedures into intuitive, visual experiences that enhance worker performance and operational outcomes."
+    },
+    "partnerships": {
+      "title": "Technology Partnerships",
+      "description": "We partner with leading AR hardware manufacturers and enterprise software providers to deliver comprehensive solutions.",
+      "cta": "Become our partner"
+    },
+    "contact": {
+      "title": "Ready to Transform Your Operations?",
+      "description": "Join leading manufacturers who are already using actARion to revolutionize their frontline operations.",
+      "cta": "Schedule a Demo"
+    }
+  },
+  "footer": {
+    "sitemap": "Sitemap",
+    "terms": "General Terms and Conditions",
+    "privacy": "Privacy Policy",
+    "onepager": "View our onepager",
+    "copyright": "© 2024 ActARion. All rights reserved."
+  },
+  "pages": {
+    "about": {
+      "title": "About ActARion",
+      "subtitle": "Where Action Meets Augmented Reality",
+      "description": "ActARion is at the forefront of industrial AR innovation, delivering solutions that bridge the gap between digital instructions and physical execution. Our platform transforms complex procedures into intuitive, visual experiences that enhance worker performance and operational outcomes.",
+      "mission": "Our Mission",
+      "missionText": "To modernize frontline work by transforming SOPs into dynamic, interactive AR workflows that enhance safety, efficiency, and operational excellence.",
+      "partners": "Our Partners",
+      "partnersText": "We operate as a trusted distributor and value-added partner—working with top-tier AR vendors and local implementation experts across Europe.",
+      "backToHome": "Back to Home"
+    },
+    "contact": {
+      "title": "Schedule a Demo",
+      "subtitle": "Ready to Transform Your Operations?",
+      "description": "Join leading manufacturers who are already using ActARion to revolutionize their frontline operations.",
+      "form": {
+        "name": "Full Name",
+        "email": "Email Address",
+        "company": "Company Name",
+        "phone": "Phone Number",
+        "message": "Message",
+        "submit": "Schedule Demo",
+        "success": "Thank you! We'll be in touch soon."
+      },
+      "backToHome": "Back to Home"
+    },
+    "partnerContact": {
+      "title": "Become Our Partner",
+      "subtitle": "Join Our Growing Partner Ecosystem",
+      "description": "We're actively looking for technology vendors, system integrators, consulting firms, and field service providers to help shape the future of work through Augmented Reality.",
+      "form": {
+        "name": "Full Name",
+        "email": "Email Address",
+        "company": "Company Name",
+        "phone": "Phone Number",
+        "message": "Tell us about your partnership interest",
+        "submit": "Submit Partnership Request",
+        "success": "Thank you! We'll review your partnership request and get back to you soon."
+      },
+      "backToHome": "Back to Home"
+    },
+    "career": {
+      "title": "Join Our Team",
+      "subtitle": "Shape the Future of Work with Augmented Reality",
+      "description": "We're looking for passionate individuals who want to revolutionize how frontline workers interact with technology. Join us in building the next generation of AR-powered solutions.",
+      "positions": {
+        "title": "Open Positions",
+        "arDeveloper": {
+          "title": "AR Developer",
+          "description": "Develop cutting-edge AR applications for industrial use cases",
+          "requirements": ["Experience with Unity/Unreal Engine", "Knowledge of AR frameworks", "C# programming skills"]
+        },
+        "salesEngineer": {
+          "title": "Sales Engineer",
+          "description": "Help customers understand and implement AR solutions",
+          "requirements": ["Technical background", "Sales experience", "AR/VR knowledge"]
+        },
+        "productManager": {
+          "title": "Product Manager",
+          "description": "Define and execute product strategy for AR solutions",
+          "requirements": ["Product management experience", "Technical background", "Market research skills"]
+        }
+      },
+      "culture": {
+        "title": "Our Culture",
+        "description": "We believe in innovation, collaboration, and making a real impact. Our team is passionate about technology and its potential to transform industries."
+      },
+      "contact": "Interested? Send us your resume and cover letter.",
+      "backToHome": "Back to Home"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about ActARion",
+      "backToHome": "Back to Home",
+      "sections": {
+        "general": {
+          "title": "General",
+          "questions": [
+            {
+              "q": "What is ActARion?",
+              "a": "ActARion is an augmented reality (AR) platform that transforms traditional Standard Operating Procedures (SOPs) into visual, interactive workflows. It enables teams to deliver on-the-job training, real-time guidance, and knowledge capture at scale—across mobile devices and smart glasses."
+            },
+            {
+              "q": "Who is ActARion for?",
+              "a": "ActARion is built for industrial companies—manufacturers, field service providers, logistics firms, and utilities—looking to improve efficiency, safety, and quality at the frontline."
+            },
+            {
+              "q": "What makes ActARion different?",
+              "a": "Unlike text-heavy SOPs or disconnected training systems, ActARion offers: No-code creation of 3D and AR work instructions, Cross-device deployment on mobile, tablet, and smart glasses, Integrated remote support and feedback loops, Centralized knowledge management for teams and shifts."
+            }
+          ]
+        },
+        "hardware": {
+          "title": "Hardware & Devices",
+          "questions": [
+            {
+              "q": "Which hardware is compatible with ActARion?",
+              "a": "ActARion supports: Smart glasses: Microsoft HoloLens 2, Apple Vision Pro, Smartphones and tablets: iOS and Android, Rugged devices for industrial use."
+            },
+            {
+              "q": "Do you supply hardware?",
+              "a": "We do not resell hardware but work with certified partners to recommend and bundle supported devices tailored to your operational environment."
+            }
+          ]
+        },
+        "software": {
+          "title": "Software & Integrations",
+          "questions": [
+            {
+              "q": "Can ActARion integrate with our existing systems?",
+              "a": "Yes. We offer API support and custom integration services for: ERP (e.g., SAP, Microsoft Dynamics 365), MES systems, Learning Management Systems (LMS), HR and quality systems."
+            },
+            {
+              "q": "What data can be collected and analyzed?",
+              "a": "Our platform captures: Time-on-task and step duration, Multiple-choice responses, User-generated photos and videos, Digital checklists and numeric entries."
+            },
+            {
+              "q": "Is integration included by default?",
+              "a": "Basic APIs are included. More complex integrations may require implementation support or customization services."
+            }
+          ]
+        },
+        "implementation": {
+          "title": "Implementation & Partnerships",
+          "questions": [
+            {
+              "q": "What does implementation look like?",
+              "a": "A typical rollout takes 2–6 months, depending on your goals. Each client receives a dedicated account manager to oversee onboarding and deployment."
+            },
+            {
+              "q": "Do you work with implementation partners?",
+              "a": "Yes. We collaborate with system integrators, training consultants, and solution providers across Europe."
+            },
+            {
+              "q": "I'm interested in becoming a partner. What's the process?",
+              "a": "Reach out to learn more about the ActARion Partner Program, which includes training, co-selling, and integration support for resellers and service providers."
+            },
+            {
+              "q": "What kind of support is offered after launch?",
+              "a": "We provide: Helpdesk support with SLA options, Feature updates every 3 weeks, Customer success reviews and feedback cycles."
+            }
+          ]
+        },
+        "value": {
+          "title": "Value & Business Case",
+          "questions": [
+            {
+              "q": "What's the added value of ActARion?",
+              "a": "ActARion helps your business: Accelerate onboarding by 50–75%, Reduce operational errors by over 80%, Capture expert knowledge visually, Enable self-guided execution on the floor, Improve compliance and certification tracking."
+            },
+            {
+              "q": "How can I build a business case for ActARion?",
+              "a": "Evaluate impact in areas like: Time to onboard (4-6 weeks → 1-2 weeks), SOP error rate (10-15% → <2%), Monthly downtime per team (8-10 hours → <2 hours), Training cost per employee (€1,000–€2,000 → up to 50% savings), Expert dependency (High → Reduced)."
+            },
+            {
+              "q": "What ROI can I expect?",
+              "a": "Most clients achieve ROI within 6–12 months through: Increased productivity, Fewer support escalations, Shorter time-to-competence, Improved quality and safety metrics."
+            },
+            {
+              "q": "How does ActARion address workforce turnover and aging?",
+              "a": "We help organizations retain critical knowledge digitally and make it available to new employees instantly—closing the experience gap and minimizing operational risk."
+            }
+          ]
+        },
+        "content": {
+          "title": "Content Creation & Training",
+          "questions": [
+            {
+              "q": "Do I need coding experience to use ActARion?",
+              "a": "Not at all. Our no-code web authoring tool lets trainers and subject-matter experts build and deploy interactive AR instructions quickly."
+            },
+            {
+              "q": "Can I use ActARion for compliance training?",
+              "a": "Yes. You can define certification paths, track user progress, and log assessments for compliance and audits."
+            },
+            {
+              "q": "Is the platform multilingual?",
+              "a": "Yes, we support content creation and delivery in multiple languages—ideal for international and multicultural teams."
+            },
+            {
+              "q": "Does ActARion support remote assistance?",
+              "a": "Yes. Experts can assist frontline workers in real-time via live video and AR overlays for troubleshooting and mentoring."
+            }
+          ]
+        }
+      },
+      "cta": {
+        "title": "Still have questions?",
+        "description": "Ready to see ActARion in action? Schedule a personalized demo to explore how our platform can transform your operations.",
+        "demo": "Schedule a Demo",
+        "partner": "Become a Partner"
+      }
+    },
+    "terms": {
+      "title": "General Terms and Conditions",
+      "subtitle": "ActARion Terms of Service",
+      "backToHome": "Back to Home"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "subtitle": "How we protect your data",
+      "backToHome": "Back to Home"
+    }
+  },
+  "languageSelector": {
+    "title": "Language",
+    "en": "English",
+    "de": "Deutsch",
+    "nl": "Nederlands"
+  }
+} 
