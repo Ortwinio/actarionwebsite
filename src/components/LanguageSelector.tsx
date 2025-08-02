@@ -49,12 +49,12 @@ export default function LanguageSelector({ currentLocale, dictionary }: Language
     <div className="relative" ref={dropdownRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center space-x-2 px-3 py-2 text-white hover:text-cyan-400 transition-colors rounded-md hover:bg-neutral-800"
-        aria-label={dictionary.languageSelector.title}
+        className="flex items-center space-x-2 px-3 py-2 text-white hover:text-cyan-400 transition-colors rounded-md hover:bg-neutral-800 border border-gray-600"
+        aria-label={dictionary?.languageSelector?.title || "Language"}
       >
         <GlobeAltIcon className="h-5 w-5" />
-        <span className="hidden sm:inline">{currentLanguage.flag}</span>
-        <span className="hidden md:inline text-sm font-medium">
+        <span className="inline">{currentLanguage.flag}</span>
+        <span className="hidden sm:inline text-sm font-medium">
           {currentLanguage.name}
         </span>
       </button>
