@@ -105,27 +105,9 @@ export default async function LocaleLayout({
   const dictionary = await getDictionary(locale as 'en' | 'de' | 'nl');
 
   return (
-    <html lang={locale} className="scroll-smooth">
-      <head>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/Actarionlogo.png" />
-        <link rel="manifest" href="/manifest.json" />
-        <meta name="theme-color" content="#000000" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
-        <meta name="application-name" content="ActARion" />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="ActARion" />
-        <meta name="mobile-web-app-capable" content="yes" />
-        <meta name="msapplication-TileColor" content="#000000" />
-        <meta name="msapplication-tap-highlight" content="no" />
-      </head>
-      <body className={inter.className}>
-        <Navigation locale={locale} dictionary={dictionary} />
-        {children}
-        <CookieBanner />
-        <ConditionalAnalytics />
-      </body>
-    </html>
+    <>
+      <Navigation locale={locale} dictionary={dictionary} />
+      {children}
+    </>
   );
 } 

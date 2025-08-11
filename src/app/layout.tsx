@@ -101,7 +101,7 @@ export default function RootLayout({
         <meta name="msapplication-TileColor" content="#000000" />
         <meta name="msapplication-tap-highlight" content="no" />
       </head>
-                          <body className={inter.className}>
+      <body className={inter.className}>
         {children}
         <CookieBanner />
         <ConditionalAnalytics />
