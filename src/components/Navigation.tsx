@@ -120,9 +120,9 @@ export default function Navigation({ locale, dictionary }: NavigationProps) {
               {dictionary.navigation.career}
             </Link>
             <Link
-              href={locale === 'en' ? '/faq' : `/${locale}/faq`}
+              href={locale === 'en' ? '/en/faq' : `/${locale}/faq`}
               className={`px-3 py-2 rounded-md text-sm lg:text-base font-medium transition-all duration-200 hover:scale-105 ${
-                isActive(locale === 'en' ? '/faq' : `/${locale}/faq`)
+                isActive(locale === 'en' ? '/en/faq' : `/${locale}/faq`)
                   ? 'text-cyan-400 bg-neutral-800 shadow-md ring-1 ring-cyan-400/20'
                   : 'text-gray-300 hover:text-white hover:bg-neutral-800 hover:shadow-md'
               }`}
@@ -225,9 +225,9 @@ export default function Navigation({ locale, dictionary }: NavigationProps) {
               {dictionary.navigation.career}
             </Link>
             <Link
-              href={locale === 'en' ? '/faq' : `/${locale}/faq`}
+              href={locale === 'en' ? '/en/faq' : `/${locale}/faq`}
               className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${
-                isActive(locale === 'en' ? '/faq' : `/${locale}/faq`)
+                isActive(locale === 'en' ? '/en/faq' : `/${locale}/faq`)
                   ? 'text-cyan-400 bg-neutral-800'
                   : 'text-gray-300 hover:text-white hover:bg-neutral-800'
               }`}

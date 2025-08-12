@@ -708,7 +708,7 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
                   </a>
                 </li>
                 <li>
-                  <a href={locale === 'en' ? '/faq' : `/${locale}/faq`} className="text-gray-300 hover:text-cyan-400 transition-colors">
+                  <a href={locale === 'en' ? '/en/faq' : `/${locale}/faq`} className="text-gray-300 hover:text-cyan-400 transition-colors">
                     {dictionary.navigation.faq}
                   </a>
                 </li>

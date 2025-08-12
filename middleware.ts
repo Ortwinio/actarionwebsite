@@ -22,6 +22,11 @@ function getLocale(request: NextRequest): string {
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
   
+  // Handle old FAQ path redirect
+  if (pathname === '/faq') {
+    return NextResponse.redirect(new URL('/en/faq', request.url));
+  }
+  
   // Check if the pathname already has a locale
   const pathnameHasLocale = locales.some(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
