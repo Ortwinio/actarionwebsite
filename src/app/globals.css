@@ -11,6 +11,11 @@
   body {
     padding-top: 0; /* Navigation is fixed, so no body padding needed */
   }
+  
+  /* Theme transitions */
+  * {
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+  }
 }
 
 @layer components {
@@ -46,11 +51,35 @@
   background: #1f2937;
 }
 
+.dark ::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+.light ::-webkit-scrollbar-track {
+  background: #f3f4f6;
+}
+
 ::-webkit-scrollbar-thumb {
   background: #0ea5e9;
   border-radius: 4px;
 }
 
+.dark ::-webkit-scrollbar-thumb {
+  background: #0ea5e9;
+}
+
+.light ::-webkit-scrollbar-thumb {
+  background: #3b82f6;
+}
+
 ::-webkit-scrollbar-thumb:hover {
   background: #0284c7;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #0284c7;
+}
+
+.light ::-webkit-scrollbar-thumb:hover {
+  background: #2563eb;
 }

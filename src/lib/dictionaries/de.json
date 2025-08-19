@@ -2,40 +2,49 @@
   "navigation": {
     "home": "Startseite",
     "about": "Über uns",
+    "contact": "Kontakt",
     "demo": "Demo",
     "partner": "Partner",
     "career": "Karriere",
     "faq": "FAQ"
   },
   "hero": {
-    "title": "Revolutionieren Sie die SOP-Ausführung mit Augmented Reality",
-    "subtitle": "actARion liefert SOP-Lösungen der nächsten Generation, die von AR-Technologie angetrieben werden und die Art und Weise verändern, wie Frontline-Teams arbeiten, lernen und sicher bleiben.",
-    "cta": "Demo vereinbaren",
+    "title": "Arbeiten Sie intelligenter, bleiben Sie sicherer, leisten Sie mehr — mit immersiver Technologie.",
+    "subtitle": "actARion steigert die Produktivität der Blue-Collar-Arbeiter durch die Revolutionierung der Benutzerführung mit Augmented Reality.",
+    "cta": "Discovery Call oder Demo vereinbaren",
     "aboutLink": "Über uns"
   },
   "sections": {
     "whatWeDo": {
-      "title": "Augmentierte SOPs für Frontline-Exzellenz",
-      "description": "actARion bietet fortschrittliche AR-gestützte Software, die traditionelle SOPs in immersive, schrittweise visuelle Arbeitsabläufe verwandelt. Mit AR-Brillen oder mobilen Geräten kann Ihre Belegschaft Echtzeit-Anweisungen überlagert auf physischen Umgebungen befolgen – was Präzision, Sicherheit und betriebliche Konsistenz verbessert."
+      "title": "Augmentierte Anleitung für operative Exzellenz",
+      "description": "actARion bietet fortschrittliche Augmented Reality-gestützte Benutzerführung, die traditionelle Standard Operating Procedures (SOPs) in immersive, schrittweise visuelle Arbeitsabläufe verwandelt.\nMit AR-Brillen, Tablets oder mobilen Geräten kann Ihre Belegschaft geschult werden und in tatsächlichen Operationen Echtzeit-Anweisungen befolgen.\nAR-Overlays liefern Echtzeit-Führung und wichtige Informationen für sicherere, präzisere und konsistentere Prozessausführung."
     },
     "whyAR": {
-      "title": "Warum AR-gestützte SOPs?",
+      "title": "Warum Augmented Reality Führung in Operationen?",
       "features": {
-        "handsFree": {
-          "title": "Freihand-Führung:",
-          "description": "Arbeiter erhalten visuelle Anweisungen durch AR-Headsets – kein Papier, kein Rätselraten."
+        "hassleFree": {
+          "title": "Problemlose thematische Führung:",
+          "description": "Arbeiter erhalten die tatsächlichen und entscheidenden visuellen Anweisungen für den nächsten Schritt durch ihre AR-Headsets/Tablet/Smartphone – kein Papier, kein Rätselraten."
         },
-        "realTime": {
-          "title": "Echtzeit-Validierung:",
-          "description": "AR-Systeme überprüfen die Fertigstellung jedes Schritts und stellen sicher, dass Verfahren korrekt befolgt werden."
+        "onboarding": {
+          "title": "Besseres und schnelleres Onboarding:",
+          "description": "Neue Mitarbeiter steigen schneller und fokussierter mit AR-gestütztem, praxisnahem Lernen auf, anstatt umfangreicher Dokumentation."
+        },
+        "analytics": {
+          "title": "Betriebliche Analytik & Protokollierung:",
+          "description": "Überwachung der Ausführung von Verfahren und Optimierung der Ausführung mit Echtzeit-Leistungsdaten. Auch entscheidende Schritte im Verfahren können protokolliert werden, um Compliance zu gewährleisten."
         },
         "safety": {
-          "title": "Verbesserte Sicherheit:",
-          "description": "Kritische Sicherheitswarnungen und Gefahrenhinweise werden prominent im Sichtfeld der Arbeiter angezeigt."
+          "title": "Fehler und Sicherheitsrisiken vermeiden:",
+          "description": "Echtzeit-SOPs minimieren Fehler und gewährleisten Prozessadhärenz und Sicherheitsrichtlinien."
         },
-        "training": {
-          "title": "Beschleunigte Schulung:",
-          "description": "Neue Mitarbeiter lernen schneller mit visueller, interaktiver Führung und reduzieren die Schulungszeit um bis zu 60%."
+        "remoteSupport": {
+          "title": "Remote-Support-Integration:",
+          "description": "Live-Expertenunterstützung, nahtlos in Augmented Reality eingebettet."
+        },
+        "control": {
+          "title": "Ihre Führung, Ihre Kontrolle:",
+          "description": "Wir statten Ihr Team aus, um ihre eigene digitale Benutzerführung zu erstellen und zu pflegen, was Unabhängigkeit und langfristigen Wert gewährleistet."
         }
       }
     },
@@ -47,16 +56,20 @@
       "title": "Wie es funktioniert",
       "steps": {
         "step1": {
-          "title": "Ihre SOPs hochladen",
-          "description": "Konvertieren Sie bestehende Verfahren in unser AR-kompatibles Format mit unseren intuitiven Tools."
+          "title": "Erfassen",
+          "description": "Registrieren Sie Ihre aktuelle Arbeitsweise in Ihr AR-kompatibles Format mit unseren intuitiven Tools (möglich, auch wenn SOP nicht dokumentiert ist)."
         },
         "step2": {
-          "title": "Auf Geräte bereitstellen",
-          "description": "Verteilen Sie AR-Arbeitsabläufe auf die Geräte Ihres Teams – Brillen, Tablets oder Smartphones."
+          "title": "Design & Aufbau",
+          "description": "Bestimmen Sie, welche zusätzlichen Informationen, Checklisten und Sicherheitswarnungen in den Overlays bei bestimmten Schritten präsentiert werden sollen. Fügen Sie diese Informationen und Bilder zum Arbeitsablauf hinzu und generieren Sie Ihre eigene App und AR-Richtlinien."
         },
         "step3": {
-          "title": "Mit Vertrauen ausführen",
-          "description": "Arbeiter befolgen schrittweise AR-Führung mit Echtzeit-Validierung und Sicherheitswarnungen."
+          "title": "Auf Geräte bereitstellen und mit Vertrauen ausführen",
+          "description": "Arbeiter befolgen die schrittweise AR-Führung auf ihren AR-Brillen/Tablets/Smartphones mit Echtzeit-Validierung und Sicherheitswarnungen."
+        },
+        "step4": {
+          "title": "Passen Sie Ihre App und Richtlinien selbst an und optimieren Sie sie oder generieren Sie eine neue selbst",
+          "description": "Experten in der Kundenorganisation werden geschult und ausgestattet, um die aktuellen Apps und Richtlinien zu optimieren und auch neue zu erstellen."
         }
       }
     },
@@ -72,7 +85,7 @@
     "contact": {
       "title": "Bereit, Ihre Abläufe zu transformieren?",
       "description": "Schließen Sie sich führenden Herstellern an, die bereits actARion nutzen, um ihre Frontline-Abläufe zu revolutionieren.",
-      "cta": "Demo vereinbaren"
+      "cta": "Discovery Call oder Demo vereinbaren"
     }
   },
   "footer": {
@@ -94,7 +107,7 @@
       "backToHome": "Zurück zur Startseite"
     },
     "contact": {
-      "title": "Demo vereinbaren",
+      "title": "Discovery Call oder Demo vereinbaren",
       "subtitle": "Bereit, Ihre Abläufe zu transformieren?",
       "description": "Schließen Sie sich führenden Herstellern an, die bereits ActARion nutzen, um ihre Frontline-Abläufe zu revolutionieren.",
       "form": {
@@ -271,7 +284,7 @@
       "cta": {
         "title": "Haben Sie noch Fragen?",
         "description": "Bereit, ActARion in Aktion zu sehen? Vereinbaren Sie eine personalisierte Demo, um zu erkunden, wie unsere Plattform Ihre Abläufe transformieren kann.",
-        "demo": "Demo vereinbaren",
+        "demo": "Discovery Call oder Demo vereinbaren",
         "partner": "Partner werden"
       }
     },
@@ -283,6 +296,11 @@
     "privacy": {
       "title": "Datenschutzrichtlinie",
       "subtitle": "Wie wir Ihre Daten schützen",
+      "backToHome": "Zurück zur Startseite"
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "Einblicke, Updates und Gedankenführung zu Augmented Reality in der Fertigung und industriellen Anwendungen.",
       "backToHome": "Zurück zur Startseite"
     }
   },

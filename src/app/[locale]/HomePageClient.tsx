@@ -25,9 +25,9 @@ function useInView(threshold = 0.2) {
 }
 
 const sectionClass = "max-w-3xl w-full mx-auto px-4 py-16 sm:py-24";
-const sectionTitle = "text-3xl sm:text-4xl font-bold mb-6 text-white tracking-tight";
-const sectionText = "text-lg sm:text-xl text-gray-300 mb-4";
-const accent = "text-cyan-400";
+const sectionTitle = "text-3xl sm:text-4xl font-bold mb-6 text-black dark:text-white tracking-tight";
+const sectionText = "text-lg sm:text-xl text-gray-800 dark:text-gray-300 mb-4";
+const accent = "text-cyan-500 dark:text-cyan-400";
 
 interface HomePageClientProps {
   locale: string;
@@ -192,9 +192,9 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
   const [contactRef, contactControls] = useInView(0.2);
 
   return (
-    <div className="bg-neutral-950 min-h-screen text-white font-sans">
+    <div className="bg-white dark:bg-neutral-950 min-h-screen text-black dark:text-white font-sans">
       {/* Sticky Background Video Container */}
-      <div className="fixed inset-0 w-full h-full z-0 bg-gradient-to-br from-neutral-900 to-neutral-950">
+      <div className="fixed inset-0 w-full h-full z-0 bg-gradient-to-br from-white to-gray-50 dark:from-neutral-900 dark:to-neutral-950">
         <video
           ref={videoRef}
           autoPlay
@@ -238,8 +238,8 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
             className="mx-auto sm:mx-0 drop-shadow-lg"
             priority
           />
-          <span className="text-4xl sm:text-6xl font-extrabold tracking-widest text-white uppercase">
-            act<span className="text-cyan-400">AR</span>ion
+          <span className="text-4xl sm:text-6xl font-extrabold tracking-widest text-black dark:text-white uppercase">
+            act<span className="text-cyan-500 dark:text-cyan-400">AR</span>ion
           </span>
         </div>
         <h1 className="relative z-10 text-4xl sm:text-6xl font-extrabold tracking-tight mb-4 max-w-2xl mt-4">
@@ -261,7 +261,7 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
             </span>
           }
         </h1>
-        <p className="relative z-10 text-xl sm:text-2xl text-gray-300 max-w-2xl mb-6">
+        <p className="relative z-10 text-xl sm:text-2xl text-gray-800 dark:text-gray-300 max-w-2xl mb-6">
           {dictionary?.hero?.subtitle ? 
             dictionary.hero.subtitle.split('actARion').map((part: string, index: number) => 
               index === 0 ? (
@@ -297,7 +297,7 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
         </p>
         <a
           href={locale === 'en' ? '/contact' : `/${locale}/contact`}
-          className="relative z-10 inline-block bg-cyan-500 hover:bg-cyan-400 text-white font-semibold text-lg px-8 py-3 rounded-full shadow-lg transition-colors flex items-center gap-2"
+          className="relative z-10 inline-block bg-cyan-500 hover:bg-cyan-600 dark:hover:bg-cyan-400 text-white font-semibold text-lg px-8 py-3 rounded-full shadow-lg transition-colors flex items-center gap-2"
         >
           <PhoneArrowUpRightIcon className="h-6 w-6" />
           {dictionary?.hero?.cta || 
@@ -307,7 +307,7 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
         </a>
         <a
           href={locale === 'en' ? '/about' : `/${locale}/about`}
-          className="relative z-10 inline-block mt-4 text-cyan-400 hover:underline text-base font-medium"
+          className="relative z-10 inline-block mt-4 text-cyan-500 dark:text-cyan-400 hover:underline text-base font-medium"
         >
           {dictionary?.hero?.aboutLink || 
             (locale === 'de' ? 'Über uns' : 
@@ -321,16 +321,16 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
         ref={whatRef}
         animate={whatControls}
         initial={{ opacity: 0, y: 40 }}
-        className={sectionClass + " bg-neutral-900 bg-opacity-50 backdrop-blur-sm"}
+        className={sectionClass + " bg-white dark:bg-neutral-900 bg-opacity-90 dark:bg-opacity-50 backdrop-blur-sm"}
         id="what-we-do"
       >
         <div className="flex flex-col gap-6 mb-6">
           <div>
             <h2 className={sectionTitle}>
           {dictionary?.sections?.whatWeDo?.title || 
-            (locale === 'de' ? 'Augmentierte SOPs für Frontline-Exzellenz' : 
-             locale === 'nl' ? 'Augmented SOPs voor Frontline Excellentie' : 
-             'Augmented SOPs for Frontline Excellence')}
+            (locale === 'de' ? 'Augmentierte Anleitung für operative Exzellenz' : 
+             locale === 'nl' ? 'Augmented begeleiding voor operationele excellentie' : 
+             'Augmented guidance for Operational Excellence')}
         </h2>
             <p className={sectionText}>
               {dictionary?.sections?.whatWeDo?.description ? 
@@ -379,68 +379,79 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
         ref={whyRef}
         animate={whyControls}
         initial={{ opacity: 0, y: 40 }}
-        className={sectionClass + " bg-neutral-900 bg-opacity-50 backdrop-blur-sm"}
+        className={sectionClass + " bg-white dark:bg-neutral-900 bg-opacity-90 dark:bg-opacity-50 backdrop-blur-sm"}
         id="why-ar-sops"
       >
         <h2 className={sectionTitle}>
-          {dictionary?.sections?.whyAR?.title || 
-            (locale === 'de' ? 'Warum ActARion für SOP-Exzellenz wählen?' : 
-             locale === 'nl' ? 'Waarom ActARion kiezen voor SOP-excellentie?' : 
-             'Why Choose ActARion for SOP Excellence')}
+          Why Augmented Reality guidance in operations?
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
           <div className="flex items-start gap-4">
-            <DevicePhoneMobileIcon className="h-8 w-8 text-cyan-400 mt-1" />
+            <DevicePhoneMobileIcon className="h-8 w-8 text-cyan-500 dark:text-cyan-400 mt-1" />
             <div>
-              <span className="font-semibold text-white">
-                {dictionary?.sections?.whyAR?.features?.handsFree?.title || 
-                  (locale === 'de' ? 'No-Code Digitale SOP-Erstellung:' : 
-                   locale === 'nl' ? 'No-Code Digitale SOP-ontwikkeling:' : 
-                   'No-Code Digital SOP Authoring:')}
+              <span className="font-semibold text-black dark:text-white">
+                Hassle free on topic Guidance:
               </span>
-              <p className="text-gray-300">
-                {dictionary?.sections?.whyAR?.features?.handsFree?.description || 
-                  (locale === 'de' ? 'Unser intuitives Studio ermöglicht es Ihnen, interaktive SOPs in Minuten zu erstellen. Im Gegensatz zu traditionellen Systemen ist ActARion eine vollwertige <em>digitale SOP-Software</em>-Plattform, die für Geschwindigkeit und Flexibilität entwickelt wurde — keine Entwickler erforderlich.' : 
-                   locale === 'nl' ? 'Onze intuïtieve Studio laat u interactieve SOPs in minuten maken. In tegenstelling tot traditionele systemen is ActARion een volledig uitgeruste <em>digitale SOP-software</em> platform gebouwd voor snelheid en flexibiliteit — geen ontwikkelaars nodig.' : 
-                   'Our intuitive Studio lets you create interactive SOPs in minutes. Unlike traditional systems, ActARion is a full-featured <em>digital SOP software</em> platform built for speed and flexibility — no developers required.')}
+              <p className="text-gray-800 dark:text-gray-300">
+                Workers receive the actual and crucial visual instructions for the next step through their AR headsets/tablet/Smartphone—no paper, no guesswork.
               </p>
             </div>
           </div>
           <div className="flex items-start gap-4">
-            <CheckCircleIcon className="h-8 w-8 text-cyan-400 mt-1" />
+            <CheckCircleIcon className="h-8 w-8 text-cyan-500 dark:text-cyan-400 mt-1" />
             <div>
-              <span className="font-semibold text-white">
-                {dictionary?.sections?.whyAR?.features?.realTime?.title || 
-                  (locale === 'de' ? 'AR-Training für Fertigungsteams:' : 
-                   locale === 'nl' ? 'AR-training voor productieteams:' : 
-                   'AR Training for Manufacturing Teams:')}
+              <span className="font-semibold text-black dark:text-white">
+                Better and faster onboarding:
               </span>
-              <p className="text-gray-300">
-                {dictionary?.sections?.whyAR?.features?.realTime?.description || 
-                  (locale === 'de' ? 'Liefern Sie immersives Training am Arbeitsplatz mit Echtzeit-<em>AR-Arbeitsanweisungen</em>. Arbeiter lernen schneller und leisten bessere Arbeit, wenn sie visuellen SOPs folgen können, die in ihren Arbeitsbereich projiziert werden.' : 
-                   locale === 'nl' ? 'Lever immersieve training op de werkplek met real-time <em>AR-werkinstructies</em>. Werknemers leren sneller en presteren beter wanneer ze visuele SOPs kunnen volgen die in hun werkruimte worden geprojecteerd.' : 
-                   'Deliver immersive, on-the-job training using real-time <em>AR work instructions</em>. Workers learn faster and perform better when they can follow visual SOPs projected into their workspace.')}
+              <p className="text-gray-800 dark:text-gray-300">
+                New employees ramp up faster and more focused with AR-guided, on-the-job learning instead of lengthy documentation.
               </p>
             </div>
           </div>
           <div className="flex items-start gap-4">
-            <SparklesIcon className="h-8 w-8 text-cyan-400 mt-1" />
+            <SparklesIcon className="h-8 w-8 text-cyan-500 dark:text-cyan-400 mt-1" />
             <div>
-              <span className="font-semibold text-white">
-                {dictionary?.sections?.whyAR?.features?.safety?.title || 
-                  (locale === 'de' ? 'KI-gestützte Schrittvalidierung:' : 
-                   locale === 'nl' ? 'AI-aangedreven stapvalidatie:' : 
-                   'AI-Powered Step Validation:')}
+              <span className="font-semibold text-black dark:text-white">
+                Operational Analytics & Protocolling:
               </span>
-              <p className="text-gray-300">
-                {dictionary?.sections?.whyAR?.features?.safety?.description || 
-                  (locale === 'de' ? 'Jeder Schritt wird automatisch von unserer KI-Engine verifiziert — Fehler reduzieren und die Ausführung standardisieren.' : 
-                   locale === 'nl' ? 'Elke stap wordt automatisch geverifieerd door onze AI-engine — fouten verminderen en uitvoering standaardiseren.' : 
-                   'Each step is verified automatically by our AI engine — reducing mistakes and standardizing execution.')}
+              <p className="text-gray-800 dark:text-gray-300">
+                Monitoring the execution of procedures and optimizing the execution with real time performance data. Also crucial steps in the procedure can be protocolled to assure compliance.
               </p>
             </div>
           </div>
-
+          <div className="flex items-start gap-4">
+            <BoltIcon className="h-8 w-8 text-cyan-500 dark:text-cyan-400 mt-1" />
+            <div>
+              <span className="font-semibold text-black dark:text-white">
+                Avoiding mistakes & safety risks:
+              </span>
+              <p className="text-gray-800 dark:text-gray-300">
+                Real-time SOPs minimize mistakes and ensure process adherence and safety guidelines.
+              </p>
+            </div>
+          </div>
+          <div className="flex items-start gap-4">
+            <GlobeAltIcon className="h-8 w-8 text-cyan-500 dark:text-cyan-400 mt-1" />
+            <div>
+              <span className="font-semibold text-black dark:text-white">
+                Remote Support Integration:
+              </span>
+              <p className="text-gray-800 dark:text-gray-300">
+                Live Expert Assistance, Seamlessly Embedded in Augmented Reality.
+              </p>
+            </div>
+          </div>
+          <div className="flex items-start gap-4">
+            <UserGroupIcon className="h-8 w-8 text-cyan-500 dark:text-cyan-400 mt-1" />
+            <div>
+              <span className="font-semibold text-black dark:text-white">
+                Your guidance, your control:
+              </span>
+              <p className="text-gray-800 dark:text-gray-300">
+                We equip your team to create and maintain their own digital user guidance, ensuring independence and long-term value.
+              </p>
+            </div>
+          </div>
         </div>
       </motion.section>
 
@@ -449,7 +460,7 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
         ref={useCaseRef}
         animate={useCaseControls}
         initial={{ opacity: 0, y: 40 }}
-        className={sectionClass + " bg-neutral-900 bg-opacity-50 backdrop-blur-sm"}
+        className={sectionClass + " bg-white dark:bg-neutral-900 bg-opacity-90 dark:bg-opacity-50 backdrop-blur-sm"}
         id="use-case-maintenance"
       >
         <h2 className={sectionTitle}>
@@ -471,7 +482,7 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
         ref={industriesRef}
         animate={industriesControls}
         initial={{ opacity: 0, y: 40 }}
-        className={sectionClass + " bg-neutral-900 bg-opacity-50 backdrop-blur-sm"}
+        className={sectionClass + " bg-white dark:bg-neutral-900 bg-opacity-90 dark:bg-opacity-50 backdrop-blur-sm"}
         id="industries"
       >
         <div className="w-full mb-6">
@@ -497,29 +508,29 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
              'actARions AR-powered SOP solutions are designed for industries where precision, safety, and operational excellence are critical.')}
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
-          <div className="flex items-center gap-3 p-4 bg-neutral-800 bg-opacity-50 rounded-lg">
-            <Cog6ToothIcon className="h-6 w-6 text-cyan-400" />
-            <span className="text-white font-medium">Industrial Manufacturing</span>
+          <div className="flex items-center gap-3 p-4 bg-gray-50 dark:bg-neutral-800 bg-opacity-80 dark:bg-opacity-50 rounded-lg border border-gray-200 dark:border-neutral-700">
+            <Cog6ToothIcon className="h-6 w-6 text-cyan-500 dark:text-cyan-400" />
+            <span className="text-black dark:text-white font-medium">Industrial Manufacturing</span>
           </div>
-          <div className="flex items-center gap-3 p-4 bg-neutral-800 bg-opacity-50 rounded-lg">
-            <BoltIcon className="h-6 w-6 text-cyan-400" />
-            <span className="text-white font-medium">Energy & Utilities</span>
+          <div className="flex items-center gap-3 p-4 bg-gray-50 dark:bg-neutral-800 bg-opacity-80 dark:bg-opacity-50 rounded-lg border border-gray-200 dark:border-neutral-700">
+            <BoltIcon className="h-6 w-6 text-cyan-500 dark:text-cyan-400" />
+            <span className="text-black dark:text-white font-medium">Energy & Utilities</span>
           </div>
-          <div className="flex items-center gap-3 p-4 bg-neutral-800 bg-opacity-50 rounded-lg">
-            <GlobeAltIcon className="h-6 w-6 text-cyan-400" />
-            <span className="text-white font-medium">Aerospace</span>
+          <div className="flex items-center gap-3 p-4 bg-gray-50 dark:bg-neutral-800 bg-opacity-80 dark:bg-opacity-50 rounded-lg border border-gray-200 dark:border-neutral-700">
+            <GlobeAltIcon className="h-6 w-6 text-cyan-500 dark:text-cyan-400" />
+            <span className="text-black dark:text-white font-medium">Aerospace</span>
           </div>
-          <div className="flex items-center gap-3 p-4 bg-neutral-800 bg-opacity-50 rounded-lg">
-            <SparklesIcon className="h-6 w-6 text-cyan-400" />
-            <span className="text-white font-medium">Pharma & Biotech</span>
+          <div className="flex items-center gap-3 p-4 bg-gray-50 dark:bg-neutral-800 bg-opacity-80 dark:bg-opacity-50 rounded-lg border border-gray-200 dark:border-neutral-700">
+            <SparklesIcon className="h-6 w-6 text-cyan-500 dark:text-cyan-400" />
+            <span className="text-black dark:text-white font-medium">Pharma & Biotech</span>
           </div>
-          <div className="flex items-center gap-3 p-4 bg-neutral-800 bg-opacity-50 rounded-lg">
-            <WrenchScrewdriverIcon className="h-6 w-6 text-cyan-400" />
-            <span className="text-white font-medium">Field Services</span>
+          <div className="flex items-center gap-3 p-4 bg-gray-50 dark:bg-neutral-800 bg-opacity-80 dark:bg-opacity-50 rounded-lg border border-gray-200 dark:border-neutral-700">
+            <WrenchScrewdriverIcon className="h-6 w-6 text-cyan-500 dark:text-cyan-400" />
+            <span className="text-black dark:text-white font-medium">Field Services</span>
           </div>
-          <div className="flex items-center gap-3 p-4 bg-neutral-800 bg-opacity-50 rounded-lg">
-            <UserGroupIcon className="h-6 w-6 text-cyan-400" />
-            <span className="text-white font-medium">Maintenance Operations</span>
+          <div className="flex items-center gap-3 p-4 bg-gray-50 dark:bg-neutral-800 bg-opacity-80 dark:bg-opacity-50 rounded-lg border border-gray-200 dark:border-neutral-700">
+            <UserGroupIcon className="h-6 w-6 text-cyan-500 dark:text-cyan-400" />
+            <span className="text-black dark:text-white font-medium">Maintenance Operations</span>
           </div>
         </div>
       </motion.section>
@@ -529,7 +540,7 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
         ref={howRef}
         animate={howControls}
         initial={{ opacity: 0, y: 40 }}
-        className={sectionClass + " bg-neutral-900 bg-opacity-50 backdrop-blur-sm"}
+        className={sectionClass + " bg-white dark:bg-neutral-900 bg-opacity-90 dark:bg-opacity-50 backdrop-blur-sm"}
         id="how-it-works"
       >
         <h2 className={sectionTitle}>
@@ -538,27 +549,34 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
              locale === 'nl' ? 'Hoe het werkt' : 
              'How It Works')}
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8">
           <div className="text-center">
             <div className="bg-cyan-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-white font-bold text-xl">1</span>
             </div>
-            <h3 className="text-xl font-semibold text-white mb-2">{dictionary.sections.howItWorks.steps.step1.title}</h3>
-            <p className="text-gray-300">{dictionary.sections.howItWorks.steps.step1.description}</p>
+            <h3 className="text-xl font-semibold text-black dark:text-white mb-2">Capture</h3>
+                          <p className="text-gray-800 dark:text-gray-300">While you work, we learn and capture. Show us how you work, step by step. We'll document everything for you.</p>
           </div>
           <div className="text-center">
             <div className="bg-cyan-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-white font-bold text-xl">2</span>
             </div>
-            <h3 className="text-xl font-semibold text-white mb-2">{dictionary.sections.howItWorks.steps.step2.title}</h3>
-            <p className="text-gray-300">{dictionary.sections.howItWorks.steps.step2.description}</p>
+            <h3 className="text-xl font-semibold text-black dark:text-white mb-2">Build</h3>
+                          <p className="text-gray-800 dark:text-gray-300">Define which info, checklists, and safety alerts appear at each step, then add them with images to the workflow to create your own AR App & Guidelines.</p>
           </div>
           <div className="text-center">
             <div className="bg-cyan-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-white font-bold text-xl">3</span>
             </div>
-            <h3 className="text-xl font-semibold text-white mb-2">{dictionary.sections.howItWorks.steps.step3.title}</h3>
-            <p className="text-gray-300">{dictionary.sections.howItWorks.steps.step3.description}</p>
+            <h3 className="text-xl font-semibold text-black dark:text-white mb-2">Excellerate</h3>
+            <p className="text-gray-800 dark:text-gray-300">Workers follow the step-by-step AR guidance on their AR-glasses/tablets/smartphones with real-time validation and safety alerts.</p>
+          </div>
+          <div className="text-center">
+            <div className="bg-cyan-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <span className="text-white font-bold text-xl">4</span>
+            </div>
+            <h3 className="text-xl font-semibold text-black dark:text-white mb-2">Empower</h3>
+            <p className="text-gray-800 dark:text-gray-300">Experts in the client organization are learned and equipped to optimize the current Apps & Guidelines and also to build new ones.</p>
           </div>
         </div>
       </motion.section>
@@ -568,7 +586,7 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
         ref={aboutRef}
         animate={aboutControls}
         initial={{ opacity: 0, y: 40 }}
-        className={sectionClass + " bg-neutral-900 bg-opacity-50 backdrop-blur-sm"}
+        className={sectionClass + " bg-white dark:bg-neutral-900 bg-opacity-90 dark:bg-opacity-50 backdrop-blur-sm"}
         id="about"
       >
         <div className="w-full mb-6">
@@ -622,7 +640,7 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
         ref={partnersRef}
         animate={partnersControls}
         initial={{ opacity: 0, y: 40 }}
-        className={sectionClass + " bg-neutral-900 bg-opacity-50 backdrop-blur-sm"}
+        className={sectionClass + " bg-white dark:bg-neutral-900 bg-opacity-90 dark:bg-opacity-50 backdrop-blur-sm"}
         id="partnerships"
       >
         <h2 className={sectionTitle}>{dictionary.sections.partnerships.title}</h2>
@@ -642,7 +660,7 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
         ref={contactRef}
         animate={contactControls}
         initial={{ opacity: 0, y: 40 }}
-        className={sectionClass + " bg-neutral-900 bg-opacity-50 backdrop-blur-sm"}
+        className={sectionClass + " bg-white dark:bg-neutral-900 bg-opacity-90 dark:bg-opacity-50 backdrop-blur-sm"}
         id="contact"
       >
         <h2 className={sectionTitle}>{dictionary.sections.contact.title}</h2>
@@ -669,7 +687,7 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
       </motion.section>
 
       {/* Footer */}
-      <footer className="bg-neutral-900 bg-opacity-50 backdrop-blur-sm border-t border-neutral-700 py-8">
+      <footer className="bg-white dark:bg-neutral-900 bg-opacity-90 dark:bg-opacity-50 backdrop-blur-sm border-t border-gray-200 dark:border-neutral-700 py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="col-span-1 md:col-span-2">
@@ -681,54 +699,65 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
                   height={32}
                   className="w-8 h-8"
                 />
-                <span className="text-xl font-bold text-white">
-                  act<span className="text-cyan-400">AR</span>ion
+                <span className="text-xl font-bold text-black dark:text-white">
+                  act<span className="text-cyan-500 dark:text-cyan-400">AR</span>ion
                 </span>
               </div>
-              <p className="text-gray-300 mb-4">
+              <p className="text-gray-800 dark:text-gray-300 mb-4">
                 {dictionary.footer.copyright}
               </p>
+                          <a 
+              href="https://www.linkedin.com/company/actarion" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="inline-flex items-center text-gray-800 dark:text-gray-300 hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors"
+            >
+              <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+              Follow us on LinkedIn
+            </a>
             </div>
             <div>
-              <h3 className="text-white font-semibold mb-4">{dictionary.footer.sitemap}</h3>
+              <h3 className="text-black dark:text-white font-semibold mb-4">{dictionary.footer.sitemap}</h3>
               <ul className="space-y-2">
                 <li>
-                  <a href={locale === 'en' ? '/about' : `/${locale}/about`} className="text-gray-300 hover:text-cyan-400 transition-colors">
+                  <a href={locale === 'en' ? '/about' : `/${locale}/about`} className="text-gray-800 dark:text-gray-300 hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors">
                     {dictionary.navigation.about}
                   </a>
                 </li>
                 <li>
-                  <a href={locale === 'en' ? '/contact' : `/${locale}/contact`} className="text-gray-300 hover:text-cyan-400 transition-colors">
-                    {dictionary.navigation.demo}
+                  <a href={locale === 'en' ? '/contact' : `/${locale}/contact`} className="text-gray-800 dark:text-gray-300 hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors">
+                    {dictionary.navigation.contact}
                   </a>
                 </li>
                 <li>
-                  <a href={locale === 'en' ? '/career' : `/${locale}/career`} className="text-gray-300 hover:text-cyan-400 transition-colors">
+                  <a href={locale === 'en' ? '/career' : `/${locale}/career`} className="text-gray-800 dark:text-gray-300 hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors">
                     {dictionary.navigation.career}
                   </a>
                 </li>
                 <li>
-                  <a href={locale === 'en' ? '/en/faq' : `/${locale}/faq`} className="text-gray-300 hover:text-cyan-400 transition-colors">
+                  <a href={locale === 'en' ? '/en/faq' : `/${locale}/faq`} className="text-gray-800 dark:text-gray-300 hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors">
                     {dictionary.navigation.faq}
                   </a>
                 </li>
               </ul>
             </div>
             <div>
-              <h3 className="text-white font-semibold mb-4">Legal</h3>
+              <h3 className="text-black dark:text-white font-semibold mb-4">Legal</h3>
               <ul className="space-y-2">
                 <li>
-                  <a href={locale === 'en' ? '/terms' : `/${locale}/terms`} className="text-gray-300 hover:text-cyan-400 transition-colors">
+                  <a href={locale === 'en' ? '/terms' : `/${locale}/terms`} className="text-gray-800 dark:text-gray-300 hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors">
                     {dictionary.footer.terms}
                   </a>
                 </li>
                 <li>
-                  <a href={locale === 'en' ? '/privacy' : `/${locale}/privacy`} className="text-gray-300 hover:text-cyan-400 transition-colors">
+                  <a href={locale === 'en' ? '/privacy' : `/${locale}/privacy`} className="text-gray-800 dark:text-gray-300 hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors">
                     {dictionary.footer.privacy}
                   </a>
                 </li>
                 <li>
-                  <a href="/onepager.png" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-cyan-400 transition-colors">
+                  <a href="/onepager.png" target="_blank" rel="noopener noreferrer" className="text-gray-800 dark:text-gray-300 hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors">
                     {dictionary.footer.onepager}
                   </a>
                 </li>

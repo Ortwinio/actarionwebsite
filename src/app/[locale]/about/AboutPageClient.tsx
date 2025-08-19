@@ -10,7 +10,7 @@ interface AboutPageClientProps {
 
 export default function AboutPageClient({ locale, dictionary }: AboutPageClientProps) {
   return (
-    <div className="bg-neutral-950 min-h-screen text-white font-sans">
+    <div className="bg-white dark:bg-neutral-950 min-h-screen text-black dark:text-white font-sans">
       {/* Sticky Background Image */}
       <div className="fixed inset-0 w-full h-full z-0">
         <Image
@@ -20,7 +20,7 @@ export default function AboutPageClient({ locale, dictionary }: AboutPageClientP
           className="object-cover opacity-20"
           priority
         />
-        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-20 dark:bg-opacity-50"></div>
       </div>
 
       {/* Content */}
@@ -32,10 +32,10 @@ export default function AboutPageClient({ locale, dictionary }: AboutPageClientP
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight mb-6">
+            <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight mb-6 text-black dark:text-white">
               {dictionary.pages.about.title}
             </h1>
-            <p className="text-xl sm:text-2xl text-gray-300 max-w-3xl mx-auto">
+            <p className="text-xl sm:text-2xl text-gray-800 dark:text-gray-300 max-w-3xl mx-auto">
               {dictionary.pages.about.subtitle}
             </p>
           </motion.div>
@@ -44,9 +44,9 @@ export default function AboutPageClient({ locale, dictionary }: AboutPageClientP
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="bg-neutral-900 bg-opacity-50 backdrop-blur-sm rounded-lg p-8 mb-8"
+            className="bg-gray-50 dark:bg-neutral-900 bg-opacity-50 dark:bg-opacity-50 backdrop-blur-sm rounded-lg p-8 mb-8 border border-gray-200 dark:border-neutral-700"
           >
-            <p className="text-lg text-gray-300 leading-relaxed mb-6">
+            <p className="text-lg text-gray-800 dark:text-gray-300 leading-relaxed mb-6">
               {dictionary.pages.about.description}
             </p>
           </motion.div>
@@ -57,19 +57,19 @@ export default function AboutPageClient({ locale, dictionary }: AboutPageClientP
             transition={{ duration: 0.8, delay: 0.4 }}
             className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8"
           >
-            <div className="bg-neutral-900 bg-opacity-50 backdrop-blur-sm rounded-lg p-6">
-              <h2 className="text-2xl font-bold text-cyan-400 mb-4">
+            <div className="bg-gray-50 dark:bg-neutral-900 bg-opacity-50 dark:bg-opacity-50 backdrop-blur-sm rounded-lg p-6 border border-gray-200 dark:border-neutral-700">
+              <h2 className="text-2xl font-bold text-cyan-500 dark:text-cyan-400 mb-4">
                 {dictionary.pages.about.mission}
               </h2>
-              <p className="text-gray-300 leading-relaxed">
+              <p className="text-gray-800 dark:text-gray-300 leading-relaxed">
                 {dictionary.pages.about.missionText}
               </p>
             </div>
-            <div className="bg-neutral-900 bg-opacity-50 backdrop-blur-sm rounded-lg p-6">
-              <h2 className="text-2xl font-bold text-cyan-400 mb-4">
+            <div className="bg-gray-50 dark:bg-neutral-900 bg-opacity-50 dark:bg-opacity-50 backdrop-blur-sm rounded-lg p-6 border border-gray-200 dark:border-neutral-700">
+              <h2 className="text-2xl font-bold text-cyan-500 dark:text-cyan-400 mb-4">
                 {dictionary.pages.about.partners}
               </h2>
-              <p className="text-gray-300 leading-relaxed">
+              <p className="text-gray-800 dark:text-gray-300 leading-relaxed">
                 {dictionary.pages.about.partnersText}
               </p>
             </div>
@@ -90,7 +90,7 @@ export default function AboutPageClient({ locale, dictionary }: AboutPageClientP
             <div>
               <Link
                 href={locale === 'en' ? '/' : `/${locale}`}
-                className="text-cyan-400 hover:underline text-base font-medium"
+                className="text-cyan-500 dark:text-cyan-400 hover:underline text-base font-medium"
               >
                 {dictionary.pages.about.backToHome}
               </Link>

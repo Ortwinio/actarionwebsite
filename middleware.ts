@@ -26,6 +26,10 @@ export function middleware(request: NextRequest) {
   if (pathname === '/faq') {
     return NextResponse.redirect(new URL('/en/faq', request.url));
   }
+  // Redirect non-localized blog root to default locale
+  if (pathname === '/blog') {
+    return NextResponse.redirect(new URL('/en/blog', request.url));
+  }
   
   // Check if the pathname already has a locale
   const pathnameHasLocale = locales.some(

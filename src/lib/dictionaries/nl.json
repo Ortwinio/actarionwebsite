@@ -2,40 +2,49 @@
   "navigation": {
     "home": "Home",
     "about": "Over ons",
+    "contact": "Contact",
     "demo": "Demo",
     "partner": "Partner",
     "career": "Carrière",
     "faq": "FAQ"
   },
   "hero": {
-    "title": "Revolutioneer SOP-uitvoering met Augmented Reality",
-    "subtitle": "actARion levert SOP-oplossingen van de volgende generatie, aangedreven door AR-technologie—die de manier waarop frontline teams werken, leren en veilig blijven transformeren.",
-    "cta": "Demo inplannen",
+    "title": "Werk slimmer, blijf veiliger, presteer beter — met immersieve technologie.",
+    "subtitle": "actARion verhoogt de productiviteit van blue-collar werknemers door gebruikersbegeleiding te revolutioneren met Augmented Reality.",
+    "cta": "Discovery Call of Demo inplannen",
     "aboutLink": "Over ons"
   },
   "sections": {
     "whatWeDo": {
-      "title": "Augmented SOPs voor Frontline Excellentie",
-      "description": "actARion biedt geavanceerde AR-aangedreven software die traditionele SOPs omzet in immersieve, stap-voor-stap visuele workflows. Met AR-brillen of mobiele apparaten kan uw personeel real-time instructies volgen die over fysieke omgevingen heen worden geprojecteerd—wat precisie, veiligheid en operationele consistentie verbetert."
+      "title": "Augmented begeleiding voor operationele excellentie",
+      "description": "actARion biedt geavanceerde Augmented Reality-aangedreven gebruikersbegeleiding die traditionele Standard Operating Procedures (SOPs) omzet in immersieve, stap-voor-stap visuele workflows.\nMet AR-brillen, tablets of mobiele apparaten kan uw personeel worden getraind en in daadwerkelijke operaties real-time instructies volgen.\nAR-overlays leveren real-time begeleiding en vitale informatie voor veiligere, meer precieze en consistente procesuitvoering."
     },
     "whyAR": {
-      "title": "Waarom AR-aangedreven SOPs?",
+      "title": "Waarom Augmented Reality begeleiding in operaties?",
       "features": {
-        "handsFree": {
-          "title": "Handenvrije begeleiding:",
-          "description": "Werknemers ontvangen visuele instructies via AR-headsets—geen papier, geen giswerk."
+        "hassleFree": {
+          "title": "Probleemloze thematische begeleiding:",
+          "description": "Werknemers ontvangen de daadwerkelijke en cruciale visuele instructies voor de volgende stap via hun AR-headsets/tablet/smartphone—geen papier, geen giswerk."
         },
-        "realTime": {
-          "title": "Real-time validatie:",
-          "description": "AR-systemen verifiëren de voltooiing van elke stap, waardoor wordt gegarandeerd dat procedures correct worden gevolgd."
+        "onboarding": {
+          "title": "Beter en sneller onboarding:",
+          "description": "Nieuwe medewerkers stappen sneller en gefocust in met AR-begeleide, praktijkgerichte training in plaats van uitgebreide documentatie."
+        },
+        "analytics": {
+          "title": "Operationele analyse & protocollering:",
+          "description": "Monitoring van de uitvoering van procedures en optimalisering van de uitvoering met real-time prestatiegegevens. Ook cruciale stappen in de procedure kunnen worden geprotocolleerd om compliance te waarborgen."
         },
         "safety": {
-          "title": "Verbeterde veiligheid:",
-          "description": "Kritieke veiligheidswaarschuwingen en gevaarswaarschuwingen worden prominent weergegeven in het gezichtsveld van werknemers."
+          "title": "Fouten en veiligheidsrisico's vermijden:",
+          "description": "Real-time SOPs minimaliseren fouten en zorgen voor procesnaleving en veiligheidsrichtlijnen."
         },
-        "training": {
-          "title": "Versnelde training:",
-          "description": "Nieuwe medewerkers leren sneller met visuele, interactieve begeleiding en verminderen de trainingstijd met tot 60%."
+        "remoteSupport": {
+          "title": "Remote support integratie:",
+          "description": "Live expert assistentie, naadloos ingebed in Augmented Reality."
+        },
+        "control": {
+          "title": "Uw begeleiding, uw controle:",
+          "description": "We rusten uw team uit om hun eigen digitale gebruikersbegeleiding te creëren en te onderhouden, wat onafhankelijkheid en langdurige waarde waarborgt."
         }
       }
     },
@@ -47,16 +56,20 @@
       "title": "Hoe het werkt",
       "steps": {
         "step1": {
-          "title": "Upload uw SOPs",
-          "description": "Converteer bestaande procedures naar ons AR-compatibele formaat met onze intuïtieve tools."
+          "title": "Vastleggen",
+          "description": "Registreer uw huidige manier van werken in uw AR-compatibele formaat met onze intuïtieve tools (mogelijk ook als SOP niet gedocumenteerd is)."
         },
         "step2": {
-          "title": "Implementeer op apparaten",
-          "description": "Distribueer AR-workflows naar de apparaten van uw team—brillen, tablets of smartphones."
+          "title": "Ontwerp & Bouw",
+          "description": "Bepaal welke aanvullende informatie, checklist en veiligheidswaarschuwingen moeten worden gepresenteerd in de overlays bij specifieke stappen. Voeg deze informatie en afbeeldingen toe aan de workflow en genereer uw eigen App en AR-richtlijnen."
         },
         "step3": {
-          "title": "Voer uit met vertrouwen",
-          "description": "Werknemers volgen stap-voor-stap AR-begeleiding met real-time validatie en veiligheidswaarschuwingen."
+          "title": "Implementeer op apparaten en voer uit met vertrouwen",
+          "description": "Werknemers volgen de stap-voor-stap AR-begeleiding op hun AR-brillen/tablets/smartphones met real-time validatie en veiligheidswaarschuwingen."
+        },
+        "step4": {
+          "title": "Pas uw app en richtlijnen zelf aan en optimaliseer ze of genereer een nieuwe zelf",
+          "description": "Experts in de klantorganisatie worden opgeleid en uitgerust om de huidige Apps en Richtlijnen te optimaliseren en ook nieuwe te bouwen."
         }
       }
     },
@@ -72,7 +85,7 @@
     "contact": {
       "title": "Klaar om uw operaties te transformeren?",
       "description": "Sluit u aan bij toonaangevende fabrikanten die al actARion gebruiken om hun frontline operaties te revolutioneren.",
-      "cta": "Demo inplannen"
+      "cta": "Discovery Call of Demo inplannen"
     }
   },
   "footer": {
@@ -94,7 +107,7 @@
       "backToHome": "Terug naar Home"
     },
     "contact": {
-      "title": "Demo inplannen",
+      "title": "Discovery Call of Demo inplannen",
       "subtitle": "Klaar om uw operaties te transformeren?",
       "description": "Sluit u aan bij toonaangevende fabrikanten die al ActARion gebruiken om hun frontline operaties te revolutioneren.",
       "form": {
@@ -271,7 +284,7 @@
       "cta": {
         "title": "Nog vragen?",
         "description": "Klaar om ActARion in actie te zien? Plan een gepersonaliseerde demo om te verkennen hoe ons platform uw operaties kan transformeren.",
-        "demo": "Demo inplannen",
+        "demo": "Discovery Call of Demo inplannen",
         "partner": "Partner worden"
       }
     },
@@ -283,6 +296,11 @@
     "privacy": {
       "title": "Privacybeleid",
       "subtitle": "Hoe we uw gegevens beschermen",
+      "backToHome": "Terug naar Home"
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "Inzichten, updates en thought leadership over Augmented Reality in productie en industriële toepassingen.",
       "backToHome": "Terug naar Home"
     }
   },

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import CookieBanner from '../components/CookieBanner';
 import ConditionalAnalytics from '../components/ConditionalAnalytics';
+import { ThemeProvider } from '../contexts/ThemeContext';
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -102,9 +103,11 @@ export default function RootLayout({
         <meta name="msapplication-tap-highlight" content="no" />
       </head>
       <body className={inter.className}>
-        {children}
-        <CookieBanner />
-        <ConditionalAnalytics />
+        <ThemeProvider>
+          {children}
+          <CookieBanner />
+          <ConditionalAnalytics />
+        </ThemeProvider>
       </body>
     </html>
   );

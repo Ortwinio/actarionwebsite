@@ -1,5 +1,18 @@
 import type { NextConfig } from "next";
 
+class VeliteWebpackPlugin {
+  private static started = false;
+  apply(compiler: any) {
+    compiler.hooks.beforeCompile.tapPromise('VeliteWebpackPlugin', async () => {
+      if (VeliteWebpackPlugin.started) return;
+      VeliteWebpackPlugin.started = true;
+      const dev = compiler.options.mode === 'development';
+      const { build } = await import('velite');
+      await build({ watch: dev, clean: !dev });
+    });
+  }
+}
+
 const nextConfig: NextConfig = {
   // Enable experimental features for better performance
   experimental: {
@@ -32,6 +45,19 @@ const nextConfig: NextConfig = {
       return config;
     },
   }),
+  webpack: (config) => {
+    config.plugins.push(new VeliteWebpackPlugin());
+    return config;
+  },
+  async redirects() {
+    return [
+      {
+        source: '/blog',
+        destination: '/en/blog',
+        permanent: false,
+      },
+    ];
+  },
   async headers() {
     return [
       {

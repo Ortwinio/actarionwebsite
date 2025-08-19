@@ -39,12 +39,12 @@ export default function About() {
           <div className="flex flex-col items-center">
             <Image
               src="/Marc Dercksen.png"
-              alt="Marc Dercksen"
+              alt="Mark Dercksen"
               width={160}
               height={160}
               className="w-40 h-40 rounded-full object-cover shadow-lg mb-2"
             />
-            <span className="text-lg font-semibold text-white mt-2">Marc Dercksen</span>
+            <span className="text-lg font-semibold text-white mt-2">Mark Dercksen</span>
             <span className="text-sm text-gray-400">Managing Partner</span>
           </div>
           <div className="flex flex-col items-center">

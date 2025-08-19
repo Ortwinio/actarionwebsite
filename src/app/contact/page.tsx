@@ -40,7 +40,7 @@ export default function Contact() {
       {/* Content Container */}
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 py-20">
         <div className="max-w-4xl w-full mx-auto bg-neutral-900 bg-opacity-80 backdrop-blur-sm rounded-2xl shadow-xl p-8 sm:p-12 flex flex-col gap-8">
-          <h1 className="text-4xl sm:text-5xl font-bold mb-4 text-cyan-400 text-center">Schedule a Demo Call</h1>
+          <h1 className="text-4xl sm:text-5xl font-bold mb-4 text-cyan-400 text-center">Schedule a Discovery call or a Demo</h1>
           <div className="text-lg text-gray-300 mb-6 text-center flex flex-col gap-2">
             <span className="font-semibold text-white">Ready to take action with AR?</span>
             <span>We'd love to hear from you.</span>
