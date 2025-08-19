@@ -2,7 +2,9 @@
   "navigation": {
     "home": "Home",
     "about": "About Us",
+    "contact": "Contact",
     "demo": "Demo",
+    "blog": "Blog",
     "partner": "Partner",
     "career": "Career",
     "faq": "FAQ"
@@ -291,5 +293,10 @@
     "en": "English",
     "de": "Deutsch",
     "nl": "Nederlands"
+  },
+  "promoPopup": {
+    "title": "Learn how ActARion enables digital transformation and quality assurance.",
+    "description": "Request our two-pager for key insights.",
+    "cta": "Download the two‑pager"
   }
 } 

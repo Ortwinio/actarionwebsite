@@ -41,12 +41,29 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
   const [showVideo, setShowVideo] = useState(true);
   const [isClient, setIsClient] = useState(false);
+  const [showPromoPopup, setShowPromoPopup] = useState(false);
 
   useEffect(() => {
     setIsClient(true);
   }, []);
 
 
+
+  // Timed promo popup (3s after mount)
+  useEffect(() => {
+    if (!isClient) return;
+    try {
+      const dismissed = sessionStorage.getItem('promoPopupDismissed') === 'true';
+      if (dismissed) return;
+    } catch {}
+    const timer = setTimeout(() => setShowPromoPopup(true), 3000);
+    return () => clearTimeout(timer);
+  }, [isClient]);
+
+  const dismissPromoPopup = () => {
+    setShowPromoPopup(false);
+    try { sessionStorage.setItem('promoPopupDismissed', 'true'); } catch {}
+  };
 
   // Hide video on scroll down, show on scroll to top
   useEffect(() => {
@@ -766,6 +783,56 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
           </div>
         </div>
       </footer>
+
+      {/* Timed Promo Popup */}
+      <div
+        className={`fixed bottom-6 right-6 z-[10000] transition-all duration-300 ${
+          showPromoPopup ? 'opacity-100 translate-y-0' : 'pointer-events-none opacity-0 translate-y-2'
+        }`}
+      >
+        <div className="relative w-[360px] max-w-[90vw] rounded-xl border bg-white/95 dark:bg-neutral-900/95 backdrop-blur-md border-gray-200 dark:border-neutral-700 shadow-2xl p-5">
+          <button
+            type="button"
+            aria-label="Close"
+            onClick={dismissPromoPopup}
+            className="absolute top-2 right-2 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
+          >
+            ×
+          </button>
+          <div className="text-black dark:text-white font-semibold text-lg mb-2">
+            {dictionary?.promoPopup?.title || (
+              locale === 'de'
+                ? 'Erfahren Sie, wie ActARion digitale Transformation und Qualitätssicherung ermöglicht.'
+                : locale === 'nl'
+                ? 'Leer hoe ActARion digitale transformatie en kwaliteitsborging mogelijk maakt.'
+                : 'Learn how ActARion enables digital transformation and quality assurance.'
+            )}
+          </div>
+          <p className="text-gray-700 dark:text-gray-300 mb-4">
+            {dictionary?.promoPopup?.description || (
+              locale === 'de'
+                ? 'Fordern Sie unser zweiseitiges Infoblatt für die wichtigsten Einblicke an.'
+                : locale === 'nl'
+                ? 'Vraag onze two‑pager aan voor de belangrijkste inzichten.'
+                : 'Request our two-pager for key insights.'
+            )}
+          </p>
+          <a
+            href="https://eu1.hubs.ly/H0mpm0k0"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center w-full px-4 py-2 rounded-lg bg-cyan-500 hover:bg-cyan-600 dark:hover:bg-cyan-400 text-white font-medium transition-colors"
+          >
+            {dictionary?.promoPopup?.cta || (
+              locale === 'de'
+                ? 'Infoblatt herunterladen'
+                : locale === 'nl'
+                ? 'Two‑pager downloaden'
+                : 'Download the two‑pager'
+            )}
+          </a>
+        </div>
+      </div>
     </div>
   );
 } 

@@ -4,6 +4,7 @@
     "about": "Over ons",
     "contact": "Contact",
     "demo": "Demo",
+    "blog": "Blog",
     "partner": "Partner",
     "career": "Carrière",
     "faq": "FAQ"
@@ -309,5 +310,10 @@
     "en": "English",
     "de": "Deutsch",
     "nl": "Nederlands"
+  },
+  "promoPopup": {
+    "title": "Leer hoe ActARion digitale transformatie en kwaliteitsborging mogelijk maakt.",
+    "description": "Vraag onze two‑pager aan voor de belangrijkste inzichten.",
+    "cta": "Two‑pager downloaden"
   }
 } 

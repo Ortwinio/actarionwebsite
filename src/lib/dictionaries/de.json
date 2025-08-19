@@ -4,6 +4,7 @@
     "about": "Über uns",
     "contact": "Kontakt",
     "demo": "Demo",
+    "blog": "Blog",
     "partner": "Partner",
     "career": "Karriere",
     "faq": "FAQ"
@@ -309,5 +310,10 @@
     "en": "English",
     "de": "Deutsch",
     "nl": "Nederlands"
+  },
+  "promoPopup": {
+    "title": "Erfahren Sie, wie ActARion digitale Transformation und Qualitätssicherung ermöglicht.",
+    "description": "Fordern Sie unser zweiseitiges Infoblatt für die wichtigsten Einblicke an.",
+    "cta": "Infoblatt herunterladen"
   }
 } 
