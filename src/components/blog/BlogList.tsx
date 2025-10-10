@@ -9,7 +9,7 @@ interface BlogListProps {
     description: string
     image?: {
       src: string
-      alt: string
+      alt?: string
     }
     publishedAt: string
     author: string

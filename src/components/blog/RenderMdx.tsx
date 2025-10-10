@@ -1,16 +1,16 @@
 'use client'
 
-import { MDXRemote } from 'next-mdx-remote/rsc'
 import { FC } from 'react'
+import MDXContent from './MdxContent'
 
 interface RenderMdxProps {
-  content: string
+  code: string
 }
 
-const RenderMdx: FC<RenderMdxProps> = ({ content }) => {
+const RenderMdx: FC<RenderMdxProps> = ({ code }) => {
   return (
     <article className="prose prose-invert prose-lg max-w-none">
-      <MDXRemote source={content} />
+      <MDXContent code={code} />
     </article>
   )
 }

@@ -10,7 +10,7 @@ interface BlogCardProps {
     description: string
     image?: {
       src: string
-      alt: string
+      alt?: string
     }
     publishedAt: string
     author: string
@@ -38,7 +38,7 @@ const BlogCard: FC<BlogCardProps> = ({ blog, locale }) => {
         <div className="relative h-48 overflow-hidden">
           <Image
             src={blog.image.src}
-            alt={blog.image.alt}
+            alt={blog.image.alt || blog.title}
             fill
             className="object-cover hover:scale-105 transition-transform duration-300"
           />

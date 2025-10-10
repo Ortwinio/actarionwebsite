@@ -279,16 +279,13 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
           }
         </h1>
         <p className="relative z-10 text-xl sm:text-2xl text-gray-800 dark:text-gray-300 max-w-2xl mb-6">
-          {dictionary?.hero?.subtitle ? 
-            dictionary.hero.subtitle.split('actARion').map((part: string, index: number) => 
-              index === 0 ? (
-                <span key={index}>
-                  act<span className={accent}>AR</span>ion{part}
-                </span>
-              ) : (
-                <span key={index}>{part}</span>
-              )
-            ) : 
+          {dictionary?.hero?.subtitle ? (
+            // Replace any case-insensitive occurrences of ActARion/actARion with accented brand once
+            <span dangerouslySetInnerHTML={{
+              __html: dictionary.hero.subtitle.replace(/actARion/gi, 'ActARion')
+                .replace(/ActARion/g, `act<span class="${accent.replace(/\s+/g, ' ')}">AR</span>ion`)
+            }} />
+          ) : (
             <>
               {locale === 'de' ? (
                 <span>
@@ -310,7 +307,7 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
                 </span>
               )}
             </>
-          }
+          )}
         </p>
         <a
           href={locale === 'en' ? '/contact' : `/${locale}/contact`}
