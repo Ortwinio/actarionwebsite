@@ -8,7 +8,7 @@ import remarkGfm from 'remark-gfm'
 const blog = s.object({
   title: s.string(),
   description: s.string(),
-  image: s.image(),
+  image: s.image().optional(),
   publishedAt: s.isodate(),
   updatedAt: s.isodate(),
   author: s.string(),
@@ -23,7 +23,12 @@ const blog = s.object({
   url: `/blog/${data.slug}`,
   readingTime: readingTime(data.body),
   image: data.image
-    ? { ...data.image, src: data.image.src.replace('/static', '/blogs') }
+    ? {
+        ...data.image,
+        src: data.image.src.replace('/static', '/blogs'),
+        // Preserve custom alt if present; otherwise default to blog title
+        alt: (data as any).image?.alt ?? (data as any).title,
+      }
     : undefined,
 }))
 

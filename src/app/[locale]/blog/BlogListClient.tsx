@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import BlogList from '@/components/blog/BlogList'
+import { blogs as allBlogs } from '@/.velite/generated'
 
 interface BlogListClientProps {
   locale: string
@@ -12,7 +13,7 @@ interface Blog {
   description: string
   image?: {
     src: string
-    alt: string
+    alt?: string
   }
   publishedAt: string
   author: string
@@ -30,60 +31,16 @@ const BlogListClient = ({ locale }: BlogListClientProps) => {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    const fetchBlogs = async () => {
-      try {
-        // In a real implementation, this would fetch from the Velite-generated data
-        // For now, we'll use a mock implementation
-        const mockBlogs: Blog[] = [
-          {
-            title: "AR SOPs: The Next Frontier in Manufacturing Excellence",
-            description: "Discover how Augmented Reality is revolutionizing Standard Operating Procedures, making them more accessible, safer, and more efficient than ever before.",
-            publishedAt: "2025-01-15T09:00:00Z",
-            author: "ActARion Team",
-            tags: ["ar", "sop", "manufacturing", "innovation", "safety"],
-            slug: "ar-sops-next-frontier",
-            readingTime: { text: "8 min read" },
-            locale: "en",
-            isPublished: true
-          },
-          {
-            title: "The AR Training Revolution: Transforming Workforce Development",
-            description: "Explore how Augmented Reality is revolutionizing employee training, reducing costs, improving retention, and creating more engaging learning experiences.",
-            publishedAt: "2025-01-20T10:00:00Z",
-            author: "ActARion Team",
-            tags: ["ar", "training", "workforce", "learning", "efficiency"],
-            slug: "ar-training-revolution",
-            readingTime: { text: "10 min read" },
-            locale: "en",
-            isPublished: true
-          },
-          {
-            title: "Safety and Compliance in the Age of AR: A New Paradigm",
-            description: "Discover how Augmented Reality is enhancing workplace safety, ensuring regulatory compliance, and creating a culture of safety excellence in manufacturing.",
-            publishedAt: "2025-01-25T11:00:00Z",
-            author: "ActARion Team",
-            tags: ["ar", "safety", "compliance", "manufacturing", "regulations"],
-            slug: "safety-compliance-ar",
-            readingTime: { text: "12 min read" },
-            locale: "en",
-            isPublished: true
-          }
-        ]
-
-        // Filter by locale and published status
-        const filteredBlogs = mockBlogs.filter(blog => 
-          blog.locale === locale && blog.isPublished
-        )
-
-        setBlogs(filteredBlogs)
-      } catch (error) {
-        console.error('Error fetching blogs:', error)
-      } finally {
-        setLoading(false)
-      }
+    try {
+      const filteredBlogs = (allBlogs as unknown as Blog[])
+        .filter(blog => blog.locale === locale && blog.isPublished)
+        .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
+      setBlogs(filteredBlogs)
+    } catch (error) {
+      console.error('Error loading blogs:', error)
+    } finally {
+      setLoading(false)
     }
-
-    fetchBlogs()
   }, [locale])
 
   if (loading) {

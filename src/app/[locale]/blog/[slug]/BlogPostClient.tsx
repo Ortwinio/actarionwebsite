@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import BlogMeta from '@/components/blog/BlogMeta'
 import RenderMdx from '@/components/blog/RenderMdx'
+import Image from 'next/image'
 
 interface BlogPostClientProps {
   blog: {
@@ -15,7 +16,11 @@ interface BlogPostClientProps {
     readingTime: {
       text: string
     }
-    content: string
+    body: string
+    image?: {
+      src: string
+      alt?: string
+    }
   }
   locale: string
 }
@@ -24,6 +29,18 @@ const BlogPostClient = ({ blog, locale }: BlogPostClientProps) => {
   return (
     <article className="bg-gray-800 rounded-lg p-8 shadow-xl">
       <header className="mb-8">
+        {blog.image && (
+          <div className="relative w-full h-56 md:h-72 lg:h-80 mb-6 overflow-hidden rounded-lg">
+            <Image
+              src={blog.image.src}
+              alt={blog.image.alt || blog.title}
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
+              priority
+            />
+          </div>
+        )}
         <Link
           href={`/${locale}/blog`}
           className="inline-flex items-center text-cyan-400 hover:text-cyan-300 transition-colors mb-6"
@@ -53,7 +70,7 @@ const BlogPostClient = ({ blog, locale }: BlogPostClientProps) => {
       </header>
       
       <div className="prose prose-invert prose-lg max-w-none">
-        <div dangerouslySetInnerHTML={{ __html: blog.content.replace(/\n/g, '<br/>') }} />
+        <RenderMdx code={blog.body} />
       </div>
       
       <footer className="mt-12 pt-8 border-t border-gray-700">
