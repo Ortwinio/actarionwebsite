@@ -52,7 +52,7 @@
     "velite": "^0.2.4"
   },
   "engines": {
-    "node": "18.x",
+    "node": "22.x",
     "npm": ">=8.0.0"
   },
   "keywords": [
