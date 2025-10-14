@@ -70,6 +70,18 @@ const BlogPostClient = ({ blog, locale }: BlogPostClientProps) => {
       </header>
       
       <div className="prose prose-invert prose-lg max-w-none">
+        {blog.image && (
+          <figure className="mb-8">
+            <Image
+              src={blog.image.src}
+              alt={blog.image.alt || blog.title}
+              width={1200}
+              height={630}
+              className="w-full h-auto rounded-lg shadow"
+              sizes="(max-width: 768px) 100vw, 1200px"
+            />
+          </figure>
+        )}
         <RenderMdx code={blog.body} />
       </div>
       
