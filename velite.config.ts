@@ -9,7 +9,8 @@ import remarkGfm from 'remark-gfm'
 const blog = s.object({
   title: s.string(),
   description: s.string(),
-  image: s.image().optional(),
+  // Accept a string path (now served from public/blogs)
+  image: s.string().optional(),
   publishedAt: s.isodate(),
   updatedAt: s.isodate(),
   author: s.string(),
@@ -25,11 +26,8 @@ const blog = s.object({
   readingTime: readingTime(data.body),
   image: data.image
     ? {
-        ...data.image,
-        // Normalize asset path to /blogs/<filename> served from public/blogs
-        src: `/blogs/${path.basename(data.image.src)}`,
-        // Preserve custom alt if present; otherwise default to blog title
-        alt: (data as any).image?.alt ?? (data as any).title,
+        src: `/blogs/${path.basename(typeof data.image === 'string' ? data.image : '')}`,
+        alt: (data as any).title,
       }
     : undefined,
 }))
