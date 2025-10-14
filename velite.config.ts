@@ -1,4 +1,5 @@
 import { defineConfig, s } from 'velite'
+import path from 'path'
 import readingTime from 'reading-time'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypePrettyCode from 'rehype-pretty-code'
@@ -25,7 +26,8 @@ const blog = s.object({
   image: data.image
     ? {
         ...data.image,
-        src: data.image.src.replace('/static', '/blogs'),
+        // Normalize asset path to /blogs/<filename> served from public/blogs
+        src: `/blogs/${path.basename(data.image.src)}`,
         // Preserve custom alt if present; otherwise default to blog title
         alt: (data as any).image?.alt ?? (data as any).title,
       }
