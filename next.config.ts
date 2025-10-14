@@ -30,6 +30,8 @@ const nextConfig: NextConfig = {
     minimumCacheTTL: 31536000, // 1 year
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+    // Bypass Next.js image optimization to serve images directly from /public
+    unoptimized: true,
   },
   // Production optimizations
   compress: true,
