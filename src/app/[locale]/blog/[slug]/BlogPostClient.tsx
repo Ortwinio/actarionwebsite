@@ -77,6 +77,7 @@ const BlogPostClient = ({ blog, locale }: BlogPostClientProps) => {
               alt={blog.image.alt || blog.title}
               width={1200}
               height={630}
+              unoptimized
               className="w-full h-auto rounded-lg shadow"
               sizes="(max-width: 768px) 100vw, 1200px"
             />

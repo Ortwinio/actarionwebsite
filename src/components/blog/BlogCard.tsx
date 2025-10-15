@@ -40,6 +40,7 @@ const BlogCard: FC<BlogCardProps> = ({ blog, locale }) => {
             src={blog.image.src}
             alt={blog.image.alt || blog.title}
             fill
+            unoptimized
             className="object-cover hover:scale-105 transition-transform duration-300"
           />
         </div>
