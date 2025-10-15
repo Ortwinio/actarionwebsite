@@ -26,7 +26,11 @@ const blog = s.object({
   readingTime: readingTime(data.body),
   image: data.image
     ? {
-        src: `/blogs/${path.basename(typeof data.image === 'string' ? data.image : '')}`,
+        // If author provided only filename, serve from /blogs/<filename>
+        // Otherwise, if they prefixed with /blogs, keep as-is
+        src: data.image.startsWith('/blogs/')
+          ? data.image
+          : `/blogs/${path.basename(data.image)}`,
         alt: (data as any).title,
       }
     : undefined,
