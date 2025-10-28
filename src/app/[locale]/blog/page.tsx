@@ -59,5 +59,12 @@ export default async function BlogListPage({ params }: BlogListPageProps) {
   )
 }
 
+export const dynamicParams = false
+
+export async function generateStaticParams() {
+  const locales: Array<'en' | 'de' | 'nl'> = ['en', 'de', 'nl']
+  return locales.map((l) => ({ locale: l }))
+}
+
 
 

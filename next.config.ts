@@ -14,6 +14,11 @@ class VeliteWebpackPlugin {
 }
 
 const nextConfig: NextConfig = {
+  i18n: {
+    locales: ['en', 'nl', 'de'],
+    defaultLocale: 'en',
+    localeDetection: true,
+  },
   // Enable experimental features for better performance
   experimental: {
     optimizePackageImports: ['@heroicons/react'],

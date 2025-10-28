@@ -43,6 +43,16 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   }
 }
 
+export const dynamicParams = false
+
+export async function generateStaticParams() {
+  const locales: Array<'en' | 'de' | 'nl'> = ['en', 'de', 'nl']
+  const posts = (allBlogs as any[])
+  return posts
+    .filter(p => locales.includes(p.locale))
+    .flatMap(p => [{ locale: p.locale as 'en'|'de'|'nl', slug: p.slug }])
+}
+
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
   const { locale, slug } = await params
   const dictionary = await getDictionary(locale)
