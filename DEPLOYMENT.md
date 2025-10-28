@@ -50,8 +50,7 @@ NEXT_PUBLIC_VERCEL_ENV=production
 NEXT_TELEMETRY_DISABLED=1
 NODE_ENV=production
 
-# Optional: Analytics (uncomment if needed)
-# NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX
+# Optional: Tag Manager
 # NEXT_PUBLIC_GTM_ID=GTM-XXXXXXX
 ```
 
