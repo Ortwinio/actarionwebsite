@@ -37,7 +37,8 @@ export default defineConfig({
   collections: {
     blogs: { name: 'Blog', pattern: 'blogs/**/*.mdx', schema: blog },
   },
-  output: { data: '.velite/generated', assets: 'public/blogs', clean: true },
+  // Emit generated data inside src so Next bundles it reliably in prod
+  output: { data: 'src/.velite/generated', assets: 'public/blogs', clean: true },
   mdx: {
     remarkPlugins: [remarkGfm],
     rehypePlugins: [

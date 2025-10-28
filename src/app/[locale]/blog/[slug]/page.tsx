@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { getDictionary } from '@/lib/getDictionary'
 import BlogPostClient from './BlogPostClient'
-import { blogs as allBlogs } from '../../../../../.velite/generated'
+import { blogs as allBlogs } from '@/./.velite/generated'
 
 interface BlogPostPageProps {
   params: Promise<{ locale: 'en' | 'de' | 'nl'; slug: string }>

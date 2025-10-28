@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import BlogList from '@/components/blog/BlogList'
-import { blogs as allBlogs } from '../../../../.velite/generated'
+import { blogs as allBlogs } from '@/./.velite/generated'
 
 interface BlogListClientProps {
   locale: string
