@@ -14,11 +14,7 @@ class VeliteWebpackPlugin {
 }
 
 const nextConfig: NextConfig = {
-  i18n: {
-    locales: ['en', 'nl', 'de'],
-    defaultLocale: 'en',
-    localeDetection: true,
-  },
+  // App Router uses segment-based i18n; do not configure legacy i18n here
   // Enable experimental features for better performance
   experimental: {
     optimizePackageImports: ['@heroicons/react'],

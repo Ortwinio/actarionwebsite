@@ -8,7 +8,8 @@ import remarkGfm from 'remark-gfm'
 const blog = s.object({
   title: s.string(),
   description: s.string(),
-  image: s.image().optional(),
+  // Accept strings so images can live in /public/blogs instead of content folder
+  image: s.string().optional(),
   publishedAt: s.isodate(),
   updatedAt: s.isodate(),
   author: s.string(),
@@ -24,10 +25,9 @@ const blog = s.object({
   readingTime: readingTime(data.body),
   image: data.image
     ? {
-        ...data.image,
-        // Velite outputs to public/blogs; ensure URL prefix
-        src: data.image.src.replace('/static', '/blogs'),
-        alt: (data as any).image?.alt ?? (data as any).title,
+        // Map filename or path to public URL under /blogs
+        src: `/blogs/${(data.image as string).split('/').pop()}`,
+        alt: (data as any).title,
       }
     : undefined,
 }))
