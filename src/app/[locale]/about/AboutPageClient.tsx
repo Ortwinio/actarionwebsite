@@ -14,7 +14,7 @@ export default function AboutPageClient({ locale, dictionary }: AboutPageClientP
       {/* Sticky Background Image */}
       <div className="fixed inset-0 w-full h-full z-0">
         <Image
-          src="/ActARion header2.png"
+          src="/actarion-sop-ar-process-improvement.jpg"
           alt="ActARion Background"
           fill
           className="object-cover opacity-20"
