@@ -75,7 +75,7 @@ export default function ContactPageClient({ locale, dictionary }: ContactPageCli
       {/* Sticky Background Image */}
       <div className="fixed inset-0 w-full h-full z-0">
         <Image
-          src="/ActARion header2.png"
+          src="/actarion-sop-ar-training.jpg"
           alt="ActARion Background"
           fill
           className="object-cover opacity-20"
