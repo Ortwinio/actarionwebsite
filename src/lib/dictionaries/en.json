@@ -10,15 +10,15 @@
     "faq": "FAQ"
   },
   "hero": {
-    "title": "Revolutionize SOP Execution with Augmented Reality",
-    "subtitle": "ActARion delivers next-generation SOP solutions powered by AI and Augmented Reality technology. ActARion is authorized distributor and implementation partner in Europe of Deep Sight Technology.",
-    "cta": "Schedule a Demo",
-    "aboutLink": "About Us"
+    "title": "Work faster, safer and smarter in operations",
+    "subtitle": "ActARion helps industrial, logistics and energy companies capture critical know-how, guide operators in the flow of work and build a learning organization across sites. Together with our partner DeepSight, we turn complex work into standard, repeatable execution supported by AR and AI.\n\nThe future of work in operations is not about more manuals or more classroom training. It is about giving every operator expert-level guidance at the moment of need, in their real working environment.",
+    "cta": "Plan a discovery session",
+    "aboutLink": "Explore use cases"
   },
   "sections": {
     "whatWeDo": {
-      "title": "Augmented SOPs for Frontline Excellence",
-      "description": "actARion provides advanced AR-driven software that turns traditional SOPs into immersive, step-by-step visual workflows. Using AR glasses or mobile devices, your workforce can follow real-time instructions overlaid on physical environments—enhancing precision, safety, and operational consistency."
+      "title": "Why the way we work has to change",
+      "description": "The future of work did not start with AI. Every wave of technology has changed how we produce, collaborate and learn, from the assembly line to robotics and software. What is different today is the speed of change and the impact on day-to-day work. Operations are more complex, more regulated and more dependent on scarce expertise than ever. In this reality, simply adding more training hours or more PDFs is not enough."
     },
     "whyAR": {
       "title": "Why AR-Powered SOPs?",

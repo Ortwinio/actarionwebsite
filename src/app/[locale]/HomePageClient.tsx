@@ -260,23 +260,26 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
           </span>
         </div>
         <h1 className="relative z-10 text-4xl sm:text-6xl font-extrabold tracking-tight mb-4 max-w-2xl mt-4">
-          {dictionary?.hero?.title ? 
-            dictionary.hero.title.split('Augmented Reality').map((part: string, index: number) => 
-              index === 0 ? (
-                <span key={index}>
-                  {part}<span className={accent}>Augmented Reality</span>
-                </span>
-              ) : (
-                <span key={index}>{part}</span>
-              )
-            ) : 
+          {dictionary?.hero?.title ? (
+            dictionary.hero.title.includes('Augmented Reality')
+              ? dictionary.hero.title.split('Augmented Reality').map((part: string, index: number) =>
+                  index === 0 ? (
+                    <span key={index}>
+                      {part}<span className={accent}>Augmented Reality</span>
+                    </span>
+                  ) : (
+                    <span key={index}>{part}</span>
+                  )
+                )
+              : <span>{dictionary.hero.title}</span>
+          ) : (
             <span>
               {locale === 'de' ? 'Revolutionieren Sie die SOP-Ausführung mit ' :
                locale === 'nl' ? 'Revolutioneer SOP-uitvoering met ' :
                'Revolutionize SOP Execution with '}
               <span className={accent}>Augmented Reality</span>
             </span>
-          }
+          )}
         </h1>
         <p className="relative z-10 text-xl sm:text-2xl text-gray-800 dark:text-gray-300 max-w-2xl mb-6">
           {dictionary?.hero?.subtitle ? (
@@ -317,16 +320,16 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
           {dictionary?.hero?.cta || 
             (locale === 'de' ? 'AR SOPs in Aktion sehen' : 
              locale === 'nl' ? 'AR SOPs in actie zien' : 
-             'See AR SOPs in Action')}
+             'Plan a discovery session')}
         </a>
         <a
           href={locale === 'en' ? '/about' : `/${locale}/about`}
           className="relative z-10 inline-block mt-4 text-cyan-500 dark:text-cyan-400 hover:underline text-base font-medium"
         >
           {dictionary?.hero?.aboutLink || 
-            (locale === 'de' ? 'Über uns' : 
-             locale === 'nl' ? 'Over ons' : 
-             'About Us')}
+            (locale === 'de' ? 'Anwendungsfälle erkunden' : 
+             locale === 'nl' ? 'Gebruikssituaties verkennen' : 
+             'Explore use cases')}
         </a>
       </motion.section>
 
@@ -397,17 +400,17 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
         id="why-ar-sops"
       >
         <h2 className={sectionTitle}>
-          Why Augmented Reality guidance in operations?
+          Why “faster, safer, smarter” is the new baseline
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
           <div className="flex items-start gap-4">
             <DevicePhoneMobileIcon className="h-8 w-8 text-cyan-500 dark:text-cyan-400 mt-1" />
             <div>
               <span className="font-semibold text-black dark:text-white">
-                Hassle free on topic Guidance:
+                Capture knowledge systematically
               </span>
               <p className="text-gray-800 dark:text-gray-300">
-                Workers receive the actual and crucial visual instructions for the next step through their AR headsets/tablet/Smartphone—no paper, no guesswork.
+                Critical know‑how is structured, versioned and accessible where the work happens—not hidden in emails or only in experts’ heads.
               </p>
             </div>
           </div>
@@ -415,10 +418,10 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
             <CheckCircleIcon className="h-8 w-8 text-cyan-500 dark:text-cyan-400 mt-1" />
             <div>
               <span className="font-semibold text-black dark:text-white">
-                Better and faster onboarding:
+                Guide people in context
               </span>
               <p className="text-gray-800 dark:text-gray-300">
-                New employees ramp up faster and more focused with AR-guided, on-the-job learning instead of lengthy documentation.
+                Instructions appear step by step at the moment of need—where the action is—so operators don’t search portals while a line is down.
               </p>
             </div>
           </div>
@@ -426,10 +429,10 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
             <SparklesIcon className="h-8 w-8 text-cyan-500 dark:text-cyan-400 mt-1" />
             <div>
               <span className="font-semibold text-black dark:text-white">
-                Operational Analytics & Protocolling:
+                Let the system learn from every task
               </span>
               <p className="text-gray-800 dark:text-gray-300">
-                Monitoring the execution of procedures and optimizing the execution with real time performance data. Also crucial steps in the procedure can be protocolled to assure compliance.
+                Each execution generates time, error and confirmation data—closing the loop to improve procedures, training and equipment settings.
               </p>
             </div>
           </div>
@@ -437,10 +440,10 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
             <BoltIcon className="h-8 w-8 text-cyan-500 dark:text-cyan-400 mt-1" />
             <div>
               <span className="font-semibold text-black dark:text-white">
-                Avoiding mistakes & safety risks:
+                Faster
               </span>
               <p className="text-gray-800 dark:text-gray-300">
-                Real-time SOPs minimize mistakes and ensure process adherence and safety guidelines.
+                Employees find and apply the right instruction immediately. Onboarding shortens, troubleshooting speeds up, and changeovers become repeatable.
               </p>
             </div>
           </div>
@@ -448,10 +451,10 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
             <GlobeAltIcon className="h-8 w-8 text-cyan-500 dark:text-cyan-400 mt-1" />
             <div>
               <span className="font-semibold text-black dark:text-white">
-                Remote Support Integration:
+                Safer
               </span>
               <p className="text-gray-800 dark:text-gray-300">
-                Live Expert Assistance, Seamlessly Embedded in Augmented Reality.
+                Standardized, visual and auditable instructions reduce variance, incidents and compliance risk—safety steps are built into the flow of work.
               </p>
             </div>
           </div>
@@ -459,10 +462,10 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
             <UserGroupIcon className="h-8 w-8 text-cyan-500 dark:text-cyan-400 mt-1" />
             <div>
               <span className="font-semibold text-black dark:text-white">
-                Your guidance, your control:
+                Smarter
               </span>
               <p className="text-gray-800 dark:text-gray-300">
-                We equip your team to create and maintain their own digital user guidance, ensuring independence and long-term value.
+                Knowledge improves with every execution. Lessons learned in one site can be applied everywhere, building a learning organization.
               </p>
             </div>
           </div>
@@ -478,16 +481,10 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
         id="use-case-maintenance"
       >
         <h2 className={sectionTitle}>
-          {dictionary?.sections?.useCase?.title || 
-            (locale === 'de' ? 'Feldservice-Qualität mit AR-Wartungsanweisungen steigern' : 
-             locale === 'nl' ? 'Veldservice-kwaliteit verhogen met AR-onderhoudsinstructies' : 
-             'Boost Field Service Quality with AR Maintenance Instructions')}
+          What ActARion does
         </h2>
         <p className={sectionText}>
-          {dictionary?.sections?.useCase?.description || 
-            (locale === 'de' ? 'Von der Wartung bis zur Inspektion können Frontline-Mitarbeiter <strong>AR-Wartungsanweisungen</strong> freihändig mit Smart Glasses oder Tablets befolgen. Geführte Visualisierungen und Echtzeit-Warnungen stellen sicher, dass jeder Schritt richtig ausgeführt wird — auch unter Druck.' : 
-             locale === 'nl' ? 'Van onderhoud tot inspecties kunnen frontline werknemers <strong>AR-onderhoudsinstructies</strong> handenvrij volgen met smart glasses of tablets. Begeleide visuals en real-time alerts zorgen ervoor dat elke stap goed wordt uitgevoerd — zelfs onder druk.' : 
-             'From maintenance to inspections, frontline workers can follow <strong>AR maintenance instructions</strong> hands-free using smart glasses or tablets. Guided visuals and real-time alerts ensure every step is done right — even under pressure.')}
+          ActARion combines an AR‑first connected worker platform from DeepSight with AI‑assisted knowledge capture and practical implementation support—so the way people work becomes faster, safer and smarter in daily practice.
         </p>
       </motion.section>
 
@@ -510,16 +507,10 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
           />
         </div>
         <h2 className={sectionTitle}>
-          {dictionary?.sections?.industries?.title || 
-            (locale === 'de' ? 'Industrien, die wir unterstützen' : 
-             locale === 'nl' ? 'Industrieën die we ondersteunen' : 
-             'Industries We Support')}
+          Where AR and AI create impact first
         </h2>
         <p className={sectionText}>
-          {dictionary?.sections?.industries?.description || 
-            (locale === 'de' ? 'actARions AR-gestützte SOP-Lösungen sind für Industrien konzipiert, in denen Präzision, Sicherheit und betriebliche Exzellenz kritisch sind.' : 
-             locale === 'nl' ? 'actARions AR-aangedreven SOP-oplossingen zijn ontworpen voor industrieën waar precisie, veiligheid en operationele excellentie cruciaal zijn.' : 
-             'actARions AR-powered SOP solutions are designed for industries where precision, safety, and operational excellence are critical.')}
+          On the shop floor and in the field, onboarding takes too long, experts are overloaded and compliance depends on a few people. AR and AI help most in concrete situations like onboarding, guided production, changeovers and maintenance.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
           <div className="flex items-center gap-3 p-4 bg-gray-50 dark:bg-neutral-800 bg-opacity-80 dark:bg-opacity-50 rounded-lg border border-gray-200 dark:border-neutral-700">
@@ -558,39 +549,36 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
         id="how-it-works"
       >
         <h2 className={sectionTitle}>
-          {dictionary?.sections?.howItWorks?.title || 
-            (locale === 'de' ? 'Wie es funktioniert' : 
-             locale === 'nl' ? 'Hoe het werkt' : 
-             'How It Works')}
+          How we start
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8">
           <div className="text-center">
             <div className="bg-cyan-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-white font-bold text-xl">1</span>
             </div>
-            <h3 className="text-xl font-semibold text-black dark:text-white mb-2">Capture</h3>
-                          <p className="text-gray-800 dark:text-gray-300">While you work, we learn and capture. Show us how you work, step by step. We'll document everything for you.</p>
+            <h3 className="text-xl font-semibold text-black dark:text-white mb-2">Future of work briefing</h3>
+            <p className="text-gray-800 dark:text-gray-300">Joint session with operations, HR/L&amp;D and IT on the trends behind “faster, safer, smarter” and what they mean for your sites.</p>
           </div>
           <div className="text-center">
             <div className="bg-cyan-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-white font-bold text-xl">2</span>
             </div>
-            <h3 className="text-xl font-semibold text-black dark:text-white mb-2">Build</h3>
-                          <p className="text-gray-800 dark:text-gray-300">Define which info, checklists, and safety alerts appear at each step, then add them with images to the workflow to create your own AR App & Guidelines.</p>
+            <h3 className="text-xl font-semibold text-black dark:text-white mb-2">Use case discovery</h3>
+            <p className="text-gray-800 dark:text-gray-300">Identify and prioritize 3–5 high‑impact situations where AR and AI guidance could remove friction, reduce errors or shorten training.</p>
           </div>
           <div className="text-center">
             <div className="bg-cyan-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-white font-bold text-xl">3</span>
             </div>
-            <h3 className="text-xl font-semibold text-black dark:text-white mb-2">Excellerate</h3>
-            <p className="text-gray-800 dark:text-gray-300">Workers follow the step-by-step AR guidance on their AR-glasses/tablets/smartphones with real-time validation and safety alerts.</p>
+            <h3 className="text-xl font-semibold text-black dark:text-white mb-2">Pilot with clear KPIs</h3>
+            <p className="text-gray-800 dark:text-gray-300">Implement one or two use cases with clear KPIs (e.g., First Time Right, cycle time, onboarding time, downtime) and a decision framework for scaling.</p>
           </div>
           <div className="text-center">
             <div className="bg-cyan-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-white font-bold text-xl">4</span>
             </div>
-            <h3 className="text-xl font-semibold text-black dark:text-white mb-2">Empower</h3>
-            <p className="text-gray-800 dark:text-gray-300">Experts in the client organization are learned and equipped to optimize the current Apps & Guidelines and also to build new ones.</p>
+            <h3 className="text-xl font-semibold text-black dark:text-white mb-2">Scale and enable</h3>
+            <p className="text-gray-800 dark:text-gray-300">Provide playbooks and enablement so teams can standardize across lines, plants and countries with local ownership.</p>
           </div>
         </div>
       </motion.section>
