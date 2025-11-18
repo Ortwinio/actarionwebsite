@@ -83,12 +83,12 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const headersList = headers();
+  const headersList = await headers();
   const localeHeader = headersList.get('x-actarion-locale');
   const resolvedLocale = localeHeader && isSupportedLocale(localeHeader) ? localeHeader : defaultLocale;
 
