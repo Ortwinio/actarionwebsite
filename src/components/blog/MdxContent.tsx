@@ -18,7 +18,6 @@ function useMDXComponent(code: string) {
 
 interface MDXContentProps {
   code: string
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   components?: Record<string, any>
 }
 

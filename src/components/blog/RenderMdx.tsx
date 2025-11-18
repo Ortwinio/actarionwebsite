@@ -1,16 +1,43 @@
 'use client'
 
-import { FC } from 'react'
+import Link from 'next/link'
+import { ComponentPropsWithoutRef, FC } from 'react'
+import { Locale } from '@/config/site'
+import { buildHrefWithLocale } from '@/lib/localePaths'
 import MDXContent from './MdxContent'
 
 interface RenderMdxProps {
   code: string
+  locale: Locale
 }
 
-const RenderMdx: FC<RenderMdxProps> = ({ code }) => {
+type LocalizedAnchorProps = ComponentPropsWithoutRef<'a'> & {
+  locale: Locale
+}
+
+const LocalizedAnchor: FC<LocalizedAnchorProps> = ({ href = '', locale, ...props }) => {
+  const isExternal = /^(https?:|mailto:|tel:)/i.test(href)
+  const isHashLink = href.startsWith('#')
+
+  if (isExternal || isHashLink) {
+    return <a href={href} {...props} />
+  }
+
+  const localizedHref = buildHrefWithLocale(locale, href)
+  return <Link href={localizedHref} {...props} />
+}
+
+const RenderMdx: FC<RenderMdxProps> = ({ code, locale }) => {
+  const components = {
+    a: (props: ComponentPropsWithoutRef<'a'>) => (
+      <LocalizedAnchor locale={locale} {...props} />
+    ),
+    h1: () => null,
+  }
+
   return (
-    <article className="prose prose-invert prose-lg max-w-none">
-      <MDXContent code={code} />
+    <article className="prose prose-lg max-w-none text-slate-800">
+      <MDXContent code={code} components={components} />
     </article>
   )
 }

@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import { defaultLocale } from "./src/config/site";
 
 class VeliteWebpackPlugin {
   private static started = false;
@@ -60,7 +61,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: '/blog',
-        destination: '/en/blog',
+        destination: `/${defaultLocale}/blog`,
         permanent: false,
       },
     ];

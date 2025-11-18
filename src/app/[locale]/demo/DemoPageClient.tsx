@@ -1,46 +1,29 @@
 "use client";
 import Link from "next/link";
-import Image from "next/image";
-import { useState, useEffect } from "react";
+import { buildLocalizedPath, Locale } from "../../../config/site";
 
 interface DemoPageClientProps {
-  locale: string;
+  locale: Locale;
   dictionary: any;
 }
 
 export default function DemoPageClient({ locale, dictionary }: DemoPageClientProps) {
-  const [isClient, setIsClient] = useState(false);
-
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
-
+  const introHeading =
+    dictionary?.pages?.demo?.bodyHeading ||
+    (locale === 'de'
+      ? 'Erleben Sie praxisnahe AR-Demos'
+      : locale === 'nl'
+        ? 'Zie AR-werkinstructies live'
+        : 'See AR SOPs in action');
   return (
-    <div className="bg-neutral-950 min-h-screen text-white font-sans">
-      {/* Sticky Background Image Container */}
-      <div className="fixed inset-0 w-full h-full z-0 bg-gradient-to-br from-neutral-900 to-neutral-950">
-        <Image
-          src="/ActARion header1.png"
-          alt="ActARion Header Background"
-          fill
-          className="object-cover"
-          priority
-        />
-        
-        {/* Dark overlay for better text readability */}
-        <div className="absolute inset-0 bg-black bg-opacity-40"></div>
-      </div>
-
-      {/* Content Container */}
-      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 py-20">
-        <div className="max-w-2xl w-full mx-auto bg-neutral-900 bg-opacity-80 backdrop-blur-sm rounded-2xl shadow-xl p-8 sm:p-12 flex flex-col gap-8">
-          <h1 className="text-4xl sm:text-5xl font-bold mb-4 text-cyan-400">
-            {dictionary?.pages?.demo?.title || 
-             (locale === 'de' ? 'Demo' : 
-              locale === 'nl' ? 'Demo' : 'Demo')}
-          </h1>
+    <main className="section section-light text-slate-900">
+      <div className="section-inner">
+        <div className="max-w-2xl w-full mx-auto rounded-2xl border border-slate-200 bg-white shadow-card p-8 sm:p-12 flex flex-col gap-8">
+          <h2 className="text-4xl sm:text-5xl font-bold mb-4 text-actarion-blue">
+            {introHeading}
+          </h2>
           
-          <p className="text-lg sm:text-xl text-gray-300 mb-4">
+          <p className="text-lg sm:text-xl text-slate-600 mb-4">
             {dictionary?.pages?.demo?.description1 || 
              (locale === 'de' ? 'Erleben Sie die Kraft von ' : 
               locale === 'nl' ? 'Ervaar de kracht van ' : 
@@ -52,21 +35,21 @@ export default function DemoPageClient({ locale, dictionary }: DemoPageClientPro
               ' in action. Our augmented reality solutions transform how frontline teams work, learn, and stay safe.')}
           </p>
           
-          <p className="text-lg sm:text-xl text-gray-300 mb-4">
+          <p className="text-lg sm:text-xl text-slate-600 mb-4">
             {dictionary?.pages?.demo?.description2 || 
              (locale === 'de' ? 'Sehen Sie, wie unsere AR-gestützten Standardarbeitsanweisungen Ihre Abläufe revolutionieren können, indem sie Echtzeit-Anleitung, verbesserte Sicherheitsprotokolle und gesteigerte Effizienz in Ihrem Unternehmen bereitstellen.' : 
               locale === 'nl' ? 'Zie hoe onze AR-aangedreven standaardwerkprocedures uw operaties kunnen revolutioneren door real-time begeleiding, verbeterde veiligheidsprotocollen en verhoogde efficiëntie in uw organisatie te bieden.' : 
               'See how our AR-powered Standard Operating Procedures can revolutionize your operations, providing real-time guidance, enhanced safety protocols, and improved efficiency across your organization.')}
           </p>
           
-          <p className="text-lg sm:text-xl text-gray-300 mb-4">
+          <p className="text-lg sm:text-xl text-slate-600 mb-4">
             {dictionary?.pages?.demo?.description3 || 
              (locale === 'de' ? 'Von der industriellen Fertigung bis zu Energie & Versorgung, Luft- und Raumfahrt bis Pharma & Biotech passen sich unsere Lösungen Ihren spezifischen Anforderungen und Branchenanforderungen an.' : 
               locale === 'nl' ? 'Van industriële productie tot energie & nutsbedrijven, luchtvaart tot farma & biotech, onze oplossingen passen zich aan aan uw specifieke behoeften en branchevereisten.' : 
               'From industrial manufacturing to energy & utilities, aerospace to pharma & biotech, our solutions adapt to your specific needs and industry requirements.')}
           </p>
           
-          <p className="text-lg sm:text-xl text-gray-300 mb-4">
+          <p className="text-lg sm:text-xl text-slate-600 mb-4">
             {dictionary?.pages?.demo?.description4 || 
              (locale === 'de' ? 'Bereit, die Zukunft der Frontline-Operationen zu sehen? Kontaktieren Sie uns, um eine personalisierte Demo zu planen und zu entdecken, wie ActARion Ihr Unternehmen transformieren kann.' : 
               locale === 'nl' ? 'Klaar om de toekomst van frontline operaties te zien? Neem contact met ons op om een gepersonaliseerde demo te plannen en te ontdekken hoe ActARion uw bedrijf kan transformeren.' : 
@@ -75,16 +58,16 @@ export default function DemoPageClient({ locale, dictionary }: DemoPageClientPro
           
           <div className="flex flex-col sm:flex-row gap-4 mt-8">
             <Link 
-              href={`/${locale}/contact`}
-              className="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold text-lg px-8 py-3 rounded-full shadow-lg transition-colors text-center"
+              href={buildLocalizedPath(locale, "contact")}
+              className="btn btn-primary btn-pill text-lg"
             >
               {dictionary?.pages?.demo?.scheduleButton || 
                (locale === 'de' ? 'Demo Planen' : 
                 locale === 'nl' ? 'Demo Plannen' : 'Schedule Demo')}
             </Link>
             <Link 
-              href={`/${locale}/about`}
-              className="inline-block bg-neutral-700 hover:bg-neutral-600 text-white font-semibold text-lg px-8 py-3 rounded-full shadow-lg transition-colors text-center"
+              href={buildLocalizedPath(locale, "about")}
+              className="btn btn-secondary btn-pill text-lg justify-center"
             >
               {dictionary?.pages?.demo?.learnMoreButton || 
                (locale === 'de' ? 'Mehr Erfahren' : 
@@ -92,14 +75,14 @@ export default function DemoPageClient({ locale, dictionary }: DemoPageClientPro
             </Link>
           </div>
           
-          <Link href={`/${locale}`} className="text-cyan-400 hover:underline text-base font-medium mt-4">
+          <Link href={buildLocalizedPath(locale)} className="text-actarion-blue hover:underline text-base font-medium mt-4">
             {dictionary?.pages?.demo?.backButton || 
              (locale === 'de' ? '← Zurück zur Startseite' : 
               locale === 'nl' ? '← Terug naar Home' : '← Back to Home')}
           </Link>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
 

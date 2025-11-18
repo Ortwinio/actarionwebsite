@@ -3,7 +3,7 @@
   "@type": "FAQPage",
   "name": "ActARion FAQ - AR SOP Platform Questions",
   "description": "Frequently asked questions about ActARion's AR platform for SOPs, including hardware compatibility, system integrations, proof of concept, implementation, ROI, and modules.",
-  "url": "https://www.actarion.com/en/faq",
+  "url": "https://www.ActARion.com/en/faq",
   "mainEntity": [
     {
       "@type": "Question",

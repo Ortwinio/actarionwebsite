@@ -1,7 +1,7 @@
 {
-  "name": "actarion-website",
+  "name": "ActARion-website",
   "version": "1.0.0",
-  "description": "Actarion - Revolutionizing SOP Execution with Augmented Reality",
+  "description": "ActARion - Revolutionizing SOP Execution with Augmented Reality",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack -p 3000",
@@ -26,11 +26,13 @@
     "next-mdx-remote": "^5.0.0",
     "react": "^18",
     "react-dom": "^18",
-    "reading-time": "^1.5.0"
+    "reading-time": "^1.5.0",
+    "resend": "^6.5.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.37.0",
     "@next/eslint-plugin-next": "^15.5.5",
+    "@playwright/test": "^1.56.1",
     "@tailwindcss/typography": "^0.5.16",
     "@types/node": "^20",
     "@types/react": "^18",
@@ -49,6 +51,7 @@
     "shiki": "^1.29.2",
     "tailwindcss": "^3.3.0",
     "typescript": "^5.3.3",
+    "typescript-eslint": "^8.47.0",
     "velite": "^0.2.4"
   },
   "engines": {
@@ -56,7 +59,7 @@
     "npm": ">=8.0.0"
   },
   "keywords": [
-    "actarion",
+    "ActARion",
     "augmented-reality",
     "sop",
     "nextjs",
@@ -64,14 +67,14 @@
     "tailwindcss",
     "framer-motion"
   ],
-  "author": "Actarion Team",
+  "author": "ActARion Team",
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ortwinio/actarionwebsite.git"
+    "url": "https://github.com/Ortwinio/ActARionwebsite.git"
   },
   "bugs": {
-    "url": "https://github.com/Ortwinio/actarionwebsite/issues"
+    "url": "https://github.com/Ortwinio/ActARionwebsite/issues"
   },
-  "homepage": "https://actarion.com"
+  "homepage": "https://ActARion.com"
 }

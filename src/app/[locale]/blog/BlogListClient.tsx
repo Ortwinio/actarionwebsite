@@ -3,9 +3,10 @@
 import { useEffect, useState } from 'react'
 import BlogList from '@/components/blog/BlogList'
 import { blogs as allBlogs } from '@/./.velite/generated'
+import { defaultLocale, Locale } from '@/config/site'
 
 interface BlogListClientProps {
-  locale: string
+  locale: Locale
 }
 
 interface Blog {
@@ -26,16 +27,40 @@ interface Blog {
   isPublished: boolean
 }
 
+const sortByPublishedDate = (items: Blog[]) =>
+  [...items].sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
+
 const BlogListClient = ({ locale }: BlogListClientProps) => {
   const [blogs, setBlogs] = useState<Blog[]>([])
   const [loading, setLoading] = useState(true)
+  const [usedFallback, setUsedFallback] = useState(false)
 
   useEffect(() => {
     try {
-      const filteredBlogs = (allBlogs as unknown as Blog[])
-        .filter(blog => blog.locale === locale && blog.isPublished)
-        .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
-      setBlogs(filteredBlogs)
+      const blogEntries = allBlogs as unknown as Blog[]
+      const localizedBlogs = sortByPublishedDate(
+        blogEntries.filter(blog => blog.locale === locale && blog.isPublished)
+      )
+
+      if (localizedBlogs.length > 0) {
+        setBlogs(localizedBlogs)
+        setUsedFallback(false)
+      } else {
+        const fallbackBlogs = sortByPublishedDate(
+          blogEntries.filter(blog => blog.locale === defaultLocale && blog.isPublished)
+        )
+
+        if (fallbackBlogs.length > 0) {
+          console.warn(
+            `[i18n] No ${locale} blog posts found; falling back to ${defaultLocale.toUpperCase()} content.`
+          )
+          setBlogs(fallbackBlogs)
+          setUsedFallback(true)
+        } else {
+          setBlogs([])
+          setUsedFallback(false)
+        }
+      }
     } catch (error) {
       console.error('Error loading blogs:', error)
     } finally {
@@ -51,7 +76,16 @@ const BlogListClient = ({ locale }: BlogListClientProps) => {
     )
   }
 
-  return <BlogList blogs={blogs} locale={locale} />
+  return (
+    <div className="space-y-6">
+      {usedFallback && (
+        <div className="summary summary--floating text-sm">
+          {"We're still translating this blog section. Showing English articles for now."}
+        </div>
+      )}
+      <BlogList blogs={blogs} locale={locale} />
+    </div>
+  )
 }
 
 export default BlogListClient

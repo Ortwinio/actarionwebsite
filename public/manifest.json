@@ -9,13 +9,13 @@
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/Actarionlogo.png",
+      "src": "/ActARionlogo.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/Actarionlogo.png",
+      "src": "/ActARionlogo.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"

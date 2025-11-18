@@ -2,6 +2,7 @@
 
 import { FC } from 'react'
 import BlogCard from './BlogCard'
+import { Locale } from '@/config/site'
 
 interface BlogListProps {
   blogs: Array<{
@@ -19,15 +20,15 @@ interface BlogListProps {
       text: string
     }
   }>
-  locale: string
+  locale: Locale
 }
 
 const BlogList: FC<BlogListProps> = ({ blogs, locale }) => {
   if (blogs.length === 0) {
     return (
       <div className="text-center py-12">
-        <h3 className="text-xl font-semibold text-gray-300 mb-2">No blog posts found</h3>
-        <p className="text-gray-400">Check back soon for new content!</p>
+        <h3 className="text-xl font-semibold text-slate-700 mb-2">No blog posts found</h3>
+        <p className="text-slate-500">Check back soon for new content!</p>
       </div>
     )
   }

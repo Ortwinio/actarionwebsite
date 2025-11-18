@@ -1,26 +1,30 @@
 "use client";
-import { useState, useRef, useEffect } from 'react';
-import { useRouter, usePathname } from 'next/navigation';
-import { GlobeAltIcon } from '@heroicons/react/24/outline';
+
+import { useEffect, useRef, useState } from "react";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { GlobeAltIcon } from "@heroicons/react/24/outline";
+import { Locale, locales } from "@/config/site";
+import { buildHrefWithLocale, replaceLocaleInPathname } from "@/lib/localePaths";
 
 interface LanguageSelectorProps {
-  currentLocale: string;
+  currentLocale: Locale;
   dictionary: any;
+  variant?: 'default' | 'header';
 }
 
-const languages = [
-  { code: 'en', name: 'English', flag: '🇺🇸' },
-  { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
-  { code: 'nl', name: 'Nederlands', flag: '🇳🇱' },
-];
+const localeMetadata: Record<Locale, { name: string; flag: string }> = {
+  en: { name: "English", flag: "🇺🇸" },
+  de: { name: "Deutsch", flag: "🇩🇪" },
+  nl: { name: "Nederlands", flag: "🇳🇱" },
+};
 
-export default function LanguageSelector({ currentLocale, dictionary }: LanguageSelectorProps) {
+export default function LanguageSelector({ currentLocale, dictionary, variant = 'default' }: LanguageSelectorProps) {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
-  const pathname = usePathname();
+  const pathname = usePathname() || "/";
+  const searchParams = useSearchParams();
 
-  // Close dropdown when clicking outside
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
@@ -28,60 +32,84 @@ export default function LanguageSelector({ currentLocale, dictionary }: Language
       }
     };
 
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  const handleLanguageChange = (locale: string) => {
+  const handleLanguageChange = (locale: Locale) => {
+    if (locale === currentLocale) {
+      setIsOpen(false);
+      return;
+    }
+
+    const basePath = replaceLocaleInPathname(pathname, locale);
+    const queryString = searchParams.toString();
+    const hash = typeof window !== "undefined" ? window.location.hash : "";
+    const target =
+      `${basePath}${queryString ? `?${queryString}` : ""}${hash || ""}` ||
+      buildHrefWithLocale(locale, pathname);
+
     setIsOpen(false);
-    
-    // Get the current path without the locale prefix
-    const pathWithoutLocale = pathname.replace(/^\/[a-z]{2}/, '') || '/';
-    
-    // Navigate to the new locale path
-    const newPath = locale === 'en' ? pathWithoutLocale : `/${locale}${pathWithoutLocale}`;
-    router.push(newPath);
+    router.push(target);
   };
 
-  const currentLanguage = languages.find(lang => lang.code === currentLocale) || languages[0];
+  const currentLanguage = localeMetadata[currentLocale];
+
+  const triggerClassName =
+    variant === 'header'
+      ? 'site-header__icon-button'
+      : 'language-selector__trigger';
 
   return (
     <div className="relative" ref={dropdownRef}>
       <button
-        onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center space-x-2 px-3 py-2 text-white hover:text-cyan-400 transition-colors rounded-md hover:bg-neutral-800 border border-gray-600"
+        type="button"
+        data-testid="language-selector-toggle"
+        onClick={() => setIsOpen((open) => !open)}
+        className={triggerClassName}
         aria-label={dictionary?.languageSelector?.title || "Language"}
+        aria-haspopup="menu"
+        aria-expanded={isOpen}
       >
         <GlobeAltIcon className="h-5 w-5" />
         <span className="inline">{currentLanguage.flag}</span>
-        <span className="hidden sm:inline text-sm font-medium">
-          {currentLanguage.name}
-        </span>
+        <span className="hidden sm:inline text-sm font-medium">{currentLanguage.name}</span>
       </button>
 
       {isOpen && (
-        <div className="absolute right-0 mt-2 w-48 bg-neutral-900 border border-neutral-700 rounded-md shadow-lg z-50">
-          <div className="py-1">
-            {languages.map((language) => (
-              <button
-                key={language.code}
-                onClick={() => handleLanguageChange(language.code)}
-                className={`w-full text-left px-4 py-2 text-sm hover:bg-neutral-800 transition-colors flex items-center space-x-3 ${
-                  currentLocale === language.code
-                    ? 'text-cyan-400 bg-neutral-800'
-                    : 'text-white'
-                }`}
-              >
-                <span className="text-lg">{language.flag}</span>
-                <span>{language.name}</span>
-                {currentLocale === language.code && (
-                  <span className="ml-auto text-cyan-400">✓</span>
-                )}
-              </button>
-            ))}
+        <div
+          className="language-selector__menu absolute right-0 mt-2 z-50"
+          role="menu"
+        >
+          <div className="space-y-1">
+            {locales.map((code) => {
+              const metadata = localeMetadata[code];
+              const isActive = currentLocale === code;
+              const itemClass = `language-selector__item${isActive ? " language-selector__item--active" : ""}`;
+
+              return (
+                <button
+                  key={code}
+                  type="button"
+                  data-testid={`language-option-${code}`}
+                  onClick={() => handleLanguageChange(code)}
+                  className={itemClass}
+                  role="menuitemradio"
+                  aria-checked={isActive}
+                >
+                  <span className="text-lg">{metadata.flag}</span>
+                  <span>{metadata.name}</span>
+                  {isActive && (
+                    <span className="ml-auto text-sm" aria-hidden="true">
+                      ✓
+                    </span>
+                  )}
+                </button>
+              );
+            })}
           </div>
         </div>
       )}
     </div>
   );
-} 
+}

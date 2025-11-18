@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { FC } from 'react'
+import { buildLocalizedPath, Locale } from '@/config/site'
 
 interface BlogCardProps {
   blog: {
@@ -20,7 +21,7 @@ interface BlogCardProps {
       text: string
     }
   }
-  locale: string
+  locale: Locale
 }
 
 const BlogCard: FC<BlogCardProps> = ({ blog, locale }) => {
@@ -33,44 +34,44 @@ const BlogCard: FC<BlogCardProps> = ({ blog, locale }) => {
   }
 
   return (
-    <article className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+    <article className="card overflow-hidden bg-white hover:shadow-soft transition-shadow duration-300">
       {blog.image && (
         <div className="relative h-48 overflow-hidden">
           <Image
             src={blog.image.src}
             alt={blog.image.alt || blog.title}
             fill
-            unoptimized
+            sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
             className="object-cover hover:scale-105 transition-transform duration-300"
           />
         </div>
       )}
-      <div className="p-6">
+      <div className="p-6 space-y-4">
         <div className="flex items-center gap-2 mb-3">
           {blog.tags.slice(0, 3).map((tag) => (
             <span
               key={tag}
-              className="px-2 py-1 text-xs font-medium bg-cyan-500/20 text-cyan-400 rounded-full"
+              className="px-2 py-1 text-xs font-medium bg-actarion-blue/10 text-actarion-blue rounded-full"
             >
               {tag}
             </span>
           ))}
         </div>
-        <h3 className="text-xl font-bold text-white mb-2 line-clamp-2">
+        <h3 className="text-xl font-bold text-slate-900 line-clamp-2">
           {blog.title}
         </h3>
-        <p className="text-gray-300 mb-4 line-clamp-3">
+        <p className="text-slate-600 line-clamp-3">
           {blog.description}
         </p>
-        <div className="flex items-center justify-between text-sm text-gray-400 mb-4">
+        <div className="flex items-center justify-between text-sm text-slate-500">
           <span>{blog.author}</span>
           <span>{formatDate(blog.publishedAt)}</span>
         </div>
         <div className="flex items-center justify-between">
-          <span className="text-sm text-gray-400">{blog.readingTime.text}</span>
+          <span className="text-sm text-slate-500">{blog.readingTime.text}</span>
           <Link
-            href={`/${locale}/blog/${blog.slug}`}
-            className="inline-flex items-center text-cyan-400 hover:text-cyan-300 transition-colors font-medium"
+            href={buildLocalizedPath(locale, `blog/${blog.slug}`)}
+            className="btn btn-link text-actarion-blue hover:opacity-80 px-0"
           >
             Read more
             <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">

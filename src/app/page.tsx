@@ -1,5 +1,6 @@
 import { redirect } from 'next/navigation';
+import { buildLocalizedPath, defaultLocale } from '@/config/site';
 
 export default function RootPage() {
-  redirect('/en');
+  redirect(buildLocalizedPath(defaultLocale));
 }

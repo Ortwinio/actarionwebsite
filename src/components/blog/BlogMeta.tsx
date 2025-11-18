@@ -1,6 +1,7 @@
 'use client'
 
 import { FC } from 'react'
+import { Locale } from '@/config/site'
 
 interface BlogMetaProps {
   author: string
@@ -10,7 +11,7 @@ interface BlogMetaProps {
     text: string
   }
   tags: string[]
-  locale: string
+  locale: Locale
 }
 
 const BlogMeta: FC<BlogMetaProps> = ({ author, publishedAt, updatedAt, readingTime, tags, locale }) => {
@@ -25,8 +26,8 @@ const BlogMeta: FC<BlogMetaProps> = ({ author, publishedAt, updatedAt, readingTi
   const isUpdated = new Date(updatedAt) > new Date(publishedAt)
 
   return (
-    <div className="border-b border-gray-700 pb-6 mb-8">
-      <div className="flex flex-wrap items-center gap-4 text-sm text-gray-400 mb-4">
+    <div className="border-b border-white/10 pb-6 mb-8 text-white/80">
+      <div className="flex flex-wrap items-center gap-4 text-sm mb-4">
         <div className="flex items-center gap-2">
           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />

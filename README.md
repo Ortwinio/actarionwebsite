@@ -1,6 +1,6 @@
-# Actarion Website
+# ActARion Website
 
-A modern, responsive website for Actarion - Revolutionizing SOP Execution with Augmented Reality.
+A modern, responsive website for ActARion - Revolutionizing SOP Execution with Augmented Reality.
 
 ## 🚀 Features
 
@@ -9,6 +9,14 @@ A modern, responsive website for Actarion - Revolutionizing SOP Execution with A
 - **Modern UI/UX**: Clean, professional design with smooth animations
 - **Performance Optimized**: Built with Next.js 15 and optimized for speed
 - **SEO Ready**: Proper meta tags and structured content
+
+## 📚 Documentation Hub
+
+- `docs/README.md` – entry point for all internal guides
+- `docs/content/blog-posting-instructions.md` – editorial workflow for blogs
+- `docs/operations/deployment.md` & `docs/operations/deployment-guide.md` – deployment procedures
+- `docs/operations/production-checklist.md` – pre-launch QA
+- `AGENTS.md` – how to work with plans and async contributors
 
 ## 🛠️ Tech Stack
 
@@ -22,8 +30,8 @@ A modern, responsive website for Actarion - Revolutionizing SOP Execution with A
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/actarionwebsite.git
-   cd actarionwebsite
+   git clone https://github.com/yourusername/ActARionwebsite.git
+   cd ActARionwebsite
    ```
 
 2. **Install dependencies**
@@ -39,15 +47,27 @@ A modern, responsive website for Actarion - Revolutionizing SOP Execution with A
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
+## 🔑 Environment Variables
+
+Create a `.env.local` file (Next.js loads it automatically) with the credentials below so form submissions can send email:
+
+```
+RESEND_API_KEY=your_resend_api_key
+# Optional: overrides the default "ActARion Careers <careers@actarion.com>" sender
+RESEND_FROM_EMAIL="ActARion Careers <careers@actarion.com>"
+```
+
+> The `/api/apply` route uses [Resend](https://resend.com/) to email incoming job applications to `ortwin@actarion.com`. Make sure the `RESEND_FROM_EMAIL` domain is verified in Resend before deploying to production.
+
 ## 🎬 Video Setup
 
-The website uses `Actarion_intro.mp4` as a background video. Ensure this file is placed in the `public/` directory:
+The website uses `ActARion_intro.mp4` as a background video. Ensure this file is placed in the `public/` directory:
 
 ```
 public/
-  ├── Actarion_intro.mp4
-  ├── Actarionlogo.png
-  ├── actariontextlogo.png
+  ├── ActARion_intro.mp4
+  ├── ActARionlogo.png
+  ├── ActARiontextlogo.png
   └── ...
 ```
 
@@ -81,11 +101,11 @@ npm start
 ## 📁 Project Structure
 
 ```
-actarionwebsite/
+ActARionwebsite/
 ├── public/                 # Static assets
-│   ├── Actarion_intro.mp4  # Background video
-│   ├── Actarionlogo.png    # Company logo
-│   └── actariontextlogo.png
+│   ├── ActARion_intro.mp4  # Background video
+│   ├── ActARionlogo.png    # Company logo
+│   └── ActARiontextlogo.png
 ├── src/
 │   └── app/
 │       ├── layout.tsx      # Root layout
@@ -115,7 +135,7 @@ Update content in `src/app/page.tsx`:
 - Industry sections
 
 ### Video
-Replace `public/Actarion_intro.mp4` with your own video file.
+Replace `public/ActARion_intro.mp4` with your own video file.
 
 ## 🔧 Development
 
@@ -163,14 +183,14 @@ The website is fully responsive with breakpoints:
 
 ## 📄 License
 
-This project is proprietary to Actarion. All rights reserved.
+This project is proprietary to ActARion. All rights reserved.
 
 ## 📞 Contact
 
-- **Email**: hello@actarion.com
-- **Website**: www.actarion.com
+- **Email**: hello@ActARion.com
+- **Website**: www.ActARion.com
 - **Region**: Serving Benelux, DACH & Nordics
 
 ---
 
-Built with ❤️ by Actarion Team
+Built with ❤️ by ActARion Team

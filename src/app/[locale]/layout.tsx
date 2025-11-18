@@ -1,15 +1,18 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { notFound } from "next/navigation";
-import Navigation from '../../components/Navigation';
-import CookieBanner from '../../components/CookieBanner';
-import ConditionalAnalytics from '../../components/ConditionalAnalytics';
+import Navigation from "../../components/Navigation";
+import { Footer } from "../../components/Footer";
 import { getDictionary } from "../../lib/getDictionary";
+import { isSupportedLocale, locales, Locale } from "../../config/site";
+import { buildPageMetadata, buildWebsiteSchema, localBusinessSchema, organizationSchema } from "../../config/seo";
 import "../globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const locales = ['en', 'de', 'nl'];
+const homeTitle = "ActARion - Action with AR Revolutionize Excellence";
+const homeDescription =
+  "ActARion delivers next-generation SOP solutions powered by AR technology—transforming how frontline teams work, learn, and stay safe across Benelux, DACH, and the Nordics.";
 
 export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -17,16 +20,20 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
-  
-  if (!locales.includes(locale)) {
+
+  if (!isSupportedLocale(locale)) {
     notFound();
   }
 
-  const dictionary = await getDictionary(locale as 'en' | 'de' | 'nl');
+  const typedLocale = locale as Locale;
+  const baseMetadata = buildPageMetadata({
+    locale: typedLocale,
+    title: homeTitle,
+    description: homeDescription,
+  });
 
   return {
-    title: "ActARion - Action with AR Revolutionize Excellence",
-    description: "ActARion - Action with AR Revolutionize Excellence. Delivering next-generation SOP solutions powered by AR technology—transforming how frontline teams work, learn, and stay safe. Serving Benelux, DACH & Nordics.",
+    ...baseMetadata,
     keywords: [
       "ActARion",
       "Action with AR",
@@ -55,34 +62,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       address: false,
       telephone: false,
     },
-    metadataBase: new URL('https://actarion.com'),
-    alternates: {
-      canonical: '/',
-      languages: {
-        'en': '/en',
-        'de': '/de',
-        'nl': '/nl',
-      },
-    },
-    openGraph: {
-      title: "ActARion - Action with AR Revolutionize Excellence",
-      description: "ActARion - Action with AR Revolutionize Excellence. Delivering next-generation SOP solutions powered by AR technology—transforming how frontline teams work, learn, and stay safe.",
-      url: 'https://actarion.com',
-      siteName: 'ActARion',
-      images: [
-        {
-          url: '/Actarionlogo.png',
-          width: 1200,
-          height: 630,
-          alt: 'Actarion - AR-Powered SOP Solutions',
-        },
-      ],
-      locale: locale === 'en' ? 'en_US' : locale === 'de' ? 'de_DE' : 'nl_NL',
-      type: 'website',
-    },
-    twitter: {
-      card: 'summary_large_image',
-    },
     verification: {
       google: 'your-google-verification-code',
     },
@@ -98,16 +77,29 @@ export default async function LocaleLayout({
 }) {
   const { locale } = await params;
 
-  if (!locales.includes(locale)) {
+  if (!isSupportedLocale(locale)) {
     notFound();
   }
 
-  const dictionary = await getDictionary(locale as 'en' | 'de' | 'nl');
+  const typedLocale = locale as Locale;
+  const dictionary = await getDictionary(typedLocale);
+  const siteSchemas = JSON.stringify([
+    organizationSchema,
+    localBusinessSchema,
+    buildWebsiteSchema(typedLocale),
+  ]);
 
   return (
     <>
-      <Navigation locale={locale} dictionary={dictionary} />
-      {children}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: siteSchemas }}
+      />
+      <div className="relative flex min-h-screen flex-col bg-[var(--color-page-bg)] text-[var(--color-text)] pt-[var(--header-height)]">
+        <Navigation locale={typedLocale} dictionary={dictionary} />
+        <div className="flex-1 flex flex-col">{children}</div>
+        <Footer locale={typedLocale} dictionary={dictionary} />
+      </div>
     </>
   );
 } 

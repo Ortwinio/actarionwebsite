@@ -44,7 +44,7 @@
       ]
     },
     {
-      "source": "/Actarion_intro.mp4",
+      "source": "/ActARion_intro.mp4",
       "headers": [
         {
           "key": "Cache-Control",
@@ -81,7 +81,7 @@
     }
   ],
   "env": {
-    "NEXT_PUBLIC_SITE_URL": "https://www.actarion.com",
+    "NEXT_PUBLIC_SITE_URL": "https://www.ActARion.com",
     "NEXT_TELEMETRY_DISABLED": "1"
   }
 } 

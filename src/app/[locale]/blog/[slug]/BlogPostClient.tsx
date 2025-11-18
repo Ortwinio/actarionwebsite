@@ -4,6 +4,7 @@ import Link from 'next/link'
 import BlogMeta from '@/components/blog/BlogMeta'
 import RenderMdx from '@/components/blog/RenderMdx'
 import Image from 'next/image'
+import { buildLocalizedPath, Locale } from '@/config/site'
 
 interface BlogPostClientProps {
   blog: {
@@ -22,43 +23,26 @@ interface BlogPostClientProps {
       alt?: string
     }
   }
-  locale: string
+  locale: Locale
 }
 
 const BlogPostClient = ({ blog, locale }: BlogPostClientProps) => {
+  const blogListHref = buildLocalizedPath(locale, 'blog')
+  const contactHref = buildLocalizedPath(locale, 'contact')
+
   return (
-    <article className="bg-gray-800 rounded-lg p-8 shadow-xl">
-      <header className="mb-8">
-        {blog.image && (
-          <div className="relative w-full h-56 md:h-72 lg:h-80 mb-6 overflow-hidden rounded-lg">
-            <Image
-              src={blog.image.src}
-              alt={blog.image.alt || blog.title}
-              fill
-              className="object-cover"
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
-              priority
-            />
-          </div>
-        )}
+    <article className="card space-y-6 bg-white text-slate-900">
+      <div className="flex flex-col gap-6">
         <Link
-          href={`/${locale}/blog`}
-          className="inline-flex items-center text-cyan-400 hover:text-cyan-300 transition-colors mb-6"
+          href={blogListHref}
+          className="btn btn-link"
         >
           <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
           </svg>
           Back to Blog
         </Link>
-        
-        <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-          {blog.title}
-        </h1>
-        
-        <p className="text-xl text-gray-300 mb-6">
-          {blog.description}
-        </p>
-        
+
         <BlogMeta
           author={blog.author}
           publishedAt={blog.publishedAt}
@@ -67,9 +51,9 @@ const BlogPostClient = ({ blog, locale }: BlogPostClientProps) => {
           tags={blog.tags}
           locale={locale}
         />
-      </header>
-      
-      <div className="prose prose-invert prose-lg max-w-none">
+      </div>
+
+      <div className="prose prose-lg max-w-none text-slate-700">
         {blog.image && (
           <figure className="mb-8">
             <Image
@@ -83,19 +67,19 @@ const BlogPostClient = ({ blog, locale }: BlogPostClientProps) => {
             />
           </figure>
         )}
-        <RenderMdx code={blog.body} />
+        <RenderMdx code={blog.body} locale={locale} />
       </div>
       
-      <footer className="mt-12 pt-8 border-t border-gray-700">
+      <footer className="pt-6 border-t border-slate-200">
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
-          <div className="text-sm text-gray-400">
+          <div className="text-sm text-slate-500">
             <p>Written by {blog.author}</p>
             <p>Published on {new Date(blog.publishedAt).toLocaleDateString()}</p>
           </div>
           
           <Link
-            href={`/${locale}/contact`}
-            className="inline-flex items-center px-6 py-3 bg-cyan-500 hover:bg-cyan-600 text-white font-medium rounded-lg transition-colors"
+            href={contactHref}
+            className="btn btn-primary btn-pill"
           >
             Get in Touch
             <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">

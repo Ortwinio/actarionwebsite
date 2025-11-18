@@ -1,7 +1,11 @@
 "use client";
-import { useState, useEffect } from 'react';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import { useState, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { XMarkIcon, ShieldCheckIcon, Cog6ToothIcon } from '@heroicons/react/24/outline';
+import { buildLocalizedPath, defaultLocale } from '@/config/site';
+import { getLocaleFromPathname } from '@/lib/localePaths';
 
 interface CookiePreferences {
   necessary: boolean;
@@ -25,6 +29,16 @@ export default function CookieBanner() {
       setShowBanner(true);
     }
   }, []);
+
+  const pathname = usePathname() || "/";
+  const currentLocale = useMemo(
+    () => getLocaleFromPathname(pathname) ?? defaultLocale,
+    [pathname],
+  );
+  const privacyHref = useMemo(
+    () => buildLocalizedPath(currentLocale, "privacy"),
+    [currentLocale],
+  );
 
   const acceptAll = () => {
     const allAccepted = {
@@ -82,10 +96,10 @@ export default function CookieBanner() {
                 </div>
                 <p className="text-gray-300 text-sm sm:text-base">
                   We use cookies to enhance your experience, analyze site traffic, and personalize content. 
-                  By continuing to use our site, you consent to our use of cookies.{' '}
-                  <a href="/privacy" className="text-cyan-400 hover:text-cyan-300 underline">
+                  By continuing to use our site, you consent to our use of cookies.{" "}
+                  <Link href={privacyHref} className="text-cyan-400 hover:text-cyan-300 underline">
                     Learn more in our Privacy Policy
-                  </a>
+                  </Link>
                 </p>
               </div>
               

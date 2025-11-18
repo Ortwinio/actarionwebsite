@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { headers } from "next/headers";
 import CookieBanner from '../components/CookieBanner';
 import ConditionalAnalytics from '../components/ConditionalAnalytics';
 import { ThemeProvider } from '../contexts/ThemeContext';
+import { defaultLocale, isSupportedLocale } from '../config/site';
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -39,21 +41,21 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://www.actarion.com'),
+  metadataBase: new URL('https://www.ActARion.com'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: "ActARion – Augmented Reality SOP & AR Work Instruction Software",
     description: "ActARion transforms SOPs into interactive AR work instructions. Train faster, reduce errors, and improve frontline quality with digital SOP software.",
-    url: 'https://www.actarion.com',
+    url: 'https://www.ActARion.com',
     siteName: 'ActARion',
     images: [
       {
-        url: '/Actarionlogo.png',
+        url: '/ActARionlogo.png',
         width: 1200,
         height: 630,
-        alt: 'Actarion - AR-Powered SOP Solutions',
+        alt: 'ActARion - AR-Powered SOP Solutions',
       },
     ],
     locale: 'en_US',
@@ -63,7 +65,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "ActARion – Augmented Reality SOP & AR Work Instruction Software",
     description: "ActARion transforms SOPs into interactive AR work instructions. Train faster, reduce errors, and improve frontline quality with digital SOP software.",
-    images: ['/Actarionlogo.png'],
+    images: ['/ActARionlogo.png'],
   },
   robots: {
     index: true,
@@ -86,11 +88,15 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const headersList = headers();
+  const localeHeader = headersList.get('x-actarion-locale');
+  const resolvedLocale = localeHeader && isSupportedLocale(localeHeader) ? localeHeader : defaultLocale;
+
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang={resolvedLocale} className="scroll-smooth">
       <head>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/Actarionlogo.png" />
+        <link rel="apple-touch-icon" href="/ActARionlogo.png" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#000000" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />

@@ -1,19 +1,18 @@
 import { NextRequest, NextResponse } from 'next/server';
-
-const locales = ['en', 'de', 'nl'];
-const defaultLocale = 'en';
+import { defaultLocale, isSupportedLocale, locales, Locale } from './src/config/site';
 
 // Get the preferred locale from the request
-function getLocale(request: NextRequest): string {
+function getLocale(request: NextRequest): Locale {
   const acceptLanguage = request.headers.get('accept-language');
   if (acceptLanguage) {
     const preferredLocale = acceptLanguage
       .split(',')
       .map(lang => lang.split(';')[0].trim())
-      .find(lang => locales.includes(lang.substring(0, 2)));
+      .map(lang => lang.substring(0, 2))
+      .find(isSupportedLocale);
     
     if (preferredLocale) {
-      return preferredLocale.substring(0, 2);
+      return preferredLocale;
     }
   }
   return defaultLocale;
@@ -22,27 +21,33 @@ function getLocale(request: NextRequest): string {
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
   
-  // Handle old FAQ path redirect
+  // Handle legacy non-localized paths
   if (pathname === '/faq') {
-    return NextResponse.redirect(new URL('/en/faq', request.url));
+    return NextResponse.redirect(new URL(`/${defaultLocale}/faq`, request.url));
   }
-  // Redirect non-localized blog root to default locale
   if (pathname === '/blog') {
-    return NextResponse.redirect(new URL('/en/blog', request.url));
+    return NextResponse.redirect(new URL(`/${defaultLocale}/blog`, request.url));
   }
   
   // Check if the pathname already has a locale
-  const pathnameHasLocale = locales.some(
-    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
+  const matchedLocale = locales.find(
+    (locale) => pathname === `/${locale}` || pathname.startsWith(`/${locale}/`)
   );
 
-  if (pathnameHasLocale) return;
+  if (matchedLocale) {
+    const requestHeaders = new Headers(request.headers);
+    requestHeaders.set('x-actarion-locale', matchedLocale);
+    return NextResponse.next({
+      request: {
+        headers: requestHeaders,
+      },
+    });
+  }
 
   // Redirect if there is no locale
   const locale = getLocale(request);
   const newUrl = new URL(`/${locale}${pathname}`, request.url);
   
-  // Handle root path specially
   if (pathname === '/') {
     newUrl.pathname = `/${locale}`;
   }

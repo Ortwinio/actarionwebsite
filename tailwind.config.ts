@@ -15,23 +15,15 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors: {
-        // Custom theme colors
-        'theme-bg': {
-          light: '#ffffff',
-          dark: '#0f0f0f',
-        },
-        'theme-surface': {
-          light: '#f8fafc',
-          dark: '#1a1a1a',
-        },
-        'theme-text': {
-          light: '#1e293b',
-          dark: '#f1f5f9',
-        },
-        'theme-text-secondary': {
-          light: '#64748b',
-          dark: '#94a3b8',
-        },
+        'actarion-blue': '#1a80c2',
+        'actarion-blue-strong': '#0f67a3',
+        'actarion-dark': '#041430',
+      },
+      fontFamily: {
+        sans: ['var(--font-sans)', 'Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+      },
+      boxShadow: {
+        card: 'var(--shadow-card)',
       },
     },
   },
