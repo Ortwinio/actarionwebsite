@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Locale, buildLocalizedPath } from "../config/site";
+import { NewsletterForm } from "./NewsletterForm";
 
 interface FooterProps {
   locale: Locale;
@@ -8,6 +9,7 @@ interface FooterProps {
 }
 
 export function Footer({ locale, dictionary }: FooterProps) {
+  const homeHref = buildLocalizedPath(locale);
   const useCasesHref = buildLocalizedPath(locale, "use-cases");
   const aboutHref = buildLocalizedPath(locale, "about");
   const contactHref = buildLocalizedPath(locale, "contact");
@@ -15,22 +17,31 @@ export function Footer({ locale, dictionary }: FooterProps) {
   const faqHref = buildLocalizedPath(locale, "faq");
   const termsHref = buildLocalizedPath(locale, "terms");
   const privacyHref = buildLocalizedPath(locale, "privacy");
+  const newsletterCopy = dictionary.footer?.newsletter ?? {};
+  const newsletterDescription =
+    newsletterCopy.description ??
+    "Get updates on smarter, safer and faster work with AI and Augmented Reality.";
 
   return (
     <footer className="site-footer">
       <div className="site-footer__inner">
         <div>
-          <div className="mb-4 flex items-center gap-2">
+          <Link
+            href={homeHref}
+            aria-label="ActARion homepage"
+            className="site-logo mb-4 inline-flex"
+          >
             <Image
-              src="/ActARionlogo.png"
-              alt="ActARion Logo"
+              src="/actarionlogo.png"
+              alt="ActARion symbol"
               width={36}
               height={36}
+              className="h-9 w-auto"
             />
-            <span className="site-logo">
+            <span className="site-logo__text">
               Act<span className="logo-wordmark__accent">AR</span>ion
             </span>
-          </div>
+          </Link>
           <p>
             {dictionary.footer?.copyright ??
               "© 2024 ActARion. All rights reserved."}
@@ -95,6 +106,24 @@ export function Footer({ locale, dictionary }: FooterProps) {
               </a>
             </li>
           </ul>
+        </div>
+
+        <div>
+          <h3 className="site-footer__title">
+            {newsletterCopy.title || "Subscribe to our newsletter"}
+          </h3>
+          <p className="text-sm text-gray-300">{newsletterDescription}</p>
+          <NewsletterForm
+            copy={{
+              placeholder: newsletterCopy.placeholder,
+              buttonLabel: newsletterCopy.buttonLabel,
+              loadingLabel: newsletterCopy.loadingLabel,
+              successMessage: newsletterCopy.successMessage,
+              errorMessage: newsletterCopy.errorMessage,
+              rateLimitedMessage: newsletterCopy.rateLimitedMessage,
+              backLabel: newsletterCopy.backLabel,
+            }}
+          />
         </div>
       </div>
 

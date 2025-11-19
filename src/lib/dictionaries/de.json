@@ -95,7 +95,18 @@
     "terms": "Allgemeine Geschäftsbedingungen",
     "privacy": "Datenschutzrichtlinie",
     "onepager": "Unseren Onepager ansehen",
-    "copyright": "© 2024 ActARion. Alle Rechte vorbehalten."
+    "copyright": "© 2024 ActARion. Alle Rechte vorbehalten.",
+    "newsletter": {
+      "title": "Abonnieren Sie unseren Newsletter",
+      "description": "Erhalten Sie Updates zu smarter, sicherer und schneller Arbeit mit KI und Augmented Reality.",
+      "placeholder": "sie@example.com",
+      "buttonLabel": "Newsletter abonnieren",
+      "loadingLabel": "Bitte warten...",
+      "successMessage": "Danke! Wir melden uns bei Ihnen!",
+      "errorMessage": "Hoppla! Etwas ist schiefgelaufen, bitte versuchen Sie es erneut",
+      "rateLimitedMessage": "Zu viele Anmeldungen, bitte versuchen Sie es in Kürze erneut",
+      "backLabel": "← Zurück"
+    }
   },
   "pages": {
     "about": {

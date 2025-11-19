@@ -58,14 +58,17 @@ export default function Navigation({ locale, dictionary }: NavigationProps) {
           href={homeHref}
           className="site-logo"
           onClick={closeMobileMenu}
+          aria-label="ActARion homepage"
         >
           <Image
-            src="/ActARionlogo.png"
-            alt="ActARion Logo"
+            src="/actarionlogo.png"
+            alt="ActARion symbol"
             width={36}
             height={36}
+            className="h-9 w-auto"
+            priority
           />
-          <span>
+          <span className="site-logo__text">
             Act<span className="logo-wordmark__accent">AR</span>ion
           </span>
         </Link>
@@ -88,7 +91,7 @@ export default function Navigation({ locale, dictionary }: NavigationProps) {
               dictionary={dictionary}
               variant="header"
             />
-            <Link href={contactHref} className="btn btn-secondary btn-pill">
+            <Link href={contactHref} className="btn btn-primary btn-pill">
               {ctaLabel}
             </Link>
           </div>

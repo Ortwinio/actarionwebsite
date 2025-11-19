@@ -1,10 +1,11 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { PageHeader } from "@/components/PageHeader";
-import { getDictionary } from "@/lib/getDictionary";
+import BlogList from "@/components/blog/BlogList";
 import { buildPageMetadata } from "@/config/seo";
 import { isSupportedLocale } from "@/config/site";
-import BlogListClient from "./BlogListClient";
+import { getDictionary } from "@/lib/getDictionary";
+import { getBlogsForLocale } from "@/lib/blogs";
 
 interface BlogListPageProps {
   params: Promise<{ locale: 'en' | 'de' | 'nl' }>
@@ -31,6 +32,7 @@ export async function generateMetadata({ params }: BlogListPageProps): Promise<M
 export default async function BlogListPage({ params }: BlogListPageProps) {
   const { locale } = await params;
   const dictionary = await getDictionary(locale);
+  const { blogs, usedFallback } = getBlogsForLocale(locale);
 
   const blogTitle = dictionary.pages?.blog?.title || "Blog";
   const blogDescription =
@@ -40,8 +42,13 @@ export default async function BlogListPage({ params }: BlogListPageProps) {
     <>
       <PageHeader title={blogTitle} subtitle={blogDescription} />
       <main className="section section-light">
-        <div className="section-inner space-y-8">
-          <BlogListClient locale={locale} />
+        <div className="section-inner space-y-6">
+          {usedFallback && (
+            <div className="summary summary--floating text-sm">
+              We're still translating this blog section. Showing English articles for now.
+            </div>
+          )}
+          <BlogList blogs={blogs} locale={locale} />
         </div>
       </main>
     </>

@@ -148,5 +148,9 @@ export default nextConfig;
 #### 14) Optional enhancements
 - Client search (title/tags), related posts by tags, RSS feed route, simple view counter (edge function + KV/DB).
 
+#### 15) Maintenance notes (2025-11-19)
+- Blog listings now load server-side via `src/lib/blogs.ts` so `/[locale]/blog` renders full cards without waiting for hydration. Reuse its helpers in detail pages instead of importing Velite output directly.
+- Hero/thumbnail images live under `/public/blogs` and MDX frontmatter stores root-relative paths (e.g. `/blogs/<slug>.png`). Velite preserves absolute paths, so case-sensitive files work on Vercel.
+- Inline `<img>` tags in MDX render through `MdxImage` (Next Image wrapper) to keep sizing consistent with the blog hero styles.
 
 

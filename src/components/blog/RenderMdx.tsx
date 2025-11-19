@@ -5,6 +5,7 @@ import { ComponentPropsWithoutRef, FC } from 'react'
 import { Locale } from '@/config/site'
 import { buildHrefWithLocale } from '@/lib/localePaths'
 import MDXContent from './MdxContent'
+import { MdxImage } from './MdxImage'
 
 interface RenderMdxProps {
   code: string
@@ -33,6 +34,7 @@ const RenderMdx: FC<RenderMdxProps> = ({ code, locale }) => {
       <LocalizedAnchor locale={locale} {...props} />
     ),
     h1: () => null,
+    img: (props: ComponentPropsWithoutRef<'img'>) => <MdxImage {...props} />,
   }
 
   return (

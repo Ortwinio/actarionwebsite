@@ -24,14 +24,15 @@ interface BlogPostClientProps {
     }
   }
   locale: Locale
+  isFallback?: boolean
 }
 
-const BlogPostClient = ({ blog, locale }: BlogPostClientProps) => {
+const BlogPostClient = ({ blog, locale, isFallback }: BlogPostClientProps) => {
   const blogListHref = buildLocalizedPath(locale, 'blog')
   const contactHref = buildLocalizedPath(locale, 'contact')
 
   return (
-    <article className="card space-y-6 bg-white text-slate-900">
+    <article className="card space-y-8 bg-white p-8 text-slate-900">
       <div className="flex flex-col gap-6">
         <Link
           href={blogListHref}
@@ -43,6 +44,13 @@ const BlogPostClient = ({ blog, locale }: BlogPostClientProps) => {
           Back to Blog
         </Link>
 
+        {isFallback && (
+          <div className="rounded-2xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">
+            We're showing the English version of this article while we finish translating this
+            locale.
+          </div>
+        )}
+
         <BlogMeta
           author={blog.author}
           publishedAt={blog.publishedAt}
@@ -53,18 +61,22 @@ const BlogPostClient = ({ blog, locale }: BlogPostClientProps) => {
         />
       </div>
 
-      <div className="prose prose-lg max-w-none text-slate-700">
+      <div className="space-y-6 text-slate-700">
         {blog.image && (
-          <figure className="mb-8">
+          <figure className="overflow-hidden rounded-3xl border border-slate-200 bg-slate-50">
             <Image
               src={blog.image.src}
               alt={blog.image.alt || blog.title}
-              width={1200}
-              height={630}
-              unoptimized
-              className="w-full h-auto rounded-lg shadow"
-              sizes="(max-width: 768px) 100vw, 1200px"
+              width={1400}
+              height={788}
+              className="h-auto w-full object-cover"
+              sizes="(max-width: 1024px) 100vw, 1024px"
             />
+            {blog.image.alt && (
+              <figcaption className="px-6 py-4 text-center text-sm text-slate-500">
+                {blog.image.alt}
+              </figcaption>
+            )}
           </figure>
         )}
         <RenderMdx code={blog.body} locale={locale} />

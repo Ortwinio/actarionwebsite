@@ -1,6 +1,5 @@
 'use client'
 
-import { FC } from 'react'
 import { Locale } from '@/config/site'
 
 interface BlogMetaProps {
@@ -14,7 +13,7 @@ interface BlogMetaProps {
   locale: Locale
 }
 
-const BlogMeta: FC<BlogMetaProps> = ({ author, publishedAt, updatedAt, readingTime, tags, locale }) => {
+const BlogMeta = ({ author, publishedAt, updatedAt, readingTime, tags, locale }: BlogMetaProps) => {
   const formatDate = (dateString: string) => {
     return new Date(dateString).toLocaleDateString(locale === 'en' ? 'en-US' : locale === 'de' ? 'de-DE' : 'nl-NL', {
       year: 'numeric',
@@ -26,7 +25,7 @@ const BlogMeta: FC<BlogMetaProps> = ({ author, publishedAt, updatedAt, readingTi
   const isUpdated = new Date(updatedAt) > new Date(publishedAt)
 
   return (
-    <div className="border-b border-white/10 pb-6 mb-8 text-white/80">
+    <div className="mb-6 border-b border-slate-200 pb-6 text-slate-600">
       <div className="flex flex-wrap items-center gap-4 text-sm mb-4">
         <div className="flex items-center gap-2">
           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -55,7 +54,7 @@ const BlogMeta: FC<BlogMetaProps> = ({ author, publishedAt, updatedAt, readingTi
           {tags.map((tag) => (
             <span
               key={tag}
-              className="px-3 py-1 text-sm font-medium bg-cyan-500/20 text-cyan-400 rounded-full"
+              className="rounded-full bg-actarion-blue/10 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-actarion-blue"
             >
               {tag}
             </span>

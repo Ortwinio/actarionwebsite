@@ -1,29 +1,13 @@
-'use client'
-
-import { FC } from 'react'
 import BlogCard from './BlogCard'
 import { Locale } from '@/config/site'
+import type { BlogEntry } from '@/lib/blogs'
 
 interface BlogListProps {
-  blogs: Array<{
-    title: string
-    description: string
-    image?: {
-      src: string
-      alt?: string
-    }
-    publishedAt: string
-    author: string
-    tags: string[]
-    slug: string
-    readingTime: {
-      text: string
-    }
-  }>
+  blogs: BlogEntry[]
   locale: Locale
 }
 
-const BlogList: FC<BlogListProps> = ({ blogs, locale }) => {
+const BlogList = ({ blogs, locale }: BlogListProps) => {
   if (blogs.length === 0) {
     return (
       <div className="text-center py-12">
@@ -34,9 +18,9 @@ const BlogList: FC<BlogListProps> = ({ blogs, locale }) => {
   }
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:gap-10">
       {blogs.map((blog) => (
-        <BlogCard key={blog.slug} blog={blog} locale={locale} />
+        <BlogCard key={`${blog.slug}-${blog.locale}`} blog={blog} locale={locale} />
       ))}
     </div>
   )

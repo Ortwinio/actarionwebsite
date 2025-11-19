@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { PhoneArrowUpRightIcon } from "@heroicons/react/24/outline";
+import { HomeVideoCta } from "@/components/HomeVideoCta";
 import { buildLocalizedPath, getValidLocale } from "../../config/site";
 import { useCases } from "../../config/useCases";
 import { benefits, howItWorksSteps, industries } from "../../config/homeContent";
@@ -138,6 +139,7 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
 
   // Animation refs
   const [heroRef, heroControls] = useInView(0.2);
+  const [videoEmbedRef, videoEmbedControls] = useInView(0.2);
   const [whatRef, whatControls] = useInView(0.2);
   const [whyRef, whyControls] = useInView(0.2);
   const [useCaseRef, useCaseControls] = useInView(0.2);
@@ -150,31 +152,77 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
   const whatWeDoDescription = dictionary?.sections?.whatWeDo?.description;
   const aboutDescription = dictionary?.sections?.about?.description;
   const contactDescription = dictionary?.sections?.contact?.description;
+  const heroTitle = "Work Smarter, Safer and Faster with AI and Augmented reality.";
+  const heroDescription =
+    "ActARion helps industrial, logistics and energy companies capture critical know-how, guide operators in the flow of work and build a learning organization across sites. Together with our partner Deep Sight, we turn complex work into standard, repeatable execution supported by AR and AI. The future of work in operations is not about more manuals or more classroom training. It is about giving every operator expert-level guidance at the moment of need, in their real working environment.";
 
   return (
     <main className="bg-white text-slate-900">
-      {/* Video hero */}
+      {/* Intro video hero */}
       <motion.section
         ref={heroRef}
         animate={heroControls}
         initial={{ opacity: 0, y: 40 }}
-        className="relative w-full min-h-[70vh] overflow-hidden"
+        className="relative isolate w-full overflow-hidden bg-black text-white"
       >
         <video
           className="absolute inset-0 h-full w-full object-cover"
+          src="/ActARion_intro.mp4"
+          poster="/actarion header1.png"
           autoPlay
-          muted
           loop
+          muted
           playsInline
-          poster="/ActARion header1.png"
-        >
-          <source src="/ActARion_intro.mp4" type="video/mp4" />
-        </video>
-        <div className="absolute inset-0 bg-black/45" />
-        <div className="relative flex h-full items-center justify-center px-4 py-24">
-          <h1 className="text-center text-4xl sm:text-5xl lg:text-6xl font-bold text-white max-w-4xl leading-tight">
-            Work faster, safer and smarter with AI and Augmented Reality
-          </h1>
+          preload="auto"
+          aria-hidden="true"
+        />
+        <div className="absolute inset-0 bg-slate-900/60" aria-hidden="true" />
+        <div className="relative z-10 flex min-h-[70vh] items-center justify-center px-4 py-20">
+          <div className="section-inner text-center space-y-6">
+            <p className="eyebrow text-actarion-blue">
+              ActARion platform
+            </p>
+            <h1 className="text-4xl font-semibold text-white sm:text-5xl lg:text-6xl leading-tight">
+              {heroTitle}
+            </h1>
+            <p className="section-lead mx-auto max-w-4xl text-white/85">
+              {renderTextWithBrand(heroDescription)}
+            </p>
+            <div className="flex flex-wrap items-center justify-center gap-3">
+              <Link href={contactHref} className="btn btn-primary btn-pill">
+                {dictionary.sections.contact.cta}
+              </Link>
+              <Link href={localizedUseCasesHref} className="btn btn-secondary btn-pill">
+                {dictionary?.sections?.useCases?.cta || "Explore use cases"}
+              </Link>
+            </div>
+          </div>
+        </div>
+      </motion.section>
+
+      {/* Product video CTA */}
+      <motion.section
+        ref={videoEmbedRef}
+        animate={videoEmbedControls}
+        initial={{ opacity: 0, y: 40 }}
+        className={`${sectionShell} space-y-8`}
+      >
+        <div className="flex flex-col gap-8 lg:flex-row lg:items-center">
+          <div className="flex-1">
+            <HomeVideoCta />
+          </div>
+          <div className="flex-1 space-y-4 text-slate-700">
+            <h2 className={sectionTitle}>See ActARion in action</h2>
+            <p className="text-base md:text-lg">
+              ActARion pairs AI-assisted SOP creation with AR-guided execution so every operator sees the next best step in context.
+              Share the 30-second overview with the stakeholders who need a quick walkthrough.
+            </p>
+            <ul className="list-disc space-y-2 pl-5 text-slate-600">
+              <li>Preview how guided overlays look through AR glasses or tablets</li>
+              <li>Show HSE and quality teams how mandatory checks stay visible</li>
+              <li>Highlight how ActARion captures evidence for audits automatically</li>
+            </ul>
+          </div>
         </div>
       </motion.section>
 

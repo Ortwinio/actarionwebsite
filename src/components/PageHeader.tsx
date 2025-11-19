@@ -40,31 +40,35 @@ export function PageHeader({
   const imageToUse = backgroundImage ?? HEADER_IMAGES[fallbackIndex];
 
   return (
-    <section className="section section-light pt-10 pb-0">
+    <section className="section section-light pt-8 pb-0">
       <div className="section-inner">
-        <header className="relative z-10 isolate overflow-hidden rounded-[1.75rem] border border-slate-200 bg-slate-900 shadow-card text-white">
+        <header className="relative isolate overflow-hidden rounded-[1.75rem] border border-slate-200 bg-slate-900 text-white shadow-card min-h-[320px] flex items-center justify-center text-center">
           <div className="absolute inset-0">
             <Image
               src={imageToUse}
               alt={title}
               fill
               priority
-              className="object-cover scale-105"
+              className="object-cover"
               sizes="100vw"
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-slate-950/85 via-slate-900/60 to-slate-900/30 backdrop-blur-[1px]" />
+            <div className="absolute inset-0 bg-slate-950/70 backdrop-blur-[1px]" />
           </div>
 
-          <div className="relative z-10 flex flex-col gap-4 px-6 py-12 sm:px-10 sm:py-16 lg:px-12 lg:py-20">
-            <h1 className="section-heading text-white">
+          <div className="relative z-10 flex w-full flex-col items-center justify-center gap-4 px-6 py-12 sm:px-10 sm:py-16 lg:px-12 lg:py-20">
+            <h1 className="section-heading text-white text-center">
               {title}
             </h1>
             {subtitle && (
-              <p className="section-lead text-white/80 max-w-3xl">
+              <p className="section-lead text-white/85 max-w-3xl text-center">
                 {subtitle}
               </p>
             )}
-            {children && <div className="mt-2 text-white">{children}</div>}
+            {children && (
+              <div className="mt-2 text-white">
+                {children}
+              </div>
+            )}
           </div>
         </header>
       </div>

@@ -95,7 +95,18 @@
     "terms": "Algemene voorwaarden",
     "privacy": "Privacybeleid",
     "onepager": "Bekijk onze onepager",
-    "copyright": "© 2024 ActARion. Alle rechten voorbehouden."
+    "copyright": "© 2024 ActARion. Alle rechten voorbehouden.",
+    "newsletter": {
+      "title": "Schrijf u in voor onze nieuwsbrief",
+      "description": "Ontvang updates over slimmer, veiliger en sneller werk met AI en Augmented Reality.",
+      "placeholder": "jij@example.com",
+      "buttonLabel": "Schrijf me in voor de nieuwsbrief",
+      "loadingLabel": "Even geduld...",
+      "successMessage": "Bedankt! We nemen snel contact op!",
+      "errorMessage": "Oeps! Er ging iets mis, probeer het opnieuw",
+      "rateLimitedMessage": "Te veel aanmeldingen, probeer het over een moment opnieuw",
+      "backLabel": "← Terug"
+    }
   },
   "pages": {
     "about": {

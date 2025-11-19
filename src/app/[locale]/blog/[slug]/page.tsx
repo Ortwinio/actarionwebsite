@@ -1,30 +1,13 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
-import BlogPostClient from "./BlogPostClient";
-import { blogs as allBlogs } from "@/./.velite/generated";
 import { PageHeader } from "@/components/PageHeader";
-import { buildLocalizedPath, defaultLocale, isSupportedLocale, Locale, locales } from "@/config/site";
+import BlogPostClient from "./BlogPostClient";
+import { buildLocalizedPath, isSupportedLocale, Locale, locales } from "@/config/site";
 import { buildPageMetadata, buildWebPageSchema, getAbsoluteUrl, siteUrl } from "@/config/seo";
+import { getAllPublishedSlugs, getBlogBySlug } from "@/lib/blogs";
 
 interface BlogPostPageProps {
   params: Promise<{ locale: string; slug: string }>
-}
-
-const posts = allBlogs as any[]
-
-const resolveBlog = (locale: Locale, slug: string) => {
-  const localized = posts.find(b => b.slug === slug && b.locale === locale)
-  if (localized) {
-    return { blog: localized, isFallback: false }
-  }
-
-  const fallback = posts.find(b => b.slug === slug && b.locale === defaultLocale)
-  if (fallback) {
-    console.warn(`[i18n] Missing ${locale} translation for blog slug "${slug}", falling back to ${defaultLocale}.`)
-    return { blog: fallback, isFallback: true }
-  }
-
-  return null
 }
 
 export async function generateMetadata({ params }: BlogPostPageProps): Promise<Metadata> {
@@ -34,7 +17,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   }
 
   const typedLocale = locale as Locale
-  const resolved = resolveBlog(typedLocale, slug)
+  const resolved = getBlogBySlug(typedLocale, slug)
   if (!resolved) {
     return {
       title: 'Blog Post Not Found',
@@ -76,7 +59,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
 export const dynamicParams = false
 
 export async function generateStaticParams() {
-  const uniqueSlugs = Array.from(new Set(posts.map(post => post.slug)))
+  const uniqueSlugs = getAllPublishedSlugs()
   return uniqueSlugs.flatMap(slug => locales.map(locale => ({ locale, slug })))
 }
 
@@ -87,12 +70,12 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   }
 
   const typedLocale = locale as Locale
-  const resolved = resolveBlog(typedLocale, slug)
+  const resolved = getBlogBySlug(typedLocale, slug)
   if (!resolved) {
     notFound()
   }
 
-  const { blog } = resolved
+  const { blog, isFallback } = resolved
   const canonicalPath = buildLocalizedPath(typedLocale, `blog/${blog.slug}`)
   const absoluteUrl = `${siteUrl}${canonicalPath}`
   const structuredData = [
@@ -136,7 +119,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       />
       <main className="section section-light">
         <div className="section-inner max-w-4xl">
-          <BlogPostClient blog={blog as any} locale={typedLocale} />
+          <BlogPostClient blog={blog as any} locale={typedLocale} isFallback={isFallback} />
         </div>
       </main>
     </>

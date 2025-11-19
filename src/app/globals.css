@@ -318,7 +318,7 @@ video {
   position: fixed;
   inset: 0 0 auto 0;
   height: var(--header-height);
-  background: var(--color-actarion-blue);
+  background: #111827;
   color: var(--color-text-light);
   box-shadow: 0 18px 38px rgba(2, 8, 23, 0.25);
   z-index: 1000;
@@ -342,15 +342,22 @@ video {
   display: inline-flex;
   align-items: center;
   gap: 0.65rem;
-  font-weight: 700;
-  font-size: 1.35rem;
-  letter-spacing: 0.02em;
-  text-transform: lowercase;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+  text-transform: none;
   color: var(--color-text-light);
 }
 
 .logo-wordmark__accent {
   color: #c8e7ff;
+}
+
+.site-logo__text {
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: none;
 }
 
 .site-nav {
@@ -427,7 +434,7 @@ video {
 }
 
 .mobile-nav {
-  background: var(--color-actarion-blue);
+  background: #111827;
   color: var(--color-text-light);
   border-top: 1px solid rgba(255, 255, 255, 0.25);
   padding: 0.5rem 1rem 1.5rem 1rem;
@@ -533,7 +540,7 @@ video {
 .site-footer {
   position: relative;
   z-index: 10;
-  background: #020b1a;
+  background: #111827;
   color: var(--color-text-light);
   padding: 3rem 1.5rem;
   margin-top: var(--spacing-section-y);
@@ -548,11 +555,13 @@ video {
 
 @media (min-width: 768px) {
   .site-footer__inner {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+}
 
-  .site-footer__inner > div:first-child {
-    grid-column: span 2;
+@media (min-width: 1024px) {
+  .site-footer__inner {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
 

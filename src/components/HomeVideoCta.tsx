@@ -1,10 +1,13 @@
 "use client";
 
+import { useState } from "react";
+
 const VIDEO_EMBED_BASE_URL = "https://www.youtube.com/embed/5haLmuol8MU";
-const VIDEO_EMBED_URL = `${VIDEO_EMBED_BASE_URL}?rel=0`;
-const VIDEO_WATCH_URL = "https://www.youtube.com/watch?v=5haLmuol8MU";
+const VIDEO_EMBED_AUTOPLAY_URL = `${VIDEO_EMBED_BASE_URL}?autoplay=1&rel=0`;
 
 export function HomeVideoCta() {
+  const [isPlaying, setIsPlaying] = useState(false);
+
   return (
     <section className="card w-full max-w-3xl bg-white">
       <p className="text-sm font-semibold uppercase tracking-wide text-actarion-blue">
@@ -18,15 +21,26 @@ export function HomeVideoCta() {
         to help you create SOPs and work instructions faster, safer, and smarter.
       </p>
 
-      <div className="mt-5 aspect-video w-full overflow-hidden rounded-xl shadow-card">
-        <iframe
-          className="h-full w-full"
-          src={VIDEO_EMBED_URL}
-          title="ActARion product overview video"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
-      </div>
+      {!isPlaying ? (
+        <button
+          type="button"
+          className="btn btn-primary mt-5 w-full sm:w-auto"
+          onClick={() => setIsPlaying(true)}
+          aria-label="Play ActARion video overview"
+        >
+          ▶ Play video
+        </button>
+      ) : (
+        <div className="mt-5 aspect-video w-full overflow-hidden rounded-xl shadow-card">
+          <iframe
+            className="h-full w-full"
+            src={VIDEO_EMBED_AUTOPLAY_URL}
+            title="ActARion product overview video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </div>
+      )}
     </section>
   );
 }

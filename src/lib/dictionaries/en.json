@@ -83,7 +83,18 @@
     "terms": "General Terms and Conditions",
     "privacy": "Privacy Policy",
     "onepager": "View our onepager",
-    "copyright": "© 2024 ActARion. All rights reserved."
+    "copyright": "© 2024 ActARion. All rights reserved.",
+    "newsletter": {
+      "title": "Subscribe to our newsletter",
+      "description": "Get updates on smarter, safer and faster work with AI and Augmented Reality.",
+      "placeholder": "you@example.com",
+      "buttonLabel": "Subscribe to our Newsletter",
+      "loadingLabel": "Please wait...",
+      "successMessage": "Thanks! We'll be in touch!",
+      "errorMessage": "Oops! Something went wrong, please try again",
+      "rateLimitedMessage": "Too many signups, please try again in a little while",
+      "backLabel": "← Back"
+    }
   },
   "pages": {
     "about": {

@@ -5,10 +5,20 @@ import rehypePrettyCode from 'rehype-pretty-code'
 import rehypeSlug from 'rehype-slug'
 import remarkGfm from 'remark-gfm'
 
+const normalizeImagePath = (imagePath?: string) => {
+  if (!imagePath) {
+    return undefined
+  }
+
+  return imagePath.startsWith('/')
+    ? imagePath
+    : `/blogs/${imagePath.split('/').pop()}`
+}
+
 const blog = s.object({
   title: s.string(),
   description: s.string(),
-  // Accept strings so images can live in /public/blogs instead of content folder
+  // Accept strings so images can live in /public/blogs or nested folders
   image: s.string().optional(),
   publishedAt: s.isodate(),
   updatedAt: s.isodate(),
@@ -19,18 +29,21 @@ const blog = s.object({
   locale: s.enum(['en','de','nl']).default('en'),
   body: s.mdx(),
   toc: s.toc(),
-}).transform((data) => ({
-  ...data,
-  url: `/blog/${data.slug}`,
-  readingTime: readingTime(data.body),
-  image: data.image
-    ? {
-        // Map filename or path to public URL under /blogs
-        src: `/blogs/${(data.image as string).split('/').pop()}`,
-        alt: (data as any).title,
-      }
-    : undefined,
-}))
+}).transform((data) => {
+  const normalizedImageSrc = normalizeImagePath(data.image)
+
+  return {
+    ...data,
+    url: `/blog/${data.slug}`,
+    readingTime: readingTime(data.body),
+    image: normalizedImageSrc
+      ? {
+          src: normalizedImageSrc,
+          alt: data.title,
+        }
+      : undefined,
+  }
+})
 
 export default defineConfig({
   root: 'content',
@@ -38,7 +51,7 @@ export default defineConfig({
     blogs: { name: 'Blog', pattern: 'blogs/**/*.mdx', schema: blog },
   },
   // Emit generated data inside src so Next bundles it reliably in prod
-  output: { data: 'src/.velite/generated', assets: 'public/blogs', clean: true },
+  output: { data: 'src/.velite/generated', clean: true },
   mdx: {
     remarkPlugins: [remarkGfm],
     rehypePlugins: [
