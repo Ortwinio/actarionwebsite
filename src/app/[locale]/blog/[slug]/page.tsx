@@ -27,19 +27,19 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
 
   const { blog } = resolved
 
+  const imageMeta = blog.image
+    ? {
+        url: blog.image.src,
+        alt: blog.image.alt || blog.title,
+      }
+    : undefined
+
   const metadata = buildPageMetadata({
     locale: typedLocale,
     title: blog.title,
     description: blog.description,
     segment: `blog/${blog.slug}`,
-    image: blog.image
-      ? {
-          url: blog.image.src,
-          width: blog.image.width,
-          height: blog.image.height,
-          alt: blog.image.alt || blog.title,
-        }
-      : undefined,
+    image: imageMeta,
     type: 'article',
   })
 
