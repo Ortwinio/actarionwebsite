@@ -97,6 +97,9 @@ export function Footer({ locale, dictionary }: FooterProps) {
               <Link href={privacyHref}>{dictionary.footer?.privacy || "Privacy"}</Link>
             </li>
             <li>
+              <Link href="/sitemap.xml">{dictionary.footer?.sitemap || "Sitemap"}</Link>
+            </li>
+            <li>
               <a
                 href="/onepager.png"
                 target="_blank"

@@ -26,7 +26,7 @@ const blog = s.object({
   tags: s.array(s.string()).default([]),
   isPublished: s.boolean().default(true),
   slug: s.string(),
-  locale: s.enum(['en','de','nl']).default('en'),
+  locale: s.enum(['en','nl','de']).default('en'),
   body: s.mdx(),
   toc: s.toc(),
 }).transform((data) => {

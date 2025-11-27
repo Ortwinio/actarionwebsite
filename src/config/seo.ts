@@ -1,12 +1,12 @@
 import type { Metadata } from 'next';
-import { buildLocalizedPath, Locale, locales } from './site';
+import { buildLocalizedPath, defaultLocale, Locale, locales } from './site';
 
 export const siteUrl = 'https://www.actarion.com';
 
 const openGraphLocales: Record<Locale, string> = {
   en: 'en_US',
-  de: 'de_DE',
   nl: 'nl_NL',
+  de: 'de_DE',
 };
 
 export interface SocialImage {
@@ -33,11 +33,15 @@ const withAbsoluteImage = (image: SocialImage) => ({
 
 export const getAbsoluteUrl = (path: string) => toAbsoluteUrl(path);
 
-export const buildAlternateLanguages = (segment?: string) =>
-  locales.reduce<Record<string, string>>((acc, locale) => {
+export const buildAlternateLanguages = (segment?: string) => {
+  const alternates = locales.reduce<Record<string, string>>((acc, locale) => {
     acc[locale] = buildLocalizedPath(locale, segment);
     return acc;
   }, {});
+  // Add x-default pointing to English (default locale)
+  alternates['x-default'] = buildLocalizedPath(defaultLocale, segment);
+  return alternates;
+};
 
 export interface PageMetadataInput {
   locale: Locale;
@@ -142,7 +146,7 @@ export const organizationSchema = {
       '@type': 'ContactPoint',
       contactType: 'customer service',
       areaServed: ['Benelux', 'DACH', 'Nordics'],
-      availableLanguage: ['English', 'German', 'Dutch'],
+      availableLanguage: ['English', 'Dutch', 'German'],
       email: 'hello@actarion.com',
     },
   ],
@@ -166,7 +170,7 @@ export const localBusinessSchema = {
     'Finland',
     'Denmark',
   ],
-  availableLanguage: ['English', 'German', 'Dutch'],
+  availableLanguage: ['English', 'Dutch', 'German'],
 };
 
 export const buildWebsiteSchema = (locale: Locale) => ({
