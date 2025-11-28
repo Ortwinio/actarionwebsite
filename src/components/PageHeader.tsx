@@ -16,9 +16,9 @@ type PageHeaderProps = {
 };
 
 const HEADER_IMAGES = [
-  "/headers/header-1.png",
-  "/headers/header-2.png",
-  "/headers/header-3.png",
+  "/headers/header-1.jpg",
+  "/headers/header-2.jpg",
+  "/headers/header-3.jpg",
 ];
 
 function hashString(value: string) {

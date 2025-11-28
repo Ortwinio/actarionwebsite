@@ -356,7 +356,7 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
       >
         <div className="w-full mb-6">
           <Image
-            src="/ActARion header2.png"
+            src="/actarion header2.png"
             alt="ActARion Industries Header"
             width={800}
             height={600}
@@ -417,7 +417,7 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
       >
         <div className="w-full mb-6">
           <Image
-            src="/ActARion header 3.png"
+            src="/actarion header 3.png"
             alt="ActARion About Header"
             width={800}
             height={600}

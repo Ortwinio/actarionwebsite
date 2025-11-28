@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
 import { notFound } from "next/navigation";
-import { PageHeader } from "@/components/PageHeader";
 import { UseCaseCta } from "../../components/UseCaseCta";
 import {
   buildPageMetadata,
   buildTechArticleSchema,
   buildWebPageSchema,
 } from "../../config/seo";
-import { isSupportedLocale, Locale } from "../../config/site";
+import { buildLocalizedPath, isSupportedLocale, Locale } from "../../config/site";
 import type { UseCase } from "../../config/useCases";
 import { getUseCaseBySlug } from "../../config/useCases";
 import {
@@ -117,28 +118,44 @@ export function createUseCasePage(slug: UseCaseSlug) {
 
     return (
       <>
-        <PageHeader
-          title={content.heroTitle}
-          subtitle={subtitle}
-        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
         <main className="section section-light">
           <div className="section-inner space-y-10">
-            {restParagraphs.length > 0 && (
-              <section className="space-y-3">
-                {restParagraphs.map((paragraph, index) => (
-                  <p
-                    key={`hero-${index}`}
-                    className="section-lead text-gray-700"
-                  >
-                    {paragraph}
-                  </p>
-                ))}
-              </section>
-            )}
+            {/* Hero section with H1, intro, and hero image */}
+            <section className="space-y-6">
+              <div className="space-y-4">
+                <h1 className="section-heading text-slate-900">
+                  {content.heroTitle}
+                </h1>
+                <div className="space-y-3">
+                  <p className="section-lead text-gray-700">{subtitle}</p>
+                  {restParagraphs.length > 0 &&
+                    restParagraphs.map((paragraph, index) => (
+                      <p
+                        key={`hero-${index}`}
+                        className="section-lead text-gray-700"
+                      >
+                        {paragraph}
+                      </p>
+                    ))}
+                </div>
+              </div>
+              {useCase.heroImage && (
+                <div className="relative w-full overflow-hidden rounded-2xl border border-slate-200 shadow-card">
+                  <Image
+                    src={useCase.heroImage}
+                    alt={useCase.heroImageAlt || content.heroTitle}
+                    width={1200}
+                    height={600}
+                    className="w-full h-auto object-cover"
+                    priority
+                  />
+                </div>
+              )}
+            </section>
 
             {content.sections.map((section) => (
               <section key={section.title} className="card space-y-3">
@@ -146,6 +163,16 @@ export function createUseCasePage(slug: UseCaseSlug) {
                 {section.blocks.map((block, index) => renderBlock(block, index))}
               </section>
             ))}
+
+            {/* Link back to overview */}
+            <div className="pt-4 border-t border-slate-200">
+              <Link
+                href={buildLocalizedPath(typedLocale, "use-cases")}
+                className="btn btn-link px-0 inline-flex items-center"
+              >
+                ← Back to all use cases
+              </Link>
+            </div>
 
             <UseCaseCta locale={typedLocale} />
           </div>

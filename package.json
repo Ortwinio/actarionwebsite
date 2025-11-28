@@ -15,7 +15,8 @@
     "format:check": "prettier --check .",
     "clean": "rm -rf .next out .velite",
     "prebuild": "npm run clean && velite build",
-    "postbuild": "npm run type-check"
+    "postbuild": "npm run type-check",
+    "check:images": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/checkImages.ts"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
