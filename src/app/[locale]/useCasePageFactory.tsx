@@ -7,6 +7,7 @@ import {
   buildPageMetadata,
   buildTechArticleSchema,
   buildWebPageSchema,
+  buildBreadcrumbListSchema,
 } from "../../config/seo";
 import { buildLocalizedPath, isSupportedLocale, Locale } from "../../config/site";
 import type { UseCase } from "../../config/useCases";
@@ -98,6 +99,13 @@ export function createUseCasePage(slug: UseCaseSlug) {
       notFound();
     }
 
+    // Build breadcrumb navigation
+    const breadcrumbs = [
+      { name: 'Home', url: buildLocalizedPath(typedLocale) },
+      { name: 'Use Cases', url: buildLocalizedPath(typedLocale, 'use-cases') },
+      { name: useCase.title, url: buildLocalizedPath(typedLocale, slug) },
+    ];
+
     const structuredData = [
       buildWebPageSchema({
         locale: typedLocale,
@@ -111,6 +119,7 @@ export function createUseCasePage(slug: UseCaseSlug) {
         description: useCase.metaDescription,
         segment: slug,
       }),
+      buildBreadcrumbListSchema(breadcrumbs),
     ];
 
     const [firstParagraph, ...restParagraphs] = content.heroParagraphs;

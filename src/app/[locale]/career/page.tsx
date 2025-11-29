@@ -3,8 +3,8 @@ import { notFound } from "next/navigation";
 import { PageHeader } from "@/components/PageHeader";
 import { getDictionary } from "../../../lib/getDictionary";
 import CareerPageClient from "./CareerPageClient";
-import { buildPageMetadata, buildWebPageSchema } from "../../../config/seo";
-import { isSupportedLocale } from "../../../config/site";
+import { buildPageMetadata, buildWebPageSchema, buildBreadcrumbListSchema } from "../../../config/seo";
+import { buildLocalizedPath, isSupportedLocale, Locale } from "../../../config/site";
 
 interface CareerPageProps {
   params: Promise<{
@@ -44,23 +44,34 @@ export default async function CareerPage({ params }: CareerPageProps) {
   const careerCopy = dictionary.pages?.career;
   const description =
     careerCopy?.description?.replace(/\s+/g, " ").trim() || fallbackDescription;
-  const structuredData = buildWebPageSchema({
-    locale,
-    title: careerCopy?.title || "Careers at ActARion",
-    description,
-    segment: "career",
-  });
+  const typedLocale = locale as Locale;
   const title = careerCopy?.title || "Careers at ActARion";
   const subtitle =
     careerCopy?.subtitle ||
     "Smarter, safer and faster work with AI and Augmented Reality.";
+
+  // Build breadcrumb navigation
+  const breadcrumbs = [
+    { name: 'Home', url: buildLocalizedPath(typedLocale) },
+    { name: title, url: buildLocalizedPath(typedLocale, 'career') },
+  ];
+
+  const structuredData = [
+    buildWebPageSchema({
+      locale: typedLocale,
+      title,
+      description,
+      segment: "career",
+    }),
+    buildBreadcrumbListSchema(breadcrumbs),
+  ];
 
   return (
     <>
       <PageHeader
         title={title}
         subtitle={subtitle}
-        backgroundImage="/headers/header-3.jpg"
+        backgroundImage="/images/roles/career-product-manager-hero2.png"
       />
       <script
         type="application/ld+json"

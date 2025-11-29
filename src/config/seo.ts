@@ -1,12 +1,12 @@
 import type { Metadata } from 'next';
-import { buildLocalizedPath, defaultLocale, Locale, locales } from './site';
+import { buildLocalizedPath, Locale, locales } from './site';
 
 export const siteUrl = 'https://www.actarion.com';
 
 const openGraphLocales: Record<Locale, string> = {
   en: 'en_US',
-  nl: 'nl_NL',
   de: 'de_DE',
+  nl: 'nl_NL',
 };
 
 export interface SocialImage {
@@ -33,15 +33,11 @@ const withAbsoluteImage = (image: SocialImage) => ({
 
 export const getAbsoluteUrl = (path: string) => toAbsoluteUrl(path);
 
-export const buildAlternateLanguages = (segment?: string) => {
-  const alternates = locales.reduce<Record<string, string>>((acc, locale) => {
+export const buildAlternateLanguages = (segment?: string) =>
+  locales.reduce<Record<string, string>>((acc, locale) => {
     acc[locale] = buildLocalizedPath(locale, segment);
     return acc;
   }, {});
-  // Add x-default pointing to English (default locale)
-  alternates['x-default'] = buildLocalizedPath(defaultLocale, segment);
-  return alternates;
-};
 
 export interface PageMetadataInput {
   locale: Locale;
@@ -146,7 +142,7 @@ export const organizationSchema = {
       '@type': 'ContactPoint',
       contactType: 'customer service',
       areaServed: ['Benelux', 'DACH', 'Nordics'],
-      availableLanguage: ['English', 'Dutch', 'German'],
+      availableLanguage: ['English', 'German', 'Dutch'],
       email: 'hello@actarion.com',
     },
   ],
@@ -170,9 +166,13 @@ export const localBusinessSchema = {
     'Finland',
     'Denmark',
   ],
-  availableLanguage: ['English', 'Dutch', 'German'],
+  availableLanguage: ['English', 'German', 'Dutch'],
 };
 
+/**
+ * @deprecated Use buildWebSiteWithSearchActionSchema instead for better SEO support
+ * Kept for backward compatibility
+ */
 export const buildWebsiteSchema = (locale: Locale) => ({
   '@context': 'https://schema.org',
   '@type': 'WebSite',
@@ -201,4 +201,173 @@ export const buildItemListSchema = (items: ItemListEntry[]) => ({
     description: item.description,
     url: item.url,
   })),
+});
+
+export interface BreadcrumbItem {
+  name: string;
+  url: string;
+}
+
+export const buildBreadcrumbListSchema = (items: BreadcrumbItem[]) => ({
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: items.map((item, index) => ({
+    '@type': 'ListItem',
+    position: index + 1,
+    name: item.name,
+    item: toAbsoluteUrl(item.url),
+  })),
+});
+
+export interface ArticleSchemaInput {
+  locale: Locale;
+  title: string;
+  description: string;
+  segment: string;
+  author: string;
+  datePublished: string;
+  dateModified?: string;
+  image?: string;
+  tags?: string[];
+}
+
+export const buildArticleSchema = ({
+  locale,
+  title,
+  description,
+  segment,
+  author,
+  datePublished,
+  dateModified,
+  image,
+  tags,
+}: ArticleSchemaInput) => ({
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: title,
+  description,
+  inLanguage: locale,
+  author: {
+    '@type': 'Person',
+    name: author,
+  },
+  datePublished,
+  dateModified: dateModified || datePublished,
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': toAbsoluteUrl(buildLocalizedPath(locale, segment)),
+  },
+  image: image ? toAbsoluteUrl(image) : `${siteUrl}/ActARionlogo.png`,
+  publisher: {
+    '@type': 'Organization',
+    name: 'ActARion',
+    logo: {
+      '@type': 'ImageObject',
+      url: `${siteUrl}/ActARionlogo.png`,
+    },
+  },
+  ...(tags && tags.length > 0 && { keywords: tags.join(', ') }),
+});
+
+export interface BlogPostingSchemaInput extends ArticleSchemaInput {
+  wordCount?: number;
+}
+
+export const buildBlogPostingSchema = (input: BlogPostingSchemaInput) => ({
+  ...buildArticleSchema(input),
+  '@type': 'BlogPosting',
+  ...(input.wordCount && { wordCount: input.wordCount }),
+});
+
+export interface HowToStep {
+  name: string;
+  text: string;
+  image?: string;
+  url?: string;
+}
+
+export interface HowToSchemaInput {
+  locale: Locale;
+  name: string;
+  description: string;
+  steps: HowToStep[];
+  totalTime?: string;
+  image?: string;
+}
+
+export const buildHowToSchema = ({
+  locale,
+  name,
+  description,
+  steps,
+  totalTime,
+  image,
+}: HowToSchemaInput) => ({
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name,
+  description,
+  inLanguage: locale,
+  step: steps.map((step, index) => ({
+    '@type': 'HowToStep',
+    position: index + 1,
+    name: step.name,
+    text: step.text,
+    ...(step.image && {
+      image: toAbsoluteUrl(step.image),
+    }),
+    ...(step.url && {
+      url: toAbsoluteUrl(step.url),
+    }),
+  })),
+  ...(totalTime && { totalTime }),
+  ...(image && { image: toAbsoluteUrl(image) }),
+});
+
+export interface WebSiteWithSearchActionSchemaInput {
+  locale: Locale;
+  searchActionUrl?: string;
+}
+
+export const buildWebSiteWithSearchActionSchema = ({
+  locale,
+  searchActionUrl,
+}: WebSiteWithSearchActionSchemaInput) => ({
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'ActARion',
+  url: siteUrl,
+  inLanguage: locale,
+  publisher: {
+    '@type': 'Organization',
+    name: 'ActARion',
+    logo: {
+      '@type': 'ImageObject',
+      url: `${siteUrl}/ActARionlogo.png`,
+    },
+  },
+  ...(searchActionUrl && {
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: searchActionUrl,
+      },
+      'query-input': 'required name=search_term_string',
+    },
+  }),
+});
+
+// Enhanced organization schema with social media links
+export const getOrganizationSchema = () => ({
+  ...organizationSchema,
+  sameAs: [
+    'https://www.linkedin.com/company/ActARion',
+    // Add other social media URLs as they become available
+  ],
+  address: {
+    '@type': 'PostalAddress',
+    addressCountry: ['BE', 'NL', 'LU', 'DE', 'AT', 'CH', 'NO', 'SE', 'FI', 'DK'],
+    addressRegion: ['Benelux', 'DACH', 'Nordics'],
+  },
 });

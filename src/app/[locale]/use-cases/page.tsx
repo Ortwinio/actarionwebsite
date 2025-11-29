@@ -6,6 +6,7 @@ import {
   buildItemListSchema,
   buildPageMetadata,
   buildWebPageSchema,
+  buildBreadcrumbListSchema,
   siteUrl,
 } from "../../../config/seo";
 import {
@@ -52,9 +53,15 @@ export default async function UseCasesOverviewPage({
 
   const typedLocale = locale as Locale;
 
+  // Build breadcrumb navigation
+  const breadcrumbs = [
+    { name: 'Home', url: buildLocalizedPath(typedLocale) },
+    { name: 'Use Cases', url: buildLocalizedPath(typedLocale, 'use-cases') },
+  ];
+
   const structuredData = [
     buildWebPageSchema({
-      locale,
+      locale: typedLocale,
       title: "Use cases: safer, faster, smarter work with AI and AR | ActARion",
       description: pageDescription,
       segment: "use-cases",
@@ -63,9 +70,10 @@ export default async function UseCasesOverviewPage({
       useCases.map((useCase) => ({
         name: useCase.title,
         description: useCase.shortDescription,
-        url: `${siteUrl}${buildLocalizedPath(locale, useCase.slug)}`,
+        url: `${siteUrl}${buildLocalizedPath(typedLocale, useCase.slug)}`,
       }))
     ),
+    buildBreadcrumbListSchema(breadcrumbs),
   ];
 
   return (
@@ -88,8 +96,8 @@ export default async function UseCasesOverviewPage({
             </div>
             <div className="relative w-full overflow-hidden rounded-2xl border border-slate-200 shadow-card">
               <Image
-                src="/usecases-overview.png"
-                alt="Overview of ActARion AR and AI use cases in industrial operations"
+                src="/images/usecases/usecases-overview.png"
+                alt="Overview of AI and AR use cases for smarter, safer, faster work"
                 width={1200}
                 height={600}
                 className="w-full h-auto object-cover"
@@ -107,7 +115,7 @@ export default async function UseCasesOverviewPage({
                   <Link
                     key={useCase.slug}
                     href={useCaseHref}
-                    className="card flex h-full flex-col gap-0 transition-all hover:shadow-lg hover:scale-[1.02] overflow-hidden"
+                    className="group card flex h-full flex-col gap-0 transition-all hover:shadow-lg hover:scale-[1.02] overflow-hidden"
                   >
                     <article className="flex h-full flex-col">
                       {/* Image at the top of the card */}
@@ -131,11 +139,11 @@ export default async function UseCasesOverviewPage({
                           {useCase.shortDescription}
                         </p>
                         <div className="mt-auto">
-                          <span className="btn btn-link px-0 inline-flex items-center">
-                            Learn more{" "}
-                            <span className="ml-1" aria-hidden="true">
-                              →
-                            </span>
+                          <span className="inline-flex items-center justify-center gap-2 rounded-full bg-actarion-blue px-4 py-2 text-xs font-semibold text-white shadow-[0_15px_30px_rgba(26,128,194,0.35)] transition-all duration-200 group-hover:bg-actarion-blue-strong">
+                            Learn more
+                            <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                            </svg>
                           </span>
                         </div>
                       </div>

@@ -13,6 +13,7 @@ export function Footer({ locale, dictionary }: FooterProps) {
   const useCasesHref = buildLocalizedPath(locale, "use-cases");
   const aboutHref = buildLocalizedPath(locale, "about");
   const contactHref = buildLocalizedPath(locale, "contact");
+  const partnersHref = buildLocalizedPath(locale, "partner-contact");
   const careerHref = buildLocalizedPath(locale, "career");
   const faqHref = buildLocalizedPath(locale, "faq");
   const termsHref = buildLocalizedPath(locale, "terms");
@@ -76,6 +77,9 @@ export function Footer({ locale, dictionary }: FooterProps) {
               <Link href={aboutHref}>{dictionary.navigation?.about || "About"}</Link>
             </li>
             <li>
+              <Link href={partnersHref}>{dictionary.navigation?.partner || "Partners"}</Link>
+            </li>
+            <li>
               <Link href={contactHref}>{dictionary.navigation?.contact || "Contact"}</Link>
             </li>
             <li>
@@ -95,9 +99,6 @@ export function Footer({ locale, dictionary }: FooterProps) {
             </li>
             <li>
               <Link href={privacyHref}>{dictionary.footer?.privacy || "Privacy"}</Link>
-            </li>
-            <li>
-              <Link href="/sitemap.xml">{dictionary.footer?.sitemap || "Sitemap"}</Link>
             </li>
             <li>
               <a

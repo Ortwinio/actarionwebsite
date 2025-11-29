@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import Link from 'next/link'
 import { buildLocalizedPath, Locale } from '@/config/site'
 import type { BlogEntry } from '@/lib/blogs'
+import { Button } from '@/components/ui/Button'
 
 interface BlogCardProps {
   blog: BlogEntry
@@ -69,16 +69,18 @@ const BlogCard = ({ blog, locale }: BlogCardProps) => {
             <span>{blog.readingTime.text}</span>
           </div>
 
-          <Link
+          <Button
             href={buildLocalizedPath(locale, `blog/${blog.slug}`)}
-            className="inline-flex items-center text-actarion-blue font-semibold"
+            variant="primary"
+            size="sm"
+            pill
             aria-label={`Read more about ${blog.title}`}
           >
             Read more
-            <svg className="ml-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
-          </Link>
+          </Button>
         </div>
       </div>
     </article>

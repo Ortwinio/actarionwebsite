@@ -3,8 +3,9 @@ import { notFound } from "next/navigation";
 import { PageHeader } from "@/components/PageHeader";
 import { getDictionary } from "../../../lib/getDictionary";
 import PartnerContactPageClient from "./PartnerContactPageClient";
-import { buildPageMetadata, buildWebPageSchema, siteUrl } from "../../../config/seo";
-import { buildLocalizedPath, isSupportedLocale } from "../../../config/site";
+import { buildPageMetadata, buildWebPageSchema, buildBreadcrumbListSchema, siteUrl } from "../../../config/seo";
+import { buildLocalizedPath, isSupportedLocale, Locale } from "../../../config/site";
+import { partners } from "../../../config/partners";
 
 interface PartnerContactPageProps {
   params: Promise<{
@@ -13,7 +14,7 @@ interface PartnerContactPageProps {
 }
 
 const fallbackDescription =
-  "Reach out to ActARion about technology partnerships, implementation collaborations, and European go-to-market programs.";
+  "Discover ActARion's partner ecosystem: technology vendors, implementation partners and education partners who help organisations work smarter, safer and faster with AR and AI.";
 
 export async function generateMetadata({ params }: PartnerContactPageProps): Promise<Metadata> {
   const { locale } = await params;
@@ -21,15 +22,10 @@ export async function generateMetadata({ params }: PartnerContactPageProps): Pro
     notFound();
   }
 
-  const dictionary = await getDictionary(locale);
-  const partnerCopy = dictionary.pages?.partnerContact;
-  const description =
-    partnerCopy?.description?.replace(/\s+/g, " ").trim() || fallbackDescription;
-
   return buildPageMetadata({
     locale,
-    title: partnerCopy?.title || "Partner with ActARion",
-    description,
+    title: "Partners | ActARion",
+    description: fallbackDescription,
     segment: "partner-contact",
   });
 }
@@ -41,46 +37,52 @@ export default async function PartnerContactPage({ params }: PartnerContactPageP
   }
 
   const dictionary = await getDictionary(locale);
-  const partnerCopy = dictionary.pages?.partnerContact;
-  const description =
-    partnerCopy?.description?.replace(/\s+/g, " ").trim() || fallbackDescription;
-  const canonicalPath = buildLocalizedPath(locale, "partner-contact");
+  const typedLocale = locale as Locale;
+  const canonicalPath = buildLocalizedPath(typedLocale, "partner-contact");
   const absoluteUrl = `${siteUrl}${canonicalPath}`;
 
+  // Build breadcrumb navigation
+  const breadcrumbs = [
+    { name: 'Home', url: buildLocalizedPath(typedLocale) },
+    { name: 'Partners', url: canonicalPath },
+  ];
+
   const webPageSchema = buildWebPageSchema({
-    locale,
-    title: partnerCopy?.title || "Partner with ActARion",
-    description,
+    locale: typedLocale,
+    title: "Partners | ActARion",
+    description: fallbackDescription,
     segment: "partner-contact",
   });
 
   const partnerSchema = {
     "@context": "https://schema.org",
-    "@type": "ContactPage",
-    name: partnerCopy?.title || "Partner with ActARion",
-    description,
+    "@type": "CollectionPage",
+    name: "Partners | ActARion",
+    description: fallbackDescription,
     url: absoluteUrl,
     mainEntity: {
-      "@type": "Organization",
-      name: "ActARion",
-      url: siteUrl,
-      contactPoint: {
-        "@type": "ContactPoint",
-        contactType: "partnership inquiries",
-        email: "partners@actarion.com",
-        availableLanguage: ["English", "German", "Dutch"],
-      },
+      "@type": "ItemList",
+      itemListElement: partners.map((partner, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        item: {
+          "@type": "Organization",
+          name: partner.name,
+          url: partner.website,
+          description: partner.tagline,
+        },
+      })),
     },
   };
 
-  const structuredData = [webPageSchema, partnerSchema];
-  const title = partnerCopy?.title || "Partner with ActARion";
-  const subtitle =
-    partnerCopy?.subtitle || partnerCopy?.description || fallbackDescription;
+  const structuredData = [webPageSchema, partnerSchema, buildBreadcrumbListSchema(breadcrumbs)];
 
   return (
     <>
-      <PageHeader title={title} subtitle={subtitle} />
+      <PageHeader
+        title="Partners"
+        subtitle="ActARion works with a focused ecosystem of partners to help organisations work smarter, safer and faster with AI and Augmented Reality."
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}

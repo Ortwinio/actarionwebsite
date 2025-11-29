@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { PageHeader } from "@/components/PageHeader";
 import BlogList from "@/components/blog/BlogList";
-import { buildPageMetadata } from "@/config/seo";
-import { isSupportedLocale } from "@/config/site";
+import { buildPageMetadata, buildWebPageSchema, buildItemListSchema, buildBreadcrumbListSchema, siteUrl } from "@/config/seo";
+import { buildLocalizedPath, isSupportedLocale, Locale } from "@/config/site";
 import { getDictionary } from "@/lib/getDictionary";
 import { getBlogsForLocale } from "@/lib/blogs";
 
@@ -37,9 +37,38 @@ export default async function BlogListPage({ params }: BlogListPageProps) {
   const blogTitle = dictionary.pages?.blog?.title || "Blog";
   const blogDescription =
     dictionary.pages?.blog?.description || "Insights and updates from ActARion";
+  const typedLocale = locale as Locale;
+
+  // Build breadcrumb navigation
+  const breadcrumbs = [
+    { name: 'Home', url: buildLocalizedPath(typedLocale) },
+    { name: blogTitle, url: buildLocalizedPath(typedLocale, 'blog') },
+  ];
+
+  // Build structured data
+  const structuredData = [
+    buildWebPageSchema({
+      locale: typedLocale,
+      title: `Blog - ${dictionary.metadata?.title || 'ActARion'}`,
+      description: blogDescription,
+      segment: 'blog',
+    }),
+    buildItemListSchema(
+      blogs.map((blog) => ({
+        name: blog.title,
+        description: blog.description,
+        url: `${siteUrl}${buildLocalizedPath(typedLocale, `blog/${blog.slug}`)}`,
+      }))
+    ),
+    buildBreadcrumbListSchema(breadcrumbs),
+  ];
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
       <PageHeader title={blogTitle} subtitle={blogDescription} />
       <main className="section section-light">
         <div className="section-inner space-y-6">

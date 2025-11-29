@@ -10,16 +10,27 @@ const sortByPublishedDate = (entries: BlogEntry[]) =>
 
 export function getBlogsForLocale(locale: Locale) {
   const blogEntries = generatedBlogs as BlogEntry[]
+  
+  // Filter blogs by locale (case-insensitive comparison)
+  const normalizedLocale = String(locale).toLowerCase().trim()
   const localized = sortByPublishedDate(
-    blogEntries.filter((blog) => blog.locale === locale && blog.isPublished)
+    blogEntries.filter((blog) => {
+      const blogLocale = String(blog.locale).toLowerCase().trim()
+      return blogLocale === normalizedLocale && blog.isPublished
+    })
   )
 
   if (localized.length > 0) {
     return { blogs: localized, usedFallback: false }
   }
 
+  // Fallback to default locale (English) if no localized posts found
+  const normalizedDefault = String(defaultLocale).toLowerCase().trim()
   const fallback = sortByPublishedDate(
-    blogEntries.filter((blog) => blog.locale === defaultLocale && blog.isPublished)
+    blogEntries.filter((blog) => {
+      const blogLocale = String(blog.locale).toLowerCase().trim()
+      return blogLocale === normalizedDefault && blog.isPublished
+    })
   )
 
   return {
@@ -30,16 +41,18 @@ export function getBlogsForLocale(locale: Locale) {
 
 export function getBlogBySlug(locale: Locale, slug: string) {
   const blogEntries = generatedBlogs as BlogEntry[]
+  const normalizedLocale = String(locale).toLowerCase().trim()
   const localized = blogEntries.find(
-    (blog) => blog.slug === slug && blog.locale === locale && blog.isPublished
+    (blog) => blog.slug === slug && String(blog.locale).toLowerCase().trim() === normalizedLocale && blog.isPublished
   )
 
   if (localized) {
     return { blog: localized, isFallback: false }
   }
 
+  const normalizedDefault = String(defaultLocale).toLowerCase().trim()
   const fallback = blogEntries.find(
-    (blog) => blog.slug === slug && blog.locale === defaultLocale && blog.isPublished
+    (blog) => blog.slug === slug && String(blog.locale).toLowerCase().trim() === normalizedDefault && blog.isPublished
   )
 
   if (!fallback) {

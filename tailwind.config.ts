@@ -24,6 +24,7 @@ const config: Config = {
       },
       boxShadow: {
         card: 'var(--shadow-card)',
+        soft: 'var(--shadow-soft)',
       },
     },
   },

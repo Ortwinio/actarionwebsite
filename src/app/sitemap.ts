@@ -3,6 +3,7 @@ import { blogs as allBlogs } from "@/./.velite/generated";
 import { buildLocalizedPath, locales } from "@/config/site";
 import { siteUrl } from "@/config/seo";
 import { useCases } from "@/config/useCases";
+import { partners } from "@/config/partners";
 
 const staticSegments = [
   undefined, // locale root
@@ -41,6 +42,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       });
     });
 
+    // Partner pages
+    partners.forEach((partner) => {
+      entries.push({
+        url: `${siteUrl}${buildLocalizedPath(locale, `partners/${partner.slug}`)}`,
+        lastModified: now,
+        changeFrequency: "monthly",
+        priority: 0.6,
+      });
+    });
+
     entries.push({
       url: `${siteUrl}${buildLocalizedPath(locale, "blog")}`,
       lastModified: now,
@@ -69,7 +80,3 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return entries;
 }
-
-
-
-

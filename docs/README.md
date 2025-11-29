@@ -10,6 +10,9 @@ Centralized reference for operational and content processes. Keep this file upda
 - [Deployment Guide](./operations/deployment-guide.md)
 - [Production Checklist](./operations/production-checklist.md)
 
+## SEO & Technical
+- [SEO & LLM Optimization Checklist](./seo-llm-checklist.md) - Comprehensive guide for maintaining technical SEO and LLM-friendly structure
+
 ## Related Resources
 - [AGENTS Guide](../AGENTS.md) for plan workflow
 - [`plans/`](../plans) for initiative-specific context

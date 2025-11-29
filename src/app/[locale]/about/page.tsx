@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { PageHeader } from "@/components/PageHeader";
 import { getDictionary } from "../../../lib/getDictionary";
-import { buildPageMetadata, buildWebPageSchema } from "../../../config/seo";
-import { isSupportedLocale } from "../../../config/site";
+import { buildPageMetadata, buildWebPageSchema, buildBreadcrumbListSchema } from "../../../config/seo";
+import { buildLocalizedPath, isSupportedLocale, Locale } from "../../../config/site";
 import AboutPageClient from "./AboutPageClient";
 
 interface AboutPageProps {
@@ -41,17 +41,28 @@ export default async function AboutPage({ params }: AboutPageProps) {
   }
 
   const dictionary = await getDictionary(locale);
+  const typedLocale = locale as Locale;
   const aboutCopy = dictionary.pages?.about;
   const description =
     aboutCopy?.description?.replace(/\s+/g, " ").trim() || fallbackDescription;
   const pageTitle = aboutCopy?.title || "About ActARion";
   const headerSubtitle = aboutCopy?.subtitle || description;
-  const structuredData = buildWebPageSchema({
-    locale,
-    title: pageTitle,
-    description,
-    segment: "about",
-  });
+
+  // Build breadcrumb navigation
+  const breadcrumbs = [
+    { name: 'Home', url: buildLocalizedPath(typedLocale) },
+    { name: pageTitle, url: buildLocalizedPath(typedLocale, 'about') },
+  ];
+
+  const structuredData = [
+    buildWebPageSchema({
+      locale: typedLocale,
+      title: pageTitle,
+      description,
+      segment: "about",
+    }),
+    buildBreadcrumbListSchema(breadcrumbs),
+  ];
 
   return (
     <>

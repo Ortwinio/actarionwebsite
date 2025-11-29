@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { PageHeader } from "@/components/PageHeader";
 import BlogPostClient from "./BlogPostClient";
 import { buildLocalizedPath, isSupportedLocale, Locale, locales } from "@/config/site";
-import { buildPageMetadata, buildWebPageSchema, getAbsoluteUrl, siteUrl } from "@/config/seo";
+import { buildPageMetadata, buildWebPageSchema, buildBlogPostingSchema, buildBreadcrumbListSchema, getAbsoluteUrl, siteUrl } from "@/config/seo";
 import { getAllPublishedSlugs, getBlogBySlug } from "@/lib/blogs";
 
 interface BlogPostPageProps {
@@ -78,6 +78,14 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   const { blog, isFallback } = resolved
   const canonicalPath = buildLocalizedPath(typedLocale, `blog/${blog.slug}`)
   const absoluteUrl = `${siteUrl}${canonicalPath}`
+  
+  // Build breadcrumb navigation
+  const breadcrumbs = [
+    { name: 'Home', url: buildLocalizedPath(typedLocale) },
+    { name: 'Blog', url: buildLocalizedPath(typedLocale, 'blog') },
+    { name: blog.title, url: canonicalPath },
+  ]
+
   const structuredData = [
     buildWebPageSchema({
       locale: typedLocale,
@@ -85,22 +93,19 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       description: blog.description,
       segment: `blog/${blog.slug}`,
     }),
-    {
-      '@context': 'https://schema.org',
-      '@type': 'Article',
-      headline: blog.title,
+    buildBlogPostingSchema({
+      locale: typedLocale,
+      title: blog.title,
       description: blog.description,
+      segment: `blog/${blog.slug}`,
+      author: blog.author,
       datePublished: blog.publishedAt,
       dateModified: blog.updatedAt,
-      inLanguage: typedLocale,
-      author: {
-        '@type': 'Person',
-        name: blog.author,
-      },
-      mainEntityOfPage: absoluteUrl,
-      image: blog.image ? getAbsoluteUrl(blog.image.src) : `${siteUrl}/ActARionlogo.png`,
-    },
-  ]
+      image: blog.image?.src,
+      tags: blog.tags,
+    }),
+    buildBreadcrumbListSchema(breadcrumbs),
+  ].filter((schema): schema is NonNullable<typeof schema> => schema != null && typeof schema === 'object')
 
   const backgroundImage = blog.image?.src?.startsWith("/")
     ? blog.image.src

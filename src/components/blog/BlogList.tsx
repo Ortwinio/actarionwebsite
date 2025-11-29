@@ -19,9 +19,11 @@ const BlogList = ({ blogs, locale }: BlogListProps) => {
 
   return (
     <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:gap-10">
-      {blogs.map((blog) => (
-        <BlogCard key={`${blog.slug}-${blog.locale}`} blog={blog} locale={locale} />
-      ))}
+      {blogs.map((blog) => {
+        // Create a unique key using slug, locale, and publishedAt to ensure uniqueness
+        const uniqueKey = `${blog.slug}-${blog.locale}-${blog.publishedAt}`
+        return <BlogCard key={uniqueKey} blog={blog} locale={locale} />
+      })}
     </div>
   )
 }

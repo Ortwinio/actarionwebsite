@@ -5,7 +5,7 @@ import Navigation from "../../components/Navigation";
 import { Footer } from "../../components/Footer";
 import { getDictionary } from "../../lib/getDictionary";
 import { isSupportedLocale, locales, Locale } from "../../config/site";
-import { buildPageMetadata, buildWebsiteSchema, localBusinessSchema, organizationSchema } from "../../config/seo";
+import { buildPageMetadata, buildWebSiteWithSearchActionSchema, localBusinessSchema, getOrganizationSchema } from "../../config/seo";
 import "../globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -84,9 +84,13 @@ export default async function LocaleLayout({
   const typedLocale = locale as Locale;
   const dictionary = await getDictionary(typedLocale);
   const siteSchemas = JSON.stringify([
-    organizationSchema,
+    getOrganizationSchema(),
     localBusinessSchema,
-    buildWebsiteSchema(typedLocale),
+    buildWebSiteWithSearchActionSchema({
+      locale: typedLocale,
+      // Add search URL if site search is implemented
+      // searchActionUrl: `${siteUrl}/${typedLocale}/search?q={search_term_string}`,
+    }),
   ]);
 
   return (

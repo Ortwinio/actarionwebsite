@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 import {
   BoltIcon,
   CheckCircleIcon,
@@ -24,6 +25,8 @@ type Job = {
   intro: string;
   responsibilities: string[];
   requirements: string[];
+  imageSrc: string;
+  imageAlt: string;
 };
 
 type JobFormData = {
@@ -51,6 +54,8 @@ const JOBS: Job[] = [
       "Familiarity with AR frameworks and 3D concepts",
       "Curiosity about how people actually work in factories, plants and in the field",
     ],
+    imageSrc: "/images/roles/career-ar-developer-hero.png",
+    imageAlt: "AR developer building augmented reality workflows for industrial operations",
   },
   {
     id: "sales-engineer",
@@ -69,6 +74,8 @@ const JOBS: Job[] = [
       "Affinity with AR/VR or industrial software",
       "Strong communication skills in English (and preferably another European language)",
     ],
+    imageSrc: "/images/roles/career-sales-engineer-hero.png",
+    imageAlt: "Sales engineer explaining AR and AI solutions to customers",
   },
   {
     id: "product-manager",
@@ -86,6 +93,8 @@ const JOBS: Job[] = [
       "Strong analytical skills and a structured way of working",
       "Interest in operations, maintenance, training or quality in industrial environments",
     ],
+    imageSrc: "/images/roles/career-product-manager-hero.png",
+    imageAlt: "Product manager defining roadmap for AR and AI-guided work",
   },
 ];
 
@@ -241,6 +250,15 @@ function JobCard({ job }: { job: Job }) {
 
   return (
     <div className="flex flex-col rounded-3xl border border-slate-200 bg-white p-6 shadow-card">
+      <div className="mb-4 overflow-hidden rounded-xl">
+        <Image
+          src={job.imageSrc}
+          alt={job.imageAlt}
+          width={800}
+          height={400}
+          className="w-full h-auto object-cover"
+        />
+      </div>
       <div className="flex items-start justify-between gap-4">
         <div>
           <p className="text-sm uppercase tracking-[0.2em] text-actarion-blue">

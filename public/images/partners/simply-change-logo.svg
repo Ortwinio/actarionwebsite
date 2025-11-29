@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="80" viewBox="0 0 200 80">
+  <defs>
+    <linearGradient id="simplychange-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#059669"/>
+      <stop offset="100%" style="stop-color:#10b981"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="80" fill="white"/>
+  <circle cx="27" cy="40" r="18" fill="url(#simplychange-grad)"/>
+  <path d="M20 40 C20 35, 27 30, 34 35 C27 32, 22 38, 27 45 C32 38, 27 42, 20 40" fill="white"/>
+  <text x="52" y="36" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#1e293b">Simply</text>
+  <text x="52" y="52" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#1e293b">Change</text>
+</svg>
+
