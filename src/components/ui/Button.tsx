@@ -25,7 +25,7 @@ interface ButtonBaseProps {
   children: React.ReactNode;
 }
 
-interface ButtonAsButtonProps extends ButtonBaseProps, Omit<React.ButtonHTMLAttributes<HTMLButtonElement>, 'className'> {
+interface ButtonAsButtonProps extends ButtonBaseProps, Omit<React.ButtonHTMLAttributes<HTMLButtonElement>, 'className' | 'children'> {
   href?: never;
 }
 
