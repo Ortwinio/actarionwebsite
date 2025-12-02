@@ -126,7 +126,7 @@ export default function Navigation({ locale, dictionary }: NavigationProps) {
           aria-label="ActARion homepage"
         >
           <Image
-            src="/actarionlogo.png"
+            src="/logo-actarion.png"
             alt="ActARion symbol"
             width={36}
             height={36}

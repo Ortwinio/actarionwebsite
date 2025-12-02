@@ -18,7 +18,7 @@ export const partners: Partner[] = [
     type: "technology",
     logoSrc: "/images/partners/deepsight-logo.svg",
     logoAlt: "Deep Sight logo",
-    website: "https://www.deepsight.ca",
+    website: "https://www.deepsight.ca/partners/#integration-partners",
     tagline: "AI and AR platform for industrial work",
     metaDescription:
       "ActARion is the European partner of Deep Sight to deliver AI and AR–guided work instructions, training scenarios and remote support for industrial teams.",

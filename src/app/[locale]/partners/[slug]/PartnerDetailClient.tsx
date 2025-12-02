@@ -41,7 +41,7 @@ export default function PartnerDetailClient({
           <a
             href={partner.website}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow"
             className="inline-flex items-center gap-2 text-actarion-blue hover:underline font-medium"
           >
             Visit {partner.name}

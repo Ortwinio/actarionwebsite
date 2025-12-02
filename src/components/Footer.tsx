@@ -38,7 +38,7 @@ export function Footer({ locale, dictionary }: FooterProps) {
             className="site-logo mb-4 inline-flex"
           >
             <Image
-              src="/actarionlogo.png"
+              src="/logo-actarion.png"
               alt="ActARion symbol"
               width={36}
               height={36}
