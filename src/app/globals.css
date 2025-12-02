@@ -452,6 +452,60 @@ video {
   background: rgba(255, 255, 255, 0.2);
 }
 
+/* Insight Dropdown */
+.insight-dropdown {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 100%;
+  margin-top: 0.5rem;
+  min-width: 180px;
+  background: #1f2937;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-50%) translateY(-8px);
+  transition: opacity 200ms ease, transform 200ms ease, visibility 200ms ease;
+  z-index: 1001;
+}
+
+.insight-dropdown--open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+
+.insight-dropdown__item {
+  display: block;
+  padding: 0.6rem 1rem;
+  color: var(--color-text-light);
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: background 200ms ease, color 200ms ease;
+  white-space: nowrap;
+}
+
+.insight-dropdown__item:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+.insight-dropdown__item--active {
+  background: rgba(26, 128, 194, 0.25);
+  color: var(--color-actarion-blue);
+}
+
+/* Mobile Insight Accordion */
+.mobile-insight {
+  display: block;
+}
+
+.mobile-insight__submenu {
+  margin-left: 0.5rem;
+}
+
 .theme-toggle {
   width: 42px;
   height: 42px;

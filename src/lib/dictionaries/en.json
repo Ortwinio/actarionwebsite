@@ -4,14 +4,22 @@
     "about": "About Us",
     "contact": "Contact",
     "demo": "Demo",
-    "blog": "Blog",
+    "insight": "Insight",
     "partner": "Partner",
     "career": "Career",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "insightSubmenu": {
+      "useCases": "Use cases",
+      "blogposts": "Blogposts",
+      "events": "Events",
+      "whitepapers": "Whitepapers",
+      "videos": "Videos",
+      "news": "News"
+    }
   },
   "hero": {
-    "title": "Work faster, safer and smarter in operations",
-    "subtitle": "ActARion helps industrial, logistics and energy companies capture critical know-how, guide operators in the flow of work and build a learning organization across sites. Together with our partner Deep Sight , we turn complex work into standard, repeatable execution supported by AR and AI.\n\nThe future of work in operations is not about more manuals or more classroom training. It is about giving every operator expert-level guidance at the moment of need, in their real working environment.",
+    "title": "Smarter, safer, faster work with AI and AR–guided work instructions",
+    "subtitle": "ActARion helps industrial, logistics and energy companies capture critical know-how, guide operators in the flow of work and build a learning organization across sites. We transform SOPs and manuals into AI and AR–guided digital work instructions. Operators see step-by-step AR SOPs on tablets or smart glasses, so they can work safer, faster and with fewer errors.\n\nAs the European partner of Deep Sight, we bring an AR-first connected worker platform to the shop floor.",
     "cta": "Plan a discovery session",
     "aboutLink": "Explore use cases"
   },
@@ -43,7 +51,7 @@
     },
     "industries": {
       "title": "Industries We Support",
-      "description": "ActARion's AR-powered SOP solutions are designed for industries where precision, safety, and operational excellence are critical."
+      "description": "ActARion's AI and AR–guided work instructions and AR SOPs are designed for industries where precision, safety, and operational excellence are critical."
     },
     "howItWorks": {
       "title": "How It Works",
@@ -64,7 +72,7 @@
     },
     "about": {
       "title": "Where Action Meets Augmented Reality",
-      "description": "ActARion is at the forefront of industrial AR innovation, delivering solutions that bridge the gap between digital instructions and physical execution. Our platform transforms complex procedures into intuitive, visual experiences that enhance worker performance and operational outcomes."
+      "description": "ActARion is the European partner of Deep Sight, offering an AR-first connected worker platform for industrial, logistics and energy environments. We transform SOPs and manuals into AI and AR–guided digital work instructions that operators can follow step by step on tablets or smart glasses."
     },
     "partnerships": {
       "title": "Technology Partnerships",
@@ -297,6 +305,89 @@
     "privacy": {
       "title": "Privacy Policy",
       "subtitle": "How we protect your data",
+      "backToHome": "Back to Home"
+    },
+    "events": {
+      "title": "Events",
+      "subtitle": "Join ActARion at upcoming events, webinars and workshops",
+      "description": "Join ActARion at upcoming events, webinars and workshops to learn how AI and AR–guided work instructions help you capture corporate knowledge and shape the future of work.",
+      "intro": "Join ActARion at upcoming events, webinars and workshops to learn how AI and AR–guided work instructions and AR SOPs help you capture corporate knowledge, support operators and shape the future of work.",
+      "upcomingTitle": "Upcoming Events",
+      "noEvents": "No upcoming events at the moment. Check back soon or subscribe to our newsletter to stay informed.",
+      "registerButton": "Register for this event",
+      "formTitle": "Register for an event",
+      "formHint": "Select an event above and click \"Register for this event\" to pre-fill the registration form, or choose from the dropdown below.",
+      "form": {
+        "eventLabel": "Event",
+        "eventPlaceholder": "Select an event",
+        "emailLabel": "Email address",
+        "emailPlaceholder": "you@company.com",
+        "companyLabel": "Company name",
+        "companyPlaceholder": "Your company",
+        "roleLabel": "Role",
+        "rolePlaceholder": "Your role",
+        "submitButton": "Register",
+        "errorSelectEvent": "Please select an event",
+        "errorEmail": "Email is required",
+        "errorEmailInvalid": "Please enter a valid email",
+        "errorCompany": "Company name is required",
+        "errorRole": "Role is required"
+      },
+      "successTitle": "Thank you for registering!",
+      "successMessage": "You are now registered for this event. You will receive an email with further details shortly.",
+      "registerAnother": "Register for another event",
+      "backToHome": "Back to Home"
+    },
+    "whitepapers": {
+      "title": "Whitepapers",
+      "subtitle": "In-depth guides and research on AR-powered operations",
+      "description": "Download ActARion whitepapers and guides on AR-powered SOPs, knowledge capture, and industrial digital transformation.",
+      "intro": "Download our whitepapers and guides to learn how AR and AI can transform your operations, capture expert knowledge, and accelerate training.",
+      "pages": "pages",
+      "downloadButton": "Download PDF",
+      "noWhitepapers": "No whitepapers available at the moment. Check back soon or subscribe to our newsletter to be notified when new content is published.",
+      "ctaTitle": "Want to learn more?",
+      "ctaDescription": "Schedule a discovery call to discuss how AR-powered SOPs can benefit your operations.",
+      "ctaButton": "Schedule a Discovery Call",
+      "backToHome": "Back to Home"
+    },
+    "videos": {
+      "title": "Videos",
+      "subtitle": "Demos, webinars, and customer stories",
+      "description": "Watch ActARion videos including platform demos, customer stories, webinars, and tutorials on AR-powered work instructions.",
+      "intro": "Watch demos, customer stories, webinars, and tutorials to see how ActARion transforms operations with AR-powered work instructions.",
+      "filterAll": "All",
+      "types": {
+        "demo": "Demo",
+        "webinar": "Webinar",
+        "tutorial": "Tutorial",
+        "customer-story": "Customer Story",
+        "product-update": "Product Update"
+      },
+      "noVideos": "No videos available at the moment. Check back soon or subscribe to our newsletter to be notified when new content is published.",
+      "ctaTitle": "See ActARion in action",
+      "ctaDescription": "Request a personalized demo to see how ActARion can transform your operations.",
+      "ctaButton": "Request a Demo",
+      "backToHome": "Back to Home"
+    },
+    "news": {
+      "title": "News",
+      "subtitle": "Latest updates and announcements",
+      "description": "Stay up to date with ActARion news, press releases, partnerships, and company announcements.",
+      "intro": "Stay up to date with the latest ActARion news, press releases, partnerships, and company announcements.",
+      "filterAll": "All",
+      "types": {
+        "press-release": "Press Release",
+        "company-news": "Company News",
+        "partnership": "Partnership",
+        "award": "Award",
+        "industry-news": "Industry News"
+      },
+      "readMore": "Read more",
+      "noNews": "No news available at the moment. Check back soon or subscribe to our newsletter to stay informed.",
+      "ctaTitle": "Stay informed",
+      "ctaDescription": "Subscribe to our newsletter to receive the latest news, updates, and insights directly in your inbox.",
+      "ctaButton": "Subscribe to Newsletter",
       "backToHome": "Back to Home"
     }
   },

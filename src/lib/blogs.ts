@@ -1,5 +1,6 @@
 import { blogs as generatedBlogs } from '@/./.velite/generated'
 import { defaultLocale, Locale } from '@/config/site'
+import { PillarId } from '@/config/pillars'
 
 export type BlogEntry = (typeof generatedBlogs)[number]
 
@@ -73,4 +74,24 @@ export function getAllPublishedSlugs() {
   return Array.from(new Set(blogEntries.filter((blog) => blog.isPublished).map((blog) => blog.slug)))
 }
 
+/**
+ * Get blogs filtered by content pillar for a given locale.
+ * Falls back to default locale if no localized posts with that pillar are found.
+ */
+export function getBlogsByPillar(locale: Locale, pillarId: PillarId) {
+  const { blogs, usedFallback } = getBlogsForLocale(locale)
+  const filtered = blogs.filter((blog) => blog.pillar === pillarId)
+  return { blogs: filtered, usedFallback }
+}
+
+/**
+ * Get all unique pillars that have at least one published blog for a locale.
+ */
+export function getAvailablePillars(locale: Locale): PillarId[] {
+  const { blogs } = getBlogsForLocale(locale)
+  const pillars = blogs
+    .map((blog) => blog.pillar)
+    .filter((pillar): pillar is PillarId => pillar !== undefined)
+  return Array.from(new Set(pillars))
+}
 

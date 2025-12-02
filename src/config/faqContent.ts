@@ -26,17 +26,26 @@ export const faqSections: FAQSectionContent[] = [
     title: 'Overview',
     items: [
       {
-        question: 'What does ActARion actually do?',
+        question: 'What does ActARion do?',
         answer: {
           paragraphs: [
-            'ActARion helps industrial, logistics and energy companies make work instructions, training and troubleshooting more digital, visual and data-driven.',
-            'Together with partner DeepSight we implement an AR-first knowledge and connected-worker platform. Experts create step-by-step instructions, training scenarios and troubleshooting guides in a no-code editor and publish them to mobile devices and smart glasses.',
+            'ActARion helps industrial, logistics and energy companies work smarter, safer and faster with AI and AR–guided work instructions. We transform SOPs and manuals into digital work instructions and AR SOPs that operators can follow step-by-step on tablets and smart glasses.',
+            'As the European partner of Deep Sight, we bring an AR-first connected worker platform to the shop floor. Experts create step-by-step instructions, training scenarios and troubleshooting guides in a no-code editor and publish them to mobile devices and smart glasses.',
             'Technicians and field teams get clear, visual support at the moment they need it.',
           ],
         },
       },
       {
-        question: 'Why are organisations choosing AR and AI-guided solutions?',
+        question: 'How does ActARion work with Deep Sight?',
+        answer: {
+          paragraphs: [
+            'ActARion is the European partner of Deep Sight, the AR-first connected worker platform. We help you implement Deep Sight in your plants, design and maintain AR SOPs, and support your teams in adopting AI and AR–guided work instructions in daily operations.',
+            'Deep Sight provides the platform technology. ActARion provides local implementation support, content creation guidance and change management to ensure your digital work instructions create lasting impact.',
+          ],
+        },
+      },
+      {
+        question: 'Why are organisations choosing AI and AR–guided work instructions?',
         answer: {
           lists: [
             {
@@ -49,9 +58,9 @@ export const faqSections: FAQSectionContent[] = [
               ],
             },
             {
-              title: 'AR and AI-guided solutions help because they:',
+              title: 'AI and AR–guided work instructions help because they:',
               items: [
-                'Bring instructions into the real environment instead of binders or PDFs',
+                'Bring AR SOPs into the real environment instead of binders or PDFs',
                 'Use visuals, 3D and short clips instead of long text',
                 'Guide people step by step, hands-free if needed',
                 'Capture data during each task (time, photos, answers, checks) for improvement',
@@ -59,12 +68,12 @@ export const faqSections: FAQSectionContent[] = [
             },
           ],
           paragraphs: [
-            'AI also helps turn expert knowledge into multilingual work instructions much faster, so you can standardise best practices without long documentation projects.',
+            'AI also helps turn expert knowledge into multilingual digital work instructions much faster, so you can standardise best practices without long documentation projects.',
           ],
         },
       },
       {
-        question: 'How is this different from traditional work instructions or an LMS?',
+        question: 'How are AR SOPs different from traditional work instructions or an LMS?',
         answer: {
           lists: [
             {
@@ -76,16 +85,16 @@ export const faqSections: FAQSectionContent[] = [
               ],
             },
             {
-              title: 'With ActARion and DeepSight:',
+              title: 'With ActARion and Deep Sight:',
               items: [
-                'Instructions are shown in context, on the machine or at the work location',
+                'AR SOPs and digital work instructions are shown in context, on the machine or at the work location',
                 'Content is created in a web-based no-code authoring tool and updated in minutes',
                 'Data from each execution becomes available for training, audits and improvement',
               ],
             },
           ],
           paragraphs: [
-            'You move from “people trying to remember the manual” to “the right instruction appears exactly when they need it”.',
+            'You move from "people trying to remember the manual" to "the right AI and AR–guided instruction appears exactly when they need it".',
           ],
         },
       },
@@ -96,17 +105,17 @@ export const faqSections: FAQSectionContent[] = [
     title: 'Use Cases & Tools',
     items: [
       {
-        question: 'Which use cases can ActARion help us with?',
+        question: 'Which use cases can AI and AR–guided work instructions help us with?',
         answer: {
           paragraphs: [
-            'Typical use cases include:',
+            'Typical use cases for AR SOPs and digital work instructions include:',
             'All content is stored in a central digital library, so you keep one version of the truth instead of scattered PDFs, PowerPoints and videos.',
           ],
           lists: [
             {
               items: [
-                'Onboarding and cross-training: guiding new colleagues through safety checks, basic operations and first-line maintenance.',
-                'Complex or infrequent procedures: changeovers, calibrations, deep cleaning, shutdown/start-up and rare repairs.',
+                'Onboarding and cross-training: guiding new colleagues through safety checks, basic operations and first-line maintenance with AR SOPs.',
+                'Complex or infrequent procedures: changeovers, calibrations, deep cleaning, shutdown/start-up and rare repairs with digital work instructions.',
                 'Remote expert support: connecting local teams with experts via AR assistance to solve issues faster.',
                 'Troubleshooting and diagnostics: step-by-step fault trees, visual checks and data capture for root-cause analysis.',
                 'Quality checks and inspections: guided checklists, photo evidence and automatic logging.',
@@ -120,7 +129,7 @@ export const faqSections: FAQSectionContent[] = [
         question: 'Do we need smart glasses to start?',
         answer: {
           paragraphs: [
-            'No. Many organisations start on smartphones or tablets. DeepSight is cross-platform and content can be used on mobile phones, tablets and smart glasses such as HoloLens 2 or Apple Vision Pro.',
+            'No. Many organisations start on smartphones or tablets. Deep Sight is cross-platform and content can be used on mobile phones, tablets and smart glasses such as HoloLens 2 or Apple Vision Pro.',
             'Smart glasses are useful when people need both hands free or work in tight or hazardous environments, but they are not a prerequisite.',
           ],
         },
@@ -129,7 +138,7 @@ export const faqSections: FAQSectionContent[] = [
         question: 'How does AI help in practice?',
         answer: {
           paragraphs: [
-            'AI in DeepSight is used to:',
+            'AI in the Deep Sight platform is used to:',
             'This reduces the time experts spend on documentation, while keeping full control over the final content.',
           ],
           lists: [
@@ -197,7 +206,7 @@ export const faqSections: FAQSectionContent[] = [
               ordered: true,
               items: [
                 'Discovery – map current training and work processes, main pain points and quick wins.',
-                'Pilot – select a few high-impact use cases, implement DeepSight, create AR/AI-guided instructions and measure impact on errors, training time and downtime.',
+                'Pilot – select a few high-impact use cases, implement Deep Sight, create AI and AR–guided work instructions and measure impact on errors, training time and downtime.',
                 'Scale-up – expand to more lines, sites or processes and integrate with existing systems while building internal capability.',
               ],
             },
@@ -211,11 +220,11 @@ export const faqSections: FAQSectionContent[] = [
     title: 'Next Steps',
     items: [
       {
-        question: 'How can we explore whether this makes sense for our organisation?',
+        question: 'How can we explore whether AI and AR–guided work instructions make sense for our organisation?',
         answer: {
           paragraphs: [
-            'The simplest next step is a short discovery call or workshop where we walk through current training and work instructions, identify 2–3 high-impact use cases and show how similar organisations use AR and AI-guided instructions today.',
-            'From there we jointly decide whether to move into a pilot or map additional requirements.',
+            'The simplest next step is a short discovery call or workshop where we walk through current training and work instructions, identify 2–3 high-impact use cases and show how similar organisations use AI and AR–guided work instructions and AR SOPs today.',
+            'From there we jointly decide whether to move into a pilot or map additional requirements. ActARion supports you throughout with implementation guidance for digital work instructions.',
           ],
         },
       },

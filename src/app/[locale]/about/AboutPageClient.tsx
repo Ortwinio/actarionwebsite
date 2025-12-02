@@ -15,22 +15,18 @@ export default function AboutPageClient({ locale: _locale, dictionary: _dictiona
           <section className="section-stack">
             <div>
               <p className="eyebrow text-slate-500">About</p>
-              <h2 className="section-heading">Why ActARion exists</h2>
-              <p className="section-subheading text-slate-600">Clarity for frontline work</p>
+              <h2 className="section-heading">What ActARion does</h2>
+              <p className="section-subheading text-slate-600">AI and AR–guided work instructions for industrial operations</p>
             </div>
             <div className="space-y-4 text-slate-700 leading-relaxed">
               <p>
-                Work in operations is changing quickly. Processes are more complex, safety and compliance standards are
-                stricter, and experienced technicians are harder to find. Yet many teams still depend on PDFs, classroom
-                training and informal shadowing to get work done.
+                ActARion helps industrial, logistics and energy companies work smarter, safer and faster with AI and AR–guided work instructions. We support organisations in transforming their SOPs and manuals into digital work instructions that operators can follow step-by-step on tablets and smart glasses.
               </p>
               <p>
-                ActARion exists to help industrial, logistics and energy companies respond to that reality by enabling
-                people to work smarter, faster and safer with the support of AR and AI.
+                As the European partner of Deep Sight, we bring an AR-first connected worker platform to the shop floor. With Deep Sight and ActARion, you can design, deploy and continuously improve AR SOPs across plants, devices and teams.
               </p>
               <p>
-                We focus on the last step of knowledge transfer: how instructions, procedures and expertise actually
-                reach the technician, operator or field engineer at the moment of work.
+                We focus on the last step of knowledge transfer: how instructions, procedures and expertise actually reach the technician, operator or field engineer at the moment of work. The combination of AI + AR is what makes work safer, faster and smarter.
               </p>
             </div>
           </section>
@@ -46,10 +42,9 @@ export default function AboutPageClient({ locale: _locale, dictionary: _dictiona
               </p>
               <ul className="space-y-5 list-none">
                 <li>
-                  <h3 className="font-semibold text-slate-900">SOPs are more than documents</h3>
+                  <h3 className="font-semibold text-slate-900">AR SOPs are more than documents</h3>
                   <p>
-                    Standard Operating Procedures are the backbone of quality, safety and performance. They only create
-                    value when they are easy to find, easy to follow and easy to improve.
+                    Standard Operating Procedures are the backbone of quality, safety and performance. They only create value when they are easy to find, easy to follow and easy to improve. That is why we transform them into AI and AR–guided digital work instructions.
                   </p>
                 </li>
                 <li>
@@ -102,34 +97,31 @@ export default function AboutPageClient({ locale: _locale, dictionary: _dictiona
 
           <section className="section-stack border-t border-slate-200 pt-8">
             <div>
-              <h2 className="section-heading">How we help</h2>
+              <h2 className="section-heading">How we help with AR SOPs and digital work instructions</h2>
             </div>
             <div className="space-y-4 text-slate-700 leading-relaxed">
-              <p>ActARion combines world-class AR technology with local, hands-on support.</p>
+              <p>ActARion combines world-class AR technology with local, hands-on support to deliver AI and AR–guided work instructions.</p>
               <ul className="space-y-5 list-none">
                 <li>
-                  <h3 className="font-semibold text-slate-900">Deep Sight AR platform</h3>
+                  <h3 className="font-semibold text-slate-900">Deep Sight AR-first platform</h3>
                   <p>
-                    We work with Deep Sight , an AR-first connected worker platform, to turn procedures and expert
-                    knowledge into interactive work instructions and SOPs.
+                    We are the European partner of Deep Sight, the AR-first connected worker platform. Together we turn procedures and expert knowledge into interactive AR SOPs and digital work instructions.
                   </p>
                 </li>
                 <li>
-                  <h3 className="font-semibold text-slate-900">From expert know-how to clear guidance</h3>
+                  <h3 className="font-semibold text-slate-900">From expert know-how to AI and AR–guided instructions</h3>
                   <p>
-                    We help capture expertise from senior technicians and translate it into clear, visual guidance that
-                    less experienced colleagues can follow with confidence.
+                    We help capture expertise from senior technicians and translate it into clear, visual digital work instructions that less experienced colleagues can follow with confidence on tablets or smart glasses.
                   </p>
                 </li>
                 <li>
                   <h3 className="font-semibold text-slate-900">From pilots to scale</h3>
                   <p>
-                    We support your teams in identifying use cases, running focused pilots and scaling what works across
-                    lines, plants and countries.
+                    We support your teams in identifying use cases, running focused pilots and scaling AR SOPs across lines, plants and countries.
                   </p>
                 </li>
               </ul>
-              <p>Our focus is always the same: closing the gap between procedure and actual performance.</p>
+              <p>Our focus is always the same: closing the gap between procedure and actual performance with AI and AR–guided work instructions.</p>
             </div>
           </section>
 

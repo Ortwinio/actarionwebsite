@@ -15,6 +15,7 @@ import { getUseCaseBySlug } from "../../config/useCases";
 import {
   UseCaseContentBlock,
   getUseCaseContent,
+  RelatedBlogPost,
 } from "../../config/useCaseContent";
 
 interface PageParams {
@@ -172,6 +173,28 @@ export function createUseCasePage(slug: UseCaseSlug) {
                 {section.blocks.map((block, index) => renderBlock(block, index))}
               </section>
             ))}
+
+            {/* Further reading section with related blog posts */}
+            {content.relatedBlogPosts && content.relatedBlogPosts.length > 0 && (
+              <section className="card space-y-4">
+                <h2 className="section-subheading">Further reading</h2>
+                <p className="text-slate-700">
+                  Explore related articles to learn more about this use case:
+                </p>
+                <ul className="space-y-2">
+                  {content.relatedBlogPosts.map((post: RelatedBlogPost) => (
+                    <li key={post.slug}>
+                      <Link
+                        href={buildLocalizedPath(typedLocale, `blog/${post.slug}`)}
+                        className="text-primary-600 hover:text-primary-700 hover:underline"
+                      >
+                        {post.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
 
             {/* Link back to overview */}
             <div className="pt-4 border-t border-slate-200">

@@ -24,3 +24,4 @@
 - Translate: title, description, tags, body
 - Update internal links: `/en/` → `/nl/` or `/de/`
 - Keep external links unchanged
+

@@ -14,7 +14,7 @@ export default function FAQPageClient({ locale, dictionary }: FAQPageClientProps
     dictionary?.pages?.faq?.introHeading ?? "Answers to the most common questions";
   const pageDescription =
     dictionary?.pages?.faq?.description ??
-    "Why industrial, logistics and energy companies choose AR-first, AI-guided work instructions, plus the use cases, rollout steps and ways to get started with ActARion.";
+    "Why industrial, logistics and energy companies choose AI and AR–guided work instructions, AR SOPs and digital work instructions, plus the use cases, rollout steps and ways to get started with ActARion.";
 
   const demoHref = buildLocalizedPath(locale, "demo");
   const contactHref = buildLocalizedPath(locale, "contact");
@@ -127,7 +127,7 @@ export default function FAQPageClient({ locale, dictionary }: FAQPageClientProps
             className="summary summary--cta text-center text-actarion-blue"
           >
             <p className="section-lead text-actarion-blue/90">
-              Curious what AR and AI-guided work could look like in your operations?
+              Curious what AI and AR–guided work instructions could look like in your operations?
             </p>
             <p className="section-subheading text-actarion-blue mb-2">
               Schedule a demo or discovery call with ActARion.

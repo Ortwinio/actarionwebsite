@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { forwardRef } from 'react';
 
 /**
- * Button variants matching the Actarion brand
+ * Button variants matching the ActARion brand
  * - primary: Blue filled button (main CTAs)
  * - secondary: Outlined button with blue border
  * - ghost: Transparent with blue text
@@ -66,7 +66,7 @@ function getButtonClasses({
 }
 
 /**
- * Reusable Button component for the Actarion website.
+ * Reusable Button component for the ActARion website.
  * 
  * When `href` is provided, renders as a Next.js Link.
  * Otherwise, renders as a native button element.

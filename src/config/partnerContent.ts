@@ -22,45 +22,45 @@ export interface PartnerContent {
 export const partnerContent: PartnerContent[] = [
   {
     slug: "deepsight",
-    headline: "DeepSight – AI and AR platform for industrial work",
+    headline: "Deep Sight – AI and AR–guided work instructions platform",
     intro: [
-      "ActARion is the European partner of DeepSight, an AI and AR platform for creating and deploying digital work instructions, training scenarios and remote support for industrial teams.",
-      "Together we help organisations move from static manuals and video to interactive, AR-guided workflows on mobile devices and smart glasses.",
+      "ActARion is the European partner of Deep Sight, an AR-first connected worker platform for creating and deploying AI and AR–guided work instructions, training scenarios and remote support for industrial teams.",
+      "Together we help organisations move from static manuals and video to interactive AR SOPs and digital work instructions on mobile devices and smart glasses.",
     ],
     sections: [
       {
-        title: "What DeepSight brings",
+        title: "What Deep Sight brings",
         items: [
-          "No-code authoring environment to build step-by-step instructions, 3D procedures and training scenarios without programming.",
+          "No-code authoring environment to build step-by-step AR SOPs, 3D procedures and training scenarios without programming.",
           "Centralised digital library for work instructions, troubleshooting flows and safety procedures.",
-          "Cross-platform player to deploy content on smartphones, tablets, Apple Vision Pro, HoloLens 2 and other supported devices.",
+          "Cross-platform player to deploy digital work instructions on smartphones, tablets, Apple Vision Pro, HoloLens 2 and other supported devices.",
           "Integrated data capture: task completion times, quiz results, photos, videos and operator feedback.",
           "Rapid product evolution with frequent feature updates and roadmap driven by real-world use in industry.",
         ],
       },
       {
-        title: "What the ActARion + DeepSight partnership enables",
+        title: "What the ActARion + Deep Sight partnership enables",
         items: [
-          "Faster onboarding and skills development by putting AR-guided procedures directly in the hands of technicians and operators.",
-          "Safer, more consistent execution of complex tasks by guiding each step in the real environment.",
-          "Better knowledge capture and continuous improvement by turning expert know-how into reusable digital workflows.",
+          "Faster onboarding and skills development by putting AI and AR–guided work instructions directly in the hands of technicians and operators.",
+          "Safer, more consistent execution of complex tasks by guiding each step in the real environment with AR SOPs.",
+          "Better knowledge capture and continuous improvement by turning expert know-how into reusable digital work instructions.",
           "Connected workers across plants and shifts through remote expert support and shared troubleshooting content.",
         ],
       },
     ],
     useCases: {
-      title: "Typical joint use cases",
+      title: "Typical joint use cases for AI and AR–guided work instructions",
       items: [
         "AR-guided assembly for error-free production.",
         "AR-guided changeovers to reduce downtime.",
         "AR-supported preventive maintenance based on data-driven insights.",
         "Remote expert support for corrective maintenance.",
         "AR training and onboarding for new team members.",
-        "AR work instructions and SOPs that preserve corporate memory.",
+        "AR SOPs and digital work instructions that preserve corporate memory.",
       ],
     },
     cta: {
-      text: "If you want to explore how DeepSight and ActARion can support your operations, training or maintenance processes, contact us for a short, non-committal discovery call.",
+      text: "If you want to explore how Deep Sight and ActARion can support your operations, training or maintenance processes with AI and AR–guided work instructions, contact us for a short, non-committal discovery call.",
       buttonText: "Contact ActARion",
       buttonHref: "contact",
     },
@@ -70,7 +70,7 @@ export const partnerContent: PartnerContent[] = [
     headline: "Apple Vision Pro – spatial computing for industrial AR",
     intro: [
       "Apple Vision Pro is one of our key hardware platforms for delivering immersive AR experiences to technicians, engineers and trainers.",
-      "Combined with DeepSight and ActARion's implementation expertise, Apple Vision Pro becomes a practical tool for industrial AR SOPs, training and remote support.",
+      "Combined with Deep Sight and ActARion's implementation expertise, Apple Vision Pro becomes a practical tool for AR SOPs, digital work instructions and remote support.",
     ],
     sections: [
       {
@@ -84,7 +84,7 @@ export const partnerContent: PartnerContent[] = [
       {
         title: "How ActARion uses Apple Vision Pro",
         items: [
-          "Running DeepSight-based AR instructions for assembly, inspection and training scenarios.",
+          "Running Deep Sight-based AI and AR–guided work instructions for assembly, inspection and training scenarios.",
           "Visualising 3D models and exploded views of components to support troubleshooting and learning.",
           "Creating safe, controlled training experiences where operators can rehearse critical procedures step by step.",
         ],
@@ -115,7 +115,7 @@ export const partnerContent: PartnerContent[] = [
       {
         title: "How ActARion integrates HoloLens",
         items: [
-          "Delivering DeepSight workflows directly on HoloLens for assembly, inspections and maintenance.",
+          "Delivering Deep Sight digital work instructions directly on HoloLens for assembly, inspections and maintenance.",
           "Combining holographic instructions with on-device data capture (photos, video, confirmations).",
           "Enabling remote expert support sessions where experts see what the technician sees.",
         ],
@@ -240,4 +240,5 @@ export const partnerContent: PartnerContent[] = [
 
 export const getPartnerContentBySlug = (slug: string): PartnerContent | undefined =>
   partnerContent.find((content) => content.slug === slug);
+
 

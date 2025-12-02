@@ -16,6 +16,11 @@ export function Footer({ locale, dictionary }: FooterProps) {
   const partnersHref = buildLocalizedPath(locale, "partner-contact");
   const careerHref = buildLocalizedPath(locale, "career");
   const faqHref = buildLocalizedPath(locale, "faq");
+  const eventsHref = buildLocalizedPath(locale, "events");
+  const blogHref = buildLocalizedPath(locale, "blog");
+  const whitepapersHref = buildLocalizedPath(locale, "whitepapers");
+  const videosHref = buildLocalizedPath(locale, "videos");
+  const newsHref = buildLocalizedPath(locale, "news");
   const termsHref = buildLocalizedPath(locale, "terms");
   const privacyHref = buildLocalizedPath(locale, "privacy");
   const newsletterCopy = dictionary.footer?.newsletter ?? {};
@@ -71,9 +76,6 @@ export function Footer({ locale, dictionary }: FooterProps) {
           </h3>
           <ul className="space-y-1">
             <li>
-              <Link href={useCasesHref}>{dictionary.footer?.useCases || "Use cases"}</Link>
-            </li>
-            <li>
               <Link href={aboutHref}>{dictionary.navigation?.about || "About"}</Link>
             </li>
             <li>
@@ -87,6 +89,32 @@ export function Footer({ locale, dictionary }: FooterProps) {
             </li>
             <li>
               <Link href={faqHref}>{dictionary.navigation?.faq || "FAQ"}</Link>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="site-footer__title">
+            {dictionary.navigation?.insight || "Insight"}
+          </h3>
+          <ul className="space-y-1">
+            <li>
+              <Link href={useCasesHref}>{dictionary.navigation?.insightSubmenu?.useCases || "Use cases"}</Link>
+            </li>
+            <li>
+              <Link href={blogHref}>{dictionary.navigation?.insightSubmenu?.blogposts || "Blogposts"}</Link>
+            </li>
+            <li>
+              <Link href={eventsHref}>{dictionary.navigation?.insightSubmenu?.events || "Events"}</Link>
+            </li>
+            <li>
+              <Link href={whitepapersHref}>{dictionary.navigation?.insightSubmenu?.whitepapers || "Whitepapers"}</Link>
+            </li>
+            <li>
+              <Link href={videosHref}>{dictionary.navigation?.insightSubmenu?.videos || "Videos"}</Link>
+            </li>
+            <li>
+              <Link href={newsHref}>{dictionary.navigation?.insightSubmenu?.news || "News"}</Link>
             </li>
           </ul>
         </div>
@@ -107,6 +135,15 @@ export function Footer({ locale, dictionary }: FooterProps) {
                 rel="noopener noreferrer"
               >
                 {dictionary.footer?.onepager || "View our onepager"}
+              </a>
+            </li>
+            <li>
+              <a
+                href="/sitemap.xml"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {dictionary.footer?.sitemap || "Sitemap"}
               </a>
             </li>
           </ul>

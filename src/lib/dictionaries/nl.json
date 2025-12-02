@@ -4,10 +4,18 @@
     "about": "Over ons",
     "contact": "Contact",
     "demo": "Demo",
-    "blog": "Blog",
+    "insight": "Insight",
     "partner": "Partner",
     "career": "Carrière",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "insightSubmenu": {
+      "useCases": "Use cases",
+      "blogposts": "Blogposts",
+      "events": "Evenementen",
+      "whitepapers": "Whitepapers",
+      "videos": "Video's",
+      "news": "Nieuws"
+    }
   },
   "hero": {
     "title": "Werk slimmer, blijf veiliger, presteer beter — met immersieve technologie.",
@@ -314,6 +322,89 @@
     "blog": {
       "title": "Blog",
       "description": "Inzichten, updates en thought leadership over Augmented Reality in productie en industriële toepassingen.",
+      "backToHome": "Terug naar Home"
+    },
+    "events": {
+      "title": "Evenementen",
+      "subtitle": "Ontmoet ActARion op aankomende events, webinars en workshops",
+      "description": "Ontmoet ActARion op aankomende events, webinars en workshops en ontdek hoe AI en AR-gestuurde werkinstructies u helpen om bedrijfskennis vast te leggen en de toekomst van werk vorm te geven.",
+      "intro": "Ontmoet ActARion op aankomende events, webinars en workshops en ontdek hoe AI en AR-gestuurde werkinstructies en AR-SOPs u helpen om bedrijfskennis vast te leggen, operators te ondersteunen en de toekomst van werk vorm te geven.",
+      "upcomingTitle": "Aankomende Evenementen",
+      "noEvents": "Momenteel geen aankomende evenementen. Kijk binnenkort terug of schrijf u in voor onze nieuwsbrief om op de hoogte te blijven.",
+      "registerButton": "Registreer voor dit evenement",
+      "formTitle": "Registreer voor een evenement",
+      "formHint": "Selecteer hierboven een evenement en klik op \"Registreer voor dit evenement\" om het registratieformulier vooraf in te vullen, of kies uit de dropdown hieronder.",
+      "form": {
+        "eventLabel": "Evenement",
+        "eventPlaceholder": "Selecteer een evenement",
+        "emailLabel": "E-mailadres",
+        "emailPlaceholder": "u@bedrijf.nl",
+        "companyLabel": "Bedrijfsnaam",
+        "companyPlaceholder": "Uw bedrijf",
+        "roleLabel": "Rol",
+        "rolePlaceholder": "Uw rol",
+        "submitButton": "Registreren",
+        "errorSelectEvent": "Selecteer een evenement",
+        "errorEmail": "E-mail is verplicht",
+        "errorEmailInvalid": "Voer een geldig e-mailadres in",
+        "errorCompany": "Bedrijfsnaam is verplicht",
+        "errorRole": "Rol is verplicht"
+      },
+      "successTitle": "Bedankt voor uw registratie!",
+      "successMessage": "U bent nu geregistreerd voor dit evenement. U ontvangt binnenkort een e-mail met verdere details.",
+      "registerAnother": "Registreer voor een ander evenement",
+      "backToHome": "Terug naar Home"
+    },
+    "whitepapers": {
+      "title": "Whitepapers",
+      "subtitle": "Diepgaande gidsen en onderzoek over AR-gestuurde operaties",
+      "description": "Download ActARion whitepapers en gidsen over AR-gestuurde SOPs, kennisopname en industriële digitale transformatie.",
+      "intro": "Download onze whitepapers en gidsen om te leren hoe AR en AI uw operaties kunnen transformeren, expertkennis kunnen vastleggen en training kunnen versnellen.",
+      "pages": "pagina's",
+      "downloadButton": "PDF downloaden",
+      "noWhitepapers": "Momenteel geen whitepapers beschikbaar. Kijk binnenkort terug of schrijf u in voor onze nieuwsbrief om op de hoogte te worden gebracht.",
+      "ctaTitle": "Wilt u meer weten?",
+      "ctaDescription": "Plan een discovery call om te bespreken hoe AR-gestuurde SOPs uw operaties kunnen verbeteren.",
+      "ctaButton": "Discovery Call plannen",
+      "backToHome": "Terug naar Home"
+    },
+    "videos": {
+      "title": "Video's",
+      "subtitle": "Demo's, webinars en klantverhalen",
+      "description": "Bekijk ActARion video's met platformdemo's, klantverhalen, webinars en tutorials over AR-gestuurde werkinstructies.",
+      "intro": "Bekijk demo's, klantverhalen, webinars en tutorials om te zien hoe ActARion operaties transformeert met AR-gestuurde werkinstructies.",
+      "filterAll": "Alle",
+      "types": {
+        "demo": "Demo",
+        "webinar": "Webinar",
+        "tutorial": "Tutorial",
+        "customer-story": "Klantverhaal",
+        "product-update": "Productupdate"
+      },
+      "noVideos": "Momenteel geen video's beschikbaar. Kijk binnenkort terug of schrijf u in voor onze nieuwsbrief om op de hoogte te worden gebracht.",
+      "ctaTitle": "ActARion in actie zien",
+      "ctaDescription": "Vraag een gepersonaliseerde demo aan om te zien hoe ActARion uw operaties kan transformeren.",
+      "ctaButton": "Demo aanvragen",
+      "backToHome": "Terug naar Home"
+    },
+    "news": {
+      "title": "Nieuws",
+      "subtitle": "Laatste updates en aankondigingen",
+      "description": "Blijf op de hoogte van ActARion nieuws, persberichten, partnerschappen en bedrijfsaankondigingen.",
+      "intro": "Blijf op de hoogte van het laatste ActARion nieuws, persberichten, partnerschappen en bedrijfsaankondigingen.",
+      "filterAll": "Alle",
+      "types": {
+        "press-release": "Persbericht",
+        "company-news": "Bedrijfsnieuws",
+        "partnership": "Partnerschap",
+        "award": "Award",
+        "industry-news": "Branchenieuws"
+      },
+      "readMore": "Lees meer",
+      "noNews": "Momenteel geen nieuws beschikbaar. Kijk binnenkort terug of schrijf u in voor onze nieuwsbrief om op de hoogte te blijven.",
+      "ctaTitle": "Blijf geïnformeerd",
+      "ctaDescription": "Schrijf u in voor onze nieuwsbrief om het laatste nieuws, updates en inzichten direct in uw inbox te ontvangen.",
+      "ctaButton": "Nieuwsbrief inschrijven",
       "backToHome": "Terug naar Home"
     }
   },

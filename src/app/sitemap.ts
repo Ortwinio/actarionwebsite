@@ -16,6 +16,10 @@ const staticSegments = [
   "privacy",
   "terms",
   "use-cases",
+  "events",
+  "whitepapers",
+  "videos",
+  "news",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

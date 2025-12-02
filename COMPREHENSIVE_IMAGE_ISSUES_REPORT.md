@@ -6,77 +6,61 @@ This report covers image issues across **all pages** of the ActARion website, in
 
 ## Summary
 
-- **Total missing images:** 22
-  - Use case images: 6
-  - Blog post images: 16
-- **Missing directories:** 1 (`public/images/usecases/`)
+- **Total missing images:** 24 (blog posts only - updated December 2024)
+  - Use case images: 0 ✅ (all exist)
+  - Blog post images: 24
+- **Missing directories:** 0 ✅
 - **Files with multiple image declarations:** 1
 - **Duplicate filenames:** 0 (case-insensitive check)
 
 ---
 
-## 1. USE CASE IMAGES (6 missing)
+## 1. USE CASE IMAGES ✅ (All exist - Updated December 2024)
 
-**⚠️ CRITICAL:** The directory `public/images/usecases/` does not exist!
+All 6 use case hero images now exist in `public/images/usecases/`:
 
-All 6 use case hero images are missing. These are referenced in:
-- Use cases overview page (`/en/use-cases`)
-- Individual use case detail pages
+1. ✅ **ar-work-instructions-and-sops-to-preserve-corporate-memory-hero.png**
+2. ✅ **ar-training-and-onboarding-for-industrial-teams-hero.png**
+3. ✅ **ar-guided-assembly-for-error-free-production-hero.png**
+4. ✅ **ar-guided-changeover-to-reduce-downtime-hero.png**
+5. ✅ **ar-preventive-maintenance-with-data-driven-insights-hero.png**
+6. ✅ **ar-remote-expert-support-for-corrective-maintenance-hero.png**
+7. ✅ **usecases-overview.png**
 
-### Missing Use Case Images:
-
-1. **ar-work-instructions-and-sops-to-preserve-corporate-memory-hero.png**
-   - Expected at: `public/images/usecases/ar-work-instructions-and-sops-to-preserve-corporate-memory-hero.png`
-   - Used in: Use case "AR work instructions and SOPs to preserve corporate memory"
-
-2. **ar-training-and-onboarding-for-industrial-teams-hero.png**
-   - Expected at: `public/images/usecases/ar-training-and-onboarding-for-industrial-teams-hero.png`
-   - Used in: Use case "AR training and onboarding for industrial teams"
-
-3. **ar-guided-assembly-for-error-free-production-hero.png**
-   - Expected at: `public/images/usecases/ar-guided-assembly-for-error-free-production-hero.png`
-   - Used in: Use case "AR guided assembly for error free production"
-
-4. **ar-guided-changeover-to-reduce-downtime-hero.png**
-   - Expected at: `public/images/usecases/ar-guided-changeover-to-reduce-downtime-hero.png`
-   - Used in: Use case "AR guided changeover to reduce downtime"
-
-5. **ar-preventive-maintenance-with-data-driven-insights-hero.png**
-   - Expected at: `public/images/usecases/ar-preventive-maintenance-with-data-driven-insights-hero.png`
-   - Used in: Use case "AR preventive maintenance with data driven insights"
-
-6. **ar-remote-expert-support-for-corrective-maintenance-hero.png**
-   - Expected at: `public/images/usecases/ar-remote-expert-support-for-corrective-maintenance-hero.png`
-   - Used in: Use case "AR remote expert support for corrective maintenance"
-
-**Action Required:**
-1. Create directory: `mkdir -p public/images/usecases/`
-2. Add all 6 image files to this directory
+**No action required for use case images.**
 
 ---
 
-## 2. BLOG POST IMAGES (16 missing)
+## 2. BLOG POST IMAGES (24 missing - Updated December 2024)
 
-See `BLOG_IMAGE_ISSUES_REPORT.md` for detailed information.
+See `IMAGE_CREATION_REQUIREMENTS.md` for detailed image specifications and visual descriptions.
 
 ### Quick List of Missing Blog Images:
 
-1. ai-photos-videos-multilingual-instructions-hero.png
-2. ar-hardware-smart-glasses-tablets-smartphones-hero.png
-3. ar-in-logistics-guided-picking-packing-loading.png
-4. ar-sops-manufacturing-audits-hero.png
-5. ar-training-design-hero.png
-6. ar-work-instructions-high-risk-hero.png
-7. connected-worker-platform-vs-traditional-lms.png
-8. digital-library-work-safety-instructions-hero.png
-9. error-free-assembly-ar-hero.png
-10. field-service-ar-checklists-energy-utilities-hero.png
-11. industrial-ar-adoption-visionpro-hololens-mobile-hero.png
-12. industrial-ar-adoption-visionpro-hololens-mobile.png
-13. instruction-formats-safety-quality-hero.png
-14. measure-roi-ar-ai-work-instructions-hero.png
-15. mixed-reality-shutdown-turnaround-hero.png
-16. tracking-skills-ar-compliance-hero.png
+1. 5-common-assembly-mistakes-ar-work-instructions-prevent-hero.png
+2. ar-guided-changeovers-playbook-reduce-downtime-hero.png
+3. ar-onboarding-new-hires-productivity-hero.png
+4. ar-remote-expert-support-vs-phone-support-hero.png
+5. ar-sops-audits-compliance-hero.png
+6. ar-vs-pdf-onboarding-pilots-hero.png
+7. assembly-process-ready-ar-work-instructions-checklist-hero.png
+8. capturing-best-practice-changeover-sequences-ar-sops-hero.png
+9. capturing-corporate-memory-ar-work-instructions-hero.png
+10. connecting-sensor-data-ar-guided-maintenance-hero.png
+11. design-first-ar-onboarding-program-shop-floor-hero.png
+12. digital-work-instructions-maintenance-technicians-daily-routine-hero.png
+13. hero-operators-standardised-changeovers-digital-work-instructions-hero.png
+14. keeping-sops-up-to-date-digital-work-instructions-hero.png
+15. organise-remote-expert-pool-ar-support-hero.png
+16. paper-sops-to-ar-sops-assembly-errors-hero.png
+17. pilot-ar-work-instructions-critical-changeover-hero.png
+18. preventive-maintenance-ar-work-instructions-catch-issues-hero.png
+19. reducing-downtime-ar-guided-remote-troubleshooting-hero.png
+20. reducing-training-time-ar-work-instructions-90-days-hero.png
+21. standardise-complex-assembly-digital-work-instructions-hero.png
+22. standardising-inspections-ar-sops-fewer-surprises-hero.png
+23. tribal-knowledge-to-ar-sops-roadmap-hero.png
+24. what-to-measure-ar-remote-expert-support-pilots-hero.png
 
 **All should be placed in:** `public/blogs/`
 
@@ -132,9 +116,9 @@ Note: Some images are intentionally shared between posts (e.g., translations):
 
 ### Immediate Actions:
 
-- [ ] Create directory: `public/images/usecases/`
-- [ ] Add 6 use case hero images to `public/images/usecases/`
-- [ ] Add 16 missing blog images to `public/blogs/`
+- [x] Create directory: `public/images/usecases/` ✅ Done
+- [x] Add 6 use case hero images to `public/images/usecases/` ✅ Done
+- [ ] Add 24 missing blog images to `public/blogs/` (see IMAGE_CREATION_REQUIREMENTS.md)
 - [ ] Fix duplicate image declaration in `2025-11-26-apple-vision-pro-hololens-and-mobile-what-really-matters-for-industrial-ar-adoption.mdx`
 
 ### Verification Steps:
@@ -149,39 +133,41 @@ Note: Some images are intentionally shared between posts (e.g., translations):
 
 ---
 
-## 8. ALL MISSING IMAGES (Complete List)
+## 8. ALL MISSING IMAGES (Complete List - Updated December 2024)
 
-### Use Case Images (6):
+### Use Case Images: ✅ All exist (0 missing)
+
+### Blog Images (24 missing):
 ```
-public/images/usecases/ar-work-instructions-and-sops-to-preserve-corporate-memory-hero.png
-public/images/usecases/ar-training-and-onboarding-for-industrial-teams-hero.png
-public/images/usecases/ar-guided-assembly-for-error-free-production-hero.png
-public/images/usecases/ar-guided-changeover-to-reduce-downtime-hero.png
-public/images/usecases/ar-preventive-maintenance-with-data-driven-insights-hero.png
-public/images/usecases/ar-remote-expert-support-for-corrective-maintenance-hero.png
+public/blogs/5-common-assembly-mistakes-ar-work-instructions-prevent-hero.png
+public/blogs/ar-guided-changeovers-playbook-reduce-downtime-hero.png
+public/blogs/ar-onboarding-new-hires-productivity-hero.png
+public/blogs/ar-remote-expert-support-vs-phone-support-hero.png
+public/blogs/ar-sops-audits-compliance-hero.png
+public/blogs/ar-vs-pdf-onboarding-pilots-hero.png
+public/blogs/assembly-process-ready-ar-work-instructions-checklist-hero.png
+public/blogs/capturing-best-practice-changeover-sequences-ar-sops-hero.png
+public/blogs/capturing-corporate-memory-ar-work-instructions-hero.png
+public/blogs/connecting-sensor-data-ar-guided-maintenance-hero.png
+public/blogs/design-first-ar-onboarding-program-shop-floor-hero.png
+public/blogs/digital-work-instructions-maintenance-technicians-daily-routine-hero.png
+public/blogs/hero-operators-standardised-changeovers-digital-work-instructions-hero.png
+public/blogs/keeping-sops-up-to-date-digital-work-instructions-hero.png
+public/blogs/organise-remote-expert-pool-ar-support-hero.png
+public/blogs/paper-sops-to-ar-sops-assembly-errors-hero.png
+public/blogs/pilot-ar-work-instructions-critical-changeover-hero.png
+public/blogs/preventive-maintenance-ar-work-instructions-catch-issues-hero.png
+public/blogs/reducing-downtime-ar-guided-remote-troubleshooting-hero.png
+public/blogs/reducing-training-time-ar-work-instructions-90-days-hero.png
+public/blogs/standardise-complex-assembly-digital-work-instructions-hero.png
+public/blogs/standardising-inspections-ar-sops-fewer-surprises-hero.png
+public/blogs/tribal-knowledge-to-ar-sops-roadmap-hero.png
+public/blogs/what-to-measure-ar-remote-expert-support-pilots-hero.png
 ```
 
-### Blog Images (16):
-```
-public/blogs/ai-photos-videos-multilingual-instructions-hero.png
-public/blogs/ar-hardware-smart-glasses-tablets-smartphones-hero.png
-public/blogs/ar-in-logistics-guided-picking-packing-loading.png
-public/blogs/ar-sops-manufacturing-audits-hero.png
-public/blogs/ar-training-design-hero.png
-public/blogs/ar-work-instructions-high-risk-hero.png
-public/blogs/connected-worker-platform-vs-traditional-lms.png
-public/blogs/digital-library-work-safety-instructions-hero.png
-public/blogs/error-free-assembly-ar-hero.png
-public/blogs/field-service-ar-checklists-energy-utilities-hero.png
-public/blogs/industrial-ar-adoption-visionpro-hololens-mobile-hero.png
-public/blogs/industrial-ar-adoption-visionpro-hololens-mobile.png
-public/blogs/instruction-formats-safety-quality-hero.png
-public/blogs/measure-roi-ar-ai-work-instructions-hero.png
-public/blogs/mixed-reality-shutdown-turnaround-hero.png
-public/blogs/tracking-skills-ar-compliance-hero.png
-```
+**Total: 24 missing blog images**
 
-**Total: 22 missing images**
+See `IMAGE_CREATION_REQUIREMENTS.md` for detailed visual descriptions and AI generation prompts.
 
 ---
 
@@ -191,5 +177,6 @@ public/blogs/tracking-skills-ar-compliance-hero.png
 - Images in `public/` are served from the root, so `/blogs/image.png` maps to `public/blogs/image.png`
 - Use case images use `/images/usecases/` which maps to `public/images/usecases/`
 - Case sensitivity: All checks are case-insensitive, but ensure actual filenames match exactly (including case) in production
+
 
 

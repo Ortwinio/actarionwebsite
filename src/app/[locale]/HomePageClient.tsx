@@ -152,9 +152,9 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
   const whatWeDoDescription = dictionary?.sections?.whatWeDo?.description;
   const aboutDescription = dictionary?.sections?.about?.description;
   const contactDescription = dictionary?.sections?.contact?.description;
-  const heroTitle = "Work Smarter, Safer and Faster with AI and Augmented reality.";
+  const heroTitle = "Smarter, safer, faster work with AI and AR–guided work instructions";
   const heroDescription =
-    "ActARion helps companies capture critical know-how, guide operators in the flow of work, and build a learning organisation across sites. With Augmented Reality (AR) and AI, we turn complex work into standard, repeatable execution by overlaying digital work instructions and expert knowledge directly onto the real working environment.\n\nAR technology enables the creation, sharing and visualisation of highly interactive experiences right where the work happens. This supports workers in the moment of need, improves business outcomes and optimises tasks and processes.";
+    "ActARion helps companies capture critical know-how, guide operators in the flow of work, and build a learning organisation across sites. We transform SOPs and manuals into AI and AR–guided digital work instructions. Operators see step-by-step AR SOPs on tablets or smart glasses, so they can work safer, faster and with fewer errors.";
 
   return (
     <main className="bg-white text-slate-900">
@@ -214,11 +214,10 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
           <div className="flex-1 space-y-4 text-slate-700">
             <h2 className={sectionTitle}>See ActARion in action</h2>
             <p className="text-base md:text-lg">
-              ActARion pairs AI-assisted SOP creation with AR-guided execution so every operator sees the next best step in context.
-              Share the 30-second overview with the stakeholders who need a quick walkthrough.
+              ActARion is the AR-first connected worker platform. Together with Deep Sight, we transform static SOPs and manuals into interactive, AI and AR–guided work instructions that run on mobile devices and smart glasses.
             </p>
             <ul className="list-disc space-y-2 pl-5 text-slate-600">
-              <li>Preview how guided overlays look through AR glasses or tablets</li>
+              <li>Preview how AR SOPs look through smart glasses or tablets</li>
               <li>Show HSE and quality teams how mandatory checks stay visible</li>
               <li>Highlight how ActARion captures evidence for audits automatically</li>
             </ul>
@@ -248,15 +247,15 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
                 <>
                   {locale === 'de' ? (
                     <span>
-                      Act<span className={accent}>AR</span>ion bietet fortschrittliche AR-gestützte Software, die traditionelle SOPs in immersive, schrittweise visuelle Arbeitsabläufe verwandelt. Mit AR-Brillen oder mobilen Geräten kann Ihre Belegschaft Echtzeit-Anweisungen überlagert auf physischen Umgebungen befolgen – was Präzision, Sicherheit und betriebliche Konsistenz verbessert.
+                      Act<span className={accent}>AR</span>ion ist der europäische Partner von Deep Sight und bietet eine AR-first Connected-Worker-Plattform für Industrie, Logistik und Energie. Wir verwandeln SOPs und Handbücher in KI- und AR-gestützte digitale Arbeitsanweisungen, denen Bediener Schritt für Schritt auf Tablets oder Smart Glasses folgen können – was Präzision, Sicherheit und betriebliche Konsistenz verbessert.
                     </span>
                   ) : locale === 'nl' ? (
                     <span>
-                      Act<span className={accent}>AR</span>ion biedt geavanceerde AR-aangedreven software die traditionele SOPs omzet in immersieve, stap-voor-stap visuele workflows. Met AR-brillen of mobiele apparaten kan uw personeel real-time instructies volgen die over fysieke omgevingen heen worden geprojecteerd—wat precisie, veiligheid en operationele consistentie verbetert.
+                      Act<span className={accent}>AR</span>ion is de Europese partner van Deep Sight en biedt een AR-first connected worker platform voor industrie, logistiek en energie. Wij transformeren SOPs en handleidingen naar AI en AR–geleide digitale werkinstructies die operators stap voor stap kunnen volgen op tablets of smart glasses—wat precisie, veiligheid en operationele consistentie verbetert.
                     </span>
                   ) : (
                     <span>
-                      Act<span className={accent}>AR</span>ion provides advanced AR-driven software that turns traditional SOPs into immersive, step-by-step visual workflows. Using AR glasses or mobile devices, your workforce can follow real-time instructions overlaid on physical environments—enhancing precision, safety, and operational consistency.
+                      Act<span className={accent}>AR</span>ion is the European partner of Deep Sight, offering an AR-first connected worker platform for industrial, logistics and energy environments. We transform SOPs and manuals into AI and AR–guided digital work instructions that operators can follow step by step on tablets or smart glasses—enhancing precision, safety and operational consistency.
                     </span>
                   )}
                 </>
@@ -275,7 +274,7 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
         id="why-ar-sops"
       >
         <h2 className={sectionTitle}>
-          Why “faster, safer, smarter” is the new baseline
+          Why AI and AR–guided work instructions are the new baseline
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
           {benefits.map(({ title, description, icon: Icon }) => (
@@ -302,9 +301,9 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
         className={`${sectionShell} space-y-6`}
         id="use-case-maintenance"
       >
-        <h2 className={sectionTitle}>Where AR guidance creates value</h2>
+        <h2 className={sectionTitle}>Where AI and AR–guided work instructions create value</h2>
         <p className={sectionText}>
-          Explore practical use cases that show how ActARion and DeepSight help teams work faster, safer and smarter with augmented reality guidance and data capture.
+          Explore practical use cases that show how ActARion and Deep Sight help teams work faster, safer and smarter with AR SOPs and digital work instructions.
         </p>
         <div className="grid gap-6 md:grid-cols-2">
           {useCases.map((useCase) => {
@@ -365,10 +364,10 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
           />
         </div>
         <h2 className={sectionTitle}>
-          Where AR and AI create impact first
+          Where AR SOPs and digital work instructions create impact first
         </h2>
         <p className={sectionText}>
-          On the shop floor and in the field, onboarding takes too long, experts are overloaded and compliance depends on a few people. AR and AI help most in concrete situations like onboarding, guided production, changeovers and maintenance.
+          On the shop floor and in the field, onboarding takes too long, experts are overloaded and compliance depends on a few people. AI and AR–guided work instructions help most in concrete situations like onboarding, guided production, changeovers and maintenance.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
           {industries.map(({ title, icon: Icon }) => (
@@ -437,15 +436,15 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
             <>
               {locale === 'de' ? (
                 <span>
-                  Act<span className={accent}>AR</span>ion ist an der Spitze der industriellen AR-Innovation und liefert Lösungen, die die Lücke zwischen digitalen Anweisungen und physischer Ausführung überbrücken. Unsere Plattform verwandelt komplexe Verfahren in intuitive, visuelle Erfahrungen, die die Arbeitsleistung und betriebliche Ergebnisse verbessern.
+                  Act<span className={accent}>AR</span>ion ist der europäische Partner von Deep Sight und bietet eine AR-first Connected-Worker-Plattform für Industrie, Logistik und Energie. Wir verwandeln SOPs und Handbücher in KI- und AR-gestützte digitale Arbeitsanweisungen, denen Bediener Schritt für Schritt auf Tablets oder Smart Glasses folgen können.
                 </span>
               ) : locale === 'nl' ? (
                 <span>
-                  Act<span className={accent}>AR</span>ion staat aan de voorhoede van industriële AR-innovatie en levert oplossingen die de kloof tussen digitale instructies en fysieke uitvoering overbruggen. Ons platform transformeert complexe procedures in intuïtieve, visuele ervaringen die de werkprestaties en operationele resultaten verbeteren.
+                  Act<span className={accent}>AR</span>ion is de Europese partner van Deep Sight en biedt een AR-first connected worker platform voor industrie, logistiek en energie. Wij transformeren SOPs en handleidingen naar AI en AR–geleide digitale werkinstructies die operators stap voor stap kunnen volgen op tablets of smart glasses.
                 </span>
               ) : (
                 <span>
-                  Act<span className={accent}>AR</span>ion is at the forefront of industrial AR innovation, delivering solutions that bridge the gap between digital instructions and physical execution. Our platform transforms complex procedures into intuitive, visual experiences that enhance work performance and operational outcomes.
+                  Act<span className={accent}>AR</span>ion is the European partner of Deep Sight, offering an AR-first connected worker platform for industrial, logistics and energy environments. We transform SOPs and manuals into AI and AR–guided digital work instructions that operators can follow step by step on tablets or smart glasses.
                 </span>
               )}
             </>

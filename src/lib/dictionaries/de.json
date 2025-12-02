@@ -4,10 +4,18 @@
     "about": "Über uns",
     "contact": "Kontakt",
     "demo": "Demo",
-    "blog": "Blog",
+    "insight": "Insight",
     "partner": "Partner",
     "career": "Karriere",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "insightSubmenu": {
+      "useCases": "Anwendungsfälle",
+      "blogposts": "Blogbeiträge",
+      "events": "Veranstaltungen",
+      "whitepapers": "Whitepapers",
+      "videos": "Videos",
+      "news": "News"
+    }
   },
   "hero": {
     "title": "Arbeiten Sie intelligenter, bleiben Sie sicherer, leisten Sie mehr — mit immersiver Technologie.",
@@ -314,6 +322,89 @@
     "blog": {
       "title": "Blog",
       "description": "Einblicke, Updates und Gedankenführung zu Augmented Reality in der Fertigung und industriellen Anwendungen.",
+      "backToHome": "Zurück zur Startseite"
+    },
+    "events": {
+      "title": "Events",
+      "subtitle": "Treffen Sie ActARion bei kommenden Veranstaltungen, Webinaren und Workshops",
+      "description": "Treffen Sie ActARion bei kommenden Veranstaltungen, Webinaren und Workshops und erfahren Sie, wie KI- und AR-gestützte Arbeitsanweisungen Ihnen helfen, Unternehmenswissen zu erfassen und die Zukunft der Arbeit zu gestalten.",
+      "intro": "Treffen Sie ActARion bei kommenden Veranstaltungen, Webinaren und Workshops und erfahren Sie, wie KI- und AR-gestützte Arbeitsanweisungen und AR-SOPs Ihnen helfen, Unternehmenswissen zu erfassen, Mitarbeiter zu unterstützen und die Zukunft der Arbeit zu gestalten.",
+      "upcomingTitle": "Kommende Veranstaltungen",
+      "noEvents": "Momentan keine kommenden Veranstaltungen. Schauen Sie bald wieder vorbei oder abonnieren Sie unseren Newsletter, um informiert zu bleiben.",
+      "registerButton": "Für diese Veranstaltung anmelden",
+      "formTitle": "Für eine Veranstaltung anmelden",
+      "formHint": "Wählen Sie oben eine Veranstaltung aus und klicken Sie auf \"Für diese Veranstaltung anmelden\", um das Anmeldeformular vorzufüllen, oder wählen Sie aus der Dropdown-Liste unten.",
+      "form": {
+        "eventLabel": "Veranstaltung",
+        "eventPlaceholder": "Veranstaltung auswählen",
+        "emailLabel": "E-Mail-Adresse",
+        "emailPlaceholder": "sie@unternehmen.de",
+        "companyLabel": "Firmenname",
+        "companyPlaceholder": "Ihr Unternehmen",
+        "roleLabel": "Rolle",
+        "rolePlaceholder": "Ihre Rolle",
+        "submitButton": "Anmelden",
+        "errorSelectEvent": "Bitte wählen Sie eine Veranstaltung",
+        "errorEmail": "E-Mail ist erforderlich",
+        "errorEmailInvalid": "Bitte geben Sie eine gültige E-Mail ein",
+        "errorCompany": "Firmenname ist erforderlich",
+        "errorRole": "Rolle ist erforderlich"
+      },
+      "successTitle": "Vielen Dank für Ihre Anmeldung!",
+      "successMessage": "Sie sind jetzt für diese Veranstaltung angemeldet. Sie erhalten in Kürze eine E-Mail mit weiteren Details.",
+      "registerAnother": "Für eine andere Veranstaltung anmelden",
+      "backToHome": "Zurück zur Startseite"
+    },
+    "whitepapers": {
+      "title": "Whitepapers",
+      "subtitle": "Ausführliche Leitfäden und Forschung zu AR-gestützten Abläufen",
+      "description": "Laden Sie ActARion Whitepapers und Leitfäden zu AR-gestützten SOPs, Wissenserfassung und industrieller digitaler Transformation herunter.",
+      "intro": "Laden Sie unsere Whitepapers und Leitfäden herunter, um zu erfahren, wie AR und KI Ihre Abläufe transformieren, Expertenwissen erfassen und Schulungen beschleunigen können.",
+      "pages": "Seiten",
+      "downloadButton": "PDF herunterladen",
+      "noWhitepapers": "Momentan keine Whitepapers verfügbar. Schauen Sie bald wieder vorbei oder abonnieren Sie unseren Newsletter, um benachrichtigt zu werden.",
+      "ctaTitle": "Möchten Sie mehr erfahren?",
+      "ctaDescription": "Vereinbaren Sie ein Discovery-Gespräch, um zu besprechen, wie AR-gestützte SOPs Ihre Abläufe verbessern können.",
+      "ctaButton": "Discovery-Gespräch vereinbaren",
+      "backToHome": "Zurück zur Startseite"
+    },
+    "videos": {
+      "title": "Videos",
+      "subtitle": "Demos, Webinare und Kundenberichte",
+      "description": "Sehen Sie ActARion Videos mit Plattform-Demos, Kundenberichten, Webinaren und Tutorials zu AR-gestützten Arbeitsanweisungen.",
+      "intro": "Sehen Sie Demos, Kundenberichte, Webinare und Tutorials, um zu erfahren, wie ActARion Abläufe mit AR-gestützten Arbeitsanweisungen transformiert.",
+      "filterAll": "Alle",
+      "types": {
+        "demo": "Demo",
+        "webinar": "Webinar",
+        "tutorial": "Tutorial",
+        "customer-story": "Kundenbericht",
+        "product-update": "Produktupdate"
+      },
+      "noVideos": "Momentan keine Videos verfügbar. Schauen Sie bald wieder vorbei oder abonnieren Sie unseren Newsletter, um benachrichtigt zu werden.",
+      "ctaTitle": "ActARion in Aktion sehen",
+      "ctaDescription": "Fordern Sie eine personalisierte Demo an, um zu sehen, wie ActARion Ihre Abläufe transformieren kann.",
+      "ctaButton": "Demo anfordern",
+      "backToHome": "Zurück zur Startseite"
+    },
+    "news": {
+      "title": "Neuigkeiten",
+      "subtitle": "Aktuelle Updates und Ankündigungen",
+      "description": "Bleiben Sie auf dem Laufenden mit ActARion Neuigkeiten, Pressemitteilungen, Partnerschaften und Unternehmensankündigungen.",
+      "intro": "Bleiben Sie auf dem Laufenden mit den neuesten ActARion Neuigkeiten, Pressemitteilungen, Partnerschaften und Unternehmensankündigungen.",
+      "filterAll": "Alle",
+      "types": {
+        "press-release": "Pressemitteilung",
+        "company-news": "Unternehmensnachrichten",
+        "partnership": "Partnerschaft",
+        "award": "Auszeichnung",
+        "industry-news": "Branchennachrichten"
+      },
+      "readMore": "Mehr lesen",
+      "noNews": "Momentan keine Neuigkeiten verfügbar. Schauen Sie bald wieder vorbei oder abonnieren Sie unseren Newsletter, um informiert zu bleiben.",
+      "ctaTitle": "Bleiben Sie informiert",
+      "ctaDescription": "Abonnieren Sie unseren Newsletter, um die neuesten Nachrichten, Updates und Einblicke direkt in Ihren Posteingang zu erhalten.",
+      "ctaButton": "Newsletter abonnieren",
       "backToHome": "Zurück zur Startseite"
     }
   },

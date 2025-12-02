@@ -27,6 +27,8 @@ const blog = s.object({
   isPublished: s.boolean().default(true),
   slug: s.string(),
   locale: s.enum(['en','de','nl']).default('en'),
+  // Content pillar for filtering (use-cases, roles, industries, technology-and-architecture, change-and-implementation)
+  pillar: s.enum(['use-cases', 'roles', 'industries', 'technology-and-architecture', 'change-and-implementation']).optional(),
   body: s.mdx(),
   toc: s.toc(),
 }).transform((data) => {

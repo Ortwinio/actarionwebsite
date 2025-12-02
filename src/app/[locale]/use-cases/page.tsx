@@ -23,10 +23,10 @@ interface UseCasesPageProps {
 }
 
 const pageDescription =
-  "Discover how ActARion and DeepSight help industrial, logistics and energy organisations work smarter, faster and safer with augmented reality work instructions, training and maintenance support.";
+  "Discover how ActARion and Deep Sight help industrial, logistics and energy organisations work smarter, faster and safer with AI and AR–guided work instructions, AR SOPs and digital work instructions.";
 
 const pageIntro =
-  "Organisations use ActARion for AR and AI guided work to make operations safer, faster, and smarter. From assembly and changeover to maintenance and training, augmented reality work instructions help teams execute complex procedures with confidence and precision.";
+  "ActARion and Deep Sight help you apply AI and AR–guided work instructions across your operations. From assembly and changeovers to maintenance, training and audits, we turn your SOPs into digital work instructions and AR SOPs that guide people step-by-step in the real environment.";
 
 export async function generateMetadata({ params }: UseCasesPageProps) {
   const { locale } = await params;
@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: UseCasesPageProps) {
 
   return buildPageMetadata({
     locale,
-    title: "Use cases: safer, faster, smarter work with AI and AR | ActARion",
+    title: "Use cases for AI and AR–guided work instructions | ActARion",
     description: pageDescription,
     segment: "use-cases",
   });
@@ -62,7 +62,7 @@ export default async function UseCasesOverviewPage({
   const structuredData = [
     buildWebPageSchema({
       locale: typedLocale,
-      title: "Use cases: safer, faster, smarter work with AI and AR | ActARion",
+      title: "Use cases for AI and AR–guided work instructions | ActARion",
       description: pageDescription,
       segment: "use-cases",
     }),
@@ -88,7 +88,7 @@ export default async function UseCasesOverviewPage({
           <section className="space-y-6">
             <div className="space-y-4">
               <h1 className="section-heading text-slate-900">
-                Use cases: safer, faster, smarter work with AI and AR
+                Use cases for AI and AR–guided work instructions
               </h1>
               <p className="section-lead max-w-3xl text-gray-700">
                 {pageIntro}
@@ -97,7 +97,7 @@ export default async function UseCasesOverviewPage({
             <div className="relative w-full overflow-hidden rounded-2xl border border-slate-200 shadow-card">
               <Image
                 src="/images/usecases/usecases-overview.png"
-                alt="Overview of AI and AR use cases for smarter, safer, faster work"
+                alt="Overview of AI and AR–guided work instructions use cases for smarter, safer, faster work"
                 width={1200}
                 height={600}
                 className="w-full h-auto object-cover"

@@ -90,7 +90,7 @@ export default function ContactPageClient({ locale, dictionary }: ContactPageCli
                 Ready to explore how AR and AI-guided work could fit into your operations?
               </p>
               <p>
-                At ActARion we help industrial, logistics and energy companies turn complex procedures into clear, visual guidance. Together with our partner DeepSight we support teams in maintenance, production and field operations with step-by-step instructions that make work more consistent, safer and easier to learn.
+                At ActARion we help industrial, logistics and energy companies turn complex procedures into clear, visual guidance. Together with our partner Deep Sight we support teams in maintenance, production and field operations with AI and AR–guided work instructions that make work more consistent, safer and easier to learn.
               </p>
               <p>
                 Use the form below to schedule a discovery call or a demo. We&apos;ll get back to you as soon as possible.
