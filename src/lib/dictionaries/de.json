@@ -6,7 +6,7 @@
     "contact": "Kontakt",
     "demo": "Demo",
     "insight": "Insights",
-    "partner": "Partner",
+    "partner": "Partners",
     "career": "Karriere",
     "faq": "FAQ",
     "insightSubmenu": {
@@ -133,7 +133,7 @@
       "description": "ActARion hilft Industrie-, Logistik- und Energieunternehmen, kritisches Know-how zu erfassen, Mitarbeiter im Arbeitsfluss anzuleiten und eine lernende Organisation standortübergreifend aufzubauen.",
       "backToHome": "Zurück zur Startseite",
       "intro": {
-        "p1": "Bei ActARion helfen wir Ihnen, AR und KI von „interessanter Technologie" in praktische Werkzeuge im täglichen Betrieb zu verwandeln. Unsere Dienstleistungen sind auf ein einfaches Ziel ausgerichtet: Ihren Teams zu helfen, smarter, sicherer und schneller zu arbeiten.",
+        "p1": "Bei ActARion helfen wir Ihnen, AR und KI von ‚interessanter Technologie' in praktische Werkzeuge im täglichen Betrieb zu verwandeln. Unsere Dienstleistungen sind auf ein einfaches Ziel ausgerichtet: Ihren Teams zu helfen, smarter, sicherer und schneller zu arbeiten.",
         "p2": "Wir beginnen nicht mit Features, sondern mit Ihrer Realität: Assets, Prozesse, Menschen, Vorschriften und Ziele. Von dort aus gestalten wir einen konkreten Weg: entdecken → beweisen → skalieren."
       },
       "sections": {
@@ -144,7 +144,7 @@
           "whatWeDo": "Was wir tun:",
           "items": [
             "Kurzes Intake mit Operations, Instandhaltung, Qualität, HR und IT.",
-            "Erfassung kritischer Prozesse und „Moments that Matter" auf der Produktionsfläche.",
+            "Erfassung kritischer Prozesse und 'Moments that Matter' auf der Produktionsfläche.",
             "Identifikation und Priorisierung von AR/KI-Use-Cases, zum Beispiel: AR-gestützte Montage und Inspektionen, Umrüstungen, Training und Onboarding, vorbeugende Instandhaltung und Remote-Troubleshooting, Arbeitsanweisungen und SOPs zur Sicherung des Unternehmenswissens.",
             "High-Level-Roadmap: wo anfangen, was messen, wie skalieren."
           ],
@@ -257,7 +257,7 @@
       "mission": "Woran wir glauben",
       "missionText": "• SOPs sind mehr als Dokumente — Standard Operating Procedures sind das Rückgrat von Qualität, Sicherheit und Leistung. Sie schaffen nur Wert, wenn sie leicht zu finden, leicht zu befolgen und leicht zu verbessern sind.\n• Wissen sollte dort leben, wo die Arbeit stattfindet — Menschen sollten ihre Aufgabe nicht verlassen oder mehrere Systeme durchsuchen müssen, während eine Linie stillsteht. Anleitung muss im Kontext verfügbar sein, Schritt für Schritt, in der realen Umgebung.\n• Technologie sollte Arbeit klarer machen — AR und KI sind nur dann nützlich, wenn sie Unklarheit reduzieren, Aufgaben verständlicher machen und Teams mehr Vertrauen in das geben, was sie tun.\n• Kontinuierliche Verbesserung ist tägliche Routine — Jede Aufgabe ist ein Lernmoment. Ausführungsdaten sollten in bessere Anweisungen, besseres Training und bessere Prozesse zurückfließen.",
       "partners": "Für wen wir arbeiten",
-      "partnersText": "Unsere Kunden sind Organisationen in Industrie, Logistik, Versorgung und Energie, die den Betrieb als ihr wichtigstes Differenzierungsmerkmal sehen. Typische Stakeholder, mit denen wir arbeiten:\n• Operations- und Werksleiter, die konsistente Leistung über Standorte hinweg wollen\n• Instandhaltungs- und Zuverlässigkeitsteams, die Verfügbarkeit mit weniger Experten schützen müssen\n• HSE- und Qualitätsmanager, die für sichere, konforme Arbeit jeden Tag verantwortlich sind\n• HR- und L&D-Teams, die neue Kollegen schneller einarbeiten müssen, ohne erfahrene Mitarbeiter zu überlasten\n• Digital-, IT- und Innovationsteams auf der Suche nach praktischen AR/KI-Use-Cases mit messbarem Impact\n\nFür diese Teams ist „smarter, schneller, sicherer arbeiten" kein Slogan. Es ist eine Bedingung, um wettbewerbsfähig zu bleiben, Vorschriften zu erfüllen und Menschen zu motivieren.\n\nSmarter — Betriebswissen ist strukturiert, durchsuchbar und standortübergreifend verfügbar. Lessons Learned von einem Standort können überall wiederverwendet werden.\nSchneller — Onboarding- und Schulungszeiten sinken, Umrüstungen werden wiederholbar, und Fehlerbehebung wird bei Bedarf von Remote-Experten unterstützt.\nSicherer — Visuelle, schrittweise Anleitung und eingebaute Checks reduzieren Varianz, Vorfälle und Compliance-Risiken. Sicherheitsanforderungen sind Teil des normalen Arbeitsflusses, keine separate Checkliste.\n\nLassen Sie uns erkunden, ob dies für Sie relevant ist. Wenn Sie für Operations, Instandhaltung, HSE, Qualität, HR/L&D oder digitale Innovation verantwortlich sind und den Druck erkennen:\n• mehr mit weniger erfahrenen Leuten zu leisten\n• Wissen zu sichern, bevor es die Organisation verlässt\n• Produktivität zu verbessern und dabei sicher und konform zu bleiben\n\ndann lohnt es sich möglicherweise zu erkunden, was AR und KI in Ihrer Umgebung leisten können.\n\nActARion wird von den Managing Partners Mark Dercksen und Ortwin Verreck geleitet, unterstützt von einem Netzwerk von AR-, KI- und Operations-Spezialisten.\n\nWir starten gerne mit einem kurzen Discovery-Gespräch oder einem Future-of-Work-Briefing, zugeschnitten auf Ihre Teams und Use Cases.",
+      "partnersText": "Unsere Kunden sind Organisationen in Industrie, Logistik, Versorgung und Energie, die den Betrieb als ihr wichtigstes Differenzierungsmerkmal sehen. Typische Stakeholder, mit denen wir arbeiten:\n• Operations- und Werksleiter, die konsistente Leistung über Standorte hinweg wollen\n• Instandhaltungs- und Zuverlässigkeitsteams, die Verfügbarkeit mit weniger Experten schützen müssen\n• HSE- und Qualitätsmanager, die für sichere, konforme Arbeit jeden Tag verantwortlich sind\n• HR- und L&D-Teams, die neue Kollegen schneller einarbeiten müssen, ohne erfahrene Mitarbeiter zu überlasten\n• Digital-, IT- und Innovationsteams auf der Suche nach praktischen AR/KI-Use-Cases mit messbarem Impact\n\nFür diese Teams ist 'smarter, schneller, sicherer arbeiten' kein Slogan. Es ist eine Bedingung, um wettbewerbsfähig zu bleiben, Vorschriften zu erfüllen und Menschen zu motivieren.\n\nSmarter — Betriebswissen ist strukturiert, durchsuchbar und standortübergreifend verfügbar. Lessons Learned von einem Standort können überall wiederverwendet werden.\nSchneller — Onboarding- und Schulungszeiten sinken, Umrüstungen werden wiederholbar, und Fehlerbehebung wird bei Bedarf von Remote-Experten unterstützt.\nSicherer — Visuelle, schrittweise Anleitung und eingebaute Checks reduzieren Varianz, Vorfälle und Compliance-Risiken. Sicherheitsanforderungen sind Teil des normalen Arbeitsflusses, keine separate Checkliste.\n\nLassen Sie uns erkunden, ob dies für Sie relevant ist. Wenn Sie für Operations, Instandhaltung, HSE, Qualität, HR/L&D oder digitale Innovation verantwortlich sind und den Druck erkennen:\n• mehr mit weniger erfahrenen Leuten zu leisten\n• Wissen zu sichern, bevor es die Organisation verlässt\n• Produktivität zu verbessern und dabei sicher und konform zu bleiben\n\ndann lohnt es sich möglicherweise zu erkunden, was AR und KI in Ihrer Umgebung leisten können.\n\nActARion wird von den Managing Partners Mark Dercksen und Ortwin Verreck geleitet, unterstützt von einem Netzwerk von AR-, KI- und Operations-Spezialisten.\n\nWir starten gerne mit einem kurzen Discovery-Gespräch oder einem Future-of-Work-Briefing, zugeschnitten auf Ihre Teams und Use Cases.",
       "backToHome": "Zurück zur Startseite"
     },
     "contact": {
@@ -332,7 +332,7 @@
       "sections": {
         "whyWork": {
           "title": "Warum bei ActARion arbeiten?",
-          "intro": "Arbeit im operativen Bereich verändert sich schnell. Maschinen werden komplexer, Sicherheitsstandards strenger und erfahrene Spezialisten schwerer zu finden. Viele Organisationen verlassen sich noch immer auf PDFs, Präsenzschulungen und informelles „on the job"-Anlernen.",
+          "intro": "Arbeit im operativen Bereich verändert sich schnell. Maschinen werden komplexer, Sicherheitsstandards strenger und erfahrene Spezialisten schwerer zu finden. Viele Organisationen verlassen sich noch immer auf PDFs, Präsenzschulungen und informelles 'on the job'-Anlernen.",
           "statement": "ActARion existiert, um das zu ändern.",
           "points": [
             "Wir arbeiten mit führender AR- und KI-Technologie, um Menschen direkt im Moment der Arbeit zu unterstützen.",

@@ -37,13 +37,13 @@ export const aboutSubItems: NavigationSubItem[] = [
   { id: 'faq', segment: 'faq' },
 ];
 
-/** Top-level navigation order: Services, Insights, Partners, About us, Contact */
+/** Top-level navigation order: About us, Services, Insights, Partners, Contact */
 export const navigationItems: NavigationItem[] = [
   { id: 'home' },
+  { id: 'about', children: aboutSubItems },
   { id: 'services', segment: 'services' },
   { id: 'insight', children: insightSubItems },
   { id: 'partner', segment: 'partner-contact' },
-  { id: 'about', children: aboutSubItems },
   { id: 'contact', segment: 'contact' },
 ];
 
