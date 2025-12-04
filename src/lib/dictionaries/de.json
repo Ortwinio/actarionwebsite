@@ -26,15 +26,88 @@
     }
   },
   "hero": {
-    "title": "Arbeiten Sie intelligenter, bleiben Sie sicherer, leisten Sie mehr — mit immersiver Technologie.",
-    "subtitle": "ActARion liefert Next-Generation-SOP-Lösungen, unterstützt durch KI und Augmented-Reality-Technologie. ActARion ist autorisierter Distributor und Implementierungspartner von Deep Sight Technology in Europa.",
+    "title": "Smarter, sicherer, schneller arbeiten mit KI und AR-gestützten Arbeitsanweisungen",
+    "subtitle": "ActARion hilft Unternehmen, kritisches Know-how zu erfassen, Mitarbeiter im Arbeitsfluss anzuleiten und eine lernende Organisation standortübergreifend aufzubauen. Wir verwandeln SOPs und Handbücher in KI- und AR-gestützte digitale Arbeitsanweisungen. Mitarbeiter sehen Schritt-für-Schritt AR-SOPs auf Tablets oder Smart Glasses und können so sicherer, schneller und mit weniger Fehlern arbeiten.",
     "cta": "Discovery Call oder Demo vereinbaren",
-    "aboutLink": "Über uns"
+    "aboutLink": "Über uns",
+    "useCasesCta": "Anwendungsfälle erkunden"
   },
   "sections": {
+    "video": {
+      "title": "Sehen Sie, wie ActARion in 30 Sekunden funktioniert",
+      "description": "Sehen Sie in diesem kurzen Video, wie ActARion KI und Augmented Reality nutzt, um SOPs und Arbeitsanweisungen schneller, sicherer und smarter zu erstellen.",
+      "seeInAction": "Sehen Sie ActARion in Aktion",
+      "inActionDescription": "ActARion ist die AR-first Connected-Worker-Plattform. Gemeinsam mit Deep Sight verwandeln wir statische SOPs und Handbücher in interaktive, KI- und AR-gestützte Arbeitsanweisungen, die auf mobilen Geräten und Smart Glasses laufen.",
+      "previewBullet": "Sehen Sie, wie AR-SOPs durch Smart Glasses oder Tablets aussehen",
+      "hseBullet": "Zeigen Sie HSE- und Qualitätsteams, wie verpflichtende Checks sichtbar bleiben",
+      "auditBullet": "Heben Sie hervor, wie ActARion Nachweise für Audits automatisch erfasst"
+    },
     "whatWeDo": {
       "title": "Augmentierte Anleitung für operative Exzellenz",
       "description": "ActARion bietet fortschrittliche Augmented Reality-gestützte Benutzerführung, die traditionelle Standard Operating Procedures (SOPs) in immersive, schrittweise visuelle Arbeitsabläufe verwandelt.\nMit AR-Brillen, Tablets oder mobilen Geräten kann Ihre Belegschaft geschult werden und in tatsächlichen Operationen Echtzeit-Anweisungen befolgen.\nAR-Overlays liefern Echtzeit-Führung und wichtige Informationen für sicherere, präzisere und konsistentere Prozessausführung."
+    },
+    "benefits": {
+      "title": "Warum KI- und AR-gestützte Arbeitsanweisungen der neue Standard sind",
+      "captureKnowledge": {
+        "title": "Wissen systematisch erfassen",
+        "description": "Kritisches Know-how ist strukturiert, versioniert und dort verfügbar, wo die Arbeit stattfindet – nicht in E-Mails versteckt oder nur im Kopf von Experten."
+      },
+      "guideInContext": {
+        "title": "Menschen im Kontext anleiten",
+        "description": "Anweisungen erscheinen Schritt für Schritt im Moment des Bedarfs, sodass Mitarbeiter keine Portale durchsuchen, während eine Linie steht."
+      },
+      "systemLearns": {
+        "title": "Das System lernt aus jeder Aufgabe",
+        "description": "Jede Ausführung generiert Zeit-, Fehler- und Bestätigungsdaten – der Kreislauf zur Verbesserung von Verfahren, Training und Geräteeinstellungen schließt sich."
+      },
+      "faster": {
+        "title": "Schneller",
+        "description": "Mitarbeiter finden und wenden die richtige Anweisung sofort an. Onboarding verkürzt sich, Troubleshooting beschleunigt sich, Umrüstungen werden wiederholbar."
+      },
+      "safer": {
+        "title": "Sicherer",
+        "description": "Standardisierte, visuelle und prüfbare Anweisungen reduzieren Varianz, Vorfälle und Compliance-Risiken – Sicherheitsschritte sind in den Arbeitsfluss integriert."
+      },
+      "smarter": {
+        "title": "Smarter",
+        "description": "Wissen verbessert sich mit jeder Ausführung. Lessons Learned von einem Standort können überall angewendet werden – eine lernende Organisation entsteht."
+      }
+    },
+    "useCases": {
+      "title": "Wo KI- und AR-gestützte Arbeitsanweisungen Mehrwert schaffen",
+      "description": "Entdecken Sie praktische Anwendungsfälle, die zeigen, wie ActARion und Deep Sight Teams helfen, mit AR-SOPs und digitalen Arbeitsanweisungen schneller, sicherer und smarter zu arbeiten.",
+      "viewUseCase": "Anwendungsfall ansehen",
+      "viewAll": "Alle Anwendungsfälle ansehen",
+      "cta": "Anwendungsfälle erkunden"
+    },
+    "industries": {
+      "title": "Wo AR-SOPs und digitale Arbeitsanweisungen zuerst Wirkung zeigen",
+      "description": "Auf der Produktionsfläche und im Außendienst dauert Onboarding zu lange, Experten sind überlastet und Compliance hängt von wenigen Personen ab. KI- und AR-gestützte Arbeitsanweisungen helfen am meisten in konkreten Situationen wie Onboarding, geführter Produktion, Umrüstungen und Instandhaltung.",
+      "industrialManufacturing": "Industrielle Fertigung",
+      "energyUtilities": "Energie & Versorgung",
+      "aerospace": "Luft- und Raumfahrt",
+      "pharmaBiotech": "Pharma & Biotech",
+      "fieldServices": "Außendienst",
+      "maintenanceOperations": "Instandhaltung"
+    },
+    "howWeStart": {
+      "title": "Wie wir starten",
+      "step1": {
+        "title": "Future of Work Briefing",
+        "description": "Gemeinsame Session mit Operations, HR/L&D und IT zu den Trends hinter 'schneller, sicherer, smarter' und was sie für Ihre Standorte bedeuten."
+      },
+      "step2": {
+        "title": "Use-Case-Entdeckung",
+        "description": "Identifizieren und priorisieren Sie 3-5 High-Impact-Situationen, in denen AR- und KI-Anleitung Reibung beseitigen, Fehler reduzieren oder Training verkürzen könnte."
+      },
+      "step3": {
+        "title": "Pilot mit klaren KPIs",
+        "description": "Implementieren Sie einen oder zwei Use Cases mit klaren KPIs (z.B. First Time Right, Zykluszeit, Onboarding-Zeit, Stillstandzeit) und einem Entscheidungsrahmen zur Skalierung."
+      },
+      "step4": {
+        "title": "Skalieren und befähigen",
+        "description": "Stellen Sie Playbooks und Enablement bereit, damit Teams über Linien, Werke und Länder hinweg mit lokaler Ownership standardisieren können."
+      }
     },
     "whyAR": {
       "title": "Warum Augmented Reality Führung in Operationen?",

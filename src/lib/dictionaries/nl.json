@@ -26,15 +26,88 @@
     }
   },
   "hero": {
-    "title": "Werk slimmer, blijf veiliger, presteer beter — met immersieve technologie.",
-    "subtitle": "ActARion levert next‑generation SOP‑oplossingen, aangedreven door AI en Augmented Reality technologie. ActARion is geautoriseerde distributeur en implementatiepartner in Europa van Deep Sight Technology.",
+    "title": "Slimmer, veiliger, sneller werken met AI en AR-gestuurde werkinstructies",
+    "subtitle": "ActARion helpt bedrijven kritieke know-how vast te leggen, operators te begeleiden in de werkstroom en een lerende organisatie op te bouwen over locaties heen. Wij transformeren SOPs en handleidingen naar AI en AR-gestuurde digitale werkinstructies. Operators zien stap-voor-stap AR-SOPs op tablets of smart glasses, zodat ze veiliger, sneller en met minder fouten kunnen werken.",
     "cta": "Discovery Call of Demo inplannen",
-    "aboutLink": "Over ons"
+    "aboutLink": "Over ons",
+    "useCasesCta": "Bekijk use cases"
   },
   "sections": {
+    "video": {
+      "title": "Bekijk hoe ActARion werkt in 30 seconden",
+      "description": "Bekijk deze korte video om te zien hoe ActARion AI en Augmented Reality gebruikt om SOPs en werkinstructies sneller, veiliger en slimmer te maken.",
+      "seeInAction": "Bekijk ActARion in actie",
+      "inActionDescription": "ActARion is het AR-first connected worker platform. Samen met Deep Sight transformeren we statische SOPs en handleidingen naar interactieve, AI en AR-gestuurde werkinstructies die draaien op mobiele apparaten en smart glasses.",
+      "previewBullet": "Bekijk hoe AR-SOPs eruitzien door smart glasses of tablets",
+      "hseBullet": "Toon HSE- en kwaliteitsteams hoe verplichte checks zichtbaar blijven",
+      "auditBullet": "Benadruk hoe ActARion bewijsmateriaal voor audits automatisch vastlegt"
+    },
     "whatWeDo": {
       "title": "Augmented begeleiding voor operationele excellentie",
       "description": "ActARion biedt geavanceerde Augmented Reality-aangedreven gebruikersbegeleiding die traditionele Standard Operating Procedures (SOPs) omzet in immersieve, stap-voor-stap visuele workflows.\nMet AR-brillen, tablets of mobiele apparaten kan uw personeel worden getraind en in daadwerkelijke operaties real-time instructies volgen.\nAR-overlays leveren real-time begeleiding en vitale informatie voor veiligere, meer precieze en consistente procesuitvoering."
+    },
+    "benefits": {
+      "title": "Waarom AI en AR-gestuurde werkinstructies de nieuwe standaard zijn",
+      "captureKnowledge": {
+        "title": "Kennis systematisch vastleggen",
+        "description": "Kritieke know-how is gestructureerd, geversioneerd en beschikbaar waar het werk plaatsvindt – niet verstopt in e-mails of alleen in de hoofden van experts."
+      },
+      "guideInContext": {
+        "title": "Mensen in context begeleiden",
+        "description": "Instructies verschijnen stap voor stap op het moment van behoefte, zodat operators geen portalen doorzoeken terwijl een lijn stilstaat."
+      },
+      "systemLearns": {
+        "title": "Het systeem leert van elke taak",
+        "description": "Elke uitvoering genereert tijd-, fout- en bevestigingsdata – de cirkel naar verbetering van procedures, training en apparaatinstellingen sluit zich."
+      },
+      "faster": {
+        "title": "Sneller",
+        "description": "Medewerkers vinden en passen de juiste instructie direct toe. Onboarding verkort, troubleshooting versnelt, omstellingen worden herhaalbaar."
+      },
+      "safer": {
+        "title": "Veiliger",
+        "description": "Gestandaardiseerde, visuele en auditeerbare instructies verminderen variatie, incidenten en compliance-risico – veiligheidsstappen zijn ingebouwd in de werkstroom."
+      },
+      "smarter": {
+        "title": "Slimmer",
+        "description": "Kennis verbetert met elke uitvoering. Lessons learned van één locatie kunnen overal worden toegepast – een lerende organisatie ontstaat."
+      }
+    },
+    "useCases": {
+      "title": "Waar AI en AR-gestuurde werkinstructies waarde creëren",
+      "description": "Ontdek praktische use cases die laten zien hoe ActARion en Deep Sight teams helpen sneller, veiliger en slimmer te werken met AR-SOPs en digitale werkinstructies.",
+      "viewUseCase": "Bekijk use case",
+      "viewAll": "Bekijk alle use cases",
+      "cta": "Bekijk use cases"
+    },
+    "industries": {
+      "title": "Waar AR-SOPs en digitale werkinstructies als eerste impact maken",
+      "description": "Op de werkvloer en in het veld duurt onboarding te lang, experts zijn overbelast en compliance hangt af van enkele personen. AI en AR-gestuurde werkinstructies helpen het meest in concrete situaties zoals onboarding, begeleide productie, omstellingen en onderhoud.",
+      "industrialManufacturing": "Industriële Productie",
+      "energyUtilities": "Energie & Utilities",
+      "aerospace": "Lucht- en Ruimtevaart",
+      "pharmaBiotech": "Farma & Biotech",
+      "fieldServices": "Veldservice",
+      "maintenanceOperations": "Onderhoud"
+    },
+    "howWeStart": {
+      "title": "Hoe we starten",
+      "step1": {
+        "title": "Future of Work briefing",
+        "description": "Gezamenlijke sessie met operations, HR/L&D en IT over de trends achter 'sneller, veiliger, slimmer' en wat ze betekenen voor uw locaties."
+      },
+      "step2": {
+        "title": "Use case discovery",
+        "description": "Identificeer en prioriteer 3-5 high-impact situaties waar AR- en AI-begeleiding frictie kan wegnemen, fouten kan verminderen of training kan verkorten."
+      },
+      "step3": {
+        "title": "Pilot met duidelijke KPIs",
+        "description": "Implementeer één of twee use cases met duidelijke KPIs (bijv. First Time Right, cyclustijd, onboardingtijd, downtime) en een besliskader voor opschaling."
+      },
+      "step4": {
+        "title": "Opschalen en enablen",
+        "description": "Lever playbooks en enablement zodat teams kunnen standaardiseren over lijnen, fabrieken en landen met lokaal eigenaarschap."
+      }
     },
     "whyAR": {
       "title": "Waarom Augmented Reality begeleiding in operaties?",

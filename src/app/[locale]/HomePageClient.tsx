@@ -152,9 +152,98 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
   const whatWeDoDescription = dictionary?.sections?.whatWeDo?.description;
   const aboutDescription = dictionary?.sections?.about?.description;
   const contactDescription = dictionary?.sections?.contact?.description;
-  const heroTitle = "Smarter, safer, faster work with AI and AR–guided work instructions";
-  const heroDescription =
-    "ActARion helps companies capture critical know-how, guide operators in the flow of work, and build a learning organisation across sites. We transform SOPs and manuals into AI and AR–guided digital work instructions. Operators see step-by-step AR SOPs on tablets or smart glasses, so they can work safer, faster and with fewer errors.";
+  
+  // Hero section translations
+  const heroTitle = dictionary?.hero?.title || "Smarter, safer, faster work with AI and AR–guided work instructions";
+  const heroDescription = dictionary?.hero?.subtitle || "ActARion helps companies capture critical know-how, guide operators in the flow of work, and build a learning organisation across sites. We transform SOPs and manuals into AI and AR–guided digital work instructions. Operators see step-by-step AR SOPs on tablets or smart glasses, so they can work safer, faster and with fewer errors.";
+  const useCasesCta = dictionary?.hero?.useCasesCta || dictionary?.sections?.useCases?.cta || "Explore use cases";
+  
+  // Video section translations
+  const videoTitle = dictionary?.sections?.video?.title || "See how ActARion works in 30 seconds";
+  const videoDescription = dictionary?.sections?.video?.description || "Watch this short video to see how ActARion uses AI and Augmented Reality to help you create SOPs and work instructions faster, safer, and smarter.";
+  const seeInAction = dictionary?.sections?.video?.seeInAction || "See ActARion in action";
+  const inActionDescription = dictionary?.sections?.video?.inActionDescription || "ActARion is the AR-first connected worker platform. Together with Deep Sight, we transform static SOPs and manuals into interactive, AI and AR–guided work instructions that run on mobile devices and smart glasses.";
+  const previewBullet = dictionary?.sections?.video?.previewBullet || "Preview how AR SOPs look through smart glasses or tablets";
+  const hseBullet = dictionary?.sections?.video?.hseBullet || "Show HSE and quality teams how mandatory checks stay visible";
+  const auditBullet = dictionary?.sections?.video?.auditBullet || "Highlight how ActARion captures evidence for audits automatically";
+  
+  // Benefits section translations
+  const benefitsTitle = dictionary?.sections?.benefits?.title || "Why AI and AR–guided work instructions are the new baseline";
+  const benefitTranslations = {
+    captureKnowledge: {
+      title: dictionary?.sections?.benefits?.captureKnowledge?.title || "Capture knowledge systematically",
+      description: dictionary?.sections?.benefits?.captureKnowledge?.description || "Critical know-how is structured, versioned and available where the work happens—not hidden in emails or only in experts' heads."
+    },
+    guideInContext: {
+      title: dictionary?.sections?.benefits?.guideInContext?.title || "Guide people in context",
+      description: dictionary?.sections?.benefits?.guideInContext?.description || "Instructions appear step by step at the moment of need, so operators don't search portals while a line is down."
+    },
+    systemLearns: {
+      title: dictionary?.sections?.benefits?.systemLearns?.title || "Let the system learn from every task",
+      description: dictionary?.sections?.benefits?.systemLearns?.description || "Each execution generates time, error and confirmation data—closing the loop to improve procedures, training and equipment settings."
+    },
+    faster: {
+      title: dictionary?.sections?.benefits?.faster?.title || "Faster",
+      description: dictionary?.sections?.benefits?.faster?.description || "Employees find and apply the right instruction immediately. Onboarding shortens, troubleshooting speeds up, and changeovers become repeatable."
+    },
+    safer: {
+      title: dictionary?.sections?.benefits?.safer?.title || "Safer",
+      description: dictionary?.sections?.benefits?.safer?.description || "Standardized, visual and auditable instructions reduce variance, incidents and compliance risk—safety steps are built into the flow of work."
+    },
+    smarter: {
+      title: dictionary?.sections?.benefits?.smarter?.title || "Smarter",
+      description: dictionary?.sections?.benefits?.smarter?.description || "Knowledge improves with every execution. Lessons learned in one site can be applied everywhere, building a learning organization."
+    }
+  };
+  
+  // Use cases section translations
+  const useCasesTitle = dictionary?.sections?.useCases?.title || "Where AI and AR–guided work instructions create value";
+  const useCasesDescription = dictionary?.sections?.useCases?.description || "Explore practical use cases that show how ActARion and Deep Sight help teams work faster, safer and smarter with AR SOPs and digital work instructions.";
+  const viewUseCase = dictionary?.sections?.useCases?.viewUseCase || "View use case";
+  const viewAllUseCases = dictionary?.sections?.useCases?.viewAll || "View all use cases";
+  
+  // Industries section translations
+  const industriesTitle = dictionary?.sections?.industries?.title || "Where AR SOPs and digital work instructions create impact first";
+  const industriesDescription = dictionary?.sections?.industries?.description || "On the shop floor and in the field, onboarding takes too long, experts are overloaded and compliance depends on a few people. AI and AR–guided work instructions help most in concrete situations like onboarding, guided production, changeovers and maintenance.";
+  const industryTranslations = {
+    "Industrial Manufacturing": dictionary?.sections?.industries?.industrialManufacturing || "Industrial Manufacturing",
+    "Energy & Utilities": dictionary?.sections?.industries?.energyUtilities || "Energy & Utilities",
+    "Aerospace": dictionary?.sections?.industries?.aerospace || "Aerospace",
+    "Pharma & Biotech": dictionary?.sections?.industries?.pharmaBiotech || "Pharma & Biotech",
+    "Field Services": dictionary?.sections?.industries?.fieldServices || "Field Services",
+    "Maintenance Operations": dictionary?.sections?.industries?.maintenanceOperations || "Maintenance Operations"
+  };
+  
+  // How we start section translations
+  const howWeStartTitle = dictionary?.sections?.howWeStart?.title || "How we start";
+  const howWeStartSteps = [
+    {
+      title: dictionary?.sections?.howWeStart?.step1?.title || "Future of work briefing",
+      description: dictionary?.sections?.howWeStart?.step1?.description || "Joint session with operations, HR/L&D and IT on the trends behind 'faster, safer, smarter' and what they mean for your sites."
+    },
+    {
+      title: dictionary?.sections?.howWeStart?.step2?.title || "Use case discovery",
+      description: dictionary?.sections?.howWeStart?.step2?.description || "Identify and prioritize 3–5 high-impact situations where AR and AI guidance could remove friction, reduce errors or shorten training."
+    },
+    {
+      title: dictionary?.sections?.howWeStart?.step3?.title || "Pilot with clear KPIs",
+      description: dictionary?.sections?.howWeStart?.step3?.description || "Implement one or two use cases with clear KPIs (e.g., First Time Right, cycle time, onboarding time, downtime) and a decision framework for scaling."
+    },
+    {
+      title: dictionary?.sections?.howWeStart?.step4?.title || "Scale and enable",
+      description: dictionary?.sections?.howWeStart?.step4?.description || "Provide playbooks and enablement so teams can standardize across lines, plants and countries with local ownership."
+    }
+  ];
+  
+  // Translated benefits for rendering
+  const translatedBenefits = [
+    { ...benefitTranslations.captureKnowledge, icon: benefits[0].icon },
+    { ...benefitTranslations.guideInContext, icon: benefits[1].icon },
+    { ...benefitTranslations.systemLearns, icon: benefits[2].icon },
+    { ...benefitTranslations.faster, icon: benefits[3].icon },
+    { ...benefitTranslations.safer, icon: benefits[4].icon },
+    { ...benefitTranslations.smarter, icon: benefits[5].icon }
+  ];
 
   return (
     <main className="bg-white text-slate-900">
@@ -193,7 +282,7 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
                 {dictionary.sections.contact.cta}
               </Link>
               <Link href={localizedUseCasesHref} className="btn btn-secondary btn-pill">
-                {dictionary?.sections?.useCases?.cta || "Explore use cases"}
+                {useCasesCta}
               </Link>
             </div>
           </div>
@@ -212,14 +301,14 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
             <HomeVideoCta />
           </div>
           <div className="flex-1 space-y-4 text-slate-700">
-            <h2 className={sectionTitle}>See ActARion in action</h2>
+            <h2 className={sectionTitle}>{seeInAction}</h2>
             <p className="text-base md:text-lg">
-              ActARion is the AR-first connected worker platform. Together with Deep Sight, we transform static SOPs and manuals into interactive, AI and AR–guided work instructions that run on mobile devices and smart glasses.
+              {renderTextWithBrand(inActionDescription)}
             </p>
             <ul className="list-disc space-y-2 pl-5 text-slate-600">
-              <li>Preview how AR SOPs look through smart glasses or tablets</li>
-              <li>Show HSE and quality teams how mandatory checks stay visible</li>
-              <li>Highlight how ActARion captures evidence for audits automatically</li>
+              <li>{previewBullet}</li>
+              <li>{hseBullet}</li>
+              <li>{auditBullet}</li>
             </ul>
           </div>
         </div>
@@ -274,10 +363,10 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
         id="why-ar-sops"
       >
         <h2 className={sectionTitle}>
-          Why AI and AR–guided work instructions are the new baseline
+          {benefitsTitle}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-          {benefits.map(({ title, description, icon: Icon }) => (
+          {translatedBenefits.map(({ title, description, icon: Icon }) => (
             <div key={title} className="flex items-start gap-4">
               <Icon className="h-8 w-8 text-actarion-blue mt-1" />
               <div>
@@ -301,9 +390,9 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
         className={`${sectionShell} space-y-6`}
         id="use-case-maintenance"
       >
-        <h2 className={sectionTitle}>Where AI and AR–guided work instructions create value</h2>
+        <h2 className={sectionTitle}>{useCasesTitle}</h2>
         <p className={sectionText}>
-          Explore practical use cases that show how ActARion and Deep Sight help teams work faster, safer and smarter with AR SOPs and digital work instructions.
+          {renderTextWithBrand(useCasesDescription)}
         </p>
         <div className="grid gap-6 md:grid-cols-2">
           {useCases.map((useCase) => {
@@ -326,7 +415,7 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
                   href={detailHref}
                   className="btn btn-link mt-auto justify-start px-0"
                 >
-                  View use case
+                  {viewUseCase}
                   <span className="ml-1" aria-hidden="true">
                     →
                   </span>
@@ -340,7 +429,7 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
             href={localizedUseCasesHref}
             className="btn btn-secondary btn-pill"
           >
-            View all use cases
+            {viewAllUseCases}
           </Link>
         </div>
       </motion.section>
@@ -364,10 +453,10 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
           />
         </div>
         <h2 className={sectionTitle}>
-          Where AR SOPs and digital work instructions create impact first
+          {industriesTitle}
         </h2>
         <p className={sectionText}>
-          On the shop floor and in the field, onboarding takes too long, experts are overloaded and compliance depends on a few people. AI and AR–guided work instructions help most in concrete situations like onboarding, guided production, changeovers and maintenance.
+          {industriesDescription}
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
           {industries.map(({ title, icon: Icon }) => (
@@ -376,7 +465,7 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
               className="card flex items-center gap-3"
             >
               <Icon className="h-6 w-6 text-actarion-blue" />
-              <span className="font-medium">{title}</span>
+              <span className="font-medium">{industryTranslations[title as keyof typeof industryTranslations] || title}</span>
             </div>
           ))}
         </div>
@@ -391,10 +480,10 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
         id="how-it-works"
       >
         <h2 className={sectionTitle}>
-          How we start
+          {howWeStartTitle}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8">
-          {howItWorksSteps.map((step, index) => (
+          {howWeStartSteps.map((step, index) => (
             <div key={step.title} className="text-center">
               <div className="bg-actarion-blue w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-card text-white">
                 <span className="text-white font-bold text-xl">{index + 1}</span>
