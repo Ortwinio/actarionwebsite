@@ -131,16 +131,133 @@
       "title": "Dienstleistungen",
       "subtitle": "Wir helfen Ihnen, AR und KI in praktische Werkzeuge auf der Produktionsfläche zu verwandeln.",
       "description": "ActARion hilft Industrie-, Logistik- und Energieunternehmen, kritisches Know-how zu erfassen, Mitarbeiter im Arbeitsfluss anzuleiten und eine lernende Organisation standortübergreifend aufzubauen.",
-      "backToHome": "Zurück zur Startseite"
+      "backToHome": "Zurück zur Startseite",
+      "intro": {
+        "p1": "Bei ActARion helfen wir Ihnen, AR und KI von „interessanter Technologie" in praktische Werkzeuge im täglichen Betrieb zu verwandeln. Unsere Dienstleistungen sind auf ein einfaches Ziel ausgerichtet: Ihren Teams zu helfen, smarter, sicherer und schneller zu arbeiten.",
+        "p2": "Wir beginnen nicht mit Features, sondern mit Ihrer Realität: Assets, Prozesse, Menschen, Vorschriften und Ziele. Von dort aus gestalten wir einen konkreten Weg: entdecken → beweisen → skalieren."
+      },
+      "sections": {
+        "strategy": {
+          "title": "1. Strategie und Use-Case-Entdeckung",
+          "goal": "Ziel:",
+          "goalText": "Die wenigen Use Cases finden, bei denen AR und KI einen echten Unterschied machen.",
+          "whatWeDo": "Was wir tun:",
+          "items": [
+            "Kurzes Intake mit Operations, Instandhaltung, Qualität, HR und IT.",
+            "Erfassung kritischer Prozesse und „Moments that Matter" auf der Produktionsfläche.",
+            "Identifikation und Priorisierung von AR/KI-Use-Cases, zum Beispiel: AR-gestützte Montage und Inspektionen, Umrüstungen, Training und Onboarding, vorbeugende Instandhaltung und Remote-Troubleshooting, Arbeitsanweisungen und SOPs zur Sicherung des Unternehmenswissens.",
+            "High-Level-Roadmap: wo anfangen, was messen, wie skalieren."
+          ],
+          "deliverable": "Ergebnis:",
+          "deliverableText": "ein kompaktes Use-Case- und Roadmap-Dokument, das Sie intern teilen können."
+        },
+        "poc": {
+          "title": "2. Proof of Concept und Pilotprojekte",
+          "goal": "Ziel:",
+          "goalText": "Messbaren Impact in Wochen zeigen, nicht Jahren.",
+          "whatWeDo": "Was wir tun:",
+          "items": [
+            "Auswahl eines oder zweier High-Impact-Use-Cases (z.B. eine komplexe Umrüstung oder eine kritische Instandhaltungsaufgabe).",
+            "Konfiguration der DeepSight-Plattform für Ihre Umgebung.",
+            "Gemeinsam mit Ihren Experten die tatsächlichen Verfahren an der Linie oder Anlage erfassen.",
+            "Die ersten AR-Guides mit klaren Schritten, Visuals, Checks und Dokumentation erstellen.",
+            "Training einer kleinen Gruppe von Bedienern und Vorgesetzten.",
+            "Einen Pilot durchführen und Schlüsselkennzahlen messen wie Zeit zur Aufgabenerfüllung, Fehlerquote, Stillstandzeit und Trainingszeit."
+          ],
+          "deliverable": "Ergebnis:",
+          "deliverableText": "ein Pilotbericht mit Ergebnissen, Lessons Learned und einer Empfehlung für die nächsten Schritte."
+        },
+        "arDesign": {
+          "title": "3. AR-Arbeitsanweisungen und SOP-Design",
+          "goal": "Ziel:",
+          "goalText": "Ihre beste Arbeitsweise in wiederverwendbare AR-SOPs umwandeln.",
+          "whatWeDo": "Was wir tun:",
+          "items": [
+            "Fachexperten helfen, Verfahren in klare Schritte zu strukturieren.",
+            "Arbeitsanweisungen in der realen Umgebung mit Smart Glasses oder mobilen Geräten erfassen.",
+            "Visuals wie Fotos, kurze Clips, 3D-Hinweise und Anmerkungen hinzufügen.",
+            "Checks, Sicherheitsschritte und Datenerfassung (Fotos, Bestätigungen, Notizen) einbauen.",
+            "Alles in einer zentralen AR-SOP-Bibliothek nach Linie, Asset, Produkt oder Standort organisieren."
+          ],
+          "usage": "Sie können diese AR-SOPs für die tägliche Produktion und Montage, Qualitätsprüfungen und Inspektionen, Instandhaltungsaufgaben, Training und Onboarding, Audits und Compliance verwenden.",
+          "deliverable": "Ergebnis:",
+          "deliverableText": "eine wachsende digitale Bibliothek von AR-Arbeitsanweisungen und SOPs, die Sie selbst pflegen können."
+        },
+        "training": {
+          "title": "4. Trainings- und Onboarding-Programme",
+          "goal": "Ziel:",
+          "goalText": "Zeit bis zur Kompetenz verkürzen und Training konsistent halten.",
+          "whatWeDo": "Was wir tun:",
+          "items": [
+            "AR-unterstützte Lernpfade für neue Bediener und Techniker gestalten.",
+            "Selbstgesteuerte AR-Guides mit Coaching am Arbeitsplatz kombinieren.",
+            "Skills-Tracking und Zertifizierungen in der Plattform konfigurieren.",
+            "Interne Trainer und Vorgesetzte schulen, um Inhalte zu erstellen und zu verwalten."
+          ],
+          "deliverable": "Ergebnis:",
+          "deliverableText": "eine Trainings- und Onboarding-Blaupause mit AR-Content und einer klaren Rolle für Trainer und Vorgesetzte."
+        },
+        "maintenance": {
+          "title": "5. Instandhaltung und Remote-Support-Lösungen",
+          "goal": "Ziel:",
+          "goalText": "Verfügbarkeit erhöhen und Reparaturzeit verkürzen.",
+          "whatWeDo": "Was wir tun:",
+          "items": [
+            "Vorbeugende Instandhaltungsaufgaben als AR-Guides erfassen, inkl. Checks und Datenerfassung.",
+            "Inspektionen so strukturieren, dass Techniker jeden Schritt einfach befolgen und dokumentieren können.",
+            "Remote-Expert-Support implementieren, damit Techniker bei Bedarf Hilfe anfordern können."
+          ],
+          "useCases": "Anwendungsfälle umfassen AR-gestützte vorbeugende Instandhaltung, Remote-Expert-Support für korrektive Instandhaltung und standardisierte Inspektionen für regulatorische Compliance.",
+          "deliverable": "Ergebnis:",
+          "deliverableText": "Instandhaltungs-Playbooks mit AR-Unterstützung, plus ein funktionierendes Remote-Support-Setup."
+        },
+        "integration": {
+          "title": "6. Integration und Change Management",
+          "goal": "Ziel:",
+          "goalText": "AR und KI zum Teil der täglichen Arbeit machen, nicht zu einem Nebenprojekt.",
+          "whatWeDo": "Was wir tun:",
+          "items": [
+            "AR/KI-Initiativen mit bestehenden Systemen (wie CMMS, MES, QMS, LMS) abstimmen, wo relevant.",
+            "Mit IT und Security zusammenarbeiten, um Ihre Standards und Policies zu erfüllen.",
+            "Rollen und Verantwortlichkeiten für Content-Erstellung, Freigabe und Training definieren.",
+            "Interne Kommunikation und Veränderung unterstützen, von Piloten bis zur breiteren Ausrollung."
+          ],
+          "deliverable": "Ergebnis:",
+          "deliverableText": "ein Implementierungs- und Governance-Modell, das zu Ihrer Organisation passt."
+        },
+        "support": {
+          "title": "7. Support, Analytics und kontinuierliche Verbesserung",
+          "goal": "Ziel:",
+          "goalText": "Die Lösung aktuell halten und den Wert über die Zeit steigern.",
+          "whatWeDo": "Was wir tun:",
+          "items": [
+            "Laufenden Support auf der DeepSight-Plattform gemeinsam mit unserem Technologiepartner bieten.",
+            "Ihnen helfen, Nutzung und Performance von Guides zu überwachen: welche Verfahren am meisten genutzt werden, wo Bediener hängen bleiben und welche Skills und Zertifizierungen Aufmerksamkeit benötigen.",
+            "Regelmäßige Verbesserungs-Workshops mit Ihren Teams moderieren.",
+            "Best Practices aus anderen Projekten und Industrien teilen."
+          ],
+          "deliverable": "Ergebnis:",
+          "deliverableText": "ein kontinuierlicher Verbesserungszyklus rund um AR-gestützte Arbeit, mit klaren Kennzahlen."
+        },
+        "regional": {
+          "title": "Dienstleistungen auf Ihre Region zugeschnitten",
+          "intro": "ActARion ist organisiert, um Sie lokal zu unterstützen:",
+          "benelux": "Benelux",
+          "beneluxText": "– geführt von Managing Partner Ortwin Verreck, mit Fokus auf Industrie-, Logistik- und Energieunternehmen in den Niederlanden, Belgien und Luxemburg.",
+          "dach": "DACH (Deutschland, Österreich, Schweiz)",
+          "dachText": "– geführt von Managing Partner Mark Dercksen, mit Fokus auf robuste, skalierbare AR- und KI-Implementierungen in der Region.",
+          "outro": "Gemeinsam helfen wir Ihnen zu klären, wo Sie anfangen sollten, einen konkreten ersten Use Case zu gestalten und eine Roadmap vom Piloten zur Skalierung zu erstellen."
+        }
+      }
     },
     "about": {
       "title": "Über ActARion",
       "subtitle": "Smarter, sicherer und schneller arbeiten mit KI und Augmented Reality.",
-      "description": "Work in operations is changing quickly. Processes are more complex, safety and compliance standards are stricter, and experienced technicians are harder to find. Yet many teams still depend on PDFs, classroom training and informal shadowing to get work done.\n\nActARion exists to help industrial, logistics and energy companies respond to that reality by enabling people to work smarter, faster and safer with the support of AR and AI.\n\nWe focus on the last step of knowledge transfer: how instructions, procedures and expertise actually reach the technician, operator or field engineer at the moment of work.\n\nHow we help:\n• Deep Sight AR platform — We work with Deep Sight , an AR‑first connected worker platform, to turn procedures and expert knowledge into interactive work instructions and SOPs.\n• From expert know‑how to clear guidance — We help capture expertise from senior technicians and translate it into clear, visual guidance that less experienced colleagues can follow with confidence.\n• From pilots to scale — We support your teams in identifying use cases, running focused pilots and scaling what works across lines, plants and countries.\n\nActARion combines world‑class AR technology with local, hands‑on support. Our focus is always the same: closing the gap between procedure and actual performance.",
-      "mission": "What we believe",
-      "missionText": "• SOPs are more than documents — Standard Operating Procedures are the backbone of quality, safety and performance. They only create value when they are easy to find, easy to follow and easy to improve.\n• Knowledge should live where the work happens — People should not have to leave their task or search multiple systems while a line is down. Guidance needs to be available in context, step by step, in the actual environment.\n• Technology should make work clearer — AR and AI are useful only if they reduce ambiguity, make tasks easier to understand and give teams more confidence in what they do.\n• Continuous improvement is a daily routine — Every task is a learning moment. Execution data should flow back into better instructions, better training and better processes.",
-      "partners": "Who we work for",
-      "partnersText": "Our customers are organizations in industry, logistics, utilities and energy that see operations as their main differentiator. Typical stakeholders we work with include:\n• Operations and plant managers who want consistent performance across sites\n• Maintenance and reliability teams that have to protect uptime with fewer experts\n• HSE and quality managers responsible for safe, compliant work every day\n• HR and L&D teams who must onboard new colleagues faster without overloading senior staff\n• Digital, IT and innovation teams looking for practical AR/AI use cases with measurable impact\nFor these teams, “smarter, faster, safer work” is not a slogan. It is a condition for staying competitive, meeting regulation and keeping people engaged.\n\nSmarter — Operational knowledge is structured, searchable and available across locations. Lessons learned in one site can be reused everywhere.\nFaster — Onboarding and training times go down, changeovers become repeatable, and troubleshooting is supported by remote experts when needed.\nSafer — Visual, step‑by‑step guidance and built‑in checks reduce variance, incidents and compliance risk. Safety requirements are part of the normal flow of work, not a separate checklist.\n\nLet’s explore whether this is relevant for you. If you are responsible for operations, maintenance, HSE, quality, HR/L&D or digital innovation, and you recognize the pressure to:\n• do more with fewer experienced people\n• secure knowledge before it leaves the organization\n• improve productivity while staying safe and compliant\nthen it may be worth exploring what AR and AI can do in your environment.\n\nActARion is led by Managing Partners Mark Dercksen and Ortwin Verreck, supported by a network of AR, AI and operations specialists.\n\nWe are happy to start with a short discovery session or future of work briefing tailored to your teams and use cases.",
+      "description": "Die Arbeit im operativen Bereich verändert sich rasant. Prozesse werden komplexer, Sicherheits- und Compliance-Standards strenger, und erfahrene Techniker sind schwerer zu finden. Dennoch verlassen sich viele Teams noch immer auf PDFs, Präsenzschulungen und informelles Anlernen.\n\nActARion existiert, um Industrie-, Logistik- und Energieunternehmen dabei zu helfen, auf diese Realität zu reagieren – indem wir Menschen befähigen, mit AR und KI smarter, schneller und sicherer zu arbeiten.\n\nWir konzentrieren uns auf den letzten Schritt des Wissenstransfers: wie Anweisungen, Verfahren und Expertise den Techniker, Bediener oder Außendienstmitarbeiter im Moment der Arbeit tatsächlich erreichen.\n\nWie wir helfen:\n• Deep Sight AR-Plattform — Wir arbeiten mit Deep Sight, einer AR-first Connected-Worker-Plattform, um Verfahren und Expertenwissen in interaktive Arbeitsanweisungen und SOPs zu verwandeln.\n• Von Experten-Know-how zu klarer Anleitung — Wir helfen, Expertise von erfahrenen Technikern zu erfassen und in klare, visuelle Anleitungen zu übersetzen, denen weniger erfahrene Kollegen mit Vertrauen folgen können.\n• Vom Piloten zur Skalierung — Wir unterstützen Ihre Teams bei der Identifizierung von Use Cases, der Durchführung fokussierter Piloten und der Skalierung dessen, was funktioniert – über Linien, Werke und Länder hinweg.\n\nActARion kombiniert erstklassige AR-Technologie mit lokaler, praxisnaher Unterstützung. Unser Fokus ist immer derselbe: die Lücke zwischen Verfahren und tatsächlicher Leistung zu schließen.",
+      "mission": "Woran wir glauben",
+      "missionText": "• SOPs sind mehr als Dokumente — Standard Operating Procedures sind das Rückgrat von Qualität, Sicherheit und Leistung. Sie schaffen nur Wert, wenn sie leicht zu finden, leicht zu befolgen und leicht zu verbessern sind.\n• Wissen sollte dort leben, wo die Arbeit stattfindet — Menschen sollten ihre Aufgabe nicht verlassen oder mehrere Systeme durchsuchen müssen, während eine Linie stillsteht. Anleitung muss im Kontext verfügbar sein, Schritt für Schritt, in der realen Umgebung.\n• Technologie sollte Arbeit klarer machen — AR und KI sind nur dann nützlich, wenn sie Unklarheit reduzieren, Aufgaben verständlicher machen und Teams mehr Vertrauen in das geben, was sie tun.\n• Kontinuierliche Verbesserung ist tägliche Routine — Jede Aufgabe ist ein Lernmoment. Ausführungsdaten sollten in bessere Anweisungen, besseres Training und bessere Prozesse zurückfließen.",
+      "partners": "Für wen wir arbeiten",
+      "partnersText": "Unsere Kunden sind Organisationen in Industrie, Logistik, Versorgung und Energie, die den Betrieb als ihr wichtigstes Differenzierungsmerkmal sehen. Typische Stakeholder, mit denen wir arbeiten:\n• Operations- und Werksleiter, die konsistente Leistung über Standorte hinweg wollen\n• Instandhaltungs- und Zuverlässigkeitsteams, die Verfügbarkeit mit weniger Experten schützen müssen\n• HSE- und Qualitätsmanager, die für sichere, konforme Arbeit jeden Tag verantwortlich sind\n• HR- und L&D-Teams, die neue Kollegen schneller einarbeiten müssen, ohne erfahrene Mitarbeiter zu überlasten\n• Digital-, IT- und Innovationsteams auf der Suche nach praktischen AR/KI-Use-Cases mit messbarem Impact\n\nFür diese Teams ist „smarter, schneller, sicherer arbeiten" kein Slogan. Es ist eine Bedingung, um wettbewerbsfähig zu bleiben, Vorschriften zu erfüllen und Menschen zu motivieren.\n\nSmarter — Betriebswissen ist strukturiert, durchsuchbar und standortübergreifend verfügbar. Lessons Learned von einem Standort können überall wiederverwendet werden.\nSchneller — Onboarding- und Schulungszeiten sinken, Umrüstungen werden wiederholbar, und Fehlerbehebung wird bei Bedarf von Remote-Experten unterstützt.\nSicherer — Visuelle, schrittweise Anleitung und eingebaute Checks reduzieren Varianz, Vorfälle und Compliance-Risiken. Sicherheitsanforderungen sind Teil des normalen Arbeitsflusses, keine separate Checkliste.\n\nLassen Sie uns erkunden, ob dies für Sie relevant ist. Wenn Sie für Operations, Instandhaltung, HSE, Qualität, HR/L&D oder digitale Innovation verantwortlich sind und den Druck erkennen:\n• mehr mit weniger erfahrenen Leuten zu leisten\n• Wissen zu sichern, bevor es die Organisation verlässt\n• Produktivität zu verbessern und dabei sicher und konform zu bleiben\n\ndann lohnt es sich möglicherweise zu erkunden, was AR und KI in Ihrer Umgebung leisten können.\n\nActARion wird von den Managing Partners Mark Dercksen und Ortwin Verreck geleitet, unterstützt von einem Netzwerk von AR-, KI- und Operations-Spezialisten.\n\nWir starten gerne mit einem kurzen Discovery-Gespräch oder einem Future-of-Work-Briefing, zugeschnitten auf Ihre Teams und Use Cases.",
       "backToHome": "Zurück zur Startseite"
     },
     "contact": {
@@ -159,14 +276,46 @@
       "backToHome": "Zurück zur Startseite"
     },
     "partnerContact": {
-      "title": "Werden Sie unser Partner",
-      "subtitle": "Schließen Sie sich unserem wachsenden Partner-Ökosystem an",
-      "description": "Wir suchen aktiv nach Technologieanbietern, Systemintegratoren, Beratungsunternehmen und Field-Service-Anbietern, um die Zukunft der Arbeit durch Augmented Reality zu gestalten.",
+      "title": "Partner",
+      "subtitle": "ActARion arbeitet mit einem fokussierten Ökosystem von Partnern zusammen, um Organisationen zu helfen, mit KI und Augmented Reality smarter, sicherer und schneller zu arbeiten.",
+      "description": "Entdecken Sie das Partner-Ökosystem von ActARion: Technologieanbieter, Implementierungspartner und Bildungspartner, die Organisationen dabei helfen, mit AR und KI smarter, sicherer und schneller zu arbeiten.",
+      "intro": "Unsere Partner spielen verschiedene Rollen dabei, Organisationen bei der Einführung von KI und AR für smartere, sicherere und schnellere Abläufe zu unterstützen:",
+      "partnerTypes": {
+        "technology": {
+          "title": "Technologieanbieter",
+          "description": "Liefern die AR-, XR- und KI-Plattformen und Geräte, die unsere Lösungen antreiben."
+        },
+        "implementation": {
+          "title": "Implementierungspartner",
+          "description": "Helfen bei der Gestaltung von Prozessen, Change-Programmen und Rollouts rund um HR, Operations und Change Management."
+        },
+        "education": {
+          "title": "Bildungspartner",
+          "description": "Helfen Organisationen, neue Arbeitsweisen durch Training, Akademien und Lernprogramme zu verankern."
+        }
+      },
+      "gridTitles": {
+        "technology": "Technologiepartner",
+        "implementation": "Implementierungspartner",
+        "education": "Bildungspartner"
+      },
+      "becomePartner": {
+        "title": "Partner von ActARion werden",
+        "description": "Interessiert daran, Partner zu werden oder ein gemeinsames Projekt für Ihre Kunden zu erkunden? Teilen Sie ein paar Details mit und wir vereinbaren ein kurzes Discovery-Gespräch."
+      },
       "form": {
         "name": "Vollständiger Name",
         "email": "E-Mail-Adresse",
         "company": "Firmenname",
         "phone": "Telefonnummer",
+        "partnerTypeLabel": "Partnerschaftstyp",
+        "partnerTypePlaceholder": "Wählen Sie einen Partnerschaftstyp",
+        "partnerTypeOptions": {
+          "technology": "Technologieanbieter",
+          "implementation": "Implementierungspartner",
+          "education": "Bildungspartner",
+          "other": "Anderes / Noch nicht sicher"
+        },
         "message": "Erzählen Sie uns von Ihrem Partnerschaftsinteresse",
         "submit": "Partnerschaftsanfrage senden",
         "success": "Vielen Dank! Wir werden Ihre Partnerschaftsanfrage prüfen und uns bald bei Ihnen melden."
@@ -174,32 +323,131 @@
       "backToHome": "Zurück zur Startseite"
     },
     "career": {
-      "title": "Unserem Team beitreten",
-      "subtitle": "Gestalten Sie die Zukunft der Arbeit mit Augmented Reality",
-      "description": "Wir suchen leidenschaftliche Menschen, die die Art und Weise revolutionieren wollen, wie Frontline-Mitarbeiter mit Technologie interagieren. Schließen Sie sich uns an, um die nächste Generation von AR-gestützten Lösungen zu entwickeln.",
-      "positions": {
-        "title": "Offene Positionen",
-        "arDeveloper": {
-          "title": "AR-Entwickler",
-          "description": "Entwickeln Sie wegweisende AR-Anwendungen für industrielle Anwendungsfälle",
-          "requirements": ["Erfahrung mit Unity/Unreal Engine", "Kenntnisse von AR-Frameworks", "C# Programmierkenntnisse"]
+      "title": "Karriere bei ActARion",
+      "subtitle": "Smarter, sicherer und schneller arbeiten mit KI und Augmented Reality.",
+      "description": "Werden Sie Teil von ActARion und helfen Sie mit, Augmented-Reality-Lösungen zu entwickeln, die Frontline-Operationen in ganz Europa transformieren.",
+      "heroHeading": "Arbeiten Sie dort, wo Aktion auf Augmented Reality trifft",
+      "heroIntro1": "Bei ActARion helfen wir Industrie-, Logistik- und Energieunternehmen, mit AR- und KI-gestützten Lösungen smarter, sicherer und schneller zu arbeiten. Wir übersetzen komplexe Verfahren in klare, visuelle Anleitungen, die Techniker und Außendienstteams im Arbeitsfluss unterstützen.",
+      "heroIntro2": "Wenn Sie gerne praktische Technologie entwickeln, nah an echten Operationen arbeiten und die Zukunft der Arbeit mitgestalten möchten, würden wir gerne mit Ihnen sprechen.",
+      "sections": {
+        "whyWork": {
+          "title": "Warum bei ActARion arbeiten?",
+          "intro": "Arbeit im operativen Bereich verändert sich schnell. Maschinen werden komplexer, Sicherheitsstandards strenger und erfahrene Spezialisten schwerer zu finden. Viele Organisationen verlassen sich noch immer auf PDFs, Präsenzschulungen und informelles „on the job"-Anlernen.",
+          "statement": "ActARion existiert, um das zu ändern.",
+          "points": [
+            "Wir arbeiten mit führender AR- und KI-Technologie, um Menschen direkt im Moment der Arbeit zu unterstützen.",
+            "Wir verwandeln Expertenwissen in schrittweise Anleitungen, denen jeder mit Vertrauen folgen kann.",
+            "Wir helfen Kunden, Fehler zu reduzieren, Onboarding zu verkürzen und jede Aufgabe sicherer und konsistenter zu machen."
+          ],
+          "outro": "Sie arbeiten in einem kleinen, unternehmerischen Team mit direktem Einfluss darauf, wie Fabriken, Anlagen und Außendienstteams in ganz Europa ihre Arbeit erledigen."
         },
-        "salesEngineer": {
-          "title": "Vertriebsingenieur",
-          "description": "Helfen Sie Kunden, AR-Lösungen zu verstehen und zu implementieren",
-          "requirements": ["Technischer Hintergrund", "Vertriebserfahrung", "AR/VR-Kenntnisse"]
+        "openPositions": {
+          "title": "Offene Positionen",
+          "description": "Erstellen Sie AR- und KI-gestützte Workflows, die neu definieren, wie industrielle Arbeit erledigt wird. Erkunden Sie die Rollen unten und bewerben Sie sich direkt.",
+          "openRole": "Offene Stelle",
+          "youWill": "Das erwartet Sie",
+          "youBring": "Das bringen Sie mit",
+          "applyNow": "Jetzt bewerben",
+          "applyAgain": "Erneut bewerben"
         },
-        "productManager": {
-          "title": "Produktmanager",
-          "description": "Definieren und ausführen der Produktstrategie für AR-Lösungen",
-          "requirements": ["Produktmanagement-Erfahrung", "Technischer Hintergrund", "Marktforschungskenntnisse"]
+        "howWeWork": {
+          "title": "Wie wir arbeiten",
+          "intro": "Wir sind ein kleines, fokussiertes Team, das kombiniert:",
+          "points": [
+            {
+              "title": "Impact auf echte Arbeit",
+              "description": "Wir sind nah an den Menschen, die unsere Lösungen täglich nutzen: Techniker, Bediener, Instandhaltungs-, Qualitäts- und HSE-Teams."
+            },
+            {
+              "title": "Raum zum Gestalten",
+              "description": "Sie bekommen früh Verantwortung, mit der Freiheit zu experimentieren und zu verbessern, wie wir mit Kunden und Partnern arbeiten."
+            },
+            {
+              "title": "Zusammenarbeit statt Hierarchie",
+              "description": "Wir bevorzugen klare Ownership, offene Kommunikation und kurze Feedback-Schleifen gegenüber Managementebenen."
+            }
+          ],
+          "outro": "Unser Ziel ist es, gemeinsam mit unserem Partner Deep Sight und einem wachsenden Netzwerk von Kunden eine europäische Referenz für AR- und KI-gestützte Arbeit aufzubauen."
+        },
+        "howToApply": {
+          "title": "So bewerben Sie sich",
+          "intro": "Interessiert an einer der Rollen, oder glauben Sie, auf andere Weise Wert beitragen zu können? Nutzen Sie den \"Bewerben\"-Button unter jeder Rolle, um Ihre Daten, Ihr LinkedIn-Profil und eine kurze Motivation zu teilen.",
+          "review": "Wir prüfen jede Bewerbung sorgfältig. Wenn es eine potenzielle Übereinstimmung gibt, laden wir Sie zu einem Kennenlerngespräch ein, um Passung, Erwartungen und nächste Schritte zu besprechen.",
+          "emailPreference": "Bevorzugen Sie E-Mail? Kontaktieren Sie uns über",
+          "orContactPage": "oder unsere Kontaktseite"
         }
       },
-      "culture": {
-        "title": "Unsere Kultur",
-        "description": "Wir glauben an Innovation, Zusammenarbeit und echte Wirkung. Unser Team ist leidenschaftlich für Technologie und ihr Potenzial, Branchen zu transformieren."
+      "jobs": {
+        "arDeveloper": {
+          "title": "AR Developer",
+          "location": "Deutschland",
+          "intro": "Entwickeln Sie AR-Erlebnisse, die komplexe Arbeit klarer und sicherer machen.",
+          "responsibilities": [
+            "AR-Anwendungen für echte industrielle Anwendungsfälle entwickeln und verfeinern",
+            "Mit Unity oder Unreal Engine und modernen AR-Frameworks arbeiten",
+            "Mit Produkt-, Kunden- und Content-Teams zusammenarbeiten, um Verfahren in intuitive AR-Workflows zu übersetzen"
+          ],
+          "requirements": [
+            "Erfahrung mit Unity und/oder Unreal Engine",
+            "Solide C#-Programmierkenntnisse",
+            "Vertrautheit mit AR-Frameworks und 3D-Konzepten",
+            "Neugier darauf, wie Menschen tatsächlich in Fabriken, Anlagen und im Außendienst arbeiten"
+          ]
+        },
+        "salesEngineer": {
+          "title": "Sales Engineer",
+          "location": "Niederlande",
+          "intro": "Helfen Sie Kunden zu verstehen, wie AR und KI ihre Operationen smarter, sicherer und schneller machen können.",
+          "responsibilities": [
+            "Mit Interessenten arbeiten, um ihre Prozesse, Herausforderungen und Use Cases zu erfassen",
+            "Technische Fähigkeiten in klaren Business Value übersetzen",
+            "Piloten und Implementierungen zusammen mit unseren Partnern und dem Produktteam unterstützen"
+          ],
+          "requirements": [
+            "Ein technischer Hintergrund (Engineering, IT oder ähnlich)",
+            "Erfahrung in einer kundenorientierten oder vertriebsnahen Rolle",
+            "Affinität zu AR/VR oder industrieller Software",
+            "Starke Kommunikationsfähigkeiten in Englisch (und vorzugsweise einer weiteren europäischen Sprache)"
+          ]
+        },
+        "productManager": {
+          "title": "Product Manager",
+          "location": "Schweiz",
+          "intro": "Gestalten Sie die Roadmap für AR- und KI-gestützte Arbeit in der Industrie.",
+          "responsibilities": [
+            "Produktfeatures basierend auf Kundenbedürfnissen und Marktentwicklungen definieren und priorisieren",
+            "Eng mit Kunden, Partnern und unserem Entwicklungsteam zusammenarbeiten",
+            "Feedback aus Piloten und Rollouts in klare Anforderungen und Verbesserungen umsetzen"
+          ],
+          "requirements": [
+            "Erfahrung im Produktmanagement für B2B- oder SaaS-Lösungen",
+            "Eine technische Basis, die es Ihnen ermöglicht, Architektur und Einschränkungen zu diskutieren",
+            "Starke analytische Fähigkeiten und eine strukturierte Arbeitsweise",
+            "Interesse an Operations, Instandhaltung, Training oder Qualität in industriellen Umgebungen"
+          ]
+        }
       },
-      "contact": "Interessiert? Senden Sie uns Ihren Lebenslauf und Ihr Anschreiben.",
+      "form": {
+        "position": "Position",
+        "fullName": "Vollständiger Name*",
+        "email": "E-Mail-Adresse*",
+        "phone": "Telefonnummer (optional)",
+        "linkedin": "LinkedIn-Profil*",
+        "motivation": "Kurze Motivation*",
+        "submit": "Bewerben",
+        "submitting": "Wird gesendet...",
+        "cancel": "Abbrechen",
+        "errors": {
+          "nameRequired": "Vollständiger Name ist erforderlich.",
+          "emailRequired": "E-Mail-Adresse ist erforderlich.",
+          "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+          "linkedinRequired": "LinkedIn-Profil ist erforderlich.",
+          "linkedinInvalid": "Bitte geben Sie eine gültige LinkedIn-URL ein.",
+          "motivationRequired": "Bitte teilen Sie eine kurze Motivation."
+        },
+        "success": "Vielen Dank für Ihre Bewerbung. Wir werden Ihr Profil prüfen und uns so schnell wie möglich bei Ihnen melden.",
+        "error": "Beim Senden Ihrer Bewerbung ist etwas schiefgelaufen. Bitte versuchen Sie es erneut."
+      },
       "backToHome": "Zurück zur Startseite"
     },
     "faq": {
@@ -337,8 +585,26 @@
     },
     "blog": {
       "title": "Blog",
+      "subtitle": "Einblicke und Updates zu AR-gestützten Arbeitsanweisungen",
       "description": "Einblicke, Updates und Gedankenführung zu Augmented Reality in der Fertigung und industriellen Anwendungen.",
-      "backToHome": "Zurück zur Startseite"
+      "allArticles": "Alle Artikel",
+      "noPostsTitle": "Keine Blogbeiträge gefunden",
+      "noPostsText": "Schauen Sie bald wieder vorbei für neue Inhalte!",
+      "fallbackMessage": "Wir übersetzen diesen Blog-Bereich noch. Zeigen vorerst englische Artikel.",
+      "readMore": "Weiterlesen",
+      "publishedOn": "Veröffentlicht am",
+      "minuteRead": "Min. Lesezeit",
+      "backToBlog": "Zurück zum Blog",
+      "backToHome": "Zurück zur Startseite",
+      "categories": {
+        "all": "Alle",
+        "ar": "Augmented Reality",
+        "ai": "Künstliche Intelligenz",
+        "operations": "Betrieb",
+        "training": "Training",
+        "maintenance": "Instandhaltung",
+        "safety": "Sicherheit"
+      }
     },
     "events": {
       "title": "Events",
@@ -401,6 +667,15 @@
       "ctaTitle": "ActARion in Aktion sehen",
       "ctaDescription": "Fordern Sie eine personalisierte Demo an, um zu sehen, wie ActARion Ihre Abläufe transformieren kann.",
       "ctaButton": "Demo anfordern",
+      "backToHome": "Zurück zur Startseite"
+    },
+    "useCases": {
+      "title": "Anwendungsfälle für KI- und AR-gestützte Arbeitsanweisungen",
+      "subtitle": "Entdecken Sie, wie ActARion und Deep Sight Industrie-, Logistik- und Energieunternehmen helfen, smarter, schneller und sicherer zu arbeiten.",
+      "description": "Entdecken Sie, wie ActARion und Deep Sight Industrie-, Logistik- und Energieunternehmen dabei helfen, mit KI- und AR-gestützten Arbeitsanweisungen, AR-SOPs und digitalen Arbeitsanweisungen smarter, schneller und sicherer zu arbeiten.",
+      "intro": "ActARion und Deep Sight helfen Ihnen, KI- und AR-gestützte Arbeitsanweisungen in Ihrem gesamten Betrieb anzuwenden. Von Montage und Umrüstung bis hin zu Instandhaltung, Training und Audits – wir verwandeln Ihre SOPs in digitale Arbeitsanweisungen und AR-SOPs, die Menschen Schritt für Schritt in der realen Umgebung anleiten.",
+      "learnMore": "Mehr erfahren",
+      "backToUseCases": "Zurück zu Anwendungsfällen",
       "backToHome": "Zurück zur Startseite"
     },
     "news": {

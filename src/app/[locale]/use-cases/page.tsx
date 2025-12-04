@@ -15,6 +15,7 @@ import {
   Locale,
 } from "../../../config/site";
 import { useCases } from "../../../config/useCases";
+import { getDictionary } from "../../../lib/getDictionary";
 
 interface UseCasesPageProps {
   params: Promise<{
@@ -22,11 +23,12 @@ interface UseCasesPageProps {
   }>;
 }
 
-const pageDescription =
-  "Discover how ActARion and Deep Sight help industrial, logistics and energy organisations work smarter, faster and safer with AI and AR–guided work instructions, AR SOPs and digital work instructions.";
-
-const pageIntro =
-  "ActARion and Deep Sight help you apply AI and AR–guided work instructions across your operations. From assembly and changeovers to maintenance, training and audits, we turn your SOPs into digital work instructions and AR SOPs that guide people step-by-step in the real environment.";
+const defaultContent = {
+  title: "Use cases for AI and AR–guided work instructions",
+  description: "Discover how ActARion and Deep Sight help industrial, logistics and energy organisations work smarter, faster and safer with AI and AR–guided work instructions, AR SOPs and digital work instructions.",
+  intro: "ActARion and Deep Sight help you apply AI and AR–guided work instructions across your operations. From assembly and changeovers to maintenance, training and audits, we turn your SOPs into digital work instructions and AR SOPs that guide people step-by-step in the real environment.",
+  learnMore: "Learn more",
+};
 
 export async function generateMetadata({ params }: UseCasesPageProps) {
   const { locale } = await params;
@@ -34,10 +36,15 @@ export async function generateMetadata({ params }: UseCasesPageProps) {
     notFound();
   }
 
+  const dictionary = await getDictionary(locale);
+  const useCasesContent = dictionary.pages?.useCases;
+  const title = useCasesContent?.title || defaultContent.title;
+  const description = useCasesContent?.description || defaultContent.description;
+
   return buildPageMetadata({
     locale,
-    title: "Use cases for AI and AR–guided work instructions | ActARion",
-    description: pageDescription,
+    title: `${title} | ActARion`,
+    description,
     segment: "use-cases",
   });
 }
@@ -51,19 +58,26 @@ export default async function UseCasesOverviewPage({
     notFound();
   }
 
+  const dictionary = await getDictionary(locale);
+  const useCasesContent = dictionary.pages?.useCases;
   const typedLocale = locale as Locale;
+  
+  const title = useCasesContent?.title || defaultContent.title;
+  const description = useCasesContent?.description || defaultContent.description;
+  const intro = useCasesContent?.intro || defaultContent.intro;
+  const learnMore = useCasesContent?.learnMore || defaultContent.learnMore;
 
   // Build breadcrumb navigation
   const breadcrumbs = [
     { name: 'Home', url: buildLocalizedPath(typedLocale) },
-    { name: 'Use Cases', url: buildLocalizedPath(typedLocale, 'use-cases') },
+    { name: locale === 'de' ? 'Anwendungsfälle' : locale === 'nl' ? 'Use cases' : 'Use Cases', url: buildLocalizedPath(typedLocale, 'use-cases') },
   ];
 
   const structuredData = [
     buildWebPageSchema({
       locale: typedLocale,
-      title: "Use cases for AI and AR–guided work instructions | ActARion",
-      description: pageDescription,
+      title: `${title} | ActARion`,
+      description,
       segment: "use-cases",
     }),
     buildItemListSchema(
@@ -88,10 +102,10 @@ export default async function UseCasesOverviewPage({
           <section className="space-y-6">
             <div className="space-y-4">
               <h1 className="section-heading text-slate-900">
-                Use cases for AI and AR–guided work instructions
+                {title}
               </h1>
               <p className="section-lead max-w-3xl text-gray-700">
-                {pageIntro}
+                {intro}
               </p>
             </div>
             <div className="relative w-full overflow-hidden rounded-2xl border border-slate-200 shadow-card">
@@ -140,7 +154,7 @@ export default async function UseCasesOverviewPage({
                         </p>
                         <div className="mt-auto">
                           <span className="inline-flex items-center justify-center gap-2 rounded-full bg-actarion-blue px-4 py-2 text-xs font-semibold text-white shadow-[0_15px_30px_rgba(26,128,194,0.35)] transition-all duration-200 group-hover:bg-actarion-blue-strong">
-                            Learn more
+                            {learnMore}
                             <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                             </svg>

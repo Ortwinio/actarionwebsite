@@ -324,31 +324,130 @@
     },
     "career": {
       "title": "Word lid van ons team",
-      "subtitle": "Vorm de toekomst van werk met Augmented Reality",
-      "description": "We zoeken gepassioneerde mensen die de manier willen revolutioneren waarop frontline werkers met technologie omgaan. Sluit u aan bij ons om de volgende generatie AR-aangedreven oplossingen te bouwen.",
-      "positions": {
-        "title": "Openstaande posities",
+      "subtitle": "Slimmer, veiliger en sneller werken met AI en Augmented Reality",
+      "description": "Sluit je aan bij ActARion en help augmented reality-oplossingen te bouwen die frontline-operaties in heel Europa transformeren.",
+      "heroHeading": "Werk waar actie augmented reality ontmoet",
+      "heroIntro1": "Bij ActARion helpen wij industriële, logistieke en energiebedrijven slimmer, veiliger en sneller te werken met AR- en AI-gestuurde oplossingen. We vertalen complexe procedures naar duidelijke, visuele begeleiding die technici en veldteams ondersteunt tijdens het werk.",
+      "heroIntro2": "Als je graag praktische technologie bouwt, dicht bij echte operaties werkt en de toekomst van werk vormgeeft, praten we graag met je.",
+      "sections": {
+        "whyWork": {
+          "title": "Waarom werken bij ActARion?",
+          "intro": "Werk in operaties verandert snel. Machines zijn complexer, veiligheidsnormen zijn strenger en ervaren specialisten zijn moeilijker te vinden. Veel organisaties vertrouwen nog steeds op PDF's, klassikale training en informele 'on the job' uitleg.",
+          "statement": "ActARion bestaat om dat te veranderen.",
+          "points": [
+            "We werken met toonaangevende AR- en AI-technologie om mensen direct te ondersteunen op het moment van werk.",
+            "We zetten expertkennis om in stap-voor-stap begeleiding die iedereen met vertrouwen kan volgen.",
+            "We helpen klanten fouten te verminderen, onboarding te verkorten en elke taak veiliger en consistenter te maken."
+          ],
+          "outro": "Je werkt in een klein, ondernemend team met directe impact op hoe fabrieken, installaties en veldteams in heel Europa hun werk gedaan krijgen."
+        },
+        "openPositions": {
+          "title": "Openstaande posities",
+          "description": "Creëer AR- en AI-gestuurde workflows die herdefiniëren hoe industrieel werk wordt gedaan. Bekijk de onderstaande rollen en solliciteer direct.",
+          "openRole": "Openstaande rol",
+          "youWill": "Je gaat",
+          "youBring": "Je brengt mee",
+          "applyNow": "Solliciteer nu",
+          "applyAgain": "Opnieuw solliciteren"
+        },
+        "howWeWork": {
+          "title": "Hoe we werken",
+          "intro": "We zijn een klein, gefocust team dat combineert:",
+          "points": [
+            {
+              "title": "Impact op echt werk",
+              "description": "We staan dicht bij de mensen die onze oplossingen dagelijks gebruiken: technici, operators, onderhoud-, kwaliteits- en HSE-teams."
+            },
+            {
+              "title": "Ruimte om te bouwen",
+              "description": "Je krijgt vroeg verantwoordelijkheid, met de vrijheid om te experimenteren en te verbeteren hoe we met klanten en partners werken."
+            },
+            {
+              "title": "Samenwerking boven hiërarchie",
+              "description": "We geven de voorkeur aan duidelijk eigenaarschap, open communicatie en korte feedbackloops boven managementlagen."
+            }
+          ],
+          "outro": "Onze ambitie is om samen met onze partner Deep Sight en een groeiend netwerk van klanten een Europese referentie te bouwen voor AR- en AI-gestuurd werk."
+        },
+        "howToApply": {
+          "title": "Hoe te solliciteren",
+          "intro": "Geïnteresseerd in een van de rollen, of denk je op een andere manier waarde toe te kunnen voegen? Gebruik de \"Solliciteer\" knop onder elke rol om je gegevens, LinkedIn-profiel en een korte motivatie te delen.",
+          "review": "We bekijken elke sollicitatie zorgvuldig. Als er een potentiële match is, nodigen we je uit voor een kennismakingsgesprek om fit, verwachtingen en volgende stappen te bespreken.",
+          "emailPreference": "Liever e-mail? Neem contact op via",
+          "orContactPage": "of onze contactpagina"
+        }
+      },
+      "jobs": {
         "arDeveloper": {
-          "title": "AR-ontwikkelaar",
-          "description": "Ontwikkel baanbrekende AR-applicaties voor industriële use cases",
-          "requirements": ["Ervaring met Unity/Unreal Engine", "Kennis van AR-frameworks", "C# programmeervaardigheden"]
+          "title": "AR Developer",
+          "location": "Duitsland",
+          "intro": "Ontwikkel AR-ervaringen die complex werk duidelijker en veiliger maken.",
+          "responsibilities": [
+            "AR-applicaties bouwen en verfijnen voor echte industriële use cases",
+            "Werken met Unity of Unreal Engine en moderne AR-frameworks",
+            "Samenwerken met product-, klant- en contentteams om procedures te vertalen naar intuïtieve AR-workflows"
+          ],
+          "requirements": [
+            "Ervaring met Unity en/of Unreal Engine",
+            "Solide C# programmeervaardigheden",
+            "Bekendheid met AR-frameworks en 3D-concepten",
+            "Nieuwsgierigheid naar hoe mensen daadwerkelijk werken in fabrieken, installaties en in het veld"
+          ]
         },
         "salesEngineer": {
           "title": "Sales Engineer",
-          "description": "Help klanten AR-oplossingen te begrijpen en implementeren",
-          "requirements": ["Technische achtergrond", "Sales ervaring", "AR/VR kennis"]
+          "location": "Nederland",
+          "intro": "Help klanten begrijpen hoe AR en AI hun operaties slimmer, veiliger en sneller kunnen maken.",
+          "responsibilities": [
+            "Met prospects werken om hun processen, uitdagingen en use cases in kaart te brengen",
+            "Technische mogelijkheden vertalen naar duidelijke business value",
+            "Pilots en implementaties ondersteunen samen met onze partners en productteam"
+          ],
+          "requirements": [
+            "Een technische achtergrond (engineering, IT of vergelijkbaar)",
+            "Ervaring in een klantgerichte of salesgerelateerde rol",
+            "Affiniteit met AR/VR of industriële software",
+            "Sterke communicatievaardigheden in het Engels (en bij voorkeur een andere Europese taal)"
+          ]
         },
         "productManager": {
           "title": "Product Manager",
-          "description": "Definieer en voer productstrategie uit voor AR-oplossingen",
-          "requirements": ["Product management ervaring", "Technische achtergrond", "Marktonderzoek vaardigheden"]
+          "location": "Zwitserland",
+          "intro": "Vorm de roadmap voor AR- en AI-gestuurd werk in de industrie.",
+          "responsibilities": [
+            "Productfeatures definiëren en prioriteren op basis van klantbehoeften en marktontwikkelingen",
+            "Nauw samenwerken met klanten, partners en ons ontwikkelteam",
+            "Feedback van pilots en uitrol omzetten in duidelijke requirements en verbeteringen"
+          ],
+          "requirements": [
+            "Ervaring in productmanagement voor B2B- of SaaS-oplossingen",
+            "Een technische basis die je in staat stelt architectuur en beperkingen te bespreken",
+            "Sterke analytische vaardigheden en een gestructureerde werkwijze",
+            "Interesse in operations, onderhoud, training of kwaliteit in industriële omgevingen"
+          ]
         }
       },
-      "culture": {
-        "title": "Onze cultuur",
-        "description": "We geloven in innovatie, samenwerking en echte impact. Ons team is gepassioneerd over technologie en het potentieel om industrieën te transformeren."
+      "form": {
+        "position": "Positie",
+        "fullName": "Volledige naam*",
+        "email": "E-mailadres*",
+        "phone": "Telefoonnummer (optioneel)",
+        "linkedin": "LinkedIn-profiel*",
+        "motivation": "Korte motivatie*",
+        "submit": "Solliciteren",
+        "submitting": "Verzenden...",
+        "cancel": "Annuleren",
+        "errors": {
+          "nameRequired": "Volledige naam is verplicht.",
+          "emailRequired": "E-mailadres is verplicht.",
+          "emailInvalid": "Voer een geldig e-mailadres in.",
+          "linkedinRequired": "LinkedIn-profiel is verplicht.",
+          "linkedinInvalid": "Voer een geldige LinkedIn URL in.",
+          "motivationRequired": "Deel alstublieft een korte motivatie."
+        },
+        "success": "Bedankt voor je sollicitatie. We bekijken je profiel en nemen zo snel mogelijk contact met je op.",
+        "error": "Er ging iets mis bij het verzenden van je sollicitatie. Probeer het opnieuw."
       },
-      "contact": "Geïnteresseerd? Stuur ons uw CV en motivatiebrief.",
       "backToHome": "Terug naar Home"
     },
     "faq": {
@@ -550,6 +649,15 @@
       "ctaTitle": "ActARion in actie zien",
       "ctaDescription": "Vraag een gepersonaliseerde demo aan om te zien hoe ActARion uw operaties kan transformeren.",
       "ctaButton": "Demo aanvragen",
+      "backToHome": "Terug naar Home"
+    },
+    "useCases": {
+      "title": "Use cases voor AI- en AR-gestuurde werkinstructies",
+      "subtitle": "Ontdek hoe ActARion en Deep Sight industriële, logistieke en energieorganisaties helpen slimmer, sneller en veiliger te werken.",
+      "description": "Ontdek hoe ActARion en Deep Sight industriële, logistieke en energieorganisaties helpen met AI- en AR-gestuurde werkinstructies, AR-SOPs en digitale werkinstructies slimmer, sneller en veiliger te werken.",
+      "intro": "ActARion en Deep Sight helpen u AI- en AR-gestuurde werkinstructies toe te passen in uw hele operatie. Van assemblage en omstellingen tot onderhoud, training en audits – wij zetten uw SOPs om in digitale werkinstructies en AR-SOPs die mensen stap voor stap begeleiden in de echte omgeving.",
+      "learnMore": "Meer informatie",
+      "backToUseCases": "Terug naar use cases",
       "backToHome": "Terug naar Home"
     },
     "news": {

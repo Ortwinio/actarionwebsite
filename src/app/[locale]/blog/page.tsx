@@ -78,14 +78,21 @@ export default async function BlogListPage({ params }: BlogListPageProps) {
         <div className="section-inner space-y-6">
           {usedFallback && (
             <div className="summary summary--floating text-sm">
-              We're still translating this blog section. Showing English articles for now.
+              {dictionary.pages?.blog?.fallbackMessage || "We're still translating this blog section. Showing English articles for now."}
             </div>
           )}
           {/* H2 for proper heading hierarchy (H1 from PageHeader → H2 → H3 in cards) */}
           <h2 className="sr-only">
-            {locale === 'de' ? 'Alle Artikel' : locale === 'nl' ? 'Alle artikelen' : 'All Articles'}
+            {dictionary.pages?.blog?.allArticles || (locale === 'de' ? 'Alle Artikel' : locale === 'nl' ? 'Alle artikelen' : 'All Articles')}
           </h2>
-          <BlogList blogs={blogs} locale={locale} />
+          <BlogList 
+            blogs={blogs} 
+            locale={locale} 
+            dictionary={{
+              noPostsTitle: dictionary.pages?.blog?.noPostsTitle,
+              noPostsText: dictionary.pages?.blog?.noPostsText,
+            }}
+          />
         </div>
       </main>
     </>
