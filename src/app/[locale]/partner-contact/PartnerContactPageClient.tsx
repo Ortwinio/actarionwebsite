@@ -94,7 +94,7 @@ export default function PartnerContactPageClient({
         >
           <div className="prose prose-lg max-w-none">
             <p className="text-xl text-slate-600 mb-6">
-              Our partners play different roles in helping organisations adopt AI and AR for smarter, safer and faster operations:
+              {dictionary.pages?.partnerContact?.intro || "Our partners play different roles in helping organisations adopt AI and AR for smarter, safer and faster operations:"}
             </p>
             <div className="grid gap-6 md:grid-cols-3 mb-10">
               <div className="rounded-xl border border-slate-200 bg-slate-50 p-6">
@@ -103,9 +103,9 @@ export default function PartnerContactPageClient({
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                 </div>
-                <h3 className="text-lg font-bold text-slate-900 mb-2">Technology vendors</h3>
+                <h3 className="text-lg font-bold text-slate-900 mb-2">{dictionary.pages?.partnerContact?.partnerTypes?.technology?.title || "Technology vendors"}</h3>
                 <p className="text-slate-600 text-sm">
-                  Provide the AR, XR and AI platforms and devices that power our solutions.
+                  {dictionary.pages?.partnerContact?.partnerTypes?.technology?.description || "Provide the AR, XR and AI platforms and devices that power our solutions."}
                 </p>
               </div>
               <div className="rounded-xl border border-slate-200 bg-slate-50 p-6">
@@ -114,9 +114,9 @@ export default function PartnerContactPageClient({
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                   </svg>
                 </div>
-                <h3 className="text-lg font-bold text-slate-900 mb-2">Implementation partners</h3>
+                <h3 className="text-lg font-bold text-slate-900 mb-2">{dictionary.pages?.partnerContact?.partnerTypes?.implementation?.title || "Implementation partners"}</h3>
                 <p className="text-slate-600 text-sm">
-                  Help design processes, change programmes and roll-outs around HR, operations and change management.
+                  {dictionary.pages?.partnerContact?.partnerTypes?.implementation?.description || "Help design processes, change programmes and roll-outs around HR, operations and change management."}
                 </p>
               </div>
               <div className="rounded-xl border border-slate-200 bg-slate-50 p-6">
@@ -125,9 +125,9 @@ export default function PartnerContactPageClient({
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                   </svg>
                 </div>
-                <h3 className="text-lg font-bold text-slate-900 mb-2">Education partners</h3>
+                <h3 className="text-lg font-bold text-slate-900 mb-2">{dictionary.pages?.partnerContact?.partnerTypes?.education?.title || "Education partners"}</h3>
                 <p className="text-slate-600 text-sm">
-                  Help organisations embed new ways of working through training, academies and learning programmes.
+                  {dictionary.pages?.partnerContact?.partnerTypes?.education?.description || "Help organisations embed new ways of working through training, academies and learning programmes."}
                 </p>
               </div>
             </div>
@@ -136,17 +136,17 @@ export default function PartnerContactPageClient({
 
         {/* Partner Grids */}
         <PartnerGrid
-          title="Technology partners"
+          title={dictionary.pages?.partnerContact?.gridTitles?.technology || "Technology partners"}
           partners={technologyPartners}
           locale={locale}
         />
         <PartnerGrid
-          title="Implementation partners"
+          title={dictionary.pages?.partnerContact?.gridTitles?.implementation || "Implementation partners"}
           partners={implementationPartners}
           locale={locale}
         />
         <PartnerGrid
-          title="Education partners"
+          title={dictionary.pages?.partnerContact?.gridTitles?.education || "Education partners"}
           partners={educationPartners}
           locale={locale}
         />
@@ -161,11 +161,10 @@ export default function PartnerContactPageClient({
         >
           <div className="text-center mb-8">
             <h2 className="text-3xl font-bold text-slate-900 mb-4">
-              Partner with ActARion
+              {dictionary.pages?.partnerContact?.becomePartner?.title || "Partner with ActARion"}
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Interested in becoming a partner or exploring a joint project for your customers?
-              Share a few details and we will schedule a short discovery call.
+              {dictionary.pages?.partnerContact?.becomePartner?.description || "Interested in becoming a partner or exploring a joint project for your customers? Share a few details and we will schedule a short discovery call."}
             </p>
           </div>
 
@@ -244,18 +243,18 @@ export default function PartnerContactPageClient({
                     htmlFor="partnerType"
                     className="block text-sm font-medium text-slate-700 mb-2"
                   >
-                    Partnership type
+                    {dictionary.pages?.partnerContact?.form?.partnerTypeLabel || "Partnership type"}
                   </label>
                   <select
                     id="partnerType"
                     name="partnerType"
                     className="w-full px-4 py-3 bg-white border border-slate-200 rounded-lg text-slate-900 focus:outline-none focus:ring-2 focus:ring-actarion-blue/40 focus:border-actarion-blue/60"
                   >
-                    <option value="">Select a partnership type</option>
-                    <option value="technology">Technology vendor</option>
-                    <option value="implementation">Implementation partner</option>
-                    <option value="education">Education partner</option>
-                    <option value="other">Other / Not sure yet</option>
+                    <option value="">{dictionary.pages?.partnerContact?.form?.partnerTypePlaceholder || "Select a partnership type"}</option>
+                    <option value="technology">{dictionary.pages?.partnerContact?.form?.partnerTypeOptions?.technology || "Technology vendor"}</option>
+                    <option value="implementation">{dictionary.pages?.partnerContact?.form?.partnerTypeOptions?.implementation || "Implementation partner"}</option>
+                    <option value="education">{dictionary.pages?.partnerContact?.form?.partnerTypeOptions?.education || "Education partner"}</option>
+                    <option value="other">{dictionary.pages?.partnerContact?.form?.partnerTypeOptions?.other || "Other / Not sure yet"}</option>
                   </select>
                 </div>
                 <div>

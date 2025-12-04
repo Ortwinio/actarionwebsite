@@ -85,8 +85,8 @@ export default async function PartnerContactPage({ params }: PartnerContactPageP
   return (
     <>
       <PageHeader
-        title="Partners"
-        subtitle="ActARion works with a focused ecosystem of partners to help organisations work smarter, safer and faster with AI and Augmented Reality."
+        title={dictionary.pages?.partnerContact?.title || "Partners"}
+        subtitle={dictionary.pages?.partnerContact?.subtitle || "ActARion works with a focused ecosystem of partners to help organisations work smarter, safer and faster with AI and Augmented Reality."}
       />
       <script
         type="application/ld+json"

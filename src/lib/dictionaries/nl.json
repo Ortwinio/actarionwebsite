@@ -131,7 +131,124 @@
       "title": "Diensten",
       "subtitle": "Wij helpen u AR en AI om te zetten in praktische tools op de werkvloer.",
       "description": "ActARion helpt industriële, logistieke en energiebedrijven bij het vastleggen van kritieke know-how, het begeleiden van operators in de werkstroom en het opbouwen van een lerende organisatie over locaties heen.",
-      "backToHome": "Terug naar Home"
+      "backToHome": "Terug naar Home",
+      "intro": {
+        "p1": "Bij ActARion helpen wij u AR en AI van \"interessante technologie\" om te zetten in praktische hulpmiddelen in de dagelijkse operaties. Onze diensten zijn opgebouwd rond één simpel doel: uw teams helpen slimmer, veiliger en sneller te werken.",
+        "p2": "Wij beginnen niet met features, maar met uw realiteit: assets, processen, mensen, regelgeving en doelstellingen. Van daaruit ontwerpen we een concreet pad: ontdekken → bewijzen → opschalen."
+      },
+      "sections": {
+        "strategy": {
+          "title": "1. Strategie en use case ontdekking",
+          "goal": "Doel:",
+          "goalText": "De use cases vinden waar AR en AI echt het verschil maken.",
+          "whatWeDo": "Wat we doen:",
+          "items": [
+            "Korte intake met operations, onderhoud, kwaliteit, HR en IT.",
+            "In kaart brengen van kritieke processen en \"moments that matter\" op de werkvloer.",
+            "Identificatie en prioritering van AR/AI use cases, bijvoorbeeld: AR-gestuurde assemblage en inspecties, omstellingen, training en onboarding, preventief onderhoud en remote troubleshooting, werkinstructies en SOP's om bedrijfskennis te borgen.",
+            "High-level roadmap: waar te beginnen, wat te meten, hoe op te schalen."
+          ],
+          "deliverable": "Oplevering:",
+          "deliverableText": "een beknopt use case- en roadmapdocument dat u intern kunt delen."
+        },
+        "poc": {
+          "title": "2. Proof of concept en pilotprojecten",
+          "goal": "Doel:",
+          "goalText": "Meetbare impact laten zien in weken, niet jaren.",
+          "whatWeDo": "Wat we doen:",
+          "items": [
+            "Selectie van één of twee high-impact use cases (bijvoorbeeld een complexe omstelling of een kritieke onderhoudstaak).",
+            "Configuratie van het DeepSight-platform voor uw omgeving.",
+            "Samen met uw experts de werkelijke procedures vastleggen aan de lijn of installatie.",
+            "De eerste AR-gidsen bouwen met duidelijke stappen, visuals, checks en documentatie.",
+            "Training van een kleine groep operators en supervisors.",
+            "Een pilot draaien en key metrics meten zoals tijd om de taak te voltooien, foutpercentage, downtime en trainingstijd."
+          ],
+          "deliverable": "Oplevering:",
+          "deliverableText": "een pilotrapport met resultaten, geleerde lessen en een aanbeveling voor vervolgstappen."
+        },
+        "arDesign": {
+          "title": "3. AR werkinstructies en SOP-ontwerp",
+          "goal": "Doel:",
+          "goalText": "Uw beste werkwijze omzetten in herbruikbare AR-SOP's.",
+          "whatWeDo": "Wat we doen:",
+          "items": [
+            "Subject-matter experts helpen procedures te structureren in duidelijke stappen.",
+            "Werkinstructies vastleggen in de echte omgeving met smart glasses of mobiele apparaten.",
+            "Visuals toevoegen zoals foto's, korte clips, 3D-aanwijzingen en annotaties.",
+            "Checks, veiligheidsstappen en data capture (foto's, bevestigingen, notities) inbouwen.",
+            "Alles organiseren in een centrale AR-SOP-bibliotheek per lijn, asset, product of locatie."
+          ],
+          "usage": "U kunt deze AR-SOP's gebruiken voor dagelijkse productie en assemblage, kwaliteitscontroles en inspecties, onderhoudstaken, training en onboarding, audits en compliance.",
+          "deliverable": "Oplevering:",
+          "deliverableText": "een groeiende digitale bibliotheek van AR werkinstructies en SOP's die u zelf kunt onderhouden."
+        },
+        "training": {
+          "title": "4. Training- en onboardingprogramma's",
+          "goal": "Doel:",
+          "goalText": "Tijd-tot-competentie verkorten en training consistent houden.",
+          "whatWeDo": "Wat we doen:",
+          "items": [
+            "AR-ondersteunde leertrajecten ontwerpen voor nieuwe operators en technici.",
+            "Self-paced AR-gidsen combineren met coaching op de werkplek.",
+            "Vaardigheden tracking en certificeringen configureren in het platform.",
+            "Interne trainers en supervisors trainen om content te maken en te beheren."
+          ],
+          "deliverable": "Oplevering:",
+          "deliverableText": "een training- en onboardingblauwdruk met AR-content en een duidelijke rol voor trainers en supervisors."
+        },
+        "maintenance": {
+          "title": "5. Onderhoud en remote support oplossingen",
+          "goal": "Doel:",
+          "goalText": "Uptime verhogen en reparatietijd verkorten.",
+          "whatWeDo": "Wat we doen:",
+          "items": [
+            "Preventieve onderhoudstaken vastleggen als AR-gidsen, inclusief checks en data capture.",
+            "Inspecties structureren zodat technici elke stap eenvoudig kunnen volgen en documenteren.",
+            "Remote expert support implementeren zodat technici hulp kunnen inroepen wanneer nodig."
+          ],
+          "useCases": "Use cases zijn onder meer AR-gestuurd preventief onderhoud, remote expert support voor correctief onderhoud en gestandaardiseerde inspecties voor regulatory compliance.",
+          "deliverable": "Oplevering:",
+          "deliverableText": "onderhoudsplaybooks ondersteund door AR, plus een werkende remote support setup."
+        },
+        "integration": {
+          "title": "6. Integratie en change management",
+          "goal": "Doel:",
+          "goalText": "AR en AI onderdeel maken van het dagelijkse werk, geen zijproject.",
+          "whatWeDo": "Wat we doen:",
+          "items": [
+            "AR/AI-initiatieven afstemmen op bestaande systemen (zoals CMMS, MES, QMS, LMS) waar relevant.",
+            "Samenwerken met IT en security om aan uw standaarden en policies te voldoen.",
+            "Rollen en verantwoordelijkheden definiëren voor contentcreatie, goedkeuring en training.",
+            "Interne communicatie en verandering ondersteunen, van pilots tot bredere uitrol."
+          ],
+          "deliverable": "Oplevering:",
+          "deliverableText": "een implementatie- en governancemodel dat past bij uw organisatie."
+        },
+        "support": {
+          "title": "7. Support, analytics en continue verbetering",
+          "goal": "Doel:",
+          "goalText": "De oplossing up-to-date houden en waarde vergroten over tijd.",
+          "whatWeDo": "Wat we doen:",
+          "items": [
+            "Doorlopende support bieden op het DeepSight-platform samen met onze technologiepartner.",
+            "Helpen bij het monitoren van gebruik en prestaties van gidsen: welke procedures worden het meest gebruikt, waar operators vastlopen en welke vaardigheden en certificeringen aandacht nodig hebben.",
+            "Regelmatige verbeterworkshops faciliteren met uw teams.",
+            "Best practices delen van andere projecten en industrieën."
+          ],
+          "deliverable": "Oplevering:",
+          "deliverableText": "een continue verbetercyclus rond AR-gestuurd werk, met duidelijke metrics."
+        },
+        "regional": {
+          "title": "Diensten afgestemd op uw regio",
+          "intro": "ActARion is georganiseerd om u lokaal te ondersteunen:",
+          "benelux": "Benelux",
+          "beneluxText": "– geleid door Managing Partner Ortwin Verreck, gericht op industriële, logistieke en energiebedrijven in Nederland, België en Luxemburg.",
+          "dach": "DACH (Duitsland, Oostenrijk, Zwitserland)",
+          "dachText": "– geleid door Managing Partner Mark Dercksen, gericht op robuuste, schaalbare AR- en AI-implementaties in de regio.",
+          "outro": "Samen helpen wij u te verduidelijken waar te beginnen, een concrete eerste use case te ontwerpen en een roadmap te bouwen van pilot naar schaal."
+        }
+      }
     },
     "about": {
       "title": "Over ActARion",
@@ -159,14 +276,46 @@
       "backToHome": "Terug naar Home"
     },
     "partnerContact": {
-      "title": "Word onze partner",
-      "subtitle": "Sluit u aan bij ons groeiende partner-ecosysteem",
-      "description": "We zoeken actief naar technologieleveranciers, systeemintegratoren, adviesbureaus en field service providers om de toekomst van werk vorm te geven door middel van Augmented Reality.",
+      "title": "Partners",
+      "subtitle": "ActARion werkt met een gericht ecosysteem van partners om organisaties te helpen slimmer, veiliger en sneller te werken met AI en Augmented Reality.",
+      "description": "Ontdek het partner-ecosysteem van ActARion: technologieleveranciers, implementatiepartners en opleidingspartners die organisaties helpen slimmer, veiliger en sneller te werken met AR en AI.",
+      "intro": "Onze partners spelen verschillende rollen bij het helpen van organisaties om AI en AR te adopteren voor slimmere, veiligere en snellere operaties:",
+      "partnerTypes": {
+        "technology": {
+          "title": "Technologieleveranciers",
+          "description": "Leveren de AR-, XR- en AI-platforms en apparaten die onze oplossingen aandrijven."
+        },
+        "implementation": {
+          "title": "Implementatiepartners",
+          "description": "Helpen bij het ontwerpen van processen, veranderprogramma's en uitrol rondom HR, operations en change management."
+        },
+        "education": {
+          "title": "Opleidingspartners",
+          "description": "Helpen organisaties nieuwe werkwijzen te verankeren door training, academies en leerprogramma's."
+        }
+      },
+      "gridTitles": {
+        "technology": "Technologiepartners",
+        "implementation": "Implementatiepartners",
+        "education": "Opleidingspartners"
+      },
+      "becomePartner": {
+        "title": "Word partner van ActARion",
+        "description": "Geïnteresseerd om partner te worden of een gezamenlijk project voor uw klanten te verkennen? Deel een paar gegevens en we plannen een korte discovery call."
+      },
       "form": {
         "name": "Volledige naam",
         "email": "E-mailadres",
         "company": "Bedrijfsnaam",
         "phone": "Telefoonnummer",
+        "partnerTypeLabel": "Type partnerschap",
+        "partnerTypePlaceholder": "Selecteer een partnerschapstype",
+        "partnerTypeOptions": {
+          "technology": "Technologieleverancier",
+          "implementation": "Implementatiepartner",
+          "education": "Opleidingspartner",
+          "other": "Anders / Nog niet zeker"
+        },
         "message": "Vertel ons over uw partnerschapsinteresse",
         "submit": "Partnerschapsverzoek indienen",
         "success": "Bedankt! We zullen uw partnerschapsverzoek bekijken en binnenkort contact met u opnemen."
