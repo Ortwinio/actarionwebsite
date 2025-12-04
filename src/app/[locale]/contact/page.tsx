@@ -26,9 +26,14 @@ export async function generateMetadata({ params }: ContactPageProps): Promise<Me
   const description =
     contactCopy?.description?.replace(/\s+/g, " ").trim() || fallbackDescription;
 
+  // Use descriptive, keyword-rich title for SEO
+  const metaTitle = contactCopy?.title 
+    ? `${contactCopy.title} – Schedule an AR Demo | ActARion`
+    : "Contact ActARion – Schedule a Demo for AR Work Instructions";
+
   return buildPageMetadata({
     locale,
-    title: contactCopy?.title || "Contact ActARion",
+    title: metaTitle,
     description,
     segment: "contact",
   });
@@ -85,7 +90,6 @@ export default async function ContactPage({ params }: ContactPageProps) {
       <PageHeader
         title={title}
         subtitle={subtitle}
-        backgroundImage="/headers/header-1.jpg"
       />
       <script
         type="application/ld+json"

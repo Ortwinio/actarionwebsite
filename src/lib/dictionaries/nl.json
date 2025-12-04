@@ -1,10 +1,11 @@
 {
   "navigation": {
     "home": "Home",
+    "services": "Diensten",
     "about": "Over ons",
     "contact": "Contact",
     "demo": "Demo",
-    "insight": "Insight",
+    "insight": "Insights",
     "partner": "Partner",
     "career": "Carrière",
     "faq": "FAQ",
@@ -15,6 +16,13 @@
       "whitepapers": "Whitepapers",
       "videos": "Video's",
       "news": "Nieuws"
+    },
+    "aboutSubmenu": {
+      "aboutActarion": "Over ActARion",
+      "vision": "Visie",
+      "management": "Management",
+      "career": "Carrière",
+      "faq": "FAQ"
     }
   },
   "hero": {
@@ -98,6 +106,8 @@
     }
   },
   "footer": {
+    "company": "Bedrijf",
+    "quicklinks": "Snellinks",
     "sitemap": "Sitemap",
     "useCases": "Gebruikssituaties",
     "terms": "Algemene voorwaarden",
@@ -117,9 +127,15 @@
     }
   },
   "pages": {
+    "services": {
+      "title": "Diensten",
+      "subtitle": "Wij helpen u AR en AI om te zetten in praktische tools op de werkvloer.",
+      "description": "ActARion helpt industriële, logistieke en energiebedrijven bij het vastleggen van kritieke know-how, het begeleiden van operators in de werkstroom en het opbouwen van een lerende organisatie over locaties heen.",
+      "backToHome": "Terug naar Home"
+    },
     "about": {
-      "title": "About ActARion",
-      "subtitle": "Why we exist",
+      "title": "Over ActARion",
+      "subtitle": "Slimmer, veiliger en sneller werken met AI en Augmented Reality.",
       "description": "Work in operations is changing quickly. Processes are more complex, safety and compliance standards are stricter, and experienced technicians are harder to find. Yet many teams still depend on PDFs, classroom training and informal shadowing to get work done.\n\nActARion exists to help industrial, logistics and energy companies respond to that reality by enabling people to work smarter, faster and safer with the support of AR and AI.\n\nWe focus on the last step of knowledge transfer: how instructions, procedures and expertise actually reach the technician, operator or field engineer at the moment of work.\n\nHow we help:\n• Deep Sight AR platform — We work with Deep Sight , an AR‑first connected worker platform, to turn procedures and expert knowledge into interactive work instructions and SOPs.\n• From expert know‑how to clear guidance — We help capture expertise from senior technicians and translate it into clear, visual guidance that less experienced colleagues can follow with confidence.\n• From pilots to scale — We support your teams in identifying use cases, running focused pilots and scaling what works across lines, plants and countries.\n\nActARion combines world‑class AR technology with local, hands‑on support. Our focus is always the same: closing the gap between procedure and actual performance.",
       "mission": "What we believe",
       "missionText": "• SOPs are more than documents — Standard Operating Procedures are the backbone of quality, safety and performance. They only create value when they are easy to find, easy to follow and easy to improve.\n• Knowledge should live where the work happens — People should not have to leave their task or search multiple systems while a line is down. Guidance needs to be available in context, step by step, in the actual environment.\n• Technology should make work clearer — AR and AI are useful only if they reduce ambiguity, make tasks easier to understand and give teams more confidence in what they do.\n• Continuous improvement is a daily routine — Every task is a learning moment. Execution data should flow back into better instructions, better training and better processes.",

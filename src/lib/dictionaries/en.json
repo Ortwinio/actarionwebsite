@@ -1,10 +1,11 @@
 {
   "navigation": {
     "home": "Home",
+    "services": "Services",
     "about": "About Us",
     "contact": "Contact",
     "demo": "Demo",
-    "insight": "Insight",
+    "insight": "Insights",
     "partner": "Partner",
     "career": "Career",
     "faq": "FAQ",
@@ -15,6 +16,13 @@
       "whitepapers": "Whitepapers",
       "videos": "Videos",
       "news": "News"
+    },
+    "aboutSubmenu": {
+      "aboutActarion": "About ActARion",
+      "vision": "Vision",
+      "management": "Management",
+      "career": "Career",
+      "faq": "FAQ"
     }
   },
   "hero": {
@@ -86,6 +94,8 @@
     }
   },
   "footer": {
+    "company": "Company",
+    "quicklinks": "Quick Links",
     "sitemap": "Sitemap",
     "useCases": "Use cases",
     "terms": "General Terms and Conditions",
@@ -105,6 +115,12 @@
     }
   },
   "pages": {
+    "services": {
+      "title": "Services",
+      "subtitle": "We help you turn AR and AI into practical tools on the shop floor.",
+      "description": "ActARion helps industrial, logistics and energy companies capture critical know-how, guide operators in the flow of work and build a learning organization across sites.",
+      "backToHome": "Back to Home"
+    },
     "about": {
       "title": "About ActARion",
       "subtitle": "Why we exist",

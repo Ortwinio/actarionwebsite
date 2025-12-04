@@ -17,9 +17,9 @@ const pageDescriptions = {
 };
 
 const pageTitles = {
-  en: "Videos",
-  de: "Videos",
-  nl: "Video's"
+  en: "Videos – AR & AI Work Instructions Demos & Tutorials",
+  de: "Videos – AR- & KI-Arbeitsanweisungen Demos & Tutorials",
+  nl: "Video's – AR & AI Werkinstructies Demo's & Tutorials"
 };
 
 const pageIntros = {
@@ -119,7 +119,7 @@ export default async function VideosPage({ params }: VideosPageProps) {
               <video
                 className="w-full h-full object-cover"
                 controls
-                poster="/actarion header1.png"
+                poster="/images/usecases/ar-work-instructions-and-sops-to-preserve-corporate-memory-hero.png"
                 preload="metadata"
               >
                 <source src="/ActARion_intro.mp4" type="video/mp4" />

@@ -26,9 +26,14 @@ export async function generateMetadata({ params }: EventsPageProps): Promise<Met
   const description =
     eventsCopy?.description?.replace(/\s+/g, " ").trim() || fallbackDescription;
 
+  // Use descriptive, keyword-rich title for SEO
+  const metaTitle = eventsCopy?.title 
+    ? `${eventsCopy.title} – AR & AI Work Instructions Events | ActARion`
+    : "Events – AR & AI Work Instructions Webinars & Workshops | ActARion";
+
   return buildPageMetadata({
     locale,
-    title: eventsCopy?.title || "Events",
+    title: metaTitle,
     description,
     segment: "events",
   });
@@ -47,9 +52,13 @@ export default async function EventsPage({ params }: EventsPageProps) {
   const canonicalPath = buildLocalizedPath(locale, "events");
   const absoluteUrl = `${siteUrl}${canonicalPath}`;
 
+  const schemaTitle = eventsCopy?.title 
+    ? `${eventsCopy.title} – AR & AI Work Instructions Events | ActARion`
+    : "Events – AR & AI Work Instructions Webinars & Workshops | ActARion";
+
   const webPageSchema = buildWebPageSchema({
     locale,
-    title: eventsCopy?.title || "Events",
+    title: schemaTitle,
     description,
     segment: "events",
   });
@@ -76,7 +85,6 @@ export default async function EventsPage({ params }: EventsPageProps) {
       <PageHeader
         title={title}
         subtitle={subtitle}
-        backgroundImage="/headers/header-2.jpg"
       />
       <script
         type="application/ld+json"
@@ -86,4 +94,6 @@ export default async function EventsPage({ params }: EventsPageProps) {
     </>
   );
 }
+
+
 

@@ -3,11 +3,12 @@ export type Locale = typeof locales[number];
 
 export const defaultLocale: Locale = 'en';
 
-export type NavigationItemId = 'home' | 'about' | 'contact' | 'insight' | 'partner' | 'career' | 'faq';
+export type NavigationItemId = 'home' | 'services' | 'about' | 'contact' | 'insight' | 'partner';
 export type InsightSubItemId = 'useCases' | 'blogposts' | 'events' | 'whitepapers' | 'videos' | 'news';
+export type AboutSubItemId = 'aboutActarion' | 'vision' | 'management' | 'career' | 'faq';
 
 export interface NavigationSubItem {
-  id: InsightSubItemId;
+  id: InsightSubItemId | AboutSubItemId;
   segment: string;
 }
 
@@ -28,14 +29,22 @@ export const insightSubItems: NavigationSubItem[] = [
   { id: 'news', segment: 'news' },
 ];
 
-export const navigationItems: NavigationItem[] = [
-  { id: 'home' },
-  { id: 'about', segment: 'about' },
-  { id: 'contact', segment: 'contact' },
-  { id: 'insight', children: insightSubItems },
-  { id: 'partner', segment: 'partner-contact' },
+export const aboutSubItems: NavigationSubItem[] = [
+  { id: 'aboutActarion', segment: 'about' },
+  { id: 'vision', segment: 'vision' },
+  { id: 'management', segment: 'management' },
   { id: 'career', segment: 'career' },
   { id: 'faq', segment: 'faq' },
+];
+
+/** Top-level navigation order: Services, Insights, Partners, About us, Contact */
+export const navigationItems: NavigationItem[] = [
+  { id: 'home' },
+  { id: 'services', segment: 'services' },
+  { id: 'insight', children: insightSubItems },
+  { id: 'partner', segment: 'partner-contact' },
+  { id: 'about', children: aboutSubItems },
+  { id: 'contact', segment: 'contact' },
 ];
 
 export const isSupportedLocale = (value: string): value is Locale =>

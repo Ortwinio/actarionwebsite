@@ -18,9 +18,9 @@ const pageDescriptions = {
 };
 
 const pageTitles = {
-  en: "News",
-  de: "News",
-  nl: "Nieuws"
+  en: "News – AR & AI Work Instructions Updates",
+  de: "News – Updates zu AR- & KI-Arbeitsanweisungen",
+  nl: "Nieuws – AR & AI Werkinstructies Updates"
 };
 
 const pageIntros = {

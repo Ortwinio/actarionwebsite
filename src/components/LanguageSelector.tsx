@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { Suspense, useEffect, useRef, useState } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { GlobeAltIcon } from "@heroicons/react/24/outline";
 import { Locale, locales } from "@/config/site";
@@ -18,7 +18,10 @@ const localeMetadata: Record<Locale, { name: string; flag: string }> = {
   nl: { name: "Nederlands", flag: "🇳🇱" },
 };
 
-export default function LanguageSelector({ currentLocale, dictionary, variant = 'default' }: LanguageSelectorProps) {
+/**
+ * Inner component that uses useSearchParams (requires Suspense boundary)
+ */
+function LanguageSelectorInner({ currentLocale, dictionary, variant = 'default' }: LanguageSelectorProps) {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
@@ -111,5 +114,29 @@ export default function LanguageSelector({ currentLocale, dictionary, variant = 
         </div>
       )}
     </div>
+  );
+}
+
+/**
+ * Language selector dropdown with Suspense boundary for useSearchParams
+ */
+export default function LanguageSelector(props: LanguageSelectorProps) {
+  return (
+    <Suspense fallback={
+      <div className="relative">
+        <button
+          type="button"
+          className={props.variant === 'header' ? 'site-header__icon-button' : 'language-selector__trigger'}
+          aria-label="Language"
+          disabled
+        >
+          <GlobeAltIcon className="h-5 w-5" />
+          <span className="inline">{localeMetadata[props.currentLocale].flag}</span>
+          <span className="hidden sm:inline text-sm font-medium">{localeMetadata[props.currentLocale].name}</span>
+        </button>
+      </div>
+    }>
+      <LanguageSelectorInner {...props} />
+    </Suspense>
   );
 }

@@ -57,3 +57,5 @@ export const NEWS_TYPE_LABELS: Record<NewsType, string> = {
   "industry-news": "Industry News",
 };
 
+
+

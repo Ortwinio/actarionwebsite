@@ -12,6 +12,8 @@ export function Footer({ locale, dictionary }: FooterProps) {
   const homeHref = buildLocalizedPath(locale);
   const useCasesHref = buildLocalizedPath(locale, "use-cases");
   const aboutHref = buildLocalizedPath(locale, "about");
+  const visionHref = buildLocalizedPath(locale, "vision");
+  const managementHref = buildLocalizedPath(locale, "management");
   const contactHref = buildLocalizedPath(locale, "contact");
   const partnersHref = buildLocalizedPath(locale, "partner-contact");
   const careerHref = buildLocalizedPath(locale, "career");
@@ -72,12 +74,29 @@ export function Footer({ locale, dictionary }: FooterProps) {
 
         <div>
           <h3 className="site-footer__title">
-            {dictionary.footer?.sitemap || "Sitemap"}
+            {dictionary.footer?.company || "Company"}
           </h3>
           <ul className="space-y-1">
             <li>
-              <Link href={aboutHref}>{dictionary.navigation?.about || "About"}</Link>
+              <Link href={aboutHref}>{dictionary.navigation?.aboutSubmenu?.aboutActarion || "About Us"}</Link>
             </li>
+            <li>
+              <Link href={visionHref}>{dictionary.navigation?.aboutSubmenu?.vision || "Vision"}</Link>
+            </li>
+            <li>
+              <Link href={managementHref}>{dictionary.navigation?.aboutSubmenu?.management || "Management"}</Link>
+            </li>
+            <li>
+              <Link href={careerHref}>{dictionary.navigation?.aboutSubmenu?.career || "Career"}</Link>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="site-footer__title">
+            {dictionary.footer?.quicklinks || "Quick Links"}
+          </h3>
+          <ul className="space-y-1">
             <li>
               <Link href={partnersHref}>{dictionary.navigation?.partner || "Partners"}</Link>
             </li>
@@ -85,17 +104,14 @@ export function Footer({ locale, dictionary }: FooterProps) {
               <Link href={contactHref}>{dictionary.navigation?.contact || "Contact"}</Link>
             </li>
             <li>
-              <Link href={careerHref}>{dictionary.navigation?.career || "Career"}</Link>
-            </li>
-            <li>
-              <Link href={faqHref}>{dictionary.navigation?.faq || "FAQ"}</Link>
+              <Link href={faqHref}>{dictionary.navigation?.aboutSubmenu?.faq || "FAQ"}</Link>
             </li>
           </ul>
         </div>
 
         <div>
           <h3 className="site-footer__title">
-            {dictionary.navigation?.insight || "Insight"}
+            {dictionary.navigation?.insight || "Insights"}
           </h3>
           <ul className="space-y-1">
             <li>

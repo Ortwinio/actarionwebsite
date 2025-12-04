@@ -116,7 +116,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       <PageHeader
         title={blog.title}
         subtitle={blog.description}
-        backgroundImage={backgroundImage}
+        imageOverride={backgroundImage}
       />
       <script
         type="application/ld+json"

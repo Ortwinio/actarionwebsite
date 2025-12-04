@@ -16,9 +16,9 @@ const pageDescriptions = {
 };
 
 const pageTitles = {
-  en: "Whitepapers",
-  de: "Whitepapers",
-  nl: "Whitepapers"
+  en: "Whitepapers – AR & AI Work Instructions Resources",
+  de: "Whitepapers – Ressourcen zu AR- & KI-Arbeitsanweisungen",
+  nl: "Whitepapers – AR & AI Werkinstructie Bronnen"
 };
 
 const pageIntros = {

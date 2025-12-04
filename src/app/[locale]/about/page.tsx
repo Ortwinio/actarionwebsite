@@ -13,7 +13,10 @@ interface AboutPageProps {
 }
 
 const fallbackDescription =
-  "Learn how ActARion combines action and augmented reality to modernize SOP execution and support frontline teams across Europe.";
+  "Smarter, safer and faster work with AI and Augmented Reality.";
+
+const fallbackSubtitle =
+  "Smarter, safer and faster work with AI and Augmented Reality.";
 
 export async function generateMetadata({ params }: AboutPageProps): Promise<Metadata> {
   const { locale } = await params;
@@ -46,7 +49,7 @@ export default async function AboutPage({ params }: AboutPageProps) {
   const description =
     aboutCopy?.description?.replace(/\s+/g, " ").trim() || fallbackDescription;
   const pageTitle = aboutCopy?.title || "About ActARion";
-  const headerSubtitle = aboutCopy?.subtitle || description;
+  const headerSubtitle = aboutCopy?.subtitle || fallbackSubtitle;
 
   // Build breadcrumb navigation
   const breadcrumbs = [
@@ -69,7 +72,6 @@ export default async function AboutPage({ params }: AboutPageProps) {
       <PageHeader
         title={pageTitle}
         subtitle={headerSubtitle}
-        backgroundImage="/headers/header-2.jpg"
       />
       <script
         type="application/ld+json"

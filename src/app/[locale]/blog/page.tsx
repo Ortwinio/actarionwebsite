@@ -21,9 +21,12 @@ export async function generateMetadata({ params }: BlogListPageProps): Promise<M
   const blogDescription = dictionary.pages?.blog?.description || 'Insights and updates from ActARion'
   const siteTitle = dictionary.metadata?.title || 'ActARion'
 
+  // Use descriptive, keyword-rich title for SEO (>200px minimum)
+  const metaTitle = `Blog – AR & AI Work Instructions Insights | ${siteTitle}`;
+  
   return buildPageMetadata({
     locale,
-    title: `Blog - ${siteTitle}`,
+    title: metaTitle,
     description: blogDescription,
     segment: 'blog',
   })
@@ -45,11 +48,12 @@ export default async function BlogListPage({ params }: BlogListPageProps) {
     { name: blogTitle, url: buildLocalizedPath(typedLocale, 'blog') },
   ];
 
-  // Build structured data
+  // Build structured data with descriptive title
+  const schemaTitle = `Blog – AR & AI Work Instructions Insights | ${dictionary.metadata?.title || 'ActARion'}`;
   const structuredData = [
     buildWebPageSchema({
       locale: typedLocale,
-      title: `Blog - ${dictionary.metadata?.title || 'ActARion'}`,
+      title: schemaTitle,
       description: blogDescription,
       segment: 'blog',
     }),
@@ -77,6 +81,10 @@ export default async function BlogListPage({ params }: BlogListPageProps) {
               We're still translating this blog section. Showing English articles for now.
             </div>
           )}
+          {/* H2 for proper heading hierarchy (H1 from PageHeader → H2 → H3 in cards) */}
+          <h2 className="sr-only">
+            {locale === 'de' ? 'Alle Artikel' : locale === 'nl' ? 'Alle artikelen' : 'All Articles'}
+          </h2>
           <BlogList blogs={blogs} locale={locale} />
         </div>
       </main>

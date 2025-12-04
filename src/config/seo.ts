@@ -23,8 +23,23 @@ const defaultSocialImage: SocialImage = {
   alt: 'ActARion - AR-Powered SOP Solutions',
 };
 
-const toAbsoluteUrl = (path: string) =>
-  path.startsWith('http') ? path : `${siteUrl}${path}`;
+/**
+ * Convert a path to an absolute URL with proper normalization
+ * - Removes trailing slashes (except for root)
+ * - Removes query strings
+ * - Ensures consistent format for canonical URLs
+ */
+const toAbsoluteUrl = (path: string) => {
+  if (path.startsWith('http')) return path;
+  
+  // Normalize path: remove trailing slash and query strings
+  let normalizedPath = path.split('?')[0];
+  if (normalizedPath.length > 1 && normalizedPath.endsWith('/')) {
+    normalizedPath = normalizedPath.slice(0, -1);
+  }
+  
+  return `${siteUrl}${normalizedPath}`;
+};
 
 const withAbsoluteImage = (image: SocialImage) => ({
   ...image,
@@ -33,11 +48,39 @@ const withAbsoluteImage = (image: SocialImage) => ({
 
 export const getAbsoluteUrl = (path: string) => toAbsoluteUrl(path);
 
-export const buildAlternateLanguages = (segment?: string) =>
-  locales.reduce<Record<string, string>>((acc, locale) => {
-    acc[locale] = buildLocalizedPath(locale, segment);
+/**
+ * Normalize a canonical path
+ * - Removes trailing slashes (except for root paths like /en)
+ * - Removes query strings
+ * - Ensures consistent format for SEO
+ */
+export const normalizeCanonicalPath = (path: string): string => {
+  // Remove query strings
+  let normalized = path.split('?')[0];
+  
+  // Remove trailing slash unless it's a locale root (e.g., /en)
+  if (normalized.length > 3 && normalized.endsWith('/')) {
+    normalized = normalized.slice(0, -1);
+  }
+  
+  return normalized;
+};
+
+/**
+ * Build alternate language URLs for hreflang tags.
+ * Returns absolute URLs for each locale plus x-default pointing to English.
+ */
+export const buildAlternateLanguages = (segment?: string) => {
+  const languages = locales.reduce<Record<string, string>>((acc, locale) => {
+    acc[locale] = `${siteUrl}${buildLocalizedPath(locale, segment)}`;
     return acc;
   }, {});
+  
+  // Add x-default pointing to English version for users with unsupported languages
+  languages['x-default'] = `${siteUrl}${buildLocalizedPath('en', segment)}`;
+  
+  return languages;
+};
 
 export interface PageMetadataInput {
   locale: Locale;
@@ -56,7 +99,9 @@ export const buildPageMetadata = ({
   image = defaultSocialImage,
   type = 'website',
 }: PageMetadataInput): Metadata => {
-  const canonicalPath = buildLocalizedPath(locale, segment);
+  // Build and normalize canonical path to ensure consistency
+  const rawPath = buildLocalizedPath(locale, segment);
+  const canonicalPath = normalizeCanonicalPath(rawPath);
   const absoluteUrl = toAbsoluteUrl(canonicalPath);
   const ogImage = withAbsoluteImage(image);
 

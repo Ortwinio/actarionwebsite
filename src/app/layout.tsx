@@ -1,11 +1,54 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { headers } from "next/headers";
+import { headers, cookies } from "next/headers";
 import CookieBanner from '../components/CookieBanner';
 import ConditionalAnalytics from '../components/ConditionalAnalytics';
 import { ThemeProvider } from '../contexts/ThemeContext';
-import { defaultLocale, isSupportedLocale } from '../config/site';
+import { HtmlLangSetter } from '../components/HtmlLangSetter';
+import { defaultLocale, isSupportedLocale, locales } from '../config/site';
 import "./globals.css";
+
+/**
+ * Extract locale from cookies and headers
+ * Priority: NEXT_LOCALE cookie > x-actarion-locale header > fallback
+ */
+async function extractLocale(): Promise<string> {
+  // 1. Try to get locale from cookie (most reliable)
+  try {
+    const cookieStore = await cookies();
+    const localeCookie = cookieStore.get('NEXT_LOCALE');
+    if (localeCookie?.value && isSupportedLocale(localeCookie.value)) {
+      return localeCookie.value;
+    }
+  } catch {
+    // Cookies might not be available in some contexts
+  }
+  
+  // 2. Try to get locale from headers
+  try {
+    const headersList = await headers();
+    
+    // x-actarion-locale header from middleware
+    const localeHeader = headersList.get('x-actarion-locale');
+    if (localeHeader && isSupportedLocale(localeHeader)) {
+      return localeHeader;
+    }
+    
+    // x-url header set by middleware
+    const xUrl = headersList.get('x-url');
+    if (xUrl) {
+      const match = xUrl.match(/^\/([a-z]{2})(\/|$)/);
+      if (match && isSupportedLocale(match[1])) {
+        return match[1];
+      }
+    }
+  } catch {
+    // Headers might not be available
+  }
+  
+  // 3. Fall back to default locale
+  return defaultLocale;
+}
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -88,9 +131,7 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const headersList = await headers();
-  const localeHeader = headersList.get('x-actarion-locale');
-  const resolvedLocale = localeHeader && isSupportedLocale(localeHeader) ? localeHeader : defaultLocale;
+  const resolvedLocale = await extractLocale();
 
   return (
     <html lang={resolvedLocale} className="scroll-smooth">
@@ -132,6 +173,7 @@ export default async function RootLayout({
         </noscript>
         {/** End Google Tag Manager (noscript) */}
         <ThemeProvider>
+          <HtmlLangSetter />
           {children}
           <CookieBanner />
           <ConditionalAnalytics />

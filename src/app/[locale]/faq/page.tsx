@@ -130,7 +130,6 @@ export default async function FAQPage({ params }: FAQPageProps) {
       <PageHeader
         title={title}
         subtitle={subtitle}
-        backgroundImage="/headers/header-4.jpg"
       />
       <script
         type="application/ld+json"

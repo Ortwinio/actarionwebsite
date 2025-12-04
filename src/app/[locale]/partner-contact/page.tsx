@@ -22,9 +22,12 @@ export async function generateMetadata({ params }: PartnerContactPageProps): Pro
     notFound();
   }
 
+  // Use descriptive, keyword-rich title for SEO
+  const metaTitle = "Partners – AR & AI Technology Ecosystem | ActARion";
+
   return buildPageMetadata({
     locale,
-    title: "Partners | ActARion",
+    title: metaTitle,
     description: fallbackDescription,
     segment: "partner-contact",
   });
@@ -47,9 +50,11 @@ export default async function PartnerContactPage({ params }: PartnerContactPageP
     { name: 'Partners', url: canonicalPath },
   ];
 
+  const schemaTitle = "Partners – AR & AI Technology Ecosystem | ActARion";
+
   const webPageSchema = buildWebPageSchema({
     locale: typedLocale,
-    title: "Partners | ActARion",
+    title: schemaTitle,
     description: fallbackDescription,
     segment: "partner-contact",
   });
@@ -57,7 +62,7 @@ export default async function PartnerContactPage({ params }: PartnerContactPageP
   const partnerSchema = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: "Partners | ActARion",
+    name: schemaTitle,
     description: fallbackDescription,
     url: absoluteUrl,
     mainEntity: {

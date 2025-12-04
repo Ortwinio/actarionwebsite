@@ -16,10 +16,21 @@ export const images = {
   // HEADER IMAGES (page backgrounds)
   // ============================================================
   headers: {
-    header1: "/headers/header-1.jpg",
-    header2: "/headers/header-2.jpg",
-    header3: "/headers/header-3.jpg",
-    header4: "/headers/header-4.jpg",
+    // Legacy headers (deprecated - use roles/usecases instead)
+    header1: "/images/roles/career-product-manager-hero2.png",
+    header2: "/images/usecases/usecases-overview.png",
+    header3: "/images/usecases/ar-preventive-maintenance-with-data-driven-insights-hero.png",
+    header4: "/images/roles/career-product-manager-hero2.png",
+  },
+
+  // ============================================================
+  // ROLE IMAGES (for career pages and random headers)
+  // ============================================================
+  roles: {
+    arDeveloperHero: "/images/roles/career-ar-developer-hero.png",
+    productManagerHero: "/images/roles/career-product-manager-hero.png",
+    productManagerHero2: "/images/roles/career-product-manager-hero2.png",
+    salesEngineerHero: "/images/roles/career-sales-engineer-hero.png",
   },
 
   // ============================================================
@@ -35,8 +46,8 @@ export const images = {
   // HOMEPAGE IMAGES
   // ============================================================
   homepage: {
-    header2: "/actarion header2.png",
-    header3: "/actarion header 3.png",
+    header2: "/images/usecases/usecases-overview.png",
+    header3: "/images/roles/career-product-manager-hero2.png",
     vertical1: "/actarion vertical 1.png",
     vertical2: "/ActARion vertical 2.png",
     vertical3: "/ActARion vertical 3.png",
@@ -54,14 +65,14 @@ export const images = {
   // ============================================================
   useCases: {
     overview: "/usecases-overview.png",
-    // Individual use case hero images - COMMENTED OUT until files are added
-    // To enable: create public/images/usecases/ directory and add the images
-    // arWorkInstructions: "/images/usecases/ar-work-instructions-and-sops-to-preserve-corporate-memory-hero.png",
-    // arTraining: "/images/usecases/ar-training-and-onboarding-for-industrial-teams-hero.png",
-    // arAssembly: "/images/usecases/ar-guided-assembly-for-error-free-production-hero.png",
-    // arChangeover: "/images/usecases/ar-guided-changeover-to-reduce-downtime-hero.png",
-    // arMaintenance: "/images/usecases/ar-preventive-maintenance-with-data-driven-insights-hero.png",
-    // arRemoteSupport: "/images/usecases/ar-remote-expert-support-for-corrective-maintenance-hero.png",
+    usecasesOverviewHero: "/images/usecases/usecases-overview.png",
+    // Individual use case hero images
+    arWorkInstructions: "/images/usecases/ar-work-instructions-and-sops-to-preserve-corporate-memory-hero.png",
+    arTraining: "/images/usecases/ar-training-and-onboarding-for-industrial-teams-hero.png",
+    arAssembly: "/images/usecases/ar-guided-assembly-for-error-free-production-hero.png",
+    arChangeover: "/images/usecases/ar-guided-changeover-to-reduce-downtime-hero.png",
+    arMaintenance: "/images/usecases/ar-preventive-maintenance-with-data-driven-insights-hero.png",
+    arRemoteSupport: "/images/usecases/ar-remote-expert-support-for-corrective-maintenance-hero.png",
   },
 
   // ============================================================
@@ -110,6 +121,6 @@ export function getAllImagePaths(): string[] {
   return paths;
 }
 
-// Default fallback image
-export const DEFAULT_HEADER_IMAGE = images.headers.header1;
+// Default fallback image (now uses role/usecase images)
+export const DEFAULT_HEADER_IMAGE = images.roles.arDeveloperHero;
 

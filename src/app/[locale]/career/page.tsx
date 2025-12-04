@@ -26,9 +26,14 @@ export async function generateMetadata({ params }: CareerPageProps): Promise<Met
   const description =
     careerCopy?.description?.replace(/\s+/g, " ").trim() || fallbackDescription;
 
+  // Use descriptive, keyword-rich title for SEO
+  const metaTitle = careerCopy?.title 
+    ? `${careerCopy.title} – Join Our AR & AI Team | ActARion`
+    : "Careers at ActARion – Join Our AR & AI Work Instructions Team";
+
   return buildPageMetadata({
     locale,
-    title: careerCopy?.title || "Careers at ActARion",
+    title: metaTitle,
     description,
     segment: "career",
   });
@@ -71,7 +76,7 @@ export default async function CareerPage({ params }: CareerPageProps) {
       <PageHeader
         title={title}
         subtitle={subtitle}
-        backgroundImage="/images/roles/career-product-manager-hero2.png"
+        imageOverride="/images/roles/career-product-manager-hero2.png"
       />
       <script
         type="application/ld+json"

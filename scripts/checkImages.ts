@@ -35,8 +35,8 @@ const knownImagePaths = {
 
   // Homepage images
   homepage: [
-    '/actarion header2.png',
-    '/actarion header 3.png',
+    '/actarion-header-2.png',
+    '/actarion-header-3.png',
     '/usecases-overview.png',
   ],
 
