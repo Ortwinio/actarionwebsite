@@ -12,6 +12,7 @@ export const metadata: Metadata = buildPageMetadata({
   title: "Page not found | ActARion",
   description:
     "The page you're looking for doesn't exist anymore. Let's get you back to smarter, safer and faster work with AI and Augmented Reality.",
+  noindex: true,
 });
 
 export default async function RootNotFound() {

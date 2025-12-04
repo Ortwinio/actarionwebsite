@@ -62,9 +62,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       address: false,
       telephone: false,
     },
-    verification: {
-      google: 'your-google-verification-code',
-    },
+    // TODO: Replace with actual Google Search Console verification code
+    // verification: {
+    //   google: 'your-google-verification-code',
+    // },
   };
 }
 

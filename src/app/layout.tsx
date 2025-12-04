@@ -84,14 +84,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://www.ActARion.com'),
+  metadataBase: new URL('https://www.actarion.com'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: "ActARion – Augmented Reality SOP & AR Work Instruction Software",
     description: "ActARion transforms SOPs into interactive AR work instructions. Train faster, reduce errors, and improve frontline quality with digital SOP software.",
-    url: 'https://www.ActARion.com',
+    url: 'https://www.actarion.com',
     siteName: 'ActARion',
     images: [
       {
@@ -121,9 +121,10 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  verification: {
-    google: 'your-google-verification-code',
-  },
+  // TODO: Replace with actual Google Search Console verification code
+  // verification: {
+  //   google: 'your-google-verification-code',
+  // },
 };
 
 export default async function RootLayout({

@@ -89,6 +89,8 @@ export interface PageMetadataInput {
   segment?: string;
   image?: SocialImage;
   type?: 'website' | 'article';
+  /** Set to true for pages that should not be indexed (e.g., thank-you pages, staging) */
+  noindex?: boolean;
 }
 
 export const buildPageMetadata = ({
@@ -98,6 +100,7 @@ export const buildPageMetadata = ({
   segment,
   image = defaultSocialImage,
   type = 'website',
+  noindex = false,
 }: PageMetadataInput): Metadata => {
   // Build and normalize canonical path to ensure consistency
   const rawPath = buildLocalizedPath(locale, segment);
@@ -113,6 +116,26 @@ export const buildPageMetadata = ({
       canonical: canonicalPath,
       languages: buildAlternateLanguages(segment),
     },
+    robots: noindex
+      ? {
+          index: false,
+          follow: false,
+          googleBot: {
+            index: false,
+            follow: false,
+          },
+        }
+      : {
+          index: true,
+          follow: true,
+          googleBot: {
+            index: true,
+            follow: true,
+            'max-video-preview': -1,
+            'max-image-preview': 'large',
+            'max-snippet': -1,
+          },
+        },
     openGraph: {
       title,
       description,

@@ -26,11 +26,13 @@ export async function generateMetadata({ params }: DemoPageProps): Promise<Metad
   const description =
     heroCopy?.description?.replace(/\s+/g, " ").trim() || fallbackDescription;
 
+  // noindex: demo page redirects to contact, avoid duplicate content
   return buildPageMetadata({
     locale,
     title: "Schedule an ActARion Demo",
     description,
     segment: "demo",
+    noindex: true,
   });
 }
 
