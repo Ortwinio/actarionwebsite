@@ -122,3 +122,7 @@ temp/
 
 # Local Netlify folder
 .netlify
+
+# LLM context folder (keep README)
+/context/*
+!/context/README.md
