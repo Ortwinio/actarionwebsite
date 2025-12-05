@@ -265,7 +265,7 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
           preload="auto"
           aria-hidden="true"
         />
-        <div className="absolute inset-0 bg-slate-900/60" aria-hidden="true" />
+        <div className="absolute inset-0 bg-slate-900/70" aria-hidden="true" />
         <div className="relative z-10 flex min-h-[70vh] items-center justify-center px-4 py-20">
           <div className="section-inner text-center space-y-6">
             <p className="eyebrow text-actarion-blue">
@@ -274,7 +274,7 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
             <h1 className="text-4xl font-semibold text-white sm:text-5xl lg:text-6xl leading-tight">
               {heroTitle}
             </h1>
-            <p className="section-lead mx-auto max-w-4xl text-white/85">
+            <p className="section-lead mx-auto max-w-4xl text-white/95 drop-shadow-sm">
               {renderTextWithBrand(heroDescription)}
             </p>
             <div className="flex flex-wrap items-center justify-center gap-3">
