@@ -30,14 +30,13 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/api/', '/_next/'],
+        disallow: ['/api/'],
+        // Note: /_next/ is NOT blocked - static assets must be crawlable for proper page rendering
       },
     ],
     sitemap: `${siteUrl}/sitemap.xml`,
     host: siteUrl,
   };
 }
-
-
 
 

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import { headers, cookies } from "next/headers";
 import CookieBanner from '../components/CookieBanner';
@@ -23,17 +23,17 @@ async function extractLocale(): Promise<string> {
   } catch {
     // Cookies might not be available in some contexts
   }
-  
+
   // 2. Try to get locale from headers
   try {
     const headersList = await headers();
-    
+
     // x-actarion-locale header from middleware
     const localeHeader = headersList.get('x-actarion-locale');
     if (localeHeader && isSupportedLocale(localeHeader)) {
       return localeHeader;
     }
-    
+
     // x-url header set by middleware
     const xUrl = headersList.get('x-url');
     if (xUrl) {
@@ -45,16 +45,24 @@ async function extractLocale(): Promise<string> {
   } catch {
     // Headers might not be available
   }
-  
+
   // 3. Fall back to default locale
   return defaultLocale;
 }
 
 const inter = Inter({ subsets: ["latin"] });
 
+export const viewport: Viewport = {
+  themeColor: "#000000",
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+};
+
 export const metadata: Metadata = {
   title: "ActARion – Augmented Reality SOP & AR Work Instruction Software",
   description: "ActARion transforms SOPs into interactive AR work instructions. Train faster, reduce errors, and improve frontline quality with digital SOP software.",
+  applicationName: "ActARion",
   keywords: [
     "ActARion",
     "Augmented Reality SOP",
@@ -121,6 +129,21 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/ActARionlogo.png',
+  },
+  manifest: '/manifest.json',
+  appleWebApp: {
+    capable: true,
+    title: "ActARion",
+    statusBarStyle: "default",
+  },
+  other: {
+    "msapplication-TileColor": "#000000",
+    "msapplication-tap-highlight": "no",
+    "mobile-web-app-capable": "yes",
+  },
   // TODO: Replace with actual Google Search Console verification code
   // verification: {
   //   google: 'your-google-verification-code',
@@ -136,20 +159,6 @@ export default async function RootLayout({
 
   return (
     <html lang={resolvedLocale} className="scroll-smooth">
-      <head>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/ActARionlogo.png" />
-        <link rel="manifest" href="/manifest.json" />
-        <meta name="theme-color" content="#000000" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
-        <meta name="application-name" content="ActARion" />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="ActARion" />
-        <meta name="mobile-web-app-capable" content="yes" />
-        <meta name="msapplication-TileColor" content="#000000" />
-        <meta name="msapplication-tap-highlight" content="no" />
-      </head>
       <body className={inter.className}>
         {/** Google Tag Manager */}
         <script
