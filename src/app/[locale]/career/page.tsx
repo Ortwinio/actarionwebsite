@@ -4,7 +4,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { getDictionary } from "../../../lib/getDictionary";
 import CareerPageClient from "./CareerPageClient";
 import { buildPageMetadata, buildWebPageSchema, buildBreadcrumbListSchema } from "../../../config/seo";
-import { buildLocalizedPath, isSupportedLocale, Locale } from "../../../config/site";
+import { buildLocalizedPath, isSupportedLocale, Locale, locales } from "../../../config/site";
 
 interface CareerPageProps {
   params: Promise<{
@@ -14,6 +14,15 @@ interface CareerPageProps {
 
 const fallbackDescription =
   "Join ActARion and help build augmented reality solutions that transform frontline operations across Europe.";
+
+/**
+ * Force static generation for all locales.
+ */
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
+
+export const dynamic = 'force-static';
 
 export async function generateMetadata({ params }: CareerPageProps): Promise<Metadata> {
   const { locale } = await params;
@@ -28,8 +37,9 @@ export async function generateMetadata({ params }: CareerPageProps): Promise<Met
 
   // Use descriptive, keyword-rich title for SEO
   const metaTitle = careerCopy?.title 
-    ? `${careerCopy.title} – Join Our AR & AI Team | ActARion`
-    : "Careers at ActARion – Join Our AR & AI Work Instructions Team";
+    // Don't add "| ActARion" - the root layout template will add it
+    ? `${careerCopy.title} – Join Our AR & AI Team`
+    : "Careers – Join Our AR & AI Work Instructions Team";
 
   return buildPageMetadata({
     locale,

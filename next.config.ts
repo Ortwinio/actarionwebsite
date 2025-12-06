@@ -24,16 +24,32 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  // Image optimization
+  // Image optimization - optimized for performance
   images: {
-    formats: ['image/webp', 'image/avif'],
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
-    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-    minimumCacheTTL: 31536000, // 1 year
+    // Prefer AVIF, then WebP for maximum compression
+    formats: ['image/avif', 'image/webp'],
+    // Device breakpoints matching common screen sizes
+    deviceSizes: [360, 640, 768, 1024, 1280, 1440, 1920],
+    // Icon/thumbnail sizes
+    imageSizes: [64, 128, 256, 384, 512],
+    // Cache optimized images for 1 year
+    minimumCacheTTL: 31536000,
+    // Allow SVG with security policy
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
-    // Bypass Next.js image optimization to serve images directly from /public
-    unoptimized: true,
+    // Remote image patterns (for external images like YouTube thumbnails)
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'img.youtube.com',
+        pathname: '/vi/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'i.ytimg.com',
+        pathname: '/vi/**',
+      },
+    ],
   },
   // Production optimizations
   compress: true,

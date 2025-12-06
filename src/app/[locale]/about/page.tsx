@@ -1,9 +1,10 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { PageHeader } from "@/components/PageHeader";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { getDictionary } from "../../../lib/getDictionary";
 import { buildPageMetadata, buildWebPageSchema, buildBreadcrumbListSchema } from "../../../config/seo";
-import { buildLocalizedPath, isSupportedLocale, Locale } from "../../../config/site";
+import { buildLocalizedPath, isSupportedLocale, Locale, locales } from "../../../config/site";
 import AboutPageClient from "./AboutPageClient";
 
 interface AboutPageProps {
@@ -17,6 +18,15 @@ const fallbackDescription =
 
 const fallbackSubtitle =
   "Smarter, safer and faster work with AI and Augmented Reality.";
+
+/**
+ * Force static generation for all locales.
+ */
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
+
+export const dynamic = 'force-static';
 
 export async function generateMetadata({ params }: AboutPageProps): Promise<Metadata> {
   const { locale } = await params;
@@ -51,9 +61,14 @@ export default async function AboutPage({ params }: AboutPageProps) {
   const pageTitle = aboutCopy?.title || "About ActARion";
   const headerSubtitle = aboutCopy?.subtitle || fallbackSubtitle;
 
+  // Localized breadcrumb labels
+  const breadcrumbLabels = {
+    home: dictionary?.navigation?.home || 'Home',
+  };
+
   // Build breadcrumb navigation
   const breadcrumbs = [
-    { name: 'Home', url: buildLocalizedPath(typedLocale) },
+    { name: breadcrumbLabels.home, url: buildLocalizedPath(typedLocale) },
     { name: pageTitle, url: buildLocalizedPath(typedLocale, 'about') },
   ];
 
@@ -69,15 +84,20 @@ export default async function AboutPage({ params }: AboutPageProps) {
 
   return (
     <>
-      <PageHeader
-        title={pageTitle}
-        subtitle={headerSubtitle}
-      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <AboutPageClient locale={locale} dictionary={dictionary} />
+      <main className="section section-light">
+        <div className="section-inner">
+          <Breadcrumbs items={breadcrumbs} className="mb-6" />
+          <PageHeader
+            title={pageTitle}
+            subtitle={headerSubtitle}
+          />
+          <AboutPageClient locale={locale} dictionary={dictionary} />
+        </div>
+      </main>
     </>
   );
 }

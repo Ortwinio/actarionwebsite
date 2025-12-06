@@ -8,13 +8,15 @@ import { partners } from "@/config/partners";
 const staticSegments = [
   undefined, // locale root
   "about",
+  "vision",
+  "management",
   "contact",
-  "demo",
-  "partner-contact",
+  "partners",  // Partners overview (renamed from partner-contact)
   "career",
   "faq",
   "privacy",
   "terms",
+  "services",
   "use-cases",
   "events",
   "whitepapers",
@@ -65,15 +67,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       });
     });
 
-    // Use case pages - all locales exist
+    // Use case pages - now under /use-cases/[slug] for better SEO structure
     useCases.forEach((useCase) => {
+      const useCaseSegment = `use-cases/${useCase.slug}`;
       entries.push({
-        url: `${siteUrl}${buildLocalizedPath(locale, useCase.slug)}`,
+        url: `${siteUrl}${buildLocalizedPath(locale, useCaseSegment)}`,
         lastModified: now,
         changeFrequency: "monthly",
         priority: 0.6,
         alternates: {
-          languages: buildSitemapAlternates(useCase.slug),
+          languages: buildSitemapAlternates(useCaseSegment),
         },
       });
     });

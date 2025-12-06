@@ -29,9 +29,15 @@ export default function robots(): MetadataRoute.Robots {
     rules: [
       {
         userAgent: '*',
-        allow: '/',
+        // Explicitly allow all public content and static assets
+        // This ensures crawlers like Screaming Frog don't flag /_next/ as blocked
+        allow: [
+          '/',
+          '/_next/',
+          '/_next/static/',
+          '/_next/image/',
+        ],
         disallow: ['/api/'],
-        // Note: /_next/ is NOT blocked - static assets must be crawlable for proper page rendering
       },
     ],
     sitemap: `${siteUrl}/sitemap.xml`,

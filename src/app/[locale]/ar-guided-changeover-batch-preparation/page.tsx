@@ -1,8 +1,8 @@
 import { createUseCasePage } from "../useCasePageFactory";
 
 const slug = "ar-guided-changeover-batch-preparation";
-const { Page, generateMetadata } = createUseCasePage(slug);
+const { Page, generateMetadata, dynamic } = createUseCasePage(slug);
 
-export { generateMetadata };
+export { generateMetadata, dynamic };
 export default Page;
 

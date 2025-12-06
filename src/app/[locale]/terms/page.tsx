@@ -4,7 +4,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { getDictionary } from "../../../lib/getDictionary";
 import TermsPageClient from "./TermsPageClient";
 import { buildPageMetadata, buildWebPageSchema } from "../../../config/seo";
-import { isSupportedLocale } from "../../../config/site";
+import { isSupportedLocale, locales, Locale } from "../../../config/site";
 
 interface TermsPageProps {
   params: Promise<{
@@ -14,6 +14,15 @@ interface TermsPageProps {
 
 const fallbackDescription =
   "Review ActARion's general terms and conditions covering licensing, implementation, and support for AR SOP solutions.";
+
+/**
+ * Force static generation for all locales.
+ */
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
+
+export const dynamic = 'force-static';
 
 export async function generateMetadata({ params }: TermsPageProps): Promise<Metadata> {
   const { locale } = await params;

@@ -4,7 +4,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { getDictionary } from "../../../lib/getDictionary";
 import DemoPageClient from "./DemoPageClient";
 import { buildPageMetadata, buildWebPageSchema } from "../../../config/seo";
-import { isSupportedLocale } from "../../../config/site";
+import { isSupportedLocale, locales } from "../../../config/site";
 
 interface DemoPageProps {
   params: Promise<{
@@ -14,6 +14,15 @@ interface DemoPageProps {
 
 const fallbackDescription =
   "Schedule a personalized ActARion demo to see how AR-powered SOPs improve safety, quality, and training in your operations.";
+
+/**
+ * Force static generation for all locales.
+ */
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
+
+export const dynamic = 'force-static';
 
 export async function generateMetadata({ params }: DemoPageProps): Promise<Metadata> {
   const { locale } = await params;

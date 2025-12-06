@@ -1,15 +1,25 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { PageHeader } from "@/components/PageHeader";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 import BlogList from "@/components/blog/BlogList";
 import { buildPageMetadata, buildWebPageSchema, buildItemListSchema, buildBreadcrumbListSchema, siteUrl } from "@/config/seo";
-import { buildLocalizedPath, isSupportedLocale, Locale } from "@/config/site";
+import { buildLocalizedPath, isSupportedLocale, Locale, locales } from "@/config/site";
 import { getDictionary } from "@/lib/getDictionary";
 import { getBlogsForLocale } from "@/lib/blogs";
 
 interface BlogListPageProps {
   params: Promise<{ locale: 'en' | 'de' | 'nl' }>
 }
+
+/**
+ * Force static generation for all locales.
+ */
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
+
+export const dynamic = 'force-static';
 
 export async function generateMetadata({ params }: BlogListPageProps): Promise<Metadata> {
   const { locale } = await params
@@ -19,10 +29,9 @@ export async function generateMetadata({ params }: BlogListPageProps): Promise<M
   const dictionary = await getDictionary(locale)
 
   const blogDescription = dictionary.pages?.blog?.description || 'Insights and updates from ActARion'
-  const siteTitle = dictionary.metadata?.title || 'ActARion'
 
-  // Use descriptive, keyword-rich title for SEO (>200px minimum)
-  const metaTitle = `Blog – AR & AI Work Instructions Insights | ${siteTitle}`;
+  // Don't add "| ActARion" - the root layout template will add it
+  const metaTitle = "Blog – AR & AI Work Instructions Insights";
   
   return buildPageMetadata({
     locale,
@@ -42,9 +51,14 @@ export default async function BlogListPage({ params }: BlogListPageProps) {
     dictionary.pages?.blog?.description || "Insights and updates from ActARion";
   const typedLocale = locale as Locale;
 
+  // Localized breadcrumb labels
+  const breadcrumbLabels = {
+    home: dictionary?.navigation?.home || 'Home',
+  };
+
   // Build breadcrumb navigation
   const breadcrumbs = [
-    { name: 'Home', url: buildLocalizedPath(typedLocale) },
+    { name: breadcrumbLabels.home, url: buildLocalizedPath(typedLocale) },
     { name: blogTitle, url: buildLocalizedPath(typedLocale, 'blog') },
   ];
 
@@ -73,9 +87,10 @@ export default async function BlogListPage({ params }: BlogListPageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <PageHeader title={blogTitle} subtitle={blogDescription} />
       <main className="section section-light">
         <div className="section-inner space-y-6">
+          <Breadcrumbs items={breadcrumbs} className="mb-4" />
+          <PageHeader title={blogTitle} subtitle={blogDescription} />
           {usedFallback && (
             <div className="summary summary--floating text-sm">
               {dictionary.pages?.blog?.fallbackMessage || "We're still translating this blog section. Showing English articles for now."}
@@ -98,13 +113,3 @@ export default async function BlogListPage({ params }: BlogListPageProps) {
     </>
   );
 }
-
-export const dynamicParams = false;
-
-export async function generateStaticParams() {
-  const locales: Array<"en" | "de" | "nl"> = ["en", "de", "nl"];
-  return locales.map((l) => ({ locale: l }));
-}
-
-
-

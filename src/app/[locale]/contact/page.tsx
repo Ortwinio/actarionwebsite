@@ -4,7 +4,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { getDictionary } from "../../../lib/getDictionary";
 import ContactPageClient from "./ContactPageClient";
 import { buildPageMetadata, buildWebPageSchema, siteUrl } from "../../../config/seo";
-import { buildLocalizedPath, isSupportedLocale } from "../../../config/site";
+import { buildLocalizedPath, isSupportedLocale, locales } from "../../../config/site";
 
 interface ContactPageProps {
   params: Promise<{
@@ -14,6 +14,15 @@ interface ContactPageProps {
 
 const fallbackDescription =
   "Contact ActARion to schedule a demo, explore AR SOP pilots, or get support for your rollout. We respond within two business days.";
+
+/**
+ * Force static generation for all locales.
+ */
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
+
+export const dynamic = 'force-static';
 
 export async function generateMetadata({ params }: ContactPageProps): Promise<Metadata> {
   const { locale } = await params;
@@ -28,8 +37,9 @@ export async function generateMetadata({ params }: ContactPageProps): Promise<Me
 
   // Use descriptive, keyword-rich title for SEO
   const metaTitle = contactCopy?.title 
-    ? `${contactCopy.title} – Schedule an AR Demo | ActARion`
-    : "Contact ActARion – Schedule a Demo for AR Work Instructions";
+    // Don't add "| ActARion" - the root layout template will add it
+    ? `${contactCopy.title} – Schedule an AR Demo`
+    : "Contact – Schedule a Demo for AR Work Instructions";
 
   return buildPageMetadata({
     locale,

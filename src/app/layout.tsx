@@ -1,54 +1,11 @@
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
-import { headers, cookies } from "next/headers";
 import CookieBanner from '../components/CookieBanner';
 import ConditionalAnalytics from '../components/ConditionalAnalytics';
 import { ThemeProvider } from '../contexts/ThemeContext';
 import { HtmlLangSetter } from '../components/HtmlLangSetter';
-import { defaultLocale, isSupportedLocale, locales } from '../config/site';
+import { defaultLocale } from '../config/site';
 import "./globals.css";
-
-/**
- * Extract locale from cookies and headers
- * Priority: NEXT_LOCALE cookie > x-actarion-locale header > fallback
- */
-async function extractLocale(): Promise<string> {
-  // 1. Try to get locale from cookie (most reliable)
-  try {
-    const cookieStore = await cookies();
-    const localeCookie = cookieStore.get('NEXT_LOCALE');
-    if (localeCookie?.value && isSupportedLocale(localeCookie.value)) {
-      return localeCookie.value;
-    }
-  } catch {
-    // Cookies might not be available in some contexts
-  }
-
-  // 2. Try to get locale from headers
-  try {
-    const headersList = await headers();
-
-    // x-actarion-locale header from middleware
-    const localeHeader = headersList.get('x-actarion-locale');
-    if (localeHeader && isSupportedLocale(localeHeader)) {
-      return localeHeader;
-    }
-
-    // x-url header set by middleware
-    const xUrl = headersList.get('x-url');
-    if (xUrl) {
-      const match = xUrl.match(/^\/([a-z]{2})(\/|$)/);
-      if (match && isSupportedLocale(match[1])) {
-        return match[1];
-      }
-    }
-  } catch {
-    // Headers might not be available
-  }
-
-  // 3. Fall back to default locale
-  return defaultLocale;
-}
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -60,7 +17,12 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "ActARion – Augmented Reality SOP & AR Work Instruction Software",
+  // Use title template to ensure <title> is always in <head> from initial render
+  // Pages can override with just a string (e.g., "Privacy Policy") and it becomes "Privacy Policy | ActARion"
+  title: {
+    default: "ActARion – Augmented Reality SOP & AR Work Instruction Software",
+    template: "%s | ActARion",
+  },
   description: "ActARion transforms SOPs into interactive AR work instructions. Train faster, reduce errors, and improve frontline quality with digital SOP software.",
   applicationName: "ActARion",
   keywords: [
@@ -150,15 +112,20 @@ export const metadata: Metadata = {
   // },
 };
 
-export default async function RootLayout({
+/**
+ * Root layout - must be synchronous to ensure metadata (including <title>)
+ * is placed in <head> during initial HTML render, not streamed later.
+ * 
+ * The HtmlLangSetter component handles setting the correct lang attribute
+ * based on the URL locale after initial render.
+ */
+export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const resolvedLocale = await extractLocale();
-
   return (
-    <html lang={resolvedLocale} className="scroll-smooth">
+    <html lang={defaultLocale} className="scroll-smooth">
       <body className={inter.className}>
         {/** Google Tag Manager */}
         <script

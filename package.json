@@ -21,7 +21,12 @@
     "check:locales": "npx tsx scripts/checkLocales.ts",
     "check:links": "npx linkinator http://localhost:3000 --recurse --skip '\\.(png|jpg|jpeg|webp|svg|ico|gif|mp4|webm|pdf)$' --skip '#' --timeout 30000",
     "check:links:prod": "npx linkinator https://www.actarion.com --recurse --skip '\\.(png|jpg|jpeg|webp|svg|ico|gif|mp4|webm|pdf)$' --skip '#' --timeout 30000",
-    "qa": "npm run check:locales && npm run check:links"
+    "check:seo": "npx tsx scripts/checkSeoHead.ts",
+    "check:seo:prod": "npx tsx scripts/checkSeoHead.ts https://www.actarion.com",
+    "check:image-sizes": "npx tsx scripts/checkImageSizes.ts",
+    "optimize:images": "npx tsx scripts/optimizeImages.ts",
+    "test:seo": "npx playwright test tests/e2e/seo-head-validation.spec.ts --reporter=list",
+    "qa": "npm run check:locales && npm run check:image-sizes && npm run check:links"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",

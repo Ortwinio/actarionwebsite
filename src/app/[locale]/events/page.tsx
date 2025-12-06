@@ -4,7 +4,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { getDictionary } from "../../../lib/getDictionary";
 import EventsPageClient from "./EventsPageClient";
 import { buildPageMetadata, buildWebPageSchema, siteUrl } from "../../../config/seo";
-import { buildLocalizedPath, isSupportedLocale } from "../../../config/site";
+import { buildLocalizedPath, isSupportedLocale, locales } from "../../../config/site";
 
 interface EventsPageProps {
   params: Promise<{
@@ -14,6 +14,15 @@ interface EventsPageProps {
 
 const fallbackDescription =
   "Join ActARion at upcoming events, webinars and workshops to learn how AI and AR–guided work instructions help you capture corporate knowledge and shape the future of work.";
+
+/**
+ * Force static generation for all locales.
+ */
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
+
+export const dynamic = 'force-static';
 
 export async function generateMetadata({ params }: EventsPageProps): Promise<Metadata> {
   const { locale } = await params;
@@ -28,8 +37,9 @@ export async function generateMetadata({ params }: EventsPageProps): Promise<Met
 
   // Use descriptive, keyword-rich title for SEO
   const metaTitle = eventsCopy?.title 
-    ? `${eventsCopy.title} – AR & AI Work Instructions Events | ActARion`
-    : "Events – AR & AI Work Instructions Webinars & Workshops | ActARion";
+    // Don't add "| ActARion" - the root layout template will add it
+    ? `${eventsCopy.title} – AR & AI Work Instructions Events`
+    : "Events – AR & AI Work Instructions Webinars & Workshops";
 
   return buildPageMetadata({
     locale,
@@ -53,8 +63,9 @@ export default async function EventsPage({ params }: EventsPageProps) {
   const absoluteUrl = `${siteUrl}${canonicalPath}`;
 
   const schemaTitle = eventsCopy?.title 
-    ? `${eventsCopy.title} – AR & AI Work Instructions Events | ActARion`
-    : "Events – AR & AI Work Instructions Webinars & Workshops | ActARion";
+    // Don't add "| ActARion" - the root layout template will add it
+    ? `${eventsCopy.title} – AR & AI Work Instructions Events`
+    : "Events – AR & AI Work Instructions Webinars & Workshops";
 
   const webPageSchema = buildWebPageSchema({
     locale,

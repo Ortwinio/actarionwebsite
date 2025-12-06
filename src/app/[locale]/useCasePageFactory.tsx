@@ -69,6 +69,11 @@ export function createUseCasePage(slug: UseCaseSlug) {
     return resolved;
   })();
 
+  /**
+   * Force static rendering to ensure metadata is in the initial HTML.
+   */
+  const dynamic = 'force-static' as const;
+
   async function generateMetadata({
     params,
   }: PageParams): Promise<Metadata> {
@@ -80,7 +85,7 @@ export function createUseCasePage(slug: UseCaseSlug) {
 
     return buildPageMetadata({
       locale,
-      title: `${useCase.title} | ActARion`,
+      title: useCase.title,
       description: useCase.metaDescription,
       segment: slug,
     });
@@ -160,6 +165,8 @@ export function createUseCasePage(slug: UseCaseSlug) {
                     alt={useCase.heroImageAlt || content.heroTitle}
                     width={1200}
                     height={600}
+                    sizes="(max-width: 1200px) 100vw, 1200px"
+                    quality={75}
                     className="w-full h-auto object-cover"
                     priority
                   />
@@ -213,7 +220,7 @@ export function createUseCasePage(slug: UseCaseSlug) {
     );
   }
 
-  return { Page, generateMetadata };
+  return { Page, generateMetadata, dynamic };
 }
 
 

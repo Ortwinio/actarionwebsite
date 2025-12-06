@@ -13,9 +13,15 @@ import {
   buildLocalizedPath,
   isSupportedLocale,
   Locale,
+  locales,
 } from "../../../config/site";
 import { useCases } from "../../../config/useCases";
 import { getDictionary } from "../../../lib/getDictionary";
+
+// Helper to build use case URL under /use-cases/[slug]
+function buildUseCaseHref(locale: Locale, slug: string): string {
+  return buildLocalizedPath(locale, `use-cases/${slug}`);
+}
 
 interface UseCasesPageProps {
   params: Promise<{
@@ -30,6 +36,15 @@ const defaultContent = {
   learnMore: "Learn more",
 };
 
+/**
+ * Force static generation for all locales.
+ */
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
+
+export const dynamic = 'force-static';
+
 export async function generateMetadata({ params }: UseCasesPageProps) {
   const { locale } = await params;
   if (!isSupportedLocale(locale)) {
@@ -43,7 +58,8 @@ export async function generateMetadata({ params }: UseCasesPageProps) {
 
   return buildPageMetadata({
     locale,
-    title: `${title} | ActARion`,
+    // Don't add "| ActARion" - the root layout template will add it
+    title,
     description,
     segment: "use-cases",
   });
@@ -76,7 +92,8 @@ export default async function UseCasesOverviewPage({
   const structuredData = [
     buildWebPageSchema({
       locale: typedLocale,
-      title: `${title} | ActARion`,
+      // Don't add "| ActARion" - the root layout template will add it
+      title,
       description,
       segment: "use-cases",
     }),
@@ -84,11 +101,17 @@ export default async function UseCasesOverviewPage({
       useCases.map((useCase) => ({
         name: useCase.title,
         description: useCase.shortDescription,
-        url: `${siteUrl}${buildLocalizedPath(typedLocale, useCase.slug)}`,
+        url: `${siteUrl}${buildUseCaseHref(typedLocale, useCase.slug)}`,
       }))
     ),
     buildBreadcrumbListSchema(breadcrumbs),
   ];
+
+  // Localized breadcrumb labels
+  const breadcrumbLabels = {
+    home: dictionary?.navigation?.home || 'Home',
+    useCases: dictionary?.navigation?.insightSubmenu?.useCases || 'Use Cases',
+  };
 
   return (
     <>
@@ -98,6 +121,24 @@ export default async function UseCasesOverviewPage({
       />
       <main className="section section-light">
         <div className="section-inner space-y-12">
+          {/* Visual Breadcrumbs */}
+          <nav aria-label="Breadcrumb" className="text-sm text-slate-600">
+            <ol className="flex flex-wrap items-center gap-2">
+              <li className="flex items-center gap-2">
+                <Link 
+                  href={buildLocalizedPath(typedLocale)} 
+                  className="hover:text-actarion-blue transition-colors"
+                >
+                  {breadcrumbLabels.home}
+                </Link>
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-slate-400">/</span>
+                <span className="text-slate-900 font-medium">{breadcrumbLabels.useCases}</span>
+              </li>
+            </ol>
+          </nav>
+
           {/* Hero section with H1, intro, and image */}
           <section className="space-y-6">
             <div className="space-y-4">
@@ -114,6 +155,8 @@ export default async function UseCasesOverviewPage({
                 alt="Overview of AI and AR–guided work instructions use cases for smarter, safer, faster work"
                 width={1200}
                 height={600}
+                sizes="(max-width: 1200px) 100vw, 1200px"
+                quality={75}
                 className="w-full h-auto object-cover"
                 priority
               />
@@ -124,7 +167,7 @@ export default async function UseCasesOverviewPage({
           <section className="space-y-6">
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               {useCases.map((useCase) => {
-                const useCaseHref = buildLocalizedPath(typedLocale, useCase.slug);
+                const useCaseHref = buildUseCaseHref(typedLocale, useCase.slug);
                 return (
                   <Link
                     key={useCase.slug}
@@ -140,6 +183,8 @@ export default async function UseCasesOverviewPage({
                             alt={useCase.heroImageAlt || useCase.title}
                             width={480}
                             height={270}
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                            quality={75}
                             className="w-full h-full object-cover"
                           />
                         </div>

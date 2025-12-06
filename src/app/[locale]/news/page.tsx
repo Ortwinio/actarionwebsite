@@ -3,13 +3,22 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PageHeader } from "@/components/PageHeader";
 import { buildPageMetadata, buildWebPageSchema, buildBreadcrumbListSchema, buildItemListSchema, siteUrl } from "@/config/seo";
-import { buildLocalizedPath, isSupportedLocale, Locale } from "@/config/site";
+import { buildLocalizedPath, isSupportedLocale, Locale, locales } from "@/config/site";
 import { getDictionary } from "@/lib/getDictionary";
 import { getBlogsForLocale, BlogEntry } from "@/lib/blogs";
 
 interface NewsPageProps {
   params: Promise<{ locale: 'en' | 'de' | 'nl' }>
 }
+
+/**
+ * Force static generation for all locales.
+ */
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
+
+export const dynamic = 'force-static';
 
 const pageDescriptions = {
   en: "A selection of ActARion news articles and updates. Stay informed about the latest developments in AI and AR–guided work instructions, AR SOPs and digital work instructions.",
@@ -45,7 +54,8 @@ export async function generateMetadata({ params }: NewsPageProps): Promise<Metad
 
   return buildPageMetadata({
     locale,
-    title: `${pageTitles[locale]} | ActARion`,
+    // Don't add "| ActARion" - the root layout template will add it
+    title: pageTitles[locale],
     description,
     segment: 'news',
   });
@@ -84,7 +94,7 @@ export default async function NewsPage({ params }: NewsPageProps) {
   const structuredData = [
     buildWebPageSchema({
       locale: typedLocale,
-      title: `${title} | ActARion`,
+      title,
       description,
       segment: 'news',
     }),
@@ -158,11 +168,4 @@ export default async function NewsPage({ params }: NewsPageProps) {
       </main>
     </>
   );
-}
-
-export const dynamicParams = false;
-
-export async function generateStaticParams() {
-  const locales: Array<"en" | "de" | "nl"> = ["en", "de", "nl"];
-  return locales.map((l) => ({ locale: l }));
 }

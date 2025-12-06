@@ -1,14 +1,24 @@
 import { Metadata } from "next";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { PageHeader } from "@/components/PageHeader";
 import { buildPageMetadata, buildWebPageSchema, buildBreadcrumbListSchema } from "@/config/seo";
-import { buildLocalizedPath, isSupportedLocale, Locale } from "@/config/site";
+import { buildLocalizedPath, isSupportedLocale, Locale, locales } from "@/config/site";
 import { getDictionary } from "@/lib/getDictionary";
 import { VIDEOS, VIDEO_CATEGORIES } from "../../../../content/videos";
 
 interface VideosPageProps {
   params: Promise<{ locale: 'en' | 'de' | 'nl' }>
 }
+
+/**
+ * Force static generation for all locales.
+ */
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
+
+export const dynamic = 'force-static';
 
 const pageDescriptions = {
   en: "Watch ActARion videos and demos that show how AI and AR–guided work instructions and AR SOPs help teams work smarter, safer and faster in real operations.",
@@ -62,7 +72,8 @@ export async function generateMetadata({ params }: VideosPageProps): Promise<Met
 
   return buildPageMetadata({
     locale,
-    title: `${pageTitles[locale]} | ActARion`,
+    // Don't add "| ActARion" - the root layout template will add it
+    title: pageTitles[locale],
     description,
     segment: 'videos',
   });
@@ -92,7 +103,7 @@ export default async function VideosPage({ params }: VideosPageProps) {
   const structuredData = [
     buildWebPageSchema({
       locale: typedLocale,
-      title: `${title} | ActARion`,
+      title,
       description,
       segment: 'videos',
     }),
@@ -147,10 +158,12 @@ export default async function VideosPage({ params }: VideosPageProps) {
                         rel="noopener noreferrer"
                         className="block relative aspect-video rounded-lg overflow-hidden mb-4 group"
                       >
-                        <img
+                        <Image
                           src={thumbnailUrl}
                           alt={video.title}
-                          className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                          fill
+                          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                          className="object-cover transition-transform duration-300 group-hover:scale-105"
                         />
                         {/* Play button overlay */}
                         <div className="absolute inset-0 flex items-center justify-center bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -213,10 +226,12 @@ export default async function VideosPage({ params }: VideosPageProps) {
                         rel="noopener noreferrer"
                         className="block relative aspect-video rounded-lg overflow-hidden mb-4 group"
                       >
-                        <img
+                        <Image
                           src={thumbnailUrl!}
                           alt={video.title}
-                          className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                          fill
+                          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                          className="object-cover transition-transform duration-300 group-hover:scale-105"
                         />
                         {/* Play button overlay */}
                         <div className="absolute inset-0 flex items-center justify-center bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -278,11 +293,4 @@ export default async function VideosPage({ params }: VideosPageProps) {
       </main>
     </>
   );
-}
-
-export const dynamicParams = false;
-
-export async function generateStaticParams() {
-  const locales: Array<"en" | "de" | "nl"> = ["en", "de", "nl"];
-  return locales.map((l) => ({ locale: l }));
 }

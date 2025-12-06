@@ -1,73 +1,29 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import { notFound } from "next/navigation";
 import Navigation from "../../components/Navigation";
 import { Footer } from "../../components/Footer";
 import { getDictionary } from "../../lib/getDictionary";
 import { isSupportedLocale, locales, Locale } from "../../config/site";
-import { buildPageMetadata, buildWebSiteWithSearchActionSchema, localBusinessSchema, getOrganizationSchema } from "../../config/seo";
+import { buildWebSiteWithSearchActionSchema, localBusinessSchema, getOrganizationSchema } from "../../config/seo";
 import "../globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
-
-const homeTitle = "ActARion - Action with AR Revolutionize Excellence";
-const homeDescription =
-  "ActARion delivers next-generation SOP solutions powered by AR technology—transforming how frontline teams work, learn, and stay safe across Benelux, DACH, and the Nordics.";
 
 export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
-  const { locale } = await params;
-
-  if (!isSupportedLocale(locale)) {
-    notFound();
-  }
-
-  const typedLocale = locale as Locale;
-  const baseMetadata = buildPageMetadata({
-    locale: typedLocale,
-    title: homeTitle,
-    description: homeDescription,
-  });
-
-  return {
-    ...baseMetadata,
-    keywords: [
-      "ActARion",
-      "Action with AR",
-      "Revolutionize Excellence",
-      "Augmented Reality",
-      "AR",
-      "SOP",
-      "Standard Operating Procedures",
-      "Frontline Operations",
-      "Industrial Manufacturing",
-      "Smart Factories",
-      "Energy & Utilities",
-      "Aerospace",
-      "Pharma & Biotech",
-      "Field Services",
-      "Maintenance Operations",
-      "Digital Transformation",
-      "Workforce Training",
-      "Process Optimization"
-    ],
-    authors: [{ name: "ActARion Team" }],
-    creator: "ActARion",
-    publisher: "ActARion",
-    formatDetection: {
-      email: false,
-      address: false,
-      telephone: false,
-    },
-    // TODO: Replace with actual Google Search Console verification code
-    // verification: {
-    //   google: 'your-google-verification-code',
-    // },
-  };
-}
+/**
+ * Locale layout - NO metadata export here.
+ * 
+ * IMPORTANT: Metadata (title, canonical, hreflang) is handled by:
+ * 1. Root layout (src/app/layout.tsx) - provides title.template and defaults
+ * 2. Individual page components - each page uses generateMetadata with buildPageMetadata()
+ * 
+ * This approach ensures:
+ * - No async metadata resolution at the layout level that could cause streaming issues
+ * - Each page has complete control over its own SEO metadata
+ * - No conflicting/duplicate metadata from nested layouts
+ * 
+ * @see docs/seo-issues-overview.md for documentation
+ */
 
 export default async function LocaleLayout({
   children,

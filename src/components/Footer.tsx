@@ -15,7 +15,7 @@ export function Footer({ locale, dictionary }: FooterProps) {
   const visionHref = buildLocalizedPath(locale, "vision");
   const managementHref = buildLocalizedPath(locale, "management");
   const contactHref = buildLocalizedPath(locale, "contact");
-  const partnersHref = buildLocalizedPath(locale, "partner-contact");
+  const partnersHref = buildLocalizedPath(locale, "partners");
   const careerHref = buildLocalizedPath(locale, "career");
   const faqHref = buildLocalizedPath(locale, "faq");
   const eventsHref = buildLocalizedPath(locale, "events");
@@ -25,6 +25,7 @@ export function Footer({ locale, dictionary }: FooterProps) {
   const newsHref = buildLocalizedPath(locale, "news");
   const termsHref = buildLocalizedPath(locale, "terms");
   const privacyHref = buildLocalizedPath(locale, "privacy");
+  const servicesHref = buildLocalizedPath(locale, "services");
   const newsletterCopy = dictionary.footer?.newsletter ?? {};
   const newsletterDescription =
     newsletterCopy.description ??
@@ -72,13 +73,14 @@ export function Footer({ locale, dictionary }: FooterProps) {
           </a>
         </div>
 
+        {/* Company Section */}
         <div>
           <h3 className="site-footer__title">
             {dictionary.footer?.company || "Company"}
           </h3>
           <ul className="space-y-1">
             <li>
-              <Link href={aboutHref}>{dictionary.navigation?.aboutSubmenu?.aboutActarion || "About Us"}</Link>
+              <Link href={aboutHref}>{dictionary.navigation?.aboutSubmenu?.aboutActarion || "About ActARion"}</Link>
             </li>
             <li>
               <Link href={visionHref}>{dictionary.navigation?.aboutSubmenu?.vision || "Vision"}</Link>
@@ -89,26 +91,13 @@ export function Footer({ locale, dictionary }: FooterProps) {
             <li>
               <Link href={careerHref}>{dictionary.navigation?.aboutSubmenu?.career || "Career"}</Link>
             </li>
-          </ul>
-        </div>
-
-        <div>
-          <h3 className="site-footer__title">
-            {dictionary.footer?.quicklinks || "Quick Links"}
-          </h3>
-          <ul className="space-y-1">
-            <li>
-              <Link href={partnersHref}>{dictionary.navigation?.partner || "Partners"}</Link>
-            </li>
-            <li>
-              <Link href={contactHref}>{dictionary.navigation?.contact || "Contact"}</Link>
-            </li>
             <li>
               <Link href={faqHref}>{dictionary.navigation?.aboutSubmenu?.faq || "FAQ"}</Link>
             </li>
           </ul>
         </div>
 
+        {/* Insights Section */}
         <div>
           <h3 className="site-footer__title">
             {dictionary.navigation?.insight || "Insights"}
@@ -135,14 +124,29 @@ export function Footer({ locale, dictionary }: FooterProps) {
           </ul>
         </div>
 
+        {/* Quick Links Section */}
         <div>
-          <h3 className="site-footer__title">Legal</h3>
+          <h3 className="site-footer__title">
+            {dictionary.footer?.quicklinks || "Quick Links"}
+          </h3>
           <ul className="space-y-1">
             <li>
-              <Link href={termsHref}>{dictionary.footer?.terms || "Terms"}</Link>
+              <Link href={servicesHref}>{dictionary.navigation?.services || "Services"}</Link>
             </li>
             <li>
-              <Link href={privacyHref}>{dictionary.footer?.privacy || "Privacy"}</Link>
+              <Link href={partnersHref}>{dictionary.navigation?.partner || "Partners"}</Link>
+            </li>
+            <li>
+              <Link href={contactHref}>{dictionary.navigation?.contact || "Contact"}</Link>
+            </li>
+            <li>
+              <a
+                href="/sitemap.xml"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {dictionary.footer?.sitemap || "Sitemap"}
+              </a>
             </li>
             <li>
               <a
@@ -153,14 +157,18 @@ export function Footer({ locale, dictionary }: FooterProps) {
                 {dictionary.footer?.onepager || "View our onepager"}
               </a>
             </li>
+          </ul>
+        </div>
+
+        {/* Legal Section */}
+        <div>
+          <h3 className="site-footer__title">Legal</h3>
+          <ul className="space-y-1">
             <li>
-              <a
-                href="/sitemap.xml"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {dictionary.footer?.sitemap || "Sitemap"}
-              </a>
+              <Link href={termsHref}>{dictionary.footer?.terms || "Terms & Conditions"}</Link>
+            </li>
+            <li>
+              <Link href={privacyHref}>{dictionary.footer?.privacy || "Privacy Policy"}</Link>
             </li>
           </ul>
         </div>

@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { PageHeader } from "@/components/PageHeader";
 import { getDictionary } from "../../../lib/getDictionary";
 import FAQPageClient from "./FAQPageClient";
-import { buildLocalizedPath, isSupportedLocale } from "../../../config/site";
+import { buildLocalizedPath, isSupportedLocale, locales } from "../../../config/site";
 import { buildPageMetadata, buildWebPageSchema, siteUrl } from "../../../config/seo";
 
 interface FAQPageProps {
@@ -12,9 +12,19 @@ interface FAQPageProps {
   }>;
 }
 
+/**
+ * Force static generation for all locales.
+ */
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
+
+export const dynamic = 'force-static';
+
 const fallbackDescription =
   "Clear answers about AI and AR–guided work instructions, AR SOPs, digital work instructions, key use cases, hardware options, AI authoring, and implementation support for industrial, logistics, and energy companies.";
-const defaultMetaTitle = "FAQ – AI and AR–guided work instructions | ActARion";
+// Don't add "| ActARion" - the root layout template will add it
+const defaultMetaTitle = "FAQ – AI and AR–guided work instructions";
 
 const schemaQuestions = [
   {

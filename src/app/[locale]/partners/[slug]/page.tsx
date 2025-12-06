@@ -27,6 +27,8 @@ export async function generateStaticParams() {
   return params;
 }
 
+export const dynamic = 'force-static';
+
 export async function generateMetadata({ params }: PartnerPageProps): Promise<Metadata> {
   const { locale, slug } = await params;
   if (!isSupportedLocale(locale)) {
@@ -40,7 +42,8 @@ export async function generateMetadata({ params }: PartnerPageProps): Promise<Me
 
   return buildPageMetadata({
     locale,
-    title: `${partner.name} | ActARion Partners`,
+    // Don't add "| ActARion" - the root layout template will add it
+    title: `${partner.name} Partner`,
     description: partner.metaDescription,
     segment: `partners/${slug}`,
   });
@@ -65,7 +68,7 @@ export default async function PartnerPage({ params }: PartnerPageProps) {
 
   const webPageSchema = buildWebPageSchema({
     locale: locale as Locale,
-    title: `${partner.name} | ActARion Partners`,
+    title: `${partner.name} Partner`,
     description: partner.metaDescription,
     segment: `partners/${slug}`,
   });

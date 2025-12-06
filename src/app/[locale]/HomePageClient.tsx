@@ -448,8 +448,9 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
             alt="ActARion Industries Header"
             width={800}
             height={600}
+            sizes="(max-width: 1200px) 100vw, 1200px"
+            quality={75}
             className="w-full h-auto rounded-lg shadow-lg"
-            priority
           />
         </div>
         <h2 className={sectionTitle}>
@@ -509,8 +510,9 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
             alt="ActARion About Header"
             width={800}
             height={600}
+            sizes="(max-width: 1200px) 100vw, 1200px"
+            quality={75}
             className="w-full h-auto rounded-lg shadow-lg"
-            priority
           />
         </div>
         <h2 className={sectionTitle}>

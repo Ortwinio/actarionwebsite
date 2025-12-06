@@ -33,49 +33,71 @@
       "destination": "/:locale/blog/:slug",
       "statusCode": 301
     },
+    
+    {
+      "source": "/:locale/ar-work-instructions-corporate-memory",
+      "destination": "/:locale/use-cases/ar-work-instructions-corporate-memory",
+      "statusCode": 301
+    },
+    {
+      "source": "/:locale/ar-training-and-onboarding",
+      "destination": "/:locale/use-cases/ar-training-and-onboarding",
+      "statusCode": 301
+    },
+    {
+      "source": "/:locale/ar-guided-assembly-production",
+      "destination": "/:locale/use-cases/ar-guided-assembly-production",
+      "statusCode": 301
+    },
+    {
+      "source": "/:locale/ar-guided-changeover-batch-preparation",
+      "destination": "/:locale/use-cases/ar-guided-changeover-batch-preparation",
+      "statusCode": 301
+    },
+    {
+      "source": "/:locale/ar-preventive-maintenance",
+      "destination": "/:locale/use-cases/ar-preventive-maintenance",
+      "statusCode": 301
+    },
+    {
+      "source": "/:locale/ar-remote-expert-support-corrective-maintenance",
+      "destination": "/:locale/use-cases/ar-remote-expert-support-corrective-maintenance",
+      "statusCode": 301
+    },
+    
     {
       "source": "/:locale/use-cases/ar-preventive-maintenance-with-data-driven-insights",
-      "destination": "/:locale/ar-preventive-maintenance",
+      "destination": "/:locale/use-cases/ar-preventive-maintenance",
       "statusCode": 301
     },
     {
       "source": "/:locale/use-cases/ar-training-and-onboarding-for-industrial-teams",
-      "destination": "/:locale/ar-training-and-onboarding",
+      "destination": "/:locale/use-cases/ar-training-and-onboarding",
       "statusCode": 301
     },
     {
       "source": "/:locale/use-cases/ar-guided-assembly-for-error-free-production",
-      "destination": "/:locale/ar-guided-assembly-production",
+      "destination": "/:locale/use-cases/ar-guided-assembly-production",
       "statusCode": 301
     },
     {
       "source": "/:locale/use-cases/ar-remote-expert-support-for-corrective-maintenance",
-      "destination": "/:locale/ar-remote-expert-support-corrective-maintenance",
-      "statusCode": 301
-    },
-    {
-      "source": "/:locale/use-cases/ar-guided-changeover-batch-preparation",
-      "destination": "/:locale/ar-guided-changeover-batch-preparation",
-      "statusCode": 301
-    },
-    {
-      "source": "/:locale/use-cases/ar-work-instructions-corporate-memory",
-      "destination": "/:locale/ar-work-instructions-corporate-memory",
+      "destination": "/:locale/use-cases/ar-remote-expert-support-corrective-maintenance",
       "statusCode": 301
     },
     {
       "source": "/:locale/use-cases/ar-onboarding",
-      "destination": "/:locale/ar-training-and-onboarding",
+      "destination": "/:locale/use-cases/ar-training-and-onboarding",
       "statusCode": 301
     },
     {
       "source": "/:locale/use-cases/digital-sops-maintenance",
-      "destination": "/:locale/ar-preventive-maintenance",
+      "destination": "/:locale/use-cases/ar-preventive-maintenance",
       "statusCode": 301
     },
     {
       "source": "/:locale/use-cases/ar-inspections",
-      "destination": "/:locale/ar-preventive-maintenance",
+      "destination": "/:locale/use-cases/ar-preventive-maintenance",
       "statusCode": 301
     },
     {
@@ -85,7 +107,7 @@
     },
     {
       "source": "/:locale/use-cases/ar-compliance",
-      "destination": "/:locale/ar-work-instructions-corporate-memory",
+      "destination": "/:locale/use-cases/ar-work-instructions-corporate-memory",
       "statusCode": 301
     },
     {
@@ -95,7 +117,7 @@
     },
     {
       "source": "/:locale/use-cases/digital-work-instructions-regulated",
-      "destination": "/:locale/ar-work-instructions-corporate-memory",
+      "destination": "/:locale/use-cases/ar-work-instructions-corporate-memory",
       "statusCode": 301
     },
     {
@@ -105,32 +127,32 @@
     },
     {
       "source": "/:locale/use-cases/digital-maintenance-instructions",
-      "destination": "/:locale/ar-preventive-maintenance",
+      "destination": "/:locale/use-cases/ar-preventive-maintenance",
       "statusCode": 301
     },
     {
       "source": "/:locale/use-cases/digital-work-instructions-industrial-maintenance",
-      "destination": "/:locale/ar-preventive-maintenance",
+      "destination": "/:locale/use-cases/ar-preventive-maintenance",
       "statusCode": 301
     },
     {
       "source": "/:locale/use-cases/digital-work-instructions-maintenance",
-      "destination": "/:locale/ar-preventive-maintenance",
+      "destination": "/:locale/use-cases/ar-preventive-maintenance",
       "statusCode": 301
     },
     {
       "source": "/:locale/use-cases/maintenance-ar-sops",
-      "destination": "/:locale/ar-preventive-maintenance",
+      "destination": "/:locale/use-cases/ar-preventive-maintenance",
       "statusCode": 301
     },
     {
       "source": "/:locale/use-cases/ar-safety-compliance",
-      "destination": "/:locale/ar-work-instructions-corporate-memory",
+      "destination": "/:locale/use-cases/ar-work-instructions-corporate-memory",
       "statusCode": 301
     },
     {
       "source": "/:locale/use-cases/ar-maintenance",
-      "destination": "/:locale/ar-preventive-maintenance",
+      "destination": "/:locale/use-cases/ar-preventive-maintenance",
       "statusCode": 301
     },
     {
@@ -140,37 +162,37 @@
     },
     {
       "source": "/:locale/use-cases/ar-assembly",
-      "destination": "/:locale/ar-guided-assembly-production",
+      "destination": "/:locale/use-cases/ar-guided-assembly-production",
       "statusCode": 301
     },
     {
       "source": "/:locale/use-cases/ar-changeover",
-      "destination": "/:locale/ar-guided-changeover-batch-preparation",
+      "destination": "/:locale/use-cases/ar-guided-changeover-batch-preparation",
       "statusCode": 301
     },
     {
       "source": "/:locale/use-cases/remote-support",
-      "destination": "/:locale/ar-remote-expert-support-corrective-maintenance",
+      "destination": "/:locale/use-cases/ar-remote-expert-support-corrective-maintenance",
       "statusCode": 301
     },
     {
       "source": "/:locale/use-cases/training",
-      "destination": "/:locale/ar-training-and-onboarding",
+      "destination": "/:locale/use-cases/ar-training-and-onboarding",
       "statusCode": 301
     },
     {
       "source": "/:locale/use-cases/onboarding",
-      "destination": "/:locale/ar-training-and-onboarding",
+      "destination": "/:locale/use-cases/ar-training-and-onboarding",
       "statusCode": 301
     },
     {
       "source": "/:locale/use-cases/maintenance",
-      "destination": "/:locale/ar-preventive-maintenance",
+      "destination": "/:locale/use-cases/ar-preventive-maintenance",
       "statusCode": 301
     },
     {
       "source": "/:locale/use-cases/corporate-memory",
-      "destination": "/:locale/ar-work-instructions-corporate-memory",
+      "destination": "/:locale/use-cases/ar-work-instructions-corporate-memory",
       "statusCode": 301
     },
     {
@@ -205,7 +227,7 @@
     },
     {
       "source": "/:locale/explainer/ar-sop-management",
-      "destination": "/:locale/ar-work-instructions-corporate-memory",
+      "destination": "/:locale/use-cases/ar-work-instructions-corporate-memory",
       "statusCode": 301
     },
     {
@@ -225,7 +247,7 @@
     },
     {
       "source": "/:locale/resources/ar-training-checklist",
-      "destination": "/:locale/ar-training-and-onboarding",
+      "destination": "/:locale/use-cases/ar-training-and-onboarding",
       "statusCode": 301
     },
     {
@@ -319,8 +341,8 @@
       "statusCode": 301
     },
     {
-      "source": "/:locale/partners",
-      "destination": "/:locale/partner-contact",
+      "source": "/:locale/partner-contact",
+      "destination": "/:locale/partners",
       "statusCode": 301
     },
     {

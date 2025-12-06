@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { PageHeader } from "@/components/PageHeader";
 import { getDictionary } from "../../../lib/getDictionary";
 import { buildPageMetadata, buildWebPageSchema, buildBreadcrumbListSchema } from "../../../config/seo";
-import { buildLocalizedPath, isSupportedLocale, Locale } from "../../../config/site";
+import { buildLocalizedPath, isSupportedLocale, Locale, locales } from "../../../config/site";
 import VisionPageClient from "./VisionPageClient";
 
 interface VisionPageProps {
@@ -11,6 +11,15 @@ interface VisionPageProps {
     locale: string;
   }>;
 }
+
+/**
+ * Force static generation for all locales.
+ */
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
+
+export const dynamic = 'force-static';
 
 const pageContent = {
   en: {

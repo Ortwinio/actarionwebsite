@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { useState } from "react";
 import Link from "next/link";
 import { buildLocalizedPath, Locale } from "../../../config/site";
@@ -101,11 +102,13 @@ export default function NewsPageClient({ locale, dictionary }: NewsPageClientPro
                     {/* Image */}
                     {newsItem.image && (
                       <div className="md:w-48 md:flex-shrink-0">
-                        <div className="aspect-video md:aspect-square bg-slate-100 rounded-lg overflow-hidden">
-                          <img
+                        <div className="relative aspect-video md:aspect-square bg-slate-100 rounded-lg overflow-hidden">
+                          <Image
                             src={newsItem.image}
                             alt={newsItem.title}
-                            className="w-full h-full object-cover"
+                            fill
+                            sizes="(max-width: 768px) 100vw, 192px"
+                            className="object-cover"
                           />
                         </div>
                       </div>
