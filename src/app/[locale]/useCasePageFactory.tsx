@@ -1,21 +1,18 @@
 import type { Metadata } from "next";
-import Image from "next/image";
-import Link from "next/link";
 import { notFound } from "next/navigation";
+import { PageHeader } from "@/components/PageHeader";
 import { UseCaseCta } from "../../components/UseCaseCta";
 import {
   buildPageMetadata,
   buildTechArticleSchema,
   buildWebPageSchema,
-  buildBreadcrumbListSchema,
 } from "../../config/seo";
-import { buildLocalizedPath, isSupportedLocale, Locale } from "../../config/site";
+import { isSupportedLocale, Locale } from "../../config/site";
 import type { UseCase } from "../../config/useCases";
 import { getUseCaseBySlug } from "../../config/useCases";
 import {
   UseCaseContentBlock,
   getUseCaseContent,
-  RelatedBlogPost,
 } from "../../config/useCaseContent";
 
 interface PageParams {
@@ -69,11 +66,6 @@ export function createUseCasePage(slug: UseCaseSlug) {
     return resolved;
   })();
 
-  /**
-   * Force static rendering to ensure metadata is in the initial HTML.
-   */
-  const dynamic = 'force-static' as const;
-
   async function generateMetadata({
     params,
   }: PageParams): Promise<Metadata> {
@@ -85,7 +77,7 @@ export function createUseCasePage(slug: UseCaseSlug) {
 
     return buildPageMetadata({
       locale,
-      title: useCase.title,
+      title: `${useCase.title} | ActARion`,
       description: useCase.metaDescription,
       segment: slug,
     });
@@ -105,13 +97,6 @@ export function createUseCasePage(slug: UseCaseSlug) {
       notFound();
     }
 
-    // Build breadcrumb navigation
-    const breadcrumbs = [
-      { name: 'Home', url: buildLocalizedPath(typedLocale) },
-      { name: 'Use Cases', url: buildLocalizedPath(typedLocale, 'use-cases') },
-      { name: useCase.title, url: buildLocalizedPath(typedLocale, slug) },
-    ];
-
     const structuredData = [
       buildWebPageSchema({
         locale: typedLocale,
@@ -125,7 +110,6 @@ export function createUseCasePage(slug: UseCaseSlug) {
         description: useCase.metaDescription,
         segment: slug,
       }),
-      buildBreadcrumbListSchema(breadcrumbs),
     ];
 
     const [firstParagraph, ...restParagraphs] = content.heroParagraphs;
@@ -133,46 +117,28 @@ export function createUseCasePage(slug: UseCaseSlug) {
 
     return (
       <>
+        <PageHeader
+          title={content.heroTitle}
+          subtitle={subtitle}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
         <main className="section section-light">
           <div className="section-inner space-y-10">
-            {/* Hero section with H1, intro, and hero image */}
-            <section className="space-y-6">
-              <div className="space-y-4">
-                <h1 className="section-heading text-slate-900">
-                  {content.heroTitle}
-                </h1>
-                <div className="space-y-3">
-                  <p className="section-lead text-gray-700">{subtitle}</p>
-                  {restParagraphs.length > 0 &&
-                    restParagraphs.map((paragraph, index) => (
-                      <p
-                        key={`hero-${index}`}
-                        className="section-lead text-gray-700"
-                      >
-                        {paragraph}
-                      </p>
-                    ))}
-                </div>
-              </div>
-              {useCase.heroImage && (
-                <div className="relative w-full overflow-hidden rounded-2xl border border-slate-200 shadow-card">
-                  <Image
-                    src={useCase.heroImage}
-                    alt={useCase.heroImageAlt || content.heroTitle}
-                    width={1200}
-                    height={600}
-                    sizes="(max-width: 1200px) 100vw, 1200px"
-                    quality={75}
-                    className="w-full h-auto object-cover"
-                    priority
-                  />
-                </div>
-              )}
-            </section>
+            {restParagraphs.length > 0 && (
+              <section className="space-y-3">
+                {restParagraphs.map((paragraph, index) => (
+                  <p
+                    key={`hero-${index}`}
+                    className="section-lead text-gray-700"
+                  >
+                    {paragraph}
+                  </p>
+                ))}
+              </section>
+            )}
 
             {content.sections.map((section) => (
               <section key={section.title} className="card space-y-3">
@@ -181,44 +147,15 @@ export function createUseCasePage(slug: UseCaseSlug) {
               </section>
             ))}
 
-            {/* Further reading section with related blog posts */}
-            {content.relatedBlogPosts && content.relatedBlogPosts.length > 0 && (
-              <section className="card space-y-4">
-                <h2 className="section-subheading">Further reading</h2>
-                <p className="text-slate-700">
-                  Explore related articles to learn more about this use case:
-                </p>
-                <ul className="space-y-2">
-                  {content.relatedBlogPosts.map((post: RelatedBlogPost) => (
-                    <li key={post.slug}>
-                      <Link
-                        href={buildLocalizedPath(typedLocale, `blog/${post.slug}`)}
-                        className="text-primary-600 hover:text-primary-700 hover:underline"
-                      >
-                        {post.title}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </section>
-            )}
-
-            {/* Link back to overview */}
-            <div className="pt-4 border-t border-slate-200">
-              <Link
-                href={buildLocalizedPath(typedLocale, "use-cases")}
-                className="btn btn-link px-0 inline-flex items-center"
-              >
-                ← Back to all use cases
-              </Link>
-            </div>
-
             <UseCaseCta locale={typedLocale} />
           </div>
         </main>
       </>
     );
   }
+
+  // Export dynamic config for Next.js page rendering
+  const dynamic = "force-static" as const;
 
   return { Page, generateMetadata, dynamic };
 }

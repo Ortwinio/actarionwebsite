@@ -1,0 +1,13 @@
+export const FUTURE_OF_WORK_SECTION = `
+Across manufacturing, logistics and energy, operations are under pressure from several directions at the same time: higher quality requirements, tighter margins, growing product variation and a shrinking pool of experienced operators and technicians. In many plants, a small group of experts still carries a disproportionate share of critical know-how. When they are not available, lines slow down, changeovers take longer and the risk of errors increases.
+
+For years, the default answer has been more procedures, more PDFs and more classroom training. In practice, this often leads to information overload instead of better execution. Operators are expected to remember complex instructions and locate the right document under time pressure, sometimes in a noisy or high-risk environment. The gap between "what is written in the SOP" and "what happens on the line" remains.
+
+The future of work in operations is moving in a different direction. Instead of asking people to memorise ever more information, leading organisations bring guidance directly into the flow of work. Digital, step-by-step instructions are presented in the right context: on a tablet, smart glasses or workstation screen, exactly when and where the task is performed. This reduces cognitive load, speeds up learning and makes it easier to do the right thing first time.
+
+Augmented Reality (AR) and connected-worker platforms make this approach scalable. Visual overlays, photos, videos and 3D cues help operators understand what "good" looks like on their actual equipment. Remote experts can join a task virtually, see what the operator sees and guide them through complex or rare situations without travelling on site. Sites can share best practices instead of reinventing solutions in isolation.
+
+ActARion’s mission is to help organisations work safer, faster and smarter by turning critical SOPs, work instructions and troubleshooting steps into guided, digital experiences. Together with our technology partner DeepSight, we combine AR, workflow logic and collaboration tools into one platform. The result is not just another training tool, but a way to standardise execution across shifts and sites, reduce dependence on a few heroes and build a learning organisation on the shop floor.
+
+The ROI calculator in this report translates these ideas into concrete financial terms. It connects the investment in AR-guided work to the things that matter most to operations leaders: fewer errors and deviations, less unplanned downtime, faster onboarding of new colleagues and less time lost on travel and ad-hoc support.
+`;

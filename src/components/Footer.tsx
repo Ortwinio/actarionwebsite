@@ -140,6 +140,11 @@ export function Footer({ locale, dictionary }: FooterProps) {
               <Link href={contactHref}>{dictionary.navigation?.contact || "Contact"}</Link>
             </li>
             <li>
+              <a href="/roi-calculator">
+                {dictionary.footer?.roiCalculator || "ROI Calculator"}
+              </a>
+            </li>
+            <li>
               <a
                 href="/sitemap.xml"
                 target="_blank"

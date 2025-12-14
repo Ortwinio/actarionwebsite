@@ -1,0 +1,263 @@
+1. Start with a real business question, not with features
+
+Bad calculators feel like a disguised form. Good ones start with a question the visitor already has in their head, for example:
+
+“Is AR-guided SOPs worth the hassle for us?”
+
+“How fast do we earn back smart glasses + software?”
+
+So:
+
+Use a benefit-oriented title
+
+“What could AR-guided SOPs save your plant?”
+
+Not: “DeepSight ROI Calculator v1.0”
+
+Use a one-sentence promise under it:
+
+“Answer 6 quick questions and see your estimated savings, payback time, and 3-year ROI.”
+
+That sets the expectation: I’ll get insight, not a pitch.
+
+2. Give value quickly (and visibly) before asking for details
+
+Leadgen temptation: gate everything behind an email wall.
+Better: show value first, then ask for details to refine / export.
+
+Practically:
+
+Let the user see a first result without any email:
+
+Annual savings (range or estimate)
+
+Payback period
+
+3-year ROI
+
+Keep Step 1 super light:
+
+of operators
+of new hires
+
+Error rate ballpark (or “I don’t know” with presets)
+
+Show a live-updated result panel on the side:
+
+As they type, let the headline change: “Estimated annual savings: € 180,000”
+
+Only after they’ve seen something interesting you ask:
+“Want a full report and detailed assumptions? → Leave your email and we’ll send it.”
+
+This creates reciprocity: they got value, now they’re more willing to share.
+
+3. Design the “lead moment” very deliberately
+
+The lead capture should feel like a natural next step, not a trap.
+
+Good patterns:
+
+Soft gate for extra value, not for basic value
+
+Basic view: big numbers + short explanation.
+
+Premium view (behind email):
+
+Detailed breakdown per benefit stream
+
+Graph of cumulative cashflow
+
+PDF export
+
+Benchmark vs typical customers
+
+Strong reason to submit (ActARion example):
+
+“Get a tailored PDF with your numbers & assumptions”
+
+“Have an ActARion consultant validate your case and suggest 1–2 pilot scenarios”
+
+“Compare your results to benchmarks in your industry”
+
+Ask only for what sales really needs
+
+Name
+
+Company
+
+Work email
+
+Country
+
+Optional: timeline (Just exploring / Planning for 6–12 months / Actively looking within 6 months)
+
+Optional short text: “What process do you have in mind? (e.g. changeovers, maintenance, assembly)”
+
+If you want higher volume: keep fields minimal.
+If you want higher quality: add 1–2 qualifying questions.
+
+4. Reduce cognitive load with presets and “I don’t know” options
+
+Most visitors don’t know their exact:
+
+Error rate
+
+Cost per error
+
+Downtime hours due to SOP errors
+
+Best practice: guide them instead of interrogating them.
+
+Examples:
+
+Sliders with ranges + tooltips:
+
+“Error rate on these procedures:
+[ 0–20% slider ]
+Helper text: “Typical for similar plants: 1–5%”
+
+Buttons for common presets:
+
+“How precise is your downtime estimate?”
+
+Exact number
+
+Rough estimate
+
+Use industry average
+
+Short examples next to inputs:
+
+Cost per error:
+
+“Example: In food/packaging we often see €150–€500 per error.”
+
+This lowers drop-off and makes the tool feel consultative, not like homework.
+
+5. Use the output as a conversation starter, not a verdict
+
+The goal is not a “perfect” ROI, but a reason to talk.
+
+So your output section should:
+
+Highlight the big “wow” numbers
+
+Annual savings
+
+Payback (months)
+
+3-year ROI (%)
+
+Explain in plain language where that value comes from
+
+“Most of your gains come from fewer errors and rework (62%).”
+
+“Training and onboarding savings account for 25% of total benefit.”
+
+Invite the user into the next step
+
+“These numbers are based on your assumptions and typical AR impact in the industry.”
+
+“In a 30-minute call we usually:”
+
+Validate your error/downtime assumptions
+
+Map 1–2 concrete AR use cases (e.g. changeovers on Line 3)
+
+Build a pilot-level business case with your own SOP data
+
+CTA examples:
+
+Primary: “Review this business case with ActARion”
+
+Secondary: “Download your ROI as PDF”
+
+So the calculator is not the end of the story; it’s the beginning of the consultative sale.
+
+6. Make it feel trustworthy and neutral
+
+If the calculator always spits out “400% ROI in 6 months,” it loses credibility.
+
+Good practices:
+
+Show ranges instead of single magical numbers:
+
+“Annual savings between €130k–€210k, depending on actual error rates.”
+
+Let users tweak key assumptions and see what happens:
+
+“What if error reduction is only 30%, not 50%?”
+
+“What if you roll out to 1 line instead of 3?”
+
+Show conservative defaults:
+
+Use modest reduction percentages by default (e.g. -30% errors, -25% training time).
+
+Label “ambitious” scenarios explicitly.
+
+Add a short disclaimer:
+
+“This calculator is for orientation only. In actual projects we refine these numbers using your real SOP data, OEE data, and scrap reports.”
+
+This builds trust and positions you as a serious partner, not just a hype vendor.
+
+7. Fit the calculator into your lead journey
+
+A stand-alone calculator is nice, but the follow-up is what turns it into real pipeline.
+
+Some best practices:
+
+Tag all leads with context
+
+Store key outputs in your CRM:
+
+Estimated annual savings band
+
+Main driver (training vs quality vs downtime)
+
+Number of sites / operators
+
+Their selected “timeline to implement”
+
+Use personalised follow-up sequences
+
+Email 1: send their PDF + short explanation of the biggest driver
+
+Email 2: short case study aligned to that driver (e.g. “reducing changeover scrap with AR-guided SOPs”)
+
+Email 3: invite to a 30-min “AR SOP ROI workshop” tailored to their plant
+
+Route leads by size / potential
+
+€250k potential saving/year → direct SDR / founder follow-up
+
+€50k–€250k → email sequence + optional call
+
+<€50k → nurture with content
+
+For ActARion specifically, that could be:
+
+“Future of Work with AR & AI” event invite
+
+Case story: AR changeovers, AR-guided maintenance, etc.
+
+Short DeepSight demo video linked in the email
+
+8. UX & microcopy details that help
+
+A few small, but important details:
+
+Multi-step instead of a scary long single form
+
+Progress indicator (“Step 2 of 4: Quality & downtime”)
+
+Save input locally (so if they refresh, they don’t lose numbers)
+
+Clear, non-technical labels:
+
+“How many operators use these procedures?” instead of “N_op”
+
+Friendly microcopy:
+
+“Not sure? Pick the closest option – we’ll help refine this later.”

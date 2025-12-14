@@ -186,6 +186,28 @@ const nextConfig: NextConfig = {
       }
     ];
   },
+  async rewrites() {
+    // ROI Calculator integration
+    // In production, Vercel rewrites (vercel.json) handle this
+    // In development, proxy to local ROI calculator on port 3001
+    const roiCalculatorDestination = process.env.NODE_ENV === 'development'
+      ? 'http://localhost:3001'
+      : 'https://actarion-roi-calculator.vercel.app';
+    
+    return {
+      beforeFiles: [
+        // Proxy ROI calculator pages and assets (basePath: /roi-calculator)
+        {
+          source: '/roi-calculator',
+          destination: `${roiCalculatorDestination}/roi-calculator`,
+        },
+        {
+          source: '/roi-calculator/:path*',
+          destination: `${roiCalculatorDestination}/roi-calculator/:path*`,
+        },
+      ],
+    };
+  },
 
 };
 

@@ -12,6 +12,16 @@
       "maxDuration": 30
     }
   },
+  "rewrites": [
+    {
+      "source": "/roi-calculator",
+      "destination": "https://actarion-roi-calculator.vercel.app/roi-calculator"
+    },
+    {
+      "source": "/roi-calculator/:path*",
+      "destination": "https://actarion-roi-calculator.vercel.app/roi-calculator/:path*"
+    }
+  ],
   "redirects": [
     {
       "source": "/",
@@ -272,7 +282,7 @@
     },
     {
       "source": "/:locale/resources/ar-roi-calculator",
-      "destination": "/:locale/contact",
+      "destination": "/roi-calculator",
       "statusCode": 301
     },
     {
