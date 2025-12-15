@@ -1,13 +1,30 @@
 {
   "navigation": {
     "home": "Startseite",
+    "services": "Dienstleistungen",
+    "insight": "Einblicke",
     "about": "Über uns",
     "contact": "Kontakt",
     "demo": "Demo",
     "blog": "Blog",
     "partner": "Partner",
     "career": "Karriere",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "insightSubmenu": {
+      "useCases": "Anwendungsfälle",
+      "blogposts": "Blog",
+      "events": "Veranstaltungen",
+      "whitepapers": "Whitepapers",
+      "videos": "Videos",
+      "news": "Neuigkeiten"
+    },
+    "aboutSubmenu": {
+      "aboutActarion": "Über ActARion",
+      "vision": "Vision",
+      "management": "Management",
+      "career": "Karriere",
+      "faq": "FAQ"
+    }
   },
   "hero": {
     "title": "Arbeiten Sie intelligenter, bleiben Sie sicherer, leisten Sie mehr — mit immersiver Technologie.",

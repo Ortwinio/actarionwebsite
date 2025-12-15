@@ -1,13 +1,30 @@
 {
   "navigation": {
     "home": "Home",
+    "services": "Services",
+    "insight": "Insights",
     "about": "About Us",
     "contact": "Contact",
     "demo": "Demo",
     "blog": "Blog",
-    "partner": "Partner",
+    "partner": "Partners",
     "career": "Career",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "insightSubmenu": {
+      "useCases": "Use Cases",
+      "blogposts": "Blog",
+      "events": "Events",
+      "whitepapers": "Whitepapers",
+      "videos": "Videos",
+      "news": "News"
+    },
+    "aboutSubmenu": {
+      "aboutActarion": "About ActARion",
+      "vision": "Vision",
+      "management": "Management",
+      "career": "Career",
+      "faq": "FAQ"
+    }
   },
   "hero": {
     "title": "Work faster, safer and smarter in operations",

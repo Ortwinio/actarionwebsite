@@ -1,11 +1,19 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
+import { ChevronDownIcon } from "@heroicons/react/24/outline";
 import LanguageSelector from "./LanguageSelector";
 import ThemeToggle from "./ThemeToggle";
-import { buildLocalizedPath, getValidLocale, navigationItems, Locale } from "../config/site";
+import {
+  buildLocalizedPath,
+  getValidLocale,
+  navigationItems,
+  Locale,
+  NavigationItem,
+  NavigationSubItem,
+} from "../config/site";
 
 interface NavigationProps {
   locale: Locale;
@@ -16,38 +24,96 @@ export default function Navigation({ locale, dictionary }: NavigationProps) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isClient, setIsClient] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+  const [openMobileDropdown, setOpenMobileDropdown] = useState<string | null>(null);
+  const dropdownTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const pathname = usePathname() || "";
 
   useEffect(() => {
     setIsClient(true);
-    
+
     const handleScroll = () => {
       const scrollTop = window.scrollY;
       setIsScrolled(scrollTop > 10);
     };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = () => {
+      setOpenDropdown(null);
+    };
+
+    document.addEventListener("click", handleClickOutside);
+    return () => document.removeEventListener("click", handleClickOutside);
   }, []);
 
   const normalizedLocale = getValidLocale(locale);
   const homeHref = buildLocalizedPath(normalizedLocale);
   const contactHref = buildLocalizedPath(normalizedLocale, "contact");
   const ctaLabel = dictionary?.navigation?.contact || "Contact";
-  const localizedLinks = navigationItems.map((item) => {
-    const href = buildLocalizedPath(normalizedLocale, item.segment);
-    const label = dictionary?.navigation?.[item.id] ?? item.id;
-    const active = pathname === href || pathname.startsWith(`${href}/`);
-    return { ...item, href, label, active };
-  });
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
+    setOpenMobileDropdown(null);
   };
 
   const closeMobileMenu = () => {
     setIsMobileMenuOpen(false);
+    setOpenMobileDropdown(null);
   };
+
+  const handleDropdownEnter = (id: string) => {
+    if (dropdownTimeoutRef.current) {
+      clearTimeout(dropdownTimeoutRef.current);
+    }
+    setOpenDropdown(id);
+  };
+
+  const handleDropdownLeave = () => {
+    dropdownTimeoutRef.current = setTimeout(() => {
+      setOpenDropdown(null);
+    }, 150);
+  };
+
+  const toggleMobileDropdown = (id: string) => {
+    setOpenMobileDropdown(openMobileDropdown === id ? null : id);
+  };
+
+  const getLabel = (item: NavigationItem | NavigationSubItem, parentId?: string) => {
+    // Check for submenu labels based on parent
+    if (parentId === "insight") {
+      const label = dictionary?.navigation?.insightSubmenu?.[item.id];
+      if (label) return label;
+    }
+    if (parentId === "about") {
+      const label = dictionary?.navigation?.aboutSubmenu?.[item.id];
+      if (label) return label;
+    }
+    // Fallback to main navigation labels
+    return dictionary?.navigation?.[item.id] ?? item.id;
+  };
+
+  const isActive = (segment?: string) => {
+    if (!segment) return false;
+    const href = buildLocalizedPath(normalizedLocale, segment);
+    return pathname === href || pathname.startsWith(`${href}/`);
+  };
+
+  const isParentActive = (item: NavigationItem) => {
+    if (item.children) {
+      return item.children.some((child) => isActive(child.segment));
+    }
+    return isActive(item.segment);
+  };
+
+  // Filter out home and contact from main nav (home is logo, contact is CTA button)
+  const mainNavItems = navigationItems.filter(
+    (item) => item.id !== "home" && item.id !== "contact"
+  );
 
   return (
     <header
@@ -62,7 +128,7 @@ export default function Navigation({ locale, dictionary }: NavigationProps) {
         >
           <Image
             src="/actarionlogo.png"
-            alt="ActARion symbol"
+            alt="ActARion"
             width={36}
             height={36}
             className="h-9 w-auto"
@@ -74,16 +140,73 @@ export default function Navigation({ locale, dictionary }: NavigationProps) {
         </Link>
 
         <nav className="site-nav" aria-label="Main navigation">
-          {localizedLinks.map(({ id, href, label, active }) => (
-            <Link
-              key={id}
-              href={href}
-              className={`nav-link${active ? " nav-link--active" : ""}`}
-              aria-current={active ? "page" : undefined}
-            >
-              {label}
-            </Link>
-          ))}
+          {mainNavItems.map((item) => {
+            if (item.children) {
+              // Dropdown menu
+              return (
+                <div
+                  key={item.id}
+                  className="nav-dropdown"
+                  onMouseEnter={() => handleDropdownEnter(item.id)}
+                  onMouseLeave={handleDropdownLeave}
+                >
+                  <button
+                    type="button"
+                    className={`nav-link nav-link--dropdown${
+                      isParentActive(item) ? " nav-link--active" : ""
+                    }`}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setOpenDropdown(openDropdown === item.id ? null : item.id);
+                    }}
+                    aria-expanded={openDropdown === item.id}
+                    aria-haspopup="true"
+                  >
+                    {getLabel(item)}
+                    <ChevronDownIcon
+                      className={`nav-dropdown__icon ${
+                        openDropdown === item.id ? "nav-dropdown__icon--open" : ""
+                      }`}
+                    />
+                  </button>
+                  {openDropdown === item.id && (
+                    <div
+                      className="nav-dropdown__menu"
+                      onMouseEnter={() => handleDropdownEnter(item.id)}
+                      onMouseLeave={handleDropdownLeave}
+                    >
+                      {item.children.map((child) => (
+                        <Link
+                          key={child.id}
+                          href={buildLocalizedPath(normalizedLocale, child.segment)}
+                          className={`nav-dropdown__item${
+                            isActive(child.segment) ? " nav-dropdown__item--active" : ""
+                          }`}
+                          onClick={() => setOpenDropdown(null)}
+                        >
+                          {getLabel(child, item.id)}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              );
+            }
+
+            // Regular link
+            const href = buildLocalizedPath(normalizedLocale, item.segment);
+            return (
+              <Link
+                key={item.id}
+                href={href}
+                className={`nav-link${isActive(item.segment) ? " nav-link--active" : ""}`}
+                aria-current={isActive(item.segment) ? "page" : undefined}
+              >
+                {getLabel(item)}
+              </Link>
+            );
+          })}
+
           <div className="site-header__meta">
             <ThemeToggle variant="header" />
             <LanguageSelector
@@ -128,20 +251,64 @@ export default function Navigation({ locale, dictionary }: NavigationProps) {
         )}
       </div>
 
+      {/* Mobile Navigation */}
       {isClient && isMobileMenuOpen && (
         <div className="mobile-nav md:hidden" id="mobile-menu">
           <div className="mobile-nav__links space-y-1">
-            {localizedLinks.map(({ id, href, label, active }) => (
-              <Link
-                key={id}
-                href={href}
-                className={active ? "nav-link nav-link--active" : "nav-link"}
-                aria-current={active ? "page" : undefined}
-                onClick={closeMobileMenu}
-              >
-                {label}
-              </Link>
-            ))}
+            {mainNavItems.map((item) => {
+              if (item.children) {
+                // Mobile dropdown
+                return (
+                  <div key={item.id} className="mobile-nav__dropdown">
+                    <button
+                      type="button"
+                      onClick={() => toggleMobileDropdown(item.id)}
+                      className={`nav-link nav-link--dropdown w-full justify-between${
+                        isParentActive(item) ? " nav-link--active" : ""
+                      }`}
+                      aria-expanded={openMobileDropdown === item.id}
+                    >
+                      {getLabel(item)}
+                      <ChevronDownIcon
+                        className={`nav-dropdown__icon ${
+                          openMobileDropdown === item.id ? "nav-dropdown__icon--open" : ""
+                        }`}
+                      />
+                    </button>
+                    {openMobileDropdown === item.id && (
+                      <div className="mobile-nav__submenu">
+                        {item.children.map((child) => (
+                          <Link
+                            key={child.id}
+                            href={buildLocalizedPath(normalizedLocale, child.segment)}
+                            className={`nav-link nav-link--submenu${
+                              isActive(child.segment) ? " nav-link--active" : ""
+                            }`}
+                            onClick={closeMobileMenu}
+                          >
+                            {getLabel(child, item.id)}
+                          </Link>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                );
+              }
+
+              // Regular mobile link
+              const href = buildLocalizedPath(normalizedLocale, item.segment);
+              return (
+                <Link
+                  key={item.id}
+                  href={href}
+                  className={`nav-link${isActive(item.segment) ? " nav-link--active" : ""}`}
+                  aria-current={isActive(item.segment) ? "page" : undefined}
+                  onClick={closeMobileMenu}
+                >
+                  {getLabel(item)}
+                </Link>
+              );
+            })}
           </div>
           <div className="mt-4 flex items-center justify-between gap-3">
             <ThemeToggle variant="header" />
@@ -162,4 +329,4 @@ export default function Navigation({ locale, dictionary }: NavigationProps) {
       )}
     </header>
   );
-} 
+}

@@ -1,13 +1,30 @@
 {
   "navigation": {
     "home": "Home",
+    "services": "Diensten",
+    "insight": "Inzichten",
     "about": "Over ons",
     "contact": "Contact",
     "demo": "Demo",
     "blog": "Blog",
-    "partner": "Partner",
+    "partner": "Partners",
     "career": "Carrière",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "insightSubmenu": {
+      "useCases": "Use Cases",
+      "blogposts": "Blog",
+      "events": "Evenementen",
+      "whitepapers": "Whitepapers",
+      "videos": "Video's",
+      "news": "Nieuws"
+    },
+    "aboutSubmenu": {
+      "aboutActarion": "Over ActARion",
+      "vision": "Visie",
+      "management": "Management",
+      "career": "Carrière",
+      "faq": "FAQ"
+    }
   },
   "hero": {
     "title": "Werk slimmer, blijf veiliger, presteer beter — met immersieve technologie.",
