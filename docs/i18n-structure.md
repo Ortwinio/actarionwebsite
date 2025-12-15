@@ -236,3 +236,8 @@ If a localized blog post doesn't exist, the system falls back to the English ver
 4. **SEO consistency:** Use `buildPageMetadata()` for all pages to ensure proper canonical/hreflang
 5. **Testing:** Test language switching on all page types before deployment
 
+
+
+
+
+

@@ -15,11 +15,11 @@
   "rewrites": [
     {
       "source": "/roi-calculator",
-      "destination": "https://actarion-roi-calculator.vercel.app/roi-calculator"
+      "destination": "https://roicalculator.actarion.com"
     },
     {
       "source": "/roi-calculator/:path*",
-      "destination": "https://actarion-roi-calculator.vercel.app/roi-calculator/:path*"
+      "destination": "https://roicalculator.actarion.com/:path*"
     }
   ],
   "redirects": [

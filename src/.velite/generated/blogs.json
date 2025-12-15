@@ -25995,6 +25995,57 @@
     }
   },
   {
+    "title": "The Added Value of ActARion’s AR-Powered SOP Solutions",
+    "description": "Discover how ActARion transforms Standard Operating Procedures (SOPs) with AR and AI validation—going beyond competitors like PTC, Microsoft Guides, Poka, and VKS.",
+    "image": {
+      "src": "/blogs/ar-sops-added-value.png",
+      "alt": "The Added Value of ActARion’s AR-Powered SOP Solutions"
+    },
+    "publishedAt": "2025-08-19T00:00:00.000Z",
+    "updatedAt": "2025-08-19T00:00:00.000Z",
+    "author": "Ortwin Verreck",
+    "tags": [
+      "AR",
+      "SOPs",
+      "Manufacturing",
+      "Training",
+      "Compliance"
+    ],
+    "isPublished": true,
+    "slug": "ar-sops-added-value",
+    "locale": "en",
+    "body": "const{Fragment:e,jsx:n,jsxs:i}=arguments[0];function _createMdxContent(r){const t={a:\"a\",h2:\"h2\",hr:\"hr\",li:\"li\",p:\"p\",span:\"span\",strong:\"strong\",ul:\"ul\",...r.components};return i(e,{children:[i(t.p,{children:[\"For decades, industries such as manufacturing, logistics, and field service have struggled with the \",n(t.strong,{children:\"high cost of change\"}),\". Implementing new processes, training diverse workforces, and ensuring consistent quality across regions requires significant investments of time and resources. Today, that is changing as organizations embrace \",n(t.strong,{children:\"augmented reality (AR)–enabled Standard Operating Procedures (SOPs)\"}),\" to modernize their operations.\"]}),\"\\n\",n(t.p,{children:\"AR SOP solutions empower companies to address some of their most pressing challenges:\"}),\"\\n\",i(t.ul,{children:[\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Workforce transitions\"}),\" as experienced staff retire and new talent must be onboarded faster\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Growing process complexity\"}),\" as machines, regulations, and global supply chains evolve\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Efficiency demands\"}),\" requiring higher first-time fix rates and reduced downtime\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"The need for compliance and safety\"}),\", with fewer resources available for oversight\"]}),\"\\n\"]}),\"\\n\",n(t.hr,{}),\"\\n\",i(t.h2,{id:\"competitors-have-paved-the-way\",children:[\"Competitors Have Paved the Way\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#competitors-have-paved-the-way\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"The rise of AR solutions in industry has been validated by several leading players.\"}),\"\\n\",i(t.ul,{children:[\"\\n\",i(t.li,{children:[n(t.strong,{children:\"PTC Vuforia\"}),\" – Enterprise AR portfolio for visualization and remote assistance, helping frontline workers execute complex tasks with fewer errors.\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Microsoft Dynamics 365 Guides\"}),\" – Delivers holographic, step-by-step instructions on HoloLens and other devices, accelerating onboarding and training.\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Poka\"}),\" – A connected worker platform offering digital libraries, training tracking, and shift-to-shift collaboration.\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Visual Knowledge Share (VKS)\"}),\" – Focused on digitized work instructions and operator upskilling, supporting standardized training and certification.\"]}),\"\\n\"]}),\"\\n\",i(t.p,{children:[\"Together, these solutions have proven that \",n(t.strong,{children:\"digitizing knowledge and instructions creates measurable value\"}),\", helping companies reduce errors, speed up training, and capture expertise from the field.\"]}),\"\\n\",n(t.hr,{}),\"\\n\",i(t.h2,{id:\"where-actarion-goes-further\",children:[\"Where ActARion Goes Further\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#where-actarion-goes-further\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",i(t.p,{children:[\"While these competitors have validated the market need, many still take a \",n(t.strong,{children:\"fragmented approach\"}),\". Some excel in \",n(t.strong,{children:\"authoring\"}),\" but lack \",n(t.strong,{children:\"real-time validation\"}),\". Others connect workers but offer limited \",n(t.strong,{children:\"smart glasses integration\"}),\". Most lack the \",n(t.strong,{children:\"AI-driven quality checks\"}),\" that ensure compliance at every step of a process.\"]}),\"\\n\",i(t.p,{children:[\"This is where \",n(t.strong,{children:\"ActARion differentiates itself\"}),\":\"]}),\"\\n\",i(t.ul,{children:[\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Visual SOP authoring made easy\"}),\" – A no-code studio environment for rapid digitization of work instructions.\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"AI-powered validation\"}),\" – Every step can be checked in real time, embedding quality and reducing costly mistakes.\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Cross-device deployment\"}),\" – Instructions available on smartphones, tablets, and smart glasses.\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Continuous improvement\"}),\" – Execution data captured to identify training needs, optimize processes, and support compliance.\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Faster onboarding\"}),\" – Interactive, visual SOPs accelerate learning and skill retention across distributed teams.\"]}),\"\\n\"]}),\"\\n\",i(t.p,{children:[\"By combining \",n(t.strong,{children:\"digitization, visualization, and validation\"}),\", ActARion transforms SOPs from static documents into \",n(t.strong,{children:\"dynamic, strategic assets\"}),\".\"]}),\"\\n\",n(t.hr,{}),\"\\n\",i(t.h2,{id:\"the-roi-of-ar-sop-solutions\",children:[\"The ROI of AR SOP Solutions\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#the-roi-of-ar-sop-solutions\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"Enterprises adopting AR SOPs are already reporting measurable returns:\"}),\"\\n\",i(t.ul,{children:[\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Reduced downtime\"}),\" through guided maintenance and machine operation\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Faster onboarding\"}),\" of new hires with interactive training\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Higher compliance and safety\"}),\" due to validated step-by-step execution\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Better collaboration\"}),\" across plants and shifts with shared digital libraries\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Lower support costs\"}),\" by enabling customer and partner self-service\"]}),\"\\n\"]}),\"\\n\",i(t.p,{children:[\"The evidence is clear: AR SOPs deliver efficiency, quality, and scalability. ActARion builds on what PTC, Microsoft, Poka, and VKS have started—\",n(t.strong,{children:\"adding AI-powered quality control and a holistic approach that turns SOPs into a source of resilience and competitive advantage\"}),\".\"]}),\"\\n\",n(t.hr,{}),\"\\n\",i(t.h2,{id:\"dont-fall-behindembrace-ar-sops-with-actarion\",children:[\"Don’t Fall Behind—Embrace AR SOPs with ActARion\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#dont-fall-behindembrace-ar-sops-with-actarion\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",i(t.p,{children:[\"The challenges of workforce change, rising process complexity, and cost pressures are here to stay. Competitors have proven that AR and digital work instruction solutions can address parts of the problem. \",n(t.strong,{children:\"ActARion takes the next step\"}),\"—delivering a complete platform that not only digitizes and visualizes instructions, but also \",n(t.strong,{children:\"validates every step in real time\"}),\".\"]}),\"\\n\",n(t.p,{children:\"The companies that thrive in the next decade will be those that digitize their processes, empower their workers, and ensure quality at scale. ActARion provides the technology and expertise to make that possible.\"}),\"\\n\",n(t.hr,{}),\"\\n\",i(t.p,{children:[\"👉 Ready to learn more? \",n(t.a,{href:\"/en/contact\",children:\"Download our two-pager\"}),\" or \",n(t.a,{href:\"/en/contact\",children:\"contact us\"}),\" to explore how ActARion can transform your operations.\"]})]})}return{default:function(e={}){const{wrapper:i}=e.components||{};return i?n(i,{...e,children:n(_createMdxContent,{...e})}):_createMdxContent(e)}};",
+    "toc": [
+      {
+        "title": "Competitors Have Paved the Way",
+        "url": "#competitors-have-paved-the-way",
+        "items": []
+      },
+      {
+        "title": "Where ActARion Goes Further",
+        "url": "#where-actarion-goes-further",
+        "items": []
+      },
+      {
+        "title": "The ROI of AR SOP Solutions",
+        "url": "#the-roi-of-ar-sop-solutions",
+        "items": []
+      },
+      {
+        "title": "Don’t Fall Behind—Embrace AR SOPs with ActARion",
+        "url": "#dont-fall-behindembrace-ar-sops-with-actarion",
+        "items": []
+      }
+    ],
+    "url": "/blog/ar-sops-added-value",
+    "readingTime": {
+      "text": "3 min read",
+      "minutes": 2.805,
+      "time": 168300,
+      "words": 561
+    }
+  },
+  {
     "title": "The AR Training Revolution: Transforming Workforce Development",
     "description": "Explore how Augmented Reality is revolutionizing employee training, reducing costs, improving retention, and creating more engaging learning experiences.",
     "image": {
@@ -26265,54 +26316,92 @@
     }
   },
   {
-    "title": "The Added Value of ActARion’s AR-Powered SOP Solutions",
-    "description": "Discover how ActARion transforms Standard Operating Procedures (SOPs) with AR and AI validation—going beyond competitors like PTC, Microsoft Guides, Poka, and VKS.",
+    "title": "Event recap: The Future of Work with AI and Augmented Reality",
+    "description": "On 14 November, ActARion hosted an event about smarter, safer and faster work with AI and Augmented Reality. This is what we learned.",
     "image": {
-      "src": "/blogs/ar-sops-added-value.png",
-      "alt": "The Added Value of ActARion’s AR-Powered SOP Solutions"
+      "src": "/blogs/the-future-of-work.png",
+      "alt": "Event recap: The Future of Work with AI and Augmented Reality"
     },
-    "publishedAt": "2025-08-19T00:00:00.000Z",
-    "updatedAt": "2025-08-19T00:00:00.000Z",
-    "author": "Ortwin Verreck",
+    "publishedAt": "2025-01-25T11:00:00.000Z",
+    "updatedAt": "2025-01-25T11:00:00.000Z",
+    "author": "ActARion Team",
     "tags": [
-      "AR",
-      "SOPs",
-      "Manufacturing",
-      "Training",
-      "Compliance"
+      "AI",
+      "Augmented Reality",
+      "Future of Work",
+      "Operational Excellence",
+      "ActARion",
+      "DeepSight"
     ],
     "isPublished": true,
-    "slug": "ar-sops-added-value",
+    "slug": "future-of-work-with-ai-and-augmented-reality-event",
     "locale": "en",
-    "body": "const{Fragment:e,jsx:n,jsxs:i}=arguments[0];function _createMdxContent(r){const t={a:\"a\",h2:\"h2\",hr:\"hr\",li:\"li\",p:\"p\",span:\"span\",strong:\"strong\",ul:\"ul\",...r.components};return i(e,{children:[i(t.p,{children:[\"For decades, industries such as manufacturing, logistics, and field service have struggled with the \",n(t.strong,{children:\"high cost of change\"}),\". Implementing new processes, training diverse workforces, and ensuring consistent quality across regions requires significant investments of time and resources. Today, that is changing as organizations embrace \",n(t.strong,{children:\"augmented reality (AR)–enabled Standard Operating Procedures (SOPs)\"}),\" to modernize their operations.\"]}),\"\\n\",n(t.p,{children:\"AR SOP solutions empower companies to address some of their most pressing challenges:\"}),\"\\n\",i(t.ul,{children:[\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Workforce transitions\"}),\" as experienced staff retire and new talent must be onboarded faster\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Growing process complexity\"}),\" as machines, regulations, and global supply chains evolve\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Efficiency demands\"}),\" requiring higher first-time fix rates and reduced downtime\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"The need for compliance and safety\"}),\", with fewer resources available for oversight\"]}),\"\\n\"]}),\"\\n\",n(t.hr,{}),\"\\n\",i(t.h2,{id:\"competitors-have-paved-the-way\",children:[\"Competitors Have Paved the Way\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#competitors-have-paved-the-way\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"The rise of AR solutions in industry has been validated by several leading players.\"}),\"\\n\",i(t.ul,{children:[\"\\n\",i(t.li,{children:[n(t.strong,{children:\"PTC Vuforia\"}),\" – Enterprise AR portfolio for visualization and remote assistance, helping frontline workers execute complex tasks with fewer errors.\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Microsoft Dynamics 365 Guides\"}),\" – Delivers holographic, step-by-step instructions on HoloLens and other devices, accelerating onboarding and training.\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Poka\"}),\" – A connected worker platform offering digital libraries, training tracking, and shift-to-shift collaboration.\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Visual Knowledge Share (VKS)\"}),\" – Focused on digitized work instructions and operator upskilling, supporting standardized training and certification.\"]}),\"\\n\"]}),\"\\n\",i(t.p,{children:[\"Together, these solutions have proven that \",n(t.strong,{children:\"digitizing knowledge and instructions creates measurable value\"}),\", helping companies reduce errors, speed up training, and capture expertise from the field.\"]}),\"\\n\",n(t.hr,{}),\"\\n\",i(t.h2,{id:\"where-actarion-goes-further\",children:[\"Where ActARion Goes Further\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#where-actarion-goes-further\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",i(t.p,{children:[\"While these competitors have validated the market need, many still take a \",n(t.strong,{children:\"fragmented approach\"}),\". Some excel in \",n(t.strong,{children:\"authoring\"}),\" but lack \",n(t.strong,{children:\"real-time validation\"}),\". Others connect workers but offer limited \",n(t.strong,{children:\"smart glasses integration\"}),\". Most lack the \",n(t.strong,{children:\"AI-driven quality checks\"}),\" that ensure compliance at every step of a process.\"]}),\"\\n\",i(t.p,{children:[\"This is where \",n(t.strong,{children:\"ActARion differentiates itself\"}),\":\"]}),\"\\n\",i(t.ul,{children:[\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Visual SOP authoring made easy\"}),\" – A no-code studio environment for rapid digitization of work instructions.\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"AI-powered validation\"}),\" – Every step can be checked in real time, embedding quality and reducing costly mistakes.\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Cross-device deployment\"}),\" – Instructions available on smartphones, tablets, and smart glasses.\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Continuous improvement\"}),\" – Execution data captured to identify training needs, optimize processes, and support compliance.\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Faster onboarding\"}),\" – Interactive, visual SOPs accelerate learning and skill retention across distributed teams.\"]}),\"\\n\"]}),\"\\n\",i(t.p,{children:[\"By combining \",n(t.strong,{children:\"digitization, visualization, and validation\"}),\", ActARion transforms SOPs from static documents into \",n(t.strong,{children:\"dynamic, strategic assets\"}),\".\"]}),\"\\n\",n(t.hr,{}),\"\\n\",i(t.h2,{id:\"the-roi-of-ar-sop-solutions\",children:[\"The ROI of AR SOP Solutions\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#the-roi-of-ar-sop-solutions\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"Enterprises adopting AR SOPs are already reporting measurable returns:\"}),\"\\n\",i(t.ul,{children:[\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Reduced downtime\"}),\" through guided maintenance and machine operation\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Faster onboarding\"}),\" of new hires with interactive training\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Higher compliance and safety\"}),\" due to validated step-by-step execution\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Better collaboration\"}),\" across plants and shifts with shared digital libraries\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Lower support costs\"}),\" by enabling customer and partner self-service\"]}),\"\\n\"]}),\"\\n\",i(t.p,{children:[\"The evidence is clear: AR SOPs deliver efficiency, quality, and scalability. ActARion builds on what PTC, Microsoft, Poka, and VKS have started—\",n(t.strong,{children:\"adding AI-powered quality control and a holistic approach that turns SOPs into a source of resilience and competitive advantage\"}),\".\"]}),\"\\n\",n(t.hr,{}),\"\\n\",i(t.h2,{id:\"dont-fall-behindembrace-ar-sops-with-actarion\",children:[\"Don’t Fall Behind—Embrace AR SOPs with ActARion\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#dont-fall-behindembrace-ar-sops-with-actarion\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",i(t.p,{children:[\"The challenges of workforce change, rising process complexity, and cost pressures are here to stay. Competitors have proven that AR and digital work instruction solutions can address parts of the problem. \",n(t.strong,{children:\"ActARion takes the next step\"}),\"—delivering a complete platform that not only digitizes and visualizes instructions, but also \",n(t.strong,{children:\"validates every step in real time\"}),\".\"]}),\"\\n\",n(t.p,{children:\"The companies that thrive in the next decade will be those that digitize their processes, empower their workers, and ensure quality at scale. ActARion provides the technology and expertise to make that possible.\"}),\"\\n\",n(t.hr,{}),\"\\n\",i(t.p,{children:[\"👉 Ready to learn more? \",n(t.a,{href:\"/en/contact\",children:\"Download our two-pager\"}),\" or \",n(t.a,{href:\"/en/contact\",children:\"contact us\"}),\" to explore how ActARion can transform your operations.\"]})]})}return{default:function(e={}){const{wrapper:i}=e.components||{};return i?n(i,{...e,children:n(_createMdxContent,{...e})}):_createMdxContent(e)}};",
+    "body": "const{Fragment:e,jsx:n,jsxs:i}=arguments[0];function _createMdxContent(r){const t={a:\"a\",br:\"br\",h2:\"h2\",h3:\"h3\",li:\"li\",p:\"p\",span:\"span\",strong:\"strong\",ul:\"ul\",...r.components};return i(e,{children:[i(t.p,{children:[\"On 14 November, ActARion brought together customers, partners and peers for an in-depth session on \",n(t.strong,{children:\"“The Future of Work with AI and Augmented Reality”\"}),\".\",n(t.br,{}),\"\\n\",\"The focus of the event was clear: how can organisations work \",n(t.strong,{children:\"smarter, safer and faster\"}),\" by combining AI with AR-guided work instructions and digital Standard Operating Procedures (SOPs).\"]}),\"\\n\",i(t.h2,{id:\"why-we-organised-this-event\",children:[\"Why we organised this event\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#why-we-organised-this-event\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"Many organisations face the same set of challenges:\"}),\"\\n\",i(t.ul,{children:[\"\\n\",n(t.li,{children:\"Increasing complexity in machines and processes\"}),\"\\n\",n(t.li,{children:\"Growing safety and compliance requirements\"}),\"\\n\",n(t.li,{children:\"Shortage of experienced technical staff\"}),\"\\n\",n(t.li,{children:\"Pressure to reduce downtime and training time\"}),\"\\n\"]}),\"\\n\",n(t.p,{children:\"At the same time, technology has matured. AI can help structure knowledge and generate work instructions, while Augmented Reality can guide technicians step by step in the real environment.\"}),\"\\n\",i(t.p,{children:[\"The goal of the event was to connect these dots and show how AI and AR can move from “interesting demo” to \",n(t.strong,{children:\"practical value on the work floor\"}),\".\"]}),\"\\n\",i(t.h2,{id:\"the-program-in-short\",children:[\"The program in short\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#the-program-in-short\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"The afternoon was structured around three perspectives: vision, use cases and experience.\"}),\"\\n\",i(t.h3,{id:\"1-setting-the-stage-why-we-must-work-smarter-safer-and-faster\",children:[\"1. Setting the stage: why we must work smarter, safer and faster\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#1-setting-the-stage-why-we-must-work-smarter-safer-and-faster\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"In the opening talk, Ortwin Verreck (ActARion) walked through the bigger picture:\"}),\"\\n\",i(t.ul,{children:[\"\\n\",n(t.li,{children:\"How technology has changed the way we work, communicate and learn\"}),\"\\n\",n(t.li,{children:\"Why traditional manuals and classroom training no longer fit the speed of change\"}),\"\\n\",n(t.li,{children:\"How video, mobile and AR are becoming the new standard for knowledge transfer\"}),\"\\n\",n(t.li,{children:\"Why labour shortages and new safety regulations make digital work instructions a necessity\"}),\"\\n\"]}),\"\\n\",i(t.p,{children:[\"From there, he introduced the central message of ActARion:\",n(t.br,{}),\"\\n\",n(t.strong,{children:\"“Smarter, safer and faster work with AI and Augmented Reality.”\"})]}),\"\\n\",i(t.h3,{id:\"2-seven-concrete-use-cases-for-ai--ar-in-operations\",children:[\"2. Seven concrete use cases for AI & AR in operations\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#2-seven-concrete-use-cases-for-ai--ar-in-operations\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"Next, Mark Dercksen (ActARion) translated the vision into daily practice with seven concrete use cases, including:\"}),\"\\n\",i(t.ul,{children:[\"\\n\",i(t.li,{children:[\"\\n\",i(t.p,{children:[n(t.strong,{children:\"Onboarding and training\"}),n(t.br,{}),\"\\n\",\"New employees follow AI-supported AR instructions instead of reading thick manuals. Learning becomes shorter, more visual and more engaging.\"]}),\"\\n\"]}),\"\\n\",i(t.li,{children:[\"\\n\",i(t.p,{children:[n(t.strong,{children:\"Maintenance and repair\"}),n(t.br,{}),\"\\n\",\"Technicians see step-by-step instructions in their field of view, with 3D overlays and checks that reduce errors and rework.\"]}),\"\\n\"]}),\"\\n\",i(t.li,{children:[\"\\n\",i(t.p,{children:[n(t.strong,{children:\"Changeovers and setups\"}),n(t.br,{}),\"\\n\",\"AR-guided setups help operators switch product lines correctly and quickly, with less dependence on a few experts.\"]}),\"\\n\"]}),\"\\n\",i(t.li,{children:[\"\\n\",i(t.p,{children:[n(t.strong,{children:\"Safety and compliance\"}),n(t.br,{}),\"\\n\",\"Critical steps, checks and safety instructions are embedded in the workflow, with digital evidence that tasks were performed as required.\"]}),\"\\n\"]}),\"\\n\",i(t.li,{children:[\"\\n\",i(t.p,{children:[n(t.strong,{children:\"Remote support\"}),n(t.br,{}),\"\\n\",\"An expert can see what the technician sees and guide them live, without travelling to the site.\"]}),\"\\n\"]}),\"\\n\"]}),\"\\n\",i(t.p,{children:[\"Throughout these examples, the principle was simple:\",n(t.br,{}),\"\\n\",n(t.strong,{children:\"“Think big, act small and show results.”\"}),n(t.br,{}),\"\\n\",\"Start with one line, one machine, one procedure, prove impact and then scale.\"]}),\"\\n\",i(t.h3,{id:\"3-deepsight-keynote-six-years-of-experience-with-ar-guided-work\",children:[\"3. DeepSight keynote: six years of experience with AR-guided work\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#3-deepsight-keynote-six-years-of-experience-with-ar-guided-work\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"The keynote was given by Nicolas Bearzatto, CEO of DeepSight, ActARion’s software partner for AR-guided work instructions.\"}),\"\\n\",n(t.p,{children:\"He shared:\"}),\"\\n\",i(t.ul,{children:[\"\\n\",n(t.li,{children:\"Lessons from six years of implementing AR solutions in industrial environments\"}),\"\\n\",n(t.li,{children:\"What works well when introducing AR glasses and mobile devices on the work floor\"}),\"\\n\",n(t.li,{children:\"How to capture expert knowledge and turn it into reusable, visual SOPs\"}),\"\\n\",n(t.li,{children:\"How AI can assist in creating and maintaining work instructions at scale\"}),\"\\n\"]}),\"\\n\",n(t.p,{children:\"Participants saw real customer stories where companies reduced training time, improved first-time-right rates and retained critical knowledge despite staff turnover.\"}),\"\\n\",i(t.h2,{id:\"key-themes-and-insights\",children:[\"Key themes and insights\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#key-themes-and-insights\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"Across all talks and discussions, a few themes kept coming back.\"}),\"\\n\",i(t.h3,{id:\"learning-is-becoming-visual-interactive-and-on-the-job\",children:[\"Learning is becoming visual, interactive and on the job\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#learning-is-becoming-visual-interactive-and-on-the-job\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"People no longer learn only from books or classroom sessions. They learn from:\"}),\"\\n\",i(t.ul,{children:[\"\\n\",n(t.li,{children:\"Short, targeted instructions\"}),\"\\n\",n(t.li,{children:\"Video examples\"}),\"\\n\",n(t.li,{children:\"Interactive AR overlays in the real environment\"}),\"\\n\"]}),\"\\n\",n(t.p,{children:\"This shift makes it easier to transfer complex knowledge to a new generation of workers.\"}),\"\\n\",i(t.h3,{id:\"ai-accelerates-sop-creation-and-maintenance\",children:[\"AI accelerates SOP creation and maintenance\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#ai-accelerates-sop-creation-and-maintenance\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"Writing and maintaining SOPs used to be time-consuming. AI now helps to:\"}),\"\\n\",i(t.ul,{children:[\"\\n\",n(t.li,{children:\"Generate a first draft of work instructions from existing documents or recordings\"}),\"\\n\",n(t.li,{children:\"Standardise structure and wording\"}),\"\\n\",n(t.li,{children:\"Keep content up to date when machines, settings or regulations change\"}),\"\\n\"]}),\"\\n\",n(t.p,{children:\"Subject matter experts still remain responsible, but their time is used where it adds most value.\"}),\"\\n\",i(t.h3,{id:\"ar-brings-instructions-to-where-the-work-happens\",children:[\"AR brings instructions to where the work happens\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#ar-brings-instructions-to-where-the-work-happens\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"Instead of asking people to go to a PC or binder, AR brings:\"}),\"\\n\",i(t.ul,{children:[\"\\n\",n(t.li,{children:\"The right step at the right time\"}),\"\\n\",n(t.li,{children:\"In the right context (on the machine, in the field, at the patient’s bed)\"}),\"\\n\",n(t.li,{children:\"With checks and confirmations embedded in the workflow\"}),\"\\n\"]}),\"\\n\",n(t.p,{children:\"This reduces errors and makes it easier to comply with procedures.\"}),\"\\n\",i(t.h2,{id:\"reactions-from-participants\",children:[\"Reactions from participants\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#reactions-from-participants\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"During the networking part and Q&A, several points came back in conversations:\"}),\"\\n\",i(t.ul,{children:[\"\\n\",i(t.li,{children:[\"The combination of \",n(t.strong,{children:\"AI + AR\"}),\" feels practical and close to today’s reality\"]}),\"\\n\",n(t.li,{children:\"The use cases made it easier to see where to start in their own organisation\"}),\"\\n\",n(t.li,{children:\"Safety, quality and training teams see a shared interest in one central platform for work instructions\"}),\"\\n\",n(t.li,{children:\"Many participants are looking for a phased approach: start small, measure impact, then expand\"}),\"\\n\"]}),\"\\n\",n(t.p,{children:\"For us, these reactions confirm that there is a strong need for a concrete roadmap towards smarter, safer and faster work.\"}),\"\\n\",i(t.h2,{id:\"what-happens-next\",children:[\"What happens next\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#what-happens-next\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",i(t.p,{children:[\"If you joined the event: thank you for your time, questions and feedback.\",n(t.br,{}),\"\\n\",\"If you could not attend, but are curious about the content, there are a few options:\"]}),\"\\n\",n(\"iframe\",{src:\"https://www.slideshare.net/slideshow/embed_code/key/3C9jTnb3EyGPmN\",width:\"510\",height:\"420\",frameBorder:\"0\",marginWidth:\"0\",marginHeight:\"0\",scrolling:\"no\",style:{border:\"1px solid #CCC\",marginBottom:\"5px\",maxWidth:\"100%\"},allowFullScreen:!0}),\"\\n\",i(t.p,{children:[n(t.strong,{children:n(t.a,{href:\"https://www.slideshare.net/slideshow/actarion-the-future-of-work-with-ai-and-augmented-reality/284175002\",children:\"actarion-the-future-of-work-with-ai-and-augmented-reality\"})}),\" from \",n(t.strong,{children:n(t.a,{href:\"https://www.slideshare.net/OrtwinVerreck\",children:\"Ortwin Verreck\"})})]}),\"\\n\",i(t.ul,{children:[\"\\n\",i(t.li,{children:[\"Plan a \",n(t.strong,{children:\"discovery call\"}),\" to discuss your own use cases\"]}),\"\\n\",i(t.li,{children:[\"Schedule a \",n(t.strong,{children:\"demo\"}),\" of the AI and AR solutions we use with DeepSight\"]}),\"\\n\"]}),\"\\n\",i(t.p,{children:[n(t.strong,{children:\"Interested in next steps?\"}),n(t.br,{}),\"\\n\",n(t.a,{href:\"#\",children:\"Schedule a demo or discovery call\"}),\" and we will explore together how AI and Augmented Reality can support your teams in daily work.\"]})]})}return{default:function(e={}){const{wrapper:i}=e.components||{};return i?n(i,{...e,children:n(_createMdxContent,{...e})}):_createMdxContent(e)}};",
     "toc": [
       {
-        "title": "Competitors Have Paved the Way",
-        "url": "#competitors-have-paved-the-way",
+        "title": "Why we organised this event",
+        "url": "#why-we-organised-this-event",
         "items": []
       },
       {
-        "title": "Where ActARion Goes Further",
-        "url": "#where-actarion-goes-further",
+        "title": "The program in short",
+        "url": "#the-program-in-short",
+        "items": [
+          {
+            "title": "1. Setting the stage: why we must work smarter, safer and faster",
+            "url": "#1-setting-the-stage-why-we-must-work-smarter-safer-and-faster",
+            "items": []
+          },
+          {
+            "title": "2. Seven concrete use cases for AI & AR in operations",
+            "url": "#2-seven-concrete-use-cases-for-ai--ar-in-operations",
+            "items": []
+          },
+          {
+            "title": "3. DeepSight keynote: six years of experience with AR-guided work",
+            "url": "#3-deepsight-keynote-six-years-of-experience-with-ar-guided-work",
+            "items": []
+          }
+        ]
+      },
+      {
+        "title": "Key themes and insights",
+        "url": "#key-themes-and-insights",
+        "items": [
+          {
+            "title": "Learning is becoming visual, interactive and on the job",
+            "url": "#learning-is-becoming-visual-interactive-and-on-the-job",
+            "items": []
+          },
+          {
+            "title": "AI accelerates SOP creation and maintenance",
+            "url": "#ai-accelerates-sop-creation-and-maintenance",
+            "items": []
+          },
+          {
+            "title": "AR brings instructions to where the work happens",
+            "url": "#ar-brings-instructions-to-where-the-work-happens",
+            "items": []
+          }
+        ]
+      },
+      {
+        "title": "Reactions from participants",
+        "url": "#reactions-from-participants",
         "items": []
       },
       {
-        "title": "The ROI of AR SOP Solutions",
-        "url": "#the-roi-of-ar-sop-solutions",
-        "items": []
-      },
-      {
-        "title": "Don’t Fall Behind—Embrace AR SOPs with ActARion",
-        "url": "#dont-fall-behindembrace-ar-sops-with-actarion",
+        "title": "What happens next",
+        "url": "#what-happens-next",
         "items": []
       }
     ],
-    "url": "/blog/ar-sops-added-value",
+    "url": "/blog/future-of-work-with-ai-and-augmented-reality-event",
     "readingTime": {
-      "text": "3 min read",
-      "minutes": 2.805,
-      "time": 168300,
-      "words": 561
+      "text": "5 min read",
+      "minutes": 4.09,
+      "time": 245400,
+      "words": 818
     }
   },
   {
@@ -26533,95 +26622,6 @@
       "minutes": 5.04,
       "time": 302400,
       "words": 1008
-    }
-  },
-  {
-    "title": "Event recap: The Future of Work with AI and Augmented Reality",
-    "description": "On 14 November, ActARion hosted an event about smarter, safer and faster work with AI and Augmented Reality. This is what we learned.",
-    "image": {
-      "src": "/blogs/the-future-of-work.png",
-      "alt": "Event recap: The Future of Work with AI and Augmented Reality"
-    },
-    "publishedAt": "2025-01-25T11:00:00.000Z",
-    "updatedAt": "2025-01-25T11:00:00.000Z",
-    "author": "ActARion Team",
-    "tags": [
-      "AI",
-      "Augmented Reality",
-      "Future of Work",
-      "Operational Excellence",
-      "ActARion",
-      "DeepSight"
-    ],
-    "isPublished": true,
-    "slug": "future-of-work-with-ai-and-augmented-reality-event",
-    "locale": "en",
-    "body": "const{Fragment:e,jsx:n,jsxs:i}=arguments[0];function _createMdxContent(r){const t={a:\"a\",br:\"br\",h2:\"h2\",h3:\"h3\",li:\"li\",p:\"p\",span:\"span\",strong:\"strong\",ul:\"ul\",...r.components};return i(e,{children:[i(t.p,{children:[\"On 14 November, ActARion brought together customers, partners and peers for an in-depth session on \",n(t.strong,{children:\"“The Future of Work with AI and Augmented Reality”\"}),\".\",n(t.br,{}),\"\\n\",\"The focus of the event was clear: how can organisations work \",n(t.strong,{children:\"smarter, safer and faster\"}),\" by combining AI with AR-guided work instructions and digital Standard Operating Procedures (SOPs).\"]}),\"\\n\",i(t.h2,{id:\"why-we-organised-this-event\",children:[\"Why we organised this event\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#why-we-organised-this-event\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"Many organisations face the same set of challenges:\"}),\"\\n\",i(t.ul,{children:[\"\\n\",n(t.li,{children:\"Increasing complexity in machines and processes\"}),\"\\n\",n(t.li,{children:\"Growing safety and compliance requirements\"}),\"\\n\",n(t.li,{children:\"Shortage of experienced technical staff\"}),\"\\n\",n(t.li,{children:\"Pressure to reduce downtime and training time\"}),\"\\n\"]}),\"\\n\",n(t.p,{children:\"At the same time, technology has matured. AI can help structure knowledge and generate work instructions, while Augmented Reality can guide technicians step by step in the real environment.\"}),\"\\n\",i(t.p,{children:[\"The goal of the event was to connect these dots and show how AI and AR can move from “interesting demo” to \",n(t.strong,{children:\"practical value on the work floor\"}),\".\"]}),\"\\n\",i(t.h2,{id:\"the-program-in-short\",children:[\"The program in short\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#the-program-in-short\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"The afternoon was structured around three perspectives: vision, use cases and experience.\"}),\"\\n\",i(t.h3,{id:\"1-setting-the-stage-why-we-must-work-smarter-safer-and-faster\",children:[\"1. Setting the stage: why we must work smarter, safer and faster\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#1-setting-the-stage-why-we-must-work-smarter-safer-and-faster\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"In the opening talk, Ortwin Verreck (ActARion) walked through the bigger picture:\"}),\"\\n\",i(t.ul,{children:[\"\\n\",n(t.li,{children:\"How technology has changed the way we work, communicate and learn\"}),\"\\n\",n(t.li,{children:\"Why traditional manuals and classroom training no longer fit the speed of change\"}),\"\\n\",n(t.li,{children:\"How video, mobile and AR are becoming the new standard for knowledge transfer\"}),\"\\n\",n(t.li,{children:\"Why labour shortages and new safety regulations make digital work instructions a necessity\"}),\"\\n\"]}),\"\\n\",i(t.p,{children:[\"From there, he introduced the central message of ActARion:\",n(t.br,{}),\"\\n\",n(t.strong,{children:\"“Smarter, safer and faster work with AI and Augmented Reality.”\"})]}),\"\\n\",i(t.h3,{id:\"2-seven-concrete-use-cases-for-ai--ar-in-operations\",children:[\"2. Seven concrete use cases for AI & AR in operations\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#2-seven-concrete-use-cases-for-ai--ar-in-operations\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"Next, Mark Dercksen (ActARion) translated the vision into daily practice with seven concrete use cases, including:\"}),\"\\n\",i(t.ul,{children:[\"\\n\",i(t.li,{children:[\"\\n\",i(t.p,{children:[n(t.strong,{children:\"Onboarding and training\"}),n(t.br,{}),\"\\n\",\"New employees follow AI-supported AR instructions instead of reading thick manuals. Learning becomes shorter, more visual and more engaging.\"]}),\"\\n\"]}),\"\\n\",i(t.li,{children:[\"\\n\",i(t.p,{children:[n(t.strong,{children:\"Maintenance and repair\"}),n(t.br,{}),\"\\n\",\"Technicians see step-by-step instructions in their field of view, with 3D overlays and checks that reduce errors and rework.\"]}),\"\\n\"]}),\"\\n\",i(t.li,{children:[\"\\n\",i(t.p,{children:[n(t.strong,{children:\"Changeovers and setups\"}),n(t.br,{}),\"\\n\",\"AR-guided setups help operators switch product lines correctly and quickly, with less dependence on a few experts.\"]}),\"\\n\"]}),\"\\n\",i(t.li,{children:[\"\\n\",i(t.p,{children:[n(t.strong,{children:\"Safety and compliance\"}),n(t.br,{}),\"\\n\",\"Critical steps, checks and safety instructions are embedded in the workflow, with digital evidence that tasks were performed as required.\"]}),\"\\n\"]}),\"\\n\",i(t.li,{children:[\"\\n\",i(t.p,{children:[n(t.strong,{children:\"Remote support\"}),n(t.br,{}),\"\\n\",\"An expert can see what the technician sees and guide them live, without travelling to the site.\"]}),\"\\n\"]}),\"\\n\"]}),\"\\n\",i(t.p,{children:[\"Throughout these examples, the principle was simple:\",n(t.br,{}),\"\\n\",n(t.strong,{children:\"“Think big, act small and show results.”\"}),n(t.br,{}),\"\\n\",\"Start with one line, one machine, one procedure, prove impact and then scale.\"]}),\"\\n\",i(t.h3,{id:\"3-deepsight-keynote-six-years-of-experience-with-ar-guided-work\",children:[\"3. DeepSight keynote: six years of experience with AR-guided work\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#3-deepsight-keynote-six-years-of-experience-with-ar-guided-work\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"The keynote was given by Nicolas Bearzatto, CEO of DeepSight, ActARion’s software partner for AR-guided work instructions.\"}),\"\\n\",n(t.p,{children:\"He shared:\"}),\"\\n\",i(t.ul,{children:[\"\\n\",n(t.li,{children:\"Lessons from six years of implementing AR solutions in industrial environments\"}),\"\\n\",n(t.li,{children:\"What works well when introducing AR glasses and mobile devices on the work floor\"}),\"\\n\",n(t.li,{children:\"How to capture expert knowledge and turn it into reusable, visual SOPs\"}),\"\\n\",n(t.li,{children:\"How AI can assist in creating and maintaining work instructions at scale\"}),\"\\n\"]}),\"\\n\",n(t.p,{children:\"Participants saw real customer stories where companies reduced training time, improved first-time-right rates and retained critical knowledge despite staff turnover.\"}),\"\\n\",i(t.h2,{id:\"key-themes-and-insights\",children:[\"Key themes and insights\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#key-themes-and-insights\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"Across all talks and discussions, a few themes kept coming back.\"}),\"\\n\",i(t.h3,{id:\"learning-is-becoming-visual-interactive-and-on-the-job\",children:[\"Learning is becoming visual, interactive and on the job\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#learning-is-becoming-visual-interactive-and-on-the-job\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"People no longer learn only from books or classroom sessions. They learn from:\"}),\"\\n\",i(t.ul,{children:[\"\\n\",n(t.li,{children:\"Short, targeted instructions\"}),\"\\n\",n(t.li,{children:\"Video examples\"}),\"\\n\",n(t.li,{children:\"Interactive AR overlays in the real environment\"}),\"\\n\"]}),\"\\n\",n(t.p,{children:\"This shift makes it easier to transfer complex knowledge to a new generation of workers.\"}),\"\\n\",i(t.h3,{id:\"ai-accelerates-sop-creation-and-maintenance\",children:[\"AI accelerates SOP creation and maintenance\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#ai-accelerates-sop-creation-and-maintenance\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"Writing and maintaining SOPs used to be time-consuming. AI now helps to:\"}),\"\\n\",i(t.ul,{children:[\"\\n\",n(t.li,{children:\"Generate a first draft of work instructions from existing documents or recordings\"}),\"\\n\",n(t.li,{children:\"Standardise structure and wording\"}),\"\\n\",n(t.li,{children:\"Keep content up to date when machines, settings or regulations change\"}),\"\\n\"]}),\"\\n\",n(t.p,{children:\"Subject matter experts still remain responsible, but their time is used where it adds most value.\"}),\"\\n\",i(t.h3,{id:\"ar-brings-instructions-to-where-the-work-happens\",children:[\"AR brings instructions to where the work happens\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#ar-brings-instructions-to-where-the-work-happens\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"Instead of asking people to go to a PC or binder, AR brings:\"}),\"\\n\",i(t.ul,{children:[\"\\n\",n(t.li,{children:\"The right step at the right time\"}),\"\\n\",n(t.li,{children:\"In the right context (on the machine, in the field, at the patient’s bed)\"}),\"\\n\",n(t.li,{children:\"With checks and confirmations embedded in the workflow\"}),\"\\n\"]}),\"\\n\",n(t.p,{children:\"This reduces errors and makes it easier to comply with procedures.\"}),\"\\n\",i(t.h2,{id:\"reactions-from-participants\",children:[\"Reactions from participants\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#reactions-from-participants\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"During the networking part and Q&A, several points came back in conversations:\"}),\"\\n\",i(t.ul,{children:[\"\\n\",i(t.li,{children:[\"The combination of \",n(t.strong,{children:\"AI + AR\"}),\" feels practical and close to today’s reality\"]}),\"\\n\",n(t.li,{children:\"The use cases made it easier to see where to start in their own organisation\"}),\"\\n\",n(t.li,{children:\"Safety, quality and training teams see a shared interest in one central platform for work instructions\"}),\"\\n\",n(t.li,{children:\"Many participants are looking for a phased approach: start small, measure impact, then expand\"}),\"\\n\"]}),\"\\n\",n(t.p,{children:\"For us, these reactions confirm that there is a strong need for a concrete roadmap towards smarter, safer and faster work.\"}),\"\\n\",i(t.h2,{id:\"what-happens-next\",children:[\"What happens next\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#what-happens-next\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",i(t.p,{children:[\"If you joined the event: thank you for your time, questions and feedback.\",n(t.br,{}),\"\\n\",\"If you could not attend, but are curious about the content, there are a few options:\"]}),\"\\n\",n(\"iframe\",{src:\"https://www.slideshare.net/slideshow/embed_code/key/3C9jTnb3EyGPmN\",width:\"510\",height:\"420\",frameBorder:\"0\",marginWidth:\"0\",marginHeight:\"0\",scrolling:\"no\",style:{border:\"1px solid #CCC\",marginBottom:\"5px\",maxWidth:\"100%\"},allowFullScreen:!0}),\"\\n\",i(t.p,{children:[n(t.strong,{children:n(t.a,{href:\"https://www.slideshare.net/slideshow/actarion-the-future-of-work-with-ai-and-augmented-reality/284175002\",children:\"actarion-the-future-of-work-with-ai-and-augmented-reality\"})}),\" from \",n(t.strong,{children:n(t.a,{href:\"https://www.slideshare.net/OrtwinVerreck\",children:\"Ortwin Verreck\"})})]}),\"\\n\",i(t.ul,{children:[\"\\n\",i(t.li,{children:[\"Plan a \",n(t.strong,{children:\"discovery call\"}),\" to discuss your own use cases\"]}),\"\\n\",i(t.li,{children:[\"Schedule a \",n(t.strong,{children:\"demo\"}),\" of the AI and AR solutions we use with DeepSight\"]}),\"\\n\"]}),\"\\n\",i(t.p,{children:[n(t.strong,{children:\"Interested in next steps?\"}),n(t.br,{}),\"\\n\",n(t.a,{href:\"#\",children:\"Schedule a demo or discovery call\"}),\" and we will explore together how AI and Augmented Reality can support your teams in daily work.\"]})]})}return{default:function(e={}){const{wrapper:i}=e.components||{};return i?n(i,{...e,children:n(_createMdxContent,{...e})}):_createMdxContent(e)}};",
-    "toc": [
-      {
-        "title": "Why we organised this event",
-        "url": "#why-we-organised-this-event",
-        "items": []
-      },
-      {
-        "title": "The program in short",
-        "url": "#the-program-in-short",
-        "items": [
-          {
-            "title": "1. Setting the stage: why we must work smarter, safer and faster",
-            "url": "#1-setting-the-stage-why-we-must-work-smarter-safer-and-faster",
-            "items": []
-          },
-          {
-            "title": "2. Seven concrete use cases for AI & AR in operations",
-            "url": "#2-seven-concrete-use-cases-for-ai--ar-in-operations",
-            "items": []
-          },
-          {
-            "title": "3. DeepSight keynote: six years of experience with AR-guided work",
-            "url": "#3-deepsight-keynote-six-years-of-experience-with-ar-guided-work",
-            "items": []
-          }
-        ]
-      },
-      {
-        "title": "Key themes and insights",
-        "url": "#key-themes-and-insights",
-        "items": [
-          {
-            "title": "Learning is becoming visual, interactive and on the job",
-            "url": "#learning-is-becoming-visual-interactive-and-on-the-job",
-            "items": []
-          },
-          {
-            "title": "AI accelerates SOP creation and maintenance",
-            "url": "#ai-accelerates-sop-creation-and-maintenance",
-            "items": []
-          },
-          {
-            "title": "AR brings instructions to where the work happens",
-            "url": "#ar-brings-instructions-to-where-the-work-happens",
-            "items": []
-          }
-        ]
-      },
-      {
-        "title": "Reactions from participants",
-        "url": "#reactions-from-participants",
-        "items": []
-      },
-      {
-        "title": "What happens next",
-        "url": "#what-happens-next",
-        "items": []
-      }
-    ],
-    "url": "/blog/future-of-work-with-ai-and-augmented-reality-event",
-    "readingTime": {
-      "text": "5 min read",
-      "minutes": 4.09,
-      "time": 245400,
-      "words": 818
     }
   },
   {

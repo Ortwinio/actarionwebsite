@@ -1,0 +1,358 @@
+{
+  "version": "1.1.0",
+  "generatedAt": "2025-12-06T17:53:34.409Z",
+  "locale": "de",
+  "items": [
+    {
+      "id": "usecase-ar-work-instructions-corporate-memory-de",
+      "title": "AR work instructions and SOPs to preserve corporate memory",
+      "summary": "Capture expert knowledge once and turn it into standardised AR work instructions and SOPs.",
+      "language": "de",
+      "type": "usecase",
+      "url": "/de/use-cases/ar-work-instructions-corporate-memory",
+      "tags": [
+        "knowledge-capture",
+        "audit-compliance",
+        "manufacturing",
+        "pharma-biotech",
+        "energy-utilities",
+        "operations",
+        "quality",
+        "training-hr"
+      ],
+      "image": "/images/usecases/ar-work-instructions-and-sops-to-preserve-corporate-memory-hero.png",
+      "keywords": [
+        "corporate memory",
+        "knowledge transfer",
+        "SOP",
+        "work instructions",
+        "expert knowledge",
+        "standardization"
+      ]
+    },
+    {
+      "id": "usecase-ar-training-and-onboarding-de",
+      "title": "AR training and onboarding for industrial teams",
+      "summary": "Guide new employees step by step with AR work instructions and shorten onboarding time.",
+      "language": "de",
+      "type": "usecase",
+      "url": "/de/use-cases/ar-training-and-onboarding",
+      "tags": [
+        "training-onboarding",
+        "knowledge-capture",
+        "manufacturing",
+        "logistics",
+        "pharma-biotech",
+        "training-hr",
+        "operations",
+        "hse"
+      ],
+      "image": "/images/usecases/ar-training-and-onboarding-for-industrial-teams-hero.png",
+      "keywords": [
+        "training",
+        "onboarding",
+        "new employees",
+        "first time right",
+        "learning",
+        "competency"
+      ]
+    },
+    {
+      "id": "usecase-ar-guided-assembly-production-de",
+      "title": "AR guided assembly for error free production",
+      "summary": "Use AR to reduce errors, rework and recalls with visual guidance at the workstation.",
+      "language": "de",
+      "type": "usecase",
+      "url": "/de/use-cases/ar-guided-assembly-production",
+      "tags": [
+        "assembly",
+        "audit-compliance",
+        "manufacturing",
+        "aerospace",
+        "pharma-biotech",
+        "operations",
+        "quality"
+      ],
+      "image": "/images/usecases/ar-guided-assembly-for-error-free-production-hero.png",
+      "keywords": [
+        "assembly",
+        "production",
+        "error reduction",
+        "quality",
+        "rework",
+        "audit trail",
+        "traceability"
+      ]
+    },
+    {
+      "id": "usecase-ar-guided-changeover-batch-preparation-de",
+      "title": "AR guided changeover to reduce downtime",
+      "summary": "Standardise changeovers with AR and avoid configuration errors between batches.",
+      "language": "de",
+      "type": "usecase",
+      "url": "/de/use-cases/ar-guided-changeover-batch-preparation",
+      "tags": [
+        "changeover",
+        "audit-compliance",
+        "manufacturing",
+        "pharma-biotech",
+        "operations",
+        "maintenance-team"
+      ],
+      "image": "/images/usecases/ar-guided-changeover-to-reduce-downtime-hero.png",
+      "keywords": [
+        "changeover",
+        "batch",
+        "downtime",
+        "configuration",
+        "SMED",
+        "setup",
+        "OEE"
+      ]
+    },
+    {
+      "id": "usecase-ar-preventive-maintenance-de",
+      "title": "AR preventive maintenance with data driven insights",
+      "summary": "Guide technicians in preventive maintenance and collect execution data automatically.",
+      "language": "de",
+      "type": "usecase",
+      "url": "/de/use-cases/ar-preventive-maintenance",
+      "tags": [
+        "maintenance",
+        "audit-compliance",
+        "manufacturing",
+        "energy-utilities",
+        "field-services",
+        "maintenance-team",
+        "operations"
+      ],
+      "image": "/images/usecases/ar-preventive-maintenance-with-data-driven-insights-hero.png",
+      "keywords": [
+        "preventive maintenance",
+        "PM",
+        "reliability",
+        "data collection",
+        "technicians",
+        "MTTR",
+        "MTBF"
+      ]
+    },
+    {
+      "id": "usecase-ar-remote-expert-support-corrective-maintenance-de",
+      "title": "AR remote expert support for corrective maintenance",
+      "summary": "Resolve faults faster with live AR remote expert support and cut unplanned downtime.",
+      "language": "de",
+      "type": "usecase",
+      "url": "/de/use-cases/ar-remote-expert-support-corrective-maintenance",
+      "tags": [
+        "remote-support",
+        "maintenance",
+        "energy-utilities",
+        "field-services",
+        "manufacturing",
+        "maintenance-team",
+        "operations"
+      ],
+      "image": "/images/usecases/ar-remote-expert-support-for-corrective-maintenance-hero.png",
+      "keywords": [
+        "remote support",
+        "expert support",
+        "corrective maintenance",
+        "fault resolution",
+        "downtime",
+        "troubleshooting"
+      ]
+    },
+    {
+      "id": "faq-0-de",
+      "title": "What is ActARion?",
+      "summary": "ActARion is the European partner of Deep Sight, offering an AR-first connected worker platform for industrial, logistics and energy environments.",
+      "language": "de",
+      "type": "faq",
+      "url": "/de/faq#faq-0",
+      "tags": [
+        "about",
+        "platform",
+        "deep-sight"
+      ]
+    },
+    {
+      "id": "faq-1-de",
+      "title": "How do AR work instructions help?",
+      "summary": "AR work instructions guide operators step by step with visual overlays, reducing errors and training time while ensuring consistent execution.",
+      "language": "de",
+      "type": "faq",
+      "url": "/de/faq#faq-1",
+      "tags": [
+        "work-instructions",
+        "benefits",
+        "ar"
+      ]
+    },
+    {
+      "id": "faq-2-de",
+      "title": "What devices are supported?",
+      "summary": "ActARion works on tablets, smartphones, and smart glasses like Microsoft HoloLens, RealWear, and Apple Vision Pro.",
+      "language": "de",
+      "type": "faq",
+      "url": "/de/faq#faq-2",
+      "tags": [
+        "devices",
+        "hardware",
+        "hololens",
+        "realwear"
+      ]
+    },
+    {
+      "id": "faq-3-de",
+      "title": "How long does implementation take?",
+      "summary": "A typical pilot can be set up in 4-6 weeks. Full rollout timelines depend on scope, but many customers start seeing value within the first month.",
+      "language": "de",
+      "type": "faq",
+      "url": "/de/faq#faq-3",
+      "tags": [
+        "implementation",
+        "timeline",
+        "pilot"
+      ]
+    },
+    {
+      "id": "faq-4-de",
+      "title": "What industries do you serve?",
+      "summary": "We work with manufacturing, pharma & biotech, energy & utilities, aerospace, logistics, and field services companies.",
+      "language": "de",
+      "type": "faq",
+      "url": "/de/faq#faq-4",
+      "tags": [
+        "industries",
+        "manufacturing",
+        "pharma",
+        "energy"
+      ]
+    },
+    {
+      "id": "page-home-de",
+      "title": "Home",
+      "summary": "ActARion - Smarter, safer, faster work with AI and AR-guided work instructions.",
+      "language": "de",
+      "type": "page",
+      "url": "/de",
+      "tags": [],
+      "keywords": [
+        "AR",
+        "augmented reality",
+        "work instructions",
+        "SOP",
+        "digital transformation",
+        "connected worker"
+      ]
+    },
+    {
+      "id": "page-about-de",
+      "title": "About ActARion",
+      "summary": "ActARion is the European partner of Deep Sight, offering an AR-first connected worker platform.",
+      "language": "de",
+      "type": "page",
+      "url": "/de/about",
+      "tags": [],
+      "keywords": [
+        "about",
+        "company",
+        "Deep Sight",
+        "partner",
+        "europe"
+      ]
+    },
+    {
+      "id": "page-vision-de",
+      "title": "Our Vision",
+      "summary": "Our vision for the future of work with AR and AI-guided work instructions.",
+      "language": "de",
+      "type": "page",
+      "url": "/de/vision",
+      "tags": [],
+      "keywords": [
+        "vision",
+        "future of work",
+        "strategy",
+        "mission"
+      ]
+    },
+    {
+      "id": "page-contact-de",
+      "title": "Contact",
+      "summary": "Get in touch with ActARion to learn more about AR work instructions.",
+      "language": "de",
+      "type": "page",
+      "url": "/de/contact",
+      "tags": [],
+      "keywords": [
+        "contact",
+        "demo",
+        "inquiry",
+        "sales"
+      ]
+    },
+    {
+      "id": "page-faq-de",
+      "title": "FAQ",
+      "summary": "Frequently asked questions about ActARion and AR work instructions.",
+      "language": "de",
+      "type": "page",
+      "url": "/de/faq",
+      "tags": [],
+      "keywords": [
+        "FAQ",
+        "questions",
+        "answers",
+        "help",
+        "support"
+      ]
+    },
+    {
+      "id": "page-use-cases-de",
+      "title": "Use Cases",
+      "summary": "Discover how ActARion helps industrial teams work smarter, faster and safer with AR-guided work instructions.",
+      "language": "de",
+      "type": "page",
+      "url": "/de/use-cases",
+      "tags": [],
+      "keywords": [
+        "use cases",
+        "applications",
+        "solutions",
+        "examples"
+      ]
+    },
+    {
+      "id": "page-blog-de",
+      "title": "Blog",
+      "summary": "Insights and updates on AR work instructions, digital transformation, and connected worker solutions.",
+      "language": "de",
+      "type": "page",
+      "url": "/de/blog",
+      "tags": [],
+      "keywords": [
+        "blog",
+        "articles",
+        "insights",
+        "news"
+      ]
+    },
+    {
+      "id": "page-partners-de",
+      "title": "Partners",
+      "summary": "Our technology and solution partners including Deep Sight, Microsoft, and leading smart glasses manufacturers.",
+      "language": "de",
+      "type": "page",
+      "url": "/de/partners",
+      "tags": [],
+      "keywords": [
+        "partners",
+        "technology",
+        "ecosystem",
+        "integrations"
+      ]
+    }
+  ]
+}

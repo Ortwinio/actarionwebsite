@@ -178,3 +178,8 @@ test('Quick SEO check for home page', async ({ page }) => {
   expect(bodyTitles).toBe(0);
 });
 
+
+
+
+
+

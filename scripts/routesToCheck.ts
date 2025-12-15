@@ -74,3 +74,8 @@ export function getAllRoutes(): { locale: Locale; route: string }[] {
   return allRoutes;
 }
 
+
+
+
+
+

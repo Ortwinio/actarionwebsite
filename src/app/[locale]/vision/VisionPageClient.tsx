@@ -338,3 +338,8 @@ export default function VisionPageClient({ locale }: VisionPageClientProps) {
   );
 }
 
+
+
+
+
+

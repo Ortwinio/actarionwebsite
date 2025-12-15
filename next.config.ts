@@ -192,18 +192,18 @@ const nextConfig: NextConfig = {
     // In development, proxy to local ROI calculator on port 3001
     const roiCalculatorDestination = process.env.NODE_ENV === 'development'
       ? 'http://localhost:3001'
-      : 'https://actarion-roi-calculator.vercel.app';
+      : 'https://roicalculator.actarion.com';
     
     return {
       beforeFiles: [
-        // Proxy ROI calculator pages and assets (basePath: /roi-calculator)
+        // Proxy ROI calculator pages and assets
         {
           source: '/roi-calculator',
-          destination: `${roiCalculatorDestination}/roi-calculator`,
+          destination: roiCalculatorDestination,
         },
         {
           source: '/roi-calculator/:path*',
-          destination: `${roiCalculatorDestination}/roi-calculator/:path*`,
+          destination: `${roiCalculatorDestination}/:path*`,
         },
       ],
     };
