@@ -140,7 +140,7 @@ export function Footer({ locale, dictionary }: FooterProps) {
               <Link href={contactHref}>{dictionary.navigation?.contact || "Contact"}</Link>
             </li>
             <li>
-              <a href="/roi-calculator">
+              <a href="https://roicalculator.actarion.com" target="_blank" rel="noopener noreferrer">
                 {dictionary.footer?.roiCalculator || "ROI Calculator"}
               </a>
             </li>

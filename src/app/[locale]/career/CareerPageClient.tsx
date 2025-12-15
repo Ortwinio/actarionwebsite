@@ -12,6 +12,11 @@ import {
   UsersIcon,
 } from "@heroicons/react/24/outline";
 import { buildLocalizedPath, Locale } from "../../../config/site";
+import {
+  CAREER_FORM_ENDPOINT,
+  RATE_LIMIT_KEYS,
+  RATE_LIMIT_DURATION,
+} from "../../../config/loopsForms";
 
 interface CareerPageClientProps {
   locale: Locale;
@@ -149,7 +154,7 @@ function JobCard({ job }: { job: Job }) {
   const [formErrors, setFormErrors] = useState<Partial<JobFormData>>({});
   const [isApplying, setIsApplying] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [status, setStatus] = useState<"idle" | "success" | "error">("idle");
+  const [status, setStatus] = useState<"idle" | "success" | "error" | "ratelimited">("idle");
   const [statusMessage, setStatusMessage] = useState("");
 
   const validateForm = () => {
@@ -182,24 +187,47 @@ function JobCard({ job }: { job: Job }) {
       return;
     }
 
+    // Rate limiting
+    const now = Date.now();
+    const previous = localStorage.getItem(RATE_LIMIT_KEYS.career);
+    if (previous && Number(previous) + RATE_LIMIT_DURATION > now) {
+      setStatus("ratelimited");
+      setStatusMessage("Too many submissions. Please try again in a moment.");
+      return;
+    }
+
+    localStorage.setItem(RATE_LIMIT_KEYS.career, String(now));
     setIsSubmitting(true);
     setStatus("idle");
     setStatusMessage("");
 
     try {
-      const response = await fetch("/api/apply", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          ...formData,
-          position: job.title,
-        }),
+      const body = new URLSearchParams({
+        email: formData.email,
+        name: formData.name,
+        phone: formData.phone,
+        linkedin: formData.linkedin,
+        motivation: formData.motivation,
+        position: job.title,
+        userGroup: "",
+        mailingLists: "",
       });
 
+      const response = await fetch(CAREER_FORM_ENDPOINT, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+        body: body.toString(),
+      });
+
+      const data = await response
+        .clone()
+        .json()
+        .catch(() => ({} as Record<string, string>));
+
       if (!response.ok) {
-        throw new Error("Failed to submit application");
+        throw new Error(data?.message || response.statusText);
       }
 
       setFormData({
@@ -215,11 +243,19 @@ function JobCard({ job }: { job: Job }) {
         "Thank you for your application. We will review your profile and get back to you as soon as possible."
       );
     } catch (error) {
+      const err = error as Error;
+      if (err?.message === "Failed to fetch") {
+        setStatus("ratelimited");
+        setStatusMessage("Too many submissions. Please try again in a moment.");
+        return;
+      }
+
       console.error("Job application error:", error);
       setStatus("error");
       setStatusMessage(
-        "Something went wrong while sending your application. Please try again."
+        err?.message || "Something went wrong while sending your application. Please try again."
       );
+      localStorage.removeItem(RATE_LIMIT_KEYS.career);
     } finally {
       setIsSubmitting(false);
     }

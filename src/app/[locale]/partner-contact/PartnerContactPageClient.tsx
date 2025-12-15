@@ -2,9 +2,16 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { buildLocalizedPath, Locale } from "../../../config/site";
 import { partners, getPartnersByType, Partner } from "../../../config/partners";
+import {
+  PARTNER_CONTACT_FORM_ENDPOINT,
+  RATE_LIMIT_KEYS,
+  RATE_LIMIT_DURATION,
+} from "../../../config/loopsForms";
+
+type FormStatus = "idle" | "loading" | "success" | "error" | "ratelimited";
 
 interface PartnerContactPageClientProps {
   locale: Locale;
@@ -67,16 +74,93 @@ export default function PartnerContactPageClient({
   locale,
   dictionary,
 }: PartnerContactPageClientProps) {
-  const [isSubmitted, setIsSubmitted] = useState(false);
-  const [isClient, setIsClient] = useState(false);
+  const [status, setStatus] = useState<FormStatus>("idle");
+  const [statusMessage, setStatusMessage] = useState("");
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    company: "",
+    phone: "",
+    partnerType: "",
+    message: "",
+  });
 
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
+  const handleInputChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
+  ) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setIsSubmitted(true);
+
+    // Rate limiting
+    const now = Date.now();
+    const previous = localStorage.getItem(RATE_LIMIT_KEYS.partnerContact);
+    if (previous && Number(previous) + RATE_LIMIT_DURATION > now) {
+      setStatus("ratelimited");
+      setStatusMessage("Too many submissions. Please try again in a moment.");
+      return;
+    }
+
+    localStorage.setItem(RATE_LIMIT_KEYS.partnerContact, String(now));
+    setStatus("loading");
+    setStatusMessage("");
+
+    try {
+      const body = new URLSearchParams({
+        email: formData.email,
+        name: formData.name,
+        company: formData.company,
+        phone: formData.phone,
+        partnerType: formData.partnerType,
+        message: formData.message,
+        userGroup: "",
+        mailingLists: "",
+      });
+
+      const response = await fetch(PARTNER_CONTACT_FORM_ENDPOINT, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+        body: body.toString(),
+      });
+
+      const data = await response
+        .clone()
+        .json()
+        .catch(() => ({} as Record<string, string>));
+
+      if (!response.ok) {
+        throw new Error(data?.message || response.statusText);
+      }
+
+      setStatus("success");
+      setFormData({
+        name: "",
+        email: "",
+        company: "",
+        phone: "",
+        partnerType: "",
+        message: "",
+      });
+    } catch (error) {
+      const err = error as Error;
+      if (err?.message === "Failed to fetch") {
+        setStatus("ratelimited");
+        setStatusMessage("Too many submissions. Please try again in a moment.");
+        return;
+      }
+
+      setStatus("error");
+      setStatusMessage(err?.message || "Something went wrong. Please try again.");
+      localStorage.removeItem(RATE_LIMIT_KEYS.partnerContact);
+    }
   };
 
   const technologyPartners = getPartnersByType("technology");
@@ -169,7 +253,7 @@ export default function PartnerContactPageClient({
           </div>
 
           <div className="card p-8 text-slate-900">
-            {!isSubmitted && isClient ? (
+            {status !== "success" ? (
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
@@ -183,6 +267,8 @@ export default function PartnerContactPageClient({
                       type="text"
                       id="name"
                       name="name"
+                      value={formData.name}
+                      onChange={handleInputChange}
                       required
                       className="w-full px-4 py-3 bg-white border border-slate-200 rounded-lg text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-actarion-blue/40 focus:border-actarion-blue/60"
                       placeholder={dictionary.pages.partnerContact.form.name}
@@ -199,6 +285,8 @@ export default function PartnerContactPageClient({
                       type="email"
                       id="email"
                       name="email"
+                      value={formData.email}
+                      onChange={handleInputChange}
                       required
                       className="w-full px-4 py-3 bg-white border border-slate-200 rounded-lg text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-actarion-blue/40 focus:border-actarion-blue/60"
                       placeholder={dictionary.pages.partnerContact.form.email}
@@ -217,6 +305,8 @@ export default function PartnerContactPageClient({
                       type="text"
                       id="company"
                       name="company"
+                      value={formData.company}
+                      onChange={handleInputChange}
                       required
                       className="w-full px-4 py-3 bg-white border border-slate-200 rounded-lg text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-actarion-blue/40 focus:border-actarion-blue/60"
                       placeholder={dictionary.pages.partnerContact.form.company}
@@ -233,6 +323,8 @@ export default function PartnerContactPageClient({
                       type="tel"
                       id="phone"
                       name="phone"
+                      value={formData.phone}
+                      onChange={handleInputChange}
                       className="w-full px-4 py-3 bg-white border border-slate-200 rounded-lg text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-actarion-blue/40 focus:border-actarion-blue/60"
                       placeholder={dictionary.pages.partnerContact.form.phone}
                     />
@@ -248,6 +340,8 @@ export default function PartnerContactPageClient({
                   <select
                     id="partnerType"
                     name="partnerType"
+                    value={formData.partnerType}
+                    onChange={handleInputChange}
                     className="w-full px-4 py-3 bg-white border border-slate-200 rounded-lg text-slate-900 focus:outline-none focus:ring-2 focus:ring-actarion-blue/40 focus:border-actarion-blue/60"
                   >
                     <option value="">{dictionary.pages?.partnerContact?.form?.partnerTypePlaceholder || "Select a partnership type"}</option>
@@ -268,21 +362,29 @@ export default function PartnerContactPageClient({
                     id="message"
                     name="message"
                     rows={6}
+                    value={formData.message}
+                    onChange={handleInputChange}
                     required
                     className="w-full px-4 py-3 bg-white border border-slate-200 rounded-lg text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-actarion-blue/40 focus:border-actarion-blue/60"
                     placeholder={dictionary.pages.partnerContact.form.message}
                   ></textarea>
                 </div>
+
+                {(status === "error" || status === "ratelimited") && (
+                  <p className="text-red-500 text-sm text-center">{statusMessage}</p>
+                )}
+
                 <div className="text-center">
                   <button
                     type="submit"
-                    className="btn btn-primary btn-pill px-8 py-3 text-lg"
+                    disabled={status === "loading"}
+                    className="btn btn-primary btn-pill px-8 py-3 text-lg disabled:opacity-70 disabled:cursor-not-allowed"
                   >
-                    {dictionary.pages.partnerContact.form.submit}
+                    {status === "loading" ? "Sending..." : dictionary.pages.partnerContact.form.submit}
                   </button>
                 </div>
               </form>
-            ) : isSubmitted ? (
+            ) : (
               <div className="text-center py-8">
                 <div className="text-6xl mb-4">✅</div>
                 <h2 className="text-2xl font-bold text-actarion-blue mb-4">
@@ -294,10 +396,6 @@ export default function PartnerContactPageClient({
                 >
                   {dictionary.pages.partnerContact.backToHome}
                 </Link>
-              </div>
-            ) : (
-              <div className="text-center py-8">
-                <div className="animate-pulse">Loading...</div>
               </div>
             )}
           </div>

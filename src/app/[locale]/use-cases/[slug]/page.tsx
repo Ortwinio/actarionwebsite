@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { UseCaseCta } from "../../../../components/UseCaseCta";
+import YouTubeEmbed from "../../../../components/media/YouTubeEmbed";
 import {
   buildPageMetadata,
   buildTechArticleSchema,
@@ -16,6 +17,7 @@ import {
   getUseCaseContent,
   RelatedBlogPost,
 } from "../../../../config/useCaseContent";
+import { useCaseVideosBySlug } from "../../../../config/useCaseVideos";
 import { getDictionary } from "../../../../lib/getDictionary";
 
 interface PageParams {
@@ -152,6 +154,14 @@ export default async function UseCaseDetailPage({ params }: PageParams) {
   const [firstParagraph, ...restParagraphs] = content.heroParagraphs;
   const subtitle = firstParagraph || useCase.metaDescription;
 
+  // Get YouTube video for this use case
+  const video = useCaseVideosBySlug[slug];
+
+  // Dev-only warning for missing video mappings
+  if (process.env.NODE_ENV !== "production" && !video) {
+    console.warn(`[UseCase] Missing YouTube video mapping for slug: ${slug}`);
+  }
+
   // Localized labels
   const furtherReadingLabel = typedLocale === 'de' ? 'Weiterführende Lektüre' : typedLocale === 'nl' ? 'Verder lezen' : 'Further reading';
   const exploreArticlesLabel = typedLocale === 'de' 
@@ -228,6 +238,13 @@ export default async function UseCaseDetailPage({ params }: PageParams) {
               </div>
             )}
           </section>
+
+          {/* YouTube video embed */}
+          {video && (
+            <section aria-label="Use case video" className="mt-6">
+              <YouTubeEmbed videoId={video.id} title={video.title} />
+            </section>
+          )}
 
           {content.sections.map((section) => (
             <section key={section.title} className="card space-y-3">

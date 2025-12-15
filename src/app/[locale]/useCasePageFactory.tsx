@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { PageHeader } from "@/components/PageHeader";
 import { UseCaseCta } from "../../components/UseCaseCta";
+import YouTubeEmbed from "../../components/media/YouTubeEmbed";
 import {
   buildPageMetadata,
   buildTechArticleSchema,
@@ -14,6 +15,7 @@ import {
   UseCaseContentBlock,
   getUseCaseContent,
 } from "../../config/useCaseContent";
+import { useCaseVideosBySlug } from "../../config/useCaseVideos";
 
 interface PageParams {
   params: Promise<{
@@ -115,6 +117,14 @@ export function createUseCasePage(slug: UseCaseSlug) {
     const [firstParagraph, ...restParagraphs] = content.heroParagraphs;
     const subtitle = firstParagraph || useCase.metaDescription;
 
+    // Get YouTube video for this use case
+    const video = useCaseVideosBySlug[slug];
+
+    // Dev-only warning for missing video mappings
+    if (process.env.NODE_ENV !== "production" && !video) {
+      console.warn(`[UseCase] Missing YouTube video mapping for slug: ${slug}`);
+    }
+
     return (
       <>
         <PageHeader
@@ -137,6 +147,13 @@ export function createUseCasePage(slug: UseCaseSlug) {
                     {paragraph}
                   </p>
                 ))}
+              </section>
+            )}
+
+            {/* YouTube video embed */}
+            {video && (
+              <section aria-label="Use case video" className="mt-6">
+                <YouTubeEmbed videoId={video.id} title={video.title} />
               </section>
             )}
 

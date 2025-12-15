@@ -1,10 +1,11 @@
 "use client";
 
 import { FormEvent, useMemo, useState } from "react";
-
-const NEWSLETTER_ENDPOINT =
-  "https://app.loops.so/api/newsletter-form/cmi5y114d29deyo0iswg4bm00";
-const LOCAL_STORAGE_KEY = "loops-form-timestamp";
+import {
+  NEWSLETTER_FORM_ENDPOINT,
+  RATE_LIMIT_KEYS,
+  RATE_LIMIT_DURATION,
+} from "../config/loopsForms";
 
 type Status = "idle" | "loading" | "success" | "error" | "ratelimited";
 
@@ -46,14 +47,14 @@ export function NewsletterForm({ copy }: NewsletterFormProps) {
     setMessage(mergedCopy.errorMessage);
 
     const now = Date.now();
-    const previous = localStorage.getItem(LOCAL_STORAGE_KEY);
-    if (previous && Number(previous) + 60000 > now) {
+    const previous = localStorage.getItem(RATE_LIMIT_KEYS.newsletter);
+    if (previous && Number(previous) + RATE_LIMIT_DURATION > now) {
       setStatus("ratelimited");
       setMessage(mergedCopy.rateLimitedMessage);
       return;
     }
 
-    localStorage.setItem(LOCAL_STORAGE_KEY, String(now));
+    localStorage.setItem(RATE_LIMIT_KEYS.newsletter, String(now));
     setStatus("loading");
 
     try {
@@ -63,7 +64,7 @@ export function NewsletterForm({ copy }: NewsletterFormProps) {
         email,
       });
 
-      const response = await fetch(NEWSLETTER_ENDPOINT, {
+      const response = await fetch(NEWSLETTER_FORM_ENDPOINT, {
         method: "POST",
         headers: {
           "Content-Type": "application/x-www-form-urlencoded",
@@ -92,7 +93,7 @@ export function NewsletterForm({ copy }: NewsletterFormProps) {
 
       setStatus("error");
       setMessage(err?.message || mergedCopy.errorMessage);
-      localStorage.removeItem(LOCAL_STORAGE_KEY);
+      localStorage.removeItem(RATE_LIMIT_KEYS.newsletter);
     }
   };
 

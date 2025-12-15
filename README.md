@@ -49,15 +49,22 @@ A modern, responsive website for ActARion - Revolutionizing SOP Execution with A
 
 ## 🔑 Environment Variables
 
-Create a `.env.local` file (Next.js loads it automatically) with the credentials below so form submissions can send email:
+Create a `.env.local` file (Next.js loads it automatically) with the credentials below:
 
-```
-RESEND_API_KEY=your_resend_api_key
-# Optional: overrides the default "ActARion Careers <careers@actarion.com>" sender
-RESEND_FROM_EMAIL="ActARion Careers <careers@actarion.com>"
+```bash
+# Loops.so integration for newsletter and forms
+LOOPS_API_KEY=your_loops_api_key
+LOOPS_NEWSLETTERS_LIST_ID=your_newsletters_list_id
 ```
 
-> The `/api/apply` route uses [Resend](https://resend.com/) to email incoming job applications to `ortwin@actarion.com`. Make sure the `RESEND_FROM_EMAIL` domain is verified in Resend before deploying to production.
+### Getting the Loops configuration
+
+1. **LOOPS_API_KEY**: Get from [Loops Dashboard](https://app.loops.so/) → Settings → API Keys
+2. **LOOPS_NEWSLETTERS_LIST_ID**: Get the list ID for "Newsletters" via:
+   - **Option A (API)**: Run `curl -sS -X POST "https://app.loops.so/api/v1/mailing-lists/list" -H "Authorization: Bearer $LOOPS_API_KEY"` and find the list with `"name": "Newsletters"`
+   - **Option B (UI)**: Open Loops → Mailing Lists → "Newsletters" and copy the list ID
+
+> These variables are used by `/api/loops/subscribe` for newsletter signups and form submissions. The API key is server-only and never exposed to the client.
 
 ## 🎬 Video Setup
 

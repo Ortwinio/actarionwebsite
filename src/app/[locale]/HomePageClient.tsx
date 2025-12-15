@@ -73,69 +73,10 @@ interface HomePageClientProps {
 }
 
 export default function HomePageClient({ locale, dictionary }: HomePageClientProps) {
-  const [isClient, setIsClient] = useState(false);
-  const [promoEnabled, setPromoEnabled] = useState(false);
-  const [promoDismissed, setPromoDismissed] = useState(false);
-  const [isNearFooter, setIsNearFooter] = useState(false);
-  const shouldShowPromo = promoEnabled && !promoDismissed && !isNearFooter;
   const normalizedLocale = getValidLocale(locale);
   const localizedUseCasesHref = buildLocalizedPath(normalizedLocale, "use-cases");
   const contactHref = buildLocalizedPath(normalizedLocale, "contact");
   const partnerContactHref = buildLocalizedPath(normalizedLocale, "partner-contact");
-
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
-
-
-
-  // Timed promo popup (3s after mount)
-  useEffect(() => {
-    if (!isClient) return;
-    let timer: ReturnType<typeof setTimeout> | null = null;
-
-    let dismissed = false;
-    try {
-      dismissed = sessionStorage.getItem('promoPopupDismissed') === 'true';
-      setPromoDismissed(dismissed);
-    } catch {
-      dismissed = false;
-    }
-
-    if (dismissed) {
-      return;
-    }
-
-    timer = setTimeout(() => setPromoEnabled(true), 3000);
-    return () => {
-      if (timer) {
-        clearTimeout(timer);
-      }
-    };
-  }, [isClient]);
-
-  useEffect(() => {
-    if (!isClient || promoDismissed) return;
-
-    const handleScroll = () => {
-      const docHeight = document.body?.scrollHeight ?? 0;
-      if (!docHeight) return;
-      const scrollPosition = window.innerHeight + window.scrollY;
-      const nearFooter = scrollPosition >= docHeight - 320;
-      setIsNearFooter((prev) => (prev !== nearFooter ? nearFooter : prev));
-    };
-
-    handleScroll();
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, [isClient, promoDismissed]);
-
-  const dismissPromoPopup = () => {
-    setPromoEnabled(false);
-    setPromoDismissed(true);
-    try { sessionStorage.setItem('promoPopupDismissed', 'true'); } catch {}
-  };
-
 
   // Animation refs
   const [heroRef, heroControls] = useInView(0.2);
@@ -496,55 +437,6 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
         </div>
       </motion.section>
 
-      {/* Timed Promo Popup */}
-      <div
-        className={`fixed left-4 right-4 bottom-4 sm:left-auto sm:right-6 sm:bottom-6 z-[10000] transition-all duration-300 ${
-          shouldShowPromo ? 'opacity-100 translate-y-0' : 'pointer-events-none opacity-0 translate-y-2'
-        }`}
-      >
-        <div className="summary summary--floating relative w-full sm:w-[360px]">
-            <button
-            type="button"
-            aria-label="Close"
-            onClick={dismissPromoPopup}
-            className="absolute top-2 right-2 text-slate-500 hover:text-slate-700"
-          >
-            ×
-          </button>
-          <div className="text-slate-900 font-semibold text-lg mb-2">
-            {dictionary?.promoPopup?.title || (
-              locale === 'de'
-                ? 'Erfahren Sie, wie ActARion digitale Transformation und Qualitätssicherung ermöglicht.'
-                : locale === 'nl'
-                ? 'Leer hoe ActARion digitale transformatie en kwaliteitsborging mogelijk maakt.'
-                : 'Learn how ActARion enables digital transformation and quality assurance.'
-            )}
-          </div>
-          <p className="text-slate-600 mb-4">
-            {dictionary?.promoPopup?.description || (
-              locale === 'de'
-                ? 'Fordern Sie unser zweiseitiges Infoblatt für die wichtigsten Einblicke an.'
-                : locale === 'nl'
-                ? 'Vraag onze two‑pager aan voor de belangrijkste inzichten.'
-                : 'Request our two-pager for key insights.'
-            )}
-          </p>
-          <a
-            href="https://eu1.hubs.ly/H0mpm0k0"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-primary w-full justify-center"
-          >
-            {dictionary?.promoPopup?.cta || (
-              locale === 'de'
-                ? 'Infoblatt herunterladen'
-                : locale === 'nl'
-                ? 'Two‑pager downloaden'
-                : 'Download the two‑pager'
-            )}
-          </a>
-        </div>
-      </div>
     </main>
   );
 } 

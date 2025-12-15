@@ -1,8 +1,15 @@
 "use client";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { buildLocalizedPath, Locale } from "../../../config/site";
+import {
+  CONTACT_FORM_ENDPOINT,
+  RATE_LIMIT_KEYS,
+  RATE_LIMIT_DURATION,
+} from "../../../config/loopsForms";
+
+type FormStatus = "idle" | "loading" | "success" | "error" | "ratelimited";
 
 interface ContactPageClientProps {
   locale: Locale;
@@ -10,8 +17,8 @@ interface ContactPageClientProps {
 }
 
 export default function ContactPageClient({ locale, dictionary }: ContactPageClientProps) {
-  const [isSubmitted, setIsSubmitted] = useState(false);
-  const [isClient, setIsClient] = useState(false);
+  const [status, setStatus] = useState<FormStatus>("idle");
+  const [statusMessage, setStatusMessage] = useState("");
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -24,10 +31,6 @@ export default function ContactPageClient({ locale, dictionary }: ContactPageCli
     privacyConsent: false
   });
   const [errors, setErrors] = useState<{[key: string]: string}>({});
-
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value, type } = e.target;
@@ -60,13 +63,80 @@ export default function ContactPageClient({ locale, dictionary }: ContactPageCli
     return Object.keys(newErrors).length === 0;
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
-    if (validateForm()) {
-      // Here you would typically send the form data to your backend
-      console.log('Form submitted:', formData);
-      setIsSubmitted(true);
+    if (!validateForm()) {
+      return;
+    }
+
+    // Rate limiting
+    const now = Date.now();
+    const previous = localStorage.getItem(RATE_LIMIT_KEYS.contact);
+    if (previous && Number(previous) + RATE_LIMIT_DURATION > now) {
+      setStatus("ratelimited");
+      setStatusMessage("Too many submissions. Please try again in a moment.");
+      return;
+    }
+
+    localStorage.setItem(RATE_LIMIT_KEYS.contact, String(now));
+    setStatus("loading");
+    setStatusMessage("");
+
+    try {
+      const body = new URLSearchParams({
+        email: formData.email,
+        firstName: formData.firstName,
+        lastName: formData.lastName,
+        company: formData.company,
+        topic: formData.topic,
+        message: formData.message,
+        phone: formData.phone,
+        country: formData.country,
+        userGroup: "",
+        mailingLists: "",
+      });
+
+      const response = await fetch(CONTACT_FORM_ENDPOINT, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+        body: body.toString(),
+      });
+
+      const data = await response
+        .clone()
+        .json()
+        .catch(() => ({} as Record<string, string>));
+
+      if (!response.ok) {
+        throw new Error(data?.message || response.statusText);
+      }
+
+      setStatus("success");
+      setFormData({
+        firstName: '',
+        lastName: '',
+        email: '',
+        company: '',
+        topic: '',
+        message: '',
+        phone: '',
+        country: '',
+        privacyConsent: false
+      });
+    } catch (error) {
+      const err = error as Error;
+      if (err?.message === "Failed to fetch") {
+        setStatus("ratelimited");
+        setStatusMessage("Too many submissions. Please try again in a moment.");
+        return;
+      }
+
+      setStatus("error");
+      setStatusMessage(err?.message || "Something went wrong. Please try again.");
+      localStorage.removeItem(RATE_LIMIT_KEYS.contact);
     }
   };
 
@@ -210,7 +280,7 @@ export default function ContactPageClient({ locale, dictionary }: ContactPageCli
             >
               <h2 className="section-subheading text-actarion-blue">Contact form</h2>
               
-              {!isSubmitted ? (
+              {status !== "success" ? (
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
@@ -390,18 +460,23 @@ export default function ContactPageClient({ locale, dictionary }: ContactPageCli
                     <p className="text-red-500 text-sm mt-1">{errors.privacyConsent}</p>
                   )}
 
+                  {(status === "error" || status === "ratelimited") && (
+                    <p className="text-red-500 text-sm">{statusMessage}</p>
+                  )}
+
                   <button
                     type="submit"
-                    className="btn btn-primary w-full justify-center"
+                    disabled={status === "loading"}
+                    className="btn btn-primary w-full justify-center disabled:opacity-70 disabled:cursor-not-allowed"
                   >
-                    Send
+                    {status === "loading" ? "Sending..." : "Send"}
                   </button>
                 </form>
               ) : (
                 <div className="text-center py-8">
                   <div className="text-6xl mb-4">✅</div>
                   <h2 className="section-subheading text-actarion-blue mb-4">
-                    Thanks! We'll get back to you within 1–2 business days.
+                    Thanks! We&apos;ll get back to you within 1–2 business days.
                   </h2>
                   <Link
                     href={buildLocalizedPath(locale)}
