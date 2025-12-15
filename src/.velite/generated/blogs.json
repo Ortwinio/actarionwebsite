@@ -26046,6 +26046,114 @@
     }
   },
   {
+    "title": "AR SOPs: The Next Frontier in Manufacturing Excellence",
+    "description": "Discover how Augmented Reality is revolutionizing Standard Operating Procedures, making them more accessible, safer, and more efficient than ever before.",
+    "image": {
+      "src": "/blogs/ar-sops-next-frontier.png",
+      "alt": "AR SOPs: The Next Frontier in Manufacturing Excellence"
+    },
+    "publishedAt": "2025-01-15T09:00:00.000Z",
+    "updatedAt": "2025-01-15T09:00:00.000Z",
+    "author": "ActARion Team",
+    "tags": [
+      "ar",
+      "sop",
+      "manufacturing",
+      "innovation",
+      "safety"
+    ],
+    "isPublished": true,
+    "slug": "ar-sops-next-frontier",
+    "locale": "en",
+    "body": "const{Fragment:e,jsx:n,jsxs:i}=arguments[0];function _createMdxContent(r){const t={a:\"a\",em:\"em\",h2:\"h2\",h3:\"h3\",hr:\"hr\",li:\"li\",ol:\"ol\",p:\"p\",span:\"span\",strong:\"strong\",ul:\"ul\",...r.components};return i(e,{children:[n(t.p,{children:\"In today's rapidly evolving manufacturing landscape, the traditional approach to Standard Operating Procedures (SOPs) is being transformed by Augmented Reality technology. At ActARion, we're at the forefront of this revolution, helping companies bridge the gap between procedure and performance.\"}),\"\\n\",i(t.h2,{id:\"the-challenge-with-traditional-sops\",children:[\"The Challenge with Traditional SOPs\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#the-challenge-with-traditional-sops\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"Traditional SOPs often exist as static documents—PDFs, printed manuals, or digital files that workers must reference during their tasks. This approach has several limitations:\"}),\"\\n\",i(t.ul,{children:[\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Context switching\"}),\": Workers must look away from their work to read instructions\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Cognitive load\"}),\": Processing text while performing complex tasks\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Update delays\"}),\": Manual updates and distribution of new procedures\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Language barriers\"}),\": Difficulty in supporting multilingual workforces\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Safety risks\"}),\": Hands-free operation becomes challenging\"]}),\"\\n\"]}),\"\\n\",i(t.h2,{id:\"how-ar-transforms-sops\",children:[\"How AR Transforms SOPs\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#how-ar-transforms-sops\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"Augmented Reality addresses these challenges by overlaying digital information directly onto the real world, creating an intuitive and interactive experience.\"}),\"\\n\",i(t.h3,{id:\"1-visual-guidance\",children:[\"1. \",n(t.strong,{children:\"Visual Guidance\"}),n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#1-visual-guidance\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"AR displays step-by-step instructions as visual overlays, showing exactly where to place components, which tools to use, and what to check. This eliminates the need for workers to interpret text-based instructions.\"}),\"\\n\",i(t.h3,{id:\"2-hands-free-operation\",children:[\"2. \",n(t.strong,{children:\"Hands-Free Operation\"}),n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#2-hands-free-operation\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"With AR glasses or tablets, workers can access SOPs without using their hands, maintaining safety and efficiency in critical operations.\"}),\"\\n\",i(t.h3,{id:\"3-real-time-validation\",children:[\"3. \",n(t.strong,{children:\"Real-Time Validation\"}),n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#3-real-time-validation\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"AR systems can validate each step in real-time, ensuring procedures are followed correctly and catching errors before they become problems.\"}),\"\\n\",i(t.h3,{id:\"4-multilingual-support\",children:[\"4. \",n(t.strong,{children:\"Multilingual Support\"}),n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#4-multilingual-support\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"Visual instructions transcend language barriers, making training and procedures accessible to diverse workforces.\"}),\"\\n\",i(t.h2,{id:\"real-world-applications\",children:[\"Real-World Applications\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#real-world-applications\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",i(t.h3,{id:\"manufacturing-assembly\",children:[\"Manufacturing Assembly\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#manufacturing-assembly\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"In automotive manufacturing, AR SOPs guide workers through complex assembly processes, showing exact placement of components and required torque specifications.\"}),\"\\n\",i(t.h3,{id:\"quality-control\",children:[\"Quality Control\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#quality-control\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"AR overlays highlight inspection points and acceptable tolerances, ensuring consistent quality across all products.\"}),\"\\n\",i(t.h3,{id:\"maintenance-procedures\",children:[\"Maintenance Procedures\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#maintenance-procedures\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"Technicians receive guided maintenance instructions with 3D models showing internal components and step-by-step procedures.\"}),\"\\n\",i(t.h3,{id:\"safety-protocols\",children:[\"Safety Protocols\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#safety-protocols\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"Emergency procedures and safety checks are displayed contextually, ensuring workers follow protocols even under pressure.\"}),\"\\n\",i(t.h2,{id:\"the-actarion-advantage\",children:[\"The ActARion Advantage\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#the-actarion-advantage\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"Our platform goes beyond simple AR visualization. We provide:\"}),\"\\n\",i(t.ul,{children:[\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Intelligent Workflows\"}),\": SOPs that adapt to different skill levels and experience\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Analytics Integration\"}),\": Track performance and identify improvement opportunities\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Seamless Updates\"}),\": Push new procedures instantly across all devices\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Offline Capability\"}),\": Work continues even without internet connectivity\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Integration Ready\"}),\": Connects with existing MES, ERP, and quality systems\"]}),\"\\n\"]}),\"\\n\",i(t.h2,{id:\"measuring-the-impact\",children:[\"Measuring the Impact\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#measuring-the-impact\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"Companies implementing AR SOPs report:\"}),\"\\n\",i(t.ul,{children:[\"\\n\",i(t.li,{children:[n(t.strong,{children:\"30-50% reduction\"}),\" in training time\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"25-40% improvement\"}),\" in first-time quality\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"60-80% reduction\"}),\" in procedure-related errors\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Significant improvements\"}),\" in worker confidence and satisfaction\"]}),\"\\n\"]}),\"\\n\",i(t.h2,{id:\"getting-started\",children:[\"Getting Started\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#getting-started\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"The transition to AR SOPs doesn't require a complete overhaul of existing procedures. Our approach includes:\"}),\"\\n\",i(t.ol,{children:[\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Assessment\"}),\": Evaluate current SOPs and identify high-impact opportunities\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Pilot Program\"}),\": Start with a single process or work cell\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Iterative Improvement\"}),\": Refine and expand based on results\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Full Deployment\"}),\": Scale successful implementations across the organization\"]}),\"\\n\"]}),\"\\n\",i(t.h2,{id:\"the-future-of-work\",children:[\"The Future of Work\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#the-future-of-work\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"As we move toward Industry 4.0 and smart manufacturing, AR SOPs represent more than just a technological upgrade—they represent a fundamental shift in how we think about work instructions and human-machine interaction.\"}),\"\\n\",n(t.p,{children:\"The future belongs to companies that can adapt quickly, maintain high quality, and empower their workforce with the right tools. AR SOPs are not just the next frontier; they're the foundation of tomorrow's manufacturing excellence.\"}),\"\\n\",n(t.hr,{}),\"\\n\",n(t.p,{children:i(t.em,{children:[\"Ready to transform your SOPs with AR? \",n(t.a,{href:\"/en/contact\",children:\"Contact us\"}),\" to learn how ActARion can help you implement AR-powered work instructions in your facility.\"]})})]})}return{default:function(e={}){const{wrapper:i}=e.components||{};return i?n(i,{...e,children:n(_createMdxContent,{...e})}):_createMdxContent(e)}};",
+    "toc": [
+      {
+        "title": "The Challenge with Traditional SOPs",
+        "url": "#the-challenge-with-traditional-sops",
+        "items": []
+      },
+      {
+        "title": "How AR Transforms SOPs",
+        "url": "#how-ar-transforms-sops",
+        "items": [
+          {
+            "title": "1. undefinedVisual Guidance",
+            "url": "#1-visual-guidance",
+            "items": []
+          },
+          {
+            "title": "2. undefinedHands-Free Operation",
+            "url": "#2-hands-free-operation",
+            "items": []
+          },
+          {
+            "title": "3. undefinedReal-Time Validation",
+            "url": "#3-real-time-validation",
+            "items": []
+          },
+          {
+            "title": "4. undefinedMultilingual Support",
+            "url": "#4-multilingual-support",
+            "items": []
+          }
+        ]
+      },
+      {
+        "title": "Real-World Applications",
+        "url": "#real-world-applications",
+        "items": [
+          {
+            "title": "Manufacturing Assembly",
+            "url": "#manufacturing-assembly",
+            "items": []
+          },
+          {
+            "title": "Quality Control",
+            "url": "#quality-control",
+            "items": []
+          },
+          {
+            "title": "Maintenance Procedures",
+            "url": "#maintenance-procedures",
+            "items": []
+          },
+          {
+            "title": "Safety Protocols",
+            "url": "#safety-protocols",
+            "items": []
+          }
+        ]
+      },
+      {
+        "title": "The ActARion Advantage",
+        "url": "#the-actarion-advantage",
+        "items": []
+      },
+      {
+        "title": "Measuring the Impact",
+        "url": "#measuring-the-impact",
+        "items": []
+      },
+      {
+        "title": "Getting Started",
+        "url": "#getting-started",
+        "items": []
+      },
+      {
+        "title": "The Future of Work",
+        "url": "#the-future-of-work",
+        "items": []
+      }
+    ],
+    "url": "/blog/ar-sops-next-frontier",
+    "readingTime": {
+      "text": "3 min read",
+      "minutes": 2.535,
+      "time": 152100,
+      "words": 507
+    }
+  },
+  {
     "title": "The AR Training Revolution: Transforming Workforce Development",
     "description": "Explore how Augmented Reality is revolutionizing employee training, reducing costs, improving retention, and creating more engaging learning experiences.",
     "image": {
@@ -26208,111 +26316,47 @@
     }
   },
   {
-    "title": "AR SOPs: The Next Frontier in Manufacturing Excellence",
-    "description": "Discover how Augmented Reality is revolutionizing Standard Operating Procedures, making them more accessible, safer, and more efficient than ever before.",
+    "title": "Strategic partnership ActARion with Deep Sight ",
+    "description": "Under this agreement, ActARion becomes the authorized distributor of Deep Sight Technology in the DACH and BENELUX region.",
     "image": {
-      "src": "/blogs/ar-sops-next-frontier.png",
-      "alt": "AR SOPs: The Next Frontier in Manufacturing Excellence"
+      "src": "/blogs/partnership-deepsight-actarion.png",
+      "alt": "Strategic partnership ActARion with Deep Sight "
     },
-    "publishedAt": "2025-01-15T09:00:00.000Z",
-    "updatedAt": "2025-01-15T09:00:00.000Z",
-    "author": "ActARion Team",
+    "publishedAt": "2025-10-09T09:00:00.000Z",
+    "updatedAt": "2025-10-10T09:00:00.000Z",
+    "author": "Mark Dercksen",
     "tags": [
-      "ar",
-      "sop",
-      "manufacturing",
-      "innovation",
-      "safety"
+      "Partnership",
+      "Deep Sight ",
+      "Authorized distributor"
     ],
     "isPublished": true,
-    "slug": "ar-sops-next-frontier",
+    "slug": "partnership-deepsight",
     "locale": "en",
-    "body": "const{Fragment:e,jsx:n,jsxs:i}=arguments[0];function _createMdxContent(r){const t={a:\"a\",em:\"em\",h2:\"h2\",h3:\"h3\",hr:\"hr\",li:\"li\",ol:\"ol\",p:\"p\",span:\"span\",strong:\"strong\",ul:\"ul\",...r.components};return i(e,{children:[n(t.p,{children:\"In today's rapidly evolving manufacturing landscape, the traditional approach to Standard Operating Procedures (SOPs) is being transformed by Augmented Reality technology. At ActARion, we're at the forefront of this revolution, helping companies bridge the gap between procedure and performance.\"}),\"\\n\",i(t.h2,{id:\"the-challenge-with-traditional-sops\",children:[\"The Challenge with Traditional SOPs\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#the-challenge-with-traditional-sops\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"Traditional SOPs often exist as static documents—PDFs, printed manuals, or digital files that workers must reference during their tasks. This approach has several limitations:\"}),\"\\n\",i(t.ul,{children:[\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Context switching\"}),\": Workers must look away from their work to read instructions\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Cognitive load\"}),\": Processing text while performing complex tasks\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Update delays\"}),\": Manual updates and distribution of new procedures\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Language barriers\"}),\": Difficulty in supporting multilingual workforces\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Safety risks\"}),\": Hands-free operation becomes challenging\"]}),\"\\n\"]}),\"\\n\",i(t.h2,{id:\"how-ar-transforms-sops\",children:[\"How AR Transforms SOPs\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#how-ar-transforms-sops\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"Augmented Reality addresses these challenges by overlaying digital information directly onto the real world, creating an intuitive and interactive experience.\"}),\"\\n\",i(t.h3,{id:\"1-visual-guidance\",children:[\"1. \",n(t.strong,{children:\"Visual Guidance\"}),n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#1-visual-guidance\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"AR displays step-by-step instructions as visual overlays, showing exactly where to place components, which tools to use, and what to check. This eliminates the need for workers to interpret text-based instructions.\"}),\"\\n\",i(t.h3,{id:\"2-hands-free-operation\",children:[\"2. \",n(t.strong,{children:\"Hands-Free Operation\"}),n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#2-hands-free-operation\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"With AR glasses or tablets, workers can access SOPs without using their hands, maintaining safety and efficiency in critical operations.\"}),\"\\n\",i(t.h3,{id:\"3-real-time-validation\",children:[\"3. \",n(t.strong,{children:\"Real-Time Validation\"}),n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#3-real-time-validation\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"AR systems can validate each step in real-time, ensuring procedures are followed correctly and catching errors before they become problems.\"}),\"\\n\",i(t.h3,{id:\"4-multilingual-support\",children:[\"4. \",n(t.strong,{children:\"Multilingual Support\"}),n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#4-multilingual-support\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"Visual instructions transcend language barriers, making training and procedures accessible to diverse workforces.\"}),\"\\n\",i(t.h2,{id:\"real-world-applications\",children:[\"Real-World Applications\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#real-world-applications\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",i(t.h3,{id:\"manufacturing-assembly\",children:[\"Manufacturing Assembly\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#manufacturing-assembly\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"In automotive manufacturing, AR SOPs guide workers through complex assembly processes, showing exact placement of components and required torque specifications.\"}),\"\\n\",i(t.h3,{id:\"quality-control\",children:[\"Quality Control\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#quality-control\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"AR overlays highlight inspection points and acceptable tolerances, ensuring consistent quality across all products.\"}),\"\\n\",i(t.h3,{id:\"maintenance-procedures\",children:[\"Maintenance Procedures\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#maintenance-procedures\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"Technicians receive guided maintenance instructions with 3D models showing internal components and step-by-step procedures.\"}),\"\\n\",i(t.h3,{id:\"safety-protocols\",children:[\"Safety Protocols\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#safety-protocols\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"Emergency procedures and safety checks are displayed contextually, ensuring workers follow protocols even under pressure.\"}),\"\\n\",i(t.h2,{id:\"the-actarion-advantage\",children:[\"The ActARion Advantage\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#the-actarion-advantage\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"Our platform goes beyond simple AR visualization. We provide:\"}),\"\\n\",i(t.ul,{children:[\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Intelligent Workflows\"}),\": SOPs that adapt to different skill levels and experience\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Analytics Integration\"}),\": Track performance and identify improvement opportunities\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Seamless Updates\"}),\": Push new procedures instantly across all devices\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Offline Capability\"}),\": Work continues even without internet connectivity\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Integration Ready\"}),\": Connects with existing MES, ERP, and quality systems\"]}),\"\\n\"]}),\"\\n\",i(t.h2,{id:\"measuring-the-impact\",children:[\"Measuring the Impact\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#measuring-the-impact\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"Companies implementing AR SOPs report:\"}),\"\\n\",i(t.ul,{children:[\"\\n\",i(t.li,{children:[n(t.strong,{children:\"30-50% reduction\"}),\" in training time\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"25-40% improvement\"}),\" in first-time quality\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"60-80% reduction\"}),\" in procedure-related errors\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Significant improvements\"}),\" in worker confidence and satisfaction\"]}),\"\\n\"]}),\"\\n\",i(t.h2,{id:\"getting-started\",children:[\"Getting Started\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#getting-started\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"The transition to AR SOPs doesn't require a complete overhaul of existing procedures. Our approach includes:\"}),\"\\n\",i(t.ol,{children:[\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Assessment\"}),\": Evaluate current SOPs and identify high-impact opportunities\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Pilot Program\"}),\": Start with a single process or work cell\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Iterative Improvement\"}),\": Refine and expand based on results\"]}),\"\\n\",i(t.li,{children:[n(t.strong,{children:\"Full Deployment\"}),\": Scale successful implementations across the organization\"]}),\"\\n\"]}),\"\\n\",i(t.h2,{id:\"the-future-of-work\",children:[\"The Future of Work\",n(t.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#the-future-of-work\",children:n(t.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(t.p,{children:\"As we move toward Industry 4.0 and smart manufacturing, AR SOPs represent more than just a technological upgrade—they represent a fundamental shift in how we think about work instructions and human-machine interaction.\"}),\"\\n\",n(t.p,{children:\"The future belongs to companies that can adapt quickly, maintain high quality, and empower their workforce with the right tools. AR SOPs are not just the next frontier; they're the foundation of tomorrow's manufacturing excellence.\"}),\"\\n\",n(t.hr,{}),\"\\n\",n(t.p,{children:i(t.em,{children:[\"Ready to transform your SOPs with AR? \",n(t.a,{href:\"/en/contact\",children:\"Contact us\"}),\" to learn how ActARion can help you implement AR-powered work instructions in your facility.\"]})})]})}return{default:function(e={}){const{wrapper:i}=e.components||{};return i?n(i,{...e,children:n(_createMdxContent,{...e})}):_createMdxContent(e)}};",
+    "body": "const{Fragment:e,jsx:n,jsxs:t}=arguments[0];function _createMdxContent(i){const a={a:\"a\",h2:\"h2\",li:\"li\",p:\"p\",span:\"span\",strong:\"strong\",ul:\"ul\",...i.components};return t(e,{children:[n(a.p,{children:\"This partnership reinforces Deep Sight ’s ambition to accelerate growth in global markets and to extend its impact on industries such as manufacturing, logistics, and energy.\\nWith ActARion’s established network and expertise in the European market, Deep Sight is well-positioned to:\"}),\"\\n\",t(a.ul,{children:[\"\\n\",n(a.li,{children:n(a.strong,{children:\"Expand its commercial footprint across Europe, bringing AR training to more industrial clients\"})}),\"\\n\",n(a.li,{children:n(a.strong,{children:\"Strengthen local support to accelerate adoption and results\"})}),\"\\n\",n(a.li,{children:n(a.strong,{children:\"Build long-term collaborations with European manufacturers and technology leaders\"})}),\"\\n\"]}),\"\\n\",n(a.p,{children:\"“Europe is a critical growth market for Deep Sight , and partnering with ActARion enables us to bring our vision of smarter, safer, and more efficient training directly to European industries,” said Nicolas Bearzatto, President of Deep Sight . “This partnership marks a key step in our global growth strategy and highlights our commitment to building a strong, local presence in Europe and beyond.”\"}),\"\\n\",n(a.p,{children:\"“ActARion’s partnership with Deep Sight marks an important milestone in our shared journey to make continuous improvements with augmented reality and AI possible,” said Ortwin Verreck, Managing Partner of ActARion. “By joining forces with Deep Sight , we can accelerate the adoption of augmented reality solutions across Europe, helping industrial operators reduce errors, improve safety, and transfer knowledge more effectively.”\"}),\"\\n\",t(a.h2,{id:\"about-deep-sight--augmented-reality-inc\",children:[\"About Deep Sight – Augmented Reality Inc.\",n(a.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#about-deep-sight--augmented-reality-inc\",children:n(a.span,{className:\"icon icon-link\"})})]}),\"\\n\",t(a.p,{children:[\"Deep Sight delivers a solution that transforms operations, training, and technical documentation in the manufacturing industry. Its platform enables organizations to capture and transfer critical know-how\\neffectively, leveraging AI and augmented reality. \",n(a.a,{href:\"http://www.deepsight.ca\",children:\"www.deepsight.ca\"})]}),\"\\n\",t(a.h2,{id:\"about-actarion-bv\",children:[\"About ActARion B.V.\",n(a.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#about-actarion-bv\",children:n(a.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(a.p,{children:\"ActARion, is specialized in Process improvement with AI and Augmented Reality and the exclusive partner of Deep Sight in DACH and Benelux. Based in the Netherlands and Switzerland, the company helps European industrial leaders adopt and scale AI and augmented reality solutions for training, onboarding, troubleshooting, and operational excellence.\"}),\"\\n\",n(a.p,{children:n(a.a,{href:\"http://www.ActARion.com\",children:\"www.ActARion.com\"})}),\"\\n\",t(a.h2,{id:\"media-contact\",children:[\"Media Contact\",n(a.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#media-contact\",children:n(a.span,{className:\"icon icon-link\"})})]}),\"\\n\",t(a.p,{children:[\"Marie-Pascale Gravel\\nMarketing & Communication Lead, Deep Sight\\n\",n(a.a,{href:\"mailto:mgravel@deepsight.ca\",children:\"mgravel@deepsight.ca\"})]}),\"\\n\",t(a.p,{children:[\"Mark Dercksen\\nManaging Partner, Deep Sight Europe\\n\",n(a.a,{href:\"mailto:Mark@ActARion.com\",children:\"Mark@ActARion.com\"})]})]})}return{default:function(e={}){const{wrapper:t}=e.components||{};return t?n(t,{...e,children:n(_createMdxContent,{...e})}):_createMdxContent(e)}};",
     "toc": [
       {
-        "title": "The Challenge with Traditional SOPs",
-        "url": "#the-challenge-with-traditional-sops",
+        "title": "About Deep Sight – Augmented Reality Inc.",
+        "url": "#about-deep-sight--augmented-reality-inc",
         "items": []
       },
       {
-        "title": "How AR Transforms SOPs",
-        "url": "#how-ar-transforms-sops",
-        "items": [
-          {
-            "title": "1. undefinedVisual Guidance",
-            "url": "#1-visual-guidance",
-            "items": []
-          },
-          {
-            "title": "2. undefinedHands-Free Operation",
-            "url": "#2-hands-free-operation",
-            "items": []
-          },
-          {
-            "title": "3. undefinedReal-Time Validation",
-            "url": "#3-real-time-validation",
-            "items": []
-          },
-          {
-            "title": "4. undefinedMultilingual Support",
-            "url": "#4-multilingual-support",
-            "items": []
-          }
-        ]
-      },
-      {
-        "title": "Real-World Applications",
-        "url": "#real-world-applications",
-        "items": [
-          {
-            "title": "Manufacturing Assembly",
-            "url": "#manufacturing-assembly",
-            "items": []
-          },
-          {
-            "title": "Quality Control",
-            "url": "#quality-control",
-            "items": []
-          },
-          {
-            "title": "Maintenance Procedures",
-            "url": "#maintenance-procedures",
-            "items": []
-          },
-          {
-            "title": "Safety Protocols",
-            "url": "#safety-protocols",
-            "items": []
-          }
-        ]
-      },
-      {
-        "title": "The ActARion Advantage",
-        "url": "#the-actarion-advantage",
+        "title": "About ActARion B.V.",
+        "url": "#about-actarion-bv",
         "items": []
       },
       {
-        "title": "Measuring the Impact",
-        "url": "#measuring-the-impact",
-        "items": []
-      },
-      {
-        "title": "Getting Started",
-        "url": "#getting-started",
-        "items": []
-      },
-      {
-        "title": "The Future of Work",
-        "url": "#the-future-of-work",
+        "title": "Media Contact",
+        "url": "#media-contact",
         "items": []
       }
     ],
-    "url": "/blog/ar-sops-next-frontier",
+    "url": "/blog/partnership-deepsight",
     "readingTime": {
-      "text": "3 min read",
-      "minutes": 2.535,
-      "time": 152100,
-      "words": 507
+      "text": "2 min read",
+      "minutes": 1.475,
+      "time": 88500,
+      "words": 295
     }
   },
   {
@@ -26622,50 +26666,6 @@
       "minutes": 5.04,
       "time": 302400,
       "words": 1008
-    }
-  },
-  {
-    "title": "Strategic partnership ActARion with Deep Sight ",
-    "description": "Under this agreement, ActARion becomes the authorized distributor of Deep Sight Technology in the DACH and BENELUX region.",
-    "image": {
-      "src": "/blogs/partnership-deepsight-actarion.png",
-      "alt": "Strategic partnership ActARion with Deep Sight "
-    },
-    "publishedAt": "2025-10-09T09:00:00.000Z",
-    "updatedAt": "2025-10-10T09:00:00.000Z",
-    "author": "Mark Dercksen",
-    "tags": [
-      "Partnership",
-      "Deep Sight ",
-      "Authorized distributor"
-    ],
-    "isPublished": true,
-    "slug": "partnership-deepsight",
-    "locale": "en",
-    "body": "const{Fragment:e,jsx:n,jsxs:t}=arguments[0];function _createMdxContent(i){const a={a:\"a\",h2:\"h2\",li:\"li\",p:\"p\",span:\"span\",strong:\"strong\",ul:\"ul\",...i.components};return t(e,{children:[n(a.p,{children:\"This partnership reinforces Deep Sight ’s ambition to accelerate growth in global markets and to extend its impact on industries such as manufacturing, logistics, and energy.\\nWith ActARion’s established network and expertise in the European market, Deep Sight is well-positioned to:\"}),\"\\n\",t(a.ul,{children:[\"\\n\",n(a.li,{children:n(a.strong,{children:\"Expand its commercial footprint across Europe, bringing AR training to more industrial clients\"})}),\"\\n\",n(a.li,{children:n(a.strong,{children:\"Strengthen local support to accelerate adoption and results\"})}),\"\\n\",n(a.li,{children:n(a.strong,{children:\"Build long-term collaborations with European manufacturers and technology leaders\"})}),\"\\n\"]}),\"\\n\",n(a.p,{children:\"“Europe is a critical growth market for Deep Sight , and partnering with ActARion enables us to bring our vision of smarter, safer, and more efficient training directly to European industries,” said Nicolas Bearzatto, President of Deep Sight . “This partnership marks a key step in our global growth strategy and highlights our commitment to building a strong, local presence in Europe and beyond.”\"}),\"\\n\",n(a.p,{children:\"“ActARion’s partnership with Deep Sight marks an important milestone in our shared journey to make continuous improvements with augmented reality and AI possible,” said Ortwin Verreck, Managing Partner of ActARion. “By joining forces with Deep Sight , we can accelerate the adoption of augmented reality solutions across Europe, helping industrial operators reduce errors, improve safety, and transfer knowledge more effectively.”\"}),\"\\n\",t(a.h2,{id:\"about-deep-sight--augmented-reality-inc\",children:[\"About Deep Sight – Augmented Reality Inc.\",n(a.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#about-deep-sight--augmented-reality-inc\",children:n(a.span,{className:\"icon icon-link\"})})]}),\"\\n\",t(a.p,{children:[\"Deep Sight delivers a solution that transforms operations, training, and technical documentation in the manufacturing industry. Its platform enables organizations to capture and transfer critical know-how\\neffectively, leveraging AI and augmented reality. \",n(a.a,{href:\"http://www.deepsight.ca\",children:\"www.deepsight.ca\"})]}),\"\\n\",t(a.h2,{id:\"about-actarion-bv\",children:[\"About ActARion B.V.\",n(a.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#about-actarion-bv\",children:n(a.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(a.p,{children:\"ActARion, is specialized in Process improvement with AI and Augmented Reality and the exclusive partner of Deep Sight in DACH and Benelux. Based in the Netherlands and Switzerland, the company helps European industrial leaders adopt and scale AI and augmented reality solutions for training, onboarding, troubleshooting, and operational excellence.\"}),\"\\n\",n(a.p,{children:n(a.a,{href:\"http://www.ActARion.com\",children:\"www.ActARion.com\"})}),\"\\n\",t(a.h2,{id:\"media-contact\",children:[\"Media Contact\",n(a.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#media-contact\",children:n(a.span,{className:\"icon icon-link\"})})]}),\"\\n\",t(a.p,{children:[\"Marie-Pascale Gravel\\nMarketing & Communication Lead, Deep Sight\\n\",n(a.a,{href:\"mailto:mgravel@deepsight.ca\",children:\"mgravel@deepsight.ca\"})]}),\"\\n\",t(a.p,{children:[\"Mark Dercksen\\nManaging Partner, Deep Sight Europe\\n\",n(a.a,{href:\"mailto:Mark@ActARion.com\",children:\"Mark@ActARion.com\"})]})]})}return{default:function(e={}){const{wrapper:t}=e.components||{};return t?n(t,{...e,children:n(_createMdxContent,{...e})}):_createMdxContent(e)}};",
-    "toc": [
-      {
-        "title": "About Deep Sight – Augmented Reality Inc.",
-        "url": "#about-deep-sight--augmented-reality-inc",
-        "items": []
-      },
-      {
-        "title": "About ActARion B.V.",
-        "url": "#about-actarion-bv",
-        "items": []
-      },
-      {
-        "title": "Media Contact",
-        "url": "#media-contact",
-        "items": []
-      }
-    ],
-    "url": "/blog/partnership-deepsight",
-    "readingTime": {
-      "text": "2 min read",
-      "minutes": 1.475,
-      "time": 88500,
-      "words": 295
     }
   }
 ]
