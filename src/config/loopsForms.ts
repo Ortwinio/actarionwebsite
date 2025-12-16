@@ -45,7 +45,7 @@ export const CONTACT_FORM_ENDPOINT = `${LOOPS_BASE_URL}/cmi5y114d29deyo0iswg4bm0
  * - partnerType
  * - message
  */
-export const PARTNER_CONTACT_FORM_ENDPOINT = `${LOOPS_BASE_URL}/PARTNER_FORM_ID_HERE`;
+export const PARTNER_CONTACT_FORM_ENDPOINT = `${LOOPS_BASE_URL}/cmi5y114d29deyo0iswg4bm00`;
 
 /**
  * Career/Job application form - for job applications
@@ -57,7 +57,7 @@ export const PARTNER_CONTACT_FORM_ENDPOINT = `${LOOPS_BASE_URL}/PARTNER_FORM_ID_
  * - motivation
  * - position
  */
-export const CAREER_FORM_ENDPOINT = `${LOOPS_BASE_URL}/CAREER_FORM_ID_HERE`;
+export const CAREER_FORM_ENDPOINT = `${LOOPS_BASE_URL}/cmi5y114d29deyo0iswg4bm00`;
 
 /**
  * Local storage keys for rate limiting
