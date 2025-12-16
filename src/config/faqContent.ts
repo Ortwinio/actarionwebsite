@@ -30,17 +30,17 @@ export const faqSections: FAQSectionContent[] = [
         answer: {
           paragraphs: [
             'ActARion helps industrial, logistics and energy companies work smarter, safer and faster with AI and AR–guided work instructions. We transform SOPs and manuals into digital work instructions and AR SOPs that operators can follow step-by-step on tablets and smart glasses.',
-            'As the European partner of Deep Sight, we bring an AR-first connected worker platform to the shop floor. Experts create step-by-step instructions, training scenarios and troubleshooting guides in a no-code editor and publish them to mobile devices and smart glasses.',
+            'As the European partner of DeepSight, we bring an AR-first connected worker platform to the shop floor. Experts create step-by-step instructions, training scenarios and troubleshooting guides in a no-code editor and publish them to mobile devices and smart glasses.',
             'Technicians and field teams get clear, visual support at the moment they need it.',
           ],
         },
       },
       {
-        question: 'How does ActARion work with Deep Sight?',
+        question: 'How does ActARion work with DeepSight?',
         answer: {
           paragraphs: [
-            'ActARion is the European partner of Deep Sight, the AR-first connected worker platform. We help you implement Deep Sight in your plants, design and maintain AR SOPs, and support your teams in adopting AI and AR–guided work instructions in daily operations.',
-            'Deep Sight provides the platform technology. ActARion provides local implementation support, content creation guidance and change management to ensure your digital work instructions create lasting impact.',
+            'ActARion is the European partner of DeepSight, the AR-first connected worker platform. We help you implement DeepSight in your plants, design and maintain AR SOPs, and support your teams in adopting AI and AR–guided work instructions in daily operations.',
+            'DeepSight provides the platform technology. ActARion provides local implementation support, content creation guidance and change management to ensure your digital work instructions create lasting impact.',
           ],
         },
       },
@@ -85,7 +85,7 @@ export const faqSections: FAQSectionContent[] = [
               ],
             },
             {
-              title: 'With ActARion and Deep Sight:',
+              title: 'With ActARion and DeepSight:',
               items: [
                 'AR SOPs and digital work instructions are shown in context, on the machine or at the work location',
                 'Content is created in a web-based no-code authoring tool and updated in minutes',
@@ -129,7 +129,7 @@ export const faqSections: FAQSectionContent[] = [
         question: 'Do we need smart glasses to start?',
         answer: {
           paragraphs: [
-            'No. Many organisations start on smartphones or tablets. Deep Sight is cross-platform and content can be used on mobile phones, tablets and smart glasses such as HoloLens 2 or Apple Vision Pro.',
+            'No. Many organisations start on smartphones or tablets. DeepSight is cross-platform and content can be used on mobile phones, tablets and smart glasses such as HoloLens 2 or Apple Vision Pro.',
             'Smart glasses are useful when people need both hands free or work in tight or hazardous environments, but they are not a prerequisite.',
           ],
         },
@@ -138,7 +138,7 @@ export const faqSections: FAQSectionContent[] = [
         question: 'How does AI help in practice?',
         answer: {
           paragraphs: [
-            'AI in the Deep Sight platform is used to:',
+            'AI in the DeepSight platform is used to:',
             'This reduces the time experts spend on documentation, while keeping full control over the final content.',
           ],
           lists: [
@@ -206,7 +206,7 @@ export const faqSections: FAQSectionContent[] = [
               ordered: true,
               items: [
                 'Discovery – map current training and work processes, main pain points and quick wins.',
-                'Pilot – select a few high-impact use cases, implement Deep Sight, create AI and AR–guided work instructions and measure impact on errors, training time and downtime.',
+                'Pilot – select a few high-impact use cases, implement DeepSight, create AI and AR–guided work instructions and measure impact on errors, training time and downtime.',
                 'Scale-up – expand to more lines, sites or processes and integrate with existing systems while building internal capability.',
               ],
             },

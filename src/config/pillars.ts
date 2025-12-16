@@ -41,7 +41,7 @@ export const CONTENT_PILLARS: ContentPillar[] = [
     id: "technology-and-architecture",
     title: "Technology and architecture",
     description:
-      "Deep Sight as an AR-first connected worker platform, system integration patterns and device choices like HoloLens 2, Apple Vision Pro and tablets.",
+      "DeepSight as an AR-first connected worker platform, system integration patterns and device choices like HoloLens 2, Apple Vision Pro and tablets.",
   },
   {
     id: "change-and-implementation",
@@ -84,6 +84,7 @@ export const getPillarById = (id: PillarId): ContentPillar | undefined =>
  */
 export const isValidPillarId = (value: string): value is PillarId =>
   CONTENT_PILLARS.some((pillar) => pillar.id === value);
+
 
 
 

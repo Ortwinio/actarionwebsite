@@ -29,11 +29,11 @@ const defaultMetaTitle = "FAQ – AI and AR–guided work instructions";
 const schemaQuestions = [
   {
     name: "What does ActARion do?",
-    text: "ActARion helps industrial, logistics, and energy companies work smarter, safer and faster with AI and AR–guided work instructions. We transform SOPs and manuals into digital work instructions and AR SOPs that operators can follow step-by-step on tablets and smart glasses. As the European partner of Deep Sight, we bring an AR-first connected worker platform to the shop floor.",
+    text: "ActARion helps industrial, logistics, and energy companies work smarter, safer and faster with AI and AR–guided work instructions. We transform SOPs and manuals into digital work instructions and AR SOPs that operators can follow step-by-step on tablets and smart glasses. As the European partner of DeepSight, we bring an AR-first connected worker platform to the shop floor.",
   },
   {
-    name: "How does ActARion work with Deep Sight?",
-    text: "ActARion is the European partner of Deep Sight, the AR-first connected worker platform. We help you implement Deep Sight in your plants, design and maintain AR SOPs, and support your teams in adopting AI and AR–guided work instructions in daily operations.",
+    name: "How does ActARion work with DeepSight?",
+    text: "ActARion is the European partner of DeepSight, the AR-first connected worker platform. We help you implement DeepSight in your plants, design and maintain AR SOPs, and support your teams in adopting AI and AR–guided work instructions in daily operations.",
   },
   {
     name: "Why are organisations choosing AI and AR–guided work instructions?",
@@ -41,7 +41,7 @@ const schemaQuestions = [
   },
   {
     name: "How are AR SOPs different from traditional work instructions or an LMS?",
-    text: "Traditional manuals and LMS modules are static, detached from the workplace, and rarely linked to execution. ActARion and Deep Sight show AR SOPs and digital work instructions in context on the asset, use a web-based no-code authoring tool for fast updates, and capture execution data for audits, improvement, and training insights.",
+    text: "Traditional manuals and LMS modules are static, detached from the workplace, and rarely linked to execution. ActARion and DeepSight show AR SOPs and digital work instructions in context on the asset, use a web-based no-code authoring tool for fast updates, and capture execution data for audits, improvement, and training insights.",
   },
   {
     name: "Which use cases can AI and AR–guided work instructions help us with?",
@@ -49,7 +49,7 @@ const schemaQuestions = [
   },
   {
     name: "Do we need smart glasses to start with AR SOPs?",
-    text: "No. Most organisations begin on smartphones or tablets. Deep Sight content runs on mobile phones, tablets, and smart glasses such as HoloLens 2 and Apple Vision Pro. Smart glasses become essential when people need both hands free or work in constrained environments, but they are optional for digital work instructions.",
+    text: "No. Most organisations begin on smartphones or tablets. DeepSight content runs on mobile phones, tablets, and smart glasses such as HoloLens 2 and Apple Vision Pro. Smart glasses become essential when people need both hands free or work in constrained environments, but they are optional for digital work instructions.",
   },
   {
     name: "How does AI help in creating digital work instructions?",
@@ -65,7 +65,7 @@ const schemaQuestions = [
   },
   {
     name: "How does ActARion support implementation of digital work instructions?",
-    text: "We typically run discovery to map current processes and quick wins, pilot to implement Deep Sight AR SOPs on high-impact use cases and measure results, then scale up across more lines, sites, or systems while building internal capability for AI and AR–guided work instructions.",
+    text: "We typically run discovery to map current processes and quick wins, pilot to implement DeepSight AR SOPs on high-impact use cases and measure results, then scale up across more lines, sites, or systems while building internal capability for AI and AR–guided work instructions.",
   },
   {
     name: "How can we explore whether AI and AR–guided work instructions make sense for our organisation?",

@@ -166,7 +166,7 @@
     {
       "id": "faq-0-en",
       "title": "What is ActARion?",
-      "summary": "ActARion is the European partner of Deep Sight, offering an AR-first connected worker platform for industrial, logistics and energy environments.",
+      "summary": "ActARion is the European partner of DeepSight, offering an AR-first connected worker platform for industrial, logistics and energy environments.",
       "language": "en",
       "type": "faq",
       "url": "/en/faq#faq-0",
@@ -250,7 +250,7 @@
     {
       "id": "page-about-en",
       "title": "About ActARion",
-      "summary": "ActARion is the European partner of Deep Sight, offering an AR-first connected worker platform.",
+      "summary": "ActARion is the European partner of DeepSight, offering an AR-first connected worker platform.",
       "language": "en",
       "type": "page",
       "url": "/en/about",
@@ -258,7 +258,7 @@
       "keywords": [
         "about",
         "company",
-        "Deep Sight",
+        "DeepSight",
         "partner",
         "europe"
       ]
@@ -342,7 +342,7 @@
     {
       "id": "page-partners-en",
       "title": "Partners",
-      "summary": "Our technology and solution partners including Deep Sight, Microsoft, and leading smart glasses manufacturers.",
+      "summary": "Our technology and solution partners including DeepSight, Microsoft, and leading smart glasses manufacturers.",
       "language": "en",
       "type": "page",
       "url": "/en/partners",

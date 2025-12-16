@@ -95,7 +95,7 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
   const contactDescription = dictionary?.sections?.contact?.description;
   const heroTitle = "Work Smarter, Safer and Faster with AI and Augmented reality.";
   const heroDescription =
-    "ActARion helps industrial, logistics and energy companies capture critical know-how, guide operators in the flow of work and build a learning organization across sites. Together with our partner Deep Sight, we turn complex work into standard, repeatable execution supported by AR and AI. The future of work in operations is not about more manuals or more classroom training. It is about giving every operator expert-level guidance at the moment of need, in their real working environment.";
+    "ActARion helps industrial, logistics and energy companies capture critical know-how, guide operators in the flow of work and build a learning organization across sites. Together with our partner DeepSight, we turn complex work into standard, repeatable execution supported by AR and AI. The future of work in operations is not about more manuals or more classroom training. It is about giving every operator expert-level guidance at the moment of need, in their real working environment.";
 
   return (
     <main className="bg-white text-slate-900">

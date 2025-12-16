@@ -21,9 +21,9 @@ export interface NewsItem {
 export const NEWS: NewsItem[] = [
   {
     id: "deep-sight-partnership-expansion",
-    title: "ActARion Expands Deep Sight Partnership to Nordic Region",
+    title: "ActARion Expands DeepSight Partnership to Nordic Region",
     summary:
-      "ActARion announces expansion of its Deep Sight AR platform partnership to cover Norway, Sweden, Finland, and Denmark, bringing AR-powered SOPs to more European manufacturers.",
+      "ActARion announces expansion of its DeepSight AR platform partnership to cover Norway, Sweden, Finland, and Denmark, bringing AR-powered SOPs to more European manufacturers.",
     publishedDate: "2025-11-15",
     type: "partnership",
     image: "/news/deep-sight-nordic.png",
@@ -56,6 +56,7 @@ export const NEWS_TYPE_LABELS: Record<NewsType, string> = {
   award: "Award",
   "industry-news": "Industry News",
 };
+
 
 
 

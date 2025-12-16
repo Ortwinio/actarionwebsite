@@ -22,14 +22,14 @@ export interface PartnerContent {
 export const partnerContent: PartnerContent[] = [
   {
     slug: "deepsight",
-    headline: "Deep Sight – AI and AR–guided work instructions platform",
+    headline: "DeepSight – AI and AR–guided work instructions platform",
     intro: [
-      "ActARion is the European partner of Deep Sight, an AR-first connected worker platform for creating and deploying AI and AR–guided work instructions, training scenarios and remote support for industrial teams.",
+      "ActARion is the European partner of DeepSight, an AR-first connected worker platform for creating and deploying AI and AR–guided work instructions, training scenarios and remote support for industrial teams.",
       "Together we help organisations move from static manuals and video to interactive AR SOPs and digital work instructions on mobile devices and smart glasses.",
     ],
     sections: [
       {
-        title: "What Deep Sight brings",
+        title: "What DeepSight brings",
         items: [
           "No-code authoring environment to build step-by-step AR SOPs, 3D procedures and training scenarios without programming.",
           "Centralised digital library for work instructions, troubleshooting flows and safety procedures.",
@@ -39,7 +39,7 @@ export const partnerContent: PartnerContent[] = [
         ],
       },
       {
-        title: "What the ActARion + Deep Sight partnership enables",
+        title: "What the ActARion + DeepSight partnership enables",
         items: [
           "Faster onboarding and skills development by putting AI and AR–guided work instructions directly in the hands of technicians and operators.",
           "Safer, more consistent execution of complex tasks by guiding each step in the real environment with AR SOPs.",
@@ -60,7 +60,7 @@ export const partnerContent: PartnerContent[] = [
       ],
     },
     cta: {
-      text: "If you want to explore how Deep Sight and ActARion can support your operations, training or maintenance processes with AI and AR–guided work instructions, contact us for a short, non-committal discovery call.",
+      text: "If you want to explore how DeepSight and ActARion can support your operations, training or maintenance processes with AI and AR–guided work instructions, contact us for a short, non-committal discovery call.",
       buttonText: "Contact ActARion",
       buttonHref: "contact",
     },
@@ -70,7 +70,7 @@ export const partnerContent: PartnerContent[] = [
     headline: "Apple Vision Pro – spatial computing for industrial AR",
     intro: [
       "Apple Vision Pro is one of our key hardware platforms for delivering immersive AR experiences to technicians, engineers and trainers.",
-      "Combined with Deep Sight and ActARion's implementation expertise, Apple Vision Pro becomes a practical tool for AR SOPs, digital work instructions and remote support.",
+      "Combined with DeepSight and ActARion's implementation expertise, Apple Vision Pro becomes a practical tool for AR SOPs, digital work instructions and remote support.",
     ],
     sections: [
       {
@@ -84,7 +84,7 @@ export const partnerContent: PartnerContent[] = [
       {
         title: "How ActARion uses Apple Vision Pro",
         items: [
-          "Running Deep Sight-based AI and AR–guided work instructions for assembly, inspection and training scenarios.",
+          "Running DeepSight-based AI and AR–guided work instructions for assembly, inspection and training scenarios.",
           "Visualising 3D models and exploded views of components to support troubleshooting and learning.",
           "Creating safe, controlled training experiences where operators can rehearse critical procedures step by step.",
         ],
@@ -115,7 +115,7 @@ export const partnerContent: PartnerContent[] = [
       {
         title: "How ActARion integrates HoloLens",
         items: [
-          "Delivering Deep Sight digital work instructions directly on HoloLens for assembly, inspections and maintenance.",
+          "Delivering DeepSight digital work instructions directly on HoloLens for assembly, inspections and maintenance.",
           "Combining holographic instructions with on-device data capture (photos, video, confirmations).",
           "Enabling remote expert support sessions where experts see what the technician sees.",
         ],

@@ -32,7 +32,7 @@ const enContent: UseCaseContentBySlug = {
     heroTitle: "AR work instructions and SOPs to preserve corporate memory",
     heroParagraphs: [
       "When experienced experts leave your organisation, they often take years of tacit knowledge with them. Work instructions are spread across binders, notebooks and ad hoc fixes on the work floor. That makes it hard for new operators to learn fast and to execute work instructions consistently and safely.",
-      "With AR SOPs and AI and AR–guided digital work instructions from ActARion and Deep Sight, you capture expert knowledge once and turn it into reusable, visual work instructions that any operator can follow. This transforms tribal knowledge into a scalable, standardised asset that protects your operations for years to come.",
+      "With AR SOPs and AI and AR–guided digital work instructions from ActARion and DeepSight, you capture expert knowledge once and turn it into reusable, visual work instructions that any operator can follow. This transforms tribal knowledge into a scalable, standardised asset that protects your operations for years to come.",
     ],
     sections: [
       {
@@ -1366,7 +1366,7 @@ const deContent: UseCaseContentBySlug = {
     heroTitle: "AR-Arbeitsanweisungen und SOPs, um Unternehmenswissen zu bewahren",
     heroParagraphs: [
       "Wenn erfahrene Expertinnen und Experten das Unternehmen verlassen, nehmen sie oft jahrelanges Erfahrungswissen mit. Arbeitsanweisungen liegen verstreut in Ordnern, Notizbüchern und spontanen Shopfloor-Lösungen. Dadurch wird es für neue Mitarbeitende schwierig, schnell zu lernen und Aufgaben konsistent sowie sicher auszuführen.",
-      "Mit AR-SOPs und KI- und AR-gestützten digitalen Arbeitsanweisungen von ActARion und Deep Sight erfassen Sie Expertenwissen einmalig und verwandeln es in wiederverwendbare, visuelle Schritt-für-Schritt-Anleitungen, denen jede Bedienerin und jeder Bediener folgen kann.",
+      "Mit AR-SOPs und KI- und AR-gestützten digitalen Arbeitsanweisungen von ActARion und DeepSight erfassen Sie Expertenwissen einmalig und verwandeln es in wiederverwendbare, visuelle Schritt-für-Schritt-Anleitungen, denen jede Bedienerin und jeder Bediener folgen kann.",
     ],
     sections: [
       {
@@ -1565,7 +1565,7 @@ const deContent: UseCaseContentBySlug = {
         blocks: [
           {
             type: "paragraph",
-            content: "ActARion und Deep Sight liefern KI- und AR-gestützte Arbeitsanweisungen, die Bedienende Schritt für Schritt unterstützen:",
+            content: "ActARion und DeepSight liefern KI- und AR-gestützte Arbeitsanweisungen, die Bedienende Schritt für Schritt unterstützen:",
           },
           {
             type: "orderedList",
@@ -1885,7 +1885,7 @@ const nlContent: UseCaseContentBySlug = {
     heroTitle: "AR-werkinstructies en SOP's om bedrijfsgeheugen te borgen",
     heroParagraphs: [
       "Wanneer ervaren experts uw organisatie verlaten, nemen ze vaak jaren aan stilzwijgende kennis mee. Werkinstructies slingeren rond in ordners, notitieboeken en ad-hocoplossingen op de werkvloer. Daardoor is het voor nieuwe medewerkers lastig om snel te leren en taken consistent en veilig uit te voeren.",
-      "Met AR-SOP's en AI en AR–geleide digitale werkinstructies van ActARion en Deep Sight legt u expertise één keer vast en verandert u deze in herbruikbare, visuele instructies die iedere operator kan volgen.",
+      "Met AR-SOP's en AI en AR–geleide digitale werkinstructies van ActARion en DeepSight legt u expertise één keer vast en verandert u deze in herbruikbare, visuele instructies die iedere operator kan volgen.",
     ],
     sections: [
       {
@@ -2084,7 +2084,7 @@ const nlContent: UseCaseContentBySlug = {
         blocks: [
           {
             type: "paragraph",
-            content: "ActARion en Deep Sight leveren AI en AR–geleide werkinstructies die operators stap voor stap helpen:",
+            content: "ActARion en DeepSight leveren AI en AR–geleide werkinstructies die operators stap voor stap helpen:",
           },
           {
             type: "orderedList",

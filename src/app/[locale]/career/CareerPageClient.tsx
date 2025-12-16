@@ -657,7 +657,7 @@ export default function CareerPageClient({ locale, dictionary }: CareerPageClien
           </div>
           <p className="mt-10 text-lg text-slate-600">
             Our ambition is to build a European reference for AR and AI-guided work, together with
-            our partner Deep Sight and a growing network of customers.
+            our partner DeepSight and a growing network of customers.
           </p>
         </div>
       </section>

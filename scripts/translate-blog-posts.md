@@ -24,7 +24,7 @@ For each English blog post (`filename.mdx`), create two translations:
 1. **Preserve structure**: Keep all headings, lists, and formatting
 2. **Translate links**: Update internal links to use correct locale prefix (`/nl/` or `/de/`)
 3. **Keep URLs**: External links stay the same
-4. **Product names**: Keep "ActARion" and "Deep Sight" as-is
+4. **Product names**: Keep "ActARion" and "DeepSight" as-is
 5. **Technical terms**: Translate where appropriate, but keep industry-standard terms
 6. **Tone**: Maintain professional, technical tone matching the original
 
@@ -46,6 +46,7 @@ All use the same slug but different locale in frontmatter.
 - [ ] Tags translated appropriately
 - [ ] Code blocks and technical content preserved
 - [ ] Image references unchanged
+
 
 
 

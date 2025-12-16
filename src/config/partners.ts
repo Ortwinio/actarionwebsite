@@ -14,14 +14,14 @@ export interface Partner {
 export const partners: Partner[] = [
   {
     slug: "deepsight",
-    name: "Deep Sight",
+    name: "DeepSight",
     type: "technology",
     logoSrc: "/images/partners/deepsight-logo.svg",
-    logoAlt: "Deep Sight logo",
+    logoAlt: "DeepSight logo",
     website: "https://www.deepsight.ca/partners/#integration-partners",
     tagline: "AI and AR platform for industrial work",
     metaDescription:
-      "ActARion is the European partner of Deep Sight to deliver AI and AR–guided work instructions, training scenarios and remote support for industrial teams.",
+      "ActARion is the European partner of DeepSight to deliver AI and AR–guided work instructions, training scenarios and remote support for industrial teams.",
   },
   {
     slug: "apple-vision-pro",
