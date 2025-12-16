@@ -16,7 +16,7 @@ export const partners: Partner[] = [
     slug: "deepsight",
     name: "DeepSight",
     type: "technology",
-    logoSrc: "/images/partners/deepsight-logo.svg",
+    logoSrc: "/images/partners/deepsight-logo.png",
     logoAlt: "DeepSight logo",
     website: "https://www.deepsight.ca/partners/#integration-partners",
     tagline: "AI and AR platform for industrial work",
