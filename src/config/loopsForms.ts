@@ -33,7 +33,7 @@ export const NEWSLETTER_FORM_ENDPOINT = `${LOOPS_BASE_URL}/cmi5y114d29deyo0iswg4
  * - phone
  * - country
  */
-export const CONTACT_FORM_ENDPOINT = `${LOOPS_BASE_URL}/CONTACT_FORM_ID_HERE`;
+export const CONTACT_FORM_ENDPOINT = `${LOOPS_BASE_URL}/cmi5y114d29deyo0iswg4bm00`;
 
 /**
  * Partner contact form - for partnership inquiries
