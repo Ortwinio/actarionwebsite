@@ -109,7 +109,7 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
         <video
           className="absolute inset-0 h-full w-full object-cover"
           src="/ActARion_intro.mp4"
-          poster="/actarion header1.png"
+          poster="/actarion-header-1.png"
           autoPlay
           loop
           muted
@@ -130,8 +130,8 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
               {renderTextWithBrand(heroDescription)}
             </p>
             <div className="flex flex-wrap items-center justify-center gap-3">
-              <Link href={contactHref} className="btn btn-primary btn-pill">
-                {dictionary.sections.contact.cta}
+              <Link href="https://roicalculator.actarion.com/" className="btn btn-primary btn-pill" target="_blank" rel="noopener noreferrer">
+                {dictionary.footer?.roiCalculator || "ROI Calculator"}
               </Link>
               <Link href={localizedUseCasesHref} className="btn btn-secondary btn-pill">
                 {dictionary?.sections?.useCases?.cta || "Explore use cases"}
@@ -297,7 +297,7 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
       >
         <div className="w-full mb-6">
           <Image
-            src="/ActARion header2.png"
+            src="/actarion-header-2.png"
             alt="ActARion Industries Header"
             width={800}
             height={600}
@@ -358,7 +358,7 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
       >
         <div className="w-full mb-6">
           <Image
-            src="/ActARion header 3.png"
+            src="/actarion-header-3.png"
             alt="ActARion About Header"
             width={800}
             height={600}
