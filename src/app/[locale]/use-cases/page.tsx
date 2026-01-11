@@ -13,6 +13,12 @@ import {
 } from "../../../config/site";
 import { useCases } from "../../../config/useCases";
 
+/**
+ * Force static rendering to ensure metadata is included in initial HTML shell.
+ * This prevents title/canonical/robots from being streamed outside <head>.
+ */
+export const dynamic = 'force-static';
+
 interface UseCasesPageProps {
   params: Promise<{
     locale: string;

@@ -55,9 +55,8 @@ export const metadata: Metadata = {
     telephone: false,
   },
   metadataBase: new URL('https://www.actarion.com'),
-  alternates: {
-    canonical: '/',
-  },
+  // NOTE: canonical and alternates are handled by individual pages via buildPageMetadata()
+  // to ensure proper locale-specific URLs. Do not add alternates here.
   openGraph: {
     title: "ActARion – Augmented Reality SOP & AR Work Instruction Software",
     description: "ActARion transforms SOPs into interactive AR work instructions. Train faster, reduce errors, and improve frontline quality with digital SOP software.",
@@ -80,17 +79,8 @@ export const metadata: Metadata = {
     description: "ActARion transforms SOPs into interactive AR work instructions. Train faster, reduce errors, and improve frontline quality with digital SOP software.",
     images: ['/ActARionlogo.png'],
   },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
+  // NOTE: robots metadata is handled by individual pages via buildPageMetadata()
+  // to avoid duplicate meta robots tags. Do not add robots config here.
   icons: {
     icon: '/favicon.ico',
     apple: '/ActARionlogo.png',

@@ -6,6 +6,12 @@ import { buildLocalizedPath, isSupportedLocale, Locale, locales } from "@/config
 import { buildPageMetadata, buildWebPageSchema, getAbsoluteUrl, siteUrl } from "@/config/seo";
 import { getAllPublishedSlugs, getBlogBySlug } from "@/lib/blogs";
 
+/**
+ * Force static rendering to ensure metadata is included in initial HTML shell.
+ * This prevents title/canonical/robots from being streamed outside <head>.
+ */
+export const dynamic = 'force-static';
+
 interface BlogPostPageProps {
   params: Promise<{ locale: string; slug: string }>
 }
