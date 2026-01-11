@@ -15,6 +15,29 @@ const normalizeImagePath = (imagePath?: string) => {
     : `/blogs/${imagePath.split('/').pop()}`
 }
 
+const whitepaper = s.object({
+  title: s.string(),
+  seoTitle: s.string().optional(),
+  description: s.string(),
+  seoDescription: s.string().optional(),
+  image: s.string().optional(),
+  publishedAt: s.isodate(),
+  updatedAt: s.isodate().optional(),
+  author: s.string().default('ActARion'),
+  slug: s.string(),
+  locale: s.enum(['en', 'de', 'nl']).default('en'),
+  isPublished: s.boolean().default(true),
+  body: s.mdx(),
+  toc: s.toc(),
+}).transform((data) => {
+  return {
+    ...data,
+    url: `/whitepapers/${data.slug}`,
+    readingTime: readingTime(data.body),
+    updatedAt: data.updatedAt || data.publishedAt,
+  }
+})
+
 const blog = s.object({
   title: s.string(),
   // Optional shorter title for SEO (max 60 chars). Falls back to title if not provided.
@@ -55,6 +78,7 @@ export default defineConfig({
   root: 'content',
   collections: {
     blogs: { name: 'Blog', pattern: 'blogs/**/*.mdx', schema: blog },
+    whitepapers: { name: 'Whitepaper', pattern: 'whitepapers/**/*.mdx', schema: whitepaper },
   },
   // Emit generated data inside src so Next bundles it reliably in prod
   output: { data: 'src/.velite/generated', clean: true },

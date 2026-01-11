@@ -77,9 +77,12 @@ export function createUseCasePage(slug: UseCaseSlug) {
       notFound();
     }
 
+    // Use seoTitle if available, otherwise fall back to title
+    const metaTitle = useCase.seoTitle || useCase.title;
+    
     return buildPageMetadata({
       locale,
-      title: `${useCase.title} | ActARion`,
+      title: metaTitle,
       description: useCase.metaDescription,
       segment: slug,
     });

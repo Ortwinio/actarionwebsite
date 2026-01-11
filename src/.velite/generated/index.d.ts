@@ -6,3 +6,6 @@ type Collections = typeof __vc.collections
 
 export type Blog = Collections['blogs']['schema']['_output']
 export declare const blogs: Blog[]
+
+export type Whitepaper = Collections['whitepapers']['schema']['_output']
+export declare const whitepapers: Whitepaper[]

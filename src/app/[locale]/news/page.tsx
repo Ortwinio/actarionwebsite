@@ -40,15 +40,33 @@ const pageTitles = {
 };
 
 const pageIntros = {
-  en: "A selection of ActARion news articles and updates. This overview includes all blogposts whose title starts with \"News\".",
-  de: "Eine Auswahl von ActARion News-Artikeln und Updates. Diese Übersicht enthält alle Blogbeiträge, deren Titel mit \"News\" beginnt.",
-  nl: "Een selectie van ActARion nieuwsartikelen en updates. Dit overzicht bevat alle blogposts waarvan de titel begint met \"News\"."
+  en: "Stay informed about the latest developments at ActARion. Here you'll find company announcements, partnership updates, product news, and insights on how AI and AR are transforming industrial work across manufacturing, logistics, and energy sectors.",
+  de: "Bleiben Sie über die neuesten Entwicklungen bei ActARion informiert. Hier finden Sie Unternehmensankündigungen, Partnerschafts-Updates, Produktneuigkeiten und Einblicke, wie KI und AR die industrielle Arbeit in Fertigung, Logistik und Energie transformieren.",
+  nl: "Blijf op de hoogte van de laatste ontwikkelingen bij ActARion. Hier vindt u bedrijfsaankondigingen, partnerschapsupdates, productnieuws en inzichten over hoe AI en AR industrieel werk transformeren in productie, logistiek en energie."
 };
 
 const noNewsText = {
   en: "There are no news articles yet. Please check back later or subscribe to our newsletter to stay informed.",
   de: "Es gibt noch keine News-Artikel. Schauen Sie später wieder vorbei oder abonnieren Sie unseren Newsletter, um informiert zu bleiben.",
   nl: "Er zijn nog geen nieuwsartikelen. Kom later terug of schrijf u in voor onze nieuwsbrief om op de hoogte te blijven."
+};
+
+const aboutActARionText = {
+  en: "ActARion helps industrial companies transform their operations with AI and AR-guided work instructions. We partner with leading technology providers and deploy connected worker solutions that reduce training time, minimise errors, and preserve critical knowledge. Our focus is on manufacturing, logistics, and energy sectors where operational excellence directly impacts safety, quality, and productivity.",
+  de: "ActARion hilft Industrieunternehmen, ihre Abläufe mit KI- und AR-gestützten Arbeitsanweisungen zu transformieren. Wir arbeiten mit führenden Technologieanbietern zusammen und setzen Connected-Worker-Lösungen ein, die die Einarbeitungszeit verkürzen, Fehler minimieren und kritisches Wissen bewahren. Unser Fokus liegt auf Fertigung, Logistik und Energie, wo operative Exzellenz direkt Sicherheit, Qualität und Produktivität beeinflusst.",
+  nl: "ActARion helpt industriële bedrijven hun operaties te transformeren met AI- en AR-gestuurde werkinstructies. We werken samen met toonaangevende technologieleveranciers en implementeren connected worker-oplossingen die de opleidingstijd verkorten, fouten minimaliseren en kritieke kennis behouden. Onze focus ligt op productie, logistiek en energie, waar operationele excellentie direct van invloed is op veiligheid, kwaliteit en productiviteit."
+};
+
+const stayConnectedText = {
+  en: "Stay Connected",
+  de: "Bleiben Sie verbunden",
+  nl: "Blijf verbonden"
+};
+
+const stayConnectedDescText = {
+  en: "For the latest updates on AR work instructions and industrial digital transformation, follow ActARion on LinkedIn or subscribe to our newsletter.",
+  de: "Für die neuesten Updates zu AR-Arbeitsanweisungen und industrieller digitaler Transformation folgen Sie ActARion auf LinkedIn oder abonnieren Sie unseren Newsletter.",
+  nl: "Voor de laatste updates over AR-werkinstructies en industriële digitale transformatie, volg ActARion op LinkedIn of schrijf u in voor onze nieuwsbrief."
 };
 
 export async function generateMetadata({ params }: NewsPageProps): Promise<Metadata> {
@@ -82,6 +100,9 @@ export default async function NewsPage({ params }: NewsPageProps) {
   const description = pageDescriptions[locale];
   const intro = pageIntros[locale];
   const noNews = noNewsText[locale];
+  const aboutActARion = aboutActARionText[locale];
+  const stayConnected = stayConnectedText[locale];
+  const stayConnectedDesc = stayConnectedDescText[locale];
 
   // Get all blog posts for this locale
   const { blogs } = getBlogsForLocale(typedLocale);
@@ -171,6 +192,26 @@ export default async function NewsPage({ params }: NewsPageProps) {
               ))}
             </ul>
           )}
+          
+          {/* About ActARion section */}
+          <section className="mt-12 pt-8 border-t border-slate-200">
+            <h2 className="text-xl font-semibold text-slate-900 dark:text-white mb-4">
+              {locale === 'de' ? 'Über ActARion' : locale === 'nl' ? 'Over ActARion' : 'About ActARion'}
+            </h2>
+            <p className="text-base text-slate-600 dark:text-slate-300 mb-6">
+              {aboutActARion}
+            </p>
+          </section>
+          
+          {/* Stay Connected section */}
+          <section className="mt-8 pt-6 border-t border-slate-200">
+            <h2 className="text-xl font-semibold text-slate-900 dark:text-white mb-4">
+              {stayConnected}
+            </h2>
+            <p className="text-base text-slate-600 dark:text-slate-300">
+              {stayConnectedDesc}
+            </p>
+          </section>
         </div>
       </main>
     </>

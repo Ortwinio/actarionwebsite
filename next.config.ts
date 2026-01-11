@@ -103,47 +103,47 @@ const nextConfig: NextConfig = {
       {
         source: '/blog',
         destination: `/${defaultLocale}/blog`,
-        permanent: false,
+        statusCode: 301,
       },
       {
         source: '/faq',
         destination: `/${defaultLocale}/faq`,
-        permanent: false,
+        statusCode: 301,
       },
       {
         source: '/about',
         destination: `/${defaultLocale}/about`,
-        permanent: false,
+        statusCode: 301,
       },
       {
         source: '/contact',
         destination: `/${defaultLocale}/contact`,
-        permanent: false,
+        statusCode: 301,
       },
       {
         source: '/use-cases',
         destination: `/${defaultLocale}/use-cases`,
-        permanent: false,
+        statusCode: 301,
       },
       {
         source: '/career',
         destination: `/${defaultLocale}/career`,
-        permanent: false,
+        statusCode: 301,
       },
       {
         source: '/privacy',
         destination: `/${defaultLocale}/privacy`,
-        permanent: false,
+        statusCode: 301,
       },
       {
         source: '/terms',
         destination: `/${defaultLocale}/terms`,
-        permanent: false,
+        statusCode: 301,
       },
       {
         source: '/:locale/demo',
         destination: '/:locale/contact',
-        permanent: false,
+        statusCode: 301,
       },
 
       // ========================================

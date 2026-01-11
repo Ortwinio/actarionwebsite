@@ -32,6 +32,12 @@ const pageTitles = {
   nl: "Video's – AR & AI Werkinstructies Demo's & Tutorials"
 };
 
+const seoTitles = {
+  en: "AR Work Instruction Videos & Demos",
+  de: "AR-Arbeitsanweisungen Videos & Demos",
+  nl: "AR Werkinstructie Video's & Demo's"
+};
+
 const pageIntros = {
   en: "Watch ActARion videos and demos that show how AI and AR–guided work instructions and AR SOPs help teams work smarter, safer and faster in real operations.",
   de: "Sehen Sie ActARion Videos und Demos, die zeigen, wie KI- und AR-gestützte Arbeitsanweisungen und AR-SOPs Teams helfen, in realen Betriebsumgebungen intelligenter, sicherer und schneller zu arbeiten.",
@@ -72,8 +78,7 @@ export async function generateMetadata({ params }: VideosPageProps): Promise<Met
 
   return buildPageMetadata({
     locale,
-    // Don't add "| ActARion" - the root layout template will add it
-    title: pageTitles[locale],
+    title: seoTitles[locale],
     description,
     segment: 'videos',
   });

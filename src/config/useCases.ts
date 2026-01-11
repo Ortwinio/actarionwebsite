@@ -1,6 +1,8 @@
 export interface UseCase {
   slug: string;
   title: string;
+  /** Short SEO title for search results (max ~48 chars before suffix) */
+  seoTitle?: string;
   shortDescription: string;
   metaDescription: string;
   /** Optional hero image for the use case detail page */
@@ -13,6 +15,7 @@ export const useCases: UseCase[] = [
   {
     slug: "ar-work-instructions-corporate-memory",
     title: "AR work instructions and SOPs to preserve corporate memory",
+    seoTitle: "AR SOPs for Corporate Memory",
     shortDescription:
       "Capture expert knowledge once and turn it into standardised AR work instructions and SOPs.",
     metaDescription:
@@ -45,6 +48,7 @@ export const useCases: UseCase[] = [
   {
     slug: "ar-preventive-maintenance",
     title: "AR preventive maintenance with data driven insights",
+    seoTitle: "AR Preventive Maintenance",
     shortDescription:
       "Guide technicians in preventive maintenance and collect execution data automatically.",
     metaDescription:
@@ -53,6 +57,7 @@ export const useCases: UseCase[] = [
   {
     slug: "ar-remote-expert-support-corrective-maintenance",
     title: "AR remote expert support for corrective maintenance",
+    seoTitle: "AR Remote Expert Support",
     shortDescription:
       "Resolve faults faster with live AR remote expert support and cut unplanned downtime.",
     metaDescription:

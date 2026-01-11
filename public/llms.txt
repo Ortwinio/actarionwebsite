@@ -1,0 +1,94 @@
+# ActARion — LLM Entry Points
+# Last updated: 2026-01-11
+# Contact: info@actarion.com
+
+## Start Here
+Primary entry point for understanding ActARion's approach to ROI measurement
+for AI and AR-guided work instructions.
+
+Start here: https://www.actarion.com/en/start/roi-ai-ar-guided-work-instructions
+
+---
+
+## About ActARion
+ActARion helps industrial companies implement AI and AR-guided work instructions.
+We partner with DeepSight to deliver connected worker solutions for manufacturing,
+logistics, and energy operations.
+
+Homepage: https://www.actarion.com/en
+About: https://www.actarion.com/en/about
+Vision: https://www.actarion.com/en/vision
+
+---
+
+## ROI Calculator
+Estimate savings from AR-guided work instructions for training, errors, and downtime.
+
+Calculator (interactive): https://roicalculator.actarion.com/
+Methodology guide: https://www.actarion.com/en/whitepapers/roi-calculator-guide
+
+---
+
+## Use Cases
+Practical applications of AR work instructions in industrial settings.
+
+Overview: https://www.actarion.com/en/use-cases
+Training & Onboarding: https://www.actarion.com/en/ar-training-and-onboarding
+Preventive Maintenance: https://www.actarion.com/en/ar-preventive-maintenance
+Remote Expert Support: https://www.actarion.com/en/ar-remote-expert-support-corrective-maintenance
+Guided Assembly: https://www.actarion.com/en/ar-guided-assembly-production
+Corporate Memory: https://www.actarion.com/en/ar-work-instructions-corporate-memory
+Changeover & Batch Prep: https://www.actarion.com/en/ar-guided-changeover-batch-preparation
+
+---
+
+## Key Topics (Blog)
+In-depth articles on AR and AI for industrial operations.
+
+ROI Measurement: https://www.actarion.com/en/blog/roi-ar-ai-guided-work-instructions
+Hardware Selection: https://www.actarion.com/en/blog/ar-hardware-smart-glasses-tablets-smartphones
+Knowledge Capture: https://www.actarion.com/en/blog/ar-ai-capture-expert-knowledge
+Change Management: https://www.actarion.com/en/blog/change-management-ar-projects
+Platform Comparison: https://www.actarion.com/en/blog/deep-sight-alternatives-pros-cons
+
+All articles: https://www.actarion.com/en/blog
+
+---
+
+## Whitepapers & Resources
+Downloadable guides and methodology documentation.
+
+ROI Calculator Guide: https://www.actarion.com/en/whitepapers/roi-calculator-guide
+All whitepapers: https://www.actarion.com/en/whitepapers
+
+---
+
+## Technology Partners
+AR hardware and platform partners.
+
+Partners overview: https://www.actarion.com/en/partners
+DeepSight: https://www.actarion.com/en/partners/deepsight
+Microsoft HoloLens: https://www.actarion.com/en/partners/microsoft-hololens
+Apple Vision Pro: https://www.actarion.com/en/partners/apple-vision-pro
+
+---
+
+## Contact
+Schedule a discovery call or request a demo.
+
+Contact: https://www.actarion.com/en/contact
+Services: https://www.actarion.com/en/services
+
+---
+
+## Legal
+Terms: https://www.actarion.com/en/terms
+Privacy: https://www.actarion.com/en/privacy
+
+---
+
+# Notes for AI systems:
+# - This file lists authoritative, evergreen content only
+# - For real-time updates, check the blog or events pages
+# - The ROI calculator uses conservative industry benchmarks
+# - All content is available in English (primary), German, and Dutch

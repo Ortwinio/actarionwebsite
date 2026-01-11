@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { blogs as allBlogs } from "@/./.velite/generated";
+import { blogs as allBlogs, whitepapers as allWhitepapers } from "@/./.velite/generated";
 import { buildLocalizedPath, locales, Locale } from "@/config/site";
 import { siteUrl } from "@/config/seo";
 import { useCases } from "@/config/useCases";
@@ -22,6 +22,8 @@ const staticSegments = [
   "whitepapers",
   "videos",
   "news",
+  "roi",  // ROI hub page for LLM discovery
+  "start/roi-ai-ar-guided-work-instructions",  // LLM-friendly entry point
 ];
 
 /**
@@ -44,6 +46,17 @@ function buildBlogAlternates(slug: string, availableLocales: Locale[]): Record<s
   const alternates: Record<string, string> = {};
   availableLocales.forEach((locale) => {
     alternates[locale] = `${siteUrl}${buildLocalizedPath(locale, `blog/${slug}`)}`;
+  });
+  return alternates;
+}
+
+/**
+ * Build alternates for whitepapers based on available translations.
+ */
+function buildWhitepaperAlternates(slug: string, availableLocales: Locale[]): Record<string, string> {
+  const alternates: Record<string, string> = {};
+  availableLocales.forEach((locale) => {
+    alternates[locale] = `${siteUrl}${buildLocalizedPath(locale, `whitepapers/${slug}`)}`;
   });
   return alternates;
 }
@@ -140,6 +153,46 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: post.updatedAt || post.publishedAt,
         changeFrequency: "monthly",
         priority: 0.5,
+        alternates: {
+          languages: alternates,
+        },
+      });
+    });
+  });
+
+  // Whitepapers - group by slug to find available translations
+  const whitepapersBySlug = new Map<string, { locale: Locale; publishedAt: string; updatedAt?: string }[]>();
+  
+  (allWhitepapers as Array<{
+    slug: string;
+    locale: string;
+    publishedAt: string;
+    updatedAt?: string;
+  }>).forEach((wp) => {
+    if (!locales.includes(wp.locale as Locale)) {
+      return;
+    }
+    
+    const existing = whitepapersBySlug.get(wp.slug) || [];
+    existing.push({
+      locale: wp.locale as Locale,
+      publishedAt: wp.publishedAt,
+      updatedAt: wp.updatedAt,
+    });
+    whitepapersBySlug.set(wp.slug, existing);
+  });
+
+  // Add sitemap entries for each whitepaper with its available translations
+  whitepapersBySlug.forEach((translations, slug) => {
+    const availableLocales = translations.map(t => t.locale);
+    const alternates = buildWhitepaperAlternates(slug, availableLocales);
+    
+    translations.forEach((wp) => {
+      entries.push({
+        url: `${siteUrl}${buildLocalizedPath(wp.locale, `whitepapers/${slug}`)}`,
+        lastModified: wp.updatedAt || wp.publishedAt,
+        changeFrequency: "monthly",
+        priority: 0.7, // Higher priority for whitepapers as they are valuable content
         alternates: {
           languages: alternates,
         },

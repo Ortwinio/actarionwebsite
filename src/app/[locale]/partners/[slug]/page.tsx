@@ -40,8 +40,8 @@ export async function generateMetadata({ params }: PartnerPageProps): Promise<Me
     notFound();
   }
 
-  // Create descriptive SEO title based on partner type
-  const seoTitle = `${partner.name} Partnership – Industrial AR Solutions`;
+  // Create descriptive SEO title (keep short for <60 chars with suffix)
+  const seoTitle = `${partner.name} – AR Partner`;
   
   return buildPageMetadata({
     locale,

@@ -19,6 +19,9 @@ const fallbackDescription =
 const seoDescription =
   "Join ActARion at events, webinars and workshops on AR and AI work instructions. Learn how to transform industrial operations.";
 
+// Short SEO title (max 48 chars before "| ActARion" suffix)
+const seoTitle = "AR & AI Work Instruction Events";
+
 /**
  * Force static generation for all locales.
  */
@@ -39,15 +42,9 @@ export async function generateMetadata({ params }: EventsPageProps): Promise<Met
   const description =
     eventsCopy?.description?.replace(/\s+/g, " ").trim() || fallbackDescription;
 
-  // Use descriptive, keyword-rich title for SEO
-  const metaTitle = eventsCopy?.title 
-    // Don't add "| ActARion" - the root layout template will add it
-    ? `${eventsCopy.title} – AR & AI Work Instructions Events`
-    : "Events – AR & AI Work Instructions Webinars & Workshops";
-
   return buildPageMetadata({
     locale,
-    title: metaTitle,
+    title: seoTitle,
     description: seoDescription,
     segment: "events",
   });

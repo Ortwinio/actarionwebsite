@@ -1,9 +1,11 @@
 import { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PageHeader } from "@/components/PageHeader";
 import { buildPageMetadata, buildWebPageSchema, buildBreadcrumbListSchema } from "@/config/seo";
 import { buildLocalizedPath, isSupportedLocale, Locale, locales } from "@/config/site";
 import { getDictionary } from "@/lib/getDictionary";
+import { getWhitepapersForLocale } from "@/lib/whitepapers";
 
 interface WhitepapersPageProps {
   params: Promise<{ locale: 'en' | 'de' | 'nl' }>
@@ -38,15 +40,48 @@ const pageTitles = {
 };
 
 const pageIntros = {
-  en: "Explore ActARion whitepapers on AI and AR–guided work instructions, AR SOPs and digital work instructions. This page will be updated with downloadable content about real-world use cases and implementation best practices.",
-  de: "Entdecken Sie ActARion Whitepapers zu KI- und AR-gestützten Arbeitsanweisungen, AR-SOPs und digitalen Arbeitsanweisungen. Diese Seite wird mit herunterladbaren Inhalten zu realen Anwendungsfällen und Best Practices für die Implementierung aktualisiert.",
-  nl: "Ontdek ActARion whitepapers over AI en AR-gestuurde werkinstructies, AR-SOPs en digitale werkinstructies. Deze pagina wordt bijgewerkt met downloadbare content over praktijkcases en implementatie best practices."
+  en: "Access detailed guides and methodology documents on implementing AI and AR-guided work instructions. Our whitepapers cover ROI calculation, implementation best practices, and real-world use cases from manufacturing, logistics, and energy sectors.",
+  de: "Greifen Sie auf detaillierte Leitfäden und Methodendokumente zur Implementierung von KI- und AR-gestützten Arbeitsanweisungen zu. Unsere Whitepapers behandeln ROI-Berechnung, Implementierungs-Best-Practices und reale Anwendungsfälle aus Fertigung, Logistik und Energie.",
+  nl: "Krijg toegang tot gedetailleerde handleidingen en methodologiedocumenten over de implementatie van AI- en AR-gestuurde werkinstructies. Onze whitepapers behandelen ROI-berekening, implementatie best practices en praktijkcases uit productie, logistiek en energie."
 };
 
 const comingSoonText = {
-  en: "Whitepapers coming soon. Subscribe to our newsletter to be notified when new content is available.",
-  de: "Whitepapers demnächst verfügbar. Abonnieren Sie unseren Newsletter, um benachrichtigt zu werden, wenn neue Inhalte verfügbar sind.",
-  nl: "Whitepapers binnenkort beschikbaar. Schrijf u in voor onze nieuwsbrief om op de hoogte te worden gehouden wanneer nieuwe content beschikbaar is."
+  en: "More whitepapers coming soon. Subscribe to our newsletter to be notified when new content is available.",
+  de: "Weitere Whitepapers demnächst verfügbar. Abonnieren Sie unseren Newsletter, um benachrichtigt zu werden, wenn neue Inhalte verfügbar sind.",
+  nl: "Meer whitepapers binnenkort beschikbaar. Schrijf u in voor onze nieuwsbrief om op de hoogte te worden gehouden wanneer nieuwe content beschikbaar is."
+};
+
+const whatYouLearnText = {
+  en: {
+    title: "What You'll Learn",
+    description: "Our whitepapers are designed for operations managers, training leads, and digital transformation teams. Each document provides:",
+    items: [
+      "Practical methodologies backed by industry research",
+      "Step-by-step implementation guidance",
+      "Real benchmarks from manufacturing, logistics, and energy sectors",
+      "Clear frameworks for building business cases"
+    ]
+  },
+  de: {
+    title: "Was Sie lernen werden",
+    description: "Unsere Whitepapers sind für Betriebsleiter, Schulungsleiter und Teams für digitale Transformation konzipiert. Jedes Dokument bietet:",
+    items: [
+      "Praktische Methoden, gestützt auf Branchenforschung",
+      "Schritt-für-Schritt-Implementierungsanleitung",
+      "Reale Benchmarks aus Fertigung, Logistik und Energie",
+      "Klare Frameworks für die Erstellung von Business Cases"
+    ]
+  },
+  nl: {
+    title: "Wat u leert",
+    description: "Onze whitepapers zijn ontworpen voor operations managers, trainingsleiders en digitale transformatieteams. Elk document biedt:",
+    items: [
+      "Praktische methodologieën ondersteund door brancheonderzoek",
+      "Stap-voor-stap implementatierichtlijnen",
+      "Echte benchmarks uit productie, logistiek en energie",
+      "Duidelijke frameworks voor het opbouwen van business cases"
+    ]
+  }
 };
 
 export async function generateMetadata({ params }: WhitepapersPageProps): Promise<Metadata> {
@@ -75,11 +110,13 @@ export default async function WhitepapersPage({ params }: WhitepapersPageProps) 
 
   const dictionary = await getDictionary(locale);
   const typedLocale = locale as Locale;
+  const { whitepapers } = getWhitepapersForLocale(typedLocale);
 
   const title = pageTitles[locale];
   const description = pageDescriptions[locale];
   const intro = pageIntros[locale];
   const comingSoon = comingSoonText[locale];
+  const whatYouLearn = whatYouLearnText[locale];
 
   // Build breadcrumb navigation
   const breadcrumbs = [
@@ -107,12 +144,34 @@ export default async function WhitepapersPage({ params }: WhitepapersPageProps) 
       <PageHeader title={title} subtitle={intro} />
       <main className="section section-light">
         <div className="section-inner space-y-8">
-          <div className="summary summary--floating">
-            <p className="text-base">{comingSoon}</p>
-          </div>
-          
-          {/* TODO: Replace with a dynamic list of whitepapers when content is available */}
           <div className="card-grid card-grid--three">
+            {/* Published whitepapers */}
+            {whitepapers.map((wp) => (
+              <Link
+                key={wp.slug}
+                href={buildLocalizedPath(typedLocale, `whitepapers/${wp.slug}`)}
+                className="card group hover:shadow-lg transition-shadow"
+              >
+                <div className="h-40 bg-gradient-to-br from-primary-100 to-primary-200 dark:from-primary-900 dark:to-primary-800 rounded-lg mb-4 flex items-center justify-center">
+                  <svg className="h-12 w-12 text-primary-600 dark:text-primary-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                </div>
+                <h3 className="text-lg font-semibold text-slate-900 dark:text-white group-hover:text-primary-600 transition-colors">
+                  {wp.title}
+                </h3>
+                <p className="text-sm text-slate-600 dark:text-slate-300 mt-2 line-clamp-3">
+                  {wp.description}
+                </p>
+                <div className="mt-4 flex items-center text-sm text-primary-600 dark:text-primary-400">
+                  Read now
+                  <svg className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </div>
+              </Link>
+            ))}
+            
             {/* Placeholder cards for future whitepapers */}
             <div className="card opacity-50">
               <div className="h-40 bg-slate-100 dark:bg-slate-800 rounded-lg mb-4 flex items-center justify-center">
@@ -130,17 +189,27 @@ export default async function WhitepapersPage({ params }: WhitepapersPageProps) 
                 </svg>
               </div>
               <h3 className="text-lg font-semibold text-slate-400">Coming Soon</h3>
-              <p className="text-sm text-slate-400 mt-2">ROI Calculator Guide</p>
-            </div>
-            <div className="card opacity-50">
-              <div className="h-40 bg-slate-100 dark:bg-slate-800 rounded-lg mb-4 flex items-center justify-center">
-                <svg className="h-12 w-12 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                </svg>
-              </div>
-              <h3 className="text-lg font-semibold text-slate-400">Coming Soon</h3>
               <p className="text-sm text-slate-400 mt-2">Industry Best Practices</p>
             </div>
+          </div>
+          
+          {/* What You'll Learn section */}
+          <section className="mt-12 pt-8 border-t border-slate-200">
+            <h2 className="text-xl font-semibold text-slate-900 dark:text-white mb-4">
+              {whatYouLearn.title}
+            </h2>
+            <p className="text-base text-slate-600 dark:text-slate-300 mb-4">
+              {whatYouLearn.description}
+            </p>
+            <ul className="list-disc list-inside space-y-2 text-slate-600 dark:text-slate-300">
+              {whatYouLearn.items.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
+            </ul>
+          </section>
+          
+          <div className="summary summary--floating mt-8">
+            <p className="text-base">{comingSoon}</p>
           </div>
         </div>
       </main>

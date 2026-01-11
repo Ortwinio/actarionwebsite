@@ -140,9 +140,19 @@ export function Footer({ locale, dictionary }: FooterProps) {
               <Link href={contactHref}>{dictionary.navigation?.contact || "Contact"}</Link>
             </li>
             <li>
+              <Link href={buildLocalizedPath(locale, "start/roi-ai-ar-guided-work-instructions")}>
+                {dictionary.footer?.startHereROI || "Start here: ROI"}
+              </Link>
+            </li>
+            <li>
               <a href="https://roicalculator.actarion.com" target="_blank" rel="noopener noreferrer">
                 {dictionary.footer?.roiCalculator || "ROI Calculator"}
               </a>
+            </li>
+            <li>
+              <Link href={buildLocalizedPath(locale, "whitepapers/roi-calculator-guide")}>
+                {dictionary.footer?.roiCalculatorGuide || "ROI Calculator Guide"}
+              </Link>
             </li>
             <li>
               <a

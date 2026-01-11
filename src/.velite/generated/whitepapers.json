@@ -1,0 +1,127 @@
+[
+  {
+    "title": "ROI Calculator Guide for AI & AR-Guided Work Instructions",
+    "seoTitle": "ROI Calculator Guide for AR & AI Work Instructions | ActARion",
+    "description": "Methodology, assumptions, definitions, and benchmark sources behind ActARion's ROI calculator for AI- and AR-guided work instructions.",
+    "seoDescription": "Understand the methodology behind ActARion's ROI calculator: definitions, assumptions, and benchmark sources for training, errors, and downtime.",
+    "publishedAt": "2026-01-11T00:00:00.000Z",
+    "updatedAt": "2026-01-11T00:00:00.000Z",
+    "author": "ActARion",
+    "slug": "roi-calculator-guide",
+    "locale": "en",
+    "isPublished": true,
+    "body": "const{Fragment:e,jsx:n,jsxs:r}=arguments[0];function _createMdxContent(i){const a={a:\"a\",blockquote:\"blockquote\",code:\"code\",em:\"em\",h2:\"h2\",h3:\"h3\",hr:\"hr\",li:\"li\",p:\"p\",pre:\"pre\",span:\"span\",strong:\"strong\",table:\"table\",tbody:\"tbody\",td:\"td\",th:\"th\",thead:\"thead\",tr:\"tr\",ul:\"ul\",...i.components};return r(e,{children:[r(a.blockquote,{children:[\"\\n\",r(a.p,{children:[n(a.strong,{children:\"New to ROI for AR work instructions?\"}),\" Start with our plain-language overview: \",n(a.a,{href:\"/en/start/roi-ai-ar-guided-work-instructions\",children:\"Start here: ROI of AI & AR-guided work instructions\"})]}),\"\\n\"]}),\"\\n\",r(a.h2,{id:\"introduction\",children:[\"Introduction\",n(a.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#introduction\",children:n(a.span,{className:\"icon icon-link\"})})]}),\"\\n\",r(a.p,{children:[\"This guide explains the methodology, definitions, assumptions, and benchmark sources used in the \",n(a.a,{href:\"https://roicalculator.actarion.com/\",children:\"ActARion ROI Calculator\"}),\". Whether you use the quick calculator for a high-level estimate or the detailed version for a comprehensive business case, the underlying logic is designed to be transparent, conservative, and grounded in published industry research.\"]}),\"\\n\",n(a.p,{children:\"Use this document to understand how improvements are calculated, validate input assumptions for your own context, and communicate findings to stakeholders.\"}),\"\\n\",n(a.hr,{}),\"\\n\",r(a.h2,{id:\"what-the-calculator-measures\",children:[\"What the calculator measures\",n(a.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#what-the-calculator-measures\",children:n(a.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(a.p,{children:\"The ROI calculator estimates the financial impact of implementing AI- and AR-guided work instructions across four key areas:\"}),\"\\n\",r(a.table,{children:[n(a.thead,{children:r(a.tr,{children:[n(a.th,{children:\"Area\"}),n(a.th,{children:\"What it captures\"})]})}),r(a.tbody,{children:[r(a.tr,{children:[n(a.td,{children:n(a.strong,{children:\"Training time reduction\"})}),n(a.td,{children:\"Faster onboarding and skill development for new hires and role changes\"})]}),r(a.tr,{children:[n(a.td,{children:n(a.strong,{children:\"Error and rework reduction\"})}),n(a.td,{children:\"Fewer defects, less scrap, and reduced rework cycles\"})]}),r(a.tr,{children:[n(a.td,{children:n(a.strong,{children:\"Downtime reduction\"})}),n(a.td,{children:\"Shorter unplanned stops, faster changeovers, and quicker troubleshooting\"})]}),r(a.tr,{children:[n(a.td,{children:n(a.strong,{children:\"Knowledge capture & transfer\"})}),n(a.td,{children:\"Preserved institutional knowledge and reduced dependency on senior experts\"})]})]})]}),\"\\n\",n(a.p,{children:\"These categories align with the operational challenges most commonly cited by manufacturing, logistics, and energy companies considering AR and AI for frontline work.\"}),\"\\n\",n(a.hr,{}),\"\\n\",r(a.h2,{id:\"definitions\",children:[\"Definitions\",n(a.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#definitions\",children:n(a.span,{className:\"icon icon-link\"})})]}),\"\\n\",r(a.h3,{id:\"training-time\",children:[\"Training time\",n(a.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#training-time\",children:n(a.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(a.p,{children:\"The total hours (or days) required for a new operator or technician to reach baseline competency on a given task or role. This includes classroom instruction, shadowing, hands-on practice, and certification steps.\"}),\"\\n\",r(a.h3,{id:\"error-rate\",children:[\"Error rate\",n(a.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#error-rate\",children:n(a.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(a.p,{children:\"The percentage of tasks or products that require rework, correction, or result in scrap due to human error during execution. This excludes machine or material failures.\"}),\"\\n\",r(a.h3,{id:\"downtime\",children:[\"Downtime\",n(a.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#downtime\",children:n(a.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(a.p,{children:\"Unplanned production stops or delays caused by operator uncertainty, procedural gaps, or waiting for expert support. This does not include planned maintenance or scheduled changeovers (unless explicitly modelled).\"}),\"\\n\",r(a.h3,{id:\"knowledge-capture\",children:[\"Knowledge capture\",n(a.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#knowledge-capture\",children:n(a.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(a.p,{children:\"The process of documenting expert know-how—often held informally by senior staff—in a structured, reusable format. The calculator estimates the cost of lost productivity when this knowledge is unavailable or leaves with retiring workers.\"}),\"\\n\",n(a.hr,{}),\"\\n\",r(a.h2,{id:\"assumptions-and-defaults\",children:[\"Assumptions and defaults\",n(a.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#assumptions-and-defaults\",children:n(a.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(a.p,{children:\"The calculator uses conservative default values based on published benchmarks. You can override any input with your own data for a more accurate estimate.\"}),\"\\n\",r(a.table,{children:[n(a.thead,{children:r(a.tr,{children:[n(a.th,{children:\"Parameter\"}),n(a.th,{children:\"Default value\"}),n(a.th,{children:\"Source / rationale\"})]})}),r(a.tbody,{children:[r(a.tr,{children:[n(a.td,{children:\"Training time reduction\"}),n(a.td,{children:\"40%\"}),n(a.td,{children:\"Industry pilots and AR training studies\"})]}),r(a.tr,{children:[n(a.td,{children:\"Error rate reduction\"}),n(a.td,{children:\"50%\"}),n(a.td,{children:\"Digital work instruction deployments\"})]}),r(a.tr,{children:[n(a.td,{children:\"Downtime reduction\"}),n(a.td,{children:\"25%\"}),n(a.td,{children:\"Remote expert and guided troubleshooting cases\"})]}),r(a.tr,{children:[n(a.td,{children:\"Fully loaded hourly cost\"}),n(a.td,{children:\"€45/hour\"}),n(a.td,{children:\"European manufacturing average\"})]}),r(a.tr,{children:[n(a.td,{children:\"Average training duration\"}),n(a.td,{children:\"30 days\"}),n(a.td,{children:\"Typical for complex assembly or maintenance roles\"})]})]})]}),\"\\n\",r(a.p,{children:[n(a.strong,{children:\"Important:\"}),\" These defaults represent median outcomes from published case studies. Actual results vary based on process complexity, baseline maturity, and implementation quality.\"]}),\"\\n\",n(a.hr,{}),\"\\n\",r(a.h2,{id:\"calculation-logic\",children:[\"Calculation logic\",n(a.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#calculation-logic\",children:n(a.span,{className:\"icon icon-link\"})})]}),\"\\n\",r(a.h3,{id:\"training-cost-savings\",children:[\"Training cost savings\",n(a.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#training-cost-savings\",children:n(a.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(a.pre,{children:n(a.code,{children:\"Annual training cost savings =\\n  (Number of new hires per year)\\n  × (Average training days)\\n  × (Hours per day)\\n  × (Hourly cost)\\n  × (Training time reduction %)\\n\"})}),\"\\n\",n(a.p,{children:n(a.strong,{children:\"Example:\"})}),\"\\n\",r(a.ul,{children:[\"\\n\",n(a.li,{children:\"50 new hires/year\"}),\"\\n\",n(a.li,{children:\"30 training days × 8 hours = 240 hours\"}),\"\\n\",n(a.li,{children:\"€45/hour\"}),\"\\n\",n(a.li,{children:\"40% reduction\"}),\"\\n\"]}),\"\\n\",r(a.p,{children:[\"Savings = 50 × 240 × €45 × 0.40 = \",n(a.strong,{children:\"€216,000/year\"})]}),\"\\n\",r(a.h3,{id:\"error-and-rework-savings\",children:[\"Error and rework savings\",n(a.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#error-and-rework-savings\",children:n(a.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(a.pre,{children:n(a.code,{children:\"Annual error cost savings =\\n  (Annual production volume)\\n  × (Current error rate %)\\n  × (Average cost per error)\\n  × (Error rate reduction %)\\n\"})}),\"\\n\",n(a.p,{children:n(a.strong,{children:\"Example:\"})}),\"\\n\",r(a.ul,{children:[\"\\n\",n(a.li,{children:\"100,000 units/year\"}),\"\\n\",n(a.li,{children:\"2% error rate = 2,000 errors\"}),\"\\n\",n(a.li,{children:\"€50 cost per error (rework + scrap + delay)\"}),\"\\n\",n(a.li,{children:\"50% reduction\"}),\"\\n\"]}),\"\\n\",r(a.p,{children:[\"Savings = 2,000 × €50 × 0.50 = \",n(a.strong,{children:\"€50,000/year\"})]}),\"\\n\",r(a.h3,{id:\"downtime-savings\",children:[\"Downtime savings\",n(a.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#downtime-savings\",children:n(a.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(a.pre,{children:n(a.code,{children:\"Annual downtime savings =\\n  (Unplanned downtime hours/year)\\n  × (Cost per hour of downtime)\\n  × (Downtime reduction %)\\n\"})}),\"\\n\",n(a.p,{children:n(a.strong,{children:\"Example:\"})}),\"\\n\",r(a.ul,{children:[\"\\n\",n(a.li,{children:\"500 hours unplanned downtime/year\"}),\"\\n\",n(a.li,{children:\"€1,000/hour (line stoppage cost)\"}),\"\\n\",n(a.li,{children:\"25% reduction\"}),\"\\n\"]}),\"\\n\",r(a.p,{children:[\"Savings = 500 × €1,000 × 0.25 = \",n(a.strong,{children:\"€125,000/year\"})]}),\"\\n\",r(a.h3,{id:\"knowledge-capture-value\",children:[\"Knowledge capture value\",n(a.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#knowledge-capture-value\",children:n(a.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(a.p,{children:\"The calculator estimates the cost of lost productivity when experienced workers retire or leave without transferring their expertise. This is modelled as:\"}),\"\\n\",n(a.pre,{children:n(a.code,{children:\"Knowledge loss risk =\\n  (Number of at-risk experts)\\n  × (Estimated productivity gap per departure)\\n  × (Months to recover baseline performance)\\n\"})}),\"\\n\",n(a.p,{children:\"This value is harder to quantify precisely but is included to reflect a widely acknowledged operational risk.\"}),\"\\n\",n(a.hr,{}),\"\\n\",r(a.h2,{id:\"sources--benchmarks\",children:[\"Sources & benchmarks\",n(a.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#sources--benchmarks\",children:n(a.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(a.p,{children:\"The default improvement percentages and cost assumptions in the ROI calculator are derived from published industry research, including:\"}),\"\\n\",r(a.ul,{children:[\"\\n\",r(a.li,{children:[\"\\n\",r(a.p,{children:[n(a.strong,{children:\"PwC Global Industry 4.0 Survey\"}),\" – Documents productivity improvements from AR and digital work instructions in manufacturing, with training time reductions of 30–50% reported across multiple sectors.\"]}),\"\\n\"]}),\"\\n\",r(a.li,{children:[\"\\n\",r(a.p,{children:[n(a.strong,{children:\"McKinsey & Company: The future of work in manufacturing\"}),\" – Highlights that digital guidance tools reduce error rates by 40–60% in complex assembly and maintenance tasks, with faster onboarding as a key benefit.\"]}),\"\\n\"]}),\"\\n\",r(a.li,{children:[\"\\n\",r(a.p,{children:[n(a.strong,{children:\"Deloitte Industry 4.0 Readiness Report\"}),\" – Provides benchmarks on workforce productivity gains from connected worker technologies, including AR-guided procedures.\"]}),\"\\n\"]}),\"\\n\",r(a.li,{children:[\"\\n\",r(a.p,{children:[n(a.strong,{children:\"World Economic Forum: The Future of Jobs Report\"}),\" – Emphasizes the role of technology-enabled training in closing skills gaps, with AR cited as a leading tool for accelerating workforce readiness.\"]}),\"\\n\"]}),\"\\n\",r(a.li,{children:[\"\\n\",r(a.p,{children:[n(a.strong,{children:\"International Labour Organization (ILO): Skills and productivity\"}),\" – Offers baseline data on training costs and time-to-competency across industrial sectors, used to validate default assumptions.\"]}),\"\\n\"]}),\"\\n\",r(a.li,{children:[\"\\n\",r(a.p,{children:[n(a.strong,{children:\"Harvard Business Review: Augmented Reality in the Workplace\"}),\" – Case studies demonstrating measurable improvements in task accuracy and training efficiency when AR guidance is introduced.\"]}),\"\\n\"]}),\"\\n\"]}),\"\\n\",n(a.p,{children:\"These sources represent a cross-section of consulting, academic, and policy research. For company-specific validation, we recommend running a small-scale pilot and measuring actual outcomes before full-scale deployment.\"}),\"\\n\",n(a.hr,{}),\"\\n\",r(a.h2,{id:\"frequently-asked-questions\",children:[\"Frequently asked questions\",n(a.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#frequently-asked-questions\",children:n(a.span,{className:\"icon icon-link\"})})]}),\"\\n\",r(a.h3,{id:\"is-the-roi-calculator-conservative-or-optimistic\",children:[\"Is the ROI calculator conservative or optimistic?\",n(a.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#is-the-roi-calculator-conservative-or-optimistic\",children:n(a.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(a.p,{children:\"The calculator uses conservative default values based on median outcomes from published case studies. Most organizations that implement AR-guided work instructions systematically report results at or above these benchmarks. However, actual results depend on process complexity, baseline maturity, and implementation quality.\"}),\"\\n\",r(a.h3,{id:\"does-the-calculator-include-hardware-costs\",children:[\"Does the calculator include hardware costs?\",n(a.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#does-the-calculator-include-hardware-costs\",children:n(a.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(a.p,{children:\"The quick calculator focuses on operational savings and does not include hardware or implementation costs. The detailed calculator allows you to input total project costs (hardware, software, training, integration) to calculate net ROI and payback period.\"}),\"\\n\",r(a.h3,{id:\"can-this-be-used-for-logistics-or-energy-operations\",children:[\"Can this be used for logistics or energy operations?\",n(a.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#can-this-be-used-for-logistics-or-energy-operations\",children:n(a.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(a.p,{children:\"Yes. While the default assumptions are based primarily on manufacturing data, the methodology applies to any environment where frontline workers follow procedures—including warehousing, field service, and energy operations. Adjust the input parameters to reflect your specific context.\"}),\"\\n\",r(a.h3,{id:\"what-data-is-needed-for-accurate-results\",children:[\"What data is needed for accurate results?\",n(a.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#what-data-is-needed-for-accurate-results\",children:n(a.span,{className:\"icon icon-link\"})})]}),\"\\n\",n(a.p,{children:\"For the most accurate estimate, you should provide:\"}),\"\\n\",r(a.ul,{children:[\"\\n\",n(a.li,{children:\"Number of new hires or role changes per year\"}),\"\\n\",n(a.li,{children:\"Average training duration (days or hours)\"}),\"\\n\",n(a.li,{children:\"Current error or rework rate (%)\"}),\"\\n\",n(a.li,{children:\"Unplanned downtime hours per year\"}),\"\\n\",n(a.li,{children:\"Fully loaded hourly cost of operators/technicians\"}),\"\\n\",n(a.li,{children:\"Number of senior experts approaching retirement (if applicable)\"}),\"\\n\"]}),\"\\n\",n(a.p,{children:\"If you don't have precise data, the calculator's defaults offer a reasonable starting point for discussion.\"}),\"\\n\",n(a.hr,{}),\"\\n\",r(a.h2,{id:\"next-steps\",children:[\"Next steps\",n(a.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#next-steps\",children:n(a.span,{className:\"icon icon-link\"})})]}),\"\\n\",r(a.ul,{children:[\"\\n\",r(a.li,{children:[n(a.strong,{children:\"Try the calculator:\"}),\" Use the \",n(a.a,{href:\"https://roicalculator.actarion.com/\",children:\"ActARion ROI Calculator\"}),\" to estimate savings for your organization.\"]}),\"\\n\",r(a.li,{children:[n(a.strong,{children:\"Explore use cases:\"}),\" See how AR-guided work instructions improve \",n(a.a,{href:\"/en/ar-training-and-onboarding\",children:\"training and onboarding\"}),\" or \",n(a.a,{href:\"/en/ar-preventive-maintenance\",children:\"preventive maintenance\"}),\".\"]}),\"\\n\",r(a.li,{children:[n(a.strong,{children:\"Read more:\"}),\" Learn about \",n(a.a,{href:\"/en/blog/roi-ar-ai-guided-work-instructions\",children:\"measuring the ROI of AR and AI-guided work instructions\"}),\" in our detailed blog article.\"]}),\"\\n\",r(a.li,{children:[n(a.strong,{children:\"Talk to us:\"}),\" \",n(a.a,{href:\"/en/contact\",children:\"Schedule a discovery call\"}),\" to discuss your specific use case and validate assumptions with our team.\"]}),\"\\n\"]}),\"\\n\",n(a.hr,{}),\"\\n\",n(a.p,{children:n(a.em,{children:\"Last updated: January 2026\"})})]})}return{default:function(e={}){const{wrapper:r}=e.components||{};return r?n(r,{...e,children:n(_createMdxContent,{...e})}):_createMdxContent(e)}};",
+    "toc": [
+      {
+        "title": "Introduction",
+        "url": "#introduction",
+        "items": []
+      },
+      {
+        "title": "What the calculator measures",
+        "url": "#what-the-calculator-measures",
+        "items": []
+      },
+      {
+        "title": "Definitions",
+        "url": "#definitions",
+        "items": [
+          {
+            "title": "Training time",
+            "url": "#training-time",
+            "items": []
+          },
+          {
+            "title": "Error rate",
+            "url": "#error-rate",
+            "items": []
+          },
+          {
+            "title": "Downtime",
+            "url": "#downtime",
+            "items": []
+          },
+          {
+            "title": "Knowledge capture",
+            "url": "#knowledge-capture",
+            "items": []
+          }
+        ]
+      },
+      {
+        "title": "Assumptions and defaults",
+        "url": "#assumptions-and-defaults",
+        "items": []
+      },
+      {
+        "title": "Calculation logic",
+        "url": "#calculation-logic",
+        "items": [
+          {
+            "title": "Training cost savings",
+            "url": "#training-cost-savings",
+            "items": []
+          },
+          {
+            "title": "Error and rework savings",
+            "url": "#error-and-rework-savings",
+            "items": []
+          },
+          {
+            "title": "Downtime savings",
+            "url": "#downtime-savings",
+            "items": []
+          },
+          {
+            "title": "Knowledge capture value",
+            "url": "#knowledge-capture-value",
+            "items": []
+          }
+        ]
+      },
+      {
+        "title": "Sources & benchmarks",
+        "url": "#sources--benchmarks",
+        "items": []
+      },
+      {
+        "title": "Frequently asked questions",
+        "url": "#frequently-asked-questions",
+        "items": [
+          {
+            "title": "Is the ROI calculator conservative or optimistic?",
+            "url": "#is-the-roi-calculator-conservative-or-optimistic",
+            "items": []
+          },
+          {
+            "title": "Does the calculator include hardware costs?",
+            "url": "#does-the-calculator-include-hardware-costs",
+            "items": []
+          },
+          {
+            "title": "Can this be used for logistics or energy operations?",
+            "url": "#can-this-be-used-for-logistics-or-energy-operations",
+            "items": []
+          },
+          {
+            "title": "What data is needed for accurate results?",
+            "url": "#what-data-is-needed-for-accurate-results",
+            "items": []
+          }
+        ]
+      },
+      {
+        "title": "Next steps",
+        "url": "#next-steps",
+        "items": []
+      }
+    ],
+    "url": "/whitepapers/roi-calculator-guide",
+    "readingTime": {
+      "text": "6 min read",
+      "minutes": 5.215,
+      "time": 312900,
+      "words": 1043
+    }
+  }
+]
