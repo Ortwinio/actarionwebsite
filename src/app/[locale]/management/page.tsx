@@ -24,18 +24,24 @@ export const dynamic = 'force-static';
 const pageContent = {
   en: {
     title: "Management",
+    seoTitle: "Leadership Team – Meet the ActARion Management",
     subtitle: "ActARion is led by experienced entrepreneurs who bridge technology, operations and people.",
     description: "Meet the ActARion management team. Ortwin Verreck and Mark Dercksen lead ActARion with a shared mission to help organisations work smarter, safer and faster with AI and Augmented Reality.",
+    seoDescription: "Meet Ortwin Verreck and Mark Dercksen, the Managing Partners leading ActARion's mission to transform industrial work with AR and AI.",
   },
   nl: {
     title: "Management",
+    seoTitle: "Leiderschapsteam – Ontmoet het ActARion Management",
     subtitle: "ActARion wordt geleid door ervaren ondernemers die technologie, operations en mensen verbinden.",
     description: "Ontmoet het ActARion managementteam. Ortwin Verreck en Mark Dercksen leiden ActARion met een gedeelde missie om organisaties te helpen slimmer, veiliger en sneller te werken met AI en Augmented Reality.",
+    seoDescription: "Maak kennis met Ortwin Verreck en Mark Dercksen, de Managing Partners die ActARion leiden in de transformatie van industrieel werk.",
   },
   de: {
     title: "Management",
+    seoTitle: "Führungsteam – Das ActARion Management kennenlernen",
     subtitle: "ActARion wird von erfahrenen Unternehmern geleitet, die Technologie, Betrieb und Menschen verbinden.",
     description: "Lernen Sie das ActARion Management-Team kennen. Ortwin Verreck und Mark Dercksen führen ActARion mit einer gemeinsamen Mission, Organisationen dabei zu helfen, mit KI und Augmented Reality intelligenter, sicherer und schneller zu arbeiten.",
+    seoDescription: "Lernen Sie Ortwin Verreck und Mark Dercksen kennen, die Managing Partners, die ActARion bei der Transformation der Industrie führen.",
   },
 };
 
@@ -49,8 +55,8 @@ export async function generateMetadata({ params }: ManagementPageProps): Promise
 
   return buildPageMetadata({
     locale,
-    title: content.title,
-    description: content.description,
+    title: content.seoTitle,
+    description: content.seoDescription,
     segment: "management",
   });
 }

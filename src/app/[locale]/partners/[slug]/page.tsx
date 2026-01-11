@@ -40,10 +40,12 @@ export async function generateMetadata({ params }: PartnerPageProps): Promise<Me
     notFound();
   }
 
+  // Create descriptive SEO title based on partner type
+  const seoTitle = `${partner.name} Partnership – Industrial AR Solutions`;
+  
   return buildPageMetadata({
     locale,
-    // Don't add "| ActARion" - the root layout template will add it
-    title: `${partner.name} Partner`,
+    title: seoTitle,
     description: partner.metaDescription,
     segment: `partners/${slug}`,
   });

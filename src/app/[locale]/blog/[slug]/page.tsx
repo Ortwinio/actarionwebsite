@@ -40,10 +40,15 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
       }
     : undefined
 
+  // Use seoTitle if available (shorter for search results), otherwise fall back to full title
+  const pageTitle = blog.seoTitle || blog.title;
+  // Use seoDescription if available (max 155 chars), otherwise fall back to full description
+  const pageDescription = blog.seoDescription || blog.description;
+  
   const metadata = buildPageMetadata({
     locale: typedLocale,
-    title: blog.title,
-    description: blog.description,
+    title: pageTitle,
+    description: pageDescription,
     segment: `blog/${blog.slug}`,
     image: imageMeta,
     type: 'article',

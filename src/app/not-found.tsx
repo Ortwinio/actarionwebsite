@@ -81,7 +81,7 @@ export default async function RootNotFound() {
               {/* Right: Hero Image */}
               <div className="relative w-full aspect-video rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src="/404-header-actarion-ar-navigation.png"
+                  src="/404-header-actarion-ar-navigation.jpg"
                   alt="Technician viewing AR work instructions with one missing tile and highlighted alternative steps."
                   fill
                   className="object-cover"

@@ -24,18 +24,24 @@ export const dynamic = 'force-static';
 const pageContent = {
   en: {
     title: "Vision",
+    seoTitle: "Our Vision – Smarter, Safer, Faster Industrial Work",
     subtitle: "Giving people simpler, smarter ways to do complex work with AI and Augmented Reality.",
     description: "ActARion's vision is a world where every operator can perform critical tasks first-time-right, knowledge is captured and shared, and training is embedded in the work itself.",
+    seoDescription: "ActARion's vision: every operator performs critical tasks first-time-right, knowledge is shared, and training is embedded in the work.",
   },
   nl: {
     title: "Visie",
+    seoTitle: "Onze Visie – Slimmer, Veiliger, Sneller Industrieel Werk",
     subtitle: "Mensen eenvoudigere, slimmere manieren geven om complex werk te doen met AI en Augmented Reality.",
     description: "De visie van ActARion is een wereld waarin elke operator kritieke taken in één keer goed kan uitvoeren, kennis wordt vastgelegd en gedeeld, en training is ingebed in het werk zelf.",
+    seoDescription: "De visie van ActARion: elke operator voert kritieke taken in één keer goed uit, kennis wordt gedeeld en training is ingebed in het werk.",
   },
   de: {
     title: "Vision",
+    seoTitle: "Unsere Vision – Intelligentere, Sicherere, Schnellere Arbeit",
     subtitle: "Menschen einfachere, intelligentere Wege zu geben, um komplexe Arbeit mit KI und Augmented Reality zu erledigen.",
     description: "Die Vision von ActARion ist eine Welt, in der jeder Operator kritische Aufgaben beim ersten Mal richtig ausführen kann, Wissen erfasst und geteilt wird und Training in die Arbeit selbst eingebettet ist.",
+    seoDescription: "ActARions Vision: Jeder Operator führt kritische Aufgaben beim ersten Mal richtig aus, Wissen wird geteilt und Training ist in die Arbeit eingebettet.",
   },
 };
 
@@ -49,8 +55,8 @@ export async function generateMetadata({ params }: VisionPageProps): Promise<Met
 
   return buildPageMetadata({
     locale,
-    title: content.title,
-    description: content.description,
+    title: content.seoTitle,
+    description: content.seoDescription,
     segment: "vision",
   });
 }

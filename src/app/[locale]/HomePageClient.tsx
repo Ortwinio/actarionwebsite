@@ -109,7 +109,7 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
         <video
           className="absolute inset-0 h-full w-full object-cover"
           src="/ActARion_intro.mp4"
-          poster="/actarion-header-1.png"
+          poster="/actarion-header-1.jpg"
           autoPlay
           loop
           muted
@@ -297,7 +297,7 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
       >
         <div className="w-full mb-6">
           <Image
-            src="/actarion-header-2.png"
+            src="/actarion-header-2.jpg"
             alt="ActARion Industries Header"
             width={800}
             height={600}
@@ -358,7 +358,7 @@ export default function HomePageClient({ locale, dictionary }: HomePageClientPro
       >
         <div className="w-full mb-6">
           <Image
-            src="/actarion-header-3.png"
+            src="/actarion-header-3.jpg"
             alt="ActARion About Header"
             width={800}
             height={600}

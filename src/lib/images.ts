@@ -17,20 +17,20 @@ export const images = {
   // ============================================================
   headers: {
     // Legacy headers (deprecated - use roles/usecases instead)
-    header1: "/images/roles/career-product-manager-hero2.png",
-    header2: "/images/usecases/usecases-overview.png",
-    header3: "/images/usecases/ar-preventive-maintenance-with-data-driven-insights-hero.png",
-    header4: "/images/roles/career-product-manager-hero2.png",
+    header1: "/images/roles/career-product-manager-hero2.jpg",
+    header2: "/images/usecases/usecases-overview.jpg",
+    header3: "/images/usecases/ar-preventive-maintenance-with-data-driven-insights-hero.jpg",
+    header4: "/images/roles/career-product-manager-hero2.jpg",
   },
 
   // ============================================================
   // ROLE IMAGES (for career pages and random headers)
   // ============================================================
   roles: {
-    arDeveloperHero: "/images/roles/career-ar-developer-hero.png",
-    productManagerHero: "/images/roles/career-product-manager-hero.png",
-    productManagerHero2: "/images/roles/career-product-manager-hero2.png",
-    salesEngineerHero: "/images/roles/career-sales-engineer-hero.png",
+    arDeveloperHero: "/images/roles/career-ar-developer-hero.jpg",
+    productManagerHero: "/images/roles/career-product-manager-hero.jpg",
+    productManagerHero2: "/images/roles/career-product-manager-hero2.jpg",
+    salesEngineerHero: "/images/roles/career-sales-engineer-hero.jpg",
   },
 
   // ============================================================
@@ -39,40 +39,40 @@ export const images = {
   branding: {
     logo: "/actarionlogo.png",
     logoText: "/actariontextlogo.png",
-    onepager: "/onepager.png",
+    onepager: "/onepager.jpg",
   },
 
   // ============================================================
   // HOMEPAGE IMAGES
   // ============================================================
   homepage: {
-    header2: "/images/usecases/usecases-overview.png",
-    header3: "/images/roles/career-product-manager-hero2.png",
-    vertical1: "/actarion vertical 1.png",
-    vertical2: "/ActARion vertical 2.png",
-    vertical3: "/ActARion vertical 3.png",
+    header2: "/images/usecases/usecases-overview.jpg",
+    header3: "/images/roles/career-product-manager-hero2.jpg",
+    vertical1: "/actarion vertical 1.jpg",
+    vertical2: "/ActARion vertical 2.jpg",
+    vertical3: "/ActARion vertical 3.jpg",
   },
 
   // ============================================================
   // 404 PAGE
   // ============================================================
   notFound: {
-    header: "/404-header-actarion-ar-navigation.png",
+    header: "/404-header-actarion-ar-navigation.jpg",
   },
 
   // ============================================================
   // USE CASES OVERVIEW
   // ============================================================
   useCases: {
-    overview: "/usecases-overview.png",
-    usecasesOverviewHero: "/images/usecases/usecases-overview.png",
+    overview: "/usecases-overview.jpg",
+    usecasesOverviewHero: "/images/usecases/usecases-overview.jpg",
     // Individual use case hero images
-    arWorkInstructions: "/images/usecases/ar-work-instructions-and-sops-to-preserve-corporate-memory-hero.png",
-    arTraining: "/images/usecases/ar-training-and-onboarding-for-industrial-teams-hero.png",
-    arAssembly: "/images/usecases/ar-guided-assembly-for-error-free-production-hero.png",
-    arChangeover: "/images/usecases/ar-guided-changeover-to-reduce-downtime-hero.png",
-    arMaintenance: "/images/usecases/ar-preventive-maintenance-with-data-driven-insights-hero.png",
-    arRemoteSupport: "/images/usecases/ar-remote-expert-support-for-corrective-maintenance-hero.png",
+    arWorkInstructions: "/images/usecases/ar-work-instructions-and-sops-to-preserve-corporate-memory-hero.jpg",
+    arTraining: "/images/usecases/ar-training-and-onboarding-for-industrial-teams-hero.jpg",
+    arAssembly: "/images/usecases/ar-guided-assembly-for-error-free-production-hero.jpg",
+    arChangeover: "/images/usecases/ar-guided-changeover-to-reduce-downtime-hero.jpg",
+    arMaintenance: "/images/usecases/ar-preventive-maintenance-with-data-driven-insights-hero.jpg",
+    arRemoteSupport: "/images/usecases/ar-remote-expert-support-for-corrective-maintenance-hero.jpg",
   },
 
   // ============================================================
@@ -88,19 +88,19 @@ export const images = {
   // ============================================================
   blogs: {
     // Existing images
-    arAiCaptureExpertKnowledge: "/blogs/ar-ai-capture-expert-knowledge.png",
-    arOnboardingManufacturing: "/blogs/ar-onboarding-manufacturing-hero.png",
-    arSopsAddedValue: "/blogs/ar-sops-added-value.png",
-    arSopsNextFrontier: "/blogs/ar-sops-next-frontier.png",
+    arAiCaptureExpertKnowledge: "/blogs/ar-ai-capture-expert-knowledge.jpg",
+    arOnboardingManufacturing: "/blogs/ar-onboarding-manufacturing-hero.jpg",
+    arSopsAddedValue: "/blogs/ar-sops-added-value.jpg",
+    arSopsNextFrontier: "/blogs/ar-sops-next-frontier.jpg",
     arTrainingRevolution: "/blogs/ar-training-revolution.png",
-    deepSightAlternatives: "/blogs/deep-sight-alternatives-hero.png",
-    futureOfWorkIndustrialTraining: "/blogs/future-of-work-industrial-training-hero.png",
+    deepSightAlternatives: "/blogs/deep-sight-alternatives-hero.jpg",
+    futureOfWorkIndustrialTraining: "/blogs/future-of-work-industrial-training-hero.jpg",
     futureOfWork: "/blogs/future-of-work.png",
-    hololensVsAppleVisionPro: "/blogs/hololens-vs-apple-vision-pro-ar-guidance.png",
-    paperToArWorkflow: "/blogs/paper-to-ar-workflow-hero.png",
+    hololensVsAppleVisionPro: "/blogs/hololens-vs-apple-vision-pro-ar-guidance.jpg",
+    paperToArWorkflow: "/blogs/paper-to-ar-workflow-hero.jpg",
     partnershipDeepsight: "/blogs/partnership-deepsight-actarion.png",
-    remoteExpertSupport: "/blogs/remote-expert-support-ar-hero.png",
-    safetyComplianceAr: "/blogs/safety-compliance-ar.png",
+    remoteExpertSupport: "/blogs/remote-expert-support-ar-hero.jpg",
+    safetyComplianceAr: "/blogs/safety-compliance-ar.jpg",
     theFutureOfWork: "/blogs/the-future-of-work.png",
   },
 } as const;

@@ -59,7 +59,7 @@ const JOBS: Job[] = [
       "Familiarity with AR frameworks and 3D concepts",
       "Curiosity about how people actually work in factories, plants and in the field",
     ],
-    imageSrc: "/images/roles/career-ar-developer-hero.png",
+    imageSrc: "/images/roles/career-ar-developer-hero.jpg",
     imageAlt: "AR developer building augmented reality workflows for industrial operations",
   },
   {
@@ -79,7 +79,7 @@ const JOBS: Job[] = [
       "Affinity with AR/VR or industrial software",
       "Strong communication skills in English (and preferably another European language)",
     ],
-    imageSrc: "/images/roles/career-sales-engineer-hero.png",
+    imageSrc: "/images/roles/career-sales-engineer-hero.jpg",
     imageAlt: "Sales engineer explaining AR and AI solutions to customers",
   },
   {
@@ -98,7 +98,7 @@ const JOBS: Job[] = [
       "Strong analytical skills and a structured way of working",
       "Interest in operations, maintenance, training or quality in industrial environments",
     ],
-    imageSrc: "/images/roles/career-product-manager-hero.png",
+    imageSrc: "/images/roles/career-product-manager-hero.jpg",
     imageAlt: "Product manager defining roadmap for AR and AI-guided work",
   },
 ];

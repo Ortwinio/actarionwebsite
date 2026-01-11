@@ -15,6 +15,10 @@ interface EventsPageProps {
 const fallbackDescription =
   "Join ActARion at upcoming events, webinars and workshops to learn how AI and AR–guided work instructions help you capture corporate knowledge and shape the future of work.";
 
+// Short SEO description (max 155 chars)
+const seoDescription =
+  "Join ActARion at events, webinars and workshops on AR and AI work instructions. Learn how to transform industrial operations.";
+
 /**
  * Force static generation for all locales.
  */
@@ -44,7 +48,7 @@ export async function generateMetadata({ params }: EventsPageProps): Promise<Met
   return buildPageMetadata({
     locale,
     title: metaTitle,
-    description,
+    description: seoDescription,
     segment: "events",
   });
 }

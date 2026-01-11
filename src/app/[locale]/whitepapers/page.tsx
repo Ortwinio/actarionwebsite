@@ -24,6 +24,13 @@ const pageDescriptions = {
   nl: "Ontdek ActARion whitepapers over AI en AR-gestuurde werkinstructies, AR-SOPs en digitale werkinstructies. Download bronnen over praktijkcases en implementatie best practices."
 };
 
+// Short SEO descriptions (max 155 chars)
+const seoDescriptions = {
+  en: "Download ActARion whitepapers on AR work instructions, digital SOPs, and AI-guided industrial operations. Real-world use cases and best practices.",
+  de: "Laden Sie ActARion Whitepapers zu AR-Arbeitsanweisungen, digitalen SOPs und KI-gestützten Industrieabläufen herunter.",
+  nl: "Download ActARion whitepapers over AR-werkinstructies, digitale SOPs en AI-gestuurde industriële operaties."
+};
+
 const pageTitles = {
   en: "Whitepapers – AR & AI Work Instructions Resources",
   de: "Whitepapers – Ressourcen zu AR- & KI-Arbeitsanweisungen",
@@ -48,7 +55,7 @@ export async function generateMetadata({ params }: WhitepapersPageProps): Promis
     notFound();
   }
 
-  const description = pageDescriptions[locale];
+  const description = seoDescriptions[locale];
 
   return buildPageMetadata({
     locale,

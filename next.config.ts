@@ -20,10 +20,8 @@ const nextConfig: NextConfig = {
   experimental: {
     optimizePackageImports: ['@heroicons/react'],
   },
-  // Disable ESLint during production builds to avoid blocking deploys
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
+  // Enable Turbopack (default in Next.js 16) - empty config silences webpack migration warning
+  turbopack: {},
   // Image optimization - optimized for performance
   images: {
     // Prefer AVIF, then WebP for maximum compression
@@ -148,6 +146,17 @@ const nextConfig: NextConfig = {
         permanent: false,
       },
 
+      // ========================================
+      // DUPLICATE CONTENT CONSOLIDATION
+      // ========================================
+      // Redirect older duplicate blog posts to canonical version
+      // Use statusCode: 301 instead of permanent: true to avoid 308 redirects
+      {
+        source: '/:locale/blog/measure-roi-ar-ai-guided-work-instructions',
+        destination: '/:locale/blog/roi-ar-ai-guided-work-instructions',
+        statusCode: 301,
+      },
+
       // Redirects for /en/resources/*, /en/blogs/*, /en/use-cases/*, /en/explainer/*, /en/faq/*, and static assets
       // are now handled via vercel.json with explicit 301s to avoid 308 redirects.
       // See vercel.json for the complete list of 301 redirects.
@@ -181,6 +190,24 @@ const nextConfig: NextConfig = {
           {
             key: 'Referrer-Policy',
             value: 'origin-when-cross-origin'
+          },
+          {
+            key: 'Content-Security-Policy',
+            value: [
+              "default-src 'self'",
+              "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://vercel.live https://*.vercel.app",
+              "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+              "img-src 'self' data: blob: https: http:",
+              "font-src 'self' https://fonts.gstatic.com",
+              "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://vitals.vercel-insights.com https://*.vercel.app wss://*.vercel.app",
+              "frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://player.vimeo.com",
+              "media-src 'self' https: blob:",
+              "object-src 'none'",
+              "base-uri 'self'",
+              "form-action 'self'",
+              "frame-ancestors 'self'",
+              "upgrade-insecure-requests"
+            ].join('; ')
           }
         ]
       }

@@ -19,6 +19,19 @@ const fallbackDescription =
 const fallbackSubtitle =
   "Smarter, safer and faster work with AI and Augmented Reality.";
 
+const seoTitles = {
+  en: "About ActARion – AR Work Instruction Experts",
+  de: "Über ActARion – Experten für AR-Arbeitsanweisungen",
+  nl: "Over ActARion – Experts in AR-werkinstructies",
+};
+
+// Short SEO descriptions (max 155 chars) - page content uses longer dictionary descriptions
+const seoDescriptions = {
+  en: "ActARion helps industrial teams work smarter with AR and AI. We turn expert knowledge into visual work instructions for safer, faster operations.",
+  de: "ActARion hilft Industrieteams mit AR und KI smarter zu arbeiten. Wir verwandeln Expertenwissen in visuelle Arbeitsanweisungen.",
+  nl: "ActARion helpt industriële teams slimmer werken met AR en AI. Wij zetten expertkennis om in visuele werkinstructies.",
+};
+
 /**
  * Force static generation for all locales.
  */
@@ -34,15 +47,13 @@ export async function generateMetadata({ params }: AboutPageProps): Promise<Meta
     notFound();
   }
 
-  const dictionary = await getDictionary(locale);
-  const aboutCopy = dictionary.pages?.about;
-  const description =
-    aboutCopy?.description?.replace(/\s+/g, " ").trim() || fallbackDescription;
-
+  const seoTitle = seoTitles[locale as keyof typeof seoTitles] || seoTitles.en;
+  const seoDescription = seoDescriptions[locale as keyof typeof seoDescriptions] || seoDescriptions.en;
+  
   return buildPageMetadata({
     locale,
-    title: aboutCopy?.title || "About ActARion",
-    description,
+    title: seoTitle,
+    description: seoDescription,
     segment: "about",
   });
 }

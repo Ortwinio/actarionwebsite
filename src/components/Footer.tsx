@@ -155,7 +155,7 @@ export function Footer({ locale, dictionary }: FooterProps) {
             </li>
             <li>
               <a
-                href="/onepager.png"
+                href="/onepager.jpg"
                 target="_blank"
                 rel="noopener noreferrer"
               >

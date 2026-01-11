@@ -130,7 +130,7 @@ export default async function VideosPage({ params }: VideosPageProps) {
               <video
                 className="w-full h-full object-cover"
                 controls
-                poster="/images/usecases/ar-work-instructions-and-sops-to-preserve-corporate-memory-hero.png"
+                poster="/images/usecases/ar-work-instructions-and-sops-to-preserve-corporate-memory-hero.jpg"
                 preload="metadata"
               >
                 <source src="/ActARion_intro.mp4" type="video/mp4" />

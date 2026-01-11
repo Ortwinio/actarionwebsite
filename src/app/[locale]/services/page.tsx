@@ -17,6 +17,12 @@ const fallbackDescription =
 const fallbackSubtitle =
   "We help you turn AR and AI into practical tools on the shop floor.";
 
+const seoTitles = {
+  en: "AR Work Instruction & SOP Services for Industry",
+  de: "AR-Arbeitsanweisungen & SOP-Dienstleistungen für die Industrie",
+  nl: "AR Werkinstructie & SOP Diensten voor de Industrie",
+};
+
 /**
  * Force static generation for all locales.
  */
@@ -37,9 +43,11 @@ export async function generateMetadata({ params }: ServicesPageProps): Promise<M
   const description =
     servicesCopy?.description?.replace(/\s+/g, " ").trim() || fallbackDescription;
 
+  const seoTitle = seoTitles[locale as keyof typeof seoTitles] || seoTitles.en;
+  
   return buildPageMetadata({
     locale,
-    title: servicesCopy?.title || "Services",
+    title: seoTitle,
     description,
     segment: "services",
   });

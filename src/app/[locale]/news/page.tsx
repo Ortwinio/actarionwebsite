@@ -26,6 +26,13 @@ const pageDescriptions = {
   nl: "Een selectie van ActARion nieuwsartikelen en updates. Blijf op de hoogte van de laatste ontwikkelingen in AI en AR-gestuurde werkinstructies, AR-SOPs en digitale werkinstructies."
 };
 
+// Short SEO descriptions (max 155 chars)
+const seoDescriptions = {
+  en: "ActARion news and updates on AR work instructions, digital SOPs, and AI for industrial operations. Latest developments and announcements.",
+  de: "ActARion-Nachrichten und Updates zu AR-Arbeitsanweisungen, digitalen SOPs und KI für industrielle Abläufe.",
+  nl: "ActARion nieuws en updates over AR-werkinstructies, digitale SOPs en AI voor industriële operaties."
+};
+
 const pageTitles = {
   en: "News – AR & AI Work Instructions Updates",
   de: "News – Updates zu AR- & KI-Arbeitsanweisungen",
@@ -50,7 +57,7 @@ export async function generateMetadata({ params }: NewsPageProps): Promise<Metad
     notFound();
   }
 
-  const description = pageDescriptions[locale];
+  const description = seoDescriptions[locale];
 
   return buildPageMetadata({
     locale,

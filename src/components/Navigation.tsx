@@ -31,7 +31,7 @@ export default function Navigation({ locale, dictionary }: NavigationProps) {
 
   useEffect(() => {
     setIsClient(true);
-
+    
     const handleScroll = () => {
       const scrollTop = window.scrollY;
       setIsScrolled(scrollTop > 10);
@@ -176,17 +176,17 @@ export default function Navigation({ locale, dictionary }: NavigationProps) {
                       onMouseLeave={handleDropdownLeave}
                     >
                       {item.children.map((child) => (
-                        <Link
+            <Link
                           key={child.id}
                           href={buildLocalizedPath(normalizedLocale, child.segment)}
                           className={`nav-dropdown__item${
                             isActive(child.segment) ? " nav-dropdown__item--active" : ""
                           }`}
                           onClick={() => setOpenDropdown(null)}
-                        >
+            >
                           {getLabel(child, item.id)}
-                        </Link>
-                      ))}
+            </Link>
+          ))}
                     </div>
                   )}
                 </div>
@@ -278,17 +278,17 @@ export default function Navigation({ locale, dictionary }: NavigationProps) {
                     {openMobileDropdown === item.id && (
                       <div className="mobile-nav__submenu">
                         {item.children.map((child) => (
-                          <Link
+              <Link
                             key={child.id}
                             href={buildLocalizedPath(normalizedLocale, child.segment)}
                             className={`nav-link nav-link--submenu${
                               isActive(child.segment) ? " nav-link--active" : ""
                             }`}
-                            onClick={closeMobileMenu}
-                          >
+                onClick={closeMobileMenu}
+              >
                             {getLabel(child, item.id)}
-                          </Link>
-                        ))}
+              </Link>
+            ))}
                       </div>
                     )}
                   </div>
@@ -329,4 +329,4 @@ export default function Navigation({ locale, dictionary }: NavigationProps) {
       )}
     </header>
   );
-}
+} 

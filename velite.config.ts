@@ -17,7 +17,11 @@ const normalizeImagePath = (imagePath?: string) => {
 
 const blog = s.object({
   title: s.string(),
+  // Optional shorter title for SEO (max 60 chars). Falls back to title if not provided.
+  seoTitle: s.string().optional(),
   description: s.string(),
+  // Optional shorter description for SEO (max 155 chars). Falls back to description if not provided.
+  seoDescription: s.string().optional(),
   // Accept strings so images can live in /public/blogs or nested folders
   image: s.string().optional(),
   publishedAt: s.isodate(),

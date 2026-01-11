@@ -15,6 +15,10 @@ interface CareerPageProps {
 const fallbackDescription =
   "Join ActARion and help build augmented reality solutions that transform frontline operations across Europe.";
 
+// Short SEO description (max 155 chars)
+const seoDescription =
+  "Join ActARion and help build AR and AI solutions that transform industrial work. Explore career opportunities in the future of frontline operations.";
+
 /**
  * Force static generation for all locales.
  */
@@ -44,7 +48,7 @@ export async function generateMetadata({ params }: CareerPageProps): Promise<Met
   return buildPageMetadata({
     locale,
     title: metaTitle,
-    description,
+    description: seoDescription,
     segment: "career",
   });
 }
@@ -86,7 +90,7 @@ export default async function CareerPage({ params }: CareerPageProps) {
       <PageHeader
         title={title}
         subtitle={subtitle}
-        imageOverride="/images/roles/career-product-manager-hero2.png"
+        imageOverride="/images/roles/career-product-manager-hero2.jpg"
       />
       <script
         type="application/ld+json"

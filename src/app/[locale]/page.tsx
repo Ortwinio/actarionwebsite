@@ -22,18 +22,26 @@ export async function generateMetadata({ params }: HomePageProps): Promise<Metad
   
   if (!isSupportedLocale(locale)) {
     return {
-      title: "ActARion – Augmented Reality SOP & AR Work Instruction Software",
+      title: "ActARion – AR SOP & Work Instruction Software",
     };
   }
 
   const typedLocale = locale as Locale;
   
-  return buildPageMetadata({
+  const baseMetadata = buildPageMetadata({
     locale: typedLocale,
-    title: "ActARion – Augmented Reality SOP & AR Work Instruction Software",
+    title: "ActARion – AR SOP & Work Instruction Software",
     description: "ActARion transforms SOPs into interactive AR work instructions. Train faster, reduce errors, and improve frontline quality with digital SOP software.",
     segment: undefined, // homepage has no segment
   });
+  
+  // Use absolute title for homepage to avoid " | ActARion" duplication
+  return {
+    ...baseMetadata,
+    title: {
+      absolute: "ActARion – AR SOP & Work Instruction Software",
+    },
+  };
 }
 
 export default async function HomePage({ params }: HomePageProps) {

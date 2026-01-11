@@ -28,6 +28,10 @@ interface UseCasesPageProps {
 const pageDescription =
   "Discover how ActARion and DeepSight help industrial, logistics and energy organisations work smarter, faster and safer with augmented reality work instructions, training and maintenance support.";
 
+// Short SEO description (max 155 chars)
+const seoDescription =
+  "Explore AR use cases for industrial operations: assembly guidance, maintenance support, training, and remote expert assistance with ActARion.";
+
 export async function generateMetadata({ params }: UseCasesPageProps) {
   const { locale } = await params;
   if (!isSupportedLocale(locale)) {
@@ -37,7 +41,7 @@ export async function generateMetadata({ params }: UseCasesPageProps) {
   return buildPageMetadata({
     locale,
     title: "Industrial AR use cases | ActARion",
-    description: pageDescription,
+    description: seoDescription,
     segment: "use-cases",
   });
 }

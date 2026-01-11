@@ -15,6 +15,12 @@ interface PrivacyPageProps {
 const fallbackDescription =
   "Read ActARion's privacy policy to understand how we collect, process, and protect personal data across our AR SOP platform.";
 
+const seoTitles = {
+  en: "Privacy Policy – Data Protection at ActARion",
+  de: "Datenschutzrichtlinie – Datenschutz bei ActARion",
+  nl: "Privacybeleid – Gegevensbescherming bij ActARion",
+};
+
 /**
  * Force static generation for all locales.
  * This ensures the page is pre-rendered at build time.
@@ -41,10 +47,11 @@ export async function generateMetadata({ params }: PrivacyPageProps): Promise<Me
   const description =
     privacyCopy?.subtitle?.replace(/\s+/g, " ").trim() || fallbackDescription;
 
+  const seoTitle = seoTitles[locale as keyof typeof seoTitles] || seoTitles.en;
+  
   return buildPageMetadata({
     locale: typedLocale,
-    // Use short title - the root layout template will append " | ActARion"
-    title: privacyCopy?.title || "Privacy Policy",
+    title: seoTitle,
     description,
     segment: "privacy",
   });

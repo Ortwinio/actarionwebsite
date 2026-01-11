@@ -17,6 +17,10 @@ interface PartnersPageProps {
 const fallbackDescription =
   "Discover ActARion's partner ecosystem: technology vendors, implementation partners and education partners who help organisations work smarter, safer and faster with AR and AI.";
 
+// Short SEO description (max 155 chars)
+const seoDescription =
+  "Explore ActARion's partner ecosystem: DeepSight, Microsoft HoloLens, Apple Vision Pro, and implementation partners for industrial AR solutions.";
+
 /**
  * Force static generation for all locales.
  */
@@ -39,7 +43,7 @@ export async function generateMetadata({ params }: PartnersPageProps): Promise<M
   return buildPageMetadata({
     locale,
     title: metaTitle,
-    description: fallbackDescription,
+    description: seoDescription,
     segment: "partners",
   });
 }
