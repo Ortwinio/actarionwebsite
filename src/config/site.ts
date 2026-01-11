@@ -3,12 +3,13 @@ export type Locale = typeof locales[number];
 
 export const defaultLocale: Locale = 'en';
 
-export type NavigationItemId = 'home' | 'services' | 'about' | 'contact' | 'insight' | 'partner';
-export type InsightSubItemId = 'useCases' | 'blogposts' | 'events' | 'whitepapers' | 'videos' | 'news';
+export type NavigationItemId = 'home' | 'services' | 'about' | 'contact' | 'insight' | 'partner' | 'useCases';
+export type InsightSubItemId = 'blogposts' | 'events' | 'whitepapers' | 'videos' | 'news';
 export type AboutSubItemId = 'aboutActarion' | 'vision' | 'management' | 'career' | 'faq';
+export type UseCaseSubItemId = 'onboardingTraining' | 'guidedAssembly' | 'guidedChangeovers' | 'preventiveMaintenance' | 'remoteExpertSupport' | 'allUseCases';
 
 export interface NavigationSubItem {
-  id: InsightSubItemId | AboutSubItemId;
+  id: InsightSubItemId | AboutSubItemId | UseCaseSubItemId;
   segment: string;
 }
 
@@ -20,8 +21,19 @@ export interface NavigationItem {
   children?: NavigationSubItem[];
 }
 
+/**
+ * Use case submenu items in canonical order.
+ */
+export const useCaseSubItems: NavigationSubItem[] = [
+  { id: 'onboardingTraining', segment: 'use-cases/ar-training-and-onboarding' },
+  { id: 'guidedAssembly', segment: 'use-cases/ar-guided-assembly-production' },
+  { id: 'guidedChangeovers', segment: 'use-cases/ar-guided-changeover-batch-preparation' },
+  { id: 'preventiveMaintenance', segment: 'use-cases/ar-preventive-maintenance' },
+  { id: 'remoteExpertSupport', segment: 'use-cases/ar-remote-expert-support-corrective-maintenance' },
+  { id: 'allUseCases', segment: 'use-cases' },
+];
+
 export const insightSubItems: NavigationSubItem[] = [
-  { id: 'useCases', segment: 'use-cases' },
   { id: 'blogposts', segment: 'blog' },
   { id: 'events', segment: 'events' },
   { id: 'whitepapers', segment: 'whitepapers' },
@@ -37,10 +49,11 @@ export const aboutSubItems: NavigationSubItem[] = [
   { id: 'faq', segment: 'faq' },
 ];
 
-/** Top-level navigation order: Services, Insights, Partners, About Us, Contact */
+/** Top-level navigation order: Services, Use Cases, Insights, Partners, About Us, Contact */
 export const navigationItems: NavigationItem[] = [
   { id: 'home' },
   { id: 'services', segment: 'services' },
+  { id: 'useCases', children: useCaseSubItems },
   { id: 'insight', children: insightSubItems },
   { id: 'partner', segment: 'partners' },
   { id: 'about', children: aboutSubItems },

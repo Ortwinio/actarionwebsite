@@ -249,7 +249,7 @@ const enContent: UseCaseContentBySlug = {
     ],
   },
   "ar-training-and-onboarding": {
-    heroTitle: "Accelerate training and onboarding with AR work instructions",
+    heroTitle: "Onboarding & Training with AR SOPs",
     heroParagraphs: [
       "Traditional onboarding often means weeks of job shadowing and classroom training. It slows down productivity and puts extra pressure on a small group of experts. Augmented reality training changes this dynamic fundamentally.",
       "With AR-guided work instructions, new employees learn directly in the workplace, supported by clear AR overlays instead of static manuals. They perform real tasks with step-by-step guidance and build competence faster and more reliably. AR onboarding transforms training from a bottleneck into a competitive advantage.",
@@ -470,7 +470,7 @@ const enContent: UseCaseContentBySlug = {
     ],
   },
   "ar-guided-assembly-production": {
-    heroTitle: "Error free production with AR guided assembly instructions",
+    heroTitle: "AR-Guided Assembly",
     heroParagraphs: [
       "In production and assembly environments, small mistakes quickly lead to rework, scrap or product recalls. Paper-based instructions and verbal explanations leave too much room for interpretation, especially as product complexity and variant counts grow.",
       "AR-guided production and assembly provide operators with clear, visual work instructions at the workstation, combined with automated visual verification. That combination reduces human error, ensures consistent execution and creates complete, audit-ready documentation of each build. AR-guided assembly transforms quality from a checkpoint into a continuous, built-in process.",
@@ -692,7 +692,7 @@ const enContent: UseCaseContentBySlug = {
     ],
   },
   "ar-guided-changeover-batch-preparation": {
-    heroTitle: "Reduce downtime with AR guided changeover procedures",
+    heroTitle: "AR-Guided Changeovers",
     heroParagraphs: [
       "Changeovers and batch preparation are critical moments in manufacturing. Incorrect settings or missed steps lead to defects, scrap and unplanned downtime. Procedures are often complex and depend heavily on the experience of a few key operators.",
       "With AR-guided changeover and batch preparation, operators follow clear, standardised work instructions in augmented reality. Each step is documented and verified, and remote experts can join in real time if something unexpected happens. AR-guided changeovers transform one of manufacturing's most variable processes into a reliable, repeatable routine.",
@@ -915,7 +915,7 @@ const enContent: UseCaseContentBySlug = {
     ],
   },
   "ar-preventive-maintenance": {
-    heroTitle: "Data driven AR preventive maintenance for higher uptime",
+    heroTitle: "Preventive & Predictive Maintenance",
     heroParagraphs: [
       "Preventive maintenance is meant to prevent downtime, but in practice there is often limited insight into how procedures are actually executed. Without data on execution quality, time and recurring issues, it is hard to improve maintenance strategies or demonstrate ROI.",
       "AR-supported preventive maintenance combines visual work instructions with automated data collection. Each task is executed in the same standardised way, documented with images and enriched with performance metrics. AR-guided preventive maintenance transforms maintenance from a cost centre into a source of operational intelligence.",
@@ -1138,7 +1138,7 @@ const enContent: UseCaseContentBySlug = {
     ],
   },
   "ar-remote-expert-support-corrective-maintenance": {
-    heroTitle: "Faster corrective maintenance with AR remote expert support",
+    heroTitle: "Remote Expert Support",
     heroParagraphs: [
       "When a critical asset fails, every minute counts. Often, the expert with the right knowledge is not on site, and travel time adds hours or even days of unplanned downtime. Phone calls and photos are not enough to guide complex repairs safely and effectively.",
       "Remote AR expert support brings the specialist virtually to the machine. The operator on site shares a live AR video feed, and the remote expert guides the repair step by step with voice and visual annotations. AR remote support transforms expert availability from a bottleneck into a scalable resource.",

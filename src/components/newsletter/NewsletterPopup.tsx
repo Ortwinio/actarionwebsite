@@ -3,12 +3,18 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { XMarkIcon } from "@heroicons/react/24/outline";
+import { 
+  AcademicCapIcon, 
+  WrenchScrewdriverIcon, 
+  ShieldCheckIcon 
+} from "@heroicons/react/24/outline";
 import { track } from "@vercel/analytics";
+import Link from "next/link";
 
 // Storage keys for popup suppression
 const STORAGE_KEYS = {
-  dismissed: "newsletter_popup_dismissed",
-  subscribed: "newsletter_popup_subscribed",
+  dismissed: "actarion_newsletter_dismissed",
+  subscribed: "actarion_newsletter_subscribed",
 } as const;
 
 // Suppression durations in milliseconds
@@ -19,14 +25,66 @@ const SUPPRESSION = {
 
 // Trigger settings
 const TRIGGER = {
-  delay: 20000, // 20 seconds
+  delay: 35000, // 35 seconds (between 30-45s as specified)
   scrollPercent: 50, // 50% scroll
 } as const;
 
+// Pages where popup should appear (content pages)
+const INCLUDED_PATH_PATTERNS = [
+  "/blog",
+  "/use-cases",
+  "/whitepapers",
+  "/insights",
+];
+
 // Pages where popup should NOT appear
-const EXCLUDED_PATHS = ["/contact", "/privacy", "/newsletter", "/terms"];
+const EXCLUDED_PATHS = [
+  "/contact",
+  "/privacy",
+  "/terms",
+  "/newsletter",
+  "/demo",
+  "/partner-contact",
+  "/roi",
+];
 
 type FormStatus = "idle" | "loading" | "success" | "error";
+
+// Value proposition items with icons
+const VALUE_ITEMS = [
+  {
+    icon: AcademicCapIcon,
+    text: "Onboarding and training playbooks (what works on site)",
+  },
+  {
+    icon: WrenchScrewdriverIcon,
+    text: "Maintenance and troubleshooting checklists",
+  },
+  {
+    icon: ShieldCheckIcon,
+    text: "Keeping SOPs up to date and audit-ready",
+  },
+];
+
+// Use case chips
+const USE_CASE_CHIPS = [
+  "Onboarding",
+  "Troubleshooting",
+  "Safety & quality",
+  "Knowledge retention",
+];
+
+// Role options
+const ROLE_OPTIONS = [
+  { value: "", label: "Your role (optional)" },
+  { value: "operations", label: "Operations" },
+  { value: "maintenance", label: "Maintenance" },
+  { value: "quality", label: "Quality" },
+  { value: "training", label: "Training" },
+  { value: "hse", label: "HSE" },
+  { value: "it_digital", label: "IT / Digital" },
+  { value: "other", label: "Other" },
+];
 
 export default function NewsletterPopup() {
   const [isOpen, setIsOpen] = useState(false);
@@ -46,9 +104,20 @@ export default function NewsletterPopup() {
   const isSuppressed = useCallback(() => {
     if (typeof window === "undefined") return true;
 
-    // Check excluded paths
     const path = window.location.pathname;
+
+    // Check if path is in excluded list
     if (EXCLUDED_PATHS.some((excluded) => path.includes(excluded))) {
+      return true;
+    }
+
+    // Check if path is in included patterns (only show on content pages)
+    const isContentPage = INCLUDED_PATH_PATTERNS.some((pattern) => 
+      path.includes(pattern)
+    );
+    
+    // If not a content page, suppress
+    if (!isContentPage) {
       return true;
     }
 
@@ -70,10 +139,10 @@ export default function NewsletterPopup() {
   // Open the popup
   const openPopup = useCallback(() => {
     if (hasTriggered || isSuppressed()) return;
-    
+
     setHasTriggered(true);
     setIsOpen(true);
-    
+
     // Track popup view
     track("newsletter_popup_view");
   }, [hasTriggered, isSuppressed]);
@@ -81,7 +150,7 @@ export default function NewsletterPopup() {
   // Close the popup
   const closePopup = useCallback((reason: "dismiss" | "close" | "success") => {
     setIsOpen(false);
-    
+
     if (reason === "dismiss" || reason === "close") {
       localStorage.setItem(STORAGE_KEYS.dismissed, String(Date.now()));
       track("newsletter_popup_dismiss", { reason });
@@ -91,7 +160,7 @@ export default function NewsletterPopup() {
   // Handle form submission
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     if (!formData.email.trim()) {
       setErrorMessage("Please enter your email address");
       return;
@@ -99,7 +168,7 @@ export default function NewsletterPopup() {
 
     setFormStatus("loading");
     setErrorMessage("");
-    
+
     track("newsletter_popup_submit");
 
     try {
@@ -124,7 +193,7 @@ export default function NewsletterPopup() {
 
       setFormStatus("success");
       localStorage.setItem(STORAGE_KEYS.subscribed, String(Date.now()));
-      
+
       // Auto-close after success
       setTimeout(() => closePopup("success"), 3000);
     } catch (error) {
@@ -154,17 +223,26 @@ export default function NewsletterPopup() {
     const handleScroll = () => {
       const scrollPercent =
         (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
-      
+
       if (scrollPercent >= TRIGGER.scrollPercent) {
         openPopup();
       }
     };
 
+    // Exit intent trigger (desktop only)
+    const handleMouseLeave = (e: MouseEvent) => {
+      if (e.clientY <= 0) {
+        openPopup();
+      }
+    };
+
     window.addEventListener("scroll", handleScroll, { passive: true });
+    document.addEventListener("mouseleave", handleMouseLeave);
 
     return () => {
       clearTimeout(timer);
       window.removeEventListener("scroll", handleScroll);
+      document.removeEventListener("mouseleave", handleMouseLeave);
     };
   }, [isSuppressed, openPopup]);
 
@@ -182,7 +260,7 @@ export default function NewsletterPopup() {
     };
 
     document.addEventListener("keydown", handleKeyDown);
-    
+
     // Prevent body scroll when modal is open
     document.body.style.overflow = "hidden";
 
@@ -218,129 +296,165 @@ export default function NewsletterPopup() {
             transition={{ duration: 0.2 }}
             className="fixed inset-0 z-50 flex items-center justify-center p-4 pointer-events-none"
           >
-            <div className="relative w-full max-w-md rounded-2xl bg-white p-6 shadow-2xl pointer-events-auto">
+            <div className="relative w-full max-w-2xl rounded-2xl bg-white shadow-2xl pointer-events-auto overflow-hidden">
               {/* Close button */}
               <button
                 type="button"
                 onClick={() => closePopup("close")}
-                className="absolute right-4 top-4 rounded-full p-1 text-slate-400 hover:bg-slate-100 hover:text-slate-600 transition-colors"
-                aria-label="Close newsletter popup"
+                className="absolute right-4 top-4 z-10 rounded-full p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-600 transition-colors"
+                aria-label="Close"
               >
                 <XMarkIcon className="h-5 w-5" />
               </button>
 
               {formStatus === "success" ? (
                 /* Success state */
-                <div className="text-center py-4">
-                  <div className="text-5xl mb-4">🎉</div>
+                <div className="text-center py-12 px-8">
+                  <div className="text-5xl mb-4">✓</div>
                   <h2 className="text-xl font-bold text-slate-900 mb-2">
-                    You&apos;re subscribed!
+                    You&apos;re on the list
                   </h2>
                   <p className="text-slate-600">
-                    Thanks for joining our newsletter. We&apos;ll keep you updated with the latest
-                    insights on AR and AI in industrial operations.
+                    Thanks for subscribing. You&apos;ll receive practical notes on AI and AR–guided work instructions, starting with your next email.
                   </p>
                 </div>
               ) : (
-                /* Form state */
-                <>
-                  <div className="mb-6 pr-8">
+                /* Form state - Two column layout */
+                <div className="grid md:grid-cols-2">
+                  {/* Left column - Copy */}
+                  <div className="bg-slate-50 p-6 md:p-8">
                     <h2
                       id="newsletter-popup-title"
-                      className="text-xl font-bold text-slate-900 mb-2"
+                      className="text-xl font-bold text-slate-900 mb-3 pr-8"
                     >
-                      Stay ahead with AR & AI insights
+                      Practical AI + AR guidance for safer, faster work
                     </h2>
-                    <p className="text-slate-600 text-sm">
-                      Get practical tips on AR work instructions, AI-guided operations, and
-                      industrial innovation. No spam, just value.
+                    <p className="text-slate-600 text-sm mb-6">
+                      Short, useful notes for operations, maintenance, training and HSE teams. Examples from onboarding, troubleshooting and safety-critical work. No hype. No spam.
+                    </p>
+
+                    {/* Value bullets with icons */}
+                    <ul className="space-y-3 mb-6">
+                      {VALUE_ITEMS.map((item, index) => (
+                        <li key={index} className="flex items-start gap-3">
+                          <item.icon className="h-5 w-5 text-actarion-blue flex-shrink-0 mt-0.5" />
+                          <span className="text-sm text-slate-700">{item.text}</span>
+                        </li>
+                      ))}
+                    </ul>
+
+                    {/* Use case chips */}
+                    <div className="flex flex-wrap gap-2 mb-4">
+                      {USE_CASE_CHIPS.map((chip) => (
+                        <span
+                          key={chip}
+                          className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-actarion-blue/10 text-actarion-blue"
+                        >
+                          {chip}
+                        </span>
+                      ))}
+                    </div>
+
+                    {/* Example hook */}
+                    <p className="text-xs text-slate-500 italic">
+                      Example: &quot;How AR SOPs reduce errors in changeovers and safety checks.&quot;
                     </p>
                   </div>
 
-                  <form onSubmit={handleSubmit} className="space-y-4">
-                    <div>
-                      <label htmlFor="popup-email" className="sr-only">
-                        Email address
-                      </label>
-                      <input
-                        ref={firstInputRef}
-                        type="email"
-                        id="popup-email"
-                        name="email"
-                        value={formData.email}
-                        onChange={handleInputChange}
-                        required
-                        placeholder="you@company.com"
-                        className="w-full rounded-lg border border-slate-200 px-4 py-3 text-slate-900 placeholder-slate-400 focus:border-actarion-blue focus:outline-none focus:ring-2 focus:ring-actarion-blue/20"
-                        disabled={formStatus === "loading"}
-                      />
-                    </div>
+                  {/* Right column - Form */}
+                  <div className="p-6 md:p-8">
+                    <form onSubmit={handleSubmit} className="space-y-4">
+                      <div>
+                        <label htmlFor="popup-email" className="block text-sm font-medium text-slate-700 mb-1">
+                          Email address
+                        </label>
+                        <input
+                          ref={firstInputRef}
+                          type="email"
+                          id="popup-email"
+                          name="email"
+                          value={formData.email}
+                          onChange={handleInputChange}
+                          required
+                          placeholder="you@company.com"
+                          className="w-full rounded-lg border border-slate-200 px-4 py-3 text-slate-900 placeholder-slate-400 focus:border-actarion-blue focus:outline-none focus:ring-2 focus:ring-actarion-blue/20"
+                          disabled={formStatus === "loading"}
+                        />
+                      </div>
 
-                    <div>
-                      <label htmlFor="popup-firstName" className="sr-only">
-                        First name (optional)
-                      </label>
-                      <input
-                        type="text"
-                        id="popup-firstName"
-                        name="firstName"
-                        value={formData.firstName}
-                        onChange={handleInputChange}
-                        placeholder="First name (optional)"
-                        className="w-full rounded-lg border border-slate-200 px-4 py-3 text-slate-900 placeholder-slate-400 focus:border-actarion-blue focus:outline-none focus:ring-2 focus:ring-actarion-blue/20"
-                        disabled={formStatus === "loading"}
-                      />
-                    </div>
+                      <div>
+                        <label htmlFor="popup-firstName" className="block text-sm font-medium text-slate-700 mb-1">
+                          First name <span className="text-slate-400 font-normal">(optional)</span>
+                        </label>
+                        <input
+                          type="text"
+                          id="popup-firstName"
+                          name="firstName"
+                          value={formData.firstName}
+                          onChange={handleInputChange}
+                          placeholder="Your first name"
+                          className="w-full rounded-lg border border-slate-200 px-4 py-3 text-slate-900 placeholder-slate-400 focus:border-actarion-blue focus:outline-none focus:ring-2 focus:ring-actarion-blue/20"
+                          disabled={formStatus === "loading"}
+                        />
+                      </div>
 
-                    <div>
-                      <label htmlFor="popup-role" className="sr-only">
-                        Your role (optional)
-                      </label>
-                      <select
-                        id="popup-role"
-                        name="role"
-                        value={formData.role}
-                        onChange={handleInputChange}
-                        className="w-full rounded-lg border border-slate-200 px-4 py-3 text-slate-900 focus:border-actarion-blue focus:outline-none focus:ring-2 focus:ring-actarion-blue/20"
+                      <div>
+                        <label htmlFor="popup-role" className="block text-sm font-medium text-slate-700 mb-1">
+                          Role <span className="text-slate-400 font-normal">(optional)</span>
+                        </label>
+                        <select
+                          id="popup-role"
+                          name="role"
+                          value={formData.role}
+                          onChange={handleInputChange}
+                          className="w-full rounded-lg border border-slate-200 px-4 py-3 text-slate-900 focus:border-actarion-blue focus:outline-none focus:ring-2 focus:ring-actarion-blue/20"
+                          disabled={formStatus === "loading"}
+                        >
+                          {ROLE_OPTIONS.map((option) => (
+                            <option key={option.value} value={option.value}>
+                              {option.label}
+                            </option>
+                          ))}
+                        </select>
+                      </div>
+
+                      {formStatus === "error" && (
+                        <p className="text-red-500 text-sm" role="alert">
+                          {errorMessage}
+                        </p>
+                      )}
+
+                      <button
+                        type="submit"
                         disabled={formStatus === "loading"}
+                        className="w-full rounded-lg bg-actarion-blue py-3 font-semibold text-white transition-colors hover:bg-actarion-blue/90 disabled:cursor-not-allowed disabled:opacity-70"
                       >
-                        <option value="">Your role (optional)</option>
-                        <option value="operations">Operations / Manufacturing</option>
-                        <option value="maintenance">Maintenance / Field Service</option>
-                        <option value="training">Training / L&D</option>
-                        <option value="it">IT / Digital Transformation</option>
-                        <option value="management">Management / Executive</option>
-                        <option value="other">Other</option>
-                      </select>
-                    </div>
+                        {formStatus === "loading" ? "Subscribing..." : "Get the practical notes"}
+                      </button>
 
-                    {formStatus === "error" && (
-                      <p className="text-red-500 text-sm" role="alert">
-                        {errorMessage}
+                      <button
+                        type="button"
+                        onClick={() => closePopup("dismiss")}
+                        className="w-full py-2 text-sm text-slate-500 hover:text-slate-700 transition-colors"
+                      >
+                        Not now
+                      </button>
+                    </form>
+
+                    {/* Frequency + privacy */}
+                    <div className="mt-4 space-y-2 text-center">
+                      <p className="text-xs text-slate-500">
+                        1–2 emails per month. Unsubscribe anytime.
                       </p>
-                    )}
-
-                    <button
-                      type="submit"
-                      disabled={formStatus === "loading"}
-                      className="w-full rounded-lg bg-actarion-blue py-3 font-semibold text-white transition-colors hover:bg-actarion-blue/90 disabled:cursor-not-allowed disabled:opacity-70"
-                    >
-                      {formStatus === "loading" ? "Subscribing..." : "Subscribe"}
-                    </button>
-
-                    <button
-                      type="button"
-                      onClick={() => closePopup("dismiss")}
-                      className="w-full py-2 text-sm text-slate-500 hover:text-slate-700 transition-colors"
-                    >
-                      No thanks
-                    </button>
-                  </form>
-
-                  <p className="mt-4 text-center text-xs text-slate-400">
-                    By subscribing you agree to our privacy policy. Unsubscribe anytime.
-                  </p>
-                </>
+                      <p className="text-xs text-slate-400">
+                        We&apos;ll only use your email for these updates.{" "}
+                        <Link href="/en/privacy" className="underline hover:text-slate-600">
+                          Privacy policy
+                        </Link>
+                      </p>
+                    </div>
+                  </div>
+                </div>
               )}
             </div>
           </motion.div>

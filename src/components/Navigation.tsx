@@ -85,6 +85,10 @@ export default function Navigation({ locale, dictionary }: NavigationProps) {
 
   const getLabel = (item: NavigationItem | NavigationSubItem, parentId?: string) => {
     // Check for submenu labels based on parent
+    if (parentId === "useCases") {
+      const label = dictionary?.navigation?.useCasesSubmenu?.[item.id];
+      if (label) return label;
+    }
     if (parentId === "insight") {
       const label = dictionary?.navigation?.insightSubmenu?.[item.id];
       if (label) return label;

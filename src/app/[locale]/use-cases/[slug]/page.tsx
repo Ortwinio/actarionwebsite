@@ -175,6 +175,23 @@ export default async function UseCaseDetailPage({ params }: PageParams) {
     ? '← Terug naar alle use cases'
     : '← Back to all use cases';
 
+  // ROI CTA labels
+  const roiCtaTitle = typedLocale === 'de'
+    ? 'Geschäftliche Auswirkungen dieses Anwendungsfalls schätzen'
+    : typedLocale === 'nl'
+    ? 'Schat de zakelijke impact van deze use case'
+    : 'Estimate the business impact of this use case';
+  const roiCtaDescription = typedLocale === 'de'
+    ? 'Nutzen Sie den ROI-Rechner, um potenzielle Einsparungen bei Schulungszeit, Fehlern und Ausfallzeiten zu erkunden.'
+    : typedLocale === 'nl'
+    ? 'Gebruik de ROI-calculator om potentiële besparingen op opleidingstijd, fouten en downtime te verkennen.'
+    : 'Use the ROI calculator to explore potential savings in training time, errors, and operational downtime.';
+  const roiCtaLink = typedLocale === 'de'
+    ? 'ROI-Rechner öffnen'
+    : typedLocale === 'nl'
+    ? 'ROI-calculator openen'
+    : 'Open ROI calculator';
+
   return (
     <>
       <script
@@ -274,6 +291,27 @@ export default async function UseCaseDetailPage({ params }: PageParams) {
               </ul>
             </section>
           )}
+
+          {/* ROI Calculator CTA */}
+          <section className="card bg-slate-50 space-y-3">
+            <h2 className="text-lg font-semibold text-slate-900">
+              {roiCtaTitle}
+            </h2>
+            <p className="text-slate-600">
+              {roiCtaDescription}
+            </p>
+            <a
+              href="https://roicalculator.actarion.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary-600 hover:text-primary-700 font-medium inline-flex items-center gap-1"
+            >
+              {roiCtaLink}
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+          </section>
 
           {/* Link back to overview */}
           <div className="pt-4 border-t border-slate-200">

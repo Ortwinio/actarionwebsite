@@ -87,6 +87,7 @@ export default async function StartROIPage({ params }: StartPageProps) {
 
   // Localized paths
   const roiCalculatorGuide = buildLocalizedPath(typedLocale, "whitepapers/roi-calculator-guide");
+  const practicalGuide = buildLocalizedPath(typedLocale, "whitepapers/ai-and-ar-guided-work-instructions");
   const faqPath = buildLocalizedPath(typedLocale, "faq");
   const contactPath = buildLocalizedPath(typedLocale, "contact");
 
@@ -104,6 +105,14 @@ export default async function StartROIPage({ params }: StartPageProps) {
             {/* Introduction */}
             <div className="text-lg leading-relaxed whitespace-pre-line">
               {content.intro}
+            </div>
+
+            <div className="rounded-xl border border-primary-200 bg-primary-50 p-4 text-sm text-slate-700">
+              <strong>Looking for a comprehensive guide?</strong>{" "}
+              <Link href={practicalGuide} className="text-primary-600 hover:underline">
+                Read our practical whitepaper for operations teams
+              </Link>{" "}
+              — covering onboarding, maintenance, safety and adoption.
             </div>
 
             {/* What problem this solves */}
@@ -204,24 +213,24 @@ export default async function StartROIPage({ params }: StartPageProps) {
               </p>
               <ul className="space-y-3 ml-2">
                 <li>
-                  <Link href={buildLocalizedPath(typedLocale, "ar-training-and-onboarding")} className="text-primary-600 hover:underline font-medium">Onboarding & training</Link>
+                  <Link href={buildLocalizedPath(typedLocale, "use-cases/ar-training-and-onboarding")} className="text-primary-600 hover:underline font-medium">Onboarding & Training with AR SOPs</Link>
                   <span className="text-slate-600"> — Accelerate time-to-competency for new hires and role changes.</span>
                 </li>
                 <li>
-                  <Link href={buildLocalizedPath(typedLocale, "ar-preventive-maintenance")} className="text-primary-600 hover:underline font-medium">Preventive maintenance</Link>
-                  <span className="text-slate-600"> — Guide technicians through inspections and routine tasks with step-by-step overlays.</span>
+                  <Link href={buildLocalizedPath(typedLocale, "use-cases/ar-guided-assembly-production")} className="text-primary-600 hover:underline font-medium">AR-Guided Assembly</Link>
+                  <span className="text-slate-600"> — Reduce assembly errors with visual guidance at the point of work.</span>
                 </li>
                 <li>
-                  <Link href={buildLocalizedPath(typedLocale, "ar-guided-changeover-batch-preparation")} className="text-primary-600 hover:underline font-medium">Changeovers & batch preparation</Link>
+                  <Link href={buildLocalizedPath(typedLocale, "use-cases/ar-guided-changeover-batch-preparation")} className="text-primary-600 hover:underline font-medium">AR-Guided Changeovers</Link>
                   <span className="text-slate-600"> — Reduce setup time and variability between shifts.</span>
                 </li>
                 <li>
-                  <Link href={buildLocalizedPath(typedLocale, "ar-remote-expert-support-corrective-maintenance")} className="text-primary-600 hover:underline font-medium">Remote expert support</Link>
-                  <span className="text-slate-600"> — Connect field workers with specialists without travel.</span>
+                  <Link href={buildLocalizedPath(typedLocale, "use-cases/ar-preventive-maintenance")} className="text-primary-600 hover:underline font-medium">Preventive & Predictive Maintenance</Link>
+                  <span className="text-slate-600"> — Guide technicians through inspections and routine tasks.</span>
                 </li>
                 <li>
-                  <Link href={buildLocalizedPath(typedLocale, "ar-work-instructions-corporate-memory")} className="text-primary-600 hover:underline font-medium">Safety & quality (corporate memory)</Link>
-                  <span className="text-slate-600"> — Preserve and standardise expert knowledge before it leaves the organisation.</span>
+                  <Link href={buildLocalizedPath(typedLocale, "use-cases/ar-remote-expert-support-corrective-maintenance")} className="text-primary-600 hover:underline font-medium">Remote Expert Support</Link>
+                  <span className="text-slate-600"> — Connect field workers with specialists without travel.</span>
                 </li>
               </ul>
             </section>

@@ -2,6 +2,7 @@
   "navigation": {
     "home": "Home",
     "services": "Services",
+    "useCases": "Use Cases",
     "insight": "Insights",
     "about": "About Us",
     "contact": "Contact",
@@ -10,8 +11,15 @@
     "partner": "Partners",
     "career": "Career",
     "faq": "FAQ",
+    "useCasesSubmenu": {
+      "onboardingTraining": "Onboarding & Training",
+      "guidedAssembly": "AR-Guided Assembly",
+      "guidedChangeovers": "AR-Guided Changeovers",
+      "preventiveMaintenance": "Preventive Maintenance",
+      "remoteExpertSupport": "Remote Expert Support",
+      "allUseCases": "All Use Cases"
+    },
     "insightSubmenu": {
-      "useCases": "Use Cases",
       "blogposts": "Blog",
       "events": "Events",
       "whitepapers": "Whitepapers",
@@ -22,8 +30,8 @@
       "aboutActarion": "About ActARion",
       "vision": "Vision",
       "management": "Management",
-    "career": "Career",
-    "faq": "FAQ"
+      "career": "Career",
+      "faq": "FAQ"
     }
   },
   "hero": {
@@ -100,7 +108,7 @@
     "terms": "General Terms and Conditions",
     "privacy": "Privacy Policy",
     "onepager": "View our onepager",
-    "roiCalculator": "ROI Calculator",
+    "roiCalculator": "Try the ROI Calculator",
     "copyright": "© 2024 ActARion. All rights reserved.",
     "newsletter": {
       "title": "Subscribe to our newsletter",

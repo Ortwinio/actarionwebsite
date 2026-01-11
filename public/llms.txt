@@ -33,12 +33,11 @@ Methodology guide: https://www.actarion.com/en/whitepapers/roi-calculator-guide
 Practical applications of AR work instructions in industrial settings.
 
 Overview: https://www.actarion.com/en/use-cases
-Training & Onboarding: https://www.actarion.com/en/ar-training-and-onboarding
-Preventive Maintenance: https://www.actarion.com/en/ar-preventive-maintenance
-Remote Expert Support: https://www.actarion.com/en/ar-remote-expert-support-corrective-maintenance
-Guided Assembly: https://www.actarion.com/en/ar-guided-assembly-production
-Corporate Memory: https://www.actarion.com/en/ar-work-instructions-corporate-memory
-Changeover & Batch Prep: https://www.actarion.com/en/ar-guided-changeover-batch-preparation
+1. Onboarding & Training: https://www.actarion.com/en/use-cases/ar-training-and-onboarding
+2. AR-Guided Assembly: https://www.actarion.com/en/use-cases/ar-guided-assembly-production
+3. AR-Guided Changeovers: https://www.actarion.com/en/use-cases/ar-guided-changeover-batch-preparation
+4. Preventive Maintenance: https://www.actarion.com/en/use-cases/ar-preventive-maintenance
+5. Remote Expert Support: https://www.actarion.com/en/use-cases/ar-remote-expert-support-corrective-maintenance
 
 ---
 
@@ -56,9 +55,12 @@ All articles: https://www.actarion.com/en/blog
 ---
 
 ## Whitepapers & Resources
-Downloadable guides and methodology documentation.
+Foundational guides and methodology documentation.
 
-ROI Calculator Guide: https://www.actarion.com/en/whitepapers/roi-calculator-guide
+1. AI and AR–guided work instructions (foundational guide): https://www.actarion.com/en/whitepapers/ai-and-ar-guided-work-instructions
+2. Digital work instructions and AR SOPs (compliance guide): https://www.actarion.com/en/whitepapers/digital-work-instructions-ar-sops
+3. Connected worker platforms (platform evaluation guide): https://www.actarion.com/en/whitepapers/connected-worker-platforms
+4. ROI Calculator Guide: https://www.actarion.com/en/whitepapers/roi-calculator-guide
 All whitepapers: https://www.actarion.com/en/whitepapers
 
 ---

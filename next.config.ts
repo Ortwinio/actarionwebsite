@@ -157,6 +157,22 @@ const nextConfig: NextConfig = {
         statusCode: 301,
       },
 
+      // ========================================
+      // DEPRECATED USE CASE REDIRECTS
+      // ========================================
+      // Redirect deprecated "corporate memory" use case to training/onboarding
+      {
+        source: '/:locale/use-cases/ar-work-instructions-corporate-memory',
+        destination: '/:locale/use-cases/ar-training-and-onboarding',
+        statusCode: 301,
+      },
+      // Also redirect the old direct slug (without use-cases/ prefix)
+      {
+        source: '/:locale/ar-work-instructions-corporate-memory',
+        destination: '/:locale/use-cases/ar-training-and-onboarding',
+        statusCode: 301,
+      },
+
       // Redirects for /en/resources/*, /en/blogs/*, /en/use-cases/*, /en/explainer/*, /en/faq/*, and static assets
       // are now handled via vercel.json with explicit 301s to avoid 308 redirects.
       // See vercel.json for the complete list of 301 redirects.

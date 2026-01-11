@@ -2,6 +2,7 @@
   "navigation": {
     "home": "Home",
     "services": "Diensten",
+    "useCases": "Use Cases",
     "insight": "Inzichten",
     "about": "Over ons",
     "contact": "Contact",
@@ -10,8 +11,15 @@
     "partner": "Partners",
     "career": "Carrière",
     "faq": "FAQ",
+    "useCasesSubmenu": {
+      "onboardingTraining": "Onboarding & Training",
+      "guidedAssembly": "AR-gestuurde Assemblage",
+      "guidedChangeovers": "AR-gestuurde Omstellingen",
+      "preventiveMaintenance": "Preventief Onderhoud",
+      "remoteExpertSupport": "Remote Expert Support",
+      "allUseCases": "Alle Use Cases"
+    },
     "insightSubmenu": {
-      "useCases": "Use Cases",
       "blogposts": "Blog",
       "events": "Evenementen",
       "whitepapers": "Whitepapers",
@@ -22,8 +30,8 @@
       "aboutActarion": "Over ActARion",
       "vision": "Visie",
       "management": "Management",
-    "career": "Carrière",
-    "faq": "FAQ"
+      "career": "Carrière",
+      "faq": "FAQ"
     }
   },
   "hero": {
@@ -112,7 +120,7 @@
     "terms": "Algemene voorwaarden",
     "privacy": "Privacybeleid",
     "onepager": "Bekijk onze onepager",
-    "roiCalculator": "ROI Calculator",
+    "roiCalculator": "Probeer de ROI Calculator",
     "copyright": "© 2024 ActARion. Alle rechten voorbehouden.",
     "newsletter": {
       "title": "Schrijf u in voor onze nieuwsbrief",
