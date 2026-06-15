@@ -28,9 +28,8 @@ const knownImagePaths = {
 
   // Logo and branding
   branding: [
-    '/actarionlogo.png',
+    '/Actarionlogo.png',
     '/actariontextlogo.png',
-    '/onepager.png',
   ],
 
   // Homepage images

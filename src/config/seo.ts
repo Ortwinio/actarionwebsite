@@ -17,10 +17,10 @@ export interface SocialImage {
 }
 
 const defaultSocialImage: SocialImage = {
-  url: '/ActARionlogo.png',
+  url: '/og',
   width: 1200,
   height: 630,
-  alt: 'ActARion - AR-Powered SOP Solutions',
+  alt: 'ActARion - Augmented Reality SOP & AR Work Instructions',
 };
 
 /**
@@ -203,7 +203,7 @@ export const organizationSchema = {
   '@type': 'Organization',
   name: 'ActARion',
   url: siteUrl,
-  logo: `${siteUrl}/ActARionlogo.png`,
+  logo: `${siteUrl}/Actarionlogo.png`,
   sameAs: [] as string[],
   contactPoint: [
     {
@@ -325,13 +325,13 @@ export const buildArticleSchema = ({
     '@type': 'WebPage',
     '@id': toAbsoluteUrl(buildLocalizedPath(locale, segment)),
   },
-  image: image ? toAbsoluteUrl(image) : `${siteUrl}/ActARionlogo.png`,
+  image: image ? toAbsoluteUrl(image) : `${siteUrl}/Actarionlogo.png`,
   publisher: {
     '@type': 'Organization',
     name: 'ActARion',
     logo: {
       '@type': 'ImageObject',
-      url: `${siteUrl}/ActARionlogo.png`,
+      url: `${siteUrl}/Actarionlogo.png`,
     },
   },
   ...(tags && tags.length > 0 && { keywords: tags.join(', ') }),
@@ -411,7 +411,7 @@ export const buildWebSiteWithSearchActionSchema = ({
     name: 'ActARion',
     logo: {
       '@type': 'ImageObject',
-      url: `${siteUrl}/ActARionlogo.png`,
+      url: `${siteUrl}/Actarionlogo.png`,
     },
   },
   ...(searchActionUrl && {

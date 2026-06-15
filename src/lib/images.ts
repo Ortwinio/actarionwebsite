@@ -37,9 +37,8 @@ export const images = {
   // LOGO & BRANDING
   // ============================================================
   branding: {
-    logo: "/actarionlogo.png",
+    logo: "/Actarionlogo.png",
     logoText: "/actariontextlogo.png",
-    onepager: "/onepager.jpg",
   },
 
   // ============================================================

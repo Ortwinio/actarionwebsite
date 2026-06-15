@@ -23,7 +23,7 @@ This is the **ActARion marketing website** - a Next.js 15 application for a B2B 
 
 ```
 src/
-├── app/[locale]/     # Internationalized pages (en, de, nl, fr)
+├── app/[locale]/     # Internationalized pages (en, de, nl)
 ├── components/       # React components
 ├── config/           # i18n and site configuration
 ├── lib/              # Utilities and helpers
@@ -72,9 +72,8 @@ npm run build            # Production build
 npm run lint:fix         # Auto-fix linting issues
 
 # Quality Assurance  
-npm run check:locales    # Verify i18n completeness
-npm run check:links      # Find broken links
-npm run qa               # Run all QA checks
+npm run qa               # Run all QA checks (type-check + lint)
+npm run check:locales    # Verify i18n completeness (requires dev server)
 
 # Utilities
 npm run format           # Prettier formatting
@@ -83,7 +82,7 @@ npm run type-check       # TypeScript validation
 
 ## i18n Structure
 
-The site supports 4 locales: `en`, `de`, `nl`, `fr`
+The site supports 3 locales: `en`, `de`, `nl`
 
 - Routes use `[locale]` dynamic segment
 - `middleware.ts` handles locale detection

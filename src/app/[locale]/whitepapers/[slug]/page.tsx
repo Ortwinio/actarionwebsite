@@ -126,14 +126,14 @@ export default async function WhitepaperPage({ params }: WhitepaperPageProps) {
         url: siteUrl,
         logo: {
           '@type': 'ImageObject',
-          url: `${siteUrl}/ActARionlogo.png`,
+          url: `${siteUrl}/Actarionlogo.png`,
         },
       },
       mainEntityOfPage: {
         '@type': 'WebPage',
         '@id': absoluteUrl,
       },
-      image: `${siteUrl}/ActARionlogo.png`,
+      image: `${siteUrl}/Actarionlogo.png`,
     },
     // FAQPage schema (only for ROI calculator guide)
     ...(slug === 'roi-calculator-guide' ? [{

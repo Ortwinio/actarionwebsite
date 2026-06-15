@@ -41,7 +41,7 @@ export function Footer({ locale, dictionary }: FooterProps) {
             className="site-logo mb-4 inline-flex"
           >
             <Image
-              src="/actarionlogo.png"
+              src="/Actarionlogo.png"
               alt="ActARion symbol"
               width={36}
               height={36}
@@ -161,15 +161,6 @@ export function Footer({ locale, dictionary }: FooterProps) {
                 rel="noopener noreferrer"
               >
                 {dictionary.footer?.sitemap || "Sitemap"}
-              </a>
-            </li>
-            <li>
-              <a
-                href="/onepager.jpg"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {dictionary.footer?.onepager || "View our onepager"}
               </a>
             </li>
           </ul>

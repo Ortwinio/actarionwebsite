@@ -63,7 +63,7 @@ The footer is organized into:
 
 - **Company**: About ActARion, Vision, Management, Career, FAQ
 - **Insights**: Use cases, Blogposts, Events, Whitepapers, Videos, News
-- **Quick Links**: Services, Partners, Contact, Sitemap, View our onepager
+- **Quick Links**: Services, Partners, Contact, Sitemap
 - **Legal**: Terms & Conditions, Privacy Policy
 - **Newsletter**: Subscribe form
 

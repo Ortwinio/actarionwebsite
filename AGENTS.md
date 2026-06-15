@@ -4,7 +4,7 @@
 
 ## Project Overview
 
-**ActARion Website** - A Next.js 15 marketing website for ActARion, a company revolutionizing SOP execution with Augmented Reality. The site is multilingual (EN, DE, NL, FR) and deployed on Vercel.
+**ActARion Website** - A Next.js 15 marketing website for ActARion, a company revolutionizing SOP execution with Augmented Reality. The site is multilingual (EN, DE, NL) and deployed on Vercel.
 
 ## Tech Stack
 
@@ -25,7 +25,7 @@
 actarionwebsite/
 ├── src/
 │   ├── app/              # Next.js App Router pages
-│   │   ├── [locale]/     # i18n routes (en, de, nl, fr)
+│   │   ├── [locale]/     # i18n routes (en, de, nl)
 │   │   ├── api/          # API routes (e.g., /api/apply)
 │   │   └── *.tsx         # Root layout, not-found, sitemap
 │   ├── components/       # Reusable React components
@@ -92,9 +92,8 @@ npm run type-check   # TypeScript validation
 
 ### Content & QA
 ```bash
-npm run check:locales  # Validate i18n completeness
-npm run check:links    # Find broken links (requires dev server)
-npm run qa             # Run all QA checks
+npm run qa             # Run all QA checks (type-check + lint)
+npm run check:locales  # Validate i18n completeness (requires dev server)
 ```
 
 ## Collaboration Guidelines

@@ -678,10 +678,10 @@ export default function CareerPageClient({ locale, dictionary }: CareerPageClien
             <p>
               Prefer email? Reach out via{" "}
               <a
-                href="mailto:ortwin@actarion.com"
+                href="mailto:mark@actarion.com"
                 className="font-semibold text-actarion-blue hover:opacity-80"
               >
-                ortwin@actarion.com
+                mark@actarion.com
               </a>{" "}
               or{" "}
               <Link

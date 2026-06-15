@@ -73,7 +73,7 @@ The website uses `ActARion_intro.mp4` as a background video. Ensure this file is
 ```
 public/
   ├── ActARion_intro.mp4
-  ├── ActARionlogo.png
+  ├── Actarionlogo.png
   ├── ActARiontextlogo.png
   └── ...
 ```
@@ -111,7 +111,7 @@ npm start
 ActARionwebsite/
 ├── public/                 # Static assets
 │   ├── ActARion_intro.mp4  # Background video
-│   ├── ActARionlogo.png    # Company logo
+│   ├── Actarionlogo.png    # Company logo
 │   └── ActARiontextlogo.png
 ├── src/
 │   └── app/

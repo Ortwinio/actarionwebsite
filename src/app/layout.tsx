@@ -64,10 +64,10 @@ export const metadata: Metadata = {
     siteName: 'ActARion',
     images: [
       {
-        url: '/ActARionlogo.png',
+        url: '/og',
         width: 1200,
         height: 630,
-        alt: 'ActARion - AR-Powered SOP Solutions',
+        alt: 'ActARion - Augmented Reality SOP & AR Work Instructions',
       },
     ],
     locale: 'en_US',
@@ -77,13 +77,13 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "ActARion – Augmented Reality SOP & AR Work Instruction Software",
     description: "ActARion transforms SOPs into interactive AR work instructions. Train faster, reduce errors, and improve frontline quality with digital SOP software.",
-    images: ['/ActARionlogo.png'],
+    images: ['/og'],
   },
   // NOTE: robots metadata is handled by individual pages via buildPageMetadata()
   // to avoid duplicate meta robots tags. Do not add robots config here.
   icons: {
     icon: '/favicon.ico',
-    apple: '/ActARionlogo.png',
+    apple: '/Actarionlogo.png',
   },
   manifest: '/manifest.json',
   appleWebApp: {
@@ -96,10 +96,16 @@ export const metadata: Metadata = {
     "msapplication-tap-highlight": "no",
     "mobile-web-app-capable": "yes",
   },
-  // TODO: Replace with actual Google Search Console verification code
-  // verification: {
-  //   google: 'your-google-verification-code',
-  // },
+  // Google Search Console verification is configured via the
+  // NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION environment variable so it can be
+  // set per-environment without a code change. Leave unset to omit the tag.
+  ...(process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+    ? {
+        verification: {
+          google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
+        },
+      }
+    : {}),
 };
 
 /**

@@ -109,7 +109,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         name: blog.author,
       },
       mainEntityOfPage: absoluteUrl,
-      image: blog.image ? getAbsoluteUrl(blog.image.src) : `${siteUrl}/ActARionlogo.png`,
+      image: blog.image ? getAbsoluteUrl(blog.image.src) : `${siteUrl}/Actarionlogo.png`,
     },
   ]
 

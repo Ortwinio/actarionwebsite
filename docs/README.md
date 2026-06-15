@@ -2,6 +2,9 @@
 
 Centralized reference for operational and content processes. Keep this file updated when adding new guides.
 
+## Getting Started
+- [Website Manual](./website-manual.md) - Complete handleiding voor het opzetten en hosten van de website (incl. GitHub en Vercel)
+
 ## Content & Editorial
 - [Blog Posting Instructions](./content/blog-posting-instructions.md)
 
