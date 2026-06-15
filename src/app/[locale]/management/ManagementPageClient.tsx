@@ -21,14 +21,6 @@ const translations = {
         "Designing data-driven business models and go-to-market strategies.",
         "Building ecosystems of technology partners and implementation partners.",
       ],
-      responsibility: "At ActARion, Ortwin is Managing Partner responsible for the Benelux region. He works with customers and partners in the Netherlands, Belgium and Luxembourg to:",
-      responsibilityItems: [
-        "Identify high-impact use cases for AR and AI in operations.",
-        "Shape joint roadmaps for pilots and roll-outs.",
-        "Connect organisations with the right technology, implementation and education partners.",
-        "Safeguard that AR and AI projects are grounded in concrete business value: safer operations, faster onboarding and smarter decision-making.",
-      ],
-      strength: "Ortwin's strength lies in translating strategy and innovation into clear next steps for the organisation – from first pilot to international scale-up.",
     },
     mark: {
       name: "Mark Dercksen",
@@ -54,6 +46,14 @@ const translations = {
       name: "Jack Kessels",
       role: "Managing Partner – Benelux",
       bio: "Jack Kessels joins ActARion as Managing Partner for the Benelux, bringing extensive operational leadership experience across food, FMCG and interim transformation environments. With a strong track record in leading complex operational assignments, driving improvement programmes and turning change into measurable results on the work floor, Jack will focus on helping organisations in the Netherlands, Belgium and Luxembourg translate AI and Augmented Reality into practical, scalable ways of working. His pragmatic, people-centred approach aligns closely with ActARion's mission to make frontline operations smarter, safer and faster through AR-guided work instructions, knowledge capture and hands-on implementation.",
+      responsibility: "At ActARion, Jack is Managing Partner responsible for the Benelux region. He works with customers and partners in the Netherlands, Belgium and Luxembourg to:",
+      responsibilityItems: [
+        "Identify high-impact use cases for AR and AI in operations.",
+        "Shape joint roadmaps for pilots and roll-outs.",
+        "Connect organisations with the right technology, implementation and education partners.",
+        "Safeguard that AR and AI projects are grounded in concrete business value: safer operations, faster onboarding and smarter decision-making.",
+      ],
+      strength: "Jack's strength lies in translating strategy and innovation into clear next steps for the organisation – from first pilot to international scale-up.",
     },
     oneTeam: {
       title: "One team, shared mission",
@@ -75,14 +75,6 @@ const translations = {
         "Ontwerpen van datagedreven businessmodellen en go-to-market strategieën.",
         "Opbouwen van ecosystemen van technologie- en implementatiepartners.",
       ],
-      responsibility: "Bij ActARion is Ortwin Managing Partner verantwoordelijk voor de Benelux-regio. Hij werkt met klanten en partners in Nederland, België en Luxemburg aan:",
-      responsibilityItems: [
-        "Identificeren van high-impact use cases voor AR en AI in operations.",
-        "Vormgeven van gezamenlijke roadmaps voor pilots en roll-outs.",
-        "Verbinden van organisaties met de juiste technologie-, implementatie- en opleidingspartners.",
-        "Bewaken dat AR en AI projecten gegrond zijn in concrete business value: veiligere operaties, snellere onboarding en slimmere besluitvorming.",
-      ],
-      strength: "Ortwins kracht ligt in het vertalen van strategie en innovatie naar duidelijke vervolgstappen voor de organisatie – van eerste pilot tot internationale opschaling.",
     },
     mark: {
       name: "Mark Dercksen",
@@ -108,6 +100,14 @@ const translations = {
       name: "Jack Kessels",
       role: "Managing Partner – Benelux",
       bio: "Jack Kessels komt bij ActARion als Managing Partner voor de Benelux en brengt uitgebreide ervaring in operationeel leiderschap mee in food-, FMCG- en interim-transformatieomgevingen. Met een sterke staat van dienst in het leiden van complexe operationele opdrachten, het aansturen van verbeterprogramma's en het omzetten van verandering in meetbare resultaten op de werkvloer, richt Jack zich op het helpen van organisaties in Nederland, België en Luxemburg om AI en Augmented Reality te vertalen naar praktische, schaalbare manieren van werken. Zijn pragmatische, mensgerichte aanpak sluit nauw aan bij de missie van ActARion om frontlinie-operaties slimmer, veiliger en sneller te maken via AR-gestuurde werkinstructies, kenniscaptatie en hands-on implementatie.",
+      responsibility: "Bij ActARion is Jack Managing Partner verantwoordelijk voor de Benelux-regio. Hij werkt met klanten en partners in Nederland, België en Luxemburg aan:",
+      responsibilityItems: [
+        "Identificeren van high-impact use cases voor AR en AI in operations.",
+        "Vormgeven van gezamenlijke roadmaps voor pilots en roll-outs.",
+        "Verbinden van organisaties met de juiste technologie-, implementatie- en opleidingspartners.",
+        "Bewaken dat AR en AI projecten gegrond zijn in concrete business value: veiligere operaties, snellere onboarding en slimmere besluitvorming.",
+      ],
+      strength: "Jacks kracht ligt in het vertalen van strategie en innovatie naar duidelijke vervolgstappen voor de organisatie – van eerste pilot tot internationale opschaling.",
     },
     oneTeam: {
       title: "Eén team, gedeelde missie",
@@ -129,14 +129,6 @@ const translations = {
         "Gestaltung datengetriebener Geschäftsmodelle und Go-to-Market-Strategien.",
         "Aufbau von Ökosystemen aus Technologie- und Implementierungspartnern.",
       ],
-      responsibility: "Bei ActARion ist Ortwin Managing Partner verantwortlich für die Benelux-Region. Er arbeitet mit Kunden und Partnern in den Niederlanden, Belgien und Luxemburg an:",
-      responsibilityItems: [
-        "Identifizierung von High-Impact Use Cases für AR und KI in Operationen.",
-        "Gestaltung gemeinsamer Roadmaps für Piloten und Roll-outs.",
-        "Verbindung von Organisationen mit den richtigen Technologie-, Implementierungs- und Bildungspartnern.",
-        "Sicherstellung, dass AR- und KI-Projekte auf konkretem Geschäftswert basieren: sicherere Operationen, schnelleres Onboarding und intelligentere Entscheidungsfindung.",
-      ],
-      strength: "Ortwins Stärke liegt darin, Strategie und Innovation in klare nächste Schritte für die Organisation zu übersetzen – vom ersten Piloten bis zur internationalen Skalierung.",
     },
     mark: {
       name: "Mark Dercksen",
@@ -162,6 +154,14 @@ const translations = {
       name: "Jack Kessels",
       role: "Managing Partner – Benelux",
       bio: "Jack Kessels kommt als Managing Partner für die Benelux zu ActARion und bringt umfangreiche Erfahrung in operativer Führung in den Bereichen Food, FMCG und Interim-Transformation mit. Mit einer starken Erfolgsbilanz in der Leitung komplexer operativer Einsätze, der Steuerung von Verbesserungsprogrammen und der Umsetzung von Veränderung in messbare Ergebnisse auf dem Shopfloor konzentriert sich Jack darauf, Organisationen in den Niederlanden, Belgien und Luxemburg dabei zu helfen, KI und Augmented Reality in praktische, skalierbare Arbeitsweisen zu übersetzen. Sein pragmatischer, menschenzentrierter Ansatz steht im Einklang mit der Mission von ActARion, Frontline-Operationen durch AR-gestützte Arbeitsanweisungen, Wissenserfassung und praktische Umsetzung intelligenter, sicherer und schneller zu machen.",
+      responsibility: "Bei ActARion ist Jack Managing Partner verantwortlich für die Benelux-Region. Er arbeitet mit Kunden und Partnern in den Niederlanden, Belgien und Luxemburg an:",
+      responsibilityItems: [
+        "Identifizierung von High-Impact Use Cases für AR und KI in Operationen.",
+        "Gestaltung gemeinsamer Roadmaps für Piloten und Roll-outs.",
+        "Verbindung von Organisationen mit den richtigen Technologie-, Implementierungs- und Bildungspartnern.",
+        "Sicherstellung, dass AR- und KI-Projekte auf konkretem Geschäftswert basieren: sicherere Operationen, schnelleres Onboarding und intelligentere Entscheidungsfindung.",
+      ],
+      strength: "Jacks Stärke liegt darin, Strategie und Innovation in klare nächste Schritte für die Organisation zu übersetzen – vom ersten Piloten bis zur internationalen Skalierung.",
     },
     oneTeam: {
       title: "Ein Team, gemeinsame Mission",
@@ -280,6 +280,9 @@ export default function ManagementPageClient({ locale }: ManagementPageClientPro
             name={t.jack.name}
             role={t.jack.role}
             bio={t.jack.bio}
+            responsibility={t.jack.responsibility}
+            responsibilityItems={t.jack.responsibilityItems}
+            strength={t.jack.strength}
           />
 
           {/* Ortwin Verreck */}
@@ -290,9 +293,6 @@ export default function ManagementPageClient({ locale }: ManagementPageClientPro
             bio={t.ortwin.bio}
             detailLabel={t.ortwin.experience}
             detailItems={t.ortwin.experienceItems}
-            responsibility={t.ortwin.responsibility}
-            responsibilityItems={t.ortwin.responsibilityItems}
-            strength={t.ortwin.strength}
           />
 
           {/* One team, shared mission */}
