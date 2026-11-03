@@ -18,17 +18,17 @@
   var lang = (document.documentElement.lang || 'en').slice(0, 2);
   var ALL = {
     en: { btn: 'Feedback', aria: 'Give feedback on this page', title: 'What did you notice?', lead: 'Comment on this page of the new website. A few words is enough.',
-      shot: 'A screenshot of this page is included.', noshot: 'Send without screenshot', name: 'Your name', mail: 'Email (optional, if we may ask follow-up questions)',
+      shot: 'A screenshot of this page is included.', noshot: 'Send without screenshot', name: 'Your name', mail: 'Email (optional: we’ll let you know when it’s fixed)',
       ph: 'For example: this heading is unclear, or the button doesn’t work on mobile…', send: 'Send', sending: 'Sending…', short: 'Please write briefly what you noticed.',
       noname: 'Please enter your name.', fail: 'Sending failed. Please try again in a moment.', small: 'Your comment, the screenshot, page, browser and screen type are only used to improve the preview.',
       thx: 'Thank you', thx2: 'Your comment has been received.', close: 'Close' },
     nl: { btn: 'Feedback', aria: 'Feedback geven over deze pagina', title: 'Wat viel je op?', lead: 'Geef je opmerking over deze pagina van de nieuwe website. Een paar woorden is genoeg.',
-      shot: 'We sturen een schermafbeelding van deze pagina mee.', noshot: 'Liever zonder schermafbeelding', name: 'Je naam', mail: 'E-mail (optioneel, als we iets mogen navragen)',
+      shot: 'We sturen een schermafbeelding van deze pagina mee.', noshot: 'Liever zonder schermafbeelding', name: 'Je naam', mail: 'E-mail (optioneel: dan laten we weten wanneer het is aangepast)',
       ph: 'Bijvoorbeeld: deze kop is onduidelijk, of de knop werkt niet op mobiel…', send: 'Versturen', sending: 'Versturen…', short: 'Schrijf kort wat je opviel.',
       noname: 'Vul je naam in.', fail: 'Versturen lukt nu even niet. Probeer het zo nog eens.', small: 'Je opmerking, de schermafbeelding, de pagina en je browser- en schermtype gebruiken we alleen om de preview te verbeteren.',
       thx: 'Dank je wel', thx2: 'Je opmerking is binnen.', close: 'Sluiten' },
     de: { btn: 'Feedback', aria: 'Feedback zu dieser Seite geben', title: 'Was ist Ihnen aufgefallen?', lead: 'Kommentieren Sie diese Seite der neuen Website. Ein paar Worte genügen.',
-      shot: 'Ein Screenshot dieser Seite wird mitgesendet.', noshot: 'Ohne Screenshot senden', name: 'Ihr Name', mail: 'E-Mail (optional, für Rückfragen)',
+      shot: 'Ein Screenshot dieser Seite wird mitgesendet.', noshot: 'Ohne Screenshot senden', name: 'Ihr Name', mail: 'E-Mail (optional: wir melden uns, sobald es angepasst ist)',
       ph: 'Zum Beispiel: Diese Überschrift ist unklar, oder der Button funktioniert mobil nicht…', send: 'Senden', sending: 'Wird gesendet…', short: 'Bitte beschreiben Sie kurz, was Ihnen aufgefallen ist.',
       noname: 'Bitte geben Sie Ihren Namen ein.', fail: 'Senden ist gerade nicht möglich. Bitte versuchen Sie es gleich noch einmal.', small: 'Ihr Kommentar, der Screenshot, die Seite sowie Browser- und Bildschirmtyp werden nur zur Verbesserung der Vorschau verwendet.',
       thx: 'Vielen Dank', thx2: 'Ihr Kommentar ist eingegangen.', close: 'Schließen' }
