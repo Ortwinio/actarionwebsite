@@ -17,6 +17,13 @@ export const ui: UiStrings = {
     roi: 'ROI-Rechner',
     blog: 'Blog',
   },
+  placeholderNote: 'Entwurf: Diese Seite enthält Platzhaltertext, der noch ersetzt wird.',
+  imagePending: 'Bild folgt',
+  searchLabel: 'Ressourcen durchsuchen',
+  searchPlaceholder: 'Vorlagen, Leitfäden, Begriffe suchen…',
+  allPages: 'Alle Seiten',
+  az: 'A–Z',
+  nav2: { solutions: 'Lösungen', hardware: 'Hardware', company: 'Unternehmen', partners: 'Partner', legal: 'Rechtliches' },
   ctaPilot: 'Pilot anfragen',
   ctaRoi: 'ROI berechnen',
   ctaDemo: 'Demo vereinbaren',
@@ -74,7 +81,7 @@ export const ui: UiStrings = {
   worksWith: 'Funktioniert mit',
 };
 
-export const pages: Record<RouteKey, PageContent> = {
+export const pages: Record<RouteKey, Partial<PageContent>> = {
   home: {
     metaTitle: 'Digitale Arbeitsanweisungen mit KI & AR | ActARion',
     metaDescription:
@@ -86,14 +93,14 @@ export const pages: Record<RouteKey, PageContent> = {
     answer:
       'ActARion ist eine europäische Plattform für digitale Arbeitsanweisungen mit KI und Augmented Reality. Hersteller nutzen sie, um Rüstvorgänge, Montage, Wartung und Schulung zu standardisieren, damit Werker auf jedem Gerät immer die richtigen Schritte ausführen.',
     updated: '2026-11-03',
-    related: ['digitalWorkInstructions', 'useCases', 'roiCalculator'],
+    related: ['solDwi', 'useCases', 'roiCalculator'],
   },
-  digitalWorkInstructions: {
+  solDwi: {
     metaTitle: 'Digitale Arbeitsanweisungen: Leitfaden & Software | ActARion',
     metaDescription:
       'Was digitale Arbeitsanweisungen sind, wie sie sich von Papier-SOPs unterscheiden und wie KI und AR sie schneller erstellbar machen.',
     label: 'Digitale Arbeitsanweisungen',
-    eyebrow: 'Plattform',
+    eyebrow: 'Lösung',
     h1: 'Digitale Arbeitsanweisungen mit KI und AR',
     lead: 'Ersetzen Sie Papier-SOPs durch visuelle Schritt-für-Schritt-Anleitungen, die Werker wirklich nutzen und die aktuell bleiben.',
     answer:
@@ -138,7 +145,7 @@ export const pages: Record<RouteKey, PageContent> = {
       { q: 'Können wir bestehende SOPs importieren?', a: 'Ja. Bestehende Word- oder PDF-Verfahren werden importiert und mit KI in Schritte umgewandelt.' },
       { q: 'Welche Sprachen werden unterstützt?', a: 'Anweisungen lassen sich auf Englisch, Niederländisch und Deutsch erstellen und pflegen, weitere Sprachen auf Anfrage.' },
     ],
-    related: ['cmpDigitalVsPaper', 'guideWriteWorkInstructions', 'tplWorkInstruction'],
+    related: ['cmpDigitalVsPaper', 'blogWriteWorkInstructions', 'tplWorkInstruction'],
   },
   useCases: {
     metaTitle: 'Anwendungsfälle für KI- & AR-Arbeitsanweisungen | ActARion',
@@ -185,9 +192,9 @@ export const pages: Record<RouteKey, PageContent> = {
       },
     ],
     faq: [{ q: 'Wie lange dauert die Digitalisierung eines Rüstvorgangs?', a: 'Ein typischer Rüstvorgang ist in ein bis zwei Tagen erfasst und veröffentlicht.' }],
-    related: ['termSmed', 'caseChangeover', 'roiCalculator'],
+    related: ['termSmed', 'caseFood', 'roiCalculator'],
   },
-  ucTraining: {
+  ucOnboarding: {
     metaTitle: 'AR-Schulung & Einarbeitung für Werker | ActARion',
     metaDescription: 'Neue Werker in Tagen produktiv mit AR-Schulung am Arbeitsplatz. Qualifikationen pro Arbeitsplatz nachverfolgen.',
     label: 'Schulung & Einarbeitung',
@@ -199,7 +206,7 @@ export const pages: Record<RouteKey, PageContent> = {
     cardText: 'Am Arbeitsplatz lernen und Qualifikationen nachverfolgen.',
     kpi: 'Einarbeitungszeit',
     updated: '2026-11-03',
-    related: ['digitalWorkInstructions', 'roiCalculator'],
+    related: ['solDwi', 'roiCalculator'],
   },
   industries: {
     metaTitle: 'Branchen: Digitale Arbeitsanweisungen je Sektor | ActARion',
@@ -229,7 +236,7 @@ export const pages: Record<RouteKey, PageContent> = {
         items: ['Chargenvorbereitung und Einwaage', 'Line Clearance', 'Reinigung und Umrüstung', 'Anlagenqualifizierung', 'Schulungsnachweise der Werker'],
       },
     ],
-    related: ['ucChangeover', 'ucTraining'],
+    related: ['ucChangeover', 'ucOnboarding'],
   },
   resources: {
     metaTitle: 'Wissen: Vorlagen, Leitfäden & Glossar | ActARion',
@@ -259,9 +266,9 @@ export const pages: Record<RouteKey, PageContent> = {
         items: ['Titel, Geltungsbereich und Verantwortlicher', 'Werkzeuge, Teile und PSA', 'Nummerierte Schritte mit einer Handlung', 'Fotofeld pro Schritt', 'Qualitäts- und Sicherheitsprüfungen', 'Revisionshistorie und Freigabe'],
       },
     ],
-    related: ['guideWriteWorkInstructions', 'digitalWorkInstructions'],
+    related: ['blogWriteWorkInstructions', 'solDwi'],
   },
-  guideWriteWorkInstructions: {
+  blogWriteWorkInstructions: {
     metaTitle: 'Arbeitsanweisung erstellen: 7 Schritte + Beispiele | ActARion',
     metaDescription: 'Klare Arbeitsanweisungen in 7 Schritten: Umfang, Zielgruppe, eine Handlung pro Schritt, Bilder, Prüfungen, Test und Versionierung.',
     label: 'Arbeitsanweisung erstellen',
@@ -323,7 +330,7 @@ export const pages: Record<RouteKey, PageContent> = {
         ],
       },
     ],
-    related: ['ucChangeover', 'caseChangeover'],
+    related: ['ucChangeover', 'caseFood'],
   },
   cmpDigitalVsPaper: {
     metaTitle: 'Digitale vs. Papier-Arbeitsanweisungen im Vergleich | ActARion',
@@ -351,7 +358,7 @@ export const pages: Record<RouteKey, PageContent> = {
         ],
       },
     ],
-    related: ['digitalWorkInstructions', 'roiCalculator'],
+    related: ['solDwi', 'roiCalculator'],
   },
   customers: {
     metaTitle: 'Kundengeschichten & Ergebnisse | ActARion',
@@ -362,7 +369,8 @@ export const pages: Record<RouteKey, PageContent> = {
     lead: 'Vorher und nachher gemessen, damit Sie wissen, was Sie erwarten können.',
     updated: '2026-11-03',
   },
-  caseChangeover: {
+  caseFood: {
+    placeholder: true,
     metaTitle: 'Fallstudie: Kürzere Rüstzeiten mit AR-Führung | ActARion',
     metaDescription: 'Wie ein Hersteller Rüstvorgänge über Schichten hinweg mit AR-geführten SMED-Anweisungen standardisierte.',
     label: 'Kürzere Rüstzeiten',
@@ -417,7 +425,7 @@ export const pages: Record<RouteKey, PageContent> = {
       { q: 'Welche Annahmen nutzt der Rechner?', a: 'Standardreduktionen sind konservative Spannen je Anwendungsfall. Jede Annahme ist anpassbar.' },
       { q: 'Werden meine Daten gespeichert?', a: 'Nur wenn Sie den PDF-Bericht anfordern; dann speichern wir Ihre Eingaben, um den Bericht zu senden und zu besprechen.' },
     ],
-    related: ['caseChangeover', 'pilot'],
+    related: ['caseFood', 'pilot'],
   },
   pilot: {
     metaTitle: 'Pilot für AR-Arbeitsanweisungen anfragen | ActARion',

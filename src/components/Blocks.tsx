@@ -37,9 +37,37 @@ export function PageHero({ routeKey, locale, children, small = true }: { routeKe
   );
 }
 
-export function SectionView({ s }: { s: Section }) {
-  const id = s.id ?? slugId(s.h2);
+/** Image placeholder: zero bytes, fixed aspect ratio (no layout shift), replaced later by next/image. */
+export function ImageSlot({ alt, ratio = '16/9', caption, label }: { alt: string; ratio?: string; caption?: string; label: string }) {
+  return (
+    <figure className="m-0">
+      <div
+        role="img"
+        aria-label={alt}
+        style={{ aspectRatio: ratio }}
+        className="flex w-full items-center justify-center rounded-card border-2 border-dashed border-line bg-tint p-6 text-center"
+      >
+        <span className="max-w-sm font-mono text-sm text-muted">{label}: {alt}</span>
+      </div>
+      {caption && <figcaption className="mt-2 text-sm text-muted">{caption}</figcaption>}
+    </figure>
+  );
+}
+
+export function SectionView({ s, locale }: { s: Section; locale: Locale }) {
+  const id = s.id ?? (s.h2 ? slugId(s.h2) : undefined);
   switch (s.kind) {
+    case 'image':
+      return <ImageSlot alt={s.alt} ratio={s.ratio} caption={s.caption} label={getUi(locale).imagePending} />;
+    case 'links':
+      return (
+        <section id={id} className="scroll-mt-24">
+          <h2 className="h2 mb-6">{s.h2}</h2>
+          <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {s.keys.map((k) => <li key={k} className="flex"><RouteCard routeKey={k} locale={locale} /></li>)}
+          </ul>
+        </section>
+      );
     case 'text':
       return (
         <section id={id} className="scroll-mt-24">
@@ -134,19 +162,30 @@ export function SectionView({ s }: { s: Section }) {
   }
 }
 
-export function Sections({ sections }: { sections?: Section[] }) {
+export function Sections({ sections, locale }: { sections?: Section[]; locale: Locale }) {
   if (!sections?.length) return null;
-  return <div className="flex flex-col gap-16">{sections.map((s, i) => <SectionView key={i} s={s} />)}</div>;
+  return <div className="flex flex-col gap-16">{sections.map((s, i) => <SectionView key={i} s={s} locale={locale} />)}</div>;
 }
 
-export function Toc({ sections, locale }: { sections?: Section[]; locale: Locale }) {
+/** Visible marker on pages that still contain placeholder content. */
+export function DraftBanner({ show, locale }: { show?: boolean; locale: Locale }) {
+  if (!show) return null;
+  return (
+    <div className="wrap pt-4">
+      <p className="inline-flex rounded-full bg-warn-bg px-4 py-2 text-sm font-bold text-warn-fg">{getUi(locale).placeholderNote}</p>
+    </div>
+  );
+}
+
+export function Toc({ sections: all, locale }: { sections?: Section[]; locale: Locale }) {
+  const sections = all?.filter((s): s is Exclude<Section, { kind: 'image' }> => s.kind !== 'image' && !!s.h2);
   if (!sections || sections.length < 2) return null;
   return (
     <nav aria-label={getUi(locale).onThisPage} className="card p-5">
       <p className="eyebrow mb-3">{getUi(locale).onThisPage}</p>
       <ul className="flex flex-col gap-1">
         {sections.map((s) => (
-          <li key={s.h2}><a href={`#${s.id ?? slugId(s.h2)}`} className="inline-flex min-h-[36px] items-center font-semibold no-underline">{s.h2}</a></li>
+          <li key={s.h2}><a href={`#${s.id ?? slugId(s.h2 ?? '')}`} className="inline-flex min-h-[36px] items-center font-semibold no-underline">{s.h2}</a></li>
         ))}
       </ul>
     </nav>

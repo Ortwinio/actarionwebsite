@@ -1,4 +1,6 @@
 import { NextResponse, type NextRequest } from 'next/server';
+import { catalog } from './content/catalog';
+import { legacyRedirects } from './content/legacy-redirects';
 
 const LOCALES = ['en', 'nl', 'de'];
 const PUBLIC_FILE = /\.[a-z0-9]+$/i;
@@ -18,7 +20,10 @@ export function middleware(req: NextRequest) {
     res = NextResponse.next();
   } else {
     const url = req.nextUrl.clone();
-    url.pathname = `/en${pathname === '/' ? '' : pathname}`;
+    // Old non-localized URL with a known new home: go there in one hop.
+    const legacy = legacyRedirects[pathname.replace(/^\/|\/$/g, '')];
+    const row = legacy ? catalog.find((r) => r[0] === legacy) : undefined;
+    url.pathname = row ? `/en/${row[4]}` : `/en${pathname === '/' ? '' : pathname}`;
     res = NextResponse.redirect(url, 301);
   }
   if (nonProd) res.headers.set('X-Robots-Tag', 'noindex, nofollow');

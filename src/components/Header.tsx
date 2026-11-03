@@ -1,25 +1,27 @@
 import Link from 'next/link';
-import { getUi, locales, type Locale } from '@/lib/i18n';
-import { pathFor, trailFor, type RouteKey } from '@/lib/routes';
+import { getPage, getUi, locales, type Locale } from '@/lib/i18n';
+import { childrenOf, pathFor, trailFor, type RouteKey } from '@/lib/routes';
 import { Logo } from './Logo';
 
-const navKeys: { key: RouteKey; label: keyof ReturnType<typeof getUi>['nav'] }[] = [
-  { key: 'digitalWorkInstructions', label: 'platform' },
-  { key: 'useCases', label: 'useCases' },
-  { key: 'industries', label: 'industries' },
-  { key: 'resources', label: 'resources' },
-  { key: 'customers', label: 'customers' },
-  { key: 'roiCalculator', label: 'roi' },
+/** Main menu per the content overview: Platform · Solutions · Use cases · Industries · Resources · Customers. */
+const menu: { key: RouteKey; items: RouteKey[] }[] = [
+  { key: 'platform', items: childrenOf('platform') },
+  { key: 'solutions', items: [...childrenOf('solutions'), 'compare'] },
+  { key: 'useCases', items: childrenOf('useCases') },
+  { key: 'industries', items: childrenOf('industries') },
+  { key: 'resources', items: ['templates', 'blog', 'roiCalculator', 'glossary', 'whitepapers', 'events', 'hardware'] },
+  { key: 'customers', items: [...childrenOf('customers'), 'partners'] },
 ];
 
 /**
- * Server component: zero client JavaScript. The mobile menu uses native <details>,
- * the language switcher links to the translated counterpart of the current page.
+ * Server component, no client JavaScript.
+ * Desktop: dropdowns open on hover and keyboard focus (CSS :focus-within).
+ * Mobile: native <details>. Language switcher links to the translated page.
  */
 export function Header({ locale, routeKey }: { locale: Locale; routeKey: RouteKey }) {
   const ui = getUi(locale);
   const trail = trailFor(routeKey);
-  const active = (k: RouteKey) => trail.includes(k);
+  const label = (k: RouteKey) => getPage(locale, k).label;
 
   const langs = (
     <ul className="flex gap-1" aria-label="Language">
@@ -44,51 +46,65 @@ export function Header({ locale, routeKey }: { locale: Locale; routeKey: RouteKe
 
   return (
     <header className="sticky top-0 z-40 border-b border-line bg-canvas">
-      <div className="wrap flex h-[72px] items-center justify-between gap-6">
+      <div className="wrap flex h-[72px] items-center justify-between gap-4">
         <Link href={pathFor('home', locale)} className="no-underline" aria-label="ActARion home">
           <Logo />
         </Link>
 
-        <nav aria-label="Main" className="hidden lg:block">
-          <ul className="flex items-center gap-1">
-            {navKeys.map((n) => (
-              <li key={n.key}>
+        <nav aria-label="Main" className="hidden xl:block">
+          <ul className="flex items-center gap-0.5">
+            {menu.map((m) => (
+              <li key={m.key} className="group relative">
                 <Link
-                  href={pathFor(n.key, locale)}
-                  aria-current={active(n.key) ? 'page' : undefined}
-                  className={`inline-flex min-h-[44px] items-center rounded-full px-3.5 text-[15px] font-semibold no-underline ${
-                    active(n.key) ? 'bg-tint text-ink' : 'text-ink hover:bg-white hover:text-ink'
+                  href={pathFor(m.key, locale)}
+                  aria-current={trail.includes(m.key) ? 'page' : undefined}
+                  className={`inline-flex min-h-[44px] items-center rounded-full px-3 text-[15px] font-semibold no-underline ${
+                    trail.includes(m.key) ? 'bg-tint text-ink' : 'text-ink hover:bg-white hover:text-ink'
                   }`}
                 >
-                  {ui.nav[n.label]}
+                  {label(m.key)}
                 </Link>
+                <div className="invisible absolute left-0 top-full z-50 w-80 pt-2 opacity-0 transition-opacity group-focus-within:visible group-focus-within:opacity-100 group-hover:visible group-hover:opacity-100">
+                  <ul className="card flex flex-col p-2 shadow-float">
+                    {m.items.map((k) => (
+                      <li key={k}>
+                        <Link href={pathFor(k, locale)} className="flex min-h-[40px] items-center rounded-xl px-3 font-semibold text-ink no-underline hover:bg-tint hover:text-ink">
+                          {label(k)}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </li>
             ))}
           </ul>
         </nav>
 
-        <div className="hidden items-center gap-3 lg:flex">
+        <div className="hidden items-center gap-3 xl:flex">
           {langs}
-          <Link href={pathFor('pilot', locale)} className="btn-primary min-h-[46px] px-5 text-[15px]">
-            {ui.ctaPilot}
-          </Link>
+          <Link href={pathFor('demo', locale)} className="btn-primary min-h-[46px] px-5 text-[15px]">{ui.ctaDemo}</Link>
         </div>
 
-        <details className="group lg:hidden">
+        <details className="group xl:hidden">
           <summary className="inline-flex min-h-[44px] cursor-pointer list-none items-center rounded-full border-2 border-ink px-4 font-bold">
             <span className="group-open:hidden">{ui.menu}</span>
             <span className="hidden group-open:inline">{ui.close}</span>
           </summary>
-          <nav aria-label="Mobile" className="absolute inset-x-0 top-[72px] border-y border-line bg-canvas">
-            <div className="wrap flex flex-col gap-1 py-4">
-              {navKeys.map((n) => (
-                <Link key={n.key} href={pathFor(n.key, locale)} className="flex min-h-[52px] items-center border-b border-line text-lg font-semibold text-ink no-underline">
-                  {ui.nav[n.label]}
-                </Link>
+          <nav aria-label="Mobile" className="absolute inset-x-0 top-[72px] max-h-[calc(100vh-72px)] overflow-y-auto border-y border-line bg-canvas">
+            <div className="wrap flex flex-col py-4">
+              {menu.map((m) => (
+                <details key={m.key} className="border-b border-line">
+                  <summary className="flex min-h-[52px] cursor-pointer list-none items-center justify-between text-lg font-semibold">
+                    {label(m.key)} <span aria-hidden="true" className="font-mono text-primary">+</span>
+                  </summary>
+                  <ul className="flex flex-col pb-3 pl-3">
+                    {[m.key, ...m.items].map((k) => (
+                      <li key={k}><Link href={pathFor(k, locale)} className="flex min-h-[44px] items-center text-ink no-underline">{label(k)}</Link></li>
+                    ))}
+                  </ul>
+                </details>
               ))}
-              <Link href={pathFor('pilot', locale)} className="btn-primary mt-4">
-                {ui.ctaPilot}
-              </Link>
+              <Link href={pathFor('demo', locale)} className="btn-primary mt-4">{ui.ctaDemo}</Link>
               <div className="mt-4">{langs}</div>
             </div>
           </nav>

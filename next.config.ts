@@ -1,4 +1,6 @@
 import type { NextConfig } from 'next';
+import { catalog } from './src/content/catalog';
+import { legacyRedirects } from './src/content/legacy-redirects';
 
 const csp = [
   "default-src 'self'",
@@ -27,9 +29,18 @@ const nextConfig: NextConfig = {
   async headers() {
     return [{ source: '/(.*)', headers: [{ key: 'Content-Security-Policy', value: csp }] }];
   },
-  // Redirect map old URL → new URL is added in the migration phase (see plan van aanpak, §4).
+  // Old URL → new URL (301, one hop). Skips paths that are still valid in the new structure.
   async redirects() {
-    return [];
+    const locales = ['en', 'nl', 'de'] as const;
+    const slug = (key: string, l: (typeof locales)[number]) => {
+      const row = catalog.find((r) => r[0] === key)!;
+      return row[{ en: 4, nl: 5, de: 6 }[l]] as string;
+    };
+    return locales.flatMap((l) =>
+      Object.entries(legacyRedirects)
+        .filter(([from, key]) => from !== slug(key, l))
+        .map(([from, key]) => ({ source: `/${l}/${from}`, destination: `/${l}/${slug(key, l)}`, statusCode: 301 as const })),
+    );
   },
 };
 

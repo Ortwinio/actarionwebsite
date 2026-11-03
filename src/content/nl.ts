@@ -17,6 +17,13 @@ export const ui: UiStrings = {
     roi: 'ROI-calculator',
     blog: 'Blog',
   },
+  placeholderNote: 'Concept: deze pagina bevat placeholdertekst die nog wordt vervangen.',
+  imagePending: 'Afbeelding volgt',
+  searchLabel: 'Zoek in de kennisbank',
+  searchPlaceholder: 'Zoek templates, gidsen, begrippen…',
+  allPages: 'Alle pagina’s',
+  az: 'A–Z',
+  nav2: { solutions: 'Oplossingen', hardware: 'Hardware', company: 'Over ons', partners: 'Partners', legal: 'Juridisch' },
   ctaPilot: 'Pilot aanvragen',
   ctaRoi: 'Bereken je ROI',
   ctaDemo: 'Demo plannen',
@@ -74,7 +81,7 @@ export const ui: UiStrings = {
   worksWith: 'Werkt met',
 };
 
-export const pages: Record<RouteKey, PageContent> = {
+export const pages: Record<RouteKey, Partial<PageContent>> = {
   home: {
     metaTitle: 'Digitale werkinstructies met AI en AR | ActARion',
     metaDescription:
@@ -86,14 +93,14 @@ export const pages: Record<RouteKey, PageContent> = {
     answer:
       'ActARion is een Europees platform voor digitale werkinstructies met AI en augmented reality. Producenten gebruiken het om omstellingen, assemblage, onderhoud en training te standaardiseren, zodat medewerkers op de werkvloer altijd de juiste stappen volgen, op elk device.',
     updated: '2026-11-03',
-    related: ['digitalWorkInstructions', 'useCases', 'roiCalculator'],
+    related: ['solDwi', 'useCases', 'roiCalculator'],
   },
-  digitalWorkInstructions: {
+  solDwi: {
     metaTitle: 'Digitale werkinstructies: gids, voordelen en software | ActARion',
     metaDescription:
       'Wat digitale werkinstructies zijn, hoe ze zich verhouden tot papieren SOP’s en hoe AI en AR ze sneller te maken en makkelijker te volgen maken.',
     label: 'Digitale werkinstructies',
-    eyebrow: 'Platform',
+    eyebrow: 'Oplossing',
     h1: 'Digitale werkinstructies met AI en AR',
     lead: 'Vervang papieren SOP’s door visuele stap-voor-stapinstructies die operators echt gebruiken en die actueel blijven.',
     answer:
@@ -138,7 +145,7 @@ export const pages: Record<RouteKey, PageContent> = {
       { q: 'Kunnen we bestaande SOP’s importeren?', a: 'Ja. Bestaande Word- of PDF-procedures worden geïmporteerd en met AI omgezet in stappen.' },
       { q: 'Welke talen worden ondersteund?', a: 'Instructies kunnen in het Engels, Nederlands en Duits worden gemaakt en beheerd, andere talen op aanvraag.' },
     ],
-    related: ['cmpDigitalVsPaper', 'guideWriteWorkInstructions', 'tplWorkInstruction'],
+    related: ['cmpDigitalVsPaper', 'blogWriteWorkInstructions', 'tplWorkInstruction'],
   },
   useCases: {
     metaTitle: 'Toepassingen van werkinstructies met AI en AR | ActARion',
@@ -186,9 +193,9 @@ export const pages: Record<RouteKey, PageContent> = {
       },
     ],
     faq: [{ q: 'Hoe lang duurt het om een omstelling te digitaliseren?', a: 'Een gemiddelde omstelling is binnen één tot twee dagen vastgelegd en gepubliceerd.' }],
-    related: ['termSmed', 'caseChangeover', 'roiCalculator'],
+    related: ['termSmed', 'caseFood', 'roiCalculator'],
   },
-  ucTraining: {
+  ucOnboarding: {
     metaTitle: 'Training en inwerken met AR voor operators | ActARion',
     metaDescription:
       'Maak nieuwe operators binnen dagen productief met AR-training op de werkplek. Houd vaardigheden en certificeringen per werkplek bij.',
@@ -201,7 +208,7 @@ export const pages: Record<RouteKey, PageContent> = {
     cardText: 'Leer op de werkplek en houd vaardigheden per werkplek bij.',
     kpi: 'Inwerktijd',
     updated: '2026-11-03',
-    related: ['digitalWorkInstructions', 'roiCalculator'],
+    related: ['solDwi', 'roiCalculator'],
   },
   industries: {
     metaTitle: 'Sectoren: digitale werkinstructies per branche | ActARion',
@@ -233,7 +240,7 @@ export const pages: Record<RouteKey, PageContent> = {
         items: ['Batchvoorbereiding en afwegen', 'Lijnvrijgave', 'Reiniging en omstellen', 'Kwalificatie van apparatuur', 'Trainingsregistratie van operators'],
       },
     ],
-    related: ['ucChangeover', 'ucTraining'],
+    related: ['ucChangeover', 'ucOnboarding'],
   },
   resources: {
     metaTitle: 'Kennisbank: templates, gidsen en woordenlijst | ActARion',
@@ -263,9 +270,9 @@ export const pages: Record<RouteKey, PageContent> = {
         items: ['Titel, scope en eigenaar', 'Gereedschap, onderdelen en PBM', 'Genummerde stappen met één handeling', 'Fotovak per stap', 'Kwaliteits- en veiligheidscontroles', 'Revisiehistorie en aftekening'],
       },
     ],
-    related: ['guideWriteWorkInstructions', 'digitalWorkInstructions'],
+    related: ['blogWriteWorkInstructions', 'solDwi'],
   },
-  guideWriteWorkInstructions: {
+  blogWriteWorkInstructions: {
     metaTitle: 'Werkinstructie schrijven: 7 stappen en voorbeelden | ActARion',
     metaDescription: 'Schrijf heldere werkinstructies in 7 stappen: scope, doelgroep, één handeling per stap, beeld, controles, testen en versiebeheer.',
     label: 'Werkinstructie schrijven',
@@ -327,7 +334,7 @@ export const pages: Record<RouteKey, PageContent> = {
         ],
       },
     ],
-    related: ['ucChangeover', 'caseChangeover'],
+    related: ['ucChangeover', 'caseFood'],
   },
   cmpDigitalVsPaper: {
     metaTitle: 'Digitale vs papieren werkinstructies: vergelijking | ActARion',
@@ -355,7 +362,7 @@ export const pages: Record<RouteKey, PageContent> = {
         ],
       },
     ],
-    related: ['digitalWorkInstructions', 'roiCalculator'],
+    related: ['solDwi', 'roiCalculator'],
   },
   customers: {
     metaTitle: 'Klantverhalen en resultaten | ActARion',
@@ -366,7 +373,8 @@ export const pages: Record<RouteKey, PageContent> = {
     lead: 'Gemeten vóór en na, zodat je weet wat je kunt verwachten.',
     updated: '2026-11-03',
   },
-  caseChangeover: {
+  caseFood: {
+    placeholder: true,
     metaTitle: 'Case: kortere omstellingen met AR-begeleiding | ActARion',
     metaDescription: 'Hoe een producent omstellingen over ploegen standaardiseerde met SMED-instructies met AR-begeleiding.',
     label: 'Kortere omstellingen',
@@ -421,7 +429,7 @@ export const pages: Record<RouteKey, PageContent> = {
       { q: 'Welke aannames gebruikt de calculator?', a: 'Standaardreducties zijn voorzichtige bandbreedtes per toepassing. Je kunt elke aanname aanpassen.' },
       { q: 'Worden mijn gegevens opgeslagen?', a: 'Alleen als je het PDF-rapport aanvraagt; dan bewaren we je invoer om het rapport te sturen en te bespreken.' },
     ],
-    related: ['caseChangeover', 'pilot'],
+    related: ['caseFood', 'pilot'],
   },
   pilot: {
     metaTitle: 'Pilot aanvragen voor AR-werkinstructies | ActARion',

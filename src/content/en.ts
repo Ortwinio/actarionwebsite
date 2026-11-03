@@ -21,6 +21,13 @@ export const ui: UiStrings = {
     roi: 'ROI calculator',
     blog: 'Blog',
   },
+  placeholderNote: 'Draft: this page contains placeholder content that will be replaced.',
+  imagePending: 'Image to follow',
+  searchLabel: 'Search resources',
+  searchPlaceholder: 'Search templates, guides, terms…',
+  allPages: 'All pages',
+  az: 'A–Z',
+  nav2: { solutions: 'Solutions', hardware: 'Hardware', company: 'Company', partners: 'Partners', legal: 'Legal' },
   ctaPilot: 'Request a pilot',
   ctaRoi: 'Calculate your ROI',
   ctaDemo: 'Book a demo',
@@ -78,7 +85,7 @@ export const ui: UiStrings = {
   worksWith: 'Works with',
 };
 
-export const pages: Record<RouteKey, PageContent> = {
+export const pages: Record<RouteKey, Partial<PageContent>> = {
   home: {
     metaTitle: 'Digital Work Instructions with AI & AR | ActARion',
     metaDescription:
@@ -90,15 +97,15 @@ export const pages: Record<RouteKey, PageContent> = {
     answer:
       'ActARion is a European platform for digital work instructions guided by AI and augmented reality. Manufacturers use it to standardise changeovers, assembly, maintenance and training, so frontline workers follow the right steps every time on any device.',
     updated: '2026-11-03',
-    related: ['digitalWorkInstructions', 'useCases', 'roiCalculator'],
+    related: ['solDwi', 'useCases', 'roiCalculator'],
   },
 
-  digitalWorkInstructions: {
+  solDwi: {
     metaTitle: 'Digital Work Instructions: Guide, Benefits & Software | ActARion',
     metaDescription:
       'What digital work instructions are, how they compare to paper SOPs and how AI and AR make them faster to create and easier to follow.',
     label: 'Digital work instructions',
-    eyebrow: 'Platform',
+    eyebrow: 'Solution',
     h1: 'Digital work instructions with AI and AR',
     lead: 'Replace paper SOPs with visual, step-by-step guidance that operators actually use, and that stays up to date.',
     answer:
@@ -143,7 +150,7 @@ export const pages: Record<RouteKey, PageContent> = {
       { q: 'Can we import our existing SOPs?', a: 'Yes. Existing Word or PDF procedures can be imported and converted into steps with AI.' },
       { q: 'Which languages are supported?', a: 'Instructions can be generated and maintained in English, Dutch and German, plus other languages on request.' },
     ],
-    related: ['cmpDigitalVsPaper', 'guideWriteWorkInstructions', 'tplWorkInstruction'],
+    related: ['cmpDigitalVsPaper', 'blogWriteWorkInstructions', 'tplWorkInstruction'],
   },
 
   useCases: {
@@ -194,9 +201,9 @@ export const pages: Record<RouteKey, PageContent> = {
     faq: [
       { q: 'How long does it take to digitise a changeover?', a: 'A typical changeover is captured and published within one to two days.' },
     ],
-    related: ['termSmed', 'caseChangeover', 'roiCalculator'],
+    related: ['termSmed', 'caseFood', 'roiCalculator'],
   },
-  ucTraining: {
+  ucOnboarding: {
     metaTitle: 'AR Training & Onboarding for Operators | ActARion',
     metaDescription:
       'Get new operators productive in days with AR-guided training on the job. Track skills and certifications per workstation.',
@@ -209,7 +216,7 @@ export const pages: Record<RouteKey, PageContent> = {
     cardText: 'Train on the job and track skills per workstation.',
     kpi: 'Time to competence',
     updated: '2026-11-03',
-    related: ['digitalWorkInstructions', 'roiCalculator'],
+    related: ['solDwi', 'roiCalculator'],
   },
 
   industries: {
@@ -242,7 +249,7 @@ export const pages: Record<RouteKey, PageContent> = {
         items: ['Batch preparation and weighing', 'Line clearance', 'Cleaning and changeover', 'Equipment qualification', 'Operator training records'],
       },
     ],
-    related: ['ucChangeover', 'ucTraining'],
+    related: ['ucChangeover', 'ucOnboarding'],
   },
 
   resources: {
@@ -275,9 +282,9 @@ export const pages: Record<RouteKey, PageContent> = {
         items: ['Title, scope and owner', 'Tools, parts and PPE', 'Numbered steps with one action each', 'Photo placeholder per step', 'Quality and safety checks', 'Revision history and sign-off'],
       },
     ],
-    related: ['guideWriteWorkInstructions', 'digitalWorkInstructions'],
+    related: ['blogWriteWorkInstructions', 'solDwi'],
   },
-  guideWriteWorkInstructions: {
+  blogWriteWorkInstructions: {
     metaTitle: 'How to Write Work Instructions: 7 Steps + Examples | ActARion',
     metaDescription:
       'Write clear work instructions in 7 steps: scope, audience, one action per step, visuals, checks, testing and version control.',
@@ -340,7 +347,7 @@ export const pages: Record<RouteKey, PageContent> = {
         ],
       },
     ],
-    related: ['ucChangeover', 'caseChangeover'],
+    related: ['ucChangeover', 'caseFood'],
   },
   cmpDigitalVsPaper: {
     metaTitle: 'Digital vs Paper Work Instructions: Comparison | ActARion',
@@ -368,7 +375,7 @@ export const pages: Record<RouteKey, PageContent> = {
         ],
       },
     ],
-    related: ['digitalWorkInstructions', 'roiCalculator'],
+    related: ['solDwi', 'roiCalculator'],
   },
 
   customers: {
@@ -380,7 +387,8 @@ export const pages: Record<RouteKey, PageContent> = {
     lead: 'Measured before and after, so you know what to expect.',
     updated: '2026-11-03',
   },
-  caseChangeover: {
+  caseFood: {
+    placeholder: true,
     metaTitle: 'Case: Shorter Changeovers with AR Guidance | ActARion',
     metaDescription: 'How a manufacturer standardised changeovers across shifts with AR-guided SMED instructions.',
     label: 'Shorter changeovers',
@@ -437,7 +445,7 @@ export const pages: Record<RouteKey, PageContent> = {
       { q: 'Which assumptions does the calculator use?', a: 'Default reductions are conservative ranges per use case. You can override every assumption.' },
       { q: 'Is my data stored?', a: 'Only if you request the PDF report; then we store your inputs to send and discuss the report.' },
     ],
-    related: ['caseChangeover', 'pilot'],
+    related: ['caseFood', 'pilot'],
   },
   pilot: {
     metaTitle: 'Request a Pilot for AR Work Instructions | ActARion',

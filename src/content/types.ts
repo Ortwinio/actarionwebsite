@@ -6,7 +6,9 @@ export type Section =
   | { kind: 'features'; id?: string; h2: string; intro?: string; items: { title: string; text: string }[] }
   | { kind: 'table'; id?: string; h2: string; intro?: string; head: string[]; rows: string[][] }
   | { kind: 'checklist'; id?: string; h2: string; intro?: string; items: string[] }
-  | { kind: 'kpis'; id?: string; h2: string; rows: { k: string; before: string; after: string }[]; note?: string };
+  | { kind: 'kpis'; id?: string; h2: string; rows: { k: string; before: string; after: string }[]; note?: string }
+  | { kind: 'image'; id?: string; h2?: string; alt: string; ratio?: string; caption?: string }
+  | { kind: 'links'; id?: string; h2: string; keys: RouteKey[] };
 
 export interface FaqItem {
   q: string;
@@ -35,6 +37,10 @@ export interface PageContent {
   definition?: string;
   /** Related routes shown at the bottom. */
   related?: RouteKey[];
+  /** True while the page still contains draft/placeholder content. */
+  placeholder?: boolean;
+  /** Hero image placeholder description (no file yet). */
+  heroImage?: string;
 }
 
 export interface UiStrings {
@@ -43,6 +49,13 @@ export interface UiStrings {
   menu: string;
   close: string;
   nav: { platform: string; useCases: string; industries: string; resources: string; customers: string; roi: string; blog: string };
+  placeholderNote: string;
+  imagePending: string;
+  searchLabel: string;
+  searchPlaceholder: string;
+  allPages: string;
+  az: string;
+  nav2: { solutions: string; hardware: string; company: string; partners: string; legal: string };
   ctaPilot: string;
   ctaRoi: string;
   ctaDemo: string;
