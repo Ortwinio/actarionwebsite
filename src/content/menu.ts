@@ -189,8 +189,8 @@ export const menus: Menu[] = [
       {
         title: L('Bedrijf', 'Company', 'Unternehmen'),
         items: [
-          { key: 'company', label: L('Over ActARion', 'About ActARion', 'Über ActARion'), sub: L('Missie, aanpak en management', 'Mission, approach and management', 'Mission, Vorgehen und Management') },
-          { key: 'partners', label: L('Partners', 'Partners', 'Partner'), sub: L('DeepSight, Potentify, Simply Change', 'DeepSight, Potentify, Simply Change', 'DeepSight, Potentify, Simply Change') },
+          { key: 'company', label: L('Over ActARion', 'About ActARion', 'Über ActARion'), sub: L('Lees meer over onze missie, aanpak en ons managementteam', 'Learn more about our mission, approach and management team', 'Erfahren Sie mehr über unsere Mission, unser Vorgehen und unser Managementteam') },
+          { key: 'partners', label: L('Partners', 'Partners', 'Partner'), sub: L('Vind de juiste partner in ons partnerecosysteem', 'Find the right partner in our partner ecosystem', 'Finden Sie den passenden Partner in unserem Partner-Ökosystem') },
           { key: 'careers', label: L('Werken bij', 'Careers', 'Karriere') },
           { key: 'contact', label: L('Contact', 'Contact', 'Kontakt') },
         ],
