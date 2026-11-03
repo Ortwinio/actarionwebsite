@@ -2,10 +2,23 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { Header } from '@/components/Header';
+import { Cta } from '@/components/Cta';
+import { HomeDesign } from '@/templates/design/Home';
+import { smedCopy } from '@/content/design/article';
+import { RoiDesign, RoiReportDesign } from '@/templates/design/Roi';
+import { UseCaseDesign } from '@/templates/design/UseCase';
+import { ArticleDesign } from '@/templates/design/Article';
+import { ResourcesDesign, HubDesign } from '@/templates/design/Resources';
+import { PilotDesign } from '@/templates/design/Pilot';
+import { AanvraagDesign } from '@/templates/design/Aanvraag';
+import { FitCheckDesign } from '@/templates/design/FitCheck';
+import { WhitepaperDesign } from '@/templates/design/Whitepaper';
+import { PartnersDesign, PartnerDetailDesign } from '@/templates/design/Partners';
+import { OverDesign, TeamDesign, VisionDesign } from '@/templates/design/Over';
+
 import {
   AnswerBox,
   Check,
-  CtaBand,
   DraftBanner,
   Faq,
   ImageSlot,
@@ -47,7 +60,9 @@ function schemaFor({ routeKey, locale }: Props) {
   const type = routes[routeKey].type;
   const nodes: object[] = [webPageSchema(routeKey, locale)];
   if (type !== 'home') nodes.push(breadcrumbSchema(routeKey, locale));
-  if (page.faq?.length) nodes.push(faqSchema(page.faq));
+  // FAQ schema must match the FAQ that is visible on the page.
+  const faq = routeKey === 'blogSmed' ? smedCopy[locale].faq : page.faq;
+  if (faq?.length) nodes.push(faqSchema(faq));
   if (['guide', 'caseStudy', 'comparison', 'whitepaper', 'report'].includes(type)) nodes.push(articleSchema(routeKey, locale));
   if (type === 'guide' || type === 'template') {
     const steps = page.sections?.find((s) => s.kind === 'steps');
@@ -91,7 +106,7 @@ function ArticleLayout({ routeKey, locale, aside, before }: Props & { aside?: Re
         </aside>
       </div>
       <Related keys={page.related} locale={locale} />
-      <CtaBand locale={locale} />
+      <Cta locale={locale} />
     </>
   );
 }
@@ -247,7 +262,7 @@ function HomeTemplate({ locale }: Props) {
       </section>
 
       <div className="wrap max-w-prose pt-24 lg:mx-auto"><Faq items={getPage(locale, 'faq').faq} locale={locale} /></div>
-      <CtaBand locale={locale} />
+      <Cta locale={locale} />
     </>
   );
 }
@@ -264,7 +279,7 @@ function HubTemplate({ routeKey, locale }: Props) {
           {kids.map((k) => <li key={k} className="flex"><RouteCard routeKey={k} locale={locale} as="h2" /></li>)}
         </ul>
       </div>
-      <CtaBand locale={locale} />
+      <Cta locale={locale} />
     </>
   );
 }
@@ -291,7 +306,7 @@ function ResourcesHubTemplate({ routeKey, locale }: Props) {
           <ResourceSearch items={items} label={ui.searchLabel} placeholder={ui.searchPlaceholder} />
         </section>
       </div>
-      <CtaBand locale={locale} />
+      <Cta locale={locale} />
     </>
   );
 }
@@ -322,7 +337,7 @@ function GlossaryHubTemplate({ routeKey, locale }: Props) {
           ))}
         </div>
       </div>
-      <CtaBand locale={locale} />
+      <Cta locale={locale} />
     </>
   );
 }
@@ -450,7 +465,7 @@ function TeamTemplate(p: Props) {
           ))}
         </ul>
       </div>
-      <CtaBand locale={p.locale} />
+      <Cta locale={p.locale} />
     </>
   );
 }
@@ -464,7 +479,7 @@ function FaqTemplate(p: Props) {
         <Faq items={page.faq} locale={p.locale} />
         <Updated iso={page.updated} locale={p.locale} />
       </div>
-      <CtaBand locale={p.locale} />
+      <Cta locale={p.locale} />
     </>
   );
 }
@@ -515,47 +530,59 @@ function DefaultArticle(p: Props) {
 }
 
 const templates: Record<PageType, (p: Props) => React.ReactElement> = {
-  home: HomeTemplate,
-  hub: HubTemplate,
-  resourcesHub: ResourcesHubTemplate,
-  glossaryHub: GlossaryHubTemplate,
-  solution: SolutionTemplate,
-  platform: DefaultArticle,
-  useCase: SolutionTemplate,
-  industry: SolutionTemplate,
-  hardware: DefaultArticle,
-  template: TemplateDownload,
-  guide: DefaultArticle,
-  comparison: DefaultArticle,
-  glossaryTerm: GlossaryTermTemplate,
-  caseStudy: DefaultArticle,
-  partner: DefaultArticle,
-  whitepaper: TemplateDownload,
-  report: TemplateDownload,
-  media: DefaultArticle,
-  roi: RoiTemplate,
-  pilot: FormTemplate,
-  fitCheck: FitCheckTemplate,
-  demo: FormTemplate,
-  contact: FormTemplate,
-  company: DefaultArticle,
-  team: TeamTemplate,
-  careers: DefaultArticle,
-  faq: FaqTemplate,
-  legal: DefaultArticle,
+  home: HomeDesign,
+  hub: HubDesign,
+  resourcesHub: ResourcesDesign,
+  glossaryHub: HubDesign,
+  solution: UseCaseDesign,
+  platform: UseCaseDesign,
+  useCase: UseCaseDesign,
+  industry: UseCaseDesign,
+  hardware: UseCaseDesign,
+  template: ArticleDesign,
+  guide: ArticleDesign,
+  comparison: ArticleDesign,
+  glossaryTerm: ArticleDesign,
+  caseStudy: ArticleDesign,
+  partner: PartnerDetailDesign,
+  whitepaper: WhitepaperDesign,
+  report: ArticleDesign,
+  media: ArticleDesign,
+  roi: RoiDesign,
+  roiReport: RoiReportDesign,
+  pilot: PilotDesign,
+  fitCheck: FitCheckDesign,
+  demo: AanvraagDesign,
+  contact: AanvraagDesign,
+  company: ArticleDesign,
+  team: TeamDesign,
+  careers: ArticleDesign,
+  faq: ArticleDesign,
+  legal: ArticleDesign,
   sitemap: SitemapTemplate,
 };
 
+/** Page-specific templates that override the type mapping. */
+const byKey: Record<string, (p: Props) => React.ReactElement> = {
+  whitepapers: WhitepaperDesign,
+  partners: PartnersDesign,
+  partnerBecome: AanvraagDesign,
+  company: OverDesign,
+  vision: VisionDesign,
+};
+
+/** Page types that use the checkout-style 'focus' header (forms). */
+const FOCUS: PageType[] = ['demo', 'contact'];
+
 export function RenderPage(p: Props) {
-  const Template = templates[routes[p.routeKey].type];
+  const Template = byKey[p.routeKey] ?? templates[routes[p.routeKey].type];
   const page = getPage(p.locale, p.routeKey);
   return (
     <>
-      <Header locale={p.locale} routeKey={p.routeKey} />
+      <Header locale={p.locale} routeKey={p.routeKey} variant={FOCUS.includes(routes[p.routeKey].type) ? 'focus' : 'full'} />
       <main id="main">
         <JsonLd data={schemaFor(p)} />
         {p.routeKey !== 'home' && <Breadcrumbs routeKey={p.routeKey} locale={p.locale} />}
-        <DraftBanner show={page.placeholder} locale={p.locale} />
         <Template {...p} />
       </main>
     </>

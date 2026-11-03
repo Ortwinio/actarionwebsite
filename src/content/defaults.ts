@@ -415,6 +415,14 @@ export function defaultsFor(key: RouteKey, l: Locale): PageContent {
     case 'roi':
       return { ...base, metaDescription: '', lead: '' };
 
+    case 'roiReport':
+      return {
+        ...base,
+        metaTitle: t('Your ROI report | ActARion', 'Uw ROI-rapport | ActARion', 'Ihr ROI-Bericht | ActARion')[l],
+        metaDescription: t('Your personal ROI report for AI and AR-guided work instructions, based on your own figures.', 'Uw persoonlijke ROI-rapport voor werkinstructies met AI en AR, op basis van uw eigen cijfers.', 'Ihr persönlicher ROI-Bericht für KI- und AR-gestützte Arbeitsanweisungen, auf Basis Ihrer eigenen Zahlen.')[l],
+        placeholder: false,
+      };
+
     case 'pilot':
     case 'fitCheck':
     case 'demo':

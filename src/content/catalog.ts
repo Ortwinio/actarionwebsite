@@ -25,6 +25,7 @@ export type PageType =
   | 'report'
   | 'media'
   | 'roi'
+  | 'roiReport'
   | 'pilot'
   | 'fitCheck'
   | 'demo'
@@ -121,6 +122,7 @@ export const catalog: Row[] = [
   ['tplKnowledge', 'template', 'templates', 3, 'resources/templates/knowledge-transfer-plan', 'kennisbank/templates/kennisoverdrachtsplan', 'ressourcen/vorlagen/wissenstransfer-plan', 'Knowledge transfer plan', 'Kennisoverdrachtsplan', 'Wissenstransfer-Plan', 'Word'],
 
   ['roiCalculator', 'roi', 'resources', 1, 'resources/roi-calculator', 'kennisbank/roi-calculator', 'ressourcen/roi-rechner', 'ROI calculator', 'ROI-calculator', 'ROI-Rechner'],
+  ['roiReport', 'roiReport', 'roiCalculator', 1, 'resources/roi-calculator/report', 'kennisbank/roi-calculator/rapport', 'ressourcen/roi-rechner/bericht', 'Your report', 'Uw rapport', 'Ihr Bericht'],
   ['whitepapers', 'hub', 'resources', 2, 'resources/whitepapers', 'kennisbank/whitepapers', 'ressourcen/whitepaper', 'Whitepapers', 'Whitepapers', 'Whitepaper'],
   ['wpItSecurity', 'whitepaper', 'whitepapers', 2, 'resources/whitepapers/it-security-ar-ai', 'kennisbank/whitepapers/it-beveiliging-ar-ai', 'ressourcen/whitepaper/it-sicherheit-ar-ki', 'IT & security for AR and AI', 'IT en beveiliging bij AR en AI', 'IT-Sicherheit bei AR und KI'],
   ['report2027', 'report', 'resources', 3, 'resources/frontline-work-report-2027', 'kennisbank/rapport-werkinstructies-2027', 'ressourcen/studie-werkerfuehrung-2027', 'State of frontline work 2027', 'Rapport werkinstructies 2027', 'Studie Werkerführung 2027'],

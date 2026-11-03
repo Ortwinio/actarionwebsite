@@ -23,7 +23,7 @@ export interface RouteDef {
 export const routes: Record<RouteKey, RouteDef> = Object.fromEntries(
   catalog.map(([key, type, parent, phase, en, nl, de, enL, nlL, deL, keyword]) => [
     key,
-    { key, type, parent: parent ?? undefined, phase, slugs: { en, nl, de }, labels: { en: enL, nl: nlL, de: deL }, keyword },
+    { key, type, parent: parent ?? undefined, phase, slugs: { en, nl, de }, labels: { en: enL, nl: nlL, de: deL }, keyword, noindex: type === 'roiReport' || undefined },
   ]),
 );
 

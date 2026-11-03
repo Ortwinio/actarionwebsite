@@ -8,7 +8,7 @@
   a { @apply text-primary; }
   a:hover { @apply text-primary-hover; }
   :focus-visible { outline: 3px solid #1B81C4; outline-offset: 2px; border-radius: 6px; }
-  h1, h2, h3 { @apply font-display; text-wrap: balance; }
+  h1, h2, h3 { @apply font-display; text-wrap: balance; overflow-wrap: break-word; hyphens: auto; -webkit-hyphens: auto; }
 }
 
 @layer components {
