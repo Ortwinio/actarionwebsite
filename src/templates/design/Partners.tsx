@@ -86,31 +86,7 @@ export function PartnersDesign({ routeKey: _routeKey, locale }: { routeKey: stri
   const t = partnersCopy[locale];
   return (
     <>
-      <section className="mx-auto flex max-w-site flex-wrap items-end gap-12 px-6 pt-16">
-        <div className="flex min-w-0 flex-[2_1_600px] flex-col gap-5">
-          <p className={eyebrow}>{t.eyebrow}</p>
-          <h1 className="font-display text-[clamp(42px,5vw,70px)] font-extrabold leading-[0.98] tracking-[-0.035em]">{t.h1}</h1>
-          <p className="max-w-[760px] text-xl leading-normal">{t.lead}</p>
-        </div>
-        <Link href={pathFor('demo', locale)} className="inline-flex h-[58px] flex-none items-center rounded-full bg-primary px-[30px] text-[17px] font-bold text-white no-underline hover:bg-primary-hover">{t.cta}</Link>
-      </section>
-
-      <section className="mx-auto max-w-site px-6 pt-14">
-        <div role="table" aria-label={t.tableLabel} className="rounded-[28px] bg-ink px-7 py-3 text-white">
-          <div role="row" className="grid grid-cols-3 gap-5 border-b border-ink-3 py-4 text-[13px] font-bold uppercase tracking-[0.06em] text-sky max-md:hidden">
-            {t.head.map((h) => <span key={h} role="columnheader">{h}</span>)}
-          </div>
-          {t.rows.map((r, i) => (
-            <div key={r[0]} role="row" className={`grid grid-cols-3 gap-5 py-4 leading-[1.45] max-md:grid-cols-1 max-md:gap-1 ${i < t.rows.length - 1 ? 'border-b border-ink-3' : ''}`}>
-              <span role="rowheader" className="font-bold">{r[0]}</span>
-              <span role="cell" className="text-muted-lighter">{r[1]}</span>
-              <span role="cell" className="text-muted-lighter"><span className="text-sky md:hidden">{t.head[2]}: </span>{r[2]}</span>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <NetworkSection locale={locale} />
+      <NetworkSection locale={locale} asPageTitle />
 
       <HardwareNote t={t} locale={locale} />
 
@@ -178,7 +154,7 @@ function NetworkCard({ n, locale }: { n: Card; locale: Locale }) {
   );
 }
 
-function NetworkSection({ locale }: { locale: Locale }) {
+function NetworkSection({ locale, asPageTitle = false }: { locale: Locale; asPageTitle?: boolean }) {
   const c = networkCopy[locale];
   const t = partnersCopy[locale];
   const order: Region[] = ['Benelux', 'Benelux / DACH', 'DACH', 'Global'];
@@ -196,10 +172,14 @@ function NetworkSection({ locale }: { locale: Locale }) {
     .sort((a, b) => order.indexOf(a.region) - order.indexOf(b.region))
     .map((n) => ({ id: n.id, naam: n.naam, url: n.url, region: n.region, text: n.text[locale], logo: { src: `/img/partners/netwerk/${n.logo}.webp`, w: n.w, h: n.h } }));
   return (
-    <section id="network" className="mx-auto flex max-w-site scroll-mt-6 flex-col gap-6 px-6 pt-14">
+    <section id="network" className="mx-auto flex max-w-site scroll-mt-6 flex-col gap-6 px-6 pt-16">
       <div className="flex max-w-[760px] flex-col gap-3">
-        <p className={eyebrow}>{c.eyebrow}</p>
-        <h2 className="font-display text-[clamp(30px,3.6vw,44px)] font-extrabold leading-[1.05] tracking-[-0.03em]">{c.title}</h2>
+        <p className={eyebrow}>{asPageTitle ? partnersCopy[locale].eyebrow : c.eyebrow}</p>
+        {asPageTitle ? (
+          <h1 className="font-display text-[clamp(42px,5vw,70px)] font-extrabold leading-[0.98] tracking-[-0.035em]">{c.title}</h1>
+        ) : (
+          <h2 className="font-display text-[clamp(30px,3.6vw,44px)] font-extrabold leading-[1.05] tracking-[-0.03em]">{c.title}</h2>
+        )}
         <p className="text-lg leading-normal text-muted">{c.lead}</p>
       </div>
       <ul className="m-0 grid list-none gap-4 p-0 [grid-template-columns:repeat(auto-fill,minmax(260px,1fr))]">
