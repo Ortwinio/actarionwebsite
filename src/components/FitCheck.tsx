@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
-import type { Locale } from '@/lib/i18n';
+import type { Locale } from '@/lib/locale';
 import { track } from './Analytics';
 
 const Q: Record<Locale, string[]> = {

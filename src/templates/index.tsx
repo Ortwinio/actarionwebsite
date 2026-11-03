@@ -16,11 +16,11 @@ import {
   Toc,
   Updated,
 } from '@/components/Blocks';
-import { FitCheck } from '@/components/FitCheck';
 import { JsonLd } from '@/components/JsonLd';
+import { FitCheck, ResourceSearch, RoiCalculator } from '@/components/Lazy';
 import { LeadForm, type LeadKind } from '@/components/LeadForm';
-import { ResourceSearch } from '@/components/ResourceSearch';
 import { RoiQuick } from '@/components/RoiQuick';
+import { RoiAssumptions } from '@/components/RoiAssumptions';
 import { getPage, getUi, type Locale } from '@/lib/i18n';
 import { childrenOf, pathFor, routeKeys, routes, type PageType, type RouteKey } from '@/lib/routes';
 import {
@@ -34,13 +34,11 @@ import {
   webPageSchema,
 } from '@/lib/seo';
 
-/** Full ROI calculator (separate Vercel project) until it is ported into this route. */
-const FULL_ROI_URL = 'https://roicalculator.actarion.com';
-
 interface Props {
   routeKey: RouteKey;
   locale: Locale;
 }
+
 
 /* ---------- Schema per page type ---------- */
 
@@ -153,7 +151,7 @@ function HomeTemplate({ locale }: Props) {
             />
           </div>
           <div className="relative z-10 mx-4 -mt-24 max-w-sm sm:ml-auto sm:mr-6">
-            <RoiQuick locale={locale} fullHref={pathFor('roiCalculator', locale)} compact />
+            <RoiQuick locale={locale} t={ui.roi} fullHref={`${pathFor('roiCalculator', locale)}#calculator`} compact />
           </div>
         </div>
       </section>
@@ -348,7 +346,7 @@ function TemplateDownload(p: Props) {
         aside={
           <div className="card flex flex-col gap-4 p-6" id="download">
             <p className="h3 text-xl">{ui.download}</p>
-            <LeadForm locale={p.locale} kind="template" resource={p.routeKey} />
+            <LeadForm locale={p.locale} ui={ui} kind="template" resource={p.routeKey} />
           </div>
         }
       />
@@ -379,11 +377,12 @@ function RoiTemplate(p: Props) {
   return (
     <>
       <PageHero {...p} />
-      <div className="wrap grid gap-12 lg:grid-cols-2">
-        <RoiQuick locale={p.locale} fullHref={FULL_ROI_URL} />
-        <div className="flex flex-col gap-12">
-          <AnswerBox text={page.answer} locale={p.locale} />
+      <div className="wrap flex flex-col gap-12">
+        <AnswerBox text={page.answer} locale={p.locale} />
+        <RoiCalculator locale={p.locale} leadUi={getUi(p.locale)} />
+        <div className="grid gap-12 lg:grid-cols-2">
           <Sections sections={page.sections} locale={p.locale} />
+          <RoiAssumptions locale={p.locale} />
         </div>
       </div>
       <div className="wrap mt-16 flex max-w-prose flex-col gap-10 lg:mx-auto">
@@ -405,7 +404,7 @@ function FormTemplate(p: Props) {
       <PageHero {...p} />
       <div className="wrap grid gap-12 pb-24 lg:grid-cols-2">
         <div className="card p-6 md:p-8">
-          <LeadForm locale={p.locale} kind={kind} />
+          <LeadForm locale={p.locale} ui={getUi(p.locale)} kind={kind} />
         </div>
         <div className="flex flex-col gap-10">
           <Sections sections={page.sections} locale={p.locale} />

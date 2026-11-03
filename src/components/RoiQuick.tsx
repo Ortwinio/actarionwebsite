@@ -2,7 +2,8 @@
 
 import Link from 'next/link';
 import { useMemo, useRef, useState } from 'react';
-import { getUi, numberLocale, type Locale } from '@/lib/i18n';
+import { numberLocale, type Locale } from '@/lib/locale';
+import type { UiStrings } from '@/content/types';
 import { track } from './Analytics';
 
 const WEEKS = 46;
@@ -30,8 +31,7 @@ function Slider({ id, label, value, min, max, step, unit, onChange }: {
  * Quick changeover estimate. The full multi-use-case calculator (payback, PDF report,
  * lead capture) is linked below and will be ported into this route in the next phase.
  */
-export function RoiQuick({ locale, fullHref, compact = false }: { locale: Locale; fullHref: string; compact?: boolean }) {
-  const t = getUi(locale).roi;
+export function RoiQuick({ locale, t, fullHref, compact = false }: { locale: Locale; t: UiStrings['roi']; fullHref: string; compact?: boolean }) {
   const [perWeek, setPerWeek] = useState(10);
   const [minutes, setMinutes] = useState(45);
   const [reduction, setReduction] = useState(25);

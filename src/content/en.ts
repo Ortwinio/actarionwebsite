@@ -426,7 +426,7 @@ export const pages: Record<RouteKey, Partial<PageContent>> = {
     h1: 'What would guided work save your plant?',
     lead: 'Estimate the yearly saving in two minutes, then build the full business case with payback period and a PDF report.',
     answer:
-      'The ActARion ROI calculator estimates the yearly saving of AI and AR-guided work instructions from your own figures: number of changeovers or tasks, current duration, cost per production hour and expected reduction. It then calculates payback period and ROI per use case.',
+      'The ActARion ROI calculator estimates the yearly benefit, payback period, 3-year ROI and NPV of AI and AR-guided work instructions from your own figures, for five use cases: changeovers, assembly, maintenance, remote support and training. All formulas and default assumptions are listed below.',
     updated: '2026-11-03',
     sections: [
       {

@@ -5,15 +5,15 @@ import { defaultsFor } from '@/content/defaults';
 import type { PageContent, UiStrings } from '@/content/types';
 import type { RouteKey } from './routes';
 
-export const locales = ['en', 'nl', 'de'] as const;
-export type Locale = (typeof locales)[number];
+import { locales, numberLocale, type Locale } from './locale';
+
+export { locales, numberLocale, type Locale };
 export const defaultLocale: Locale = 'en';
 
 export const isLocale = (value: string): value is Locale => (locales as readonly string[]).includes(value);
 
 export const htmlLang: Record<Locale, string> = { en: 'en', nl: 'nl', de: 'de' };
 export const ogLocale: Record<Locale, string> = { en: 'en_GB', nl: 'nl_NL', de: 'de_DE' };
-export const numberLocale: Record<Locale, string> = { en: 'en-GB', nl: 'nl-NL', de: 'de-DE' };
 
 const dictionaries = { en, nl, de };
 

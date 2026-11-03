@@ -1,10 +1,13 @@
 'use client';
 
 import { useState } from 'react';
-import { getUi, type Locale } from '@/lib/i18n';
+import type { Locale } from '@/lib/locale';
+import type { UiStrings } from '@/content/types';
+
+export type LeadUi = Pick<UiStrings, 'nameLabel' | 'companyLabel' | 'emailLabel' | 'emailPlaceholder' | 'messageLabel' | 'submit' | 'download' | 'formNote' | 'downloadNote'>;
 import { track } from './Analytics';
 
-export type LeadKind = 'pilot' | 'template' | 'demo' | 'contact' | 'partner';
+export type LeadKind = 'pilot' | 'template' | 'demo' | 'contact' | 'partner' | 'roi';
 type Kind = LeadKind;
 
 const done: Record<Locale, string> = {
@@ -20,8 +23,7 @@ const failed: Record<Locale, string> = {
 
 const field = 'h-14 w-full rounded-2xl border-2 border-line bg-white px-4 text-[17px] focus:border-primary';
 
-export function LeadForm({ locale, kind, resource }: { locale: Locale; kind: Kind; resource?: string }) {
-  const ui = getUi(locale);
+export function LeadForm({ locale, ui, kind, resource, extra }: { locale: Locale; ui: LeadUi; kind: Kind; resource?: string; extra?: Record<string, unknown> }) {
   const [state, setState] = useState<'idle' | 'busy' | 'ok' | 'err'>('idle');
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
@@ -32,7 +34,7 @@ export function LeadForm({ locale, kind, resource }: { locale: Locale; kind: Kin
       const res = await fetch('/api/lead', {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ ...data, kind, resource, locale, page: location.pathname }),
+        body: JSON.stringify({ ...data, ...extra, kind, resource, locale, page: location.pathname }),
       });
       if (!res.ok) throw new Error(String(res.status));
       track(kind === 'template' ? 'file_download' : 'generate_lead', { form_type: kind, resource, site_language: locale });

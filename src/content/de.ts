@@ -406,7 +406,7 @@ export const pages: Record<RouteKey, Partial<PageContent>> = {
     h1: 'Was bringt geführtes Arbeiten Ihrem Werk?',
     lead: 'Schätzen Sie die jährliche Einsparung in zwei Minuten und erstellen Sie dann den vollständigen Business Case mit Amortisationszeit und PDF.',
     answer:
-      'Der ActARion ROI-Rechner schätzt die jährliche Einsparung durch KI- und AR-gestützte Arbeitsanweisungen anhand Ihrer eigenen Zahlen: Anzahl Rüstvorgänge oder Aufgaben, aktuelle Dauer, Kosten pro Produktionsstunde und erwartete Reduktion. Anschließend berechnet er Amortisationszeit und ROI je Anwendungsfall.',
+      'Der ActARion ROI-Rechner berechnet jährlichen Nutzen, Amortisationszeit, ROI über 3 Jahre und Kapitalwert KI- und AR-gestützter Arbeitsanweisungen aus Ihren eigenen Zahlen, für fünf Anwendungsfälle: Rüsten, Montage, Wartung, Remote-Support und Schulung. Alle Formeln und Annahmen stehen unten.',
     updated: '2026-11-03',
     sections: [
       {

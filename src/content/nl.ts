@@ -410,7 +410,7 @@ export const pages: Record<RouteKey, Partial<PageContent>> = {
     h1: 'Wat levert begeleid werken jouw fabriek op?',
     lead: 'Schat de jaarlijkse besparing in twee minuten en bouw daarna de volledige business case met terugverdientijd en PDF-rapport.',
     answer:
-      'De ActARion ROI-calculator schat de jaarlijkse besparing van werkinstructies met AI en AR op basis van je eigen cijfers: aantal omstellingen of taken, huidige duur, kosten per productie-uur en verwachte reductie. Daarna berekent hij terugverdientijd en ROI per toepassing.',
+      'De ActARion ROI-calculator berekent de jaarlijkse opbrengst, terugverdientijd, ROI over 3 jaar en netto contante waarde van werkinstructies met AI en AR op basis van je eigen cijfers, voor vijf toepassingen: omstellen, assemblage, onderhoud, remote ondersteuning en training. Alle formules en aannames staan hieronder.',
     updated: '2026-11-03',
     sections: [
       {

@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import type { Locale } from '@/lib/i18n';
+import type { Locale } from '@/lib/locale';
 
 const text: Record<Locale, { title: string; body: string; accept: string; reject: string }> = {
   en: { title: 'Cookies', body: 'We use analytics cookies to improve this website, only with your consent.', accept: 'Accept', reject: 'Only necessary' },
