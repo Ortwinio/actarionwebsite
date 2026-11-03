@@ -1,0 +1,16 @@
+id	en_url	nl_url	de_url	drawing	words_en
+platform	/en/platform/	/nl/platform/	/de/plattform/	drawings/platform.svg	809
+platform/ai-authoring	/en/platform/ai-authoring/	/nl/platform/ai-werkinstructies/	/de/plattform/ki-arbeitsanweisungen/	drawings/platform-ai-authoring.svg	754
+platform/ar-guidance	/en/platform/ar-guidance/	/nl/platform/ar-begeleiding/	/de/plattform/ar-werkerfuehrung/	drawings/platform-ar-guidance.svg	733
+platform/knowledge-capture	/en/platform/knowledge-capture/	/nl/platform/kennis-vastleggen/	/de/plattform/wissen-erfassen/	drawings/platform-knowledge-capture.svg	671
+platform/skills-management	/en/platform/skills-management/	/nl/platform/competentiebeheer/	/de/plattform/qualifikationsmanagement/	drawings/platform-skills-management.svg	662
+platform/analytics-audit-trail	/en/platform/analytics-audit-trail/	/nl/platform/analyse-en-audit/	/de/plattform/analyse-audit-trail/	drawings/platform-analytics-audit-trail.svg	602
+platform/remote-support	/en/platform/remote-support/	/nl/platform/remote-support/	/de/plattform/remote-support/	drawings/platform-remote-support.svg	647
+platform/multilingual	/en/platform/multilingual/	/nl/platform/meertalig/	/de/plattform/mehrsprachig/	drawings/platform-multilingual.svg	557
+platform/integrations	/en/platform/integrations/	/nl/platform/integraties/	/de/plattform/integrationen/	drawings/platform-integrations.svg	589
+platform/security	/en/platform/security/	/nl/platform/beveiliging/	/de/plattform/sicherheit/	drawings/platform-security.svg	577
+hardware	/en/hardware/	/nl/hardware/	/de/hardware/	drawings/hardware.svg	638
+hardware/apple-vision-pro	/en/hardware/apple-vision-pro/	/nl/hardware/apple-vision-pro/	/de/hardware/apple-vision-pro/	drawings/hardware-apple-vision-pro.svg	593
+hardware/hololens	/en/hardware/hololens/	/nl/hardware/hololens/	/de/hardware/hololens/	drawings/hardware-hololens.svg	593
+hardware/android-xr	/en/hardware/android-xr/	/nl/hardware/android-xr/	/de/hardware/android-xr/	drawings/hardware-android-xr.svg	554
+hardware/tablets-smartphones	/en/hardware/tablets-smartphones/	/nl/hardware/tablets-smartphones/	/de/hardware/tablets-smartphones/	drawings/hardware-tablets-smartphones.svg	569
