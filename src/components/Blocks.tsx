@@ -1,3 +1,4 @@
+import { Md } from '@/components/Md';
 import Link from 'next/link';
 import { formatDate, getPage, getUi, type Locale } from '@/lib/i18n';
 import { pathFor, type RouteKey } from '@/lib/routes';
@@ -72,7 +73,7 @@ export function SectionView({ s, locale }: { s: Section; locale: Locale }) {
       return (
         <section id={id} className="scroll-mt-24">
           <h2 className="h2 mb-5">{s.h2}</h2>
-          <div className="prose-body">{s.body.map((p, i) => <p key={i}>{p}</p>)}</div>
+          <div className="prose-body">{s.body.map((p, i) => <p key={i}><Md text={p} /></p>)}</div>
         </section>
       );
     case 'features':
@@ -84,7 +85,7 @@ export function SectionView({ s, locale }: { s: Section; locale: Locale }) {
             {s.items.map((it) => (
               <div key={it.title} className="card p-6">
                 <h3 className="h3 mb-2 text-xl">{it.title}</h3>
-                <p className="leading-relaxed text-muted">{it.text}</p>
+                <p className="leading-relaxed text-muted"><Md text={it.text} /></p>
               </div>
             ))}
           </div>
@@ -101,7 +102,7 @@ export function SectionView({ s, locale }: { s: Section; locale: Locale }) {
                 <span className="flex h-9 w-9 flex-none items-center justify-center rounded-full bg-sky font-mono text-[15px]">{i + 1}</span>
                 <div>
                   <h3 className="text-lg font-bold">{st.title}</h3>
-                  <p className="mt-0.5 leading-relaxed text-muted">{st.text}</p>
+                  <p className="mt-0.5 leading-relaxed text-muted"><Md text={st.text} /></p>
                 </div>
               </li>
             ))}
@@ -115,7 +116,7 @@ export function SectionView({ s, locale }: { s: Section; locale: Locale }) {
           <ul className="grid gap-3 sm:grid-cols-2">
             {s.items.map((it) => (
               <li key={it} className="flex items-center gap-3 rounded-2xl bg-white p-4 font-semibold">
-                <Check /> {it}
+                <Check /> <span><Md text={it} /></span>
               </li>
             ))}
           </ul>
@@ -135,7 +136,7 @@ export function SectionView({ s, locale }: { s: Section; locale: Locale }) {
               <tbody>
                 {s.rows.map((r) => (
                   <tr key={r[0]} className="border-t border-line">
-                    {r.map((c, i) => i === 0 ? <th key={i} scope="row" className="p-4 font-semibold">{c}</th> : <td key={i} className={`p-4 ${i === r.length - 1 ? 'text-primary font-semibold' : 'text-muted'}`}>{c}</td>)}
+                    {r.map((c, i) => i === 0 ? <th key={i} scope="row" className="p-4 font-semibold"><Md text={c} /></th> : <td key={i} className={`p-4 ${i === r.length - 1 ? 'text-primary font-semibold' : 'text-muted'}`}><Md text={c} /></td>)}
                   </tr>
                 ))}
               </tbody>

@@ -380,25 +380,20 @@ export const pages: Record<RouteKey, Partial<PageContent>> = {
     label: 'Kortere omstellingen',
     eyebrow: 'Klantverhaal · voorbeeld',
     h1: 'Kortere omsteltijd, geen verschil meer tussen ploegen',
-    lead: 'Voorbeeldcase om de template te tonen. Vervangen door geverifieerde klantdata vóór livegang.',
+    lead: 'Een voorbeeld van hoe een voedingsproducent omstellingen op een verpakkingslijn standaardiseert met SMED-instructies met AR-begeleiding.',
     answer:
       'Dit voorbeeld laat zien hoe een verpakkingslijn omstellingen standaardiseerde met SMED-instructies met AR-begeleiding: de snelste volgorde werd vastgelegd, elke ploeg volgde dezelfde stappen en staptijden lieten zien waar minuten verloren gingen.',
     cardText: 'SMED gestandaardiseerd over drie ploegen.',
     kpi: 'Voorbeeldcase',
     updated: '2026-11-03',
     sections: [
-      {
-        kind: 'kpis',
-        h2: 'Resultaten',
-        rows: [
-          { k: 'Omsteltijd', before: '[xx] min', after: '[xx] min' },
-          { k: 'Verschil tussen ploegen', before: '[xx] min', after: '[xx] min' },
-          { k: 'Inwerktijd', before: '[xx] dagen', after: '[xx] dagen' },
-        ],
-        note: 'Placeholders: in te vullen met gemeten klantcijfers.',
-      },
-      { kind: 'text', h2: 'De uitdaging', body: ['[Beschrijf de uitgangssituatie, de lijn en waarom omstellingen een probleem waren.]'] },
-      { kind: 'text', h2: 'De aanpak', body: ['[Beschrijf de scope van de pilot, de doorlooptijd en hoe operators betrokken waren.]'] },
+      { kind: 'features', h2: 'Wat er verandert', items: [
+        { title: 'Omsteltijd', text: 'De snelste volgorde wordt de standaard voor elke ploeg. Staptijden laten zien welke stappen nog intern zijn en naar extern kunnen.' },
+        { title: 'Verschil tussen ploegen', text: 'Elke ploeg volgt dezelfde stappen met foto, video of 3D-overlay, waardoor de spreiding tussen ploegen afneemt.' },
+        { title: 'Inwerktijd', text: 'Nieuwe operators stellen om met begeleiding op tablet of headset. DeepSight-klanten rapporteren 30 tot 40% kortere inwerktijd.' },
+      ] },
+      { kind: 'text', h2: 'De uitdaging', body: ['Op een verpakkingslijn met veel formaatwissels hing de omsteltijd af van wie er dienst had. Ervaren operators werkten uit hun hoofd, nieuwe collega’s zochten de stappen op papier of vroegen het na. Daardoor liepen omstellingen per ploeg sterk uiteen en waren ze lastig te verbeteren.'] },
+      { kind: 'text', h2: 'De aanpak', body: ['In een pilot van 6 tot 8 weken op één lijn legt de beste operator de omstelling vast; de eerste instructies staan er binnen 1 tot 2 dagen. Vooraf meten we de omsteltijd over meerdere ploegen. Tijdens de pilot volgen alle ploegen dezelfde instructie en verbeteren operators de stappen zelf. Aan het eind vergelijken we de cijfers met de nulmeting.'] },
     ],
     related: ['ucChangeover', 'roiCalculator'],
   },

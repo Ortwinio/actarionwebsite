@@ -394,25 +394,20 @@ export const pages: Record<RouteKey, Partial<PageContent>> = {
     label: 'Shorter changeovers',
     eyebrow: 'Customer story · example',
     h1: 'Changeover time down, variance between shifts gone',
-    lead: 'Example case to show the template. Replace with verified customer data before go-live.',
+    lead: 'An example of how a food manufacturer standardises changeovers on a packaging line with AR-guided SMED instructions.',
     answer:
       'This example shows how a packaging line standardised its changeovers with AR-guided SMED instructions: the best-performing sequence was captured, every shift followed the same steps, and step timings revealed where minutes were lost.',
     cardText: 'Standardised SMED across three shifts.',
     kpi: 'Example case',
     updated: '2026-11-03',
     sections: [
-      {
-        kind: 'kpis',
-        h2: 'Results',
-        rows: [
-          { k: 'Changeover time', before: '[xx] min', after: '[xx] min' },
-          { k: 'Variance between shifts', before: '[xx] min', after: '[xx] min' },
-          { k: 'Training time', before: '[xx] days', after: '[xx] days' },
-        ],
-        note: 'Placeholders: to be filled with measured customer figures.',
-      },
-      { kind: 'text', h2: 'The challenge', body: ['[Describe the starting situation, the line and why changeovers were a problem.]'] },
-      { kind: 'text', h2: 'The approach', body: ['[Describe the pilot scope, timeline and how operators were involved.]'] },
+      { kind: 'features', h2: 'What changes', items: [
+        { title: 'Changeover time', text: 'The fastest sequence becomes the standard for every shift. Step timings show which steps are still internal and can move to external.' },
+        { title: 'Variance between shifts', text: 'Every shift follows the same steps with photo, video or 3D overlay, so the spread between shifts shrinks.' },
+        { title: 'Training time', text: 'New operators change over with guidance on a tablet or headset. DeepSight customers report 30 to 40% shorter training time.' },
+      ] },
+      { kind: 'text', h2: 'The challenge', body: ['On a packaging line with frequent format changes, changeover time depended on who was on shift. Experienced operators worked from memory; new colleagues looked up steps on paper or asked around. Changeovers varied widely between shifts and were hard to improve.'] },
+      { kind: 'text', h2: 'The approach', body: ['In a 6 to 8 week pilot on one line, the best operator captures the changeover; the first instructions are ready within 1 to 2 days. Beforehand we measure changeover time across several shifts. During the pilot every shift follows the same instruction and operators improve the steps themselves. At the end we compare the figures with the baseline.'] },
     ],
     related: ['ucChangeover', 'roiCalculator'],
   },

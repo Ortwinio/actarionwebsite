@@ -376,25 +376,20 @@ export const pages: Record<RouteKey, Partial<PageContent>> = {
     label: 'Kürzere Rüstzeiten',
     eyebrow: 'Kundengeschichte · Beispiel',
     h1: 'Kürzere Rüstzeit, keine Unterschiede mehr zwischen Schichten',
-    lead: 'Beispiel zur Darstellung der Vorlage. Vor Livegang durch verifizierte Kundendaten ersetzen.',
+    lead: 'Ein Beispiel dafür, wie ein Lebensmittelhersteller Rüstvorgänge an einer Verpackungslinie mit AR-geführten SMED-Anweisungen standardisiert.',
     answer:
       'Dieses Beispiel zeigt, wie eine Verpackungslinie ihre Rüstvorgänge mit AR-geführten SMED-Anweisungen standardisierte: der schnellste Ablauf wurde erfasst, jede Schicht folgte denselben Schritten und Schrittzeiten zeigten, wo Minuten verloren gingen.',
     cardText: 'SMED über drei Schichten standardisiert.',
     kpi: 'Beispiel',
     updated: '2026-11-03',
     sections: [
-      {
-        kind: 'kpis',
-        h2: 'Ergebnisse',
-        rows: [
-          { k: 'Rüstzeit', before: '[xx] Min.', after: '[xx] Min.' },
-          { k: 'Unterschied zwischen Schichten', before: '[xx] Min.', after: '[xx] Min.' },
-          { k: 'Einarbeitungszeit', before: '[xx] Tage', after: '[xx] Tage' },
-        ],
-        note: 'Platzhalter: mit gemessenen Kundenzahlen zu füllen.',
-      },
-      { kind: 'text', h2: 'Die Herausforderung', body: ['[Ausgangssituation, Linie und warum Rüstvorgänge ein Problem waren.]'] },
-      { kind: 'text', h2: 'Das Vorgehen', body: ['[Umfang des Piloten, Dauer und Einbindung der Werker.]'] },
+      { kind: 'features', h2: 'Was sich ändert', items: [
+        { title: 'Rüstzeit', text: 'Der schnellste Ablauf wird zum Standard für jede Schicht. Schrittzeiten zeigen, welche Schritte noch intern sind und nach extern verlagert werden können.' },
+        { title: 'Unterschied zwischen Schichten', text: 'Jede Schicht folgt denselben Schritten mit Foto, Video oder 3D-Overlay, sodass die Streuung zwischen Schichten sinkt.' },
+        { title: 'Einarbeitungszeit', text: 'Neue Werker rüsten mit Anleitung auf Tablet oder Headset um. DeepSight-Kunden berichten von 30 bis 40 % kürzerer Einarbeitungszeit.' },
+      ] },
+      { kind: 'text', h2: 'Die Herausforderung', body: ['An einer Verpackungslinie mit vielen Formatwechseln hing die Rüstzeit davon ab, wer Schicht hatte. Erfahrene Werker arbeiteten aus dem Kopf, neue Kollegen suchten die Schritte auf Papier oder fragten nach. Rüstvorgänge unterschieden sich stark je Schicht und waren schwer zu verbessern.'] },
+      { kind: 'text', h2: 'Das Vorgehen', body: ['In einem Pilot von 6 bis 8 Wochen an einer Linie erfasst der beste Werker den Rüstvorgang; die ersten Anweisungen stehen innerhalb von 1 bis 2 Tagen. Vorab messen wir die Rüstzeit über mehrere Schichten. Während des Pilots folgen alle Schichten derselben Anweisung und die Werker verbessern die Schritte selbst. Am Ende vergleichen wir die Zahlen mit der Nullmessung.'] },
     ],
     related: ['ucChangeover', 'roiCalculator'],
   },

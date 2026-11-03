@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { Md } from '@/components/Md';
 import Link from 'next/link';
 import { Cta } from '@/components/Cta';
 import { ImageSlot } from '@/components/Blocks';
@@ -54,7 +55,7 @@ function Pains({ title, items }: { title: string; items: { title: string; text: 
             <div key={it.title} className={`${i === 0 ? 'pr-7' : i === items.length - 1 ? 'pl-7' : 'px-7'} ${i < items.length - 1 ? 'border-r border-ink-3' : ''}`}>
               <span className="font-mono text-[15px] text-sky">{String(i + 1).padStart(2, '0')}</span>
               <h3 className="mb-2 mt-[10px] text-[21px] font-bold">{it.title}</h3>
-              <p className="m-0 leading-[1.5] text-muted-light">{it.text}</p>
+              <p className="m-0 leading-[1.5] text-muted-light"><Md text={it.text} /></p>
             </div>
           ))}
         </div>
@@ -77,7 +78,7 @@ function Steps({ eyebrowText, title, steps }: { eyebrowText: string; title: stri
             <li key={st.title} className={`flex flex-col gap-3 rounded-3xl p-7 ${dark ? 'bg-ink text-white' : 'border border-line bg-white'}`}>
               <span className="flex h-10 w-10 items-center justify-center rounded-full bg-sky font-mono text-ink">{i + 1}</span>
               <h3 className="m-0 font-display text-[22px] font-bold">{st.title}</h3>
-              <p className={`m-0 leading-[1.5] ${dark ? 'text-muted-lighter' : 'text-muted'}`}>{st.text}</p>
+              <p className={`m-0 leading-[1.5] ${dark ? 'text-muted-lighter' : 'text-muted'}`}><Md text={st.text} /></p>
             </li>
           );
         })}

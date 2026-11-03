@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { Md } from '@/components/Md';
 import Link from 'next/link';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { Header } from '@/components/Header';
@@ -203,7 +204,7 @@ function HomeTemplate({ locale }: Props) {
               <li key={s.title} className="card flex flex-col gap-3 p-6">
                 <span className="flex h-10 w-10 items-center justify-center rounded-full bg-sky font-mono">{i + 1}</span>
                 <h3 className="h3 text-xl">{s.title}</h3>
-                <p className="text-muted">{s.text}</p>
+                <p className="text-muted"><Md text={s.text} /></p>
               </li>
             ))}
           </ol>
@@ -431,7 +432,6 @@ function FormTemplate(p: Props) {
               <strong>ActARion</strong>
               <span>Benelux · DACH</span>
               <a href="mailto:hello@actarion.com">hello@actarion.com</a>
-              <span className="text-sm text-muted">[Address and phone number to be supplied]</span>
             </address>
           )}
         </div>
@@ -447,27 +447,6 @@ function FitCheckTemplate(p: Props) {
       <div className="wrap max-w-prose pb-24 lg:mx-auto">
         <FitCheck locale={p.locale} pilotHref={pathFor('pilot', p.locale)} demoHref={pathFor('demo', p.locale)} />
       </div>
-    </>
-  );
-}
-
-function TeamTemplate(p: Props) {
-  const people = ['Jack Kessels', 'Mark Dercksen', 'Ortwin Verreck'];
-  return (
-    <>
-      <PageHero {...p} />
-      <div className="wrap pb-12">
-        <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {people.map((n) => (
-            <li key={n} className="card flex flex-col gap-3 p-6">
-              <ImageSlot alt={n} ratio="1/1" label={getUi(p.locale).imagePending} />
-              <h2 className="h3">{n}</h2>
-              <p className="text-muted">[Role and short bio to be supplied]</p>
-            </li>
-          ))}
-        </ul>
-      </div>
-      <Cta locale={p.locale} />
     </>
   );
 }

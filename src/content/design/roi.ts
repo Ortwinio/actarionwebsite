@@ -227,7 +227,7 @@ const COPY = {
     error: L('Er ging iets mis. Mail ons via info@actarion.com.', 'Something went wrong. Please email info@actarion.com.', 'Etwas ist schiefgelaufen. Bitte schreiben Sie an info@actarion.com.'),
     print: L('Rapport afdrukken of opslaan als pdf', 'Print or save the report as PDF', 'Bericht drucken oder als PDF speichern'),
     paperTitle: L('Businesscase digitale werkinstructies', 'Business case digital work instructions', 'Business Case digitale Arbeitsanweisungen'),
-    paperCompany: L('[Bedrijf] · [locatie]', '[Company] · [site]', '[Unternehmen] · [Standort]'),
+    paperCompany: L('Uw bedrijf · uw locatie', 'Your company · your site', 'Ihr Unternehmen · Ihr Standort'),
     contentsTitle: L('Wat er in het rapport staat', 'What the report contains', 'Was im Bericht steht'),
     contents: [
       L('Alle aannames en uw eigen invoer, per besparing uitgesplitst', 'All assumptions and your own inputs, broken down per saving', 'Alle Annahmen und Ihre eigenen Eingaben, je Einsparung aufgeschlüsselt'),

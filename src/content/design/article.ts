@@ -131,7 +131,7 @@ export const smedCopy: L<SmedCopy> = {
       ],
     },
     faq: [
-      { q: 'Hoeveel omsteltijd kunt u met SMED besparen?', a: 'Dat hangt af van hoeveel handelingen nu intern zijn. Meet eerst een paar omstellingen; dan ziet u hoeveel er naar extern kan. [Benchmark uit eigen pilots toevoegen.]' },
+      { q: 'Hoeveel omsteltijd kunt u met SMED besparen?', a: 'Dat hangt af van hoeveel handelingen nu intern zijn. Meet eerst een paar omstellingen; dan ziet u hoeveel er naar extern kan. Die nulmeting is ook het startpunt van een pilot.' },
       { q: 'Werkt SMED alleen in de maakindustrie?', a: 'Nee. Het werkt overal waar een lijn of machine stilstaat voor een wissel, ook in voedingsmiddelen, farma en verpakking.' },
       { q: 'Wat voegen digitale werkinstructies toe aan SMED?', a: 'Ze borgen de nieuwe werkwijze: elke ploeg volgt dezelfde stappen, controles zijn niet over te slaan en u meet elke omstelling.' },
     ],
@@ -189,7 +189,7 @@ export const smedCopy: L<SmedCopy> = {
       ],
     },
     faq: [
-      { q: 'How much changeover time can SMED save?', a: 'That depends on how many tasks are internal today. Measure a few changeovers first; then you will see how much can move to external. [Add benchmark from our own pilots.]' },
+      { q: 'How much changeover time can SMED save?', a: 'That depends on how many tasks are internal today. Measure a few changeovers first; then you will see how much can move to external. That baseline is also the starting point of a pilot.' },
       { q: 'Does SMED only work in discrete manufacturing?', a: 'No. It works wherever a line or machine stops for a changeover, including food, pharma and packaging.' },
       { q: 'What do digital work instructions add to SMED?', a: 'They secure the new method: every shift follows the same steps, checks cannot be skipped and you measure every changeover.' },
     ],
@@ -247,7 +247,7 @@ export const smedCopy: L<SmedCopy> = {
       ],
     },
     faq: [
-      { q: 'Wie viel Rüstzeit lässt sich mit SMED einsparen?', a: 'Das hängt davon ab, wie viele Tätigkeiten heute intern sind. Messen Sie zuerst einige Rüstvorgänge; dann sehen Sie, wie viel nach extern verlagert werden kann. [Benchmark aus eigenen Piloten ergänzen.]' },
+      { q: 'Wie viel Rüstzeit lässt sich mit SMED einsparen?', a: 'Das hängt davon ab, wie viele Tätigkeiten heute intern sind. Messen Sie zuerst einige Rüstvorgänge; dann sehen Sie, wie viel nach extern verlagert werden kann. Diese Ausgangsmessung ist auch der Startpunkt eines Pilots.' },
       { q: 'Funktioniert SMED nur in der Fertigungsindustrie?', a: 'Nein. Es funktioniert überall, wo eine Linie oder Maschine für einen Wechsel stillsteht, auch in Lebensmittel, Pharma und Verpackung.' },
       { q: 'Was bringen digitale Arbeitsanweisungen für SMED?', a: 'Sie sichern die neue Arbeitsweise: Jede Schicht folgt denselben Schritten, Prüfungen lassen sich nicht überspringen und Sie messen jeden Rüstvorgang.' },
     ],

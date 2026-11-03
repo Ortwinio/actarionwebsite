@@ -82,9 +82,6 @@ export function HomeDesign({ routeKey: _routeKey, locale }: { routeKey: string; 
             <span className="mr-2 text-[14px] font-bold uppercase tracking-[0.08em] text-muted-light">{t.worksWith}</span>
             <span className="rounded-full border border-[#3A5672] px-4 py-[10px] font-semibold">Powered by DeepSight</span>
             <span className="rounded-full border border-[#3A5672] px-4 py-[10px] font-semibold">{t.devices}</span>
-            {[1, 2, 3].map((i) => (
-              <span key={i} className="rounded-full border border-dashed border-[#5B7894] px-4 py-[10px] font-semibold text-muted-light">[{t.logo} {i}]</span>
-            ))}
           </div>
           <ul className="m-0 flex list-none flex-wrap gap-[10px] p-0">
             {homeTrust.map((x) => (

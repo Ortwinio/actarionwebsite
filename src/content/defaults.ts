@@ -55,17 +55,17 @@ const hwFaq: [L3, L3] = [
 const gdprFaq: [L3, L3] = [
   t('Is our data stored in the EU?', 'Worden onze gegevens in de EU opgeslagen?', 'Werden unsere Daten in der EU gespeichert?'),
   t(
-    'Yes. Data is hosted in the EU and processed in line with the GDPR. [Details on certifications to be confirmed]',
-    'Ja. Gegevens worden in de EU gehost en verwerkt volgens de AVG. [Details over certificeringen te bevestigen]',
-    'Ja. Daten werden in der EU gehostet und DSGVO-konform verarbeitet. [Details zu Zertifizierungen zu bestätigen]',
+    'The DeepSight platform runs in the cloud with specialised hosting providers or, on request, in your own environment. The hosting location, including an EU location if you require one, is fixed in the contract and the data processing agreement under the GDPR.',
+    'Het DeepSight-platform draait in de cloud bij gespecialiseerde hostingproviders of, op verzoek, in je eigen omgeving. De hostinglocatie, ook als je die in de EU wilt, leggen we vast in het contract en de verwerkersovereenkomst onder de AVG.',
+    'Die DeepSight-Plattform läuft in der Cloud bei spezialisierten Hosting-Anbietern oder auf Wunsch in Ihrer eigenen Umgebung. Den Hosting-Standort, auch wenn Sie die EU vorschreiben, legen wir im Vertrag und im Auftragsverarbeitungsvertrag nach DSGVO fest.',
   ),
 ];
 const integrationFaq: [L3, L3] = [
   t('Does it integrate with SAP, MES or our LMS?', 'Koppelt het met SAP, MES of ons LMS?', 'Lässt es sich mit SAP, MES oder unserem LMS verbinden?'),
   t(
-    'Yes, via standard interfaces and SSO. [List of integrations to be supplied]',
-    'Ja, via standaardkoppelingen en SSO. [Lijst met integraties volgt]',
-    'Ja, über Standardschnittstellen und SSO. [Liste der Integrationen folgt]',
+    'Yes. Execution and skills data flows to SAP, MES, LMS or BI tools such as Power BI through the API or CSV export, and users can sign in with Microsoft Entra ID (Azure AD). What you connect is decided per project.',
+    'Ja. Uitvoerings- en vaardigheidsdata gaan via de API of CSV-export naar SAP, MES, LMS of BI-tools zoals Power BI, en gebruikers kunnen inloggen met Microsoft Entra ID (Azure AD). Wat je koppelt, bepalen we per project.',
+    'Ja. Ausführungs- und Qualifikationsdaten fließen über die API oder den CSV-Export in SAP, MES, LMS oder BI-Tools wie Power BI, und Nutzer können sich mit Microsoft Entra ID (Azure AD) anmelden. Was Sie anbinden, entscheiden wir je Projekt.',
   ),
 ];
 

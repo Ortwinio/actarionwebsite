@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Md } from '@/components/Md';
 import { Cta } from '@/components/Cta';
 import { pilotCopy } from '@/content/design/pilot';
 import type { Locale } from '@/lib/locale';
@@ -54,7 +55,7 @@ export function PilotDesign({ routeKey: _routeKey, locale }: { routeKey: string;
                   <span className={`font-mono text-[13px] ${dark ? 'text-muted-light' : 'text-muted'}`}>{s.dur}</span>
                 </div>
                 <h2 className="font-display text-2xl font-bold">{s.title}</h2>
-                <p className={`leading-normal ${dark ? 'text-muted-lighter' : 'text-muted'}`}>{s.text}</p>
+                <p className={`leading-normal ${dark ? 'text-muted-lighter' : 'text-muted'}`}><Md text={s.text} /></p>
                 <p className={`mt-auto border-t pt-3.5 text-[15px] ${dark ? 'border-ink-3' : 'border-line'}`}>
                   <strong>{t.youGet}</strong> {s.get}
                 </p>
@@ -106,7 +107,7 @@ export function PilotDesign({ routeKey: _routeKey, locale }: { routeKey: string;
             <li key={a.title} className="rounded-[20px] border border-line bg-white p-6">
               <p className="font-mono text-[30px] text-primary">{a.n}</p>
               <h3 className="mt-1.5 text-lg font-bold">{a.title}</h3>
-              <p className="mt-1 leading-[1.45] text-muted">{a.text}</p>
+              <p className="mt-1 leading-[1.45] text-muted"><Md text={a.text} /></p>
             </li>
           ))}
         </ul>
