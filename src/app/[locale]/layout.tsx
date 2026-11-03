@@ -1,7 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import { notFound } from 'next/navigation';
 import { DM_Mono, Figtree, Schibsted_Grotesk } from 'next/font/google';
-import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Analytics } from '@/components/Analytics';
 import { ConsentBanner } from '@/components/ConsentBanner';
@@ -11,8 +10,8 @@ import { graph, organizationSchema, siteUrl, websiteSchema } from '@/lib/seo';
 import '../globals.css';
 
 // Self-hosted at build time by next/font: no request to Google at runtime (GDPR + speed).
-const display = Schibsted_Grotesk({ subsets: ['latin'], weight: ['700', '800'], variable: '--font-display', display: 'swap' });
-const body = Figtree({ subsets: ['latin'], weight: ['400', '500', '600', '700'], variable: '--font-body', display: 'swap' });
+const display = Schibsted_Grotesk({ subsets: ['latin'], weight: ['800'], variable: '--font-display', display: 'swap' });
+const body = Figtree({ subsets: ['latin'], weight: ['400', '600', '700'], variable: '--font-body', display: 'swap' });
 const mono = DM_Mono({ subsets: ['latin'], weight: ['500'], variable: '--font-mono', display: 'swap' });
 
 export const dynamicParams = false;
@@ -46,8 +45,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
           {ui.skip}
         </a>
         <JsonLd data={graph(organizationSchema, websiteSchema)} />
-        <Header locale={locale} />
-        <main id="main">{children}</main>
+        {children}
         <Footer locale={locale} />
         <ConsentBanner locale={locale} />
       </body>

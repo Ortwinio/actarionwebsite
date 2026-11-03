@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
-    "qa": "npm run type-check && npm run lint"
+    "qa": "npm run type-check && npm run lint",
+    "prebuild": "node scripts/check-assets.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^1.6.1",
@@ -56,5 +57,11 @@
   "bugs": {
     "url": "https://github.com/Ortwinio/ActARionwebsite/issues"
   },
-  "homepage": "https://ActARion.com"
+  "homepage": "https://ActARion.com",
+  "browserslist": [
+    "chrome >= 111",
+    "edge >= 111",
+    "firefox >= 111",
+    "safari >= 16.4"
+  ]
 }

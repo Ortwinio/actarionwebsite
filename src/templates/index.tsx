@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
+import { Header } from '@/components/Header';
 import { AnswerBox, Check, CtaBand, Faq, PageHero, Related, RouteCard, Sections, Toc, Updated } from '@/components/Blocks';
 import { JsonLd } from '@/components/JsonLd';
 import { LeadForm } from '@/components/LeadForm';
@@ -106,12 +107,14 @@ function HomeTemplate({ locale }: Props) {
         <div className="relative">
           <div className="rounded-panel bg-sky p-4">
             <Image
-              src="/actarion-woman-sop-ar.jpg"
+              src="/img/hero-operator-ar.webp"
               alt=""
-              width={1600}
-              height={1066}
+              width={1200}
+              height={800}
               priority
-              sizes="(min-width: 1024px) 560px, 100vw"
+              fetchPriority="high"
+              quality={70}
+              sizes="(min-width: 1200px) 560px, (min-width: 1024px) 45vw, 92vw"
               className="h-auto w-full rounded-[20px]"
             />
           </div>
@@ -308,9 +311,12 @@ export function RenderPage(p: Props) {
   const Template = templates[routes[p.routeKey].type];
   return (
     <>
-      <JsonLd data={schemaFor(p)} />
-      {p.routeKey !== 'home' && <Breadcrumbs routeKey={p.routeKey} locale={p.locale} />}
-      <Template {...p} />
+      <Header locale={p.locale} routeKey={p.routeKey} />
+      <main id="main">
+        <JsonLd data={schemaFor(p)} />
+        {p.routeKey !== 'home' && <Breadcrumbs routeKey={p.routeKey} locale={p.locale} />}
+        <Template {...p} />
+      </main>
     </>
   );
 }
