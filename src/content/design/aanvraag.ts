@@ -114,7 +114,7 @@ export const aanvraagCopy: Record<Locale, AanvraagCopy> = {
     contactLabel: 'Uw contactpersoon',
     contacts: [
       { initials: 'JK', name: 'Jack Kessels', role: 'Managing Partner Benelux' },
-      { initials: 'MD', name: 'Mark Dercksen', role: 'Managing Partner DACH' },
+      { initials: 'MD', name: 'Mark Dercksen', role: 'Oprichter · Managing Partner DACH' },
       { initials: 'AR', name: 'ActARion-team', role: 'hello@actarion.com' },
     ],
     partnerTitle: 'Hoe wilt u met ons samenwerken?',
@@ -181,7 +181,7 @@ export const aanvraagCopy: Record<Locale, AanvraagCopy> = {
     contactLabel: 'Your contact',
     contacts: [
       { initials: 'JK', name: 'Jack Kessels', role: 'Managing Partner Benelux' },
-      { initials: 'MD', name: 'Mark Dercksen', role: 'Managing Partner DACH' },
+      { initials: 'MD', name: 'Mark Dercksen', role: 'Founder · Managing Partner DACH' },
       { initials: 'AR', name: 'ActARion team', role: 'hello@actarion.com' },
     ],
     partnerTitle: 'How would you like to work with us?',
@@ -248,7 +248,7 @@ export const aanvraagCopy: Record<Locale, AanvraagCopy> = {
     contactLabel: 'Ihr Ansprechpartner',
     contacts: [
       { initials: 'JK', name: 'Jack Kessels', role: 'Managing Partner Benelux' },
-      { initials: 'MD', name: 'Mark Dercksen', role: 'Managing Partner DACH' },
+      { initials: 'MD', name: 'Mark Dercksen', role: 'Gründer · Managing Partner DACH' },
       { initials: 'AR', name: 'ActARion-Team', role: 'hello@actarion.com' },
     ],
     partnerTitle: 'Wie möchten Sie mit uns zusammenarbeiten?',

@@ -34,17 +34,17 @@ T = {
                faq='Frequently asked questions', sources='Sources', chapter='Chapter', reading='min read', forr='For',
                cta1='Talk your process through with an expert.', ctasub='In 30 minutes we look at your process, your numbers and the fastest route to a measurable pilot. No sales pitch, just concrete advice.',
                book='Book a free intake call', roi='Calculate your ROI', web='www.actarion.com/en', region='Benelux · DACH', updated='November 2026',
-               jack='Jack Kessels · Benelux', mark='Mark Dercksen · DACH', legal='© 2026 ActARion. This whitepaper is general information, not legal or financial advice.'),
+               jack='Jack Kessels · Benelux', mark='Mark Dercksen · Founder · DACH', legal='© 2026 ActARion. This whitepaper is general information, not legal or financial advice.'),
     'nl': dict(wp='Whitepaper', series='ActARion whitepaperreeks', contents='Inhoud', inshort='In het kort', takeaways='Belangrijkste inzichten',
                faq='Veelgestelde vragen', sources='Bronnen', chapter='Hoofdstuk', reading='min lezen', forr='Voor',
                cta1='Bespreek uw proces met een expert.', ctasub='In 30 minuten kijken we samen naar uw proces, uw cijfers en de snelste weg naar een meetbare pilot. Geen verkooppraatje, wel een concreet advies.',
                book='Plan een kosteloze intake', roi='Bereken uw ROI', web='www.actarion.com/nl', region='Benelux · DACH', updated='november 2026',
-               jack='Jack Kessels · Benelux', mark='Mark Dercksen · DACH', legal='© 2026 ActARion. Deze whitepaper is algemene informatie, geen juridisch of financieel advies.'),
+               jack='Jack Kessels · Benelux', mark='Mark Dercksen · Oprichter · DACH', legal='© 2026 ActARion. Deze whitepaper is algemene informatie, geen juridisch of financieel advies.'),
     'de': dict(wp='Whitepaper', series='ActARion Whitepaper-Reihe', contents='Inhalt', inshort='Kurz gesagt', takeaways='Die wichtigsten Erkenntnisse',
                faq='Häufige Fragen', sources='Quellen', chapter='Kapitel', reading='Min. Lesezeit', forr='Für',
                cta1='Besprechen Sie Ihren Prozess mit einem Experten.', ctasub='In 30 Minuten schauen wir gemeinsam auf Ihren Prozess, Ihre Zahlen und den schnellsten Weg zu einem messbaren Pilot. Kein Verkaufsgespräch, sondern konkreter Rat.',
                book='Kostenloses Erstgespräch vereinbaren', roi='ROI berechnen', web='www.actarion.com/de', region='Benelux · DACH', updated='November 2026',
-               jack='Jack Kessels · Benelux', mark='Mark Dercksen · DACH', legal='© 2026 ActARion. Dieses Whitepaper ist eine allgemeine Information, keine Rechts- oder Finanzberatung.'),
+               jack='Jack Kessels · Benelux', mark='Mark Dercksen · Gründer · DACH', legal='© 2026 ActARion. Dieses Whitepaper ist eine allgemeine Information, keine Rechts- oder Finanzberatung.'),
 }
 
 def esc(s):

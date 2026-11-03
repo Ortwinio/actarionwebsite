@@ -450,7 +450,7 @@ function FitCheckTemplate(p: Props) {
 }
 
 function TeamTemplate(p: Props) {
-  const people = ['Jack Kessels', 'Marc Dercksen', 'Ortwin Verreck'];
+  const people = ['Jack Kessels', 'Mark Dercksen', 'Ortwin Verreck'];
   return (
     <>
       <PageHero {...p} />
