@@ -62,7 +62,9 @@ function schemaFor({ routeKey, locale }: Props) {
   if (type !== 'home') nodes.push(breadcrumbSchema(routeKey, locale));
   // FAQ schema must match the FAQ that is visible on the page.
   const faq = routeKey === 'blogSmed' ? smedCopy[locale].faq : page.faq;
-  if (faq?.length) nodes.push(faqSchema(faq));
+  // Templates that do not render page.faq must not emit FAQ schema.
+  const noFaq = ['home', 'pilot', 'demo', 'contact', 'roi', 'roiReport', 'fitCheck', 'team', 'sitemap'].includes(type) || ['whitepapers', 'partnerBecome', 'vision'].includes(routeKey);
+  if (faq?.length && !noFaq) nodes.push(faqSchema(faq));
   if (['guide', 'caseStudy', 'comparison', 'whitepaper', 'report'].includes(type)) nodes.push(articleSchema(routeKey, locale));
   if (type === 'guide' || type === 'template') {
     const steps = page.sections?.find((s) => s.kind === 'steps');

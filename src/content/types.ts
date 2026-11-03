@@ -41,6 +41,8 @@ export interface PageContent {
   placeholder?: boolean;
   /** Hero image placeholder description (no file yet). */
   heroImage?: string;
+  /** Hero image file (webp in /public) – heroImage holds its alt text. */
+  image?: string;
 }
 
 export interface UiStrings {

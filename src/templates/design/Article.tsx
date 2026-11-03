@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { imageSize } from '@/content/design/useCase';
 import Link from 'next/link';
 import { Cta } from '@/components/Cta';
 import { ArticleFaq } from '@/components/design/ArticleFaq';
@@ -238,6 +239,11 @@ export function ArticleDesign({ routeKey, locale }: { routeKey: string; locale: 
 
   const body = (
     <>
+      {page.image && (
+        <figure className="m-0">
+          <Image src={page.image} width={imageSize[page.image]?.[0] ?? 1200} height={imageSize[page.image]?.[1] ?? 750} alt={page.heroImage ?? ''} priority sizes="(min-width: 1200px) 760px, 100vw" className="block h-auto w-full rounded-[20px] border border-line" />
+        </figure>
+      )}
       {sections.map((s, i) => (
         <div key={i} className="contents">
           {i === ctaAt && <InlineCta {...t.inlineCta} locale={locale} />}

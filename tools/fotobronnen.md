@@ -1,0 +1,13 @@
+# Fotobronnen (Unsplash License: gratis, commercieel gebruik en bewerken toegestaan)
+- visionpro: https://unsplash.com/photos/vpAeVQAnJcU (Bram Van Oost)
+- ipad_omhoog: https://unsplash.com/photos/urFkJurdPm0 (Lorin Both)
+- ipad_hand: https://unsplash.com/photos/_tCgxSMH-1Y (Lorin Both)
+- tel_omhoog: https://unsplash.com/photos/_Q5HFTpOvDI (Lorin Both)
+- tel_green: https://unsplash.com/photos/QclnCZtxb1I (Vitaly Gariev)
+- tablet2: https://unsplash.com/photos/Gy1p3CkNLms (Jo Lin)
+- fab_hal: https://unsplash.com/photos/Cr8aKbdQJsw
+- fab_lijn: https://unsplash.com/photos/3iZ5u1rEEr8 (Homa Appliances)
+- fab_robot: https://unsplash.com/photos/jHZ70nRk7Ns (Lenny Kuhne)
+- fab_pijp: https://unsplash.com/photos/KAta7ryR9Is
+- fab_rood: https://unsplash.com/photos/wyY-aZt7GDI (NAIS)
+- fab_draai: https://unsplash.com/photos/_VBsh_IKsD8

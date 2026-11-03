@@ -1,3 +1,4 @@
+import { ArticleFaq } from '@/components/design/ArticleFaq';
 import Link from 'next/link';
 import { Cta } from '@/components/Cta';
 import { ResourcesBrowser, type KbItem } from '@/components/design/ResourcesBrowser';
@@ -188,6 +189,12 @@ export function HubDesign({ routeKey, locale }: { routeKey: string; locale: Loca
         <div className="mx-auto flex max-w-site flex-col gap-12 px-6 pt-[72px]">
           {page.sections.map((s, i) => <div key={i} className="max-w-[760px]"><ArticleSection s={s} locale={locale} /></div>)}
         </div>
+      ) : null}
+      {page.faq?.length ? (
+        <section id="faq" className="mx-auto flex max-w-site flex-col gap-7 px-6 pt-[72px]">
+          <h2 className="m-0 font-display text-[38px] font-extrabold tracking-[-0.03em]">{getUi(locale).faqTitle}</h2>
+          <div className="max-w-[760px]"><ArticleFaq items={page.faq} /></div>
+        </section>
       ) : null}
       <ToolsRow locale={locale} />
       <div className="h-[72px]" />

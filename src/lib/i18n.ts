@@ -16,6 +16,7 @@ export const htmlLang: Record<Locale, string> = { en: 'en', nl: 'nl', de: 'de' }
 export const ogLocale: Record<Locale, string> = { en: 'en_GB', nl: 'nl_NL', de: 'de_DE' };
 
 import { wpPages } from '@/content/whitepapers';
+import { importedPages } from '@/content/imported';
 
 const dictionaries = { en, nl, de };
 
@@ -57,9 +58,19 @@ export function getPage(locale: Locale, key: RouteKey): PageContent {
   if (hit) return hit;
   const base = defaultsFor(key, locale);
   const own = dictionaries[locale].pages[key] ?? wpPages[locale][key];
-  const merged: PageContent = own
-    ? { ...base, ...own, label: base.label, placeholder: own.placeholder ?? false }
-    : base;
+  const imp = importedPages[locale][key];
+  // Imported strategy content fills the page; hand-written copy keeps priority, except for
+  // the SEO fields (title, description, H1), which follow the keyword strategy.
+  const merged: PageContent = {
+    ...base,
+    ...(imp ?? {}),
+    ...(own ?? {}),
+    ...(imp ? { metaTitle: imp.metaTitle!, metaDescription: imp.metaDescription!, h1: imp.h1 ?? own?.h1 ?? base.h1, faq: (imp.faq?.length ?? 0) > (own?.faq?.length ?? 0) ? imp.faq : own?.faq ?? base.faq, image: imp.image, heroImage: imp.heroImage ?? own?.heroImage } : {}),
+    ...(imp && !own?.definition ? { definition: imp.answer ?? base.definition } : {}),
+    ...(imp && !own?.kpi && base.kpi?.includes('[') ? { kpi: undefined } : {}),
+    label: base.label,
+    placeholder: own ? own.placeholder ?? false : imp ? false : base.placeholder,
+  };
   merged.metaTitle = fitTitle(merged.metaTitle, merged.label, locale);
   merged.metaDescription = fitDescription(merged.metaDescription);
   cache.set(id, merged);

@@ -16,8 +16,8 @@ type FeaturesSection = Extract<Section, { kind: 'features' }>;
 const eyebrow = 'm-0 text-sm font-bold uppercase tracking-[0.08em] text-primary';
 const h2Big = 'm-0 font-display text-[clamp(34px,3.6vw,50px)] font-extrabold leading-[1.04] tracking-[-0.03em]';
 
-function imageFor(key: string): string | undefined {
-  return useCaseImages[key] ?? (['useCase', 'industry', 'solution', 'platform', 'hardware'].includes(routes[key]?.type) ? '/img/hero-tablet-ar.webp' : undefined);
+function imageFor(key: string, locale: Locale = 'en'): string | undefined {
+  return getPage(locale, key).image ?? useCaseImages[key] ?? (['useCase', 'industry', 'solution', 'platform', 'hardware'].includes(routes[key]?.type) ? '/img/hero-tablet-ar.webp' : undefined);
 }
 
 function Hero({ eyebrowText, h1, lead, demo, fit, img, alt, locale }: { eyebrowText: string; h1: string; lead: string; demo: string; fit: string; img?: string; alt: string; locale: Locale }) {
@@ -115,7 +115,7 @@ function Others({ title, keys, labels, locale }: { title: string; keys: string[]
       <h2 className="m-0 font-display text-[38px] font-extrabold tracking-[-0.03em]">{title}</h2>
       <div className="grid gap-5 [grid-template-columns:repeat(auto-fit,minmax(260px,1fr))]">
         {keys.map((k) => {
-          const img = imageFor(k) ?? '/img/hero-tablet-ar.webp';
+          const img = imageFor(k, locale) ?? '/img/hero-tablet-ar.webp';
           const [w, h] = imageSize[img] ?? [1200, 800];
           return (
             <Link key={k} href={pathFor(k, locale)} className="flex items-center gap-4 rounded-[20px] border border-line bg-white p-[14px] text-ink no-underline hover:border-primary hover:text-ink">
@@ -163,7 +163,7 @@ export function UseCaseDesign({ routeKey, locale }: { routeKey: string; locale: 
   const rest = sections.filter((s) => s !== pains && s !== steps);
   const tiles = ui.pilotTiles.map((t, i) => (i === 2 && page.kpi ? { label: ui.kpiLabel, value: page.kpi } : t));
   const others = siblings(routeKey);
-  const img = imageFor(routeKey);
+  const img = imageFor(routeKey, locale);
 
   return (
     <>

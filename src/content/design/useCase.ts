@@ -212,6 +212,9 @@ export const useCaseImages: Record<string, string> = {
 };
 
 export const imageSize: Record<string, [number, number]> = {
+  '/img/foto/ipad-robot.webp': [800, 500],
+  '/img/foto/telefoon-loto.webp': [900, 562],
+  '/img/foto/visionpro-hal.webp': [1200, 750],
   '/img/training-ar.webp': [1200, 675],
   '/img/vision-pro-sop.webp': [1200, 799],
 };

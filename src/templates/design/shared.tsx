@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { ImageSlot, slugId } from '@/components/Blocks';
+import { Md } from '@/components/Md';
 import { getPage, getUi, type Locale } from '@/lib/i18n';
 import { pathFor, routes } from '@/lib/routes';
 import type { Section } from '@/content/types';
@@ -13,7 +14,7 @@ export const h2Article = 'm-0 font-display text-[32px] font-extrabold leading-[1
 export function ArticleSection({ s, locale }: { s: Section; locale: Locale }) {
   const id = sectionId(s);
   const head = s.h2 ? <h2 className={h2Article}>{s.h2}</h2> : null;
-  const intro = 'intro' in s && s.intro ? <p className="m-0 text-lg leading-[1.6]">{s.intro}</p> : null;
+  const intro = 'intro' in s && s.intro ? <p className="m-0 text-lg leading-[1.6]"><Md text={s.intro} /></p> : null;
   const wrap = (children: React.ReactNode) => (
     <section id={id} className="flex scroll-mt-6 flex-col gap-[14px]">
       {head}
@@ -23,14 +24,14 @@ export function ArticleSection({ s, locale }: { s: Section; locale: Locale }) {
   );
   switch (s.kind) {
     case 'text':
-      return wrap(s.body.map((p, i) => <p key={i} className="m-0 text-lg leading-[1.6]">{p}</p>));
+      return wrap(s.body.map((p, i) => <p key={i} className="m-0 text-lg leading-[1.6]"><Md text={p} /></p>));
     case 'steps':
       return wrap(
         <ol className="m-0 flex list-none flex-col gap-[10px] p-0">
           {s.steps.map((st, i) => (
             <li key={st.title} className="flex items-start gap-[14px] rounded-2xl border border-line bg-white px-4 py-[14px]">
               <span className="flex h-8 flex-[0_0_32px] items-center justify-center rounded-full bg-sky font-mono text-sm">{i + 1}</span>
-              <span className="leading-[1.5]"><strong>{st.title.replace(/\.$/, '')}.</strong> {st.text}</span>
+              <span className="leading-[1.5]"><strong><Md text={st.title.replace(/\.$/, '')} />.</strong> <Md text={st.text} /></span>
             </li>
           ))}
         </ol>,
@@ -41,7 +42,7 @@ export function ArticleSection({ s, locale }: { s: Section; locale: Locale }) {
           {s.items.map((it) => (
             <div key={it.title} className="flex flex-col gap-2 rounded-2xl border border-line bg-white p-5">
               <h3 className="m-0 text-lg font-bold">{it.title}</h3>
-              <p className="m-0 leading-[1.5] text-muted">{it.text}</p>
+              <p className="m-0 leading-[1.5] text-muted"><Md text={it.text} /></p>
             </div>
           ))}
         </div>,
@@ -49,7 +50,7 @@ export function ArticleSection({ s, locale }: { s: Section; locale: Locale }) {
     case 'checklist':
       return wrap(
         <ul className="m-0 flex list-disc flex-col gap-2 pl-[22px] text-lg leading-[1.55]">
-          {s.items.map((it) => <li key={it}>{it}</li>)}
+          {s.items.map((it) => <li key={it}><Md text={it} /></li>)}
         </ul>,
       );
     case 'table':
@@ -58,13 +59,13 @@ export function ArticleSection({ s, locale }: { s: Section; locale: Locale }) {
           <table className="w-full min-w-[520px] border-collapse text-base">
             <thead>
               <tr className="bg-tint text-left">
-                {s.head.map((h) => <th key={h} scope="col" className="px-4 py-3">{h}</th>)}
+                {s.head.map((h) => <th key={h} scope="col" className="px-4 py-3"><Md text={h} /></th>)}
               </tr>
             </thead>
             <tbody>
               {s.rows.map((r) => (
                 <tr key={r[0]} className="border-t border-line">
-                  {r.map((c, i) => (i === 0 ? <th key={i} scope="row" className="px-4 py-3 text-left font-semibold">{c}</th> : <td key={i} className="px-4 py-3">{c}</td>))}
+                  {r.map((c, i) => (i === 0 ? <th key={i} scope="row" className="px-4 py-3 text-left font-semibold"><Md text={c} /></th> : <td key={i} className="px-4 py-3"><Md text={c} /></td>))}
                 </tr>
               ))}
             </tbody>
