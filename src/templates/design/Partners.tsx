@@ -3,6 +3,7 @@ import { Faq, Sections } from '@/components/Blocks';
 import { Cta } from '@/components/Cta';
 import { partnersCopy, type PartnerItem, type PartnersCopy } from '@/content/design/partners';
 import { getPage } from '@/lib/i18n';
+import { networkCopy, networkPartners, type Region } from '@/content/design/network';
 import type { Locale } from '@/lib/locale';
 import { pathFor } from '@/lib/routes';
 
@@ -53,7 +54,10 @@ function PartnerCard({ p, t, locale, H = 'h2', detail = true }: { p: PartnerItem
     <article id={p.id} className="flex scroll-mt-24 flex-wrap items-start gap-9 rounded-[28px] border border-line bg-white p-[clamp(22px,3vw,36px)]">
       <div className="flex max-w-full flex-[0_0_260px] flex-col gap-4">
         <PartnerLogoBox naam={p.naam} url={p.url} />
-        <span className="self-start rounded-full bg-sky px-3 py-1.5 font-mono text-[13px]">{p.soort}</span>
+        <div className="flex flex-wrap gap-2">
+          <span className="self-start rounded-full bg-sky px-3 py-1.5 font-mono text-[13px]">{p.soort}</span>
+          {MAIN_REGION[p.id] && <RegionChip region={MAIN_REGION[p.id]} locale={locale} />}
+        </div>
       </div>
       <div className="flex min-w-0 flex-[1_1_480px] flex-col gap-3.5">
         <H className="font-display text-[34px] font-extrabold tracking-[-0.02em]">{p.naam}</H>
@@ -110,11 +114,48 @@ export function PartnersDesign({ routeKey: _routeKey, locale }: { routeKey: stri
         {t.partners.map((p) => <PartnerCard key={p.id} p={p} t={t} locale={locale} />)}
       </section>
 
+      <NetworkSection locale={locale} />
+
       <HardwareNote t={t} locale={locale} />
 
       <div className="h-[72px]" />
       <Cta locale={locale} heading={t.ctaHeading} />
     </>
+  );
+}
+
+const MAIN_REGION: Record<string, Region> = { deepsight: 'Benelux / DACH', potentify: 'Benelux', 'simply-change': 'Benelux' };
+
+function RegionChip({ region, locale }: { region: Region; locale: Locale }) {
+  return <span className="self-start rounded-full border border-line bg-canvas px-3 py-1.5 font-mono text-[13px]">{networkCopy[locale].regions[region]}</span>;
+}
+
+function NetworkSection({ locale }: { locale: Locale }) {
+  const c = networkCopy[locale];
+  const order: Region[] = ['Benelux', 'Benelux / DACH', 'DACH', 'Global'];
+  const list = [...networkPartners].sort((a, b) => order.indexOf(a.region) - order.indexOf(b.region));
+  return (
+    <section id="network" className="mx-auto flex max-w-site scroll-mt-6 flex-col gap-6 px-6 pt-20">
+      <div className="flex max-w-[760px] flex-col gap-3">
+        <p className={eyebrow}>{c.eyebrow}</p>
+        <h2 className="font-display text-[clamp(30px,3.6vw,44px)] font-extrabold leading-[1.05] tracking-[-0.03em]">{c.title}</h2>
+        <p className="text-lg leading-normal text-muted">{c.lead}</p>
+      </div>
+      <ul className="m-0 grid list-none gap-4 p-0 [grid-template-columns:repeat(auto-fill,minmax(260px,1fr))]">
+        {list.map((n) => (
+          <li key={n.id} className="flex flex-col gap-3 rounded-[22px] border border-line bg-white p-5">
+            <a href={n.url} target="_blank" rel="noopener" aria-label={`${n.naam} – ${c.visit}`} className="flex h-[88px] items-center justify-center rounded-2xl bg-canvas p-3 hover:outline hover:outline-2 hover:outline-primary">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={`/img/partners/netwerk/${n.logo}.webp`} width={n.w} height={n.h} alt={`${n.naam} logo`} loading="lazy" className="h-auto max-h-[64px] w-auto max-w-[90%]" />
+            </a>
+            <RegionChip region={n.region} locale={locale} />
+            <h3 className="m-0 text-lg font-bold leading-tight">{n.naam}</h3>
+            <p className="m-0 flex-grow text-[15px] leading-[1.45] text-muted">{n.text[locale]}</p>
+            <a href={n.url} target="_blank" rel="noopener" className="inline-flex min-h-[44px] items-center gap-1 font-bold">{c.visit} ↗<span className="sr-only">{partnersCopy[locale].newWindow}</span></a>
+          </li>
+        ))}
+      </ul>
+    </section>
   );
 }
 
