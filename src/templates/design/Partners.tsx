@@ -25,12 +25,26 @@ function ExtIcon() {
   );
 }
 
-/** Logo box placeholder: no partner logo files yet, so the wordmark carries the brand. */
-export function PartnerLogoBox({ naam, className = 'h-[120px]' }: { naam: string; className?: string }) {
-  return (
-    <div className={`box-border flex items-center justify-center gap-2.5 rounded-[20px] border border-line bg-canvas p-4 ${className}`}>
-      <span className="font-display text-[26px] font-extrabold">{naam}</span>
-    </div>
+const LOGOS: Record<string, { src: string; w: number; h: number }> = {
+  DeepSight: { src: '/img/partners/deepsight.svg', w: 874, h: 186 },
+  Potentify: { src: '/img/partners/potentify.svg', w: 412, h: 100 },
+  'Simply Change': { src: '/img/partners/simplychange.png', w: 407, h: 85 },
+};
+
+/** Partner logo, linked to the partner's own website (opens in a new tab). */
+export function PartnerLogoBox({ naam, url, className = 'h-[120px]' }: { naam: string; url?: string; className?: string }) {
+  const logo = LOGOS[naam];
+  const inner = logo ? (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img src={logo.src} width={logo.w} height={logo.h} alt={`${naam} logo`} loading="lazy" className="h-auto max-h-[56px] w-auto max-w-[85%]" />
+  ) : (
+    <span className="font-display text-[26px] font-extrabold">{naam}</span>
+  );
+  const cls = `box-border flex items-center justify-center gap-2.5 rounded-[20px] border border-line bg-white p-4 ${className}`;
+  return url ? (
+    <a href={url} target="_blank" rel="noopener" className={`${cls} no-underline hover:border-primary`} aria-label={`${naam} – website (opens in a new tab)`}>{inner}</a>
+  ) : (
+    <div className={cls}>{inner}</div>
   );
 }
 
@@ -38,7 +52,7 @@ function PartnerCard({ p, t, locale, H = 'h2', detail = true }: { p: PartnerItem
   return (
     <article id={p.id} className="flex scroll-mt-24 flex-wrap items-start gap-9 rounded-[28px] border border-line bg-white p-[clamp(22px,3vw,36px)]">
       <div className="flex max-w-full flex-[0_0_260px] flex-col gap-4">
-        <PartnerLogoBox naam={p.naam} />
+        <PartnerLogoBox naam={p.naam} url={p.url} />
         <span className="self-start rounded-full bg-sky px-3 py-1.5 font-mono text-[13px]">{p.soort}</span>
       </div>
       <div className="flex min-w-0 flex-[1_1_480px] flex-col gap-3.5">
@@ -128,6 +142,7 @@ export function PartnerDetailDesign({ routeKey, locale }: { routeKey: string; lo
     <>
       <section className="mx-auto flex max-w-site flex-wrap items-end gap-12 px-6 pt-16">
         <div className="flex min-w-0 flex-[2_1_600px] flex-col gap-5">
+          <PartnerLogoBox naam={p.naam} url={p.url} className="h-[96px] w-[280px] max-w-full" />
           <p className={eyebrow}>{page.eyebrow ?? p.soort}</p>
           <h1 className="font-display text-[clamp(42px,5vw,70px)] font-extrabold leading-[0.98] tracking-[-0.035em]">{page.h1}</h1>
           <p className="max-w-[760px] text-xl leading-normal">{page.lead}</p>
@@ -165,7 +180,7 @@ export function PartnerDetailDesign({ routeKey, locale }: { routeKey: string; lo
         <ul className="grid grid-cols-[repeat(auto-fit,minmax(min(340px,100%),1fr))] gap-5">
           {others.map((o) => (
             <li key={o.id} className="flex flex-col gap-3.5 rounded-[28px] border border-line bg-white p-7">
-              <PartnerLogoBox naam={o.naam} className="h-24" />
+              <PartnerLogoBox naam={o.naam} url={o.url} className="h-24" />
               <span className="self-start rounded-full bg-sky px-3 py-1.5 font-mono text-[13px]">{o.soort}</span>
               <h3 className="font-display text-2xl font-extrabold">{o.naam}</h3>
               <p className="leading-[1.45] text-muted">{o.punten[0]}</p>

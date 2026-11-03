@@ -159,7 +159,7 @@ export function ResourcesBrowser({
         <span className="font-mono text-xs text-muted">{it.type === 'tool' ? t.interactive : `${it.min} ${t.minutes}`}</span>
       </span>
       <h2 className="m-0 font-display text-[21px] font-bold leading-[1.2]">{it.title}</h2>
-      <p className="m-0 flex-grow text-[15px] leading-[1.45] text-muted">{it.summary}</p>
+      <p className="m-0 line-clamp-4 flex-grow text-[15px] leading-[1.45] text-muted">{it.summary}</p>
       <span className="flex justify-between gap-2 border-t border-[#EEF2F6] pt-[10px] text-[13px] text-muted">
         <span>{it.topicLabel}</span>
         <span>{t.updated} {it.dateLabel}</span>

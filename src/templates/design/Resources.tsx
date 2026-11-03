@@ -43,7 +43,7 @@ function buildItems(locale: Locale): KbItem[] {
         typeLabel: kbTypeLabels[locale][type],
         typeColor: kbTypeColors[type],
         title: type === 'template' || type === 'tool' ? p.label : p.h1,
-        summary: p.cardText ?? p.definition ?? p.lead,
+        summary: (p.cardText ?? p.definition ?? p.lead).slice(0, 220),
         topic: meta.topic,
         topicLabel: kbTopicLabels[locale][meta.topic],
         ind: meta.ind ?? [],
@@ -174,7 +174,7 @@ export function HubDesign({ routeKey, locale }: { routeKey: string; locale: Loca
                     {p.kpi && <span className="font-mono text-xs text-muted">{p.kpi}</span>}
                   </span>
                   <h2 className="m-0 font-display text-[21px] font-bold leading-[1.2]">{isGlossary ? p.label : p.h1}</h2>
-                  <p className="m-0 flex-grow text-[15px] leading-[1.45] text-muted">{p.cardText ?? p.definition ?? p.lead}</p>
+                  <p className="m-0 line-clamp-4 flex-grow text-[15px] leading-[1.45] text-muted">{p.cardText ?? p.definition ?? p.lead}</p>
                   <span className="flex justify-between gap-2 border-t border-[#EEF2F6] pt-[10px] text-[13px] text-muted">
                     <span>{meta ? kbTopicLabels[locale][meta.topic] : p.label}</span>
                     <span>{t.updated} {shortDate(locale, p.updated)}</span>
