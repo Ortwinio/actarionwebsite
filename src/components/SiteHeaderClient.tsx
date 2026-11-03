@@ -50,7 +50,7 @@ const Lock = () => (
 
 export function Wordmark({ size = 24, light = false }: { size?: number; light?: boolean }) {
   return (
-    <span className="font-display font-extrabold" style={{ fontSize: size, letterSpacing: '-0.02em', color: light ? '#FFFFFF' : '#10253A' }}>
+    <span className="whitespace-nowrap font-display font-extrabold" style={{ fontSize: size, letterSpacing: '-0.02em', color: light ? '#FFFFFF' : '#10253A' }}>
       Act<span style={{ color: light ? '#A9DBF5' : '#1B81C4' }}>AR</span>ion
     </span>
   );
@@ -80,7 +80,7 @@ export function SiteHeaderClient(p: HeaderProps) {
       {/* ── Desktop / tablet header ── */}
       <header className="border-b border-line">
         <div className="mx-auto flex max-w-site items-center justify-between gap-4 px-4 py-3 md:px-6">
-          <Link href={p.homeHref} className="flex items-center gap-2.5 no-underline" aria-label="ActARion">
+          <Link href={p.homeHref} className="flex flex-none items-center gap-2.5 no-underline" aria-label="ActARion">
             <img src="/Actarionlogo.png" alt="" width={40} height={40} className="h-8 w-8 md:h-10 md:w-10" />
             <Wordmark size={24} />
           </Link>
