@@ -162,7 +162,7 @@ export function UseCaseDesign({ routeKey, locale }: { routeKey: string; locale: 
   const steps = sections.find((s): s is StepsSection => s.kind === 'steps');
   const rest = sections.filter((s) => s !== pains && s !== steps);
   const tiles = ui.pilotTiles.map((t, i) => (i === 2 && page.kpi ? { label: ui.kpiLabel, value: page.kpi } : t));
-  const others = siblings(routeKey);
+  const others = page.related?.length ? page.related.filter((k) => routes[k]).slice(0, 6) : siblings(routeKey);
   const img = imageFor(routeKey, locale);
 
   return (
@@ -203,7 +203,7 @@ export function UseCaseDesign({ routeKey, locale }: { routeKey: string; locale: 
       )}
       <PilotCard eyebrowText={ui.pilotEyebrow} title={ui.pilotTitle} link={ui.pilotLink} tiles={tiles} locale={locale} />
       {page.faq?.length ? <FaqBlock locale={locale} items={page.faq} /> : null}
-      <Others title={type === 'useCase' ? ui.others : ui.othersFallback} keys={others} locale={locale} />
+      <Others title={type === 'useCase' && !page.related?.length ? ui.others : ui.othersFallback} keys={others} locale={locale} />
       <div className="h-20" />
       <Cta locale={locale} heading={ui.ctaHeading} />
     </>

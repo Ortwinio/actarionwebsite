@@ -18,6 +18,9 @@ for key, typ, en, nl, de in rows:
     for loc, p in (('en', en), ('nl', nl), ('de', de)):
         by_path[f'/{loc}/' + (p + '/' if p else '')] = key
 
+RELATED_H = re.compile(r'^(related|gerelateerd|verwandte seiten|verwandte themen|weiterführend|verder lezen|further reading|lees verder)$', re.I)
+# Blocks the page templates already show (CTA band, download form): skip to avoid duplicates.
+DUP_H = re.compile(r'^(next step|volgende stap|nächster schritt|plan een kosteloze intake|book a free intake call|kostenloses erstgespräch vereinbaren|download de template|get the template|vorlage sichern)$', re.I)
 FAQ_H = re.compile(r'^(faq|frequently asked questions|veelgestelde vragen|häufige fragen|häufig gestellte fragen)', re.I)
 PHOTOS = {  # photo compositions (import/images) by EN page id
     'use-cases/assembly': '/img/foto/ipad-robot.webp',
@@ -163,10 +166,18 @@ def convert(path):
         if l.startswith('## '):
             cur = [l[3:].strip(), []]; chunks.append(cur); continue
         (cur[1] if cur else pre).append(l)
-    sections, faq = [], []
+    sections, faq, related = [], [], []
     intro = [v for k, v in blocks(pre) if k == 'p']
     for h2, bl_lines in chunks:
         bl = blocks(bl_lines)
+        if RELATED_H.match(h2):
+            for link in re.findall(r'\]\((/[^)\s]+)\)', '\n'.join(bl_lines)):
+                k = by_path.get(link if link.endswith('/') else link + '/')
+                if k and k not in related:
+                    related.append(k)
+            continue
+        if DUP_H.match(h2):
+            continue
         if FAQ_H.match(h2):
             q = None
             for k, v in bl:
@@ -195,6 +206,7 @@ def convert(path):
         'updated': d.get('updated', '2026-11-03'),
         'placeholder': False,
         'image': image,
+        'related': related,
         'heroImage': d.get('image_alt') or None,
         'keyword': d.get('keyword_primary'),
     }

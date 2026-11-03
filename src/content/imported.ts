@@ -174,23 +174,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "See [AI authoring](/en/platform/ai-authoring/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to see one of your SOPs converted by AI? [Book a free intake call](/en/contact/)."
-     ],
-     "h2": "Book a free intake call"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[AI authoring](/en/platform/ai-authoring/)",
-      "[What is an SOP?](/en/blog/what-is-an-sop/)",
-      "[SOP software](/en/solutions/sop-software/)",
-      "[SOP template](/en/resources/templates/sop-template/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -214,6 +197,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-ai-sop-generator.webp",
+   "related": [
+    "pfAi",
+    "blogWhatIsSop",
+    "solSop",
+    "tplSop"
+   ],
    "heroImage": "AI SOP generator: documents processed by AI into digital step cards"
   },
   "blogArManufacturing": {
@@ -421,23 +410,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "See [digital work instructions](/en/solutions/digital-work-instructions/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to know which AR use case fits your plant? [Book a free intake call](/en/contact/)."
-     ],
-     "h2": "Book a free intake call"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Hardware](/en/hardware/)",
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Smart glasses for manufacturing](/en/blog/smart-glasses-industry/)",
-      "[HoloLens 2 alternatives](/en/blog/hololens-2-alternatives/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -457,6 +429,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-ar-in-manufacturing.webp",
+   "related": [
+    "hardware",
+    "solDwi",
+    "blogSmartGlasses",
+    "blogHololens"
+   ],
    "heroImage": "AR in manufacturing: conveyor with an AR frame and step card over one product"
   },
   "blogHololens": {
@@ -640,23 +618,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "See [AR in manufacturing](/en/blog/ar-in-manufacturing/) for use cases."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want a migration plan for your HoloLens 2 fleet? [Book a free intake call](/en/contact/)."
-     ],
-     "h2": "Book a free intake call"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Hardware](/en/hardware/)",
-      "[Smart glasses for manufacturing](/en/blog/smart-glasses-industry/)",
-      "[AR in manufacturing](/en/blog/ar-in-manufacturing/)",
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -680,6 +641,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-hololens-2-alternatives.webp",
+   "related": [
+    "hardware",
+    "blogSmartGlasses",
+    "blogArManufacturing",
+    "solDwi"
+   ],
    "heroImage": "HoloLens 2 alternatives: tablet, mixed reality headset and lightweight AR glasses side by side"
   },
   "blogWriteWorkInstructions": {
@@ -908,16 +875,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Download the free [work instruction template](/en/resources/templates/work-instruction-template/) and write your first instruction today."
      ],
      "h2": "Get started"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Work instruction template](/en/resources/templates/work-instruction-template/)",
-      "[Visual work instructions guide](/en/blog/visual-work-instructions/)",
-      "[What is an SOP?](/en/blog/what-is-an-sop/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -941,6 +898,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-how-to-write-work-instructions.webp",
+   "related": [
+    "solDwi",
+    "tplWorkInstruction",
+    "blogVisual",
+    "blogWhatIsSop"
+   ],
    "heroImage": "How to write work instructions: a paper instruction turned into digital step cards on a tablet"
   },
   "blog": {
@@ -993,20 +956,16 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Prefer to start right away? Download a [work instruction template](/en/resources/templates/work-instruction-template/) or an [SOP template](/en/resources/templates/sop-template/)."
      ],
      "h2": "Free templates"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Connected worker platform](/en/solutions/connected-worker-platform/)",
-      "[Hardware](/en/hardware/)"
-     ],
-     "h2": "Related"
     }
    ],
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog.webp",
+   "related": [
+    "solDwi",
+    "solCwp",
+    "hardware"
+   ],
    "heroImage": "Stack of guides next to a tablet showing a digital work instruction step card"
   },
   "blogKnowledgeTransfer": {
@@ -1209,16 +1168,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Download the free [knowledge transfer plan template](/en/resources/templates/knowledge-transfer-plan/)."
      ],
      "h2": "Get started"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Knowledge capture](/en/solutions/knowledge-capture/)",
-      "[Knowledge transfer plan template](/en/resources/templates/knowledge-transfer-plan/)",
-      "[AI SOP generator](/en/blog/ai-sop-generator/)",
-      "[Skills matrix guide](/en/blog/skills-matrix-guide/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -1242,6 +1191,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-knowledge-transfer-manufacturing.webp",
+   "related": [
+    "solKnowledge",
+    "tplKnowledge",
+    "blogAiSop",
+    "blogSkillsMatrix"
+   ],
    "heroImage": "Knowledge capture: an old manual captured by camera and turned into step cards on a tablet"
   },
   "blogOnboarding": {
@@ -1452,16 +1407,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Download the free [operator onboarding plan template](/en/resources/templates/operator-onboarding-plan/)."
      ],
      "h2": "Get started"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Frontline training](/en/solutions/frontline-training/)",
-      "[Onboarding and training use case](/en/use-cases/onboarding-training/)",
-      "[Operator onboarding plan template](/en/resources/templates/operator-onboarding-plan/)",
-      "[Skills matrix guide](/en/blog/skills-matrix-guide/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -1485,6 +1430,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-operator-onboarding.webp",
+   "related": [
+    "solTraining",
+    "ucOnboarding",
+    "tplOnboarding",
+    "blogSkillsMatrix"
+   ],
    "heroImage": "Operator onboarding: learning steps with checks next to a workbench tablet with step card"
   },
   "blogMaintenance": {
@@ -1700,16 +1651,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Download the free [preventive maintenance checklist](/en/resources/templates/preventive-maintenance-checklist/) and standardize your next PM round."
      ],
      "h2": "Get started"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Preventive maintenance use case](/en/use-cases/preventive-maintenance/)",
-      "[Preventive maintenance checklist](/en/resources/templates/preventive-maintenance-checklist/)",
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Smart glasses for manufacturing](/en/blog/smart-glasses-industry/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -1733,6 +1674,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-preventive-maintenance-guide.webp",
+   "related": [
+    "ucMaintenance",
+    "tplMaintenance",
+    "solDwi",
+    "blogSmartGlasses"
+   ],
    "heroImage": "Preventive maintenance: pump with an AR glasses overlay and a maintenance calendar"
   },
   "blogSkillsMatrix": {
@@ -1969,16 +1916,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Download the free [skills matrix template](/en/resources/templates/skills-matrix-template/) and map your team this week."
      ],
      "h2": "Get started"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Skills matrix template](/en/resources/templates/skills-matrix-template/)",
-      "[Frontline training](/en/solutions/frontline-training/)",
-      "[Operator onboarding guide](/en/blog/operator-onboarding/)",
-      "[Connected worker platform](/en/solutions/connected-worker-platform/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -2002,6 +1939,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-skills-matrix-guide.webp",
+   "related": [
+    "tplSkills",
+    "solTraining",
+    "blogOnboarding",
+    "solCwp"
+   ],
    "heroImage": "Skills matrix on a screen: operators against tasks with qualified cells highlighted"
   },
   "blogSmartGlasses": {
@@ -2178,23 +2121,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**Device advice and pilot** with fixed KPIs."
      ],
      "h2": "How Actarion helps"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want advice on which smart glasses fit your tasks? [Book a free intake call](/en/contact/)."
-     ],
-     "h2": "Book a free intake call"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Hardware](/en/hardware/)",
-      "[HoloLens 2 alternatives](/en/blog/hololens-2-alternatives/)",
-      "[AR in manufacturing](/en/blog/ar-in-manufacturing/)",
-      "[Preventive maintenance guide](/en/blog/preventive-maintenance-guide/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -2218,6 +2144,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-smart-glasses-industry.webp",
+   "related": [
+    "hardware",
+    "blogHololens",
+    "blogArManufacturing",
+    "blogMaintenance"
+   ],
    "heroImage": "Smart glasses for manufacturing: close-up of glasses with a step card in the lens and a gear behind"
   },
   "blogSmed": {
@@ -2443,16 +2375,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Download the free [SMED changeover checklist](/en/resources/templates/smed-changeover-checklist/) and analyze your next changeover."
      ],
      "h2": "Get started"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Changeover and SMED use case](/en/use-cases/changeover-smed/)",
-      "[SMED changeover checklist](/en/resources/templates/smed-changeover-checklist/)",
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[How to write work instructions](/en/blog/how-to-write-work-instructions/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -2476,6 +2398,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-smed-guide.webp",
+   "related": [
+    "ucChangeover",
+    "tplSmed",
+    "solDwi",
+    "blogWriteWorkInstructions"
+   ],
    "heroImage": "SMED changeover: press with die cart and a tablet timer guiding the changeover steps"
   },
   "blogVisual": {
@@ -2663,23 +2591,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "See [digital work instructions](/en/solutions/digital-work-instructions/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to see your own SOP as a visual AR instruction? [Book a free intake call](/en/contact/)."
-     ],
-     "h2": "Book a free intake call"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[How to write work instructions](/en/blog/how-to-write-work-instructions/)",
-      "[Work instruction template](/en/resources/templates/work-instruction-template/)",
-      "[AR in manufacturing](/en/blog/ar-in-manufacturing/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -2699,6 +2610,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-visual-work-instructions.webp",
+   "related": [
+    "solDwi",
+    "blogWriteWorkInstructions",
+    "tplWorkInstruction",
+    "blogArManufacturing"
+   ],
    "heroImage": "Visual work instructions: valve panel and a tablet showing the same valve with an AR arrow"
   },
   "blogConnectedWorker": {
@@ -2892,23 +2809,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Explore the [connected worker platform](/en/solutions/connected-worker-platform/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to know where connected work pays off first in your plant? [Book a free intake call](/en/contact/)."
-     ],
-     "h2": "Book a free intake call"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Connected worker platform](/en/solutions/connected-worker-platform/)",
-      "[AR in manufacturing](/en/blog/ar-in-manufacturing/)",
-      "[Skills matrix guide](/en/blog/skills-matrix-guide/)",
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -2932,6 +2832,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-what-is-a-connected-worker.webp",
+   "related": [
+    "solCwp",
+    "blogArManufacturing",
+    "blogSkillsMatrix",
+    "solDwi"
+   ],
    "heroImage": "Connected worker: operator with AR glasses connected to machine, checklist and dashboard"
   },
   "blogWhatIsSop": {
@@ -3162,16 +3068,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Download the free [SOP template](/en/resources/templates/sop-template/) to standardize your next procedure."
      ],
      "h2": "Get started"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SOP software](/en/solutions/sop-software/)",
-      "[SOP template](/en/resources/templates/sop-template/)",
-      "[AI SOP generator](/en/blog/ai-sop-generator/)",
-      "[How to write work instructions](/en/blog/how-to-write-work-instructions/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -3195,6 +3091,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-what-is-an-sop.webp",
+   "related": [
+    "solSop",
+    "tplSop",
+    "blogAiSop",
+    "blogWriteWorkInstructions"
+   ],
    "heroImage": "What is an SOP: SOP binder and document with audit check next to a tablet dashboard"
   },
   "careers": {
@@ -3265,27 +3167,16 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       }
      ],
      "h2": "How do you apply?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Not the right role? Send an open application. [TE BEVESTIGEN: e-mailadres open sollicitaties]"
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[About Actarion](/en/company/)",
-      "[Team](/en/company/team/)",
-      "[Our vision](/en/company/vision/)"
-     ],
-     "h2": "Related"
     }
    ],
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/company-careers.webp",
+   "related": [
+    "company",
+    "team",
+    "vision"
+   ],
    "heroImage": "Pen drawing: toolbox, laptop with code and a cyan screen, and AR glasses"
   },
   "company": {
@@ -3373,29 +3264,18 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Solutions your own team can maintain."
      ],
      "h2": "How Actarion helps"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "[Book a free intake call](/en/contact/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Our vision](/en/company/vision/)",
-      "[Team](/en/company/team/)",
-      "[Partners](/en/partners/)",
-      "[Careers](/en/company/careers/)",
-      "[News](/en/company/news/)"
-     ],
-     "h2": "Related"
     }
    ],
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/company.webp",
+   "related": [
+    "vision",
+    "team",
+    "partners",
+    "careers",
+    "news"
+   ],
    "heroImage": "Pen drawing: office building, three connected regional nodes with a cyan center and a tablet with a step card"
   },
   "news": {
@@ -3448,27 +3328,16 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "See how the DeepSight platform evolves for European operations."
      ],
      "h2": "Why follow Actarion news?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Follow Actarion on LinkedIn (linkedin.com/company/ActARion) or [book a free intake call](/en/contact/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Blog](/en/blog/)",
-      "[Events](/en/resources/events/)",
-      "[About Actarion](/en/company/)"
-     ],
-     "h2": "Related"
     }
    ],
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/company-news.webp",
+   "related": [
+    "blog",
+    "events",
+    "company"
+   ],
    "heroImage": "Pen drawing: newsletter with a cyan image and a dashboard with bars"
   },
   "team": {
@@ -3534,27 +3403,16 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       ]
      ],
      "h2": "Who is your contact?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "[Book a free intake call](/en/contact/) with the managing partner for your region."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[About Actarion](/en/company/)",
-      "[Careers](/en/company/careers/)",
-      "[Contact](/en/contact/)"
-     ],
-     "h2": "Related"
     }
    ],
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/company-team.webp",
+   "related": [
+    "company",
+    "careers",
+    "contact"
+   ],
    "heroImage": "Pen drawing: three silhouettes of the team below a tablet with a cyan step card"
   },
   "vision": {
@@ -3634,27 +3492,16 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Solutions must be transparent, safe, measurable (errors, downtime, training time) and sustainable, meaning your own team can maintain them."
      ],
      "h2": "What does responsible innovation mean to us?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to discuss what this means for your plant? [Book a free intake call](/en/contact/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[About Actarion](/en/company/)",
-      "[Pilot approach](/en/pilot/)",
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)"
-     ],
-     "h2": "Related"
     }
    ],
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/company-vision.webp",
+   "related": [
+    "company",
+    "pilot",
+    "solDwi"
+   ],
    "heroImage": "Pen drawing: path from a paper SOP via a tablet to a network of connected sites"
   },
   "cmpGlassesTablets": {
@@ -3765,24 +3612,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Execution data shows per device how fast and accurately tasks are done."
      ],
      "h2": "How does Actarion help?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to test both on your own task? [Book a free intake call](/en/demo/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Tablets and smartphones](/en/hardware/tablets-smartphones/)",
-      "[Apple Vision Pro](/en/hardware/apple-vision-pro/)",
-      "[Android XR](/en/hardware/android-xr/)",
-      "[Changeover and SMED use case](/en/use-cases/changeover-smed/)",
-      "[What are smart glasses?](/en/resources/glossary/smart-glasses/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -3802,6 +3631,13 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/compare-ar-glasses-vs-tablets.webp",
+   "related": [
+    "hwTablets",
+    "hwVisionPro",
+    "hwAndroidXr",
+    "ucChangeover",
+    "termSmartGlasses"
+   ],
    "heroImage": "Pen drawing of AR glasses next to a tablet on a stand, both showing a digital work instruction step"
   },
   "cmpBestSoftware": {
@@ -3968,24 +3804,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Pilot with fixed KPIs, then rollout and enablement."
      ],
      "h2": "How does Actarion help?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to test Actarion on one of your SOPs? [Book a free intake call](/en/demo/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[SOP software](/en/solutions/sop-software/)",
-      "[Connected worker platform](/en/solutions/connected-worker-platform/)",
-      "[Digital vs paper work instructions](/en/compare/digital-vs-paper-work-instructions/)",
-      "[What is an MES?](/en/resources/glossary/mes/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -4005,6 +3823,13 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/compare-best-work-instruction-software.webp",
+   "related": [
+    "solDwi",
+    "solSop",
+    "solCwp",
+    "cmpDigitalVsPaper",
+    "termMes"
+   ],
    "heroImage": "Pen drawing of an evaluation checklist for work instruction software next to a tablet and a machine"
   },
   "cmpCwpVsLms": {
@@ -4115,23 +3940,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Adds remote assistance for tasks where a new operator gets stuck."
      ],
      "h2": "How does Actarion help?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to connect training to real performance? [Book a free intake call](/en/demo/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Connected worker platform](/en/solutions/connected-worker-platform/)",
-      "[Frontline training and onboarding](/en/solutions/frontline-training/)",
-      "[What is a skills matrix?](/en/resources/glossary/skills-matrix/)",
-      "[What is a connected worker?](/en/resources/glossary/connected-worker/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -4151,6 +3959,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/compare-connected-worker-vs-lms.webp",
+   "related": [
+    "solCwp",
+    "solTraining",
+    "termSkillsMatrix",
+    "termConnectedWorker"
+   ],
    "heroImage": "Pen drawing of a classroom training screen next to a machine with a digital step card for connected worker guidance"
   },
   "cmpDigitalVsPaper": {
@@ -4270,24 +4084,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "We start with a pilot on one use case and fixed KPIs."
      ],
      "h2": "How does Actarion help?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to see your own SOP as a digital instruction? [Book a free intake call](/en/demo/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[SOP software](/en/solutions/sop-software/)",
-      "[Digital checklists](/en/solutions/digital-checklists/)",
-      "[Quality inspections use case](/en/use-cases/quality-inspections/)",
-      "[What is a work instruction?](/en/resources/glossary/work-instruction/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -4307,6 +4103,13 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/compare-digital-vs-paper-work-instructions.webp",
+   "related": [
+    "solDwi",
+    "solSop",
+    "solChecklists",
+    "ucQuality",
+    "termWorkInstruction"
+   ],
    "heroImage": "Pen drawing of a paper clipboard instruction next to a tablet showing a digital work instruction step"
   },
   "compare": {
@@ -4400,23 +4203,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**Pilot with fixed KPIs:** you test the comparison on your own line before you scale."
      ],
      "h2": "How does Actarion help?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Not sure which setup fits your line? [Book a free intake call](/en/demo/). We price per industry and sector, tailored to your situation."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Connected worker platform](/en/solutions/connected-worker-platform/)",
-      "[Tablets and smartphones](/en/hardware/tablets-smartphones/)",
-      "[Glossary of shop-floor terms](/en/resources/glossary/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -4440,6 +4226,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/compare.webp",
+   "related": [
+    "solDwi",
+    "solCwp",
+    "hwTablets",
+    "glossary"
+   ],
    "heroImage": "Pen drawing of a balance weighing a paper work instruction against a tablet with a digital step"
   },
   "cmpVisionProHololens": {
@@ -4555,24 +4347,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Every execution is logged, regardless of the device."
      ],
      "h2": "How does Actarion help?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Planning a HoloLens migration or a new AR rollout? [Book a free intake call](/en/demo/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Apple Vision Pro](/en/hardware/apple-vision-pro/)",
-      "[HoloLens](/en/hardware/hololens/)",
-      "[Android XR](/en/hardware/android-xr/)",
-      "[Remote expert support](/en/use-cases/remote-expert-support/)",
-      "[What is mixed reality?](/en/resources/glossary/mixed-reality/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -4592,6 +4366,13 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/compare-vision-pro-vs-hololens.webp",
+   "related": [
+    "hwVisionPro",
+    "hwHololens",
+    "hwAndroidXr",
+    "ucRemote",
+    "termMr"
+   ],
    "heroImage": "Pen drawing comparing Vision Pro and HoloLens: a closed passthrough headset next to a see-through visor headset"
   },
   "contact": {
@@ -4672,27 +4453,16 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       }
      ],
      "h2": "What happens after you send the form?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Send the form or email hello@actarion.com."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Book a demo](/en/demo/)",
-      "[Pilot approach](/en/pilot/)",
-      "[FAQ](/en/faq/)"
-     ],
-     "h2": "Related"
     }
    ],
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/contact.webp",
+   "related": [
+    "demo",
+    "pilot",
+    "faq"
+   ],
    "heroImage": "Pen drawing: envelope and a cyan speech bubble starting a conversation"
   },
   "caseFood": {
@@ -4800,16 +4570,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**Pilot with fixed KPIs** proves the effect on one line or site before you scale."
      ],
      "h2": "How Actarion helps you do the same"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Food and beverage](/en/industries/food-beverage/)",
-      "[Changeover and SMED](/en/use-cases/changeover-smed/)",
-      "[Work instruction templates](/en/resources/templates/)",
-      "[All customer cases](/en/customers/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -4829,6 +4589,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/customers-food-changeover-inspections.webp",
+   "related": [
+    "indFood",
+    "ucChangeover",
+    "templates",
+    "customers"
+   ],
    "heroImage": "Pen drawing: food line with conveyor and a change part being swapped, with the step card on a tablet"
   },
   "customers": {
@@ -4908,16 +4674,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**Facing the same challenge?** [Book a free intake call](/en/contact/) and we map your first use case in one conversation."
      ],
      "h2": "Start your own case"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Pilot approach in four phases](/en/pilot/)",
-      "[DeepSight in Europe](/en/partners/deepsight/)",
-      "[ROI calculator](/en/resources/roi-calculator/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -4937,6 +4693,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/customers.webp",
+   "related": [
+    "solDwi",
+    "pilot",
+    "partnerDeepsight",
+    "roiCalculator"
+   ],
    "heroImage": "Pen drawing: four pedestals with a helmet, a crate, a vial and a wheel, linked to a tablet showing a cyan case card"
   },
   "caseMining": {
@@ -5045,16 +4807,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**Pilot with fixed KPIs** proves the effect on one line or site before you scale."
      ],
      "h2": "How Actarion helps you do the same"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Preventive maintenance with AR](/en/use-cases/preventive-maintenance/)",
-      "[Manufacturing and heavy industry](/en/industries/manufacturing/)",
-      "[All customer cases](/en/customers/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -5074,6 +4826,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/customers-mining-training-maintenance.webp",
+   "related": [
+    "solDwi",
+    "ucMaintenance",
+    "indManufacturing",
+    "customers"
+   ],
    "heroImage": "Pen drawing: mining vehicle with a cyan maintenance point, linked to AR glasses and a tablet with a step card"
   },
   "casePharma": {
@@ -5181,16 +4939,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**Pilot with fixed KPIs** proves the effect on one line or site before you scale."
      ],
      "h2": "How Actarion helps you do the same"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Pharma and biotech](/en/industries/pharma-biotech/)",
-      "[Changeover and SMED](/en/use-cases/changeover-smed/)",
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[All customer cases](/en/customers/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -5210,6 +4958,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/customers-pharma-training-changeover.webp",
+   "related": [
+    "indPharma",
+    "ucChangeover",
+    "solDwi",
+    "customers"
+   ],
    "heroImage": "Pen drawing: pharmaceutical filling machine with a cyan AR marker at the changeover, linked to a tablet"
   },
   "caseTransport": {
@@ -5318,16 +5072,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**Pilot with fixed KPIs** proves the effect on one line or site before you scale."
      ],
      "h2": "How Actarion helps you do the same"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Preventive maintenance with AR](/en/use-cases/preventive-maintenance/)",
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Work instruction templates](/en/resources/templates/)",
-      "[All customer cases](/en/customers/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -5347,6 +5091,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/customers-transport-maintenance-traceability.webp",
+   "related": [
+    "ucMaintenance",
+    "solDwi",
+    "templates",
+    "customers"
+   ],
    "heroImage": "Pen drawing: truck with a cyan marker on the wheel and a digital maintenance checklist with check marks"
   },
   "demo": {
@@ -5421,23 +5171,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Local contact in Benelux, DACH or the Nordics."
      ],
      "h2": "How Actarion helps"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Fill in the form and we confirm a time within [TE BEVESTIGEN: reactietermijn]."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Videos](/en/resources/videos/)",
-      "[Pilot approach](/en/pilot/)",
-      "[DeepSight in Europe](/en/partners/deepsight/)",
-      "[Contact](/en/contact/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -5453,6 +5186,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/demo.webp",
+   "related": [
+    "videos",
+    "pilot",
+    "partnerDeepsight",
+    "contact"
+   ],
    "heroImage": "Pen drawing: laptop with a video call and a cyan step card, next to AR glasses and a check mark"
   },
   "faq": {
@@ -5567,28 +5306,17 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       }
      ],
      "h2": "What does it cost and how do we start?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Question not answered? [Book a free intake call](/en/contact/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Pilot approach](/en/pilot/)",
-      "[DeepSight in Europe](/en/partners/deepsight/)",
-      "[Glossary](/en/resources/glossary/)"
-     ],
-     "h2": "Related"
     }
    ],
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/faq.webp",
+   "related": [
+    "solDwi",
+    "pilot",
+    "partnerDeepsight",
+    "glossary"
+   ],
    "heroImage": "Pen drawing: expandable question list with one cyan opened question next to a tablet"
   },
   "hwAndroidXr": {
@@ -5717,16 +5445,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Book a demo](/en/demo/)**"
      ],
      "h2": "Test Android XR on your own task"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Smart glasses for manufacturing](/en/hardware/)",
-      "[AR glasses vs tablets](/en/compare/ar-glasses-vs-tablets/)",
-      "[AR guidance](/en/platform/ar-guidance/)",
-      "[Connected worker platform](/en/solutions/connected-worker-platform/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -5746,6 +5464,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/hardware-android-xr.webp",
+   "related": [
+    "hardware",
+    "cmpGlassesTablets",
+    "pfAr",
+    "solCwp"
+   ],
    "heroImage": "Pen drawing: an Android XR headset above a workbench with a cyan overlay on a part"
   },
   "hwVisionPro": {
@@ -5874,16 +5598,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Book a demo](/en/demo/)**"
      ],
      "h2": "Test Vision Pro on your own task"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Smart glasses for manufacturing](/en/hardware/)",
-      "[Vision Pro vs HoloLens](/en/compare/vision-pro-vs-hololens/)",
-      "[AR guidance](/en/platform/ar-guidance/)",
-      "[Frontline training](/en/solutions/frontline-training/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -5903,6 +5617,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/foto/visionpro-hal.webp",
+   "related": [
+    "hardware",
+    "cmpVisionProHololens",
+    "pfAr",
+    "solTraining"
+   ],
    "heroImage": "Pen drawing: a mixed reality headset in side view with a floating cyan instruction window above a machine"
   },
   "hwHololens": {
@@ -6042,23 +5762,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Book a free intake call](/en/demo/)**"
      ],
      "h2": "Plan your HoloLens 2 migration"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Smart glasses for manufacturing](/en/hardware/)",
-      "[Vision Pro vs HoloLens](/en/compare/vision-pro-vs-hololens/)",
-      "[AR glasses vs tablets](/en/compare/ar-glasses-vs-tablets/)",
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)"
-     ],
-     "h2": "Related"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "*Source on HoloLens 2 status: Microsoft announcement, October 2024, as reported by [Road to VR](https://roadtovr.com/microsoft-hololens-2-discontinued-support-2027-hololens-3/).*"
-     ],
-     "h2": ""
     }
    ],
    "faq": [
@@ -6078,6 +5781,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/hardware-hololens.webp",
+   "related": [
+    "hardware",
+    "cmpVisionProHololens",
+    "cmpGlassesTablets",
+    "solDwi"
+   ],
    "heroImage": "Pen drawing: work instructions move from an old AR headset to a tablet and a new headset"
   },
   "hardware": {
@@ -6223,16 +5932,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Book a free intake call](/en/demo/)**"
      ],
      "h2": "Not sure which device fits?"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[AR guidance](/en/platform/ar-guidance/)",
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[AR glasses vs tablets](/en/compare/ar-glasses-vs-tablets/)",
-      "[Start a pilot](/en/pilot/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -6256,6 +5955,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/hardware.webp",
+   "related": [
+    "pfAr",
+    "solDwi",
+    "cmpGlassesTablets",
+    "pilot"
+   ],
    "heroImage": "Pen drawing: top view of a tablet, smartphone, AR glasses and headset, each showing a cyan work instruction"
   },
   "hwTablets": {
@@ -6401,16 +6106,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Book a demo](/en/demo/)**"
      ],
      "h2": "See your SOP on a tablet"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Smart glasses for manufacturing](/en/hardware/)",
-      "[AR glasses vs tablets](/en/compare/ar-glasses-vs-tablets/)",
-      "[SOP software](/en/solutions/sop-software/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -6430,6 +6125,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/hardware-tablets-smartphones.webp",
+   "related": [
+    "solDwi",
+    "hardware",
+    "cmpGlassesTablets",
+    "solSop"
+   ],
    "heroImage": "Pen drawing: a tablet on an arm next to a conveyor and a smartphone showing a cyan step card"
   },
   "home": {
@@ -6618,16 +6319,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Book a free intake call](/en/demo/)**"
      ],
      "h2": "Ready to digitize your first SOP?"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital work instructions software](/en/solutions/digital-work-instructions/)",
-      "[All solutions](/en/solutions/)",
-      "[Start a pilot](/en/pilot/)",
-      "[ROI calculator](/en/resources/roi-calculator/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -6655,6 +6346,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/home.webp",
+   "related": [
+    "solDwi",
+    "solutions",
+    "pilot",
+    "roiCalculator"
+   ],
    "heroImage": "Pen drawing: a paper SOP becomes a digital work instruction on a tablet and AR glasses, with execution data flowing to a dashboard"
   },
   "indAerospace": {
@@ -6772,23 +6469,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Records that support audits by quality and the authority."
      ],
      "h2": "How Actarion helps"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want traceable MRO tasks without paper? [Book a free intake call](/en/pilot/)"
-     ],
-     "h2": "Book a free intake call"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SOP software](/en/solutions/sop-software/)",
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Preventive maintenance checklist](/en/resources/templates/preventive-maintenance-checklist/)",
-      "[Field service](/en/industries/field-service/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -6808,6 +6488,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/industries-aerospace-mro.webp",
+   "related": [
+    "solSop",
+    "solDwi",
+    "tplMaintenance",
+    "indField"
+   ],
    "heroImage": "Pen drawing of a jet engine with an AR marker on a blade and a tablet with traceability steps for MRO work instructions"
   },
   "indEnergy": {
@@ -6922,23 +6608,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Each job leaves a record for safety and asset management."
      ],
      "h2": "How Actarion helps"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want safer, documented field work? [Book a free intake call](/en/pilot/)"
-     ],
-     "h2": "Book a free intake call"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Lockout tagout procedure template](/en/resources/templates/lockout-tagout-procedure/)",
-      "[Connected worker platform](/en/solutions/connected-worker-platform/)",
-      "[Field service](/en/industries/field-service/)",
-      "[Digital checklists](/en/solutions/digital-checklists/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -6958,6 +6627,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/industries-energy-utilities.webp",
+   "related": [
+    "tplLoto",
+    "solCwp",
+    "indField",
+    "solChecklists"
+   ],
    "heroImage": "Pen drawing of a transformer and power pylon with AR glasses and a step card for energy and utilities work instructions"
   },
   "indField": {
@@ -7072,23 +6747,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Skills matrix for planning the right technician."
      ],
      "h2": "How Actarion helps"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want more first-time fixes? [Book a free intake call](/en/pilot/)"
-     ],
-     "h2": "Book a free intake call"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital checklists](/en/solutions/digital-checklists/)",
-      "[Connected worker platform](/en/solutions/connected-worker-platform/)",
-      "[Preventive maintenance checklist](/en/resources/templates/preventive-maintenance-checklist/)",
-      "[Machine builders](/en/industries/machine-builders/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -7112,6 +6770,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/industries-field-service.webp",
+   "related": [
+    "solChecklists",
+    "solCwp",
+    "tplMaintenance",
+    "indMachine"
+   ],
    "heroImage": "Pen drawing of an outdoor cabinet, toolbox and tablet connected to an expert for field service work instructions"
   },
   "indFood": {
@@ -7226,23 +6890,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Multilingual instructions for mixed teams."
      ],
      "h2": "How Actarion helps"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want faster, consistent changeovers? [Book a free intake call](/en/pilot/)"
-     ],
-     "h2": "Book a free intake call"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SMED changeover checklist](/en/resources/templates/smed-changeover-checklist/)",
-      "[Digital checklists](/en/solutions/digital-checklists/)",
-      "[Quality inspection checklist](/en/resources/templates/quality-inspection-checklist/)",
-      "[Manufacturing](/en/industries/manufacturing/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -7262,6 +6909,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/industries-food-beverage.webp",
+   "related": [
+    "tplSmed",
+    "solChecklists",
+    "tplQuality",
+    "indManufacturing"
+   ],
    "heroImage": "Pen drawing of a bottling line with a CIP pipe and a tablet with a cleaning step for food and beverage work instructions"
   },
   "industries": {
@@ -7383,23 +7036,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Implementation in Benelux, DACH and the Nordics with technology partner DeepSight."
      ],
      "h2": "How Actarion helps"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Discuss your sector and first use case. [Book a free intake call](/en/pilot/)"
-     ],
-     "h2": "Book a free intake call"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Use cases](/en/use-cases/)",
-      "[Connected worker platform](/en/solutions/connected-worker-platform/)",
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Customer cases](/en/customers/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -7423,6 +7059,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/industries.webp",
+   "related": [
+    "useCases",
+    "solCwp",
+    "solDwi",
+    "customers"
+   ],
    "heroImage": "Pen drawing of a factory, reactor, power pylon and wind turbine around a tablet showing digital work instructions"
   },
   "indMachine": {
@@ -7545,23 +7187,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "A service offering you can sell alongside the machine."
      ],
      "h2": "How Actarion helps"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to ship smarter service with every machine? [Book a free intake call](/en/pilot/)"
-     ],
-     "h2": "Book a free intake call"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Remote expert support](/en/use-cases/remote-expert-support/)",
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Work instruction template](/en/resources/templates/work-instruction-template/)",
-      "[Field service](/en/industries/field-service/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -7581,6 +7206,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/industries-machine-builders.webp",
+   "related": [
+    "ucRemote",
+    "solDwi",
+    "tplWorkInstruction",
+    "indField"
+   ],
    "heroImage": "Pen drawing of a machine with built-in screen, service case and the machine builder's console for digital service instructions"
   },
   "indManufacturing": {
@@ -7707,23 +7338,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Pilot with fixed KPIs, then roll out across lines and sites."
      ],
      "h2": "How Actarion helps"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want fewer errors and faster changeovers? [Book a free intake call](/en/pilot/)"
-     ],
-     "h2": "Book a free intake call"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[SMED changeover checklist](/en/resources/templates/smed-changeover-checklist/)",
-      "[Work instruction template](/en/resources/templates/work-instruction-template/)",
-      "[Machine builders](/en/industries/machine-builders/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -7743,6 +7357,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/foto/ipad-robot.webp",
+   "related": [
+    "solDwi",
+    "tplSmed",
+    "tplWorkInstruction",
+    "indMachine"
+   ],
    "heroImage": "Pen drawing of a conveyor with robot arm and a tablet with OEE gauge for digital work instructions in manufacturing"
   },
   "indPharma": {
@@ -7865,23 +7485,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Use our [line clearance checklist](/en/resources/templates/line-clearance-checklist/) to get started."
      ],
      "h2": "How Actarion helps"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want fewer documentation deviations? [Book a free intake call](/en/pilot/)"
-     ],
-     "h2": "Book a free intake call"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SOP software](/en/solutions/sop-software/)",
-      "[Line clearance checklist](/en/resources/templates/line-clearance-checklist/)",
-      "[SOP template](/en/resources/templates/sop-template/)",
-      "[Quality inspections](/en/use-cases/quality-inspections/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -7901,6 +7504,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/industries-pharma-biotech.webp",
+   "related": [
+    "solSop",
+    "tplLineClearance",
+    "tplSop",
+    "ucQuality"
+   ],
    "heroImage": "Pen drawing of a stainless reactor, vials and a tablet with a batch checklist for GMP work instructions"
   },
   "partnerBecome": {
@@ -7970,22 +7579,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Shared pilot method with fixed KPIs."
      ],
      "h2": "How Actarion helps"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "[Contact us about a partnership](/en/contact/) and choose the topic Partnership."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[All partners](/en/partners/)",
-      "[DeepSight in Europe](/en/partners/deepsight/)",
-      "[Pilot approach](/en/pilot/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -8001,6 +7594,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/partners-become-a-partner.webp",
+   "related": [
+    "partners",
+    "partnerDeepsight",
+    "pilot"
+   ],
    "heroImage": "Pen drawing: a large gear and a cyan gear meshing, next to a tablet with a step card"
   },
   "partnerDeepsight": {
@@ -8123,23 +7721,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Skills matrix linked to completed instructions."
      ],
      "h2": "How Actarion helps"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "[Book a demo](/en/demo/) and see DeepSight on your own use case."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Customer cases on DeepSight](/en/customers/)",
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Remote expert support](/en/use-cases/remote-expert-support/)",
-      "[All partners](/en/partners/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -8159,6 +7740,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/partners-deepsight.webp",
+   "related": [
+    "customers",
+    "solDwi",
+    "ucRemote",
+    "partners"
+   ],
    "heroImage": "Pen drawing: monitor with cyan step cards in a studio, rolled out to a tablet on a stand and AR glasses"
   },
   "partners": {
@@ -8249,23 +7836,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Your own people learn to build and maintain instructions."
      ],
      "h2": "How Actarion helps"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to know which partners fit your use case? [Book a free intake call](/en/contact/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[DeepSight in Europe](/en/partners/deepsight/)",
-      "[Become a partner](/en/partners/become-a-partner/)",
-      "[Pilot approach](/en/pilot/)",
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -8285,6 +7855,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/partners.webp",
+   "related": [
+    "partnerDeepsight",
+    "partnerBecome",
+    "pilot",
+    "solDwi"
+   ],
    "heroImage": "Pen drawing: tablet with a cyan step card at the center of a partner network with a gear, AR glasses, a document and a skills matrix"
   },
   "partnerPotentify": {
@@ -8342,22 +7918,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Continuous learning paths combine on-the-job AR guidance with formal training."
      ],
      "h2": "How Actarion helps"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to link AR training to your skills matrix? [Book a free intake call](/en/contact/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Onboarding and training](/en/use-cases/onboarding-training/)",
-      "[All partners](/en/partners/)",
-      "[Pilot approach](/en/pilot/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -8373,6 +7933,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/partners-potentify.webp",
+   "related": [
+    "ucOnboarding",
+    "partners",
+    "pilot"
+   ],
    "heroImage": "Pen drawing: skills matrix with one cyan cell and a rising staircase as a learning path"
   },
   "partnerSimplyChange": {
@@ -8427,22 +7992,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Adoption dashboards from the execution data."
      ],
      "h2": "How Actarion helps"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Planning to scale beyond your pilot? [Book a free intake call](/en/contact/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Changeover and SMED](/en/use-cases/changeover-smed/)",
-      "[Pilot approach](/en/pilot/)",
-      "[All partners](/en/partners/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -8458,6 +8007,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/partners-simply-change.webp",
+   "related": [
+    "ucChangeover",
+    "pilot",
+    "partners"
+   ],
    "heroImage": "Pen drawing: three factories in which a cyan screen is rolled out step by step, each with a check mark"
   },
   "pilot": {
@@ -8537,23 +8091,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Your own authors are trained so you are not dependent on us."
      ],
      "h2": "How Actarion helps"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "[Book a free intake call](/en/contact/) and we will map your first use case together."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[ROI calculator](/en/resources/roi-calculator/)",
-      "[Customer cases](/en/customers/)",
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Changeover and SMED](/en/use-cases/changeover-smed/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -8573,6 +8110,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/pilot.webp",
+   "related": [
+    "roiCalculator",
+    "customers",
+    "solDwi",
+    "ucChangeover"
+   ],
    "heroImage": "Pen drawing: four rising steps from briefing via discovery and pilot to scale-up with several tablets"
   },
   "pfAi": {
@@ -8715,16 +8258,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Book a demo](/en/demo/)**"
      ],
      "h2": "Try it with one of your SOPs"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SOP software](/en/solutions/sop-software/)",
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Knowledge capture](/en/platform/knowledge-capture/)",
-      "[AR guidance](/en/platform/ar-guidance/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -8748,6 +8281,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/platform-ai-authoring.webp",
+   "related": [
+    "solSop",
+    "solDwi",
+    "pfKnowledge",
+    "pfAr"
+   ],
    "heroImage": "Pen drawing: a paper SOP passes through AI gears and becomes checked digital step cards on a tablet"
   },
   "pfAnalytics": {
@@ -8897,16 +8436,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Book a demo](/en/demo/)**"
      ],
      "h2": "See the audit trail on your own process"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SOP software](/en/solutions/sop-software/)",
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Skills management](/en/platform/skills-management/)",
-      "[Security and compliance](/en/platform/security/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -8926,6 +8455,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/platform-analytics-audit-trail.webp",
+   "related": [
+    "solSop",
+    "solDwi",
+    "pfSkills",
+    "pfSecurity"
+   ],
    "heroImage": "Pen drawing: a checked checklist and a tablet showing a trend line and timeline as audit trail"
   },
   "pfAr": {
@@ -9069,16 +8604,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Book a demo](/en/demo/)**"
      ],
      "h2": "See AR guidance on your own process"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Hardware for AR work instructions](/en/hardware/)",
-      "[AR glasses vs tablets](/en/compare/ar-glasses-vs-tablets/)",
-      "[Frontline training](/en/solutions/frontline-training/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -9102,6 +8627,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/foto/visionpro-hal.webp",
+   "related": [
+    "solDwi",
+    "hardware",
+    "cmpGlassesTablets",
+    "solTraining"
+   ],
    "heroImage": "Pen drawing: AR glasses show a cyan overlay ring and step card on the correct valve of a panel"
   },
   "platform": {
@@ -9264,16 +8795,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Book a demo](/en/demo/)**"
      ],
      "h2": "See the platform with your own SOP"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Connected worker platform](/en/solutions/connected-worker-platform/)",
-      "[SOP software](/en/solutions/sop-software/)",
-      "[Hardware for AR work instructions](/en/hardware/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -9297,6 +8818,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/platform.webp",
+   "related": [
+    "solDwi",
+    "solCwp",
+    "solSop",
+    "hardware"
+   ],
    "heroImage": "Pen drawing: a stack of SOP documents becomes a digital step card on a tablet, with execution data flowing to a dashboard"
   },
   "pfIntegrations": {
@@ -9437,16 +8964,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Book a free intake call](/en/demo/)**"
      ],
      "h2": "Discuss your system landscape"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Connected worker platform](/en/solutions/connected-worker-platform/)",
-      "[Analytics and audit trail](/en/platform/analytics-audit-trail/)",
-      "[Security](/en/platform/security/)",
-      "[Start a pilot](/en/pilot/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -9466,6 +8983,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/platform-integrations.webp",
+   "related": [
+    "solCwp",
+    "pfAnalytics",
+    "pfSecurity",
+    "pilot"
+   ],
    "heroImage": "Pen drawing: a tablet with a work instruction connected to a server rack, a dashboard and a machine"
   },
   "pfKnowledge": {
@@ -9602,16 +9125,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Book a free intake call](/en/demo/)**"
      ],
      "h2": "Start with the knowledge most at risk"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Frontline training](/en/solutions/frontline-training/)",
-      "[Connected worker platform](/en/solutions/connected-worker-platform/)",
-      "[AI authoring](/en/platform/ai-authoring/)",
-      "[Skills management](/en/platform/skills-management/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -9631,6 +9144,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/platform-knowledge-capture.webp",
+   "related": [
+    "solTraining",
+    "solCwp",
+    "pfAi",
+    "pfSkills"
+   ],
    "heroImage": "Pen drawing: a tablet on a tripod records a task at a machine and turns it into step cards"
   },
   "pfMultilingual": {
@@ -9765,16 +9284,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Book a demo](/en/demo/)**"
      ],
      "h2": "See a work instruction in your team's languages"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Frontline training](/en/solutions/frontline-training/)",
-      "[AI authoring](/en/platform/ai-authoring/)",
-      "[AR guidance](/en/platform/ar-guidance/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -9794,6 +9303,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/platform-multilingual.webp",
+   "related": [
+    "solDwi",
+    "solTraining",
+    "pfAi",
+    "pfAr"
+   ],
    "heroImage": "Pen drawing: one work instruction on a tablet fans out into three step cards in different languages"
   },
   "pfRemote": {
@@ -9928,16 +9443,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Book a demo](/en/demo/)**"
      ],
      "h2": "See remote support in action"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Connected worker platform](/en/solutions/connected-worker-platform/)",
-      "[AR guidance](/en/platform/ar-guidance/)",
-      "[Hardware for AR](/en/hardware/)",
-      "[Start a pilot](/en/pilot/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -9961,6 +9466,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/platform-remote-support.webp",
+   "related": [
+    "solCwp",
+    "pfAr",
+    "hardware",
+    "pilot"
+   ],
    "heroImage": "Pen drawing: an operator's AR glasses at a pump connect to a laptop where a remote expert marks the part in cyan"
   },
   "pfSecurity": {
@@ -10091,16 +9602,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Book a free intake call](/en/demo/)**"
      ],
      "h2": "Send us your security questionnaire"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Connected worker platform](/en/solutions/connected-worker-platform/)",
-      "[Analytics and audit trail](/en/platform/analytics-audit-trail/)",
-      "[Integrations](/en/platform/integrations/)",
-      "[Work instruction platform](/en/platform/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -10124,6 +9625,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/platform-security.webp",
+   "related": [
+    "solCwp",
+    "pfAnalytics",
+    "pfIntegrations",
+    "platform"
+   ],
    "heroImage": "Pen drawing: a server rack with a cyan padlock and a shield with a check mark"
   },
   "pfSkills": {
@@ -10264,16 +9771,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Book a demo](/en/demo/)**"
      ],
      "h2": "See your skills matrix fed by real work"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Frontline training](/en/solutions/frontline-training/)",
-      "[Connected worker platform](/en/solutions/connected-worker-platform/)",
-      "[Analytics and audit trail](/en/platform/analytics-audit-trail/)",
-      "[Knowledge capture](/en/platform/knowledge-capture/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -10297,6 +9794,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/platform-skills-management.webp",
+   "related": [
+    "solTraining",
+    "solCwp",
+    "pfAnalytics",
+    "pfKnowledge"
+   ],
    "heroImage": "Pen drawing: a screen with a skills matrix where cyan cells show certified employees"
   },
   "privacy": {
@@ -10474,22 +9977,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "A follow-up intake to map your first use case."
      ],
      "h2": "How Actarion helps"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want a session at your own site? [Book a free intake call](/en/contact/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Videos](/en/resources/videos/)",
-      "[Book a demo](/en/demo/)",
-      "[Pilot approach](/en/pilot/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -10501,6 +9988,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-events.webp",
+   "related": [
+    "videos",
+    "demo",
+    "pilot"
+   ],
    "heroImage": "Pen drawing: presentation screen with a cyan step card and AR glasses, with an audience in silhouette"
   },
   "termAr": {
@@ -10568,22 +10060,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[digital twin](/en/resources/glossary/digital-twin/)"
      ],
      "h2": "Related terms"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to see this on your own line? [Book a free intake call](/en/demo/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Changeover and SMED use case](/en/use-cases/changeover-smed/)",
-      "[Glossary](/en/resources/glossary/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -10603,6 +10079,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-augmented-reality.webp",
+   "related": [
+    "solDwi",
+    "ucChangeover",
+    "glossary"
+   ],
    "heroImage": "Pen drawing for the glossary term augmented reality: tablet overlaying a digital gear on a machine"
   },
   "termCapa": {
@@ -10670,22 +10151,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[first time right](/en/resources/glossary/first-time-right/)"
      ],
      "h2": "Related terms"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to see this on your own line? [Book a free intake call](/en/demo/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SOP software](/en/solutions/sop-software/)",
-      "[Quality inspections use case](/en/use-cases/quality-inspections/)",
-      "[Glossary](/en/resources/glossary/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -10705,6 +10170,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-capa.webp",
+   "related": [
+    "solSop",
+    "ucQuality",
+    "glossary"
+   ],
    "heroImage": "Pen drawing for the glossary term CAPA: cycle of arrows around a deviation warning"
   },
   "termConnectedWorker": {
@@ -10772,22 +10242,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[skills matrix](/en/resources/glossary/skills-matrix/)"
      ],
      "h2": "Related terms"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to see this on your own line? [Book a free intake call](/en/demo/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Connected worker platform](/en/solutions/connected-worker-platform/)",
-      "[Remote expert support use case](/en/use-cases/remote-expert-support/)",
-      "[Glossary](/en/resources/glossary/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -10807,6 +10261,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-connected-worker.webp",
+   "related": [
+    "solCwp",
+    "ucRemote",
+    "glossary"
+   ],
    "heroImage": "Pen drawing for the glossary term connected worker: helmet, tablet and machine connected by data lines"
   },
   "termDigitalTwin": {
@@ -10874,22 +10333,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[mixed reality](/en/resources/glossary/mixed-reality/)"
      ],
      "h2": "Related terms"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to see this on your own line? [Book a free intake call](/en/demo/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Connected worker platform](/en/solutions/connected-worker-platform/)",
-      "[Changeover and SMED use case](/en/use-cases/changeover-smed/)",
-      "[Glossary](/en/resources/glossary/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -10909,6 +10352,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-digital-twin.webp",
+   "related": [
+    "solCwp",
+    "ucChangeover",
+    "glossary"
+   ],
    "heroImage": "Pen drawing for the glossary term digital twin: machine and its dashed digital copy linked by arrows"
   },
   "termFtr": {
@@ -10976,22 +10424,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[work instruction](/en/resources/glossary/work-instruction/)"
      ],
      "h2": "Related terms"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to see this on your own line? [Book a free intake call](/en/demo/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Quality inspections use case](/en/use-cases/quality-inspections/)",
-      "[Glossary](/en/resources/glossary/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -11011,6 +10443,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-first-time-right.webp",
+   "related": [
+    "solDwi",
+    "ucQuality",
+    "glossary"
+   ],
    "heroImage": "Pen drawing for the glossary term first time right: gear next to a confirmed check mark"
   },
   "termGmp": {
@@ -11078,22 +10515,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[SOP](/en/resources/glossary/sop/)"
      ],
      "h2": "Related terms"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to see this on your own line? [Book a free intake call](/en/demo/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SOP software](/en/solutions/sop-software/)",
-      "[Quality inspections use case](/en/use-cases/quality-inspections/)",
-      "[Glossary](/en/resources/glossary/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -11113,6 +10534,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-gmp.webp",
+   "related": [
+    "solSop",
+    "ucQuality",
+    "glossary"
+   ],
    "heroImage": "Pen drawing for the glossary term GMP: laboratory flask and a checked batch record"
   },
   "glossary": {
@@ -11228,22 +10654,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Audit trail and skills matrix per execution."
      ],
      "h2": "How does Actarion help?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to see these concepts on your own line? [Book a free intake call](/en/demo/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Comparisons](/en/compare/)",
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Connected worker platform](/en/solutions/connected-worker-platform/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -11263,6 +10673,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary.webp",
+   "related": [
+    "compare",
+    "solDwi",
+    "solCwp"
+   ],
    "heroImage": "Pen drawing of an open glossary book with a cyan bookmark"
   },
   "termKnowledgeCapture": {
@@ -11330,22 +10745,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[SOP](/en/resources/glossary/sop/)"
      ],
      "h2": "Related terms"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to see this on your own line? [Book a free intake call](/en/demo/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Knowledge capture solution](/en/solutions/knowledge-capture/)",
-      "[Remote expert support use case](/en/use-cases/remote-expert-support/)",
-      "[Glossary](/en/resources/glossary/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -11365,6 +10764,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-knowledge-capture.webp",
+   "related": [
+    "solKnowledge",
+    "ucRemote",
+    "glossary"
+   ],
    "heroImage": "Pen drawing for the glossary term knowledge capture: tool being recorded into a digital step card"
   },
   "termLineClearance": {
@@ -11432,22 +10836,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[SOP](/en/resources/glossary/sop/)"
      ],
      "h2": "Related terms"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to see this on your own line? [Book a free intake call](/en/demo/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital checklists](/en/solutions/digital-checklists/)",
-      "[Quality inspections use case](/en/use-cases/quality-inspections/)",
-      "[Glossary](/en/resources/glossary/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -11467,6 +10855,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-line-clearance.webp",
+   "related": [
+    "solChecklists",
+    "ucQuality",
+    "glossary"
+   ],
    "heroImage": "Pen drawing for the glossary term line clearance: empty conveyor with a highlighted inspection zone"
   },
   "termLoto": {
@@ -11534,22 +10927,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[work instruction](/en/resources/glossary/work-instruction/)"
      ],
      "h2": "Related terms"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to see this on your own line? [Book a free intake call](/en/demo/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital checklists](/en/solutions/digital-checklists/)",
-      "[Safety and LOTO use case](/en/use-cases/safety-loto/)",
-      "[Glossary](/en/resources/glossary/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -11569,6 +10946,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-loto.webp",
+   "related": [
+    "solChecklists",
+    "ucSafety",
+    "glossary"
+   ],
    "heroImage": "Pen drawing for the glossary term LOTO: safety padlock with a digital lockout tag"
   },
   "termMes": {
@@ -11636,22 +11018,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[digital twin](/en/resources/glossary/digital-twin/)"
      ],
      "h2": "Related terms"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to see this on your own line? [Book a free intake call](/en/demo/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Connected worker platform](/en/solutions/connected-worker-platform/)",
-      "[Quality inspections use case](/en/use-cases/quality-inspections/)",
-      "[Glossary](/en/resources/glossary/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -11671,6 +11037,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-mes.webp",
+   "related": [
+    "solCwp",
+    "ucQuality",
+    "glossary"
+   ],
    "heroImage": "Pen drawing for the glossary term MES: central server linked to two production machines"
   },
   "termMr": {
@@ -11738,22 +11109,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[digital twin](/en/resources/glossary/digital-twin/)"
      ],
      "h2": "Related terms"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to see this on your own line? [Book a free intake call](/en/demo/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Remote expert support use case](/en/use-cases/remote-expert-support/)",
-      "[Glossary](/en/resources/glossary/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -11773,6 +11128,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-mixed-reality.webp",
+   "related": [
+    "solDwi",
+    "ucRemote",
+    "glossary"
+   ],
    "heroImage": "Pen drawing for the glossary term mixed reality: headset and a floating hologram cube above a workbench"
   },
   "termOee": {
@@ -11840,22 +11200,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[MES](/en/resources/glossary/mes/)"
      ],
      "h2": "Related terms"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to see this on your own line? [Book a free intake call](/en/demo/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Changeover and SMED use case](/en/use-cases/changeover-smed/)",
-      "[Glossary](/en/resources/glossary/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -11875,6 +11219,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-oee.webp",
+   "related": [
+    "solDwi",
+    "ucChangeover",
+    "glossary"
+   ],
    "heroImage": "Pen drawing for the glossary term OEE: bar chart of availability, performance and quality"
   },
   "termPokaYoke": {
@@ -11942,22 +11291,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[CAPA](/en/resources/glossary/capa/)"
      ],
      "h2": "Related terms"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to see this on your own line? [Book a free intake call](/en/demo/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital checklists](/en/solutions/digital-checklists/)",
-      "[Quality inspections use case](/en/use-cases/quality-inspections/)",
-      "[Glossary](/en/resources/glossary/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -11977,6 +11310,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-poka-yoke.webp",
+   "related": [
+    "solChecklists",
+    "ucQuality",
+    "glossary"
+   ],
    "heroImage": "Pen drawing for the glossary term poka-yoke: keyed plug that fits only one way into its socket"
   },
   "termRemote": {
@@ -12044,22 +11382,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[connected worker](/en/resources/glossary/connected-worker/)"
      ],
      "h2": "Related terms"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to see this on your own line? [Book a free intake call](/en/demo/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Connected worker platform](/en/solutions/connected-worker-platform/)",
-      "[Remote expert support use case](/en/use-cases/remote-expert-support/)",
-      "[Glossary](/en/resources/glossary/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -12079,6 +11401,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-remote-assistance.webp",
+   "related": [
+    "solCwp",
+    "ucRemote",
+    "glossary"
+   ],
    "heroImage": "Pen drawing for the glossary term remote assistance: expert tablet connected to a machine with a highlighted spot"
   },
   "termSkillsMatrix": {
@@ -12146,22 +11473,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[Werkerassistenzsystem](/en/resources/glossary/werkerassistenzsystem/)"
      ],
      "h2": "Related terms"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to see this on your own line? [Book a free intake call](/en/demo/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Frontline training](/en/solutions/frontline-training/)",
-      "[Quality inspections use case](/en/use-cases/quality-inspections/)",
-      "[Glossary](/en/resources/glossary/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -12181,6 +11492,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-skills-matrix.webp",
+   "related": [
+    "solTraining",
+    "ucQuality",
+    "glossary"
+   ],
    "heroImage": "Pen drawing for the glossary term skills matrix: grid of qualification cells with highlighted skills"
   },
   "termSmartGlasses": {
@@ -12248,22 +11564,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[remote assistance](/en/resources/glossary/remote-assistance/)"
      ],
      "h2": "Related terms"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to see this on your own line? [Book a free intake call](/en/demo/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Connected worker platform](/en/solutions/connected-worker-platform/)",
-      "[Remote expert support use case](/en/use-cases/remote-expert-support/)",
-      "[Glossary](/en/resources/glossary/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -12283,6 +11583,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-smart-glasses.webp",
+   "related": [
+    "solCwp",
+    "ucRemote",
+    "glossary"
+   ],
    "heroImage": "Pen drawing for the glossary term smart glasses: smart glasses showing a small step card in the lens"
   },
   "termSmed": {
@@ -12350,22 +11655,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[first time right](/en/resources/glossary/first-time-right/)"
      ],
      "h2": "Related terms"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to see this on your own line? [Book a free intake call](/en/demo/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Changeover and SMED use case](/en/use-cases/changeover-smed/)",
-      "[Glossary](/en/resources/glossary/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -12385,6 +11674,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-smed.webp",
+   "related": [
+    "solDwi",
+    "ucChangeover",
+    "glossary"
+   ],
    "heroImage": "Pen drawing for the glossary term SMED: machine with a stopwatch and a shortened changeover arc"
   },
   "termSop": {
@@ -12452,22 +11746,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[CAPA](/en/resources/glossary/capa/)"
      ],
      "h2": "Related terms"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to see this on your own line? [Book a free intake call](/en/demo/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SOP software](/en/solutions/sop-software/)",
-      "[Quality inspections use case](/en/use-cases/quality-inspections/)",
-      "[Glossary](/en/resources/glossary/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -12487,6 +11765,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-sop.webp",
+   "related": [
+    "solSop",
+    "ucQuality",
+    "glossary"
+   ],
    "heroImage": "Pen drawing for the glossary term SOP: SOP document turned into a digital step card"
   },
   "termWas": {
@@ -12554,22 +11837,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[augmented reality](/en/resources/glossary/augmented-reality/)"
      ],
      "h2": "Related terms"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to see this on your own line? [Book a free intake call](/en/demo/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Connected worker platform](/en/solutions/connected-worker-platform/)",
-      "[Changeover and SMED use case](/en/use-cases/changeover-smed/)",
-      "[Glossary](/en/resources/glossary/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -12589,6 +11856,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-werkerassistenzsystem.webp",
+   "related": [
+    "solCwp",
+    "ucChangeover",
+    "glossary"
+   ],
    "heroImage": "Pen drawing for the glossary term Werkerassistenzsystem: workbench with a projected guidance light from above"
   },
   "termWorkInstruction": {
@@ -12656,22 +11928,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[augmented reality](/en/resources/glossary/augmented-reality/)"
      ],
      "h2": "Related terms"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to see this on your own line? [Book a free intake call](/en/demo/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Changeover and SMED use case](/en/use-cases/changeover-smed/)",
-      "[Glossary](/en/resources/glossary/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -12691,6 +11947,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-work-instruction.webp",
+   "related": [
+    "solDwi",
+    "ucChangeover",
+    "glossary"
+   ],
    "heroImage": "Pen drawing for the glossary term work instruction: tablet on a stand showing a work instruction step"
   },
   "resources": {
@@ -12755,23 +12016,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Guides follow the Actarion approach: SOP → AI → AR → audit-proof."
      ],
      "h2": "How Actarion helps"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "[Download a work instruction template](/en/resources/templates/) and start today."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Work instruction templates](/en/resources/templates/)",
-      "[ROI calculator](/en/resources/roi-calculator/)",
-      "[Glossary](/en/resources/glossary/)",
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -12787,6 +12031,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources.webp",
+   "related": [
+    "templates",
+    "roiCalculator",
+    "glossary",
+    "solDwi"
+   ],
    "heroImage": "Pen drawing: top view of a desk with documents, a tablet with a cyan step card, a calculator, a calendar and a video"
   },
   "roiCalculator": {
@@ -12943,23 +12193,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Execution data from the audit trail makes the after-measurement objective."
      ],
      "h2": "How Actarion helps"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want help filling in the numbers? [Book a free intake call](/en/contact/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Pilot approach](/en/pilot/)",
-      "[Customer cases](/en/customers/)",
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Onboarding and training](/en/use-cases/onboarding-training/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -12979,6 +12212,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-roi-calculator.webp",
+   "related": [
+    "pilot",
+    "customers",
+    "solDwi",
+    "ucOnboarding"
+   ],
    "heroImage": "Pen drawing: balance with a paper SOP and a clock on the left and a tablet with a cyan step card on the right, plus a rising arrow"
   },
   "tpl5s": {
@@ -13339,23 +12578,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "See [digital checklists](/en/solutions/digital-checklists/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Copy the 5S audit checklist or download it. **Book a free intake call** to digitize your audits."
-     ],
-     "h2": "Get the template"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital checklists](/en/solutions/digital-checklists/)",
-      "[Pre-shift checklist](/en/resources/templates/pre-shift-checklist/)",
-      "[Quality inspections use case](/en/use-cases/quality-inspections/)",
-      "[Work instruction template](/en/resources/templates/work-instruction-template/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -13379,6 +12601,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-5s-audit-checklist.webp",
+   "related": [
+    "solChecklists",
+    "tplPreShift",
+    "ucQuality",
+    "tplWorkInstruction"
+   ],
    "heroImage": "Pen drawing of a tool shadow board with one empty spot highlighted, next to a tablet showing a 5S audit checklist"
   },
   "templates": {
@@ -13540,16 +12768,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Download: [Word](#) [Excel](#) [PDF](#)"
      ],
      "h2": "Get started"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Digital checklists](/en/solutions/digital-checklists/)",
-      "[How to write work instructions](/en/blog/how-to-write-work-instructions/)",
-      "[Changeover and SMED use case](/en/use-cases/changeover-smed/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -13577,6 +12795,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates.webp",
+   "related": [
+    "solDwi",
+    "solChecklists",
+    "blogWriteWorkInstructions",
+    "ucChangeover"
+   ],
    "heroImage": "Pen drawing of paper manufacturing templates on a desk next to a tablet showing the same checklist digitally"
   },
   "tplKnowledge": {
@@ -13893,23 +13117,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "See [knowledge capture](/en/solutions/knowledge-capture/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Copy the plan or download it. **Book a free intake call** to capture expert knowledge with AR."
-     ],
-     "h2": "Get the template"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Knowledge capture](/en/solutions/knowledge-capture/)",
-      "[Skills matrix template](/en/resources/templates/skills-matrix-template/)",
-      "[Work instruction template](/en/resources/templates/work-instruction-template/)",
-      "[Onboarding and training use case](/en/use-cases/onboarding-training/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -13933,6 +13140,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-knowledge-transfer-plan.webp",
+   "related": [
+    "solKnowledge",
+    "tplSkills",
+    "tplWorkInstruction",
+    "ucOnboarding"
+   ],
    "heroImage": "Pen drawing of an expert's notebook, captured on a tablet as digital steps and passed on through AR glasses"
   },
   "tplLineClearance": {
@@ -14203,23 +13416,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "See the [quality inspections use case](/en/use-cases/quality-inspections/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Copy the checklist or download it. **Book a free intake call** to see line clearance with AR guidance."
-     ],
-     "h2": "Get the template"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Quality inspections use case](/en/use-cases/quality-inspections/)",
-      "[Digital checklists](/en/solutions/digital-checklists/)",
-      "[SMED changeover checklist](/en/resources/templates/smed-changeover-checklist/)",
-      "[SOP template](/en/resources/templates/sop-template/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -14243,6 +13439,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-line-clearance-checklist.webp",
+   "related": [
+    "ucQuality",
+    "solChecklists",
+    "tplSmed",
+    "tplSop"
+   ],
    "heroImage": "Pen drawing of an empty packaging line with one highlighted leftover carton, a clipboard and a tablet showing the line clearance checklist"
   },
   "tplLoto": {
@@ -14575,23 +13777,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "See the [safety and LOTO use case](/en/use-cases/safety-loto/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Copy the procedure or download it. **Book a free intake call** to see LOTO guided by AR."
-     ],
-     "h2": "Get the template"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Safety and LOTO use case](/en/use-cases/safety-loto/)",
-      "[Digital checklists](/en/solutions/digital-checklists/)",
-      "[Preventive maintenance checklist](/en/resources/templates/preventive-maintenance-checklist/)",
-      "[Work instruction template](/en/resources/templates/work-instruction-template/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -14615,6 +13800,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-lockout-tagout-procedure.webp",
+   "related": [
+    "ucSafety",
+    "solChecklists",
+    "tplMaintenance",
+    "tplWorkInstruction"
+   ],
    "heroImage": "Pen drawing of an electrical cabinet with a padlock and tag next to a tablet showing the lockout tagout procedure steps"
   },
   "tplSchedule": {
@@ -14931,23 +14122,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "See the [preventive maintenance use case](/en/use-cases/preventive-maintenance/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Copy the schedule or download the Excel version. **Book a free intake call** to connect planning and execution."
-     ],
-     "h2": "Get the template"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Preventive maintenance checklist](/en/resources/templates/preventive-maintenance-checklist/)",
-      "[Preventive maintenance use case](/en/use-cases/preventive-maintenance/)",
-      "[Digital checklists](/en/solutions/digital-checklists/)",
-      "[Knowledge capture](/en/solutions/knowledge-capture/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -14971,6 +14145,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-maintenance-schedule.webp",
+   "related": [
+    "tplMaintenance",
+    "ucMaintenance",
+    "solChecklists",
+    "solKnowledge"
+   ],
    "heroImage": "Pen drawing of a maintenance schedule calendar with marked tasks, a gear and a tablet showing planned maintenance orders"
   },
   "tplOnboarding": {
@@ -15246,23 +14426,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "See [frontline training](/en/solutions/frontline-training/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Copy the onboarding plan or download it. **Book a free intake call** to see onboarding with AR guidance."
-     ],
-     "h2": "Get the template"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Frontline training](/en/solutions/frontline-training/)",
-      "[Onboarding and training use case](/en/use-cases/onboarding-training/)",
-      "[Skills matrix template](/en/resources/templates/skills-matrix-template/)",
-      "[Skills matrix guide](/en/blog/skills-matrix-guide/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -15286,6 +14449,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-operator-onboarding-plan.webp",
+   "related": [
+    "solTraining",
+    "ucOnboarding",
+    "tplSkills",
+    "blogSkillsMatrix"
+   ],
    "heroImage": "Pen drawing of an operator onboarding plan as a timeline on a table next to AR glasses with a cyan overlay"
   },
   "tplPreShift": {
@@ -15572,23 +14741,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "See [digital checklists](/en/solutions/digital-checklists/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Copy the checklist or download it. **Book a free intake call** to make pre-start checks digital."
-     ],
-     "h2": "Get the template"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital checklists](/en/solutions/digital-checklists/)",
-      "[Preventive maintenance checklist](/en/resources/templates/preventive-maintenance-checklist/)",
-      "[5S audit checklist](/en/resources/templates/5s-audit-checklist/)",
-      "[Preventive maintenance use case](/en/use-cases/preventive-maintenance/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -15612,6 +14764,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-pre-shift-checklist.webp",
+   "related": [
+    "solChecklists",
+    "tplMaintenance",
+    "tpl5s",
+    "ucMaintenance"
+   ],
    "heroImage": "Pen drawing of a machine control panel with gauges next to a tablet showing the pre-start checklist for the shift"
   },
   "tplMaintenance": {
@@ -15931,23 +15089,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "See the [preventive maintenance use case](/en/use-cases/preventive-maintenance/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Copy the checklist or download it. **Book a free intake call** to see PM running with AR guidance."
-     ],
-     "h2": "Get the template"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Preventive maintenance use case](/en/use-cases/preventive-maintenance/)",
-      "[Digital checklists](/en/solutions/digital-checklists/)",
-      "[Maintenance schedule template](/en/resources/templates/maintenance-schedule/)",
-      "[Lockout/tagout procedure](/en/resources/templates/lockout-tagout-procedure/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -15971,6 +15112,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-preventive-maintenance-checklist.webp",
+   "related": [
+    "ucMaintenance",
+    "solChecklists",
+    "tplSchedule",
+    "tplLoto"
+   ],
    "heroImage": "Pen drawing of a pump with a highlighted bearing next to a tablet showing a preventive maintenance checklist"
   },
   "tplQuality": {
@@ -16247,23 +15394,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "See the [quality inspections use case](/en/use-cases/quality-inspections/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Copy the checklist or download it. **Book a free intake call** to see inspections with AR guidance."
-     ],
-     "h2": "Get the template"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Quality inspections use case](/en/use-cases/quality-inspections/)",
-      "[Digital checklists](/en/solutions/digital-checklists/)",
-      "[Line clearance checklist](/en/resources/templates/line-clearance-checklist/)",
-      "[Work instruction template](/en/resources/templates/work-instruction-template/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -16287,6 +15417,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-quality-inspection-checklist.webp",
+   "related": [
+    "ucQuality",
+    "solChecklists",
+    "tplLineClearance",
+    "tplWorkInstruction"
+   ],
    "heroImage": "Pen drawing of a caliper measuring a flange next to a tablet recording the quality inspection checklist"
   },
   "tplSkills": {
@@ -16609,23 +15745,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "See [frontline training](/en/solutions/frontline-training/) for how it works."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Copy the skills matrix or download the Excel version. **Book a free intake call** to see a skills matrix that updates itself."
-     ],
-     "h2": "Get the template"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Skills matrix guide](/en/blog/skills-matrix-guide/)",
-      "[Frontline training](/en/solutions/frontline-training/)",
-      "[Operator onboarding plan](/en/resources/templates/operator-onboarding-plan/)",
-      "[Onboarding and training use case](/en/use-cases/onboarding-training/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -16649,6 +15768,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-skills-matrix-template.webp",
+   "related": [
+    "blogSkillsMatrix",
+    "solTraining",
+    "tplOnboarding",
+    "ucOnboarding"
+   ],
    "heroImage": "Pen drawing of a whiteboard with a skills matrix next to a tablet showing the same skills matrix digitally"
   },
   "tplSmed": {
@@ -16919,23 +16044,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "See the [changeover and SMED use case](/en/use-cases/changeover-smed/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Copy the checklist or download it. **Book a free intake call** to see a changeover running with AR guidance."
-     ],
-     "h2": "Get the template"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SMED guide](/en/blog/smed-guide/)",
-      "[Changeover and SMED use case](/en/use-cases/changeover-smed/)",
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Line clearance checklist](/en/resources/templates/line-clearance-checklist/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -16959,6 +16067,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-smed-changeover-checklist.webp",
+   "related": [
+    "blogSmed",
+    "ucChangeover",
+    "solDwi",
+    "tplLineClearance"
+   ],
    "heroImage": "Pen drawing of a press with a die change cart, a stopwatch and a tablet showing the SMED checklist"
   },
   "tplSop": {
@@ -17233,23 +16347,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Learn more about [SOP software](/en/solutions/sop-software/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Copy the SOP template or download it. Want to see your SOP as a digital instruction? **Book a free intake call.**"
-     ],
-     "h2": "Get the template"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SOP software](/en/solutions/sop-software/)",
-      "[Work instruction template](/en/resources/templates/work-instruction-template/)",
-      "[How to write work instructions](/en/blog/how-to-write-work-instructions/)",
-      "[Quality inspections use case](/en/use-cases/quality-inspections/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -17273,6 +16370,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-sop-template.webp",
+   "related": [
+    "solSop",
+    "tplWorkInstruction",
+    "blogWriteWorkInstructions",
+    "ucQuality"
+   ],
    "heroImage": "Pen drawing of SOP binders and a document stack next to a tablet showing the SOP template as digital steps"
   },
   "tplWorkInstruction": {
@@ -17591,23 +16694,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "See [digital work instructions](/en/solutions/digital-work-instructions/) for how it works."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Copy the template above or download it. Want to see it running as an AR instruction? **Book a free intake call.**"
-     ],
-     "h2": "Get the template"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[How to write work instructions](/en/blog/how-to-write-work-instructions/)",
-      "[SOP template](/en/resources/templates/sop-template/)",
-      "[Onboarding and training use case](/en/use-cases/onboarding-training/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -17631,6 +16717,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-work-instruction-template.webp",
+   "related": [
+    "solDwi",
+    "blogWriteWorkInstructions",
+    "tplSop",
+    "ucOnboarding"
+   ],
    "heroImage": "Pen drawing of a work instruction template on a clipboard next to a tablet showing the same steps digitally"
   },
   "videos": {
@@ -17695,22 +16787,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Every step logged for your audit trail."
      ],
      "h2": "How Actarion helps"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Seen enough? [Book a live demo](/en/demo/) on your own use case."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Book a demo](/en/demo/)",
-      "[Events](/en/resources/events/)",
-      "[Remote expert support](/en/use-cases/remote-expert-support/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -17722,6 +16798,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-videos.webp",
+   "related": [
+    "demo",
+    "events",
+    "ucRemote"
+   ],
    "heroImage": "Pen drawing: video screen with a machine and a cyan AR step card, with a timeline and a play button"
   },
   "whitepapers": {
@@ -17788,22 +16869,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       }
      ],
      "h2": "How do you download a whitepaper?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Prefer a conversation? [Book a free intake call](/en/contact/)."
-     ],
-     "h2": "Next step"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[ROI calculator](/en/resources/roi-calculator/)",
-      "[Pilot approach](/en/pilot/)",
-      "[Templates](/en/resources/templates/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -17815,6 +16880,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-whitepapers.webp",
+   "related": [
+    "roiCalculator",
+    "pilot",
+    "templates"
+   ],
    "heroImage": "Pen drawing: stack of whitepapers with a cyan diagram area and a download arrow"
   },
   "solCwp": {
@@ -18001,17 +17071,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Book a free intake call](/en/demo/)**"
      ],
      "h2": "Connect your frontline team"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Frontline training](/en/solutions/frontline-training/)",
-      "[Skills matrix template](/en/resources/templates/skills-matrix-template/)",
-      "[Use case: remote expert support](/en/use-cases/remote-expert-support/)",
-      "[ROI calculator](/en/resources/roi-calculator/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -18043,6 +17102,13 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/solutions-connected-worker-platform.webp",
+   "related": [
+    "solDwi",
+    "solTraining",
+    "tplSkills",
+    "ucRemote",
+    "roiCalculator"
+   ],
    "heroImage": "Pen drawing: AR glasses at the center of a connected worker platform, linked to a machine, a dashboard and a remote expert"
   },
   "solChecklists": {
@@ -18252,16 +17318,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Book a free intake call](/en/demo/)**"
      ],
      "h2": "Digitize your first checklist"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Preventive maintenance checklist](/en/resources/templates/preventive-maintenance-checklist/)",
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[SOP software](/en/solutions/sop-software/)",
-      "[Analytics and audit trail](/en/platform/analytics-audit-trail/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -18293,6 +17349,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/solutions-digital-checklists.webp",
+   "related": [
+    "tplMaintenance",
+    "solDwi",
+    "solSop",
+    "pfAnalytics"
+   ],
    "heroImage": "Pen drawing: a tablet with a digital checklist, ticked steps and photo evidence, next to a paper clipboard"
   },
   "solDwi": {
@@ -18490,17 +17552,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Book a free intake call](/en/demo/)**"
      ],
      "h2": "See your own SOP as a digital work instruction"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Work instruction template](/en/resources/templates/work-instruction-template/)",
-      "[SOP software](/en/solutions/sop-software/)",
-      "[AR guidance](/en/platform/ar-guidance/)",
-      "[Use case: assembly](/en/use-cases/assembly/)",
-      "[ROI calculator](/en/resources/roi-calculator/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -18528,6 +17579,13 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/solutions-digital-work-instructions.webp",
+   "related": [
+    "tplWorkInstruction",
+    "solSop",
+    "pfAr",
+    "ucAssembly",
+    "roiCalculator"
+   ],
    "heroImage": "Pen drawing from above: a flange with bolts, an AR marker on the next bolt and a tablet showing digital work instructions"
   },
   "solTraining": {
@@ -18715,17 +17773,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Book a free intake call](/en/demo/)**"
      ],
      "h2": "Onboard your next new hire with AR"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Use case: onboarding and training](/en/use-cases/onboarding-training/)",
-      "[Skills matrix template](/en/resources/templates/skills-matrix-template/)",
-      "[Knowledge capture](/en/solutions/knowledge-capture/)",
-      "[Connected worker platform](/en/solutions/connected-worker-platform/)",
-      "[ROI calculator](/en/resources/roi-calculator/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -18753,6 +17800,13 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/solutions-frontline-training.webp",
+   "related": [
+    "ucOnboarding",
+    "tplSkills",
+    "solKnowledge",
+    "solCwp",
+    "roiCalculator"
+   ],
    "heroImage": "Pen drawing: a control panel with an AR arrow showing the turning direction and a step card, linked to a skills matrix"
   },
   "solutions": {
@@ -18831,16 +17885,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Book a free intake call](/en/demo/)**"
      ],
      "h2": "Not sure where to start?"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Home](/en/)",
-      "[Start a pilot](/en/pilot/)",
-      "[Use case: onboarding and training](/en/use-cases/onboarding-training/)",
-      "[Manufacturing](/en/industries/manufacturing/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -18860,6 +17904,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/solutions.webp",
+   "related": [
+    "home",
+    "pilot",
+    "ucOnboarding",
+    "indManufacturing"
+   ],
    "heroImage": "Pen drawing: a central tablet with a step card connected to six Actarion solutions"
   },
   "solKnowledge": {
@@ -19060,16 +18110,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Book a free intake call](/en/demo/)**"
      ],
      "h2": "Secure the know-how of your experts"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Frontline training](/en/solutions/frontline-training/)",
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Use case: remote expert support](/en/use-cases/remote-expert-support/)",
-      "[Work instruction template](/en/resources/templates/work-instruction-template/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -19093,6 +18133,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/solutions-knowledge-capture.webp",
+   "related": [
+    "solTraining",
+    "solDwi",
+    "ucRemote",
+    "tplWorkInstruction"
+   ],
    "heroImage": "Pen drawing: a camera records the work on a pump and valve, which is stored as digital step cards for knowledge capture"
   },
   "solSop": {
@@ -19279,17 +18325,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Book a free intake call](/en/demo/)**"
      ],
      "h2": "See your SOP converted by AI"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SOP template](/en/resources/templates/sop-template/)",
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[AI authoring](/en/platform/ai-authoring/)",
-      "[Pharma and biotech](/en/industries/pharma-biotech/)",
-      "[Digital checklists](/en/solutions/digital-checklists/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -19321,6 +18356,13 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/solutions-sop-software.webp",
+   "related": [
+    "tplSop",
+    "solDwi",
+    "pfAi",
+    "indPharma",
+    "solChecklists"
+   ],
    "heroImage": "Pen drawing from above: a stack of paper SOPs converted by AI into digital step cards on a tablet"
   },
   "terms": {
@@ -19537,23 +18579,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Audit trail per unit for quality and customer audits."
      ],
      "h2": "How Actarion helps"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Struggling with variant errors? [Book a free intake call](/en/pilot/)"
-     ],
-     "h2": "Book a free intake call"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Work instruction template](/en/resources/templates/work-instruction-template/)",
-      "[Quality inspections](/en/use-cases/quality-inspections/)",
-      "[Manufacturing](/en/industries/manufacturing/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -19573,6 +18598,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/foto/ipad-robot.webp",
+   "related": [
+    "solDwi",
+    "tplWorkInstruction",
+    "ucQuality",
+    "indManufacturing"
+   ],
    "heroImage": "Pen drawing of an assembly where AR highlights the next bolt to fit, following digital assembly work instructions"
   },
   "ucChangeover": {
@@ -19683,23 +18714,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "The skills matrix shows who can change over which machine."
      ],
      "h2": "How Actarion helps"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want shorter and more stable changeovers? [Book a free intake call](/en/pilot/)"
-     ],
-     "h2": "Book a free intake call"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SMED changeover checklist](/en/resources/templates/smed-changeover-checklist/)",
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Food & beverage](/en/industries/food-beverage/)",
-      "[Manufacturing](/en/industries/manufacturing/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -19719,6 +18733,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/use-cases-changeover-smed.webp",
+   "related": [
+    "tplSmed",
+    "solDwi",
+    "indFood",
+    "indManufacturing"
+   ],
    "heroImage": "Pen drawing of a die change at a press with a stopwatch and a tablet with changeover steps for changeover time reduction"
   },
   "useCases": {
@@ -19847,24 +18867,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**Pilot with fixed KPIs:** we start small, measure, then scale with technology partner DeepSight."
      ],
      "h2": "How Actarion helps"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Tell us which task costs you the most time or errors. We map the best first use case with you. [Book a free intake call](/en/pilot/)"
-     ],
-     "h2": "Book a free intake call"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Connected worker platform](/en/solutions/connected-worker-platform/)",
-      "[Industries we serve](/en/industries/)",
-      "[Work instruction template](/en/resources/templates/work-instruction-template/)",
-      "[Anonymized customer cases](/en/customers/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -19888,6 +18890,13 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/use-cases.webp",
+   "related": [
+    "solDwi",
+    "solCwp",
+    "industries",
+    "tplWorkInstruction",
+    "customers"
+   ],
    "heroImage": "Pen drawing of a tablet with a digital step card linked to maintenance, inspection and logistics tasks"
   },
   "ucLogistics": {
@@ -20005,23 +19014,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Data per order for quality and continuous improvement."
      ],
      "h2": "How Actarion helps"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Struggling with picking errors? [Book a free intake call](/en/pilot/)"
-     ],
-     "h2": "Book a free intake call"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital work instructions](/en/solutions/digital-work-instructions/)",
-      "[Onboarding & training](/en/use-cases/onboarding-training/)",
-      "[Work instruction template](/en/resources/templates/work-instruction-template/)",
-      "[Manufacturing](/en/industries/manufacturing/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -20041,6 +19033,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/use-cases-logistics.webp",
+   "related": [
+    "solDwi",
+    "ucOnboarding",
+    "tplWorkInstruction",
+    "indManufacturing"
+   ],
    "heroImage": "Pen drawing of warehouse shelving where AR picking highlights the right box"
   },
   "ucOnboarding": {
@@ -20144,23 +19142,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Skills matrix and audit trail show who is qualified, with proof."
      ],
      "h2": "How Actarion helps"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to cut ramp-up time for new operators? [Book a free intake call](/en/pilot/)"
-     ],
-     "h2": "Book a free intake call"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Frontline training](/en/solutions/frontline-training/)",
-      "[Skills matrix template](/en/resources/templates/skills-matrix-template/)",
-      "[Assembly work instructions](/en/use-cases/assembly/)",
-      "[Manufacturing](/en/industries/manufacturing/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -20184,6 +19165,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/use-cases-onboarding-training.webp",
+   "related": [
+    "solTraining",
+    "tplSkills",
+    "ucAssembly",
+    "indManufacturing"
+   ],
    "heroImage": "Pen drawing of a workbench from above with a tablet showing a learning path, AR glasses and a workpiece for operator onboarding"
   },
   "ucMaintenance": {
@@ -20295,23 +19282,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Remote support lets a specialist look along when something unexpected shows up."
      ],
      "h2": "How Actarion helps"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want fewer repeat failures? [Book a free intake call](/en/pilot/)"
-     ],
-     "h2": "Book a free intake call"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Preventive maintenance checklist](/en/resources/templates/preventive-maintenance-checklist/)",
-      "[Digital checklists](/en/solutions/digital-checklists/)",
-      "[Remote expert support](/en/use-cases/remote-expert-support/)",
-      "[Energy & utilities](/en/industries/energy-utilities/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -20331,6 +19301,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/use-cases-preventive-maintenance.webp",
+   "related": [
+    "tplMaintenance",
+    "solChecklists",
+    "ucRemote",
+    "indEnergy"
+   ],
    "heroImage": "Pen drawing of a pump and valve with an AR marker and a maintenance plan for AR maintenance"
   },
   "ucQuality": {
@@ -20454,16 +19430,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Start with a ready-made structure: [quality inspection checklist](/en/resources/templates/quality-inspection-checklist/)."
      ],
      "h2": "Download the template"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital checklists](/en/solutions/digital-checklists/)",
-      "[Assembly work instructions](/en/use-cases/assembly/)",
-      "[Pharma & biotech](/en/industries/pharma-biotech/)",
-      "[SOP software](/en/solutions/sop-software/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -20483,6 +19449,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/use-cases-quality-inspections.webp",
+   "related": [
+    "solChecklists",
+    "ucAssembly",
+    "indPharma",
+    "solSop"
+   ],
    "heroImage": "Pen drawing of a flange, caliper and tablet with a digital inspection checklist"
   },
   "ucRemote": {
@@ -20586,23 +19558,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "AI turns solved cases into new or better instructions."
      ],
      "h2": "How Actarion helps"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Want to stop waiting for the expert? [Book a free intake call](/en/pilot/)"
-     ],
-     "h2": "Book a free intake call"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Connected worker platform](/en/solutions/connected-worker-platform/)",
-      "[Field service](/en/industries/field-service/)",
-      "[Preventive maintenance](/en/use-cases/preventive-maintenance/)",
-      "[Machine builders](/en/industries/machine-builders/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -20622,6 +19577,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/use-cases-remote-expert-support.webp",
+   "related": [
+    "solCwp",
+    "indField",
+    "ucMaintenance",
+    "indMachine"
+   ],
    "heroImage": "Pen drawing of a technician's tablet linked to an expert's screen with live annotation for remote expert support"
   },
   "ucSafety": {
@@ -20751,16 +19712,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Start with our [lockout tagout procedure template](/en/resources/templates/lockout-tagout-procedure/)."
      ],
      "h2": "Download the template"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digital checklists](/en/solutions/digital-checklists/)",
-      "[Shutdowns & turnarounds](/en/use-cases/shutdown-turnaround/)",
-      "[Energy & utilities](/en/industries/energy-utilities/)",
-      "[SOP software](/en/solutions/sop-software/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -20780,6 +19731,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/foto/telefoon-loto.webp",
+   "related": [
+    "solChecklists",
+    "ucShutdown",
+    "indEnergy",
+    "solSop"
+   ],
    "heroImage": "Pen drawing of a main switch with padlock and tag and a tablet showing the lockout tagout procedure steps"
   },
   "ucShutdown": {
@@ -20898,23 +19855,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "LOTO and safety steps built into every package."
      ],
      "h2": "How Actarion helps"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Preparing your next shutdown? [Book a free intake call](/en/pilot/)"
-     ],
-     "h2": "Book a free intake call"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Lockout tagout procedure](/en/use-cases/safety-loto/)",
-      "[Connected worker platform](/en/solutions/connected-worker-platform/)",
-      "[Energy & utilities](/en/industries/energy-utilities/)",
-      "[Lockout tagout template](/en/resources/templates/lockout-tagout-procedure/)"
-     ],
-     "h2": "Related"
     }
    ],
    "faq": [
@@ -20934,6 +19874,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/use-cases-shutdown-turnaround.webp",
+   "related": [
+    "ucSafety",
+    "solCwp",
+    "indEnergy",
+    "tplLoto"
+   ],
    "heroImage": "Pen drawing of a process column with scaffolding and a progress dashboard for shutdown turnaround planning"
   }
  },
@@ -21143,23 +20089,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Lees meer over [digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je weten welke AR-toepassing bij jouw fabriek past? [Plan een kosteloze intake](/nl/contact/)."
-     ],
-     "h2": "Plan een kosteloze intake"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Hardware](/nl/hardware/)",
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Smart glasses in de industrie](/nl/blog/smart-glasses-industrie/)",
-      "[HoloLens alternatieven](/nl/blog/hololens-alternatieven/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -21179,6 +20108,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-ar-in-manufacturing.webp",
+   "related": [
+    "hardware",
+    "solDwi",
+    "blogSmartGlasses",
+    "blogHololens"
+   ],
    "heroImage": "Augmented reality in de industrie: transportband met AR-kader en stapkaart boven een product"
   },
   "blogSkillsMatrix": {
@@ -21415,16 +20350,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Download het gratis [competentiematrix template](/nl/kennisbank/templates/competentiematrix-template/) en breng je team deze week in kaart."
      ],
      "h2": "Aan de slag"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Competentiematrix template](/nl/kennisbank/templates/competentiematrix-template/)",
-      "[Training en inwerken](/nl/oplossingen/training-en-inwerken/)",
-      "[Inwerken nieuwe medewerkers in productie](/nl/blog/inwerken-nieuwe-medewerkers-productie/)",
-      "[Connected worker platform](/nl/oplossingen/connected-worker-platform/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -21448,6 +20373,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-skills-matrix-guide.webp",
+   "related": [
+    "tplSkills",
+    "solTraining",
+    "blogOnboarding",
+    "solCwp"
+   ],
    "heroImage": "Competentiematrix op een scherm: medewerkers tegen taken met bevoegde cellen gemarkeerd"
   },
   "blogHololens": {
@@ -21631,23 +20562,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Lees ook [augmented reality in de industrie](/nl/blog/augmented-reality-industrie/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je een migratieplan voor je HoloLens-vloot? [Plan een kosteloze intake](/nl/contact/)."
-     ],
-     "h2": "Plan een kosteloze intake"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Hardware](/nl/hardware/)",
-      "[Smart glasses in de industrie](/nl/blog/smart-glasses-industrie/)",
-      "[Augmented reality in de industrie](/nl/blog/augmented-reality-industrie/)",
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -21671,6 +20585,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-hololens-2-alternatives.webp",
+   "related": [
+    "hardware",
+    "blogSmartGlasses",
+    "blogArManufacturing",
+    "solDwi"
+   ],
    "heroImage": "HoloLens alternatieven: tablet, mixed-reality-headset en lichte AR-bril naast elkaar"
   },
   "blog": {
@@ -21723,20 +20643,16 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Liever direct aan de slag? Download een [werkinstructie template](/nl/kennisbank/templates/werkinstructie-template/) of een [SOP template](/nl/kennisbank/templates/sop-template/)."
      ],
      "h2": "Gratis templates"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Connected worker platform](/nl/oplossingen/connected-worker-platform/)",
-      "[Hardware](/nl/hardware/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog.webp",
+   "related": [
+    "solDwi",
+    "solCwp",
+    "hardware"
+   ],
    "heroImage": "Stapel gidsen naast een tablet met een digitale werkinstructie"
   },
   "blogOnboarding": {
@@ -21947,16 +20863,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Download het gratis [inwerkprogramma productie](/nl/kennisbank/templates/inwerkprogramma-productie/)."
      ],
      "h2": "Aan de slag"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Training en inwerken](/nl/oplossingen/training-en-inwerken/)",
-      "[Toepassing inwerken en training](/nl/toepassingen/inwerken-training/)",
-      "[Inwerkprogramma productie](/nl/kennisbank/templates/inwerkprogramma-productie/)",
-      "[Competentiematrix maken](/nl/blog/competentiematrix-maken/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -21980,6 +20886,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-operator-onboarding.webp",
+   "related": [
+    "solTraining",
+    "ucOnboarding",
+    "tplOnboarding",
+    "blogSkillsMatrix"
+   ],
    "heroImage": "Inwerken nieuwe medewerkers: leertreden met vinkjes naast een tablet op een werkbank"
   },
   "blogKnowledgeTransfer": {
@@ -22182,16 +21094,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Download het gratis [kennisoverdrachtsplan](/nl/kennisbank/templates/kennisoverdrachtsplan/)."
      ],
      "h2": "Aan de slag"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Kennisborging](/nl/oplossingen/kennisborging/)",
-      "[Kennisoverdrachtsplan](/nl/kennisbank/templates/kennisoverdrachtsplan/)",
-      "[SOP maken met AI](/nl/blog/sop-maken-met-ai/)",
-      "[Competentiematrix maken](/nl/blog/competentiematrix-maken/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -22215,6 +21117,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-knowledge-transfer-manufacturing.webp",
+   "related": [
+    "solKnowledge",
+    "tplKnowledge",
+    "blogAiSop",
+    "blogSkillsMatrix"
+   ],
    "heroImage": "Kennisoverdracht: oude handleiding vastgelegd met een camera en omgezet in stapkaarten op een tablet"
   },
   "blogMaintenance": {
@@ -22430,16 +21338,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Download de gratis [preventief onderhoud checklist](/nl/kennisbank/templates/preventief-onderhoud-checklist/) en standaardiseer je volgende ronde."
      ],
      "h2": "Aan de slag"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Toepassing preventief onderhoud](/nl/toepassingen/preventief-onderhoud/)",
-      "[Preventief onderhoud checklist](/nl/kennisbank/templates/preventief-onderhoud-checklist/)",
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Smart glasses in de industrie](/nl/blog/smart-glasses-industrie/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -22463,6 +21361,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-preventive-maintenance-guide.webp",
+   "related": [
+    "ucMaintenance",
+    "tplMaintenance",
+    "solDwi",
+    "blogSmartGlasses"
+   ],
    "heroImage": "Preventief onderhoud: pomp met AR-bril-overlay en een onderhoudskalender"
   },
   "blogSmartGlasses": {
@@ -22639,23 +21543,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**Hardware-advies en pilot** met vaste KPI's."
      ],
      "h2": "Zo helpt Actarion"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je advies over welke AR-bril bij jouw taken past? [Plan een kosteloze intake](/nl/contact/)."
-     ],
-     "h2": "Plan een kosteloze intake"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Hardware](/nl/hardware/)",
-      "[HoloLens alternatieven](/nl/blog/hololens-alternatieven/)",
-      "[Augmented reality in de industrie](/nl/blog/augmented-reality-industrie/)",
-      "[Preventief onderhoud](/nl/blog/preventief-onderhoud/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -22679,6 +21566,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-smart-glasses-industry.webp",
+   "related": [
+    "hardware",
+    "blogHololens",
+    "blogArManufacturing",
+    "blogMaintenance"
+   ],
    "heroImage": "Smart glasses in de industrie: close-up van een AR-bril met stapkaart in het glas en een tandwiel"
   },
   "blogSmed": {
@@ -22899,16 +21792,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Download de gratis [SMED omstel-checklist](/nl/kennisbank/templates/smed-omstel-checklist/) en analyseer je volgende omstelling."
      ],
      "h2": "Aan de slag"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Toepassing omstellen en SMED](/nl/toepassingen/omstellen-smed/)",
-      "[SMED omstel-checklist](/nl/kennisbank/templates/smed-omstel-checklist/)",
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Werkinstructie maken](/nl/blog/werkinstructie-maken/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -22932,6 +21815,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-smed-guide.webp",
+   "related": [
+    "ucChangeover",
+    "tplSmed",
+    "solDwi",
+    "blogWriteWorkInstructions"
+   ],
    "heroImage": "SMED omstellen: pers met matrijswagen en een tablet met timer die de omstelstappen begeleidt"
   },
   "blogAiSop": {
@@ -23105,23 +21994,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Bekijk [AI-werkinstructies](/nl/platform/ai-werkinstructies/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je zien hoe AI een van jouw SOP's omzet? [Plan een kosteloze intake](/nl/contact/)."
-     ],
-     "h2": "Plan een kosteloze intake"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[AI-werkinstructies](/nl/platform/ai-werkinstructies/)",
-      "[Wat is een SOP?](/nl/blog/wat-is-een-sop/)",
-      "[SOP-software](/nl/oplossingen/sop-software/)",
-      "[SOP template](/nl/kennisbank/templates/sop-template/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -23145,6 +22017,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-ai-sop-generator.webp",
+   "related": [
+    "pfAi",
+    "blogWhatIsSop",
+    "solSop",
+    "tplSop"
+   ],
    "heroImage": "SOP maken met AI: documenten die door AI worden omgezet in digitale stapkaarten"
   },
   "blogVisual": {
@@ -23332,23 +22210,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Lees meer over [digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je je eigen SOP zien als visuele AR-instructie? [Plan een kosteloze intake](/nl/contact/)."
-     ],
-     "h2": "Plan een kosteloze intake"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Werkinstructie maken](/nl/blog/werkinstructie-maken/)",
-      "[Werkinstructie template](/nl/kennisbank/templates/werkinstructie-template/)",
-      "[Augmented reality in de industrie](/nl/blog/augmented-reality-industrie/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -23368,6 +22229,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-visual-work-instructions.webp",
+   "related": [
+    "solDwi",
+    "blogWriteWorkInstructions",
+    "tplWorkInstruction",
+    "blogArManufacturing"
+   ],
    "heroImage": "Visuele werkinstructies: kleppenpaneel en een tablet met dezelfde klep en een AR-pijl"
   },
   "blogConnectedWorker": {
@@ -23561,23 +22428,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Bekijk het [connected worker platform](/nl/oplossingen/connected-worker-platform/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je weten waar connected werken in jouw fabriek het eerst loont? [Plan een kosteloze intake](/nl/contact/)."
-     ],
-     "h2": "Plan een kosteloze intake"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Connected worker platform](/nl/oplossingen/connected-worker-platform/)",
-      "[Augmented reality in de industrie](/nl/blog/augmented-reality-industrie/)",
-      "[Competentiematrix maken](/nl/blog/competentiematrix-maken/)",
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -23601,6 +22451,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-what-is-a-connected-worker.webp",
+   "related": [
+    "solCwp",
+    "blogArManufacturing",
+    "blogSkillsMatrix",
+    "solDwi"
+   ],
    "heroImage": "Connected worker: operator met AR-bril verbonden met machine, checklist en dashboard"
   },
   "blogWhatIsSop": {
@@ -23831,16 +22687,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Download het gratis [SOP template](/nl/kennisbank/templates/sop-template/) en standaardiseer je volgende procedure."
      ],
      "h2": "Aan de slag"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SOP-software](/nl/oplossingen/sop-software/)",
-      "[SOP template](/nl/kennisbank/templates/sop-template/)",
-      "[SOP maken met AI](/nl/blog/sop-maken-met-ai/)",
-      "[Werkinstructie maken](/nl/blog/werkinstructie-maken/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -23864,6 +22710,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-what-is-an-sop.webp",
+   "related": [
+    "solSop",
+    "tplSop",
+    "blogAiSop",
+    "blogWriteWorkInstructions"
+   ],
    "heroImage": "Wat is een SOP: ordner en SOP-document met auditvinkje naast een tablet met dashboard"
   },
   "blogWriteWorkInstructions": {
@@ -24088,16 +22940,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Download het gratis [werkinstructie template](/nl/kennisbank/templates/werkinstructie-template/) en maak vandaag je eerste werkinstructie."
      ],
      "h2": "Aan de slag"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Werkinstructie template](/nl/kennisbank/templates/werkinstructie-template/)",
-      "[Visuele werkinstructies](/nl/blog/visuele-werkinstructies/)",
-      "[Wat is een SOP?](/nl/blog/wat-is-een-sop/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -24121,6 +22963,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-how-to-write-work-instructions.webp",
+   "related": [
+    "solDwi",
+    "tplWorkInstruction",
+    "blogVisual",
+    "blogWhatIsSop"
+   ],
    "heroImage": "Werkinstructie maken: papieren instructie omgezet naar digitale stapkaarten op een tablet"
   },
   "contact": {
@@ -24201,27 +23049,16 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       }
      ],
      "h2": "Wat gebeurt er na het versturen?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Verstuur het formulier of mail naar hello@actarion.com."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Plan een demo](/nl/demo/)",
-      "[Pilot-aanpak](/nl/pilot/)",
-      "[Veelgestelde vragen](/nl/veelgestelde-vragen/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/contact.webp",
+   "related": [
+    "demo",
+    "pilot",
+    "faq"
+   ],
    "heroImage": "Pentekening: envelop en een cyane tekstballon die een gesprek starten"
   },
   "demo": {
@@ -24296,23 +23133,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Een lokaal aanspreekpunt in de Benelux, DACH of de Nordics."
      ],
      "h2": "Hoe Actarion helpt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Vul het formulier in en we bevestigen een tijdstip binnen [TE BEVESTIGEN: reactietermijn]."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Video's](/nl/kennisbank/videos/)",
-      "[Pilot-aanpak](/nl/pilot/)",
-      "[DeepSight in Europa](/nl/partners/deepsight/)",
-      "[Contact](/nl/contact/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -24328,6 +23148,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/demo.webp",
+   "related": [
+    "videos",
+    "pilot",
+    "partnerDeepsight",
+    "contact"
+   ],
    "heroImage": "Pentekening: laptop met videogesprek en een cyane stapkaart, naast een AR-bril en een vinkje"
   },
   "hwAndroidXr": {
@@ -24456,16 +23282,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Plan een demo](/nl/demo/)**"
      ],
      "h2": "Test Android XR op je eigen taak"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[AR bril en smart glasses](/nl/hardware/)",
-      "[AR-bril vs tablet](/nl/vergelijken/ar-bril-vs-tablet/)",
-      "[AR-begeleiding](/nl/platform/ar-begeleiding/)",
-      "[Connected worker platform](/nl/oplossingen/connected-worker-platform/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -24485,6 +23301,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/hardware-android-xr.webp",
+   "related": [
+    "hardware",
+    "cmpGlassesTablets",
+    "pfAr",
+    "solCwp"
+   ],
    "heroImage": "Pentekening: een Android XR-headset boven een werkbank met een cyaan overlay op een onderdeel"
   },
   "hwVisionPro": {
@@ -24613,16 +23435,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Plan een demo](/nl/demo/)**"
      ],
      "h2": "Test Vision Pro op je eigen taak"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[AR bril en smart glasses](/nl/hardware/)",
-      "[Vision Pro vs HoloLens](/nl/vergelijken/vision-pro-vs-hololens/)",
-      "[AR-begeleiding](/nl/platform/ar-begeleiding/)",
-      "[Training en inwerken](/nl/oplossingen/training-en-inwerken/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -24642,6 +23454,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/foto/visionpro-hal.webp",
+   "related": [
+    "hardware",
+    "cmpVisionProHololens",
+    "pfAr",
+    "solTraining"
+   ],
    "heroImage": "Pentekening: een mixed-reality-headset in zijaanzicht met een zwevend cyaan instructievenster boven een machine"
   },
   "hwHololens": {
@@ -24781,23 +23599,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Plan een kosteloze intake](/nl/demo/)**"
      ],
      "h2": "Plan je HoloLens 2-migratie"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[AR bril en smart glasses](/nl/hardware/)",
-      "[Vision Pro vs HoloLens](/nl/vergelijken/vision-pro-vs-hololens/)",
-      "[AR-bril vs tablet](/nl/vergelijken/ar-bril-vs-tablet/)",
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)"
-     ],
-     "h2": "Gerelateerd"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "*Bron status HoloLens 2: aankondiging Microsoft, oktober 2024, via [Road to VR](https://roadtovr.com/microsoft-hololens-2-discontinued-support-2027-hololens-3/).*"
-     ],
-     "h2": ""
     }
    ],
    "faq": [
@@ -24817,6 +23618,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/hardware-hololens.webp",
+   "related": [
+    "hardware",
+    "cmpVisionProHololens",
+    "cmpGlassesTablets",
+    "solDwi"
+   ],
    "heroImage": "Pentekening: werkinstructies verhuizen van een oude AR-bril naar een tablet en een nieuwe headset"
   },
   "hardware": {
@@ -24962,16 +23769,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Plan een kosteloze intake](/nl/demo/)**"
      ],
      "h2": "Twijfel je welk apparaat past?"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[AR-begeleiding](/nl/platform/ar-begeleiding/)",
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[AR-bril vs tablet](/nl/vergelijken/ar-bril-vs-tablet/)",
-      "[Start een pilot](/nl/pilot/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -24995,6 +23792,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/hardware.webp",
+   "related": [
+    "pfAr",
+    "solDwi",
+    "cmpGlassesTablets",
+    "pilot"
+   ],
    "heroImage": "Pentekening: bovenaanzicht van een tablet, smartphone, AR-bril en headset, elk met een cyaan werkinstructie"
   },
   "hwTablets": {
@@ -25140,16 +23943,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Plan een demo](/nl/demo/)**"
      ],
      "h2": "Bekijk je SOP op een tablet"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[AR bril en smart glasses](/nl/hardware/)",
-      "[AR-bril vs tablet](/nl/vergelijken/ar-bril-vs-tablet/)",
-      "[SOP-software](/nl/oplossingen/sop-software/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -25169,6 +23962,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/hardware-tablets-smartphones.webp",
+   "related": [
+    "solDwi",
+    "hardware",
+    "cmpGlassesTablets",
+    "solSop"
+   ],
    "heroImage": "Pentekening: een tablet aan een arm naast een transportband en een smartphone met een cyaan stapkaart"
   },
   "home": {
@@ -25357,16 +24156,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Plan een kosteloze intake](/nl/demo/)**"
      ],
      "h2": "Klaar om je eerste SOP te digitaliseren?"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Software voor digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Alle oplossingen](/nl/oplossingen/)",
-      "[Start een pilot](/nl/pilot/)",
-      "[ROI-calculator](/nl/kennisbank/roi-calculator/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -25394,6 +24183,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/home.webp",
+   "related": [
+    "solDwi",
+    "solutions",
+    "pilot",
+    "roiCalculator"
+   ],
    "heroImage": "Pentekening: een papieren SOP wordt een digitale werkinstructie op tablet en AR-bril, met uitvoeringsdata naar een dashboard"
   },
   "termAr": {
@@ -25461,22 +24256,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[digital twin](/nl/kennisbank/begrippen/digital-twin/)"
      ],
      "h2": "Verwante begrippen"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je dit op je eigen lijn zien? [Plan een kosteloze intake](/nl/demo/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Omstellen en SMED](/nl/toepassingen/omstellen-smed/)",
-      "[Begrippenlijst](/nl/kennisbank/begrippen/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -25496,6 +24275,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-augmented-reality.webp",
+   "related": [
+    "solDwi",
+    "ucChangeover",
+    "glossary"
+   ],
    "heroImage": "Pentekening bij het begrip augmented reality"
   },
   "termCapa": {
@@ -25563,22 +24347,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[first time right](/nl/kennisbank/begrippen/first-time-right/)"
      ],
      "h2": "Verwante begrippen"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je dit op je eigen lijn zien? [Plan een kosteloze intake](/nl/demo/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SOP-software](/nl/oplossingen/sop-software/)",
-      "[Kwaliteitsinspecties](/nl/toepassingen/kwaliteitsinspecties/)",
-      "[Begrippenlijst](/nl/kennisbank/begrippen/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -25598,6 +24366,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-capa.webp",
+   "related": [
+    "solSop",
+    "ucQuality",
+    "glossary"
+   ],
    "heroImage": "Pentekening bij het begrip CAPA"
   },
   "termSkillsMatrix": {
@@ -25665,22 +24438,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[Werkerassistenzsystem](/nl/kennisbank/begrippen/werkerassistenzsystem/)"
      ],
      "h2": "Verwante begrippen"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je dit op je eigen lijn zien? [Plan een kosteloze intake](/nl/demo/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Training en inwerken](/nl/oplossingen/training-en-inwerken/)",
-      "[Kwaliteitsinspecties](/nl/toepassingen/kwaliteitsinspecties/)",
-      "[Begrippenlijst](/nl/kennisbank/begrippen/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -25700,6 +24457,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-skills-matrix.webp",
+   "related": [
+    "solTraining",
+    "ucQuality",
+    "glossary"
+   ],
    "heroImage": "Pentekening bij het begrip competentiematrix"
   },
   "termConnectedWorker": {
@@ -25767,22 +24529,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[competentiematrix](/nl/kennisbank/begrippen/competentiematrix/)"
      ],
      "h2": "Verwante begrippen"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je dit op je eigen lijn zien? [Plan een kosteloze intake](/nl/demo/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Connected worker platform](/nl/oplossingen/connected-worker-platform/)",
-      "[Remote ondersteuning](/nl/toepassingen/remote-ondersteuning/)",
-      "[Begrippenlijst](/nl/kennisbank/begrippen/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -25802,6 +24548,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-connected-worker.webp",
+   "related": [
+    "solCwp",
+    "ucRemote",
+    "glossary"
+   ],
    "heroImage": "Pentekening bij het begrip connected worker"
   },
   "termDigitalTwin": {
@@ -25869,22 +24620,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[mixed reality](/nl/kennisbank/begrippen/mixed-reality/)"
      ],
      "h2": "Verwante begrippen"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je dit op je eigen lijn zien? [Plan een kosteloze intake](/nl/demo/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Connected worker platform](/nl/oplossingen/connected-worker-platform/)",
-      "[Omstellen en SMED](/nl/toepassingen/omstellen-smed/)",
-      "[Begrippenlijst](/nl/kennisbank/begrippen/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -25904,6 +24639,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-digital-twin.webp",
+   "related": [
+    "solCwp",
+    "ucChangeover",
+    "glossary"
+   ],
    "heroImage": "Pentekening bij het begrip digital twin"
   },
   "termFtr": {
@@ -25971,22 +24711,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[werkinstructie](/nl/kennisbank/begrippen/werkinstructie/)"
      ],
      "h2": "Verwante begrippen"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je dit op je eigen lijn zien? [Plan een kosteloze intake](/nl/demo/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Kwaliteitsinspecties](/nl/toepassingen/kwaliteitsinspecties/)",
-      "[Begrippenlijst](/nl/kennisbank/begrippen/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -26006,6 +24730,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-first-time-right.webp",
+   "related": [
+    "solDwi",
+    "ucQuality",
+    "glossary"
+   ],
    "heroImage": "Pentekening bij het begrip first time right"
   },
   "termGmp": {
@@ -26073,22 +24802,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[SOP](/nl/kennisbank/begrippen/sop/)"
      ],
      "h2": "Verwante begrippen"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je dit op je eigen lijn zien? [Plan een kosteloze intake](/nl/demo/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SOP-software](/nl/oplossingen/sop-software/)",
-      "[Kwaliteitsinspecties](/nl/toepassingen/kwaliteitsinspecties/)",
-      "[Begrippenlijst](/nl/kennisbank/begrippen/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -26108,6 +24821,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-gmp.webp",
+   "related": [
+    "solSop",
+    "ucQuality",
+    "glossary"
+   ],
    "heroImage": "Pentekening bij het begrip GMP"
   },
   "glossary": {
@@ -26223,22 +24941,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Audit trail en competentiematrix per uitvoering."
      ],
      "h2": "Hoe helpt Actarion?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je deze begrippen op je eigen lijn zien werken? [Plan een kosteloze intake](/nl/demo/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Vergelijkingen](/nl/vergelijken/)",
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Connected worker platform](/nl/oplossingen/connected-worker-platform/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -26258,6 +24960,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary.webp",
+   "related": [
+    "compare",
+    "solDwi",
+    "solCwp"
+   ],
    "heroImage": "Pentekening van een open begrippenboek met een cyaan bladwijzer"
   },
   "termKnowledgeCapture": {
@@ -26325,22 +25032,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[SOP](/nl/kennisbank/begrippen/sop/)"
      ],
      "h2": "Verwante begrippen"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je dit op je eigen lijn zien? [Plan een kosteloze intake](/nl/demo/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Kennisborging met Actarion](/nl/oplossingen/kennisborging/)",
-      "[Remote ondersteuning](/nl/toepassingen/remote-ondersteuning/)",
-      "[Begrippenlijst](/nl/kennisbank/begrippen/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -26360,6 +25051,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-knowledge-capture.webp",
+   "related": [
+    "solKnowledge",
+    "ucRemote",
+    "glossary"
+   ],
    "heroImage": "Pentekening bij het begrip kennisborging"
   },
   "termLineClearance": {
@@ -26427,22 +25123,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[SOP](/nl/kennisbank/begrippen/sop/)"
      ],
      "h2": "Verwante begrippen"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je dit op je eigen lijn zien? [Plan een kosteloze intake](/nl/demo/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale checklists](/nl/oplossingen/digitale-checklists/)",
-      "[Kwaliteitsinspecties](/nl/toepassingen/kwaliteitsinspecties/)",
-      "[Begrippenlijst](/nl/kennisbank/begrippen/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -26462,6 +25142,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-line-clearance.webp",
+   "related": [
+    "solChecklists",
+    "ucQuality",
+    "glossary"
+   ],
    "heroImage": "Pentekening bij het begrip lijnvrijgave"
   },
   "termLoto": {
@@ -26529,22 +25214,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[werkinstructie](/nl/kennisbank/begrippen/werkinstructie/)"
      ],
      "h2": "Verwante begrippen"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je dit op je eigen lijn zien? [Plan een kosteloze intake](/nl/demo/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale checklists](/nl/oplossingen/digitale-checklists/)",
-      "[Veiligheid en LOTO](/nl/toepassingen/veiligheid-loto/)",
-      "[Begrippenlijst](/nl/kennisbank/begrippen/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -26564,6 +25233,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-loto.webp",
+   "related": [
+    "solChecklists",
+    "ucSafety",
+    "glossary"
+   ],
    "heroImage": "Pentekening bij het begrip LOTO"
   },
   "termMes": {
@@ -26631,22 +25305,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[digital twin](/nl/kennisbank/begrippen/digital-twin/)"
      ],
      "h2": "Verwante begrippen"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je dit op je eigen lijn zien? [Plan een kosteloze intake](/nl/demo/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Connected worker platform](/nl/oplossingen/connected-worker-platform/)",
-      "[Kwaliteitsinspecties](/nl/toepassingen/kwaliteitsinspecties/)",
-      "[Begrippenlijst](/nl/kennisbank/begrippen/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -26666,6 +25324,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-mes.webp",
+   "related": [
+    "solCwp",
+    "ucQuality",
+    "glossary"
+   ],
    "heroImage": "Pentekening bij het begrip MES"
   },
   "termMr": {
@@ -26733,22 +25396,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[digital twin](/nl/kennisbank/begrippen/digital-twin/)"
      ],
      "h2": "Verwante begrippen"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je dit op je eigen lijn zien? [Plan een kosteloze intake](/nl/demo/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Remote ondersteuning](/nl/toepassingen/remote-ondersteuning/)",
-      "[Begrippenlijst](/nl/kennisbank/begrippen/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -26768,6 +25415,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-mixed-reality.webp",
+   "related": [
+    "solDwi",
+    "ucRemote",
+    "glossary"
+   ],
    "heroImage": "Pentekening bij het begrip mixed reality"
   },
   "termOee": {
@@ -26835,22 +25487,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[MES](/nl/kennisbank/begrippen/mes/)"
      ],
      "h2": "Verwante begrippen"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je dit op je eigen lijn zien? [Plan een kosteloze intake](/nl/demo/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Omstellen en SMED](/nl/toepassingen/omstellen-smed/)",
-      "[Begrippenlijst](/nl/kennisbank/begrippen/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -26870,6 +25506,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-oee.webp",
+   "related": [
+    "solDwi",
+    "ucChangeover",
+    "glossary"
+   ],
    "heroImage": "Pentekening bij het begrip OEE"
   },
   "termPokaYoke": {
@@ -26937,22 +25578,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[CAPA](/nl/kennisbank/begrippen/capa/)"
      ],
      "h2": "Verwante begrippen"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je dit op je eigen lijn zien? [Plan een kosteloze intake](/nl/demo/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale checklists](/nl/oplossingen/digitale-checklists/)",
-      "[Kwaliteitsinspecties](/nl/toepassingen/kwaliteitsinspecties/)",
-      "[Begrippenlijst](/nl/kennisbank/begrippen/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -26972,6 +25597,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-poka-yoke.webp",
+   "related": [
+    "solChecklists",
+    "ucQuality",
+    "glossary"
+   ],
    "heroImage": "Pentekening bij het begrip poka-yoke"
   },
   "termRemote": {
@@ -27039,22 +25669,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[connected worker](/nl/kennisbank/begrippen/connected-worker/)"
      ],
      "h2": "Verwante begrippen"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je dit op je eigen lijn zien? [Plan een kosteloze intake](/nl/demo/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Connected worker platform](/nl/oplossingen/connected-worker-platform/)",
-      "[Remote ondersteuning](/nl/toepassingen/remote-ondersteuning/)",
-      "[Begrippenlijst](/nl/kennisbank/begrippen/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -27074,6 +25688,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-remote-assistance.webp",
+   "related": [
+    "solCwp",
+    "ucRemote",
+    "glossary"
+   ],
    "heroImage": "Pentekening bij het begrip remote assistentie"
   },
   "termSmartGlasses": {
@@ -27141,22 +25760,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[remote assistentie](/nl/kennisbank/begrippen/remote-assistentie/)"
      ],
      "h2": "Verwante begrippen"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je dit op je eigen lijn zien? [Plan een kosteloze intake](/nl/demo/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Connected worker platform](/nl/oplossingen/connected-worker-platform/)",
-      "[Remote ondersteuning](/nl/toepassingen/remote-ondersteuning/)",
-      "[Begrippenlijst](/nl/kennisbank/begrippen/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -27176,6 +25779,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-smart-glasses.webp",
+   "related": [
+    "solCwp",
+    "ucRemote",
+    "glossary"
+   ],
    "heroImage": "Pentekening bij het begrip slimme bril"
   },
   "termSmed": {
@@ -27243,22 +25851,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[first time right](/nl/kennisbank/begrippen/first-time-right/)"
      ],
      "h2": "Verwante begrippen"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je dit op je eigen lijn zien? [Plan een kosteloze intake](/nl/demo/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Omstellen en SMED](/nl/toepassingen/omstellen-smed/)",
-      "[Begrippenlijst](/nl/kennisbank/begrippen/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -27278,6 +25870,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-smed.webp",
+   "related": [
+    "solDwi",
+    "ucChangeover",
+    "glossary"
+   ],
    "heroImage": "Pentekening bij het begrip SMED"
   },
   "termSop": {
@@ -27345,22 +25942,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[CAPA](/nl/kennisbank/begrippen/capa/)"
      ],
      "h2": "Verwante begrippen"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je dit op je eigen lijn zien? [Plan een kosteloze intake](/nl/demo/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SOP-software](/nl/oplossingen/sop-software/)",
-      "[Kwaliteitsinspecties](/nl/toepassingen/kwaliteitsinspecties/)",
-      "[Begrippenlijst](/nl/kennisbank/begrippen/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -27380,6 +25961,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-sop.webp",
+   "related": [
+    "solSop",
+    "ucQuality",
+    "glossary"
+   ],
    "heroImage": "Pentekening bij het begrip SOP"
   },
   "termWas": {
@@ -27447,22 +26033,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[augmented reality](/nl/kennisbank/begrippen/augmented-reality/)"
      ],
      "h2": "Verwante begrippen"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je dit op je eigen lijn zien? [Plan een kosteloze intake](/nl/demo/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Connected worker platform](/nl/oplossingen/connected-worker-platform/)",
-      "[Omstellen en SMED](/nl/toepassingen/omstellen-smed/)",
-      "[Begrippenlijst](/nl/kennisbank/begrippen/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -27482,6 +26052,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-werkerassistenzsystem.webp",
+   "related": [
+    "solCwp",
+    "ucChangeover",
+    "glossary"
+   ],
    "heroImage": "Pentekening bij het begrip Werkerassistenzsystem"
   },
   "termWorkInstruction": {
@@ -27549,22 +26124,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[augmented reality](/nl/kennisbank/begrippen/augmented-reality/)"
      ],
      "h2": "Verwante begrippen"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je dit op je eigen lijn zien? [Plan een kosteloze intake](/nl/demo/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Omstellen en SMED](/nl/toepassingen/omstellen-smed/)",
-      "[Begrippenlijst](/nl/kennisbank/begrippen/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -27584,6 +26143,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-work-instruction.webp",
+   "related": [
+    "solDwi",
+    "ucChangeover",
+    "glossary"
+   ],
    "heroImage": "Pentekening bij het begrip werkinstructie"
   },
   "events": {
@@ -27652,22 +26216,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Een vervolgintake om je eerste use case in kaart te brengen."
      ],
      "h2": "Hoe Actarion helpt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Een sessie op je eigen locatie? [Plan een kosteloze intake](/nl/contact/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Video's](/nl/kennisbank/videos/)",
-      "[Plan een demo](/nl/demo/)",
-      "[Pilot-aanpak](/nl/pilot/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -27679,6 +26227,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-events.webp",
+   "related": [
+    "videos",
+    "demo",
+    "pilot"
+   ],
    "heroImage": "Pentekening: presentatiescherm met een cyane stapkaart en een AR-bril, met publiek in silhouet"
   },
   "resources": {
@@ -27743,23 +26296,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "De gidsen volgen de aanpak van Actarion: SOP → AI → AR → audit-proof."
      ],
      "h2": "Hoe Actarion helpt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "[Download een template voor werkinstructies](/nl/kennisbank/templates/) en begin vandaag."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Templates voor werkinstructies](/nl/kennisbank/templates/)",
-      "[ROI-calculator](/nl/kennisbank/roi-calculator/)",
-      "[Begrippenlijst](/nl/kennisbank/begrippen/)",
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -27775,6 +26311,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources.webp",
+   "related": [
+    "templates",
+    "roiCalculator",
+    "glossary",
+    "solDwi"
+   ],
    "heroImage": "Pentekening: bovenaanzicht van een bureau met documenten, een tablet met cyane stapkaart, een rekenmachine, een kalender en een video"
   },
   "roiCalculator": {
@@ -27931,23 +26473,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Uitvoeringsdata uit de audit trail maken de nameting objectief."
      ],
      "h2": "Hoe Actarion helpt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Hulp nodig bij het invullen? [Plan een kosteloze intake](/nl/contact/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Pilot-aanpak](/nl/pilot/)",
-      "[Klantcases](/nl/klanten/)",
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Inwerken en training](/nl/toepassingen/inwerken-training/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -27967,6 +26492,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-roi-calculator.webp",
+   "related": [
+    "pilot",
+    "customers",
+    "solDwi",
+    "ucOnboarding"
+   ],
    "heroImage": "Pentekening: balans met een papieren SOP en een klok links en een tablet met cyane stapkaart rechts, plus een stijgende pijl"
   },
   "tpl5s": {
@@ -28327,23 +26858,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Lees meer over [digitale checklists](/nl/oplossingen/digitale-checklists/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Kopieer de 5S audit checklist of download hem. **Plan een kosteloze intake** om je audits te digitaliseren."
-     ],
-     "h2": "Download de template"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale checklists](/nl/oplossingen/digitale-checklists/)",
-      "[Opstartchecklist](/nl/kennisbank/templates/opstartchecklist/)",
-      "[Kwaliteitsinspecties](/nl/toepassingen/kwaliteitsinspecties/)",
-      "[Werkinstructie template](/nl/kennisbank/templates/werkinstructie-template/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -28367,6 +26881,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-5s-audit-checklist.webp",
+   "related": [
+    "solChecklists",
+    "tplPreShift",
+    "ucQuality",
+    "tplWorkInstruction"
+   ],
    "heroImage": "Pentekening van een gereedschapsbord met schaduwvormen en één gemarkeerd leeg vak, naast een tablet met een 5S audit checklist"
   },
   "tplSkills": {
@@ -28689,23 +27209,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Lees meer over [training en inwerken](/nl/oplossingen/training-en-inwerken/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Kopieer de matrix of download de Excel-versie. **Plan een kosteloze intake** en zie een skills matrix die zichzelf bijwerkt."
-     ],
-     "h2": "Download de template"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Competentiematrix maken](/nl/blog/competentiematrix-maken/)",
-      "[Training en inwerken](/nl/oplossingen/training-en-inwerken/)",
-      "[Inwerkprogramma productie](/nl/kennisbank/templates/inwerkprogramma-productie/)",
-      "[Inwerken en training](/nl/toepassingen/inwerken-training/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -28729,6 +27232,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-skills-matrix-template.webp",
+   "related": [
+    "blogSkillsMatrix",
+    "solTraining",
+    "tplOnboarding",
+    "ucOnboarding"
+   ],
    "heroImage": "Pentekening van een whiteboard met een competentiematrix naast een tablet met dezelfde skills matrix digitaal"
   },
   "templates": {
@@ -28890,16 +27399,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Download: [Word](#) [Excel](#) [PDF](#)"
      ],
      "h2": "Aan de slag"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Digitale checklists](/nl/oplossingen/digitale-checklists/)",
-      "[Werkinstructie maken: de gids](/nl/blog/werkinstructie-maken/)",
-      "[Omstellen en SMED](/nl/toepassingen/omstellen-smed/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -28927,6 +27426,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates.webp",
+   "related": [
+    "solDwi",
+    "solChecklists",
+    "blogWriteWorkInstructions",
+    "ucChangeover"
+   ],
    "heroImage": "Pentekening van papieren templates voor productie op een bureau naast een tablet met dezelfde checklist digitaal"
   },
   "tplOnboarding": {
@@ -29202,23 +27707,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Lees meer over [training en inwerken](/nl/oplossingen/training-en-inwerken/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Kopieer het inwerkprogramma of download het. **Plan een kosteloze intake** en zie inwerken met AR-begeleiding."
-     ],
-     "h2": "Download de template"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Training en inwerken](/nl/oplossingen/training-en-inwerken/)",
-      "[Inwerken en training](/nl/toepassingen/inwerken-training/)",
-      "[Competentiematrix template](/nl/kennisbank/templates/competentiematrix-template/)",
-      "[Competentiematrix maken](/nl/blog/competentiematrix-maken/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -29242,6 +27730,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-operator-onboarding-plan.webp",
+   "related": [
+    "solTraining",
+    "ucOnboarding",
+    "tplSkills",
+    "blogSkillsMatrix"
+   ],
    "heroImage": "Pentekening van een inwerkprogramma als tijdlijn op tafel naast een AR-bril met cyaan overlay"
   },
   "tplKnowledge": {
@@ -29558,23 +28052,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Lees meer over [kennisborging](/nl/oplossingen/kennisborging/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Kopieer het plan of download het. **Plan een kosteloze intake** en borg expertkennis met AR."
-     ],
-     "h2": "Download de template"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Kennisborging](/nl/oplossingen/kennisborging/)",
-      "[Competentiematrix template](/nl/kennisbank/templates/competentiematrix-template/)",
-      "[Werkinstructie template](/nl/kennisbank/templates/werkinstructie-template/)",
-      "[Inwerken en training](/nl/toepassingen/inwerken-training/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -29598,6 +28075,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-knowledge-transfer-plan.webp",
+   "related": [
+    "solKnowledge",
+    "tplSkills",
+    "tplWorkInstruction",
+    "ucOnboarding"
+   ],
    "heroImage": "Pentekening van het notitieboek van een expert, vastgelegd op een tablet als digitale stappen en doorgegeven via een AR-bril"
   },
   "tplQuality": {
@@ -29874,23 +28357,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Bekijk de toepassing [kwaliteitsinspecties](/nl/toepassingen/kwaliteitsinspecties/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Kopieer de checklist of download hem. **Plan een kosteloze intake** en zie inspecties met AR-begeleiding."
-     ],
-     "h2": "Download de template"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Kwaliteitsinspecties](/nl/toepassingen/kwaliteitsinspecties/)",
-      "[Digitale checklists](/nl/oplossingen/digitale-checklists/)",
-      "[Line clearance checklist](/nl/kennisbank/templates/line-clearance-checklist/)",
-      "[Werkinstructie template](/nl/kennisbank/templates/werkinstructie-template/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -29914,6 +28380,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-quality-inspection-checklist.webp",
+   "related": [
+    "ucQuality",
+    "solChecklists",
+    "tplLineClearance",
+    "tplWorkInstruction"
+   ],
    "heroImage": "Pentekening van een schuifmaat die een flens meet naast een tablet met de kwaliteitsinspectie checklist"
   },
   "tplLineClearance": {
@@ -30184,23 +28656,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Bekijk de toepassing [kwaliteitsinspecties](/nl/toepassingen/kwaliteitsinspecties/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Kopieer de checklist of download hem. **Plan een kosteloze intake** en zie line clearance met AR-begeleiding."
-     ],
-     "h2": "Download de template"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Kwaliteitsinspecties](/nl/toepassingen/kwaliteitsinspecties/)",
-      "[Digitale checklists](/nl/oplossingen/digitale-checklists/)",
-      "[SMED omstel checklist](/nl/kennisbank/templates/smed-omstel-checklist/)",
-      "[SOP template](/nl/kennisbank/templates/sop-template/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -30224,6 +28679,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-line-clearance-checklist.webp",
+   "related": [
+    "ucQuality",
+    "solChecklists",
+    "tplSmed",
+    "tplSop"
+   ],
    "heroImage": "Pentekening van een lege verpakkingslijn met één gemarkeerde achtergebleven doos, een klembord en een tablet met de line clearance checklist"
   },
   "tplLoto": {
@@ -30556,23 +29017,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Bekijk de toepassing [veiligheid en LOTO](/nl/toepassingen/veiligheid-loto/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Kopieer de procedure of download hem. **Plan een kosteloze intake** en zie LOTO met AR-begeleiding."
-     ],
-     "h2": "Download de template"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Veiligheid en LOTO](/nl/toepassingen/veiligheid-loto/)",
-      "[Digitale checklists](/nl/oplossingen/digitale-checklists/)",
-      "[Checklist preventief onderhoud](/nl/kennisbank/templates/preventief-onderhoud-checklist/)",
-      "[Werkinstructie template](/nl/kennisbank/templates/werkinstructie-template/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -30596,6 +29040,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-lockout-tagout-procedure.webp",
+   "related": [
+    "ucSafety",
+    "solChecklists",
+    "tplMaintenance",
+    "tplWorkInstruction"
+   ],
    "heroImage": "Pentekening van een schakelkast met hangslot en label naast een tablet met de stappen van de LOTO-procedure"
   },
   "tplSchedule": {
@@ -30912,23 +29362,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Bekijk de toepassing [preventief onderhoud](/nl/toepassingen/preventief-onderhoud/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Kopieer het onderhoudsplan of download de Excel-versie. **Plan een kosteloze intake** en verbind planning met uitvoering."
-     ],
-     "h2": "Download de template"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Checklist preventief onderhoud](/nl/kennisbank/templates/preventief-onderhoud-checklist/)",
-      "[Preventief onderhoud](/nl/toepassingen/preventief-onderhoud/)",
-      "[Digitale checklists](/nl/oplossingen/digitale-checklists/)",
-      "[Kennisborging](/nl/oplossingen/kennisborging/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -30952,6 +29385,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-maintenance-schedule.webp",
+   "related": [
+    "tplMaintenance",
+    "ucMaintenance",
+    "solChecklists",
+    "solKnowledge"
+   ],
    "heroImage": "Pentekening van een onderhoudsplan als kalender met gemarkeerde taken, een tandwiel en een tablet met geplande werkorders"
   },
   "tplPreShift": {
@@ -31238,23 +29677,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Lees meer over [digitale checklists](/nl/oplossingen/digitale-checklists/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Kopieer de checklist of download hem. **Plan een kosteloze intake** en maak de opstartcheck digitaal."
-     ],
-     "h2": "Download de template"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale checklists](/nl/oplossingen/digitale-checklists/)",
-      "[Checklist preventief onderhoud](/nl/kennisbank/templates/preventief-onderhoud-checklist/)",
-      "[5S audit checklist](/nl/kennisbank/templates/5s-audit-checklist/)",
-      "[Preventief onderhoud](/nl/toepassingen/preventief-onderhoud/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -31278,6 +29700,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-pre-shift-checklist.webp",
+   "related": [
+    "solChecklists",
+    "tplMaintenance",
+    "tpl5s",
+    "ucMaintenance"
+   ],
    "heroImage": "Pentekening van een bedieningspaneel met meters naast een tablet met de opstartchecklist voor de dienst"
   },
   "tplMaintenance": {
@@ -31597,23 +30025,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Bekijk de toepassing [preventief onderhoud](/nl/toepassingen/preventief-onderhoud/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Kopieer de checklist of download hem. **Plan een kosteloze intake** en zie onderhoud met AR-begeleiding werken."
-     ],
-     "h2": "Download de template"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Preventief onderhoud](/nl/toepassingen/preventief-onderhoud/)",
-      "[Digitale checklists](/nl/oplossingen/digitale-checklists/)",
-      "[Onderhoudsplan template](/nl/kennisbank/templates/onderhoudsplan/)",
-      "[LOTO-procedure](/nl/kennisbank/templates/loto-procedure/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -31637,6 +30048,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-preventive-maintenance-checklist.webp",
+   "related": [
+    "ucMaintenance",
+    "solChecklists",
+    "tplSchedule",
+    "tplLoto"
+   ],
    "heroImage": "Pentekening van een pomp met gemarkeerd lager naast een tablet met een preventief onderhoud checklist"
   },
   "tplSmed": {
@@ -31907,23 +30324,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Bekijk de toepassing [omstellen en SMED](/nl/toepassingen/omstellen-smed/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Kopieer de checklist of download hem. **Plan een kosteloze intake** en zie omstellen met AR-begeleiding."
-     ],
-     "h2": "Download de template"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Omsteltijd verkorten met SMED](/nl/blog/smed-omsteltijd-verkorten/)",
-      "[Omstellen en SMED](/nl/toepassingen/omstellen-smed/)",
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Line clearance checklist](/nl/kennisbank/templates/line-clearance-checklist/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -31947,6 +30347,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-smed-changeover-checklist.webp",
+   "related": [
+    "blogSmed",
+    "ucChangeover",
+    "solDwi",
+    "tplLineClearance"
+   ],
    "heroImage": "Pentekening van een pers met matrijswagen, een stopwatch en een tablet met de SMED omstel checklist"
   },
   "tplSop": {
@@ -32221,23 +30627,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Lees meer over [SOP-software](/nl/oplossingen/sop-software/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Kopieer de SOP template of download hem. Wil je je eigen SOP als digitale instructie zien? **Plan een kosteloze intake.**"
-     ],
-     "h2": "Download de template"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SOP-software](/nl/oplossingen/sop-software/)",
-      "[Werkinstructie template](/nl/kennisbank/templates/werkinstructie-template/)",
-      "[Werkinstructie maken](/nl/blog/werkinstructie-maken/)",
-      "[Kwaliteitsinspecties](/nl/toepassingen/kwaliteitsinspecties/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -32261,6 +30650,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-sop-template.webp",
+   "related": [
+    "solSop",
+    "tplWorkInstruction",
+    "blogWriteWorkInstructions",
+    "ucQuality"
+   ],
    "heroImage": "Pentekening van ordners met SOP's en een stapel documenten naast een tablet met de SOP template als digitale stappen"
   },
   "tplWorkInstruction": {
@@ -32579,23 +30974,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Bekijk hoe [digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/) werken."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Kopieer de template hierboven of download hem. Wil je hem zien werken als AR-instructie? **Plan een kosteloze intake.**"
-     ],
-     "h2": "Download de template"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Werkinstructie maken: de gids](/nl/blog/werkinstructie-maken/)",
-      "[SOP template](/nl/kennisbank/templates/sop-template/)",
-      "[Inwerken en training](/nl/toepassingen/inwerken-training/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -32619,6 +30997,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-work-instruction-template.webp",
+   "related": [
+    "solDwi",
+    "blogWriteWorkInstructions",
+    "tplSop",
+    "ucOnboarding"
+   ],
    "heroImage": "Pentekening van een werkinstructie template op een klembord naast een tablet met dezelfde stappen digitaal"
   },
   "videos": {
@@ -32683,22 +31067,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Elke stap vastgelegd voor je audit trail."
      ],
      "h2": "Hoe Actarion helpt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Genoeg gezien? [Plan een live demo](/nl/demo/) op je eigen use case."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Plan een demo](/nl/demo/)",
-      "[Events](/nl/kennisbank/events/)",
-      "[Remote ondersteuning](/nl/toepassingen/remote-ondersteuning/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -32710,6 +31078,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-videos.webp",
+   "related": [
+    "demo",
+    "events",
+    "ucRemote"
+   ],
    "heroImage": "Pentekening: videoscherm met een machine en een cyane AR-stapkaart, met tijdlijn en afspeelknop"
   },
   "whitepapers": {
@@ -32776,22 +31149,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       }
      ],
      "h2": "Hoe download je een whitepaper?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Liever een gesprek? [Plan een kosteloze intake](/nl/contact/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[ROI-calculator](/nl/kennisbank/roi-calculator/)",
-      "[Pilot-aanpak](/nl/pilot/)",
-      "[Templates](/nl/kennisbank/templates/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -32803,6 +31160,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-whitepapers.webp",
+   "related": [
+    "roiCalculator",
+    "pilot",
+    "templates"
+   ],
    "heroImage": "Pentekening: stapel whitepapers met een cyaan diagramvlak en een downloadpijl"
   },
   "casePharma": {
@@ -32910,16 +31272,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**Pilot met vaste KPI's** bewijst het effect op één lijn of locatie voordat je opschaalt."
      ],
      "h2": "Zo helpt Actarion jou hetzelfde te doen"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Farma en biotech](/nl/sectoren/farma-biotech/)",
-      "[Omstellen en SMED](/nl/toepassingen/omstellen-smed/)",
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Alle klantcases](/nl/klanten/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -32939,6 +31291,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/customers-pharma-training-changeover.webp",
+   "related": [
+    "indPharma",
+    "ucChangeover",
+    "solDwi",
+    "customers"
+   ],
    "heroImage": "Pentekening: farmaceutische vulmachine met een cyane AR-markering bij de omstelling, gekoppeld aan een tablet"
   },
   "customers": {
@@ -33018,16 +31376,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**Herken je deze situatie?** [Plan een kosteloze intake](/nl/contact/) en we brengen je eerste use case in één gesprek in kaart."
      ],
      "h2": "Start je eigen case"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Pilot-aanpak in vier fasen](/nl/pilot/)",
-      "[DeepSight in Europa](/nl/partners/deepsight/)",
-      "[ROI-calculator](/nl/kennisbank/roi-calculator/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -33047,6 +31395,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/customers.webp",
+   "related": [
+    "solDwi",
+    "pilot",
+    "partnerDeepsight",
+    "roiCalculator"
+   ],
    "heroImage": "Pentekening: vier sokkels met een helm, een krat, een flacon en een wiel, verbonden met een tablet met een cyane casekaart"
   },
   "caseMining": {
@@ -33155,16 +31509,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**Pilot met vaste KPI's** bewijst het effect op één lijn of locatie voordat je opschaalt."
      ],
      "h2": "Zo helpt Actarion jou hetzelfde te doen"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Preventief onderhoud met AR](/nl/toepassingen/preventief-onderhoud/)",
-      "[Maakindustrie](/nl/sectoren/maakindustrie/)",
-      "[Alle klantcases](/nl/klanten/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -33184,6 +31528,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/customers-mining-training-maintenance.webp",
+   "related": [
+    "solDwi",
+    "ucMaintenance",
+    "indManufacturing",
+    "customers"
+   ],
    "heroImage": "Pentekening: mijnbouwvoertuig met een cyaan onderhoudspunt, gekoppeld aan een AR-bril en een tablet met stapkaart"
   },
   "caseTransport": {
@@ -33292,16 +31642,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**Pilot met vaste KPI's** bewijst het effect op één lijn of locatie voordat je opschaalt."
      ],
      "h2": "Zo helpt Actarion jou hetzelfde te doen"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Preventief onderhoud met AR](/nl/toepassingen/preventief-onderhoud/)",
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Templates voor werkinstructies](/nl/kennisbank/templates/)",
-      "[Alle klantcases](/nl/klanten/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -33321,6 +31661,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/customers-transport-maintenance-traceability.webp",
+   "related": [
+    "ucMaintenance",
+    "solDwi",
+    "templates",
+    "customers"
+   ],
    "heroImage": "Pentekening: vrachtwagen met een cyane markering op het wiel en een digitale onderhoudschecklist met vinkjes"
   },
   "caseFood": {
@@ -33428,16 +31774,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**Pilot met vaste KPI's** bewijst het effect op één lijn of locatie voordat je opschaalt."
      ],
      "h2": "Zo helpt Actarion jou hetzelfde te doen"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Voedingsmiddelenindustrie](/nl/sectoren/voedingsmiddelen/)",
-      "[Omstellen en SMED](/nl/toepassingen/omstellen-smed/)",
-      "[Templates voor werkinstructies](/nl/kennisbank/templates/)",
-      "[Alle klantcases](/nl/klanten/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -33457,6 +31793,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/customers-food-changeover-inspections.webp",
+   "related": [
+    "indFood",
+    "ucChangeover",
+    "templates",
+    "customers"
+   ],
    "heroImage": "Pentekening: voedingslijn met transportband en een formaatdeel dat wordt omgesteld, met de stapkaart op een tablet"
   },
   "solCwp": {
@@ -33643,17 +31985,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Plan een kosteloze intake](/nl/demo/)**"
      ],
      "h2": "Verbind je team op de werkvloer"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Training en inwerken](/nl/oplossingen/training-en-inwerken/)",
-      "[Competentiematrix-template](/nl/kennisbank/templates/competentiematrix-template/)",
-      "[Toepassing: remote ondersteuning](/nl/toepassingen/remote-ondersteuning/)",
-      "[ROI-calculator](/nl/kennisbank/roi-calculator/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -33685,6 +32016,13 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/solutions-connected-worker-platform.webp",
+   "related": [
+    "solDwi",
+    "solTraining",
+    "tplSkills",
+    "ucRemote",
+    "roiCalculator"
+   ],
    "heroImage": "Pentekening: AR-bril als middelpunt van een connected worker platform, verbonden met machine, dashboard en remote expert"
   },
   "solChecklists": {
@@ -33894,16 +32232,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Plan een kosteloze intake](/nl/demo/)**"
      ],
      "h2": "Digitaliseer je eerste checklist"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Preventief-onderhoud-checklist](/nl/kennisbank/templates/preventief-onderhoud-checklist/)",
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[SOP-software](/nl/oplossingen/sop-software/)",
-      "[Analyse en audit](/nl/platform/analyse-en-audit/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -33935,6 +32263,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/solutions-digital-checklists.webp",
+   "related": [
+    "tplMaintenance",
+    "solDwi",
+    "solSop",
+    "pfAnalytics"
+   ],
    "heroImage": "Pentekening: een tablet met een digitale checklist, afgevinkte stappen en fotobewijs, naast een papieren klembord"
   },
   "solDwi": {
@@ -34132,17 +32466,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Plan een kosteloze intake](/nl/demo/)**"
      ],
      "h2": "Zie je eigen SOP als digitale werkinstructie"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Werkinstructie-template](/nl/kennisbank/templates/werkinstructie-template/)",
-      "[SOP-software](/nl/oplossingen/sop-software/)",
-      "[AR-begeleiding](/nl/platform/ar-begeleiding/)",
-      "[Toepassing: assemblage](/nl/toepassingen/assemblage/)",
-      "[ROI-calculator](/nl/kennisbank/roi-calculator/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -34170,6 +32493,13 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/solutions-digital-work-instructions.webp",
+   "related": [
+    "tplWorkInstruction",
+    "solSop",
+    "pfAr",
+    "ucAssembly",
+    "roiCalculator"
+   ],
    "heroImage": "Pentekening van boven: een flens met bouten, een AR-markering op de volgende bout en een tablet met digitale werkinstructies"
   },
   "solutions": {
@@ -34248,16 +32578,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Plan een kosteloze intake](/nl/demo/)**"
      ],
      "h2": "Twijfel je waar je moet beginnen?"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Home](/nl/)",
-      "[Start een pilot](/nl/pilot/)",
-      "[Toepassing: inwerken en training](/nl/toepassingen/inwerken-training/)",
-      "[Maakindustrie](/nl/sectoren/maakindustrie/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -34277,6 +32597,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/solutions.webp",
+   "related": [
+    "home",
+    "pilot",
+    "ucOnboarding",
+    "indManufacturing"
+   ],
    "heroImage": "Pentekening: een centrale tablet met stapkaart, verbonden met zes oplossingen van Actarion"
   },
   "solKnowledge": {
@@ -34477,16 +32803,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Plan een kosteloze intake](/nl/demo/)**"
      ],
      "h2": "Borg de vakkennis van je experts"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Training en inwerken](/nl/oplossingen/training-en-inwerken/)",
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Toepassing: remote ondersteuning](/nl/toepassingen/remote-ondersteuning/)",
-      "[Werkinstructie-template](/nl/kennisbank/templates/werkinstructie-template/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -34510,6 +32826,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/solutions-knowledge-capture.webp",
+   "related": [
+    "solTraining",
+    "solDwi",
+    "ucRemote",
+    "tplWorkInstruction"
+   ],
    "heroImage": "Pentekening: een camera legt het werk aan een pomp en klep vast, dat als digitale stapkaarten wordt geborgd"
   },
   "solSop": {
@@ -34696,17 +33018,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Plan een kosteloze intake](/nl/demo/)**"
      ],
      "h2": "Zie je SOP omgezet met AI"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SOP-template](/nl/kennisbank/templates/sop-template/)",
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[AI-werkinstructies](/nl/platform/ai-werkinstructies/)",
-      "[Farma en biotech](/nl/sectoren/farma-biotech/)",
-      "[Digitale checklists](/nl/oplossingen/digitale-checklists/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -34738,6 +33049,13 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/solutions-sop-software.webp",
+   "related": [
+    "tplSop",
+    "solDwi",
+    "pfAi",
+    "indPharma",
+    "solChecklists"
+   ],
    "heroImage": "Pentekening van boven: een stapel papieren SOP's wordt met AI omgezet in digitale stapkaarten op een tablet"
   },
   "solTraining": {
@@ -34925,17 +33243,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Plan een kosteloze intake](/nl/demo/)**"
      ],
      "h2": "Werk je volgende nieuwe collega in met AR"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Toepassing: inwerken en training](/nl/toepassingen/inwerken-training/)",
-      "[Competentiematrix-template](/nl/kennisbank/templates/competentiematrix-template/)",
-      "[Kennisborging](/nl/oplossingen/kennisborging/)",
-      "[Connected worker platform](/nl/oplossingen/connected-worker-platform/)",
-      "[ROI-calculator](/nl/kennisbank/roi-calculator/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -34963,6 +33270,13 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/solutions-frontline-training.webp",
+   "related": [
+    "ucOnboarding",
+    "tplSkills",
+    "solKnowledge",
+    "solCwp",
+    "roiCalculator"
+   ],
    "heroImage": "Pentekening: een bedieningspaneel met AR-pijl voor de draairichting en een stapkaart, gekoppeld aan een competentiematrix"
   },
   "company": {
@@ -35050,29 +33364,18 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Oplossingen die je eigen team kan onderhouden."
      ],
      "h2": "Hoe Actarion helpt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "[Plan een kosteloze intake](/nl/contact/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Onze visie](/nl/over-ons/visie/)",
-      "[Team](/nl/over-ons/team/)",
-      "[Partners](/nl/partners/)",
-      "[Vacatures](/nl/over-ons/vacatures/)",
-      "[Nieuws](/nl/over-ons/nieuws/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/company.webp",
+   "related": [
+    "vision",
+    "team",
+    "partners",
+    "careers",
+    "news"
+   ],
    "heroImage": "Pentekening: kantoorgebouw, drie verbonden regioknopen met een cyaan middelpunt en een tablet met stapkaart"
   },
   "news": {
@@ -35125,27 +33428,16 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Zie hoe het DeepSight-platform zich ontwikkelt voor Europese bedrijven."
      ],
      "h2": "Waarom het nieuws van Actarion volgen?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Volg Actarion op LinkedIn (linkedin.com/company/ActARion) of [plan een kosteloze intake](/nl/contact/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Blog](/nl/blog/)",
-      "[Events](/nl/kennisbank/events/)",
-      "[Over Actarion](/nl/over-ons/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/company-news.webp",
+   "related": [
+    "blog",
+    "events",
+    "company"
+   ],
    "heroImage": "Pentekening: nieuwsbrief met een cyane afbeelding en een dashboard met staafjes"
   },
   "team": {
@@ -35211,27 +33503,16 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       ]
      ],
      "h2": "Wie is jouw aanspreekpunt?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "[Plan een kosteloze intake](/nl/contact/) met de managing partner voor jouw regio."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Over Actarion](/nl/over-ons/)",
-      "[Vacatures](/nl/over-ons/vacatures/)",
-      "[Contact](/nl/contact/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/company-team.webp",
+   "related": [
+    "company",
+    "careers",
+    "contact"
+   ],
    "heroImage": "Pentekening: drie silhouetten van het team onder een tablet met een cyane stapkaart"
   },
   "careers": {
@@ -35302,27 +33583,16 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       }
      ],
      "h2": "Hoe solliciteer je?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Geen passende vacature? Stuur een open sollicitatie. [TE BEVESTIGEN: e-mailadres open sollicitaties]"
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Over Actarion](/nl/over-ons/)",
-      "[Team](/nl/over-ons/team/)",
-      "[Onze visie](/nl/over-ons/visie/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/company-careers.webp",
+   "related": [
+    "company",
+    "team",
+    "vision"
+   ],
    "heroImage": "Pentekening: gereedschapskist, laptop met code en een cyaan scherm, en een AR-bril"
   },
   "vision": {
@@ -35402,27 +33672,16 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Oplossingen moeten transparant, veilig, meetbaar (fouten, stilstand, trainingstijd) en duurzaam zijn: je eigen team moet ze kunnen onderhouden."
      ],
      "h2": "Wat betekent verantwoord innoveren voor ons?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je bespreken wat dit betekent voor jouw fabriek? [Plan een kosteloze intake](/nl/contact/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Over Actarion](/nl/over-ons/)",
-      "[Pilot-aanpak](/nl/pilot/)",
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/company-vision.webp",
+   "related": [
+    "company",
+    "pilot",
+    "solDwi"
+   ],
    "heroImage": "Pentekening: pad van een papieren SOP via een tablet naar een netwerk van verbonden locaties"
   },
   "partnerDeepsight": {
@@ -35545,23 +33804,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Skills matrix gekoppeld aan afgeronde instructies."
      ],
      "h2": "Hoe Actarion helpt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "[Plan een demo](/nl/demo/) en zie DeepSight op je eigen use case."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Klantcases op DeepSight](/nl/klanten/)",
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Remote ondersteuning](/nl/toepassingen/remote-ondersteuning/)",
-      "[Alle partners](/nl/partners/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -35581,6 +33823,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/partners-deepsight.webp",
+   "related": [
+    "customers",
+    "solDwi",
+    "ucRemote",
+    "partners"
+   ],
    "heroImage": "Pentekening: monitor met cyane stapkaarten in een studio, uitgerold naar een tablet op statief en een AR-bril"
   },
   "partners": {
@@ -35671,23 +33919,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Je eigen mensen leren instructies bouwen en onderhouden."
      ],
      "h2": "Hoe Actarion helpt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je weten welke partners bij jouw use case passen? [Plan een kosteloze intake](/nl/contact/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[DeepSight in Europa](/nl/partners/deepsight/)",
-      "[Partner worden](/nl/partners/partner-worden/)",
-      "[Pilot-aanpak](/nl/pilot/)",
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -35707,6 +33938,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/partners.webp",
+   "related": [
+    "partnerDeepsight",
+    "partnerBecome",
+    "pilot",
+    "solDwi"
+   ],
    "heroImage": "Pentekening: tablet met cyane stapkaart in het midden van een partnernetwerk met tandwiel, AR-bril, document en skills matrix"
   },
   "partnerBecome": {
@@ -35776,22 +34013,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Een gedeelde pilotmethode met vaste KPI's."
      ],
      "h2": "Hoe Actarion helpt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "[Neem contact op over een partnerschap](/nl/contact/) en kies het onderwerp Partnership."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Alle partners](/nl/partners/)",
-      "[DeepSight in Europa](/nl/partners/deepsight/)",
-      "[Pilot-aanpak](/nl/pilot/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -35807,6 +34028,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/partners-become-a-partner.webp",
+   "related": [
+    "partners",
+    "partnerDeepsight",
+    "pilot"
+   ],
    "heroImage": "Pentekening: een groot en een cyaan tandwiel grijpen in elkaar, naast een tablet met stapkaart"
   },
   "partnerPotentify": {
@@ -35864,22 +34090,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Doorlopende leerpaden combineren AR-begeleiding op de werkvloer met formele training."
      ],
      "h2": "Hoe Actarion helpt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je AR-training koppelen aan je skills matrix? [Plan een kosteloze intake](/nl/contact/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Inwerken en training](/nl/toepassingen/inwerken-training/)",
-      "[Alle partners](/nl/partners/)",
-      "[Pilot-aanpak](/nl/pilot/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -35895,6 +34105,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/partners-potentify.webp",
+   "related": [
+    "ucOnboarding",
+    "partners",
+    "pilot"
+   ],
    "heroImage": "Pentekening: skills matrix met één cyane cel en een opgaande trap als leerpad"
   },
   "partnerSimplyChange": {
@@ -35949,22 +34164,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Dashboards voor gebruik op basis van uitvoeringsdata."
      ],
      "h2": "Hoe Actarion helpt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je verder dan je pilot? [Plan een kosteloze intake](/nl/contact/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Omstellen en SMED](/nl/toepassingen/omstellen-smed/)",
-      "[Pilot-aanpak](/nl/pilot/)",
-      "[Alle partners](/nl/partners/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -35980,6 +34179,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/partners-simply-change.webp",
+   "related": [
+    "ucChangeover",
+    "pilot",
+    "partners"
+   ],
    "heroImage": "Pentekening: drie fabrieken waarin een cyaan scherm stap voor stap wordt uitgerold met vinkjes"
   },
   "pilot": {
@@ -36059,23 +34263,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Je eigen auteurs worden opgeleid, zodat je niet van ons afhankelijk bent."
      ],
      "h2": "Hoe Actarion helpt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "[Plan een kosteloze intake](/nl/contact/) en we brengen samen je eerste use case in kaart."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[ROI-calculator](/nl/kennisbank/roi-calculator/)",
-      "[Klantcases](/nl/klanten/)",
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Omstellen en SMED](/nl/toepassingen/omstellen-smed/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -36095,6 +34282,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/pilot.webp",
+   "related": [
+    "roiCalculator",
+    "customers",
+    "solDwi",
+    "ucChangeover"
+   ],
    "heroImage": "Pentekening: vier oplopende treden van briefing via discovery en pilot naar opschalen met meerdere tablets"
   },
   "pfAi": {
@@ -36237,16 +34430,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Plan een demo](/nl/demo/)**"
      ],
      "h2": "Probeer het met een van je eigen SOP's"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SOP-software](/nl/oplossingen/sop-software/)",
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Kennis vastleggen](/nl/platform/kennis-vastleggen/)",
-      "[AR-begeleiding](/nl/platform/ar-begeleiding/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -36270,6 +34453,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/platform-ai-authoring.webp",
+   "related": [
+    "solSop",
+    "solDwi",
+    "pfKnowledge",
+    "pfAr"
+   ],
    "heroImage": "Pentekening: een papieren SOP gaat door AI-tandwielen en wordt afgevinkte digitale stapkaarten op een tablet"
   },
   "pfAnalytics": {
@@ -36419,16 +34608,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Plan een demo](/nl/demo/)**"
      ],
      "h2": "Bekijk de audit trail op je eigen proces"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SOP-software](/nl/oplossingen/sop-software/)",
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Competentiebeheer](/nl/platform/competentiebeheer/)",
-      "[Beveiliging en compliance](/nl/platform/beveiliging/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -36448,6 +34627,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/platform-analytics-audit-trail.webp",
+   "related": [
+    "solSop",
+    "solDwi",
+    "pfSkills",
+    "pfSecurity"
+   ],
    "heroImage": "Pentekening: een afgevinkte checklist en een tablet met trendlijn en tijdlijn als audit trail"
   },
   "pfAr": {
@@ -36591,16 +34776,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Plan een demo](/nl/demo/)**"
      ],
      "h2": "Bekijk AR-begeleiding op je eigen proces"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Hardware voor AR-werkinstructies](/nl/hardware/)",
-      "[AR-bril vs tablet](/nl/vergelijken/ar-bril-vs-tablet/)",
-      "[Training en inwerken](/nl/oplossingen/training-en-inwerken/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -36624,6 +34799,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/foto/visionpro-hal.webp",
+   "related": [
+    "solDwi",
+    "hardware",
+    "cmpGlassesTablets",
+    "solTraining"
+   ],
    "heroImage": "Pentekening: een AR-bril toont een cyaan ring en stapkaart op de juiste klep van een paneel"
   },
   "pfSecurity": {
@@ -36754,16 +34935,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Plan een kosteloze intake](/nl/demo/)**"
      ],
      "h2": "Stuur ons je securityvragenlijst"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Connected worker platform](/nl/oplossingen/connected-worker-platform/)",
-      "[Analyse en audit trail](/nl/platform/analyse-en-audit/)",
-      "[Integraties](/nl/platform/integraties/)",
-      "[Werkinstructie platform](/nl/platform/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -36787,6 +34958,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/platform-security.webp",
+   "related": [
+    "solCwp",
+    "pfAnalytics",
+    "pfIntegrations",
+    "platform"
+   ],
    "heroImage": "Pentekening: een serverrek met een cyaan hangslot en een schild met een vinkje"
   },
   "pfSkills": {
@@ -36927,16 +35104,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Plan een demo](/nl/demo/)**"
      ],
      "h2": "Bekijk een competentiematrix die gevoed wordt door het echte werk"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Training en inwerken](/nl/oplossingen/training-en-inwerken/)",
-      "[Connected worker platform](/nl/oplossingen/connected-worker-platform/)",
-      "[Analyse en audit trail](/nl/platform/analyse-en-audit/)",
-      "[Kennis vastleggen](/nl/platform/kennis-vastleggen/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -36960,6 +35127,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/platform-skills-management.webp",
+   "related": [
+    "solTraining",
+    "solCwp",
+    "pfAnalytics",
+    "pfKnowledge"
+   ],
    "heroImage": "Pentekening: een scherm met een competentiematrix waarin cyaan cellen bevoegde medewerkers tonen"
   },
   "platform": {
@@ -37122,16 +35295,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Plan een demo](/nl/demo/)**"
      ],
      "h2": "Bekijk het platform met je eigen SOP"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Connected worker platform](/nl/oplossingen/connected-worker-platform/)",
-      "[SOP-software](/nl/oplossingen/sop-software/)",
-      "[Hardware voor AR-werkinstructies](/nl/hardware/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -37155,6 +35318,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/platform.webp",
+   "related": [
+    "solDwi",
+    "solCwp",
+    "solSop",
+    "hardware"
+   ],
    "heroImage": "Pentekening: een stapel SOP-documenten wordt een digitale stapkaart op een tablet, met data naar een dashboard"
   },
   "pfIntegrations": {
@@ -37295,16 +35464,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Plan een kosteloze intake](/nl/demo/)**"
      ],
      "h2": "Bespreek je systeemlandschap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Connected worker platform](/nl/oplossingen/connected-worker-platform/)",
-      "[Analyse en audit trail](/nl/platform/analyse-en-audit/)",
-      "[Beveiliging](/nl/platform/beveiliging/)",
-      "[Start een pilot](/nl/pilot/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -37324,6 +35483,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/platform-integrations.webp",
+   "related": [
+    "solCwp",
+    "pfAnalytics",
+    "pfSecurity",
+    "pilot"
+   ],
    "heroImage": "Pentekening: een tablet met werkinstructie verbonden met een serverrek, een dashboard en een machine"
   },
   "pfKnowledge": {
@@ -37460,16 +35625,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Plan een kosteloze intake](/nl/demo/)**"
      ],
      "h2": "Begin met de kennis die het meeste risico loopt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Training en inwerken](/nl/oplossingen/training-en-inwerken/)",
-      "[Connected worker platform](/nl/oplossingen/connected-worker-platform/)",
-      "[AI-werkinstructies](/nl/platform/ai-werkinstructies/)",
-      "[Competentiebeheer](/nl/platform/competentiebeheer/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -37489,6 +35644,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/platform-knowledge-capture.webp",
+   "related": [
+    "solTraining",
+    "solCwp",
+    "pfAi",
+    "pfSkills"
+   ],
    "heroImage": "Pentekening: een tablet op een statief neemt een handeling aan een machine op en zet die om in stapkaarten"
   },
   "pfMultilingual": {
@@ -37623,16 +35784,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Plan een demo](/nl/demo/)**"
      ],
      "h2": "Bekijk een werkinstructie in de talen van je team"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Training en inwerken](/nl/oplossingen/training-en-inwerken/)",
-      "[AI-werkinstructies](/nl/platform/ai-werkinstructies/)",
-      "[AR-begeleiding](/nl/platform/ar-begeleiding/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -37652,6 +35803,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/platform-multilingual.webp",
+   "related": [
+    "solDwi",
+    "solTraining",
+    "pfAi",
+    "pfAr"
+   ],
    "heroImage": "Pentekening: één werkinstructie op een tablet waaiert uit naar drie stapkaarten in verschillende talen"
   },
   "pfRemote": {
@@ -37786,16 +35943,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Plan een demo](/nl/demo/)**"
      ],
      "h2": "Zie remote support in actie"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Connected worker platform](/nl/oplossingen/connected-worker-platform/)",
-      "[AR-begeleiding](/nl/platform/ar-begeleiding/)",
-      "[Hardware voor AR](/nl/hardware/)",
-      "[Start een pilot](/nl/pilot/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -37819,6 +35966,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/platform-remote-support.webp",
+   "related": [
+    "solCwp",
+    "pfAr",
+    "hardware",
+    "pilot"
+   ],
    "heroImage": "Pentekening: de AR-bril van een operator bij een pomp is verbonden met een laptop waarop een expert het onderdeel in cyaan markeert"
   },
   "privacy": {
@@ -38042,23 +36195,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Elke klus laat een registratie achter voor veiligheid en assetmanagement."
      ],
      "h2": "Hoe Actarion helpt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Veiliger en aantoonbaar veldwerk? [Plan een kosteloze intake](/nl/pilot/)"
-     ],
-     "h2": "Plan een kosteloze intake"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[LOTO-procedure-template](/nl/kennisbank/templates/loto-procedure/)",
-      "[Connected worker platform](/nl/oplossingen/connected-worker-platform/)",
-      "[Field service](/nl/sectoren/field-service/)",
-      "[Digitale checklists](/nl/oplossingen/digitale-checklists/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -38078,6 +36214,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/industries-energy-utilities.webp",
+   "related": [
+    "tplLoto",
+    "solCwp",
+    "indField",
+    "solChecklists"
+   ],
    "heroImage": "Pentekening van een transformator en hoogspanningsmast met AR-bril en stapkaart voor werkinstructies in de energiesector"
   },
   "indPharma": {
@@ -38200,23 +36342,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Begin met onze [line-clearance-checklist](/nl/kennisbank/templates/line-clearance-checklist/)."
      ],
      "h2": "Hoe Actarion helpt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Minder documentatiedeviaties? [Plan een kosteloze intake](/nl/pilot/)"
-     ],
-     "h2": "Plan een kosteloze intake"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SOP-software](/nl/oplossingen/sop-software/)",
-      "[Line-clearance-checklist](/nl/kennisbank/templates/line-clearance-checklist/)",
-      "[SOP-template](/nl/kennisbank/templates/sop-template/)",
-      "[Kwaliteitsinspecties](/nl/toepassingen/kwaliteitsinspecties/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -38236,6 +36361,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/industries-pharma-biotech.webp",
+   "related": [
+    "solSop",
+    "tplLineClearance",
+    "tplSop",
+    "ucQuality"
+   ],
    "heroImage": "Pentekening van een RVS-reactor, flacons en een tablet met batch-checklist voor GMP-werkinstructies"
   },
   "indField": {
@@ -38350,23 +36481,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Competentiematrix om de juiste monteur in te plannen."
      ],
      "h2": "Hoe Actarion helpt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Vaker in één keer opgelost? [Plan een kosteloze intake](/nl/pilot/)"
-     ],
-     "h2": "Plan een kosteloze intake"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale checklists](/nl/oplossingen/digitale-checklists/)",
-      "[Connected worker platform](/nl/oplossingen/connected-worker-platform/)",
-      "[Checklist preventief onderhoud](/nl/kennisbank/templates/preventief-onderhoud-checklist/)",
-      "[Machinebouw](/nl/sectoren/machinebouw/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -38390,6 +36504,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/industries-field-service.webp",
+   "related": [
+    "solChecklists",
+    "solCwp",
+    "tplMaintenance",
+    "indMachine"
+   ],
    "heroImage": "Pentekening van een buitenkast, gereedschapskist en tablet verbonden met een expert voor field service-werkinstructies"
   },
   "industries": {
@@ -38511,23 +36631,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Implementatie in Benelux, DACH en Scandinavië, samen met technologiepartner DeepSight."
      ],
      "h2": "Hoe Actarion helpt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Bespreek je sector en je eerste toepassing. [Plan een kosteloze intake](/nl/pilot/)"
-     ],
-     "h2": "Plan een kosteloze intake"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Toepassingen](/nl/toepassingen/)",
-      "[Connected worker platform](/nl/oplossingen/connected-worker-platform/)",
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Klantcases](/nl/klanten/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -38551,6 +36654,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/industries.webp",
+   "related": [
+    "useCases",
+    "solCwp",
+    "solDwi",
+    "customers"
+   ],
    "heroImage": "Pentekening van een fabriek, reactor, hoogspanningsmast en windturbine rond een tablet met digitale werkinstructies"
   },
   "indAerospace": {
@@ -38668,23 +36777,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Registraties die audits door kwaliteit en autoriteit ondersteunen."
      ],
      "h2": "Hoe Actarion helpt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Herleidbare MRO-taken zonder papier? [Plan een kosteloze intake](/nl/pilot/)"
-     ],
-     "h2": "Plan een kosteloze intake"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SOP-software](/nl/oplossingen/sop-software/)",
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Checklist preventief onderhoud](/nl/kennisbank/templates/preventief-onderhoud-checklist/)",
-      "[Field service](/nl/sectoren/field-service/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -38704,6 +36796,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/industries-aerospace-mro.webp",
+   "related": [
+    "solSop",
+    "solDwi",
+    "tplMaintenance",
+    "indField"
+   ],
    "heroImage": "Pentekening van een straalmotor met AR-markering op een schoep en tablet met traceerbaarheid voor MRO-werkinstructies"
   },
   "indManufacturing": {
@@ -38830,23 +36928,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Pilot met vaste KPI's, daarna uitrol over lijnen en locaties."
      ],
      "h2": "Hoe Actarion helpt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Minder fouten en sneller omstellen? [Plan een kosteloze intake](/nl/pilot/)"
-     ],
-     "h2": "Plan een kosteloze intake"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[SMED-omstelchecklist](/nl/kennisbank/templates/smed-omstel-checklist/)",
-      "[Werkinstructie-template](/nl/kennisbank/templates/werkinstructie-template/)",
-      "[Machinebouw](/nl/sectoren/machinebouw/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -38866,6 +36947,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/foto/ipad-robot.webp",
+   "related": [
+    "solDwi",
+    "tplSmed",
+    "tplWorkInstruction",
+    "indMachine"
+   ],
    "heroImage": "Pentekening van een transportband met robotarm en tablet met OEE-meter voor werkinstructies in de maakindustrie"
   },
   "indMachine": {
@@ -38988,23 +37075,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Een servicedienst die je naast de machine kunt verkopen."
      ],
      "h2": "Hoe Actarion helpt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Slimmere service bij elke machine? [Plan een kosteloze intake](/nl/pilot/)"
-     ],
-     "h2": "Plan een kosteloze intake"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Remote ondersteuning](/nl/toepassingen/remote-ondersteuning/)",
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Werkinstructie-template](/nl/kennisbank/templates/werkinstructie-template/)",
-      "[Field service](/nl/sectoren/field-service/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -39024,6 +37094,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/industries-machine-builders.webp",
+   "related": [
+    "ucRemote",
+    "solDwi",
+    "tplWorkInstruction",
+    "indField"
+   ],
    "heroImage": "Pentekening van een machine met ingebouwd scherm, servicekoffer en console van de machinebouwer voor digitale service-instructies"
   },
   "indFood": {
@@ -39138,23 +37214,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Meertalige instructies voor gemengde teams."
      ],
      "h2": "Hoe Actarion helpt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Sneller en consistenter omstellen? [Plan een kosteloze intake](/nl/pilot/)"
-     ],
-     "h2": "Plan een kosteloze intake"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SMED-omstelchecklist](/nl/kennisbank/templates/smed-omstel-checklist/)",
-      "[Digitale checklists](/nl/oplossingen/digitale-checklists/)",
-      "[Kwaliteitsinspectie-checklist](/nl/kennisbank/templates/kwaliteitsinspectie-checklist/)",
-      "[Maakindustrie](/nl/sectoren/maakindustrie/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -39174,6 +37233,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/industries-food-beverage.webp",
+   "related": [
+    "tplSmed",
+    "solChecklists",
+    "tplQuality",
+    "indManufacturing"
+   ],
    "heroImage": "Pentekening van een afvullijn met flessen, CIP-leiding en tablet met reinigingsstap voor werkinstructies in de voedingsmiddelenindustrie"
   },
   "ucAssembly": {
@@ -39281,23 +37346,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Audit trail per product voor kwaliteits- en klantaudits."
      ],
      "h2": "Hoe Actarion helpt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Last van variantfouten? [Plan een kosteloze intake](/nl/pilot/)"
-     ],
-     "h2": "Plan een kosteloze intake"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Werkinstructie-template](/nl/kennisbank/templates/werkinstructie-template/)",
-      "[Kwaliteitsinspecties](/nl/toepassingen/kwaliteitsinspecties/)",
-      "[Maakindustrie](/nl/sectoren/maakindustrie/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -39317,6 +37365,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/foto/ipad-robot.webp",
+   "related": [
+    "solDwi",
+    "tplWorkInstruction",
+    "ucQuality",
+    "indManufacturing"
+   ],
    "heroImage": "Pentekening van een assemblage waarbij AR volgens de montage-instructies de volgende bout markeert"
   },
   "useCases": {
@@ -39445,24 +37499,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**Pilot met vaste KPI's:** klein beginnen, meten en opschalen, samen met technologiepartner DeepSight."
      ],
      "h2": "Hoe Actarion helpt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Vertel ons welke taak je de meeste tijd of fouten kost. Samen bepalen we de beste eerste toepassing. [Plan een kosteloze intake](/nl/pilot/)"
-     ],
-     "h2": "Plan een kosteloze intake"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Connected worker platform](/nl/oplossingen/connected-worker-platform/)",
-      "[Sectoren](/nl/sectoren/)",
-      "[Werkinstructie-template](/nl/kennisbank/templates/werkinstructie-template/)",
-      "[Geanonimiseerde klantcases](/nl/klanten/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -39486,6 +37522,13 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/use-cases.webp",
+   "related": [
+    "solDwi",
+    "solCwp",
+    "industries",
+    "tplWorkInstruction",
+    "customers"
+   ],
    "heroImage": "Pentekening van een tablet met digitale stapkaart, verbonden met onderhoud, inspectie en logistiek"
   },
   "ucOnboarding": {
@@ -39589,23 +37632,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Competentiematrix en audit trail laten zien wie bevoegd is, met bewijs."
      ],
      "h2": "Hoe Actarion helpt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je nieuwe operators sneller zelfstandig? [Plan een kosteloze intake](/nl/pilot/)"
-     ],
-     "h2": "Plan een kosteloze intake"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Training en inwerken](/nl/oplossingen/training-en-inwerken/)",
-      "[Competentiematrix-template](/nl/kennisbank/templates/competentiematrix-template/)",
-      "[Montage-instructies](/nl/toepassingen/assemblage/)",
-      "[Maakindustrie](/nl/sectoren/maakindustrie/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -39629,6 +37655,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/use-cases-onboarding-training.webp",
+   "related": [
+    "solTraining",
+    "tplSkills",
+    "ucAssembly",
+    "indManufacturing"
+   ],
    "heroImage": "Pentekening van een werkbank van bovenaf met tablet met leerpad, AR-bril en werkstuk voor het inwerken van productiemedewerkers"
   },
   "ucQuality": {
@@ -39745,23 +37777,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Trenddata laten zien waar je het proces kunt verbeteren."
      ],
      "h2": "Hoe Actarion helpt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Begin met een kant-en-klare structuur: [kwaliteitsinspectie-checklist](/nl/kennisbank/templates/kwaliteitsinspectie-checklist/)."
-     ],
-     "h2": "Download de template"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale checklists](/nl/oplossingen/digitale-checklists/)",
-      "[Montage-instructies](/nl/toepassingen/assemblage/)",
-      "[Farma & biotech](/nl/sectoren/farma-biotech/)",
-      "[SOP-software](/nl/oplossingen/sop-software/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -39781,6 +37796,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/use-cases-quality-inspections.webp",
+   "related": [
+    "solChecklists",
+    "ucAssembly",
+    "indPharma",
+    "solSop"
+   ],
    "heroImage": "Pentekening van een flens, schuifmaat en tablet met een digitale inspectiechecklist"
   },
   "ucLogistics": {
@@ -39898,23 +37919,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Data per order voor kwaliteit en continu verbeteren."
      ],
      "h2": "Hoe Actarion helpt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Last van pickfouten? [Plan een kosteloze intake](/nl/pilot/)"
-     ],
-     "h2": "Plan een kosteloze intake"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Inwerken & training](/nl/toepassingen/inwerken-training/)",
-      "[Werkinstructie-template](/nl/kennisbank/templates/werkinstructie-template/)",
-      "[Maakindustrie](/nl/sectoren/maakindustrie/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -39934,6 +37938,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/use-cases-logistics.webp",
+   "related": [
+    "solDwi",
+    "ucOnboarding",
+    "tplWorkInstruction",
+    "indManufacturing"
+   ],
    "heroImage": "Pentekening van een magazijnstelling waarbij AR-orderpicken de juiste doos markeert"
   },
   "ucChangeover": {
@@ -40044,23 +38054,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "De competentiematrix toont wie welke machine mag omstellen."
      ],
      "h2": "Hoe Actarion helpt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je kortere en stabielere omstellingen? [Plan een kosteloze intake](/nl/pilot/)"
-     ],
-     "h2": "Plan een kosteloze intake"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SMED-omstelchecklist](/nl/kennisbank/templates/smed-omstel-checklist/)",
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Voedingsmiddelenindustrie](/nl/sectoren/voedingsmiddelen/)",
-      "[Maakindustrie](/nl/sectoren/maakindustrie/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -40080,6 +38073,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/use-cases-changeover-smed.webp",
+   "related": [
+    "tplSmed",
+    "solDwi",
+    "indFood",
+    "indManufacturing"
+   ],
    "heroImage": "Pentekening van een matrijswissel bij een pers met stopwatch en tablet met omstelstappen om de omsteltijd te verkorten"
   },
   "ucMaintenance": {
@@ -40191,23 +38190,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Remote ondersteuning laat een specialist meekijken als er iets onverwachts opduikt."
      ],
      "h2": "Hoe Actarion helpt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Minder herhaalstoringen? [Plan een kosteloze intake](/nl/pilot/)"
-     ],
-     "h2": "Plan een kosteloze intake"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Checklist preventief onderhoud](/nl/kennisbank/templates/preventief-onderhoud-checklist/)",
-      "[Digitale checklists](/nl/oplossingen/digitale-checklists/)",
-      "[Remote ondersteuning](/nl/toepassingen/remote-ondersteuning/)",
-      "[Energie & utilities](/nl/sectoren/energie-utilities/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -40227,6 +38209,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/use-cases-preventive-maintenance.webp",
+   "related": [
+    "tplMaintenance",
+    "solChecklists",
+    "ucRemote",
+    "indEnergy"
+   ],
    "heroImage": "Pentekening van een pomp en klep met AR-markering en onderhoudsplanning voor preventief onderhoud"
   },
   "ucRemote": {
@@ -40330,23 +38318,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "AI maakt van opgeloste storingen nieuwe of betere instructies."
      ],
      "h2": "Hoe Actarion helpt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Niet meer wachten op de expert? [Plan een kosteloze intake](/nl/pilot/)"
-     ],
-     "h2": "Plan een kosteloze intake"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Connected worker platform](/nl/oplossingen/connected-worker-platform/)",
-      "[Field service](/nl/sectoren/field-service/)",
-      "[Preventief onderhoud](/nl/toepassingen/preventief-onderhoud/)",
-      "[Machinebouw](/nl/sectoren/machinebouw/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -40366,6 +38337,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/use-cases-remote-expert-support.webp",
+   "related": [
+    "solCwp",
+    "indField",
+    "ucMaintenance",
+    "indMachine"
+   ],
    "heroImage": "Pentekening van de tablet van een monteur gekoppeld aan het scherm van een expert met live annotatie voor remote ondersteuning"
   },
   "ucShutdown": {
@@ -40484,23 +38461,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "LOTO- en veiligheidsstappen ingebouwd in elk pakket."
      ],
      "h2": "Hoe Actarion helpt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Bereid je de volgende stop voor? [Plan een kosteloze intake](/nl/pilot/)"
-     ],
-     "h2": "Plan een kosteloze intake"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[LOTO-procedure](/nl/toepassingen/veiligheid-loto/)",
-      "[Connected worker platform](/nl/oplossingen/connected-worker-platform/)",
-      "[Energie & utilities](/nl/sectoren/energie-utilities/)",
-      "[LOTO-procedure-template](/nl/kennisbank/templates/loto-procedure/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -40520,6 +38480,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/use-cases-shutdown-turnaround.webp",
+   "related": [
+    "ucSafety",
+    "solCwp",
+    "indEnergy",
+    "tplLoto"
+   ],
    "heroImage": "Pentekening van een procescolonne met steiger en voortgangsdashboard voor turnaround planning"
   },
   "ucSafety": {
@@ -40642,23 +38608,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "De audit trail bewijst wie wat wanneer heeft afgeschakeld."
      ],
      "h2": "Hoe Actarion helpt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Begin met onze [LOTO-procedure-template](/nl/kennisbank/templates/loto-procedure/)."
-     ],
-     "h2": "Download de template"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale checklists](/nl/oplossingen/digitale-checklists/)",
-      "[Stops & turnarounds](/nl/toepassingen/stops-en-turnarounds/)",
-      "[Energie & utilities](/nl/sectoren/energie-utilities/)",
-      "[SOP-software](/nl/oplossingen/sop-software/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -40678,6 +38627,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/foto/telefoon-loto.webp",
+   "related": [
+    "solChecklists",
+    "ucShutdown",
+    "indEnergy",
+    "solSop"
+   ],
    "heroImage": "Pentekening van een hoofdschakelaar met hangslot en label en een tablet met de stappen van de LOTO-procedure"
   },
   "faq": {
@@ -40792,28 +38747,17 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       }
      ],
      "h2": "Wat kost het en hoe starten we?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Staat je vraag er niet bij? [Plan een kosteloze intake](/nl/contact/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Pilot-aanpak](/nl/pilot/)",
-      "[DeepSight in Europa](/nl/partners/deepsight/)",
-      "[Begrippenlijst](/nl/kennisbank/begrippen/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/faq.webp",
+   "related": [
+    "solDwi",
+    "pilot",
+    "partnerDeepsight",
+    "glossary"
+   ],
    "heroImage": "Pentekening: uitklapbare vragenlijst met een cyaan geopende vraag naast een tablet"
   },
   "cmpGlassesTablets": {
@@ -40924,24 +38868,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Uitvoeringsdata laat per apparaat zien hoe snel en nauwkeurig er gewerkt wordt."
      ],
      "h2": "Hoe helpt Actarion?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je beide testen op je eigen taak? [Plan een kosteloze intake](/nl/demo/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Tablets en smartphones](/nl/hardware/tablets-smartphones/)",
-      "[Apple Vision Pro](/nl/hardware/apple-vision-pro/)",
-      "[Android XR](/nl/hardware/android-xr/)",
-      "[Omstellen en SMED](/nl/toepassingen/omstellen-smed/)",
-      "[Wat is een slimme bril?](/nl/kennisbank/begrippen/slimme-bril/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -40961,6 +38887,13 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/compare-ar-glasses-vs-tablets.webp",
+   "related": [
+    "hwTablets",
+    "hwVisionPro",
+    "hwAndroidXr",
+    "ucChangeover",
+    "termSmartGlasses"
+   ],
    "heroImage": "Pentekening van een AR-bril naast een tablet op een statief, beide met een digitale werkinstructiestap"
   },
   "cmpBestSoftware": {
@@ -41127,24 +39060,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Pilot met vaste KPI's, daarna opschalen en enablement."
      ],
      "h2": "Hoe helpt Actarion?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je Actarion testen op een van je eigen SOP's? [Plan een kosteloze intake](/nl/demo/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[SOP-software](/nl/oplossingen/sop-software/)",
-      "[Connected worker platform](/nl/oplossingen/connected-worker-platform/)",
-      "[Digitale vs papieren werkinstructies](/nl/vergelijken/digitale-vs-papieren-werkinstructies/)",
-      "[Wat is een MES?](/nl/kennisbank/begrippen/mes/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -41164,6 +39079,13 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/compare-best-work-instruction-software.webp",
+   "related": [
+    "solDwi",
+    "solSop",
+    "solCwp",
+    "cmpDigitalVsPaper",
+    "termMes"
+   ],
    "heroImage": "Pentekening van een beoordelingschecklist voor werkinstructie-software naast een tablet en een machine"
   },
   "cmpCwpVsLms": {
@@ -41274,23 +39196,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Voegt remote ondersteuning toe als een nieuwe operator vastloopt."
      ],
      "h2": "Hoe helpt Actarion?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je training koppelen aan echte prestaties? [Plan een kosteloze intake](/nl/demo/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Connected worker platform](/nl/oplossingen/connected-worker-platform/)",
-      "[Training en inwerken](/nl/oplossingen/training-en-inwerken/)",
-      "[Wat is een competentiematrix?](/nl/kennisbank/begrippen/competentiematrix/)",
-      "[Wat is een connected worker?](/nl/kennisbank/begrippen/connected-worker/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -41310,6 +39215,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/compare-connected-worker-vs-lms.webp",
+   "related": [
+    "solCwp",
+    "solTraining",
+    "termSkillsMatrix",
+    "termConnectedWorker"
+   ],
    "heroImage": "Pentekening van een trainingsscherm naast een machine met een digitale stapkaart als connected worker-begeleiding"
   },
   "cmpDigitalVsPaper": {
@@ -41429,24 +39340,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "We starten met een pilot op één use case met vaste KPI's."
      ],
      "h2": "Hoe helpt Actarion?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Wil je je eigen SOP als digitale instructie zien? [Plan een kosteloze intake](/nl/demo/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[SOP-software](/nl/oplossingen/sop-software/)",
-      "[Digitale checklists](/nl/oplossingen/digitale-checklists/)",
-      "[Kwaliteitsinspecties](/nl/toepassingen/kwaliteitsinspecties/)",
-      "[Wat is een werkinstructie?](/nl/kennisbank/begrippen/werkinstructie/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -41466,6 +39359,13 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/compare-digital-vs-paper-work-instructions.webp",
+   "related": [
+    "solDwi",
+    "solSop",
+    "solChecklists",
+    "ucQuality",
+    "termWorkInstruction"
+   ],
    "heroImage": "Pentekening van een papieren werkinstructie op een klembord naast een tablet met een digitale werkinstructiestap"
   },
   "compare": {
@@ -41559,23 +39459,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**Pilot met vaste KPI's:** je test de vergelijking op je eigen lijn voordat je opschaalt."
      ],
      "h2": "Hoe helpt Actarion?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Twijfel je welke opzet bij je lijn past? [Plan een kosteloze intake](/nl/demo/). De prijs is maatwerk per branche en sector."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale werkinstructies](/nl/oplossingen/digitale-werkinstructies/)",
-      "[Connected worker platform](/nl/oplossingen/connected-worker-platform/)",
-      "[Tablets en smartphones](/nl/hardware/tablets-smartphones/)",
-      "[Begrippenlijst werkvloer](/nl/kennisbank/begrippen/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -41599,6 +39482,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/compare.webp",
+   "related": [
+    "solDwi",
+    "solCwp",
+    "hwTablets",
+    "glossary"
+   ],
    "heroImage": "Pentekening van een weegschaal die een papieren werkinstructie afweegt tegen een tablet met een digitale stap"
   },
   "cmpVisionProHololens": {
@@ -41714,24 +39603,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Elke uitvoering wordt vastgelegd, ongeacht het apparaat."
      ],
      "h2": "Hoe helpt Actarion?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Plan je een HoloLens-migratie of een nieuwe AR-uitrol? [Plan een kosteloze intake](/nl/demo/)."
-     ],
-     "h2": "Volgende stap"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Apple Vision Pro](/nl/hardware/apple-vision-pro/)",
-      "[HoloLens](/nl/hardware/hololens/)",
-      "[Android XR](/nl/hardware/android-xr/)",
-      "[Remote ondersteuning](/nl/toepassingen/remote-ondersteuning/)",
-      "[Wat is mixed reality?](/nl/kennisbank/begrippen/mixed-reality/)"
-     ],
-     "h2": "Gerelateerd"
     }
    ],
    "faq": [
@@ -41751,6 +39622,13 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/compare-vision-pro-vs-hololens.webp",
+   "related": [
+    "hwVisionPro",
+    "hwHololens",
+    "hwAndroidXr",
+    "ucRemote",
+    "termMr"
+   ],
    "heroImage": "Pentekening van Vision Pro vs HoloLens: een gesloten passthrough-headset naast een headset met doorkijkvizier"
   },
   "terms": {
@@ -42100,16 +39978,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Starten Sie mit unserer [Vorlage LOTO-Verfahren](/de/ressourcen/vorlagen/loto-verfahren/)."
      ],
      "h2": "Vorlage herunterladen"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Checklisten](/de/loesungen/digitale-checklisten/)",
-      "[Stillstand & Revision](/de/anwendungsfaelle/stillstand-revision/)",
-      "[Energie & Versorger](/de/branchen/energie-versorger/)",
-      "[SOP-Software](/de/loesungen/sop-software/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -42129,6 +39997,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/foto/telefoon-loto.webp",
+   "related": [
+    "solChecklists",
+    "ucShutdown",
+    "indEnergy",
+    "solSop"
+   ],
    "heroImage": "Federzeichnung eines Hauptschalters mit Vorhängeschloss und Anhänger sowie eines Tablets mit den Schritten des Lockout-Tagout-Verfahrens"
   },
   "ucOnboarding": {
@@ -42232,23 +40106,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Qualifikationsmatrix und Audit-Trail zeigen, wer qualifiziert ist, mit Nachweis."
      ],
      "h2": "So unterstützt Actarion"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Möchten Sie neue Mitarbeitende schneller produktiv machen? [Kostenloses Erstgespräch vereinbaren](/de/pilotprojekt/)"
-     ],
-     "h2": "Kostenloses Erstgespräch vereinbaren"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Mitarbeiter-Einarbeitung](/de/loesungen/mitarbeiter-einarbeitung/)",
-      "[Qualifikationsmatrix-Vorlage](/de/ressourcen/vorlagen/qualifikationsmatrix-vorlage/)",
-      "[Montageanleitung digital](/de/anwendungsfaelle/montage/)",
-      "[Fertigung](/de/branchen/fertigung/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -42272,6 +40129,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/use-cases-onboarding-training.webp",
+   "related": [
+    "solTraining",
+    "tplSkills",
+    "ucAssembly",
+    "indManufacturing"
+   ],
    "heroImage": "Federzeichnung einer Werkbank von oben mit Tablet mit Lernpfad, AR-Brille und Werkstück für die Einarbeitung in der Produktion"
   },
   "useCases": {
@@ -42400,24 +40263,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**Pilotprojekt mit festen KPIs:** klein starten, messen, skalieren, mit Technologiepartner DeepSight."
      ],
      "h2": "So unterstützt Actarion"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Sagen Sie uns, welche Tätigkeit Sie am meisten Zeit oder Fehler kostet. Gemeinsam finden wir den besten ersten Anwendungsfall. [Kostenloses Erstgespräch vereinbaren](/de/pilotprojekt/)"
-     ],
-     "h2": "Kostenloses Erstgespräch vereinbaren"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Werkerassistenzsystem](/de/loesungen/werkerassistenzsystem/)",
-      "[Branchen](/de/branchen/)",
-      "[Arbeitsanweisung-Vorlage](/de/ressourcen/vorlagen/arbeitsanweisung-vorlage/)",
-      "[Anonymisierte Kundenprojekte](/de/kunden/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -42441,6 +40286,13 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/use-cases.webp",
+   "related": [
+    "solDwi",
+    "solCwp",
+    "industries",
+    "tplWorkInstruction",
+    "customers"
+   ],
    "heroImage": "Federzeichnung eines Tablets mit digitaler Schrittkarte, verbunden mit Wartung, Prüfung und Logistik"
   },
   "ucLogistics": {
@@ -42558,23 +40410,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Daten je Auftrag für Qualität und kontinuierliche Verbesserung."
      ],
      "h2": "So unterstützt Actarion"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Zu viele Pickfehler? [Kostenloses Erstgespräch vereinbaren](/de/pilotprojekt/)"
-     ],
-     "h2": "Kostenloses Erstgespräch vereinbaren"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Einarbeitung & Schulung](/de/anwendungsfaelle/einarbeitung-schulung/)",
-      "[Arbeitsanweisung-Vorlage](/de/ressourcen/vorlagen/arbeitsanweisung-vorlage/)",
-      "[Fertigung](/de/branchen/fertigung/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -42594,6 +40429,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/use-cases-logistics.webp",
+   "related": [
+    "solDwi",
+    "ucOnboarding",
+    "tplWorkInstruction",
+    "indManufacturing"
+   ],
    "heroImage": "Federzeichnung eines Lagerregals, in dem die AR-Kommissionierung den richtigen Karton markiert"
   },
   "ucAssembly": {
@@ -42701,23 +40542,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Audit-Trail je Einheit für Qualitäts- und Kundenaudits."
      ],
      "h2": "So unterstützt Actarion"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Kämpfen Sie mit Variantenfehlern? [Kostenloses Erstgespräch vereinbaren](/de/pilotprojekt/)"
-     ],
-     "h2": "Kostenloses Erstgespräch vereinbaren"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Arbeitsanweisung-Vorlage](/de/ressourcen/vorlagen/arbeitsanweisung-vorlage/)",
-      "[Qualitätsprüfung](/de/anwendungsfaelle/qualitaetspruefung/)",
-      "[Fertigung](/de/branchen/fertigung/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -42737,6 +40561,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/foto/ipad-robot.webp",
+   "related": [
+    "solDwi",
+    "tplWorkInstruction",
+    "ucQuality",
+    "indManufacturing"
+   ],
    "heroImage": "Federzeichnung einer Montage, bei der AR gemäß der digitalen Montageanleitung die nächste Schraube markiert"
   },
   "ucQuality": {
@@ -42860,16 +40690,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Starten Sie mit einer fertigen Struktur: [Checkliste Qualitätsprüfung](/de/ressourcen/vorlagen/qualitaetspruefung-checkliste/)."
      ],
      "h2": "Vorlage herunterladen"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Checklisten](/de/loesungen/digitale-checklisten/)",
-      "[Montageanleitung digital](/de/anwendungsfaelle/montage/)",
-      "[Pharma & Biotech](/de/branchen/pharma-biotech/)",
-      "[SOP-Software](/de/loesungen/sop-software/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -42889,6 +40709,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/use-cases-quality-inspections.webp",
+   "related": [
+    "solChecklists",
+    "ucAssembly",
+    "indPharma",
+    "solSop"
+   ],
    "heroImage": "Federzeichnung eines Flansches, eines Messschiebers und eines Tablets mit digitaler Prüfcheckliste"
   },
   "ucRemote": {
@@ -42992,23 +40818,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Die KI macht aus gelösten Fällen neue oder bessere Anweisungen."
      ],
      "h2": "So unterstützt Actarion"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Nicht mehr auf den Experten warten? [Kostenloses Erstgespräch vereinbaren](/de/pilotprojekt/)"
-     ],
-     "h2": "Kostenloses Erstgespräch vereinbaren"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Werkerassistenzsystem](/de/loesungen/werkerassistenzsystem/)",
-      "[Außendienst & Service](/de/branchen/aussendienst-service/)",
-      "[Vorbeugende Wartung](/de/anwendungsfaelle/vorbeugende-wartung/)",
-      "[Maschinenbau](/de/branchen/maschinenbau/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -43028,6 +40837,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/use-cases-remote-expert-support.webp",
+   "related": [
+    "solCwp",
+    "indField",
+    "ucMaintenance",
+    "indMachine"
+   ],
    "heroImage": "Federzeichnung des Tablets eines Servicetechnikers, verbunden mit dem Bildschirm eines Experten mit Live-Annotation für Remote-Support"
   },
   "ucChangeover": {
@@ -43138,23 +40953,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Die Qualifikationsmatrix zeigt, wer welche Maschine rüsten darf."
      ],
      "h2": "So unterstützt Actarion"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Möchten Sie kürzere und stabilere Rüstzeiten? [Kostenloses Erstgespräch vereinbaren](/de/pilotprojekt/)"
-     ],
-     "h2": "Kostenloses Erstgespräch vereinbaren"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SMED-Rüstcheckliste](/de/ressourcen/vorlagen/smed-ruest-checkliste/)",
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Lebensmittelindustrie](/de/branchen/lebensmittel/)",
-      "[Fertigung](/de/branchen/fertigung/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -43174,6 +40972,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/use-cases-changeover-smed.webp",
+   "related": [
+    "tplSmed",
+    "solDwi",
+    "indFood",
+    "indManufacturing"
+   ],
    "heroImage": "Federzeichnung eines Werkzeugwechsels an einer Presse mit Stoppuhr und Tablet mit Rüstschritten, um die Rüstzeit zu reduzieren"
   },
   "ucShutdown": {
@@ -43292,23 +41096,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "LOTO- und Sicherheitsschritte in jedem Paket."
      ],
      "h2": "So unterstützt Actarion"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Bereiten Sie die nächste Revision vor? [Kostenloses Erstgespräch vereinbaren](/de/pilotprojekt/)"
-     ],
-     "h2": "Kostenloses Erstgespräch vereinbaren"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Lockout-Tagout-Verfahren](/de/anwendungsfaelle/arbeitssicherheit-loto/)",
-      "[Werkerassistenzsystem](/de/loesungen/werkerassistenzsystem/)",
-      "[Energie & Versorger](/de/branchen/energie-versorger/)",
-      "[Vorlage LOTO-Verfahren](/de/ressourcen/vorlagen/loto-verfahren/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -43328,6 +41115,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/use-cases-shutdown-turnaround.webp",
+   "related": [
+    "ucSafety",
+    "solCwp",
+    "indEnergy",
+    "tplLoto"
+   ],
    "heroImage": "Federzeichnung einer Prozesskolonne mit Gerüst und einem Fortschritts-Dashboard für Revision und Anlagenstillstand"
   },
   "ucMaintenance": {
@@ -43439,23 +41232,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Remote-Support holt bei Unerwartetem einen Spezialisten dazu."
      ],
      "h2": "So unterstützt Actarion"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Weniger Wiederholausfälle? [Kostenloses Erstgespräch vereinbaren](/de/pilotprojekt/)"
-     ],
-     "h2": "Kostenloses Erstgespräch vereinbaren"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Wartungscheckliste](/de/ressourcen/vorlagen/wartungscheckliste/)",
-      "[Digitale Checklisten](/de/loesungen/digitale-checklisten/)",
-      "[Remote-Experten-Support](/de/anwendungsfaelle/remote-experten-support/)",
-      "[Energie & Versorger](/de/branchen/energie-versorger/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -43475,6 +41251,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/use-cases-preventive-maintenance.webp",
+   "related": [
+    "tplMaintenance",
+    "solChecklists",
+    "ucRemote",
+    "indEnergy"
+   ],
    "heroImage": "Federzeichnung einer Pumpe und eines Ventils mit AR-Markierung und Wartungsplan"
   },
   "blogWriteWorkInstructions": {
@@ -43703,16 +41485,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Laden Sie die kostenlose [Arbeitsanweisung-Vorlage](/de/ressourcen/vorlagen/arbeitsanweisung-vorlage/) herunter und erstellen Sie heute Ihre erste Arbeitsanweisung."
      ],
      "h2": "Jetzt starten"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Arbeitsanweisung-Vorlage](/de/ressourcen/vorlagen/arbeitsanweisung-vorlage/)",
-      "[Visuelle Arbeitsanweisungen](/de/blog/visuelle-arbeitsanweisungen/)",
-      "[Was ist eine SOP?](/de/blog/was-ist-eine-sop/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -43736,6 +41508,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-how-to-write-work-instructions.webp",
+   "related": [
+    "solDwi",
+    "tplWorkInstruction",
+    "blogVisual",
+    "blogWhatIsSop"
+   ],
    "heroImage": "Arbeitsanweisung erstellen: Papieranweisung wird zu digitalen Schrittkarten auf einem Tablet"
   },
   "blogArManufacturing": {
@@ -43943,23 +41721,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Mehr zu [digitalen Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Sie möchten wissen, welche AR-Anwendung zu Ihrem Werk passt? [Kostenloses Erstgespräch vereinbaren](/de/kontakt/)."
-     ],
-     "h2": "Kostenloses Erstgespräch vereinbaren"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Hardware](/de/hardware/)",
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Datenbrillen in der Industrie](/de/blog/datenbrillen-industrie/)",
-      "[HoloLens-Alternativen](/de/blog/hololens-alternativen/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -43979,6 +41740,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-ar-in-manufacturing.webp",
+   "related": [
+    "hardware",
+    "solDwi",
+    "blogSmartGlasses",
+    "blogHololens"
+   ],
    "heroImage": "Augmented Reality in der Industrie: Förderband mit AR-Rahmen und Schrittkarte über einem Produkt"
   },
   "blogSmartGlasses": {
@@ -44155,23 +41922,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**Hardwareberatung und Pilot** mit festen KPIs."
      ],
      "h2": "So unterstützt Actarion"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Sie möchten wissen, welche Datenbrille zu Ihren Tätigkeiten passt? [Kostenloses Erstgespräch vereinbaren](/de/kontakt/)."
-     ],
-     "h2": "Kostenloses Erstgespräch vereinbaren"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Hardware](/de/hardware/)",
-      "[HoloLens-Alternativen](/de/blog/hololens-alternativen/)",
-      "[Augmented Reality in der Industrie](/de/blog/augmented-reality-industrie/)",
-      "[Vorbeugende Wartung](/de/blog/vorbeugende-wartung/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -44195,6 +41945,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-smart-glasses-industry.webp",
+   "related": [
+    "hardware",
+    "blogHololens",
+    "blogArManufacturing",
+    "blogMaintenance"
+   ],
    "heroImage": "Smart Glasses in der Industrie: Nahaufnahme einer AR-Brille mit Schrittkarte im Glas und Zahnrad"
   },
   "blogOnboarding": {
@@ -44405,16 +42161,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Laden Sie die kostenlose Vorlage [Einarbeitungsplan Produktion](/de/ressourcen/vorlagen/einarbeitungsplan-produktion/) herunter."
      ],
      "h2": "Jetzt starten"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Mitarbeiter-Einarbeitung](/de/loesungen/mitarbeiter-einarbeitung/)",
-      "[Anwendungsfall Einarbeitung und Schulung](/de/anwendungsfaelle/einarbeitung-schulung/)",
-      "[Einarbeitungsplan Produktion](/de/ressourcen/vorlagen/einarbeitungsplan-produktion/)",
-      "[Qualifikationsmatrix erstellen](/de/blog/qualifikationsmatrix-erstellen/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -44438,6 +42184,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-operator-onboarding.webp",
+   "related": [
+    "solTraining",
+    "ucOnboarding",
+    "tplOnboarding",
+    "blogSkillsMatrix"
+   ],
    "heroImage": "Einarbeitung neuer Mitarbeiter: Lernstufen mit Haken neben einem Tablet an der Werkbank"
   },
   "blogHololens": {
@@ -44621,23 +42373,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Mehr zu [Augmented Reality in der Industrie](/de/blog/augmented-reality-industrie/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Sie brauchen einen Migrationsplan für Ihre HoloLens-Flotte? [Kostenloses Erstgespräch vereinbaren](/de/kontakt/)."
-     ],
-     "h2": "Kostenloses Erstgespräch vereinbaren"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Hardware](/de/hardware/)",
-      "[Datenbrillen in der Industrie](/de/blog/datenbrillen-industrie/)",
-      "[Augmented Reality in der Industrie](/de/blog/augmented-reality-industrie/)",
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -44661,6 +42396,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-hololens-2-alternatives.webp",
+   "related": [
+    "hardware",
+    "blogSmartGlasses",
+    "blogArManufacturing",
+    "solDwi"
+   ],
    "heroImage": "HoloLens-Alternativen: Tablet, Mixed-Reality-Headset und leichte AR-Brille nebeneinander"
   },
   "blog": {
@@ -44713,20 +42454,16 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Lieber direkt loslegen? Laden Sie eine [Arbeitsanweisung-Vorlage](/de/ressourcen/vorlagen/arbeitsanweisung-vorlage/) oder eine [SOP-Vorlage](/de/ressourcen/vorlagen/sop-vorlage/) herunter."
      ],
      "h2": "Kostenlose Vorlagen"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Werkerassistenzsystem](/de/loesungen/werkerassistenzsystem/)",
-      "[Hardware](/de/hardware/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog.webp",
+   "related": [
+    "solDwi",
+    "solCwp",
+    "hardware"
+   ],
    "heroImage": "Stapel Leitfäden neben einem Tablet mit digitaler Arbeitsanweisung"
   },
   "blogSkillsMatrix": {
@@ -44962,16 +42699,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Laden Sie die kostenlose [Qualifikationsmatrix-Vorlage](/de/ressourcen/vorlagen/qualifikationsmatrix-vorlage/) herunter."
      ],
      "h2": "Jetzt starten"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Qualifikationsmatrix-Vorlage](/de/ressourcen/vorlagen/qualifikationsmatrix-vorlage/)",
-      "[Mitarbeiter-Einarbeitung](/de/loesungen/mitarbeiter-einarbeitung/)",
-      "[Einarbeitung neuer Mitarbeiter in der Produktion](/de/blog/einarbeitung-neuer-mitarbeiter-produktion/)",
-      "[Werkerassistenzsystem](/de/loesungen/werkerassistenzsystem/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -44995,6 +42722,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-skills-matrix-guide.webp",
+   "related": [
+    "tplSkills",
+    "solTraining",
+    "blogOnboarding",
+    "solCwp"
+   ],
    "heroImage": "Qualifikationsmatrix auf einem Bildschirm: Mitarbeiter gegen Tätigkeiten mit markierten Qualifikationen"
   },
   "blogSmed": {
@@ -45215,16 +42948,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Laden Sie die kostenlose [SMED-Rüst-Checkliste](/de/ressourcen/vorlagen/smed-ruest-checkliste/) herunter."
      ],
      "h2": "Jetzt starten"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Anwendungsfall Rüsten und SMED](/de/anwendungsfaelle/ruesten-smed/)",
-      "[SMED-Rüst-Checkliste](/de/ressourcen/vorlagen/smed-ruest-checkliste/)",
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Arbeitsanweisung erstellen](/de/blog/arbeitsanweisung-erstellen/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -45248,6 +42971,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-smed-guide.webp",
+   "related": [
+    "ucChangeover",
+    "tplSmed",
+    "solDwi",
+    "blogWriteWorkInstructions"
+   ],
    "heroImage": "SMED Rüsten: Presse mit Werkzeugwagen und Tablet mit Timer, das die Rüstschritte führt"
   },
   "blogAiSop": {
@@ -45421,23 +43150,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Mehr zu [KI-Arbeitsanweisungen](/de/plattform/ki-arbeitsanweisungen/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Sie möchten sehen, wie KI eine Ihrer SOPs umwandelt? [Kostenloses Erstgespräch vereinbaren](/de/kontakt/)."
-     ],
-     "h2": "Kostenloses Erstgespräch vereinbaren"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[KI-Arbeitsanweisungen](/de/plattform/ki-arbeitsanweisungen/)",
-      "[Was ist eine SOP?](/de/blog/was-ist-eine-sop/)",
-      "[SOP-Software](/de/loesungen/sop-software/)",
-      "[SOP-Vorlage](/de/ressourcen/vorlagen/sop-vorlage/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -45461,6 +43173,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-ai-sop-generator.webp",
+   "related": [
+    "pfAi",
+    "blogWhatIsSop",
+    "solSop",
+    "tplSop"
+   ],
    "heroImage": "SOP mit KI erstellen: Dokumente werden von KI in digitale Schrittkarten umgewandelt"
   },
   "blogVisual": {
@@ -45648,23 +43366,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Mehr zu [digitalen Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Sie möchten Ihre eigene SOP als visuelle AR-Anweisung sehen? [Kostenloses Erstgespräch vereinbaren](/de/kontakt/)."
-     ],
-     "h2": "Kostenloses Erstgespräch vereinbaren"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Arbeitsanweisung erstellen](/de/blog/arbeitsanweisung-erstellen/)",
-      "[Arbeitsanweisung-Vorlage](/de/ressourcen/vorlagen/arbeitsanweisung-vorlage/)",
-      "[Augmented Reality in der Industrie](/de/blog/augmented-reality-industrie/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -45684,6 +43385,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-visual-work-instructions.webp",
+   "related": [
+    "solDwi",
+    "blogWriteWorkInstructions",
+    "tplWorkInstruction",
+    "blogArManufacturing"
+   ],
    "heroImage": "Visuelle Arbeitsanweisungen: Ventilpanel und Tablet mit demselben Ventil und AR-Pfeil"
   },
   "blogMaintenance": {
@@ -45899,16 +43606,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Laden Sie die kostenlose [Wartungscheckliste](/de/ressourcen/vorlagen/wartungscheckliste/) herunter."
      ],
      "h2": "Jetzt starten"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Anwendungsfall vorbeugende Wartung](/de/anwendungsfaelle/vorbeugende-wartung/)",
-      "[Wartungscheckliste](/de/ressourcen/vorlagen/wartungscheckliste/)",
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Datenbrillen in der Industrie](/de/blog/datenbrillen-industrie/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -45932,6 +43629,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-preventive-maintenance-guide.webp",
+   "related": [
+    "ucMaintenance",
+    "tplMaintenance",
+    "solDwi",
+    "blogSmartGlasses"
+   ],
    "heroImage": "Vorbeugende Wartung: Pumpe mit AR-Brillen-Einblendung und Wartungskalender"
   },
   "blogConnectedWorker": {
@@ -46125,23 +43828,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Mehr zum [Werkerassistenzsystem](/de/loesungen/werkerassistenzsystem/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Sie möchten wissen, wo Werkerassistenz in Ihrem Werk zuerst Nutzen bringt? [Kostenloses Erstgespräch vereinbaren](/de/kontakt/)."
-     ],
-     "h2": "Kostenloses Erstgespräch vereinbaren"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Werkerassistenzsystem](/de/loesungen/werkerassistenzsystem/)",
-      "[Augmented Reality in der Industrie](/de/blog/augmented-reality-industrie/)",
-      "[Qualifikationsmatrix erstellen](/de/blog/qualifikationsmatrix-erstellen/)",
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -46165,6 +43851,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-what-is-a-connected-worker.webp",
+   "related": [
+    "solCwp",
+    "blogArManufacturing",
+    "blogSkillsMatrix",
+    "solDwi"
+   ],
    "heroImage": "Werkerassistenzsystem: Werker mit AR-Brille, verbunden mit Maschine, Checkliste und Dashboard"
   },
   "blogWhatIsSop": {
@@ -46395,16 +44087,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Laden Sie die kostenlose [SOP-Vorlage](/de/ressourcen/vorlagen/sop-vorlage/) herunter."
      ],
      "h2": "Jetzt starten"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SOP-Software](/de/loesungen/sop-software/)",
-      "[SOP-Vorlage](/de/ressourcen/vorlagen/sop-vorlage/)",
-      "[SOP mit KI erstellen](/de/blog/sop-mit-ki-erstellen/)",
-      "[Arbeitsanweisung erstellen](/de/blog/arbeitsanweisung-erstellen/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -46428,6 +44110,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-what-is-an-sop.webp",
+   "related": [
+    "solSop",
+    "tplSop",
+    "blogAiSop",
+    "blogWriteWorkInstructions"
+   ],
    "heroImage": "Was ist eine SOP: Ordner und SOP-Dokument mit Prüfhaken neben einem Tablet mit Dashboard"
   },
   "blogKnowledgeTransfer": {
@@ -46630,16 +44318,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Laden Sie die kostenlose Vorlage [Wissenstransfer-Plan](/de/ressourcen/vorlagen/wissenstransfer-plan/) herunter."
      ],
      "h2": "Jetzt starten"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Wissenstransfer](/de/loesungen/wissenstransfer/)",
-      "[Wissenstransfer-Plan](/de/ressourcen/vorlagen/wissenstransfer-plan/)",
-      "[SOP mit KI erstellen](/de/blog/sop-mit-ki-erstellen/)",
-      "[Qualifikationsmatrix erstellen](/de/blog/qualifikationsmatrix-erstellen/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -46663,6 +44341,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/blog-knowledge-transfer-manufacturing.webp",
+   "related": [
+    "solKnowledge",
+    "tplKnowledge",
+    "blogAiSop",
+    "blogSkillsMatrix"
+   ],
    "heroImage": "Wissenstransfer: altes Handbuch per Kamera erfasst und zu Schrittkarten auf einem Tablet umgewandelt"
   },
   "indField": {
@@ -46777,23 +44461,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Qualifikationsmatrix für die Einsatzplanung des richtigen Technikers."
      ],
      "h2": "So unterstützt Actarion"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Mehr Lösungen beim ersten Einsatz? [Kostenloses Erstgespräch vereinbaren](/de/pilotprojekt/)"
-     ],
-     "h2": "Kostenloses Erstgespräch vereinbaren"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Checklisten](/de/loesungen/digitale-checklisten/)",
-      "[Werkerassistenzsystem](/de/loesungen/werkerassistenzsystem/)",
-      "[Wartungscheckliste](/de/ressourcen/vorlagen/wartungscheckliste/)",
-      "[Maschinenbau](/de/branchen/maschinenbau/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -46817,6 +44484,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/industries-field-service.webp",
+   "related": [
+    "solChecklists",
+    "solCwp",
+    "tplMaintenance",
+    "indMachine"
+   ],
    "heroImage": "Federzeichnung eines Außenschaltschranks, eines Werkzeugkoffers und eines Tablets mit Verbindung zu einem Experten für Arbeitsanweisungen im Außendienst"
   },
   "indEnergy": {
@@ -46931,23 +44604,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Jeder Einsatz hinterlässt ein Protokoll für Arbeitssicherheit und Asset Management."
      ],
      "h2": "So unterstützt Actarion"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Sicherere, dokumentierte Feldarbeit? [Kostenloses Erstgespräch vereinbaren](/de/pilotprojekt/)"
-     ],
-     "h2": "Kostenloses Erstgespräch vereinbaren"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Vorlage LOTO-Verfahren](/de/ressourcen/vorlagen/loto-verfahren/)",
-      "[Werkerassistenzsystem](/de/loesungen/werkerassistenzsystem/)",
-      "[Außendienst & Service](/de/branchen/aussendienst-service/)",
-      "[Digitale Checklisten](/de/loesungen/digitale-checklisten/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -46967,6 +44623,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/industries-energy-utilities.webp",
+   "related": [
+    "tplLoto",
+    "solCwp",
+    "indField",
+    "solChecklists"
+   ],
    "heroImage": "Federzeichnung eines Transformators und eines Hochspannungsmasts mit AR-Brille und Schrittkarte für Arbeitsanweisungen bei Energieversorgern"
   },
   "indManufacturing": {
@@ -47093,23 +44755,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Pilotprojekt mit festen KPIs, danach Rollout über Linien und Werke."
      ],
      "h2": "So unterstützt Actarion"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Weniger Fehler und schnelleres Rüsten? [Kostenloses Erstgespräch vereinbaren](/de/pilotprojekt/)"
-     ],
-     "h2": "Kostenloses Erstgespräch vereinbaren"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[SMED-Rüstcheckliste](/de/ressourcen/vorlagen/smed-ruest-checkliste/)",
-      "[Arbeitsanweisung-Vorlage](/de/ressourcen/vorlagen/arbeitsanweisung-vorlage/)",
-      "[Maschinenbau](/de/branchen/maschinenbau/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -47129,6 +44774,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/foto/ipad-robot.webp",
+   "related": [
+    "solDwi",
+    "tplSmed",
+    "tplWorkInstruction",
+    "indMachine"
+   ],
    "heroImage": "Federzeichnung eines Förderbands mit Roboterarm und Tablet mit OEE-Anzeige für Arbeitsanweisungen in der Fertigung"
   },
   "industries": {
@@ -47250,23 +44901,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Umsetzung in Benelux, DACH und Skandinavien mit Technologiepartner DeepSight."
      ],
      "h2": "So unterstützt Actarion"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Besprechen Sie Ihre Branche und den ersten Anwendungsfall. [Kostenloses Erstgespräch vereinbaren](/de/pilotprojekt/)"
-     ],
-     "h2": "Kostenloses Erstgespräch vereinbaren"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Anwendungsfälle](/de/anwendungsfaelle/)",
-      "[Werkerassistenzsystem](/de/loesungen/werkerassistenzsystem/)",
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Kundenprojekte](/de/kunden/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -47290,6 +44924,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/industries.webp",
+   "related": [
+    "useCases",
+    "solCwp",
+    "solDwi",
+    "customers"
+   ],
    "heroImage": "Federzeichnung einer Fabrik, eines Reaktors, eines Strommasts und einer Windkraftanlage rund um ein Tablet mit digitalen Arbeitsanweisungen"
   },
   "indFood": {
@@ -47404,23 +45044,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Mehrsprachige Anweisungen für gemischte Teams."
      ],
      "h2": "So unterstützt Actarion"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Schneller und einheitlicher rüsten? [Kostenloses Erstgespräch vereinbaren](/de/pilotprojekt/)"
-     ],
-     "h2": "Kostenloses Erstgespräch vereinbaren"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SMED-Rüstcheckliste](/de/ressourcen/vorlagen/smed-ruest-checkliste/)",
-      "[Digitale Checklisten](/de/loesungen/digitale-checklisten/)",
-      "[Checkliste Qualitätsprüfung](/de/ressourcen/vorlagen/qualitaetspruefung-checkliste/)",
-      "[Fertigung](/de/branchen/fertigung/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -47440,6 +45063,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/industries-food-beverage.webp",
+   "related": [
+    "tplSmed",
+    "solChecklists",
+    "tplQuality",
+    "indManufacturing"
+   ],
    "heroImage": "Federzeichnung einer Abfülllinie mit Flaschen, CIP-Leitung und Tablet mit Reinigungsschritt für Arbeitsanweisungen in der Lebensmittelindustrie"
   },
   "indAerospace": {
@@ -47557,23 +45186,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Nachweise, die Audits durch Qualität und Behörde unterstützen."
      ],
      "h2": "So unterstützt Actarion"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Rückverfolgbare MRO-Aufgaben ohne Papier? [Kostenloses Erstgespräch vereinbaren](/de/pilotprojekt/)"
-     ],
-     "h2": "Kostenloses Erstgespräch vereinbaren"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SOP-Software](/de/loesungen/sop-software/)",
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Wartungscheckliste](/de/ressourcen/vorlagen/wartungscheckliste/)",
-      "[Außendienst & Service](/de/branchen/aussendienst-service/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -47593,6 +45205,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/industries-aerospace-mro.webp",
+   "related": [
+    "solSop",
+    "solDwi",
+    "tplMaintenance",
+    "indField"
+   ],
    "heroImage": "Federzeichnung eines Strahltriebwerks mit AR-Markierung an einer Schaufel und eines Tablets mit Rückverfolgbarkeit für MRO-Arbeitsanweisungen"
   },
   "indMachine": {
@@ -47715,23 +45333,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Ein Serviceangebot, das Sie zusätzlich zur Maschine verkaufen können."
      ],
      "h2": "So unterstützt Actarion"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Smarterer Service mit jeder Maschine? [Kostenloses Erstgespräch vereinbaren](/de/pilotprojekt/)"
-     ],
-     "h2": "Kostenloses Erstgespräch vereinbaren"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Remote-Experten-Support](/de/anwendungsfaelle/remote-experten-support/)",
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Arbeitsanweisung-Vorlage](/de/ressourcen/vorlagen/arbeitsanweisung-vorlage/)",
-      "[Außendienst & Service](/de/branchen/aussendienst-service/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -47751,6 +45352,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/industries-machine-builders.webp",
+   "related": [
+    "ucRemote",
+    "solDwi",
+    "tplWorkInstruction",
+    "indField"
+   ],
    "heroImage": "Federzeichnung einer Maschine mit eingebautem Bildschirm, Servicekoffer und Konsole des Maschinenbauers für digitale Serviceanleitungen"
   },
   "indPharma": {
@@ -47873,23 +45480,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Starten Sie mit unserer [Line-Clearance-Checkliste](/de/ressourcen/vorlagen/line-clearance-checkliste/)."
      ],
      "h2": "So unterstützt Actarion"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Weniger Dokumentationsabweichungen? [Kostenloses Erstgespräch vereinbaren](/de/pilotprojekt/)"
-     ],
-     "h2": "Kostenloses Erstgespräch vereinbaren"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SOP-Software](/de/loesungen/sop-software/)",
-      "[Line-Clearance-Checkliste](/de/ressourcen/vorlagen/line-clearance-checkliste/)",
-      "[SOP-Vorlage](/de/ressourcen/vorlagen/sop-vorlage/)",
-      "[Qualitätsprüfung](/de/anwendungsfaelle/qualitaetspruefung/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -47909,6 +45499,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/industries-pharma-biotech.webp",
+   "related": [
+    "solSop",
+    "tplLineClearance",
+    "tplSop",
+    "ucQuality"
+   ],
    "heroImage": "Federzeichnung eines Edelstahlreaktors, von Vials und eines Tablets mit Chargen-Checkliste für GMP-Arbeitsanweisungen"
   },
   "privacy": {
@@ -48092,23 +45688,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Ein Ansprechpartner vor Ort in Benelux, DACH oder den Nordics."
      ],
      "h2": "Wie Actarion unterstützt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Füllen Sie das Formular aus; wir bestätigen einen Termin innerhalb von [TE BEVESTIGEN: Reaktionszeit]."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Videos](/de/ressourcen/videos/)",
-      "[Pilotprojekt](/de/pilotprojekt/)",
-      "[DeepSight in Europa](/de/partner/deepsight/)",
-      "[Kontakt](/de/kontakt/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -48124,6 +45703,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/demo.webp",
+   "related": [
+    "videos",
+    "pilot",
+    "partnerDeepsight",
+    "contact"
+   ],
    "heroImage": "Federzeichnung: Laptop mit Videogespräch und cyanfarbener Schrittkarte, daneben AR-Brille und Häkchen"
   },
   "faq": {
@@ -48238,28 +45823,17 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       }
      ],
      "h2": "Was kostet es und wie starten wir?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Ihre Frage ist nicht dabei? [Kostenloses Erstgespräch vereinbaren](/de/kontakt/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Pilotprojekt](/de/pilotprojekt/)",
-      "[DeepSight in Europa](/de/partner/deepsight/)",
-      "[Glossar](/de/ressourcen/glossar/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/faq.webp",
+   "related": [
+    "solDwi",
+    "pilot",
+    "partnerDeepsight",
+    "glossary"
+   ],
    "heroImage": "Federzeichnung: aufklappbare Fragenliste mit einer cyanfarben geöffneten Frage neben einem Tablet"
   },
   "hwAndroidXr": {
@@ -48388,16 +45962,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Demo vereinbaren](/de/demo/)**"
      ],
      "h2": "Testen Sie Android XR an Ihrer eigenen Aufgabe"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Smart Glasses und AR Brille](/de/hardware/)",
-      "[AR-Brille vs. Tablet](/de/vergleich/ar-brille-vs-tablet/)",
-      "[AR-Werkerführung](/de/plattform/ar-werkerfuehrung/)",
-      "[Werkerassistenzsystem](/de/loesungen/werkerassistenzsystem/)"
-     ],
-     "h2": "Weiterführend"
     }
    ],
    "faq": [
@@ -48417,6 +45981,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/hardware-android-xr.webp",
+   "related": [
+    "hardware",
+    "cmpGlassesTablets",
+    "pfAr",
+    "solCwp"
+   ],
    "heroImage": "Federzeichnung: Ein Android-XR-Headset über einer Werkbank mit cyanfarbenem Overlay auf einem Bauteil"
   },
   "hwVisionPro": {
@@ -48545,16 +46115,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Demo vereinbaren](/de/demo/)**"
      ],
      "h2": "Testen Sie Vision Pro an Ihrer eigenen Aufgabe"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Smart Glasses und AR Brille](/de/hardware/)",
-      "[Vision Pro vs. HoloLens](/de/vergleich/vision-pro-vs-hololens/)",
-      "[AR-Werkerführung](/de/plattform/ar-werkerfuehrung/)",
-      "[Mitarbeiter-Einarbeitung](/de/loesungen/mitarbeiter-einarbeitung/)"
-     ],
-     "h2": "Weiterführend"
     }
    ],
    "faq": [
@@ -48574,6 +46134,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/foto/visionpro-hal.webp",
+   "related": [
+    "hardware",
+    "cmpVisionProHololens",
+    "pfAr",
+    "solTraining"
+   ],
    "heroImage": "Federzeichnung: Ein Mixed-Reality-Headset in Seitenansicht mit schwebendem cyanfarbenem Anweisungsfenster über einer Maschine"
   },
   "hwHololens": {
@@ -48713,23 +46279,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Kostenloses Erstgespräch vereinbaren](/de/demo/)**"
      ],
      "h2": "Planen Sie Ihre HoloLens-2-Migration"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Smart Glasses und AR Brille](/de/hardware/)",
-      "[Vision Pro vs. HoloLens](/de/vergleich/vision-pro-vs-hololens/)",
-      "[AR-Brille vs. Tablet](/de/vergleich/ar-brille-vs-tablet/)",
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)"
-     ],
-     "h2": "Weiterführend"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "*Quelle zum Status der HoloLens 2: Ankündigung von Microsoft, Oktober 2024, berichtet von [Road to VR](https://roadtovr.com/microsoft-hololens-2-discontinued-support-2027-hololens-3/).*"
-     ],
-     "h2": ""
     }
    ],
    "faq": [
@@ -48749,6 +46298,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/hardware-hololens.webp",
+   "related": [
+    "hardware",
+    "cmpVisionProHololens",
+    "cmpGlassesTablets",
+    "solDwi"
+   ],
    "heroImage": "Federzeichnung: Arbeitsanweisungen ziehen von einer alten AR-Brille auf ein Tablet und ein neues Headset um"
   },
   "hardware": {
@@ -48894,16 +46449,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Kostenloses Erstgespräch vereinbaren](/de/demo/)**"
      ],
      "h2": "Unsicher, welches Gerät passt?"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[AR-Werkerführung](/de/plattform/ar-werkerfuehrung/)",
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[AR-Brille vs. Tablet](/de/vergleich/ar-brille-vs-tablet/)",
-      "[Pilotprojekt starten](/de/pilotprojekt/)"
-     ],
-     "h2": "Weiterführend"
     }
    ],
    "faq": [
@@ -48927,6 +46472,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/hardware.webp",
+   "related": [
+    "pfAr",
+    "solDwi",
+    "cmpGlassesTablets",
+    "pilot"
+   ],
    "heroImage": "Federzeichnung: Draufsicht auf Tablet, Smartphone, AR-Brille und Headset, jeweils mit cyanfarbener Arbeitsanweisung"
   },
   "hwTablets": {
@@ -49072,16 +46623,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Demo vereinbaren](/de/demo/)**"
      ],
      "h2": "Sehen Sie Ihre SOP auf dem Tablet"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Smart Glasses und AR Brille](/de/hardware/)",
-      "[AR-Brille vs. Tablet](/de/vergleich/ar-brille-vs-tablet/)",
-      "[SOP-Software](/de/loesungen/sop-software/)"
-     ],
-     "h2": "Weiterführend"
     }
    ],
    "faq": [
@@ -49101,6 +46642,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/hardware-tablets-smartphones.webp",
+   "related": [
+    "solDwi",
+    "hardware",
+    "cmpGlassesTablets",
+    "solSop"
+   ],
    "heroImage": "Federzeichnung: Ein Tablet an einem Schwenkarm neben einem Förderband und ein Smartphone mit cyanfarbener Schrittkarte"
   },
   "imprint": {
@@ -49363,16 +46910,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Kostenloses Erstgespräch vereinbaren](/de/demo/)**"
      ],
      "h2": "Bereit, Ihre erste SOP zu digitalisieren?"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Software für digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Alle Lösungen](/de/loesungen/)",
-      "[Pilotprojekt starten](/de/pilotprojekt/)",
-      "[ROI-Rechner](/de/ressourcen/roi-rechner/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -49400,6 +46937,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/home.webp",
+   "related": [
+    "solDwi",
+    "solutions",
+    "pilot",
+    "roiCalculator"
+   ],
    "heroImage": "Federzeichnung: eine Papier-SOP wird zur digitalen Arbeitsanweisung auf Tablet und AR-Brille, Ausführungsdaten fließen in ein Dashboard"
   },
   "contact": {
@@ -49480,27 +47023,16 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       }
      ],
      "h2": "Was passiert nach dem Absenden?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Senden Sie das Formular oder schreiben Sie an hello@actarion.com."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Demo vereinbaren](/de/demo/)",
-      "[Pilotprojekt](/de/pilotprojekt/)",
-      "[Häufige Fragen](/de/faq/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/contact.webp",
+   "related": [
+    "demo",
+    "pilot",
+    "faq"
+   ],
    "heroImage": "Federzeichnung: Briefumschlag und eine cyanfarbene Sprechblase, die ein Gespräch beginnen"
   },
   "caseMining": {
@@ -49609,16 +47141,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**Pilotprojekt mit festen KPIs** belegt den Effekt an einer Linie oder einem Standort, bevor Sie skalieren."
      ],
      "h2": "So unterstützt Actarion Sie dabei"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Vorbeugende Wartung mit AR](/de/anwendungsfaelle/vorbeugende-wartung/)",
-      "[Fertigung](/de/branchen/fertigung/)",
-      "[Alle Kundenprojekte](/de/kunden/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -49638,6 +47160,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/customers-mining-training-maintenance.webp",
+   "related": [
+    "solDwi",
+    "ucMaintenance",
+    "indManufacturing",
+    "customers"
+   ],
    "heroImage": "Federzeichnung: Bergbaufahrzeug mit cyanfarbenem Wartungspunkt, verbunden mit AR-Brille und Tablet mit Schrittkarte"
   },
   "customers": {
@@ -49717,16 +47245,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**Kennen Sie diese Situation?** [Kostenloses Erstgespräch vereinbaren](/de/kontakt/) – wir skizzieren Ihren ersten Anwendungsfall in einem Termin."
      ],
      "h2": "Starten Sie Ihr eigenes Projekt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Pilotprojekt in vier Phasen](/de/pilotprojekt/)",
-      "[DeepSight in Europa](/de/partner/deepsight/)",
-      "[ROI-Rechner](/de/ressourcen/roi-rechner/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -49746,6 +47264,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/customers.webp",
+   "related": [
+    "solDwi",
+    "pilot",
+    "partnerDeepsight",
+    "roiCalculator"
+   ],
    "heroImage": "Federzeichnung: vier Sockel mit Helm, Kiste, Fläschchen und Rad, verbunden mit einem Tablet mit cyanfarbener Projektkarte"
   },
   "caseFood": {
@@ -49853,16 +47377,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**Pilotprojekt mit festen KPIs** belegt den Effekt an einer Linie oder einem Standort, bevor Sie skalieren."
      ],
      "h2": "So unterstützt Actarion Sie dabei"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Lebensmittelindustrie](/de/branchen/lebensmittel/)",
-      "[Rüsten und SMED](/de/anwendungsfaelle/ruesten-smed/)",
-      "[Vorlagen für Arbeitsanweisungen](/de/ressourcen/vorlagen/)",
-      "[Alle Kundenprojekte](/de/kunden/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -49882,6 +47396,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/customers-food-changeover-inspections.webp",
+   "related": [
+    "indFood",
+    "ucChangeover",
+    "templates",
+    "customers"
+   ],
    "heroImage": "Federzeichnung: Lebensmittellinie mit Förderband und einem Formatteil beim Rüsten, mit Schrittkarte auf einem Tablet"
   },
   "casePharma": {
@@ -49989,16 +47509,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**Pilotprojekt mit festen KPIs** belegt den Effekt an einer Linie oder einem Standort, bevor Sie skalieren."
      ],
      "h2": "So unterstützt Actarion Sie dabei"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Pharma und Biotech](/de/branchen/pharma-biotech/)",
-      "[Rüsten und SMED](/de/anwendungsfaelle/ruesten-smed/)",
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Alle Kundenprojekte](/de/kunden/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -50018,6 +47528,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/customers-pharma-training-changeover.webp",
+   "related": [
+    "indPharma",
+    "ucChangeover",
+    "solDwi",
+    "customers"
+   ],
    "heroImage": "Federzeichnung: pharmazeutische Abfüllmaschine mit cyanfarbener AR-Markierung beim Rüsten, verbunden mit einem Tablet"
   },
   "caseTransport": {
@@ -50126,16 +47642,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**Pilotprojekt mit festen KPIs** belegt den Effekt an einer Linie oder einem Standort, bevor Sie skalieren."
      ],
      "h2": "So unterstützt Actarion Sie dabei"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Vorbeugende Wartung mit AR](/de/anwendungsfaelle/vorbeugende-wartung/)",
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Vorlagen für Arbeitsanweisungen](/de/ressourcen/vorlagen/)",
-      "[Alle Kundenprojekte](/de/kunden/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -50155,6 +47661,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/customers-transport-maintenance-traceability.webp",
+   "related": [
+    "ucMaintenance",
+    "solDwi",
+    "templates",
+    "customers"
+   ],
    "heroImage": "Federzeichnung: Lkw mit cyanfarbener Markierung am Rad und eine digitale Wartungscheckliste mit Häkchen"
   },
   "solDwi": {
@@ -50352,17 +47864,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Kostenloses Erstgespräch vereinbaren](/de/demo/)**"
      ],
      "h2": "Ihre eigene SOP als digitale Arbeitsanweisung"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Arbeitsanweisung-Vorlage](/de/ressourcen/vorlagen/arbeitsanweisung-vorlage/)",
-      "[SOP Software](/de/loesungen/sop-software/)",
-      "[AR-Werkerführung](/de/plattform/ar-werkerfuehrung/)",
-      "[Anwendungsfall: Montage](/de/anwendungsfaelle/montage/)",
-      "[ROI-Rechner](/de/ressourcen/roi-rechner/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -50390,6 +47891,13 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/solutions-digital-work-instructions.webp",
+   "related": [
+    "tplWorkInstruction",
+    "solSop",
+    "pfAr",
+    "ucAssembly",
+    "roiCalculator"
+   ],
    "heroImage": "Federzeichnung von oben: ein Flansch mit Schrauben, eine AR-Markierung auf der nächsten Schraube und ein Tablet mit digitaler Arbeitsanweisung"
   },
   "solChecklists": {
@@ -50599,16 +48107,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Kostenloses Erstgespräch vereinbaren](/de/demo/)**"
      ],
      "h2": "Digitalisieren Sie Ihre erste Checkliste"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Wartungscheckliste](/de/ressourcen/vorlagen/wartungscheckliste/)",
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[SOP Software](/de/loesungen/sop-software/)",
-      "[Analyse und Audit Trail](/de/plattform/analyse-audit-trail/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -50640,6 +48138,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/solutions-digital-checklists.webp",
+   "related": [
+    "tplMaintenance",
+    "solDwi",
+    "solSop",
+    "pfAnalytics"
+   ],
    "heroImage": "Federzeichnung: ein Tablet mit digitaler Checkliste, abgehakten Schritten und Fotonachweis neben einem Papier-Klemmbrett"
   },
   "solutions": {
@@ -50718,16 +48222,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Kostenloses Erstgespräch vereinbaren](/de/demo/)**"
      ],
      "h2": "Unsicher, wo Sie starten sollen?"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Startseite](/de/)",
-      "[Pilotprojekt starten](/de/pilotprojekt/)",
-      "[Anwendungsfall: Einarbeitung und Schulung](/de/anwendungsfaelle/einarbeitung-schulung/)",
-      "[Fertigung](/de/branchen/fertigung/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -50747,6 +48241,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/solutions.webp",
+   "related": [
+    "home",
+    "pilot",
+    "ucOnboarding",
+    "indManufacturing"
+   ],
    "heroImage": "Federzeichnung: ein zentrales Tablet mit Schrittkarte, verbunden mit sechs Actarion-Lösungen"
   },
   "solTraining": {
@@ -50934,17 +48434,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Kostenloses Erstgespräch vereinbaren](/de/demo/)**"
      ],
      "h2": "Arbeiten Sie Ihren nächsten neuen Kollegen mit AR ein"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Anwendungsfall: Einarbeitung und Schulung](/de/anwendungsfaelle/einarbeitung-schulung/)",
-      "[Qualifikationsmatrix-Vorlage](/de/ressourcen/vorlagen/qualifikationsmatrix-vorlage/)",
-      "[Wissenstransfer](/de/loesungen/wissenstransfer/)",
-      "[Werkerassistenzsystem](/de/loesungen/werkerassistenzsystem/)",
-      "[ROI-Rechner](/de/ressourcen/roi-rechner/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -50972,6 +48461,13 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/solutions-frontline-training.webp",
+   "related": [
+    "ucOnboarding",
+    "tplSkills",
+    "solKnowledge",
+    "solCwp",
+    "roiCalculator"
+   ],
    "heroImage": "Federzeichnung: ein Bedienpanel mit AR-Pfeil für die Drehrichtung und einer Schrittkarte, verknüpft mit einer Qualifikationsmatrix"
   },
   "solSop": {
@@ -51158,17 +48654,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Kostenloses Erstgespräch vereinbaren](/de/demo/)**"
      ],
      "h2": "Ihre SOP, per KI digitalisiert"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SOP-Vorlage](/de/ressourcen/vorlagen/sop-vorlage/)",
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[KI-Arbeitsanweisungen](/de/plattform/ki-arbeitsanweisungen/)",
-      "[Pharma und Biotech](/de/branchen/pharma-biotech/)",
-      "[Digitale Checklisten](/de/loesungen/digitale-checklisten/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -51200,6 +48685,13 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/solutions-sop-software.webp",
+   "related": [
+    "tplSop",
+    "solDwi",
+    "pfAi",
+    "indPharma",
+    "solChecklists"
+   ],
    "heroImage": "Federzeichnung von oben: ein Stapel Papier-SOPs wird per KI in digitale Schrittkarten auf einem Tablet umgewandelt"
   },
   "solCwp": {
@@ -51386,17 +48878,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Kostenloses Erstgespräch vereinbaren](/de/demo/)**"
      ],
      "h2": "Vernetzen Sie Ihre Werker"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Mitarbeiter-Einarbeitung](/de/loesungen/mitarbeiter-einarbeitung/)",
-      "[Qualifikationsmatrix-Vorlage](/de/ressourcen/vorlagen/qualifikationsmatrix-vorlage/)",
-      "[Anwendungsfall: Remote-Experten-Support](/de/anwendungsfaelle/remote-experten-support/)",
-      "[ROI-Rechner](/de/ressourcen/roi-rechner/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -51428,6 +48909,13 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/solutions-connected-worker-platform.webp",
+   "related": [
+    "solDwi",
+    "solTraining",
+    "tplSkills",
+    "ucRemote",
+    "roiCalculator"
+   ],
    "heroImage": "Federzeichnung: AR-Brille im Zentrum eines Werkerassistenzsystems, verbunden mit Maschine, Dashboard und Remote-Experte"
   },
   "solKnowledge": {
@@ -51627,16 +49115,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Kostenloses Erstgespräch vereinbaren](/de/demo/)**"
      ],
      "h2": "Sichern Sie das Wissen Ihrer Experten"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Mitarbeiter-Einarbeitung](/de/loesungen/mitarbeiter-einarbeitung/)",
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Anwendungsfall: Remote-Experten-Support](/de/anwendungsfaelle/remote-experten-support/)",
-      "[Arbeitsanweisung-Vorlage](/de/ressourcen/vorlagen/arbeitsanweisung-vorlage/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -51660,6 +49138,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/solutions-knowledge-capture.webp",
+   "related": [
+    "solTraining",
+    "solDwi",
+    "ucRemote",
+    "tplWorkInstruction"
+   ],
    "heroImage": "Federzeichnung: eine Kamera erfasst die Arbeit an Pumpe und Ventil, die als digitale Schrittkarten für den Wissenstransfer gesichert wird"
   },
   "partnerDeepsight": {
@@ -51782,23 +49266,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Qualifikationsmatrix verknüpft mit abgeschlossenen Anweisungen."
      ],
      "h2": "Wie Actarion unterstützt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "[Demo vereinbaren](/de/demo/) und DeepSight an Ihrem eigenen Anwendungsfall sehen."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Kundenprojekte mit DeepSight](/de/kunden/)",
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Remote-Experten-Support](/de/anwendungsfaelle/remote-experten-support/)",
-      "[Alle Partner](/de/partner/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -51818,6 +49285,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/partners-deepsight.webp",
+   "related": [
+    "customers",
+    "solDwi",
+    "ucRemote",
+    "partners"
+   ],
    "heroImage": "Federzeichnung: Monitor mit cyanfarbenen Schrittkarten in einem Studio, ausgerollt auf ein Tablet auf Stativ und eine AR-Brille"
   },
   "partners": {
@@ -51908,23 +49381,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Ihre eigenen Leute lernen, Anweisungen zu erstellen und zu pflegen."
      ],
      "h2": "Wie Actarion unterstützt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Welche Partner passen zu Ihrem Anwendungsfall? [Kostenloses Erstgespräch vereinbaren](/de/kontakt/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[DeepSight in Europa](/de/partner/deepsight/)",
-      "[Partner werden](/de/partner/partner-werden/)",
-      "[Pilotprojekt](/de/pilotprojekt/)",
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -51944,6 +49400,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/partners.webp",
+   "related": [
+    "partnerDeepsight",
+    "partnerBecome",
+    "pilot",
+    "solDwi"
+   ],
    "heroImage": "Federzeichnung: Tablet mit cyanfarbener Schrittkarte im Zentrum eines Partnernetzwerks mit Zahnrad, AR-Brille, Dokument und Qualifikationsmatrix"
   },
   "partnerBecome": {
@@ -52013,22 +49475,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Gemeinsame Pilotmethode mit festen KPIs."
      ],
      "h2": "Wie Actarion unterstützt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "[Kontaktieren Sie uns zur Partnerschaft](/de/kontakt/) und wählen Sie das Thema Partnership."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Alle Partner](/de/partner/)",
-      "[DeepSight in Europa](/de/partner/deepsight/)",
-      "[Pilotprojekt](/de/pilotprojekt/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -52044,6 +49490,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/partners-become-a-partner.webp",
+   "related": [
+    "partners",
+    "partnerDeepsight",
+    "pilot"
+   ],
    "heroImage": "Federzeichnung: ein großes und ein cyanfarbenes Zahnrad greifen ineinander, daneben ein Tablet mit Schrittkarte"
   },
   "partnerPotentify": {
@@ -52101,22 +49552,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Kontinuierliche Lernpfade verbinden AR-Werkerführung mit formaler Schulung."
      ],
      "h2": "Wie Actarion unterstützt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Möchten Sie AR-Schulung mit Ihrer Qualifikationsmatrix verbinden? [Kostenloses Erstgespräch vereinbaren](/de/kontakt/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Einarbeitung und Schulung](/de/anwendungsfaelle/einarbeitung-schulung/)",
-      "[Alle Partner](/de/partner/)",
-      "[Pilotprojekt](/de/pilotprojekt/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -52132,6 +49567,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/partners-potentify.webp",
+   "related": [
+    "ucOnboarding",
+    "partners",
+    "pilot"
+   ],
    "heroImage": "Federzeichnung: Qualifikationsmatrix mit einer cyanfarbenen Zelle und einer aufsteigenden Treppe als Lernpfad"
   },
   "partnerSimplyChange": {
@@ -52186,22 +49626,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Nutzungs-Dashboards aus den Ausführungsdaten."
      ],
      "h2": "Wie Actarion unterstützt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Sie wollen über den Pilot hinaus? [Kostenloses Erstgespräch vereinbaren](/de/kontakt/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Rüsten und SMED](/de/anwendungsfaelle/ruesten-smed/)",
-      "[Pilotprojekt](/de/pilotprojekt/)",
-      "[Alle Partner](/de/partner/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -52217,6 +49641,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/partners-simply-change.webp",
+   "related": [
+    "ucChangeover",
+    "pilot",
+    "partners"
+   ],
    "heroImage": "Federzeichnung: drei Werke, in denen ein cyanfarbener Bildschirm Schritt für Schritt ausgerollt wird, jeweils mit Häkchen"
   },
   "pilot": {
@@ -52296,23 +49725,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Ihre eigenen Autoren werden geschult, damit Sie unabhängig bleiben."
      ],
      "h2": "Wie Actarion unterstützt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "[Kostenloses Erstgespräch vereinbaren](/de/kontakt/) – wir skizzieren gemeinsam Ihren ersten Anwendungsfall."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[ROI-Rechner](/de/ressourcen/roi-rechner/)",
-      "[Kundenprojekte](/de/kunden/)",
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Rüsten und SMED](/de/anwendungsfaelle/ruesten-smed/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -52332,6 +49744,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/pilot.webp",
+   "related": [
+    "roiCalculator",
+    "customers",
+    "solDwi",
+    "ucChangeover"
+   ],
    "heroImage": "Federzeichnung: vier aufsteigende Stufen vom Briefing über Discovery und Pilot bis zur Skalierung mit mehreren Tablets"
   },
   "pfAnalytics": {
@@ -52481,16 +49899,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Demo vereinbaren](/de/demo/)**"
      ],
      "h2": "Sehen Sie den Audit Trail an Ihrem eigenen Prozess"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SOP-Software](/de/loesungen/sop-software/)",
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Qualifikationsmanagement](/de/plattform/qualifikationsmanagement/)",
-      "[Sicherheit und Compliance](/de/plattform/sicherheit/)"
-     ],
-     "h2": "Weiterführend"
     }
    ],
    "faq": [
@@ -52510,6 +49918,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/platform-analytics-audit-trail.webp",
+   "related": [
+    "solSop",
+    "solDwi",
+    "pfSkills",
+    "pfSecurity"
+   ],
    "heroImage": "Federzeichnung: Eine abgehakte Checkliste und ein Tablet mit Trendlinie und Zeitleiste als Audit Trail"
   },
   "pfAr": {
@@ -52653,16 +50067,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Demo vereinbaren](/de/demo/)**"
      ],
      "h2": "Erleben Sie AR Werkerführung an Ihrem Prozess"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Hardware für AR-Arbeitsanweisungen](/de/hardware/)",
-      "[AR-Brille vs. Tablet](/de/vergleich/ar-brille-vs-tablet/)",
-      "[Mitarbeiter-Einarbeitung](/de/loesungen/mitarbeiter-einarbeitung/)"
-     ],
-     "h2": "Weiterführend"
     }
    ],
    "faq": [
@@ -52686,6 +50090,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/foto/visionpro-hal.webp",
+   "related": [
+    "solDwi",
+    "hardware",
+    "cmpGlassesTablets",
+    "solTraining"
+   ],
    "heroImage": "Federzeichnung: Eine AR-Brille zeigt einen cyanfarbenen Ring und eine Schrittkarte am richtigen Ventil einer Schalttafel"
   },
   "platform": {
@@ -52848,16 +50258,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Demo vereinbaren](/de/demo/)**"
      ],
      "h2": "Sehen Sie die Plattform mit Ihrer eigenen SOP"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Werkerassistenzsystem](/de/loesungen/werkerassistenzsystem/)",
-      "[SOP-Software](/de/loesungen/sop-software/)",
-      "[Hardware für AR-Arbeitsanweisungen](/de/hardware/)"
-     ],
-     "h2": "Weiterführend"
     }
    ],
    "faq": [
@@ -52881,6 +50281,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/platform.webp",
+   "related": [
+    "solDwi",
+    "solCwp",
+    "solSop",
+    "hardware"
+   ],
    "heroImage": "Federzeichnung: Ein Stapel SOP-Dokumente wird zu einer digitalen Schrittkarte auf einem Tablet, Daten fließen in ein Dashboard"
   },
   "pfIntegrations": {
@@ -53021,16 +50427,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Kostenloses Erstgespräch vereinbaren](/de/demo/)**"
      ],
      "h2": "Besprechen Sie Ihre Systemlandschaft"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Werkerassistenzsystem](/de/loesungen/werkerassistenzsystem/)",
-      "[Analyse und Audit Trail](/de/plattform/analyse-audit-trail/)",
-      "[Sicherheit](/de/plattform/sicherheit/)",
-      "[Pilotprojekt starten](/de/pilotprojekt/)"
-     ],
-     "h2": "Weiterführend"
     }
    ],
    "faq": [
@@ -53050,6 +50446,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/platform-integrations.webp",
+   "related": [
+    "solCwp",
+    "pfAnalytics",
+    "pfSecurity",
+    "pilot"
+   ],
    "heroImage": "Federzeichnung: Ein Tablet mit Arbeitsanweisung ist mit einem Serverschrank, einem Dashboard und einer Maschine verbunden"
   },
   "pfAi": {
@@ -53192,16 +50594,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Demo vereinbaren](/de/demo/)**"
      ],
      "h2": "Testen Sie es mit einer Ihrer SOPs"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SOP-Software](/de/loesungen/sop-software/)",
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Wissen erfassen](/de/plattform/wissen-erfassen/)",
-      "[AR-Werkerführung](/de/plattform/ar-werkerfuehrung/)"
-     ],
-     "h2": "Weiterführend"
     }
    ],
    "faq": [
@@ -53225,6 +50617,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/platform-ai-authoring.webp",
+   "related": [
+    "solSop",
+    "solDwi",
+    "pfKnowledge",
+    "pfAr"
+   ],
    "heroImage": "Federzeichnung: Eine Papier-SOP läuft durch KI-Zahnräder und wird zu abgehakten digitalen Schrittkarten auf einem Tablet"
   },
   "pfMultilingual": {
@@ -53359,16 +50757,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Demo vereinbaren](/de/demo/)**"
      ],
      "h2": "Sehen Sie eine Anweisung in den Sprachen Ihres Teams"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Mitarbeiter-Einarbeitung](/de/loesungen/mitarbeiter-einarbeitung/)",
-      "[KI-Arbeitsanweisungen](/de/plattform/ki-arbeitsanweisungen/)",
-      "[AR-Werkerführung](/de/plattform/ar-werkerfuehrung/)"
-     ],
-     "h2": "Weiterführend"
     }
    ],
    "faq": [
@@ -53388,6 +50776,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/platform-multilingual.webp",
+   "related": [
+    "solDwi",
+    "solTraining",
+    "pfAi",
+    "pfAr"
+   ],
    "heroImage": "Federzeichnung: Eine Arbeitsanweisung auf einem Tablet fächert sich in drei Schrittkarten in verschiedenen Sprachen auf"
   },
   "pfSkills": {
@@ -53528,16 +50922,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Demo vereinbaren](/de/demo/)**"
      ],
      "h2": "Sehen Sie eine Qualifikationsmatrix, die aus echter Arbeit lebt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Mitarbeiter-Einarbeitung](/de/loesungen/mitarbeiter-einarbeitung/)",
-      "[Werkerassistenzsystem](/de/loesungen/werkerassistenzsystem/)",
-      "[Analyse und Audit Trail](/de/plattform/analyse-audit-trail/)",
-      "[Wissen erfassen](/de/plattform/wissen-erfassen/)"
-     ],
-     "h2": "Weiterführend"
     }
    ],
    "faq": [
@@ -53561,6 +50945,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/platform-skills-management.webp",
+   "related": [
+    "solTraining",
+    "solCwp",
+    "pfAnalytics",
+    "pfKnowledge"
+   ],
    "heroImage": "Federzeichnung: Ein Bildschirm mit einer Qualifikationsmatrix, in der cyanfarbene Zellen freigegebene Mitarbeiter zeigen"
   },
   "pfRemote": {
@@ -53695,16 +51085,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Demo vereinbaren](/de/demo/)**"
      ],
      "h2": "Erleben Sie Remote Support live"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Werkerassistenzsystem](/de/loesungen/werkerassistenzsystem/)",
-      "[AR-Werkerführung](/de/plattform/ar-werkerfuehrung/)",
-      "[Hardware für AR](/de/hardware/)",
-      "[Pilotprojekt starten](/de/pilotprojekt/)"
-     ],
-     "h2": "Weiterführend"
     }
    ],
    "faq": [
@@ -53728,6 +51108,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/platform-remote-support.webp",
+   "related": [
+    "solCwp",
+    "pfAr",
+    "hardware",
+    "pilot"
+   ],
    "heroImage": "Federzeichnung: Die AR-Brille eines Werkers an einer Pumpe ist mit einem Laptop verbunden, auf dem ein Experte das Bauteil cyan markiert"
   },
   "pfSecurity": {
@@ -53858,16 +51244,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Kostenloses Erstgespräch vereinbaren](/de/demo/)**"
      ],
      "h2": "Senden Sie uns Ihren Sicherheitsfragebogen"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Werkerassistenzsystem](/de/loesungen/werkerassistenzsystem/)",
-      "[Analyse und Audit Trail](/de/plattform/analyse-audit-trail/)",
-      "[Integrationen](/de/plattform/integrationen/)",
-      "[Plattform für Arbeitsanweisungen](/de/plattform/)"
-     ],
-     "h2": "Weiterführend"
     }
    ],
    "faq": [
@@ -53891,6 +51267,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/platform-security.webp",
+   "related": [
+    "solCwp",
+    "pfAnalytics",
+    "pfIntegrations",
+    "platform"
+   ],
    "heroImage": "Federzeichnung: Ein Serverschrank mit cyanfarbenem Vorhängeschloss und ein Schild mit Haken"
   },
   "pfKnowledge": {
@@ -54027,16 +51409,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**[Kostenloses Erstgespräch vereinbaren](/de/demo/)**"
      ],
      "h2": "Beginnen Sie mit dem gefährdetsten Wissen"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Mitarbeiter-Einarbeitung](/de/loesungen/mitarbeiter-einarbeitung/)",
-      "[Werkerassistenzsystem](/de/loesungen/werkerassistenzsystem/)",
-      "[KI-Arbeitsanweisungen](/de/plattform/ki-arbeitsanweisungen/)",
-      "[Qualifikationsmanagement](/de/plattform/qualifikationsmanagement/)"
-     ],
-     "h2": "Weiterführend"
     }
    ],
    "faq": [
@@ -54056,6 +51428,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/platform-knowledge-capture.webp",
+   "related": [
+    "solTraining",
+    "solCwp",
+    "pfAi",
+    "pfSkills"
+   ],
    "heroImage": "Federzeichnung: Ein Tablet auf einem Stativ zeichnet einen Arbeitsschritt an einer Maschine auf und erzeugt Schrittkarten"
   },
   "events": {
@@ -54124,22 +51502,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Ein Erstgespräch im Anschluss, um Ihren ersten Anwendungsfall zu skizzieren."
      ],
      "h2": "Wie Actarion unterstützt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Ein Termin in Ihrem Werk? [Kostenloses Erstgespräch vereinbaren](/de/kontakt/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Videos](/de/ressourcen/videos/)",
-      "[Demo vereinbaren](/de/demo/)",
-      "[Pilotprojekt](/de/pilotprojekt/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -54151,6 +51513,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-events.webp",
+   "related": [
+    "videos",
+    "demo",
+    "pilot"
+   ],
    "heroImage": "Federzeichnung: Präsentationsbildschirm mit cyanfarbener Schrittkarte und AR-Brille, davor Publikum als Silhouetten"
   },
   "termWorkInstruction": {
@@ -54218,22 +51585,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[Augmented Reality](/de/ressourcen/glossar/augmented-reality/)"
      ],
      "h2": "Verwandte Begriffe"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Möchten Sie das an Ihrer Linie sehen? [Kostenloses Erstgespräch vereinbaren](/de/demo/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Rüsten und SMED](/de/anwendungsfaelle/ruesten-smed/)",
-      "[Glossar](/de/ressourcen/glossar/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -54253,6 +51604,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-work-instruction.webp",
+   "related": [
+    "solDwi",
+    "ucChangeover",
+    "glossary"
+   ],
    "heroImage": "Federzeichnung zum Begriff Arbeitsanweisung"
   },
   "termAr": {
@@ -54320,22 +51676,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[digitaler Zwilling](/de/ressourcen/glossar/digitaler-zwilling/)"
      ],
      "h2": "Verwandte Begriffe"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Möchten Sie das an Ihrer Linie sehen? [Kostenloses Erstgespräch vereinbaren](/de/demo/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Rüsten und SMED](/de/anwendungsfaelle/ruesten-smed/)",
-      "[Glossar](/de/ressourcen/glossar/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -54355,6 +51695,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-augmented-reality.webp",
+   "related": [
+    "solDwi",
+    "ucChangeover",
+    "glossary"
+   ],
    "heroImage": "Federzeichnung zum Begriff Augmented Reality"
   },
   "termCapa": {
@@ -54422,22 +51767,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[First Time Right](/de/ressourcen/glossar/first-time-right/)"
      ],
      "h2": "Verwandte Begriffe"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Möchten Sie das an Ihrer Linie sehen? [Kostenloses Erstgespräch vereinbaren](/de/demo/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SOP-Software](/de/loesungen/sop-software/)",
-      "[Qualitätsprüfung](/de/anwendungsfaelle/qualitaetspruefung/)",
-      "[Glossar](/de/ressourcen/glossar/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -54457,6 +51786,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-capa.webp",
+   "related": [
+    "solSop",
+    "ucQuality",
+    "glossary"
+   ],
    "heroImage": "Federzeichnung zum Begriff CAPA"
   },
   "termConnectedWorker": {
@@ -54524,22 +51858,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[Qualifikationsmatrix](/de/ressourcen/glossar/qualifikationsmatrix/)"
      ],
      "h2": "Verwandte Begriffe"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Möchten Sie das an Ihrer Linie sehen? [Kostenloses Erstgespräch vereinbaren](/de/demo/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Werkerassistenzsystem-Lösung](/de/loesungen/werkerassistenzsystem/)",
-      "[Remote-Experten-Support](/de/anwendungsfaelle/remote-experten-support/)",
-      "[Glossar](/de/ressourcen/glossar/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -54559,6 +51877,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-connected-worker.webp",
+   "related": [
+    "solCwp",
+    "ucRemote",
+    "glossary"
+   ],
    "heroImage": "Federzeichnung zum Begriff Connected Worker"
   },
   "termSmartGlasses": {
@@ -54626,22 +51949,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[Remote-Assistenz](/de/ressourcen/glossar/remote-assistenz/)"
      ],
      "h2": "Verwandte Begriffe"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Möchten Sie das an Ihrer Linie sehen? [Kostenloses Erstgespräch vereinbaren](/de/demo/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Werkerassistenzsystem-Lösung](/de/loesungen/werkerassistenzsystem/)",
-      "[Remote-Experten-Support](/de/anwendungsfaelle/remote-experten-support/)",
-      "[Glossar](/de/ressourcen/glossar/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -54661,6 +51968,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-smart-glasses.webp",
+   "related": [
+    "solCwp",
+    "ucRemote",
+    "glossary"
+   ],
    "heroImage": "Federzeichnung zum Begriff Datenbrille"
   },
   "termDigitalTwin": {
@@ -54728,22 +52040,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[Mixed Reality](/de/ressourcen/glossar/mixed-reality/)"
      ],
      "h2": "Verwandte Begriffe"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Möchten Sie das an Ihrer Linie sehen? [Kostenloses Erstgespräch vereinbaren](/de/demo/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Werkerassistenzsystem-Lösung](/de/loesungen/werkerassistenzsystem/)",
-      "[Rüsten und SMED](/de/anwendungsfaelle/ruesten-smed/)",
-      "[Glossar](/de/ressourcen/glossar/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -54763,6 +52059,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-digital-twin.webp",
+   "related": [
+    "solCwp",
+    "ucChangeover",
+    "glossary"
+   ],
    "heroImage": "Federzeichnung zum Begriff digitaler Zwilling"
   },
   "termFtr": {
@@ -54830,22 +52131,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[Arbeitsanweisung](/de/ressourcen/glossar/arbeitsanweisung/)"
      ],
      "h2": "Verwandte Begriffe"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Möchten Sie das an Ihrer Linie sehen? [Kostenloses Erstgespräch vereinbaren](/de/demo/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Qualitätsprüfung](/de/anwendungsfaelle/qualitaetspruefung/)",
-      "[Glossar](/de/ressourcen/glossar/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -54865,6 +52150,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-first-time-right.webp",
+   "related": [
+    "solDwi",
+    "ucQuality",
+    "glossary"
+   ],
    "heroImage": "Federzeichnung zum Begriff First Time Right"
   },
   "termGmp": {
@@ -54932,22 +52222,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[SOP](/de/ressourcen/glossar/sop/)"
      ],
      "h2": "Verwandte Begriffe"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Möchten Sie das an Ihrer Linie sehen? [Kostenloses Erstgespräch vereinbaren](/de/demo/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SOP-Software](/de/loesungen/sop-software/)",
-      "[Qualitätsprüfung](/de/anwendungsfaelle/qualitaetspruefung/)",
-      "[Glossar](/de/ressourcen/glossar/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -54967,6 +52241,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-gmp.webp",
+   "related": [
+    "solSop",
+    "ucQuality",
+    "glossary"
+   ],
    "heroImage": "Federzeichnung zum Begriff GMP"
   },
   "glossary": {
@@ -55082,22 +52361,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Audit Trail und Qualifikationsmatrix je Ausführung."
      ],
      "h2": "Wie unterstützt Actarion?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Möchten Sie diese Konzepte an Ihrer Linie sehen? [Kostenloses Erstgespräch vereinbaren](/de/demo/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Vergleiche](/de/vergleich/)",
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Werkerassistenzsystem](/de/loesungen/werkerassistenzsystem/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -55117,6 +52380,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary.webp",
+   "related": [
+    "compare",
+    "solDwi",
+    "solCwp"
+   ],
    "heroImage": "Federzeichnung eines offenen Glossarbuchs mit cyanfarbenem Lesezeichen"
   },
   "termLineClearance": {
@@ -55184,22 +52452,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[SOP](/de/ressourcen/glossar/sop/)"
      ],
      "h2": "Verwandte Begriffe"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Möchten Sie das an Ihrer Linie sehen? [Kostenloses Erstgespräch vereinbaren](/de/demo/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Checklisten](/de/loesungen/digitale-checklisten/)",
-      "[Qualitätsprüfung](/de/anwendungsfaelle/qualitaetspruefung/)",
-      "[Glossar](/de/ressourcen/glossar/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -55219,6 +52471,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-line-clearance.webp",
+   "related": [
+    "solChecklists",
+    "ucQuality",
+    "glossary"
+   ],
    "heroImage": "Federzeichnung zum Begriff Line Clearance"
   },
   "termLoto": {
@@ -55286,22 +52543,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[Arbeitsanweisung](/de/ressourcen/glossar/arbeitsanweisung/)"
      ],
      "h2": "Verwandte Begriffe"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Möchten Sie das an Ihrer Linie sehen? [Kostenloses Erstgespräch vereinbaren](/de/demo/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Checklisten](/de/loesungen/digitale-checklisten/)",
-      "[Arbeitssicherheit und LOTO](/de/anwendungsfaelle/arbeitssicherheit-loto/)",
-      "[Glossar](/de/ressourcen/glossar/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -55321,6 +52562,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-loto.webp",
+   "related": [
+    "solChecklists",
+    "ucSafety",
+    "glossary"
+   ],
    "heroImage": "Federzeichnung zum Begriff LOTO"
   },
   "termMes": {
@@ -55388,22 +52634,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[digitaler Zwilling](/de/ressourcen/glossar/digitaler-zwilling/)"
      ],
      "h2": "Verwandte Begriffe"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Möchten Sie das an Ihrer Linie sehen? [Kostenloses Erstgespräch vereinbaren](/de/demo/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Werkerassistenzsystem-Lösung](/de/loesungen/werkerassistenzsystem/)",
-      "[Qualitätsprüfung](/de/anwendungsfaelle/qualitaetspruefung/)",
-      "[Glossar](/de/ressourcen/glossar/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -55423,6 +52653,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-mes.webp",
+   "related": [
+    "solCwp",
+    "ucQuality",
+    "glossary"
+   ],
    "heroImage": "Federzeichnung zum Begriff MES"
   },
   "termMr": {
@@ -55490,22 +52725,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[digitaler Zwilling](/de/ressourcen/glossar/digitaler-zwilling/)"
      ],
      "h2": "Verwandte Begriffe"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Möchten Sie das an Ihrer Linie sehen? [Kostenloses Erstgespräch vereinbaren](/de/demo/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Remote-Experten-Support](/de/anwendungsfaelle/remote-experten-support/)",
-      "[Glossar](/de/ressourcen/glossar/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -55525,6 +52744,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-mixed-reality.webp",
+   "related": [
+    "solDwi",
+    "ucRemote",
+    "glossary"
+   ],
    "heroImage": "Federzeichnung zum Begriff Mixed Reality"
   },
   "termOee": {
@@ -55592,22 +52816,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[MES](/de/ressourcen/glossar/mes/)"
      ],
      "h2": "Verwandte Begriffe"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Möchten Sie das an Ihrer Linie sehen? [Kostenloses Erstgespräch vereinbaren](/de/demo/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Rüsten und SMED](/de/anwendungsfaelle/ruesten-smed/)",
-      "[Glossar](/de/ressourcen/glossar/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -55627,6 +52835,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-oee.webp",
+   "related": [
+    "solDwi",
+    "ucChangeover",
+    "glossary"
+   ],
    "heroImage": "Federzeichnung zum Begriff OEE"
   },
   "termPokaYoke": {
@@ -55694,22 +52907,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[CAPA](/de/ressourcen/glossar/capa/)"
      ],
      "h2": "Verwandte Begriffe"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Möchten Sie das an Ihrer Linie sehen? [Kostenloses Erstgespräch vereinbaren](/de/demo/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Checklisten](/de/loesungen/digitale-checklisten/)",
-      "[Qualitätsprüfung](/de/anwendungsfaelle/qualitaetspruefung/)",
-      "[Glossar](/de/ressourcen/glossar/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -55729,6 +52926,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-poka-yoke.webp",
+   "related": [
+    "solChecklists",
+    "ucQuality",
+    "glossary"
+   ],
    "heroImage": "Federzeichnung zum Begriff Poka-Yoke"
   },
   "termSkillsMatrix": {
@@ -55796,22 +52998,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[Werkerassistenzsystem](/de/ressourcen/glossar/werkerassistenzsystem/)"
      ],
      "h2": "Verwandte Begriffe"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Möchten Sie das an Ihrer Linie sehen? [Kostenloses Erstgespräch vereinbaren](/de/demo/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Mitarbeiter-Einarbeitung](/de/loesungen/mitarbeiter-einarbeitung/)",
-      "[Qualitätsprüfung](/de/anwendungsfaelle/qualitaetspruefung/)",
-      "[Glossar](/de/ressourcen/glossar/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -55831,6 +53017,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-skills-matrix.webp",
+   "related": [
+    "solTraining",
+    "ucQuality",
+    "glossary"
+   ],
    "heroImage": "Federzeichnung zum Begriff Qualifikationsmatrix"
   },
   "termRemote": {
@@ -55898,22 +53089,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[Connected Worker](/de/ressourcen/glossar/connected-worker/)"
      ],
      "h2": "Verwandte Begriffe"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Möchten Sie das an Ihrer Linie sehen? [Kostenloses Erstgespräch vereinbaren](/de/demo/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Werkerassistenzsystem-Lösung](/de/loesungen/werkerassistenzsystem/)",
-      "[Remote-Experten-Support](/de/anwendungsfaelle/remote-experten-support/)",
-      "[Glossar](/de/ressourcen/glossar/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -55933,6 +53108,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-remote-assistance.webp",
+   "related": [
+    "solCwp",
+    "ucRemote",
+    "glossary"
+   ],
    "heroImage": "Federzeichnung zum Begriff Remote-Assistenz"
   },
   "termSmed": {
@@ -56000,22 +53180,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[First Time Right](/de/ressourcen/glossar/first-time-right/)"
      ],
      "h2": "Verwandte Begriffe"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Möchten Sie das an Ihrer Linie sehen? [Kostenloses Erstgespräch vereinbaren](/de/demo/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Rüsten und SMED](/de/anwendungsfaelle/ruesten-smed/)",
-      "[Glossar](/de/ressourcen/glossar/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -56035,6 +53199,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-smed.webp",
+   "related": [
+    "solDwi",
+    "ucChangeover",
+    "glossary"
+   ],
    "heroImage": "Federzeichnung zum Begriff SMED"
   },
   "termSop": {
@@ -56102,22 +53271,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[CAPA](/de/ressourcen/glossar/capa/)"
      ],
      "h2": "Verwandte Begriffe"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Möchten Sie das an Ihrer Linie sehen? [Kostenloses Erstgespräch vereinbaren](/de/demo/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SOP-Software](/de/loesungen/sop-software/)",
-      "[Qualitätsprüfung](/de/anwendungsfaelle/qualitaetspruefung/)",
-      "[Glossar](/de/ressourcen/glossar/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -56137,6 +53290,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-sop.webp",
+   "related": [
+    "solSop",
+    "ucQuality",
+    "glossary"
+   ],
    "heroImage": "Federzeichnung zum Begriff SOP"
   },
   "termWas": {
@@ -56204,22 +53362,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[Augmented Reality](/de/ressourcen/glossar/augmented-reality/)"
      ],
      "h2": "Verwandte Begriffe"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Möchten Sie das an Ihrer Linie sehen? [Kostenloses Erstgespräch vereinbaren](/de/demo/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Werkerassistenzsystem-Lösung](/de/loesungen/werkerassistenzsystem/)",
-      "[Rüsten und SMED](/de/anwendungsfaelle/ruesten-smed/)",
-      "[Glossar](/de/ressourcen/glossar/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -56239,6 +53381,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-werkerassistenzsystem.webp",
+   "related": [
+    "solCwp",
+    "ucChangeover",
+    "glossary"
+   ],
    "heroImage": "Federzeichnung zum Begriff Werkerassistenzsystem"
   },
   "termKnowledgeCapture": {
@@ -56306,22 +53453,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "[SOP](/de/ressourcen/glossar/sop/)"
      ],
      "h2": "Verwandte Begriffe"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Möchten Sie das an Ihrer Linie sehen? [Kostenloses Erstgespräch vereinbaren](/de/demo/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Wissenstransfer](/de/loesungen/wissenstransfer/)",
-      "[Remote-Experten-Support](/de/anwendungsfaelle/remote-experten-support/)",
-      "[Glossar](/de/ressourcen/glossar/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -56341,6 +53472,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-glossary-knowledge-capture.webp",
+   "related": [
+    "solKnowledge",
+    "ucRemote",
+    "glossary"
+   ],
    "heroImage": "Federzeichnung zum Begriff Wissenserfassung"
   },
   "resources": {
@@ -56405,23 +53541,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Die Ratgeber folgen dem Actarion-Vorgehen: SOP → KI → AR → auditfähig."
      ],
      "h2": "Wie Actarion unterstützt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "[Vorlage für Arbeitsanweisungen herunterladen](/de/ressourcen/vorlagen/) und heute starten."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Vorlagen für Arbeitsanweisungen](/de/ressourcen/vorlagen/)",
-      "[ROI-Rechner](/de/ressourcen/roi-rechner/)",
-      "[Glossar](/de/ressourcen/glossar/)",
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -56437,6 +53556,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources.webp",
+   "related": [
+    "templates",
+    "roiCalculator",
+    "glossary",
+    "solDwi"
+   ],
    "heroImage": "Federzeichnung: Draufsicht auf einen Schreibtisch mit Dokumenten, Tablet mit cyanfarbener Schrittkarte, Taschenrechner, Kalender und Video"
   },
   "roiCalculator": {
@@ -56593,23 +53718,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Ausführungsdaten aus dem Audit-Trail machen die Nachmessung objektiv."
      ],
      "h2": "Wie Actarion unterstützt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Sie möchten Unterstützung beim Ausfüllen? [Kostenloses Erstgespräch vereinbaren](/de/kontakt/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Pilotprojekt](/de/pilotprojekt/)",
-      "[Kundenprojekte](/de/kunden/)",
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Einarbeitung und Schulung](/de/anwendungsfaelle/einarbeitung-schulung/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -56629,6 +53737,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-roi-calculator.webp",
+   "related": [
+    "pilot",
+    "customers",
+    "solDwi",
+    "ucOnboarding"
+   ],
    "heroImage": "Federzeichnung: Waage mit Papier-SOP und Uhr links und einem Tablet mit cyanfarbener Schrittkarte rechts, dazu ein steigender Pfeil"
   },
   "videos": {
@@ -56693,22 +53807,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Jeder Schritt dokumentiert für Ihren Audit-Trail."
      ],
      "h2": "Wie Actarion unterstützt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Genug gesehen? [Live-Demo vereinbaren](/de/demo/) an Ihrem eigenen Anwendungsfall."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Demo vereinbaren](/de/demo/)",
-      "[Events](/de/ressourcen/events/)",
-      "[Remote-Experten-Support](/de/anwendungsfaelle/remote-experten-support/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -56720,6 +53818,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-videos.webp",
+   "related": [
+    "demo",
+    "events",
+    "ucRemote"
+   ],
    "heroImage": "Federzeichnung: Videobildschirm mit Maschine und cyanfarbener AR-Schrittkarte, mit Zeitleiste und Wiedergabetaste"
   },
   "tpl5s": {
@@ -57080,23 +54183,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Mehr zu [digitalen Checklisten](/de/loesungen/digitale-checklisten/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Kopieren oder herunterladen. **Kostenloses Erstgespräch vereinbaren** und Audits digitalisieren."
-     ],
-     "h2": "Vorlage sichern"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Checklisten](/de/loesungen/digitale-checklisten/)",
-      "[Checkliste Schichtbeginn](/de/ressourcen/vorlagen/schichtbeginn-checkliste/)",
-      "[Qualitätsprüfung](/de/anwendungsfaelle/qualitaetspruefung/)",
-      "[Arbeitsanweisung Vorlage](/de/ressourcen/vorlagen/arbeitsanweisung-vorlage/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -57120,6 +54206,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-5s-audit-checklist.webp",
+   "related": [
+    "solChecklists",
+    "tplPreShift",
+    "ucQuality",
+    "tplWorkInstruction"
+   ],
    "heroImage": "Federzeichnung: Werkzeugwand mit Schattenbrett und einem markierten leeren Platz, daneben ein Tablet mit einer 5S-Audit-Checkliste"
   },
   "tplWorkInstruction": {
@@ -57438,23 +54530,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "So funktionieren [digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Kopieren Sie die Vorlage oder laden Sie sie herunter. Sie möchten sie als AR-Anweisung sehen? **Kostenloses Erstgespräch vereinbaren.**"
-     ],
-     "h2": "Vorlage sichern"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Arbeitsanweisung erstellen](/de/blog/arbeitsanweisung-erstellen/)",
-      "[SOP Vorlage](/de/ressourcen/vorlagen/sop-vorlage/)",
-      "[Einarbeitung und Schulung](/de/anwendungsfaelle/einarbeitung-schulung/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -57478,6 +54553,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-work-instruction-template.webp",
+   "related": [
+    "solDwi",
+    "blogWriteWorkInstructions",
+    "tplSop",
+    "ucOnboarding"
+   ],
    "heroImage": "Federzeichnung: Arbeitsanweisung Vorlage auf einem Klemmbrett neben einem Tablet mit denselben Schritten in digitaler Form"
   },
   "tplOnboarding": {
@@ -57753,23 +54834,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Mehr zur [Mitarbeiter-Einarbeitung](/de/loesungen/mitarbeiter-einarbeitung/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Kopieren oder herunterladen. **Kostenloses Erstgespräch vereinbaren** und Einarbeitung mit AR-Werkerführung sehen."
-     ],
-     "h2": "Vorlage sichern"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Mitarbeiter-Einarbeitung](/de/loesungen/mitarbeiter-einarbeitung/)",
-      "[Einarbeitung und Schulung](/de/anwendungsfaelle/einarbeitung-schulung/)",
-      "[Qualifikationsmatrix Vorlage](/de/ressourcen/vorlagen/qualifikationsmatrix-vorlage/)",
-      "[Qualifikationsmatrix erstellen](/de/blog/qualifikationsmatrix-erstellen/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -57793,6 +54857,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-operator-onboarding-plan.webp",
+   "related": [
+    "solTraining",
+    "ucOnboarding",
+    "tplSkills",
+    "blogSkillsMatrix"
+   ],
    "heroImage": "Federzeichnung: Einarbeitungsplan als Zeitleiste auf einem Tisch neben einer AR-Brille mit cyanfarbener Einblendung"
   },
   "templates": {
@@ -57954,16 +55024,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Download: [Word](#) [Excel](#) [PDF](#)"
      ],
      "h2": "Jetzt starten"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Digitale Checklisten](/de/loesungen/digitale-checklisten/)",
-      "[Arbeitsanweisung erstellen: Leitfaden](/de/blog/arbeitsanweisung-erstellen/)",
-      "[Rüsten und SMED](/de/anwendungsfaelle/ruesten-smed/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -57991,6 +55051,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates.webp",
+   "related": [
+    "solDwi",
+    "solChecklists",
+    "blogWriteWorkInstructions",
+    "ucChangeover"
+   ],
    "heroImage": "Federzeichnung: Papiervorlagen für die Produktion auf einem Schreibtisch neben einem Tablet mit derselben Checkliste in digitaler Form"
   },
   "tplLineClearance": {
@@ -58261,23 +55327,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Mehr zum Anwendungsfall [Qualitätsprüfung](/de/anwendungsfaelle/qualitaetspruefung/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Kopieren oder herunterladen. **Kostenloses Erstgespräch vereinbaren** und Line Clearance mit AR-Werkerführung sehen."
-     ],
-     "h2": "Vorlage sichern"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Qualitätsprüfung](/de/anwendungsfaelle/qualitaetspruefung/)",
-      "[Digitale Checklisten](/de/loesungen/digitale-checklisten/)",
-      "[SMED Rüstcheckliste](/de/ressourcen/vorlagen/smed-ruest-checkliste/)",
-      "[SOP Vorlage](/de/ressourcen/vorlagen/sop-vorlage/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -58301,6 +55350,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-line-clearance-checklist.webp",
+   "related": [
+    "ucQuality",
+    "solChecklists",
+    "tplSmed",
+    "tplSop"
+   ],
    "heroImage": "Federzeichnung: leere Verpackungslinie mit einem markierten zurückgebliebenen Karton, Klemmbrett und Tablet mit der Line-Clearance-Checkliste"
   },
   "tplLoto": {
@@ -58633,23 +55688,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Mehr zum Anwendungsfall [Arbeitssicherheit und LOTO](/de/anwendungsfaelle/arbeitssicherheit-loto/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Kopieren oder herunterladen. **Kostenloses Erstgespräch vereinbaren** und LOTO mit AR-Werkerführung sehen."
-     ],
-     "h2": "Vorlage sichern"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Arbeitssicherheit und LOTO](/de/anwendungsfaelle/arbeitssicherheit-loto/)",
-      "[Digitale Checklisten](/de/loesungen/digitale-checklisten/)",
-      "[Wartungscheckliste](/de/ressourcen/vorlagen/wartungscheckliste/)",
-      "[Arbeitsanweisung Vorlage](/de/ressourcen/vorlagen/arbeitsanweisung-vorlage/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -58673,6 +55711,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-lockout-tagout-procedure.webp",
+   "related": [
+    "ucSafety",
+    "solChecklists",
+    "tplMaintenance",
+    "tplWorkInstruction"
+   ],
    "heroImage": "Federzeichnung: Schaltschrank mit Vorhängeschloss und Anhänger neben einem Tablet mit den Schritten des LOTO-Verfahrens"
   },
   "tplSkills": {
@@ -58995,23 +56039,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Mehr zur [Mitarbeiter-Einarbeitung](/de/loesungen/mitarbeiter-einarbeitung/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Kopieren oder als Excel herunterladen. **Kostenloses Erstgespräch vereinbaren** und eine Matrix sehen, die sich selbst aktualisiert."
-     ],
-     "h2": "Vorlage sichern"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Qualifikationsmatrix erstellen](/de/blog/qualifikationsmatrix-erstellen/)",
-      "[Mitarbeiter-Einarbeitung](/de/loesungen/mitarbeiter-einarbeitung/)",
-      "[Einarbeitungsplan Produktion](/de/ressourcen/vorlagen/einarbeitungsplan-produktion/)",
-      "[Einarbeitung und Schulung](/de/anwendungsfaelle/einarbeitung-schulung/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -59035,6 +56062,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-skills-matrix-template.webp",
+   "related": [
+    "blogSkillsMatrix",
+    "solTraining",
+    "tplOnboarding",
+    "ucOnboarding"
+   ],
    "heroImage": "Federzeichnung: Whiteboard mit Qualifikationsmatrix neben einem Tablet mit derselben Matrix in digitaler Form"
   },
   "tplQuality": {
@@ -59311,23 +56344,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Mehr zum Anwendungsfall [Qualitätsprüfung](/de/anwendungsfaelle/qualitaetspruefung/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Kopieren oder herunterladen. **Kostenloses Erstgespräch vereinbaren** und Prüfungen mit AR-Werkerführung sehen."
-     ],
-     "h2": "Vorlage sichern"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Qualitätsprüfung](/de/anwendungsfaelle/qualitaetspruefung/)",
-      "[Digitale Checklisten](/de/loesungen/digitale-checklisten/)",
-      "[Line-Clearance-Checkliste](/de/ressourcen/vorlagen/line-clearance-checkliste/)",
-      "[Arbeitsanweisung Vorlage](/de/ressourcen/vorlagen/arbeitsanweisung-vorlage/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -59351,6 +56367,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-quality-inspection-checklist.webp",
+   "related": [
+    "ucQuality",
+    "solChecklists",
+    "tplLineClearance",
+    "tplWorkInstruction"
+   ],
    "heroImage": "Federzeichnung: Messschieber misst einen Flansch, daneben ein Tablet mit der Checkliste Qualitätsprüfung"
   },
   "tplPreShift": {
@@ -59637,23 +56659,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Mehr zu [digitalen Checklisten](/de/loesungen/digitale-checklisten/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Kopieren oder herunterladen. **Kostenloses Erstgespräch vereinbaren** und den Check digitalisieren."
-     ],
-     "h2": "Vorlage sichern"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Checklisten](/de/loesungen/digitale-checklisten/)",
-      "[Wartungscheckliste](/de/ressourcen/vorlagen/wartungscheckliste/)",
-      "[5S-Audit-Checkliste](/de/ressourcen/vorlagen/5s-audit-checkliste/)",
-      "[Vorbeugende Wartung](/de/anwendungsfaelle/vorbeugende-wartung/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -59677,6 +56682,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-pre-shift-checklist.webp",
+   "related": [
+    "solChecklists",
+    "tplMaintenance",
+    "tpl5s",
+    "ucMaintenance"
+   ],
    "heroImage": "Federzeichnung: Bedienpanel mit Messinstrumenten neben einem Tablet mit der Checkliste für den Schichtbeginn"
   },
   "tplSmed": {
@@ -59947,23 +56958,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Mehr zum Anwendungsfall [Rüsten und SMED](/de/anwendungsfaelle/ruesten-smed/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Kopieren oder herunterladen. **Kostenloses Erstgespräch vereinbaren** und Rüsten mit AR-Werkerführung sehen."
-     ],
-     "h2": "Vorlage sichern"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Rüstzeit reduzieren mit SMED](/de/blog/smed-ruestzeit-reduzieren/)",
-      "[Rüsten und SMED](/de/anwendungsfaelle/ruesten-smed/)",
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Line-Clearance-Checkliste](/de/ressourcen/vorlagen/line-clearance-checkliste/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -59987,6 +56981,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-smed-changeover-checklist.webp",
+   "related": [
+    "blogSmed",
+    "ucChangeover",
+    "solDwi",
+    "tplLineClearance"
+   ],
    "heroImage": "Federzeichnung: Presse mit Werkzeugwechselwagen, Stoppuhr und Tablet mit der SMED Rüstcheckliste"
   },
   "tplSop": {
@@ -60261,23 +57261,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Mehr zu [SOP-Software](/de/loesungen/sop-software/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Kopieren Sie die SOP Vorlage oder laden Sie sie herunter. Ihre SOP als digitale Werkerführung sehen? **Kostenloses Erstgespräch vereinbaren.**"
-     ],
-     "h2": "Vorlage sichern"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[SOP-Software](/de/loesungen/sop-software/)",
-      "[Arbeitsanweisung Vorlage](/de/ressourcen/vorlagen/arbeitsanweisung-vorlage/)",
-      "[Arbeitsanweisung erstellen](/de/blog/arbeitsanweisung-erstellen/)",
-      "[Qualitätsprüfung](/de/anwendungsfaelle/qualitaetspruefung/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -60301,6 +57284,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-sop-template.webp",
+   "related": [
+    "solSop",
+    "tplWorkInstruction",
+    "blogWriteWorkInstructions",
+    "ucQuality"
+   ],
    "heroImage": "Federzeichnung: Ordner mit SOPs und ein Dokumentenstapel neben einem Tablet mit der SOP Vorlage als digitale Schritte"
   },
   "tplMaintenance": {
@@ -60620,23 +57609,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Mehr zum Anwendungsfall [vorbeugende Wartung](/de/anwendungsfaelle/vorbeugende-wartung/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Kopieren oder herunterladen. **Kostenloses Erstgespräch vereinbaren** und Wartung mit AR-Werkerführung erleben."
-     ],
-     "h2": "Vorlage sichern"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Vorbeugende Wartung](/de/anwendungsfaelle/vorbeugende-wartung/)",
-      "[Digitale Checklisten](/de/loesungen/digitale-checklisten/)",
-      "[Wartungsplan Vorlage](/de/ressourcen/vorlagen/wartungsplan-vorlage/)",
-      "[LOTO-Verfahren](/de/ressourcen/vorlagen/loto-verfahren/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -60660,6 +57632,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-preventive-maintenance-checklist.webp",
+   "related": [
+    "ucMaintenance",
+    "solChecklists",
+    "tplSchedule",
+    "tplLoto"
+   ],
    "heroImage": "Federzeichnung: Pumpe mit markiertem Lager neben einem Tablet mit einer Wartungscheckliste"
   },
   "tplSchedule": {
@@ -60976,23 +57954,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Mehr zum Anwendungsfall [vorbeugende Wartung](/de/anwendungsfaelle/vorbeugende-wartung/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Kopieren oder als Excel herunterladen. **Kostenloses Erstgespräch vereinbaren** und Planung mit Ausführung verbinden."
-     ],
-     "h2": "Vorlage sichern"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Wartungscheckliste](/de/ressourcen/vorlagen/wartungscheckliste/)",
-      "[Vorbeugende Wartung](/de/anwendungsfaelle/vorbeugende-wartung/)",
-      "[Digitale Checklisten](/de/loesungen/digitale-checklisten/)",
-      "[Wissenstransfer](/de/loesungen/wissenstransfer/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -61016,6 +57977,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-maintenance-schedule.webp",
+   "related": [
+    "tplMaintenance",
+    "ucMaintenance",
+    "solChecklists",
+    "solKnowledge"
+   ],
    "heroImage": "Federzeichnung: Wartungsplan als Kalender mit markierten Aufgaben, ein Zahnrad und ein Tablet mit geplanten Wartungsaufträgen"
   },
   "tplKnowledge": {
@@ -61332,23 +58299,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Mehr zum [Wissenstransfer mit Actarion](/de/loesungen/wissenstransfer/)."
      ],
      "h2": ""
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Kopieren oder herunterladen. **Kostenloses Erstgespräch vereinbaren** und Expertenwissen mit AR sichern."
-     ],
-     "h2": "Vorlage sichern"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Wissenstransfer](/de/loesungen/wissenstransfer/)",
-      "[Qualifikationsmatrix Vorlage](/de/ressourcen/vorlagen/qualifikationsmatrix-vorlage/)",
-      "[Arbeitsanweisung Vorlage](/de/ressourcen/vorlagen/arbeitsanweisung-vorlage/)",
-      "[Einarbeitung und Schulung](/de/anwendungsfaelle/einarbeitung-schulung/)"
-     ],
-     "h2": "Verwandte Themen"
     }
    ],
    "faq": [
@@ -61372,6 +58322,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-templates-knowledge-transfer-plan.webp",
+   "related": [
+    "solKnowledge",
+    "tplSkills",
+    "tplWorkInstruction",
+    "ucOnboarding"
+   ],
    "heroImage": "Federzeichnung: Notizbuch eines Experten, auf einem Tablet als digitale Schritte erfasst und über eine AR-Brille weitergegeben"
   },
   "whitepapers": {
@@ -61438,22 +58394,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       }
      ],
      "h2": "Wie laden Sie ein Whitepaper herunter?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Lieber ein Gespräch? [Kostenloses Erstgespräch vereinbaren](/de/kontakt/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[ROI-Rechner](/de/ressourcen/roi-rechner/)",
-      "[Pilotprojekt](/de/pilotprojekt/)",
-      "[Vorlagen](/de/ressourcen/vorlagen/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -61465,6 +58405,11 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/resources-whitepapers.webp",
+   "related": [
+    "roiCalculator",
+    "pilot",
+    "templates"
+   ],
    "heroImage": "Federzeichnung: Stapel Whitepaper mit einer cyanfarbenen Diagrammfläche und einem Download-Pfeil"
   },
   "company": {
@@ -61552,29 +58497,18 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Lösungen, die Ihr eigenes Team pflegen kann."
      ],
      "h2": "Wie Actarion unterstützt"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "[Kostenloses Erstgespräch vereinbaren](/de/kontakt/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Unsere Vision](/de/unternehmen/vision/)",
-      "[Team](/de/unternehmen/team/)",
-      "[Partner](/de/partner/)",
-      "[Karriere](/de/unternehmen/karriere/)",
-      "[News](/de/unternehmen/news/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/company.webp",
+   "related": [
+    "vision",
+    "team",
+    "partners",
+    "careers",
+    "news"
+   ],
    "heroImage": "Federzeichnung: Bürogebäude, drei verbundene Regionsknoten mit cyanfarbenem Zentrum und ein Tablet mit Schrittkarte"
   },
   "careers": {
@@ -61645,27 +58579,16 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       }
      ],
      "h2": "Wie bewerben Sie sich?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Keine passende Stelle? Senden Sie eine Initiativbewerbung. [TE BEVESTIGEN: E-Mail für Initiativbewerbungen]"
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Über Actarion](/de/unternehmen/)",
-      "[Team](/de/unternehmen/team/)",
-      "[Unsere Vision](/de/unternehmen/vision/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/company-careers.webp",
+   "related": [
+    "company",
+    "team",
+    "vision"
+   ],
    "heroImage": "Federzeichnung: Werkzeugkiste, Laptop mit Code und cyanfarbenem Bildschirm sowie eine AR-Brille"
   },
   "news": {
@@ -61718,27 +58641,16 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Sehen Sie, wie sich die DeepSight-Plattform für europäische Betriebe entwickelt."
      ],
      "h2": "Warum den News von Actarion folgen?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Folgen Sie Actarion auf LinkedIn (linkedin.com/company/ActARion) oder [Kostenloses Erstgespräch vereinbaren](/de/kontakt/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Blog](/de/blog/)",
-      "[Events](/de/ressourcen/events/)",
-      "[Über Actarion](/de/unternehmen/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/company-news.webp",
+   "related": [
+    "blog",
+    "events",
+    "company"
+   ],
    "heroImage": "Federzeichnung: Newsletter mit cyanfarbenem Bild und ein Dashboard mit Balken"
   },
   "team": {
@@ -61804,27 +58716,16 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       ]
      ],
      "h2": "Wer ist Ihr Ansprechpartner?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "[Kostenloses Erstgespräch vereinbaren](/de/kontakt/) mit dem Managing Partner für Ihre Region."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Über Actarion](/de/unternehmen/)",
-      "[Karriere](/de/unternehmen/karriere/)",
-      "[Kontakt](/de/kontakt/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/company-team.webp",
+   "related": [
+    "company",
+    "careers",
+    "contact"
+   ],
    "heroImage": "Federzeichnung: drei Silhouetten des Teams unter einem Tablet mit cyanfarbener Schrittkarte"
   },
   "vision": {
@@ -61904,27 +58805,16 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Lösungen müssen transparent, sicher, messbar (Fehler, Stillstand, Schulungszeit) und nachhaltig sein: Ihr eigenes Team muss sie pflegen können."
      ],
      "h2": "Was bedeutet verantwortungsvolle Innovation für uns?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Sie möchten besprechen, was das für Ihr Werk bedeutet? [Kostenloses Erstgespräch vereinbaren](/de/kontakt/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Über Actarion](/de/unternehmen/)",
-      "[Pilotprojekt](/de/pilotprojekt/)",
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/company-vision.webp",
+   "related": [
+    "company",
+    "pilot",
+    "solDwi"
+   ],
    "heroImage": "Federzeichnung: Weg von einer Papier-SOP über ein Tablet zu einem Netzwerk verbundener Standorte"
   },
   "cmpGlassesTablets": {
@@ -62035,24 +58925,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Ausführungsdaten zeigen je Gerät, wie schnell und genau gearbeitet wird."
      ],
      "h2": "Wie unterstützt Actarion?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Möchten Sie beide Geräte an Ihrer Tätigkeit testen? [Kostenloses Erstgespräch vereinbaren](/de/demo/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Tablets und Smartphones](/de/hardware/tablets-smartphones/)",
-      "[Apple Vision Pro](/de/hardware/apple-vision-pro/)",
-      "[Android XR](/de/hardware/android-xr/)",
-      "[Rüsten und SMED](/de/anwendungsfaelle/ruesten-smed/)",
-      "[Was ist eine Datenbrille?](/de/ressourcen/glossar/datenbrille/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -62072,6 +58944,13 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/compare-ar-glasses-vs-tablets.webp",
+   "related": [
+    "hwTablets",
+    "hwVisionPro",
+    "hwAndroidXr",
+    "ucChangeover",
+    "termSmartGlasses"
+   ],
    "heroImage": "Federzeichnung einer AR-Brille neben einem Tablet auf Stativ, beide mit digitalem Arbeitsschritt"
   },
   "cmpBestSoftware": {
@@ -62238,24 +59117,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Pilot mit festen KPIs, danach Skalierung und Befähigung."
      ],
      "h2": "Wie unterstützt Actarion?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Möchten Sie Actarion an einer Ihrer SOPs testen? [Kostenloses Erstgespräch vereinbaren](/de/demo/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[SOP-Software](/de/loesungen/sop-software/)",
-      "[Werkerassistenzsystem](/de/loesungen/werkerassistenzsystem/)",
-      "[Digitale vs. Papier-Arbeitsanweisungen](/de/vergleich/digitale-vs-papier-arbeitsanweisungen/)",
-      "[Was ist ein MES?](/de/ressourcen/glossar/mes/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -62275,6 +59136,13 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/compare-best-work-instruction-software.webp",
+   "related": [
+    "solDwi",
+    "solSop",
+    "solCwp",
+    "cmpDigitalVsPaper",
+    "termMes"
+   ],
    "heroImage": "Federzeichnung einer Bewertungscheckliste für Software für Arbeitsanweisungen neben Tablet und Maschine"
   },
   "cmpDigitalVsPaper": {
@@ -62394,24 +59262,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Wir starten mit einem Pilot für einen Anwendungsfall mit festen KPIs."
      ],
      "h2": "Wie unterstützt Actarion?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Möchten Sie Ihre eigene SOP als digitale Anweisung sehen? [Kostenloses Erstgespräch vereinbaren](/de/demo/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[SOP-Software](/de/loesungen/sop-software/)",
-      "[Digitale Checklisten](/de/loesungen/digitale-checklisten/)",
-      "[Qualitätsprüfung](/de/anwendungsfaelle/qualitaetspruefung/)",
-      "[Was ist eine Arbeitsanweisung?](/de/ressourcen/glossar/arbeitsanweisung/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -62431,6 +59281,13 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/compare-digital-vs-paper-work-instructions.webp",
+   "related": [
+    "solDwi",
+    "solSop",
+    "solChecklists",
+    "ucQuality",
+    "termWorkInstruction"
+   ],
    "heroImage": "Federzeichnung einer Papier-Arbeitsanweisung auf dem Klemmbrett neben einem Tablet mit digitalem Arbeitsschritt"
   },
   "compare": {
@@ -62524,23 +59381,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "**Pilot mit festen KPIs:** Sie testen auf Ihrer eigenen Linie, bevor Sie skalieren."
      ],
      "h2": "Wie unterstützt Actarion?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Unsicher, welches Setup zu Ihrer Linie passt? [Kostenloses Erstgespräch vereinbaren](/de/demo/). Der Preis richtet sich individuell nach Branche und Sektor."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Digitale Arbeitsanweisungen](/de/loesungen/digitale-arbeitsanweisungen/)",
-      "[Werkerassistenzsystem](/de/loesungen/werkerassistenzsystem/)",
-      "[Tablets und Smartphones](/de/hardware/tablets-smartphones/)",
-      "[Glossar Fertigungsbegriffe](/de/ressourcen/glossar/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -62564,6 +59404,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/compare.webp",
+   "related": [
+    "solDwi",
+    "solCwp",
+    "hwTablets",
+    "glossary"
+   ],
    "heroImage": "Federzeichnung einer Waage, die eine Papier-Arbeitsanweisung gegen ein Tablet mit digitalem Arbeitsschritt abwägt"
   },
   "cmpVisionProHololens": {
@@ -62679,24 +59525,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Jede Ausführung wird protokolliert, unabhängig vom Gerät."
      ],
      "h2": "Wie unterstützt Actarion?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Planen Sie eine HoloLens-Migration oder einen neuen AR-Rollout? [Kostenloses Erstgespräch vereinbaren](/de/demo/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Apple Vision Pro](/de/hardware/apple-vision-pro/)",
-      "[HoloLens](/de/hardware/hololens/)",
-      "[Android XR](/de/hardware/android-xr/)",
-      "[Remote-Experten-Support](/de/anwendungsfaelle/remote-experten-support/)",
-      "[Was ist Mixed Reality?](/de/ressourcen/glossar/mixed-reality/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -62716,6 +59544,13 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/compare-vision-pro-vs-hololens.webp",
+   "related": [
+    "hwVisionPro",
+    "hwHololens",
+    "hwAndroidXr",
+    "ucRemote",
+    "termMr"
+   ],
    "heroImage": "Federzeichnung zu Vision Pro vs. HoloLens: geschlossenes Passthrough-Headset neben Headset mit Durchsichtvisier"
   },
   "cmpCwpVsLms": {
@@ -62826,23 +59661,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Ergänzt Remote-Support, wenn ein neuer Werker nicht weiterkommt."
      ],
      "h2": "Wie unterstützt Actarion?"
-    },
-    {
-     "kind": "text",
-     "body": [
-      "Möchten Sie Schulung mit echter Leistung verbinden? [Kostenloses Erstgespräch vereinbaren](/de/demo/)."
-     ],
-     "h2": "Nächster Schritt"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "[Werkerassistenzsystem](/de/loesungen/werkerassistenzsystem/)",
-      "[Mitarbeiter-Einarbeitung](/de/loesungen/mitarbeiter-einarbeitung/)",
-      "[Was ist eine Qualifikationsmatrix?](/de/ressourcen/glossar/qualifikationsmatrix/)",
-      "[Was ist ein Werkerassistenzsystem?](/de/ressourcen/glossar/werkerassistenzsystem/)"
-     ],
-     "h2": "Verwandte Seiten"
     }
    ],
    "faq": [
@@ -62862,6 +59680,12 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "updated": "2026-11-03",
    "placeholder": false,
    "image": "/img/illustraties/compare-connected-worker-vs-lms.webp",
+   "related": [
+    "solCwp",
+    "solTraining",
+    "termSkillsMatrix",
+    "termWas"
+   ],
    "heroImage": "Federzeichnung eines Schulungsbildschirms neben einer Maschine mit digitaler Schrittkarte als Werkerassistenz"
   }
  }
