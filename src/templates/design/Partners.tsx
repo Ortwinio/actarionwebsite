@@ -110,10 +110,6 @@ export function PartnersDesign({ routeKey: _routeKey, locale }: { routeKey: stri
         </div>
       </section>
 
-      <section className="mx-auto flex max-w-site flex-col gap-6 px-6 pt-14">
-        {t.partners.map((p) => <PartnerCard key={p.id} p={p} t={t} locale={locale} />)}
-      </section>
-
       <NetworkSection locale={locale} />
 
       <HardwareNote t={t} locale={locale} />
@@ -130,30 +126,84 @@ function RegionChip({ region, locale }: { region: Region; locale: Locale }) {
   return <span className="self-start rounded-full border border-line bg-canvas px-3 py-1.5 font-mono text-[13px]">{networkCopy[locale].regions[region]}</span>;
 }
 
+/** Short description of the three main partners, in the same style as the network partners. */
+const MAIN_TEXT: Record<string, Record<Locale, string>> = {
+  deepsight: {
+    en: 'AR-first connected worker platform: step-by-step instructions, training scenarios and remote support on tablets, smartphones and smart glasses.',
+    nl: 'AR-first connected worker platform: stap-voor-stapinstructies, trainingsscenario’s en remote support op tablets, smartphones en smart glasses.',
+    de: 'AR-first Plattform für Werkerassistenz: Schritt-für-Schritt-Anweisungen, Trainingsszenarien und Remote-Support auf Tablets, Smartphones und Datenbrillen.',
+  },
+  potentify: {
+    en: 'HR-focused implementation partner that connects work instructions to learning, skills and career paths.',
+    nl: 'HR-gerichte implementatiepartner die werkinstructies verbindt met leren, vaardigheden en loopbaanpaden.',
+    de: 'HR-orientierter Implementierungspartner, der Arbeitsanweisungen mit Lernen, Qualifikationen und Karrierepfaden verbindet.',
+  },
+  'simply-change': {
+    en: 'Partner for change management and implementation, with extensive experience in FMCG and operational transformation.',
+    nl: 'Partner voor verandermanagement en implementatie, met veel ervaring in FMCG en operationele transformatie.',
+    de: 'Partner für Change Management und Implementierung, mit viel Erfahrung in FMCG und operativer Transformation.',
+  },
+};
+
+interface Card {
+  id: string;
+  naam: string;
+  url: string;
+  region: Region;
+  text: string;
+  logo: { src: string; w: number; h: number };
+  soort?: string;
+  detail?: { href: string; label: string };
+}
+
+function NetworkCard({ n, locale }: { n: Card; locale: Locale }) {
+  const c = networkCopy[locale];
+  return (
+    <li id={n.id} className="flex scroll-mt-24 flex-col gap-3 rounded-[22px] border border-line bg-white p-5">
+      <a href={n.url} target="_blank" rel="nofollow noopener" aria-label={`${n.naam} – ${c.visit}`} className="flex h-[88px] items-center justify-center rounded-2xl bg-canvas p-3 hover:outline hover:outline-2 hover:outline-primary">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={n.logo.src} width={n.logo.w} height={n.logo.h} alt={`${n.naam} logo`} loading="lazy" className="h-auto max-h-[64px] w-auto max-w-[90%]" />
+      </a>
+      <div className="flex flex-wrap gap-2">
+        {n.soort && <span className="self-start rounded-full bg-sky px-3 py-1.5 font-mono text-[13px]">{n.soort}</span>}
+        <RegionChip region={n.region} locale={locale} />
+      </div>
+      <h3 className="m-0 text-lg font-bold leading-tight">{n.naam}</h3>
+      <p className="m-0 flex-grow text-[15px] leading-[1.45] text-muted">{n.text}</p>
+      <div className="flex flex-wrap items-center gap-x-4">
+        <a href={n.url} target="_blank" rel="nofollow noopener" className="inline-flex min-h-[44px] items-center gap-1 font-bold">{c.visit} ↗<span className="sr-only">{partnersCopy[locale].newWindow}</span></a>
+        {n.detail && <Link href={n.detail.href} className="inline-flex min-h-[44px] items-center font-bold">{n.detail.label} →</Link>}
+      </div>
+    </li>
+  );
+}
+
 function NetworkSection({ locale }: { locale: Locale }) {
   const c = networkCopy[locale];
+  const t = partnersCopy[locale];
   const order: Region[] = ['Benelux', 'Benelux / DACH', 'DACH', 'Global'];
-  const list = [...networkPartners].sort((a, b) => order.indexOf(a.region) - order.indexOf(b.region));
+  const main: Card[] = t.partners.map((p) => ({
+    id: p.id,
+    naam: p.naam,
+    url: p.url,
+    region: MAIN_REGION[p.id],
+    text: MAIN_TEXT[p.id][locale],
+    logo: LOGOS[p.naam],
+    soort: p.soort,
+    detail: { href: pathFor(p.routeKey, locale), label: t.more.replace('{naam}', p.naam) },
+  }));
+  const network: Card[] = [...networkPartners]
+    .sort((a, b) => order.indexOf(a.region) - order.indexOf(b.region))
+    .map((n) => ({ id: n.id, naam: n.naam, url: n.url, region: n.region, text: n.text[locale], logo: { src: `/img/partners/netwerk/${n.logo}.webp`, w: n.w, h: n.h } }));
   return (
-    <section id="network" className="mx-auto flex max-w-site scroll-mt-6 flex-col gap-6 px-6 pt-20">
+    <section id="network" className="mx-auto flex max-w-site scroll-mt-6 flex-col gap-6 px-6 pt-14">
       <div className="flex max-w-[760px] flex-col gap-3">
         <p className={eyebrow}>{c.eyebrow}</p>
         <h2 className="font-display text-[clamp(30px,3.6vw,44px)] font-extrabold leading-[1.05] tracking-[-0.03em]">{c.title}</h2>
         <p className="text-lg leading-normal text-muted">{c.lead}</p>
       </div>
       <ul className="m-0 grid list-none gap-4 p-0 [grid-template-columns:repeat(auto-fill,minmax(260px,1fr))]">
-        {list.map((n) => (
-          <li key={n.id} className="flex flex-col gap-3 rounded-[22px] border border-line bg-white p-5">
-            <a href={n.url} target="_blank" rel="noopener" aria-label={`${n.naam} – ${c.visit}`} className="flex h-[88px] items-center justify-center rounded-2xl bg-canvas p-3 hover:outline hover:outline-2 hover:outline-primary">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={`/img/partners/netwerk/${n.logo}.webp`} width={n.w} height={n.h} alt={`${n.naam} logo`} loading="lazy" className="h-auto max-h-[64px] w-auto max-w-[90%]" />
-            </a>
-            <RegionChip region={n.region} locale={locale} />
-            <h3 className="m-0 text-lg font-bold leading-tight">{n.naam}</h3>
-            <p className="m-0 flex-grow text-[15px] leading-[1.45] text-muted">{n.text[locale]}</p>
-            <a href={n.url} target="_blank" rel="noopener" className="inline-flex min-h-[44px] items-center gap-1 font-bold">{c.visit} ↗<span className="sr-only">{partnersCopy[locale].newWindow}</span></a>
-          </li>
-        ))}
+        {[...main, ...network].map((n) => <NetworkCard key={n.id} n={n} locale={locale} />)}
       </ul>
     </section>
   );

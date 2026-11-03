@@ -102,22 +102,22 @@ export const networkPartners: NetworkPartner[] = [
 export const networkCopy: Record<Locale, { eyebrow: string; title: string; lead: string; regions: Record<Region, string>; visit: string }> = {
   en: {
     eyebrow: 'Network',
-    title: 'Our network and ecosystem partners',
-    lead: 'Besides our implementation partners, we work with industry networks, knowledge institutes and companies in the Benelux and DACH region.',
+    title: 'Our partners and ecosystem',
+    lead: 'We work with technology and implementation partners, industry networks, knowledge institutes and companies in the Benelux and DACH region.',
     regions: { Benelux: 'Benelux', DACH: 'DACH', 'Benelux / DACH': 'Benelux / DACH', Global: 'Global' },
     visit: 'Visit website',
   },
   nl: {
     eyebrow: 'Netwerk',
-    title: 'Ons netwerk en onze ecosysteempartners',
-    lead: 'Naast onze implementatiepartners werken we samen met branchenetwerken, kennisinstellingen en bedrijven in de Benelux en DACH.',
+    title: 'Onze partners en ons ecosysteem',
+    lead: 'We werken samen met technologie- en implementatiepartners, branchenetwerken, kennisinstellingen en bedrijven in de Benelux en DACH.',
     regions: { Benelux: 'Benelux', DACH: 'DACH', 'Benelux / DACH': 'Benelux / DACH', Global: 'Wereldwijd' },
     visit: 'Naar website',
   },
   de: {
     eyebrow: 'Netzwerk',
-    title: 'Unser Netzwerk und unsere Ökosystempartner',
-    lead: 'Neben unseren Implementierungspartnern arbeiten wir mit Branchennetzwerken, Wissenseinrichtungen und Unternehmen in Benelux und DACH zusammen.',
+    title: 'Unsere Partner und unser Ökosystem',
+    lead: 'Wir arbeiten mit Technologie- und Implementierungspartnern, Branchennetzwerken, Wissenseinrichtungen und Unternehmen in Benelux und DACH zusammen.',
     regions: { Benelux: 'Benelux', DACH: 'DACH', 'Benelux / DACH': 'Benelux / DACH', Global: 'Weltweit' },
     visit: 'Zur Website',
   },
