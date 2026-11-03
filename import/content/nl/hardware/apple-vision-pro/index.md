@@ -13,8 +13,8 @@ h1: "Apple Vision Pro zakelijk: AR-werkinstructies en training"
 keyword_primary: "apple vision pro zakelijk"
 keywords_secondary: ["apple vision pro enterprise", "vision pro productie", "vision pro training"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/hardware-apple-vision-pro.svg
-image_alt: "Pentekening: een mixed-reality-headset in zijaanzicht met een zwevend cyaan instructievenster boven een machine"
+image: /images/hardware-apple-vision-pro-1600.webp
+image_alt: "Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor apple vision pro zakelijk boven een magazijn"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Apple Vision Pro is een mixed-reality-headset die digitale inhoud in je omgeving toont via passthrough-video met hoge resolutie. Zakelijk past hij bij training, complexe assemblage en taken waar gedetailleerd 3D helpt. Actarion gebruikt Apple Vision Pro als een van de apparaten voor AR-werkinstructies, naast tablets en andere headsets.
 
-![Pentekening: een mixed-reality-headset in zijaanzicht met een zwevend cyaan instructievenster boven een machine](/img/illustraties/hardware-apple-vision-pro.svg)
+![Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor apple vision pro zakelijk boven een magazijn](/images/hardware-apple-vision-pro-1600.webp)
 
 ## Waarom kijken bedrijven naar Vision Pro?
 

@@ -13,8 +13,8 @@ h1: "LOTO-Verfahren Vorlage: Maschinen sicher freischalten und sichern"
 keyword_primary: "LOTO Verfahren"
 keywords_secondary: ["Lockout Tagout", "Freischalten und Sichern", "gegen Wiedereinschalten sichern"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-lockout-tagout-procedure.svg
-image_alt: "Federzeichnung: Schaltschrank mit Vorhängeschloss und Anhänger neben einem Tablet mit den Schritten des LOTO-Verfahrens"
+image: /images/resources-templates-lockout-tagout-procedure-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Maschine mit Absperrhebel; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für LOTO Verfahren"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Ein LOTO-Verfahren (Lockout/Tagout) ist eine maschinenspezifische Anweisung, wie Mitarbeiter eine Maschine stillsetzen, alle Energiequellen trennen, gegen Wiedereinschalten sichern, Restenergie abbauen und die Energiefreiheit prüfen, bevor sie Instandhaltungsarbeiten ausführen. Diese kostenlose Vorlage orientiert sich an BetrSichV § 10, TRBS 1112 und EN ISO 14118. Actarion führt jeden LOTO-Schritt mit AR und dokumentiert ihn.
 
-![Federzeichnung: Schaltschrank mit Vorhängeschloss und Anhänger neben einem Tablet mit den Schritten des LOTO-Verfahrens](/img/illustraties/resources-templates-lockout-tagout-procedure.svg)
+![Ein Techniker hält ein iPad vor eine Maschine mit Absperrhebel; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für LOTO Verfahren](/images/resources-templates-lockout-tagout-procedure-1600.webp)
 
 ## Warum versagt das Sichern in der Praxis?
 

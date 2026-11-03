@@ -13,8 +13,8 @@ h1: "Customer cases: AR work instructions in practice"
 keyword_primary: "ar work instructions case study"
 keywords_secondary: ["connected worker case study", "digital work instructions examples"]
 schema: ["CollectionPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/customers.svg
-image_alt: "Pen drawing: four pedestals with a helmet, a crate, a vial and a wheel, linked to a tablet showing a cyan case card"
+image: /images/customers-1600.webp
+image_alt: "A phone held up to a production hall shows AR steps and a confirmed check for ar work instructions case study"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > These customer cases show how industrial companies use AI-generated, AR-guided work instructions to train new staff faster, run changeovers correctly on every shift and document maintenance for audits. The four anonymised cases cover mining, food, pharma and transport. They were realised on the DeepSight platform, which Actarion implements in Europe.
 
-![Pen drawing: four pedestals with a helmet, a crate, a vial and a wheel, linked to a tablet showing a cyan case card](/img/illustraties/customers.svg)
+![A phone held up to a production hall shows AR steps and a confirmed check for ar work instructions case study](/images/customers-1600.webp)
 
 ## What do operations teams struggle with before they digitize?
 

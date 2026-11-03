@@ -13,8 +13,8 @@ h1: "AR Werkerführung: zeigt, wo der nächste Handgriff ist"
 keyword_primary: "AR Werkerführung"
 keywords_secondary: ["AR Arbeitsanweisungen", "Augmented Reality Arbeitsanweisung", "Werkerführung AR-Brille"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/platform-ar-guidance.svg
-image_alt: "Federzeichnung: Eine AR-Brille zeigt einen cyanfarbenen Ring und eine Schrittkarte am richtigen Ventil einer Schalttafel"
+image: /images/platform-ar-guidance-1600.webp
+image_alt: "Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für AR Werkerführung über einen Schaltschrank"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > AR Werkerführung legt digitale Hinweise über den realen Arbeitsplatz. Statt im Handbuch zu suchen, sieht der Werker direkt an der Anlage, welches Ventil, welche Schraube oder welcher Stecker als Nächstes kommt. Actarion bietet AR Werkerführung auf Tablets und AR-Brillen und dokumentiert jeden bestätigten Schritt im Audit Trail.
 
-![Federzeichnung: Eine AR-Brille zeigt einen cyanfarbenen Ring und eine Schrittkarte am richtigen Ventil einer Schalttafel](/img/illustraties/platform-ar-guidance.svg)
+![Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für AR Werkerführung über einen Schaltschrank](/images/platform-ar-guidance-1600.webp)
 
 ## Wo passieren heute Fehler?
 

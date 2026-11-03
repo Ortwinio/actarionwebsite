@@ -13,8 +13,8 @@ h1: "Qualifikationsmatrix Software, die sich aus der Praxis aktualisiert"
 keyword_primary: "Qualifikationsmatrix Software"
 keywords_secondary: ["Qualifikationsmanagement", "Qualifikationsmatrix", "Skills Matrix"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/platform-skills-management.svg
-image_alt: "Federzeichnung: Ein Bildschirm mit einer Qualifikationsmatrix, in der cyanfarbene Zellen freigegebene Mitarbeiter zeigen"
+image: /images/platform-skills-management-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Qualifikationsmatrix Software"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Eine Qualifikationsmatrix zeigt, welcher Mitarbeiter für welche Tätigkeit eingearbeitet, qualifiziert oder freigegeben ist. Bei Actarion ist die Qualifikationsmatrix Teil der Konsole und wird aus echter Arbeit gespeist: ausgeführte AR-Arbeitsanweisungen, Bewertungen und Freigaben. Schichtleiter sehen Lücken auf einen Blick, die Qualität hat Qualifikationsnachweise für jedes Audit.
 
-![Federzeichnung: Ein Bildschirm mit einer Qualifikationsmatrix, in der cyanfarbene Zellen freigegebene Mitarbeiter zeigen](/img/illustraties/platform-skills-management.svg)
+![Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Qualifikationsmatrix Software](/images/platform-skills-management-1600.webp)
 
 ## Warum ist Ihre Qualifikationsmatrix nie aktuell?
 

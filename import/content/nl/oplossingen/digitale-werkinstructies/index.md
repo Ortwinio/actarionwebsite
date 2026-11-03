@@ -13,8 +13,8 @@ h1: "Digitale werkinstructies: minder fouten, elke stap vastgelegd"
 keyword_primary: "digitale werkinstructies"
 keywords_secondary: ["werkinstructies", "werkinstructie software", "ar werkinstructies"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/solutions-digital-work-instructions.svg
-image_alt: "Pentekening van boven: een flens met bouten, een AR-markering op de volgende bout en een tablet met digitale werkinstructies"
+image: /images/solutions-digital-work-instructions-1600.webp
+image_alt: "Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor digitale werkinstructies"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Digitale werkinstructies zijn stap-voor-stap procedures op een tablet of AR-bril in plaats van op papier, met foto's, video en verplichte controles. Actarion zet je bestaande SOP's met AI om in digitale werkinstructies, begeleidt operators met AR en legt elke uitvoering vast als audit-bewijs.
 
-![Pentekening van boven: een flens met bouten, een AR-markering op de volgende bout en een tablet met digitale werkinstructies](/img/illustraties/solutions-digital-work-instructions.svg)
+![Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor digitale werkinstructies](/images/solutions-digital-work-instructions-1600.webp)
 
 ## Waarom werken papieren werkinstructies niet op de werkvloer?
 

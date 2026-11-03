@@ -13,8 +13,8 @@ h1: "Digitale vs. Papier-Arbeitsanweisungen: was funktioniert besser?"
 keyword_primary: "digitale arbeitsanweisungen vs papier"
 keywords_secondary: ["papierlose fertigung arbeitsanweisungen", "elektronische arbeitsanweisung", "arbeitsanweisungen digitalisieren"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/compare-digital-vs-paper-work-instructions.svg
-image_alt: "Federzeichnung einer Papier-Arbeitsanweisung auf dem Klemmbrett neben einem Tablet mit digitalem Arbeitsschritt"
+image: /images/compare-digital-vs-paper-work-instructions-1600.webp
+image_alt: "Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für digitale arbeitsanweisungen vs papier über eine Produktionshalle"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Digitale Arbeitsanweisungen vs. Papier: Digital gewinnt, wenn sich Anweisungen oft ändern, Tätigkeiten komplex oder sicherheitskritisch sind und Sie Ausführungsnachweise brauchen. Papier reicht für einfache, stabile Aufgaben. Actarion wandelt Ihre bestehenden SOPs in digitale Arbeitsanweisungen mit AR-Werkerführung um, die jeden Schritt für Audits protokollieren.
 
-![Federzeichnung einer Papier-Arbeitsanweisung auf dem Klemmbrett neben einem Tablet mit digitalem Arbeitsschritt](/img/illustraties/compare-digital-vs-paper-work-instructions.svg)
+![Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für digitale arbeitsanweisungen vs papier über eine Produktionshalle](/images/compare-digital-vs-paper-work-instructions-1600.webp)
 
 ## Was läuft mit Papier schief?
 

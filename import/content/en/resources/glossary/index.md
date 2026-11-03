@@ -13,8 +13,8 @@ h1: "Glossary: shop-floor, quality and AR terms explained"
 keyword_primary: "manufacturing glossary"
 keywords_secondary: []
 schema: ["DefinedTermSet", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary.svg
-image_alt: "Pen drawing of an open glossary book with a cyan bookmark"
+image: /images/resources-glossary-1600.webp
+image_alt: "A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for manufacturing glossary"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > This glossary explains the terms operations, quality and HSE teams use every day, from SOP and SMED to LOTO, GMP and augmented reality. Each entry gives a short definition, a shop-floor example and related terms. Actarion uses these concepts to turn SOPs into AR-guided digital work instructions.
 
-![Pen drawing of an open glossary book with a cyan bookmark](/img/illustraties/resources-glossary.svg)
+![A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for manufacturing glossary](/images/resources-glossary-1600.webp)
 
 ## Why a shared vocabulary?
 

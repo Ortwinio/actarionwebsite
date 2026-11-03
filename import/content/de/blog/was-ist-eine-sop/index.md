@@ -13,8 +13,8 @@ h1: "Was ist eine SOP? Definition, Aufbau und Beispiel"
 keyword_primary: "SOP"
 keywords_secondary: ["Standard Operating Procedure", "Verfahrensanweisung", "SOP Beispiel"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-what-is-an-sop.svg
-image_alt: "Was ist eine SOP: Ordner und SOP-Dokument mit Prüfhaken neben einem Tablet mit Dashboard"
+image: /images/blog-what-is-an-sop-1600.webp
+image_alt: "Ein Smartphone vor eine Produktionshalle zeigt AR-Schritte und eine bestätigte Prüfung für SOP"
 cta: template
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Eine SOP (Standard Operating Procedure, Standardarbeitsanweisung) ist eine freigegebene, gelenkte Beschreibung, wie ein wiederkehrender Prozess abläuft, wer ihn ausführt und nach welchem Standard. SOPs sorgen für einheitliche, sichere und auditfähige Arbeit. Actarion wandelt bestehende SOPs mit KI in digitale Schritt-für-Schritt-Anweisungen mit AR-Werkerführung um und dokumentiert jede Ausführung.
 
-![Was ist eine SOP: Ordner und SOP-Dokument mit Prüfhaken neben einem Tablet mit Dashboard](/img/illustraties/blog-what-is-an-sop.svg)
+![Ein Smartphone vor eine Produktionshalle zeigt AR-Schritte und eine bestätigte Prüfung für SOP](/images/blog-what-is-an-sop-1600.webp)
 
 **Inhalt**
 - [Warum machen SOPs so viel Arbeit?](#warum-machen-sops-so-viel-arbeit)

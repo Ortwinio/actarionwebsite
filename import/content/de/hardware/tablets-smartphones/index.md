@@ -13,8 +13,8 @@ h1: "Arbeitsanweisungen auf Tablet und Smartphone: der praktische Einstieg"
 keyword_primary: "Arbeitsanweisungen auf Tablet"
 keywords_secondary: ["Tablet Arbeitsanweisung", "mobile Arbeitsanweisungen", "AR auf Tablet"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/hardware-tablets-smartphones.svg
-image_alt: "Federzeichnung: Ein Tablet an einem Schwenkarm neben einem Förderband und ein Smartphone mit cyanfarbener Schrittkarte"
+image: /images/hardware-tablets-smartphones-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor einen Schaltschrank; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Arbeitsanweisungen auf Tablet"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Arbeitsanweisungen auf Tablet sind digitale Schritt-für-Schritt-Verfahren, die am Arbeitsplatz auf einem Tablet angezeigt oder zur Tätigkeit mitgenommen werden. Die meisten Actarion-Kunden starten mit Tablets: vertraut, bezahlbar und AR-fähig über die Kamera. Smartphones decken Außendienst und kurze Prüfungen ab. AR-Brillen ergänzen Sie später für freihändige Aufgaben.
 
-![Federzeichnung: Ein Tablet an einem Schwenkarm neben einem Förderband und ein Smartphone mit cyanfarbener Schrittkarte](/img/illustraties/hardware-tablets-smartphones.svg)
+![Ein Techniker hält ein iPad vor einen Schaltschrank; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Arbeitsanweisungen auf Tablet](/images/hardware-tablets-smartphones-1600.webp)
 
 ## Warum mit dem Tablet starten?
 

@@ -13,8 +13,8 @@ h1: "Revision und Stillstand: vom Arbeitspaket zum Live-Fortschritt"
 keyword_primary: "revision anlagenstillstand"
 keywords_secondary: ["stillstandsplanung", "turnaround", "großrevision"]
 schema: ["Service", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/use-cases-shutdown-turnaround.svg
-image_alt: "Federzeichnung einer Prozesskolonne mit Gerüst und einem Fortschritts-Dashboard für Revision und Anlagenstillstand"
+image: /images/use-cases-shutdown-turnaround-1600.webp
+image_alt: "Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für revision anlagenstillstand über Prozessanlagen"
 cta: intake
 phase: 2
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Eine Revision (Turnaround) ist ein geplanter Anlagenstillstand, in dem Instandhaltung, Prüfungen und Umbauten in einem engen Zeitfenster erfolgen. Actarion unterstützt Planung und Umsetzung mit digitalen Arbeitspaketen: Jede Kolonne folgt denselben Schritten mit AR, der Fortschritt ist live sichtbar, und jede Aufgabe ist für die Übergabe dokumentiert.
 
-![Federzeichnung einer Prozesskolonne mit Gerüst und einem Fortschritts-Dashboard für Revision und Anlagenstillstand](/img/illustraties/use-cases-shutdown-turnaround.svg)
+![Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für revision anlagenstillstand über Prozessanlagen](/images/use-cases-shutdown-turnaround-1600.webp)
 
 ## Was macht eine Revision schwierig?
 

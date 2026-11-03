@@ -13,8 +13,8 @@ h1: "Digitale Serviceanleitungen für Maschinenbauer und OEMs"
 keyword_primary: "serviceanleitung maschinenbau"
 keywords_secondary: ["maschinenverordnung 2023/1230", "digitale betriebsanleitung", "oem service"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/industries-machine-builders.svg
-image_alt: "Federzeichnung einer Maschine mit eingebautem Bildschirm, Servicekoffer und Konsole des Maschinenbauers für digitale Serviceanleitungen"
+image: /images/industries-machine-builders-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für serviceanleitung maschinenbau"
 cta: intake
 phase: 2
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Maschinenbauer können mit jeder Maschine digitale Service- und Betriebsanleitungen ausliefern. Actarion wandelt Ihre Handbücher in Schritt-für-Schritt-Anweisungen mit AR um, für Ihre eigenen Servicetechniker und für die Bediener Ihrer Kunden. Remote-Support verbindet sie mit Ihren Experten, und die Maschinenverordnung (EU) 2023/1230 erlaubt digitale Betriebsanleitungen ausdrücklich.
 
-![Federzeichnung einer Maschine mit eingebautem Bildschirm, Servicekoffer und Konsole des Maschinenbauers für digitale Serviceanleitungen](/img/illustraties/industries-machine-builders.svg)
+![Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für serviceanleitung maschinenbau](/images/industries-machine-builders-1600.webp)
 
 ## Vor welchen Herausforderungen stehen Maschinenbauer?
 

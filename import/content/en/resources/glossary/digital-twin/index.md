@@ -13,8 +13,8 @@ h1: "What Is a Digital Twin? Definition & Example"
 keyword_primary: "what is a digital twin"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-digital-twin.svg
-image_alt: "Pen drawing for the glossary term digital twin: machine and its dashed digital copy linked by arrows"
+image: /images/resources-glossary-digital-twin-1600.webp
+image_alt: "A phone held up to a control room shows AR steps and a confirmed check for what is a digital twin"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > A digital twin is a virtual representation of a physical asset, line or process that is kept in sync with real-world data. It is used to monitor, simulate and optimize. Actarion connects to this idea from the operator side: AR instructions anchored to the real machine, with execution data flowing back.
 
-![Pen drawing for the glossary term digital twin: machine and its dashed digital copy linked by arrows](/img/illustraties/resources-glossary-digital-twin.svg)
+![A phone held up to a control room shows AR steps and a confirmed check for what is a digital twin](/images/resources-glossary-digital-twin-1600.webp)
 
 ## Why does it matter on the shop floor?
 

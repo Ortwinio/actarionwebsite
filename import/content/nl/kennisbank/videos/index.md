@@ -13,8 +13,8 @@ h1: "Video's: AR-werkinstructies in actie"
 keyword_primary: "video ar-werkinstructies"
 keywords_secondary: ["video ar-onderhoud", "demo digitale werkinstructies"]
 schema: ["CollectionPage", "VideoObject", "BreadcrumbList"]
-image: /img/illustraties/resources-videos.svg
-image_alt: "Pentekening: videoscherm met een machine en een cyane AR-stapkaart, met tijdlijn en afspeelknop"
+image: /images/resources-videos-1600.webp
+image_alt: "Een telefoon voor een controlekamer toont AR-stappen en een bevestigde controle voor video ar-werkinstructies"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Deze korte video's tonen AI-gegenereerde werkinstructies met AR-begeleiding in echt werk: een omstelling, een onderhoudsklus, het inwerken van een nieuwe operator en een kwaliteitsinspectie. Je ziet hoe een papieren SOP een digitale stapkaart wordt, hoe de operator die volgt op tablet of AR-bril en hoe elke stap wordt vastgelegd.
 
-![Pentekening: videoscherm met een machine en een cyane AR-stapkaart, met tijdlijn en afspeelknop](/img/illustraties/resources-videos.svg)
+![Een telefoon voor een controlekamer toont AR-stappen en een bevestigde controle voor video ar-werkinstructies](/images/resources-videos-1600.webp)
 
 ## Wat wil je zien vóór een demo?
 

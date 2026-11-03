@@ -13,8 +13,8 @@ h1: "Glossar: Begriffe aus Fertigung, Qualität und AR erklärt"
 keyword_primary: "glossar fertigung"
 keywords_secondary: []
 schema: ["DefinedTermSet", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary.svg
-image_alt: "Federzeichnung eines offenen Glossarbuchs mit cyanfarbenem Lesezeichen"
+image: /images/resources-glossary-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für glossar fertigung"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Dieses Glossar erklärt Begriffe, die Produktions-, Qualitäts- und Arbeitsschutzteams täglich nutzen, von SOP und SMED bis LOTO, GMP und Augmented Reality. Jeder Eintrag bietet eine kurze Definition, ein Praxisbeispiel und verwandte Begriffe. Actarion nutzt diese Konzepte, um SOPs in digitale Arbeitsanweisungen mit AR-Werkerführung umzuwandeln.
 
-![Federzeichnung eines offenen Glossarbuchs mit cyanfarbenem Lesezeichen](/img/illustraties/resources-glossary.svg)
+![Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für glossar fertigung](/images/resources-glossary-1600.webp)
 
 ## Warum ein gemeinsames Vokabular?
 

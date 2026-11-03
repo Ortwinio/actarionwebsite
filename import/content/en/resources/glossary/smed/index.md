@@ -13,8 +13,8 @@ h1: "What Is SMED? Changeover Method Explained"
 keyword_primary: "what is smed"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-smed.svg
-image_alt: "Pen drawing for the glossary term SMED: machine with a stopwatch and a shortened changeover arc"
+image: /images/resources-glossary-smed-1600.webp
+image_alt: "A phone held up to a robotic assembly line shows AR steps and a confirmed check for what is smed"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > SMED, or single-minute exchange of die, is a lean method to shorten changeover time by moving work to before or after the machine stop and simplifying what remains. The goal is changeovers under ten minutes. Actarion supports SMED with digital, AR-guided changeover instructions and time logging per step.
 
-![Pen drawing for the glossary term SMED: machine with a stopwatch and a shortened changeover arc](/img/illustraties/resources-glossary-smed.svg)
+![A phone held up to a robotic assembly line shows AR steps and a confirmed check for what is smed](/images/resources-glossary-smed-1600.webp)
 
 ## Why does it matter on the shop floor?
 

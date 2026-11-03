@@ -13,8 +13,8 @@ h1: "What Is a Werkerassistenzsystem? Meaning"
 keyword_primary: "werkerassistenzsystem"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-werkerassistenzsystem.svg
-image_alt: "Pen drawing for the glossary term Werkerassistenzsystem: workbench with a projected guidance light from above"
+image: /images/resources-glossary-werkerassistenzsystem-1600.webp
+image_alt: "A worker wearing Apple Vision Pro sees floating SOP panels for werkerassistenzsystem over an electrical cabinet"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Werkerassistenzsystem is the German term for a worker assistance system: technology that guides operators step by step at the workstation, using screens, projection, pick-to-light or AR glasses, and records the work. It is close to a connected worker platform. Actarion delivers worker assistance with AI-generated, AR-guided instructions.
 
-![Pen drawing for the glossary term Werkerassistenzsystem: workbench with a projected guidance light from above](/img/illustraties/resources-glossary-werkerassistenzsystem.svg)
+![A worker wearing Apple Vision Pro sees floating SOP panels for werkerassistenzsystem over an electrical cabinet](/images/resources-glossary-werkerassistenzsystem-1600.webp)
 
 ## Why does it matter on the shop floor?
 

@@ -13,8 +13,8 @@ h1: "Fallstudie Transport: AR-Wartungsschulung mit Rückverfolgbarkeit"
 keyword_primary: "vorbeugende wartung schulung transport"
 keywords_secondary: ["wartungsanweisung fuhrpark", "rückverfolgbarkeit instandhaltung"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/customers-transport-maintenance-traceability.svg
-image_alt: "Federzeichnung: Lkw mit cyanfarbener Markierung am Rad und eine digitale Wartungscheckliste mit Häkchen"
+image: /images/customers-transport-maintenance-traceability-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor Prozessanlagen; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für vorbeugende wartung schulung transport"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Ein Transport- und Logistikunternehmen nutzte AR-Arbeitsanweisungen, um Hunderte neue Mitarbeitende in vorbeugender Wartung zu schulen und jeden Auftrag zu dokumentieren. Auf der DeepSight-Plattform entstanden 20 Schulungen für zwei Standorte, mit Bewertungen, Qualifikationsmanagement und Remote-Support. Actarion bringt dieses Vorgehen zu europäischen Fuhrpark- und Logistikbetrieben.
 
-![Federzeichnung: Lkw mit cyanfarbener Markierung am Rad und eine digitale Wartungscheckliste mit Häkchen](/img/illustraties/customers-transport-maintenance-traceability.svg)
+![Ein Techniker hält ein iPad vor Prozessanlagen; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für vorbeugende wartung schulung transport](/images/customers-transport-maintenance-traceability-1600.webp)
 
 *Fallstudie realisiert mit Technologiepartner DeepSight. Zahlen wie von DeepSight veröffentlicht; Kunde anonymisiert.*
 

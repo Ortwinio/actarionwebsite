@@ -13,8 +13,8 @@ h1: "5S audit checklist: gratis template met score per afdeling"
 keyword_primary: "5s audit checklist"
 keywords_secondary: ["5s checklist", "5s audit", "werkplekorganisatie"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-5s-audit-checklist.svg
-image_alt: "Pentekening van een gereedschapsbord met schaduwvormen en één gemarkeerd leeg vak, naast een tablet met een 5S audit checklist"
+image: /images/resources-templates-5s-audit-checklist-1600.webp
+image_alt: "Een telefoon voor een magazijn toont AR-stappen en een bevestigde controle voor 5s audit checklist"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een 5S audit checklist scoort hoe goed een werkplek de vijf S'en toepast: Scheiden, Schikken, Schoonmaken, Standaardiseren en Standhouden. Deze gratis 5S audit checklist bevat 25 vragen met een score van 0 tot 4, een totaal van 100 en een actielijst. Gebruik hem maandelijks per afdeling. Actarion maakt er een digitale audit met foto's en trends van.
 
-![Pentekening van een gereedschapsbord met schaduwvormen en één gemarkeerd leeg vak, naast een tablet met een 5S audit checklist](/img/illustraties/resources-templates-5s-audit-checklist.svg)
+![Een telefoon voor een magazijn toont AR-stappen en een bevestigde controle voor 5s audit checklist](/images/resources-templates-5s-audit-checklist-1600.webp)
 
 ## Waarom zakt 5S weg na de kick-off?
 

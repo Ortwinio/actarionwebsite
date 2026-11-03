@@ -13,8 +13,8 @@ h1: "Augmented reality in de industrie: toepassingen die lonen"
 keyword_primary: "augmented reality industrie"
 keywords_secondary: ["ar in productie", "ar werkinstructies", "augmented reality onderhoud"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-ar-in-manufacturing.svg
-image_alt: "Augmented reality in de industrie: transportband met AR-kader en stapkaart boven een product"
+image: /images/blog-ar-in-manufacturing-1600.webp
+image_alt: "Een telefoon voor een robotlijn toont AR-stappen en een bevestigde controle voor augmented reality industrie"
 cta: intake
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Augmented reality in de industrie betekent dat digitale informatie, zoals werkstappen, pijlen of controles, via een tablet of AR-bril over de echte machine of het product wordt gelegd. Operators vinden zo het juiste onderdeel, volgen de juiste volgorde en leggen vast wat ze deden. Actarion gebruikt AR om je SOP's uit te voeren als begeleide digitale werkinstructies met audit trail.
 
-![Augmented reality in de industrie: transportband met AR-kader en stapkaart boven een product](/img/illustraties/blog-ar-in-manufacturing.svg)
+![Een telefoon voor een robotlijn toont AR-stappen en een bevestigde controle voor augmented reality industrie](/images/blog-ar-in-manufacturing-1600.webp)
 
 **Inhoud**
 - [Welke problemen lost AR op?](#welke-problemen-lost-ar-op)

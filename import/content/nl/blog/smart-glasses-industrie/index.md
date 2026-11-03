@@ -13,8 +13,8 @@ h1: "Smart glasses in de industrie: soorten, toepassingen en kiezen"
 keyword_primary: "smart glasses"
 keywords_secondary: ["ar bril", "smart glasses industrie", "slimme bril werkvloer"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-smart-glasses-industry.svg
-image_alt: "Smart glasses in de industrie: close-up van een AR-bril met stapkaart in het glas en een tandwiel"
+image: /images/blog-smart-glasses-industry-1600.webp
+image_alt: "Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor smart glasses boven een productiehal"
 cta: intake
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Smart glasses zijn draagbare displays die werkinstructies, checklists of het beeld van een expert op afstand in het blikveld van de operator tonen, terwijl beide handen vrij blijven. Ze variëren van een eenvoudig schermpje naast het oog tot een volwaardige AR-bril. Actarion laat je digitale werkinstructies draaien op smart glasses én tablets, zodat je per taak kiest.
 
-![Smart glasses in de industrie: close-up van een AR-bril met stapkaart in het glas en een tandwiel](/img/illustraties/blog-smart-glasses-industry.svg)
+![Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor smart glasses boven een productiehal](/images/blog-smart-glasses-industry-1600.webp)
 
 **Inhoud**
 - [Wanneer zijn smart glasses zinvol?](#wanneer-zijn-smart-glasses-zinvol)

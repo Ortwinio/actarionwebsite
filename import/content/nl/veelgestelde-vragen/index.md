@@ -13,8 +13,8 @@ h1: "Veelgestelde vragen over werkinstructies met AI en AR"
 keyword_primary: "veelgestelde vragen ar-werkinstructies"
 keywords_secondary: ["vragen digitale werkinstructies", "ar-sop"]
 schema: ["FAQPage", "BreadcrumbList"]
-image: /img/illustraties/faq.svg
-image_alt: "Pentekening: uitklapbare vragenlijst met een cyaan geopende vraag naast een tablet"
+image: /images/faq-1600.webp
+image_alt: "Een technicus houdt een iPad voor een controlekamer; op het scherm verschijnen AR-werkinstructies voor veelgestelde vragen ar-werkinstructies"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Werkinstructies met AI en AR zijn digitale stap-voor-stap-instructies die AI maakt vanuit je bestaande SOP's en die operators volgen met AR-begeleiding op een tablet of AR-bril. Actarion, de Europese partner van DeepSight, implementeert ze in de Benelux, DACH en de Nordics. Hieronder antwoorden over apparaten, toepassingen, audits, implementatie en prijs.
 
-![Pentekening: uitklapbare vragenlijst met een cyaan geopende vraag naast een tablet](/img/illustraties/faq.svg)
+![Een technicus houdt een iPad voor een controlekamer; op het scherm verschijnen AR-werkinstructies voor veelgestelde vragen ar-werkinstructies](/images/faq-1600.webp)
 
 ## Wat zijn de korte antwoorden?
 

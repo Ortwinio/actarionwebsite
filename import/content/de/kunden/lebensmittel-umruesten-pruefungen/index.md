@@ -13,8 +13,8 @@ h1: "Fallstudie Lebensmittel: Rüsten und Prüfen mit AR"
 keyword_primary: "rüsten lebensmittelindustrie ar"
 keywords_secondary: ["arbeitsanweisung linienumstellung", "einarbeitung lebensmittelproduktion"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/customers-food-changeover-inspections.svg
-image_alt: "Federzeichnung: Lebensmittellinie mit Förderband und einem Formatteil beim Rüsten, mit Schrittkarte auf einem Tablet"
+image: /images/customers-food-changeover-inspections-1600.webp
+image_alt: "Ein Smartphone vor eine Roboterlinie zeigt AR-Schritte und eine bestätigte Prüfung für rüsten lebensmittelindustrie ar"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Ein nordamerikanischer Lebensmittelhersteller nutzte AR-Arbeitsanweisungen, um neue Bediener einzuarbeiten, Linienumstellungen zu führen und Vorab-Inspektionen zu standardisieren. Auf der DeepSight-Plattform entstanden 105 Schulungen für 300 Mitarbeitende, sodass erfahrene Kräfte weniger Zeit mit Anlernen verbringen. Actarion bringt dieses Vorgehen in europäische Lebensmittelbetriebe.
 
-![Federzeichnung: Lebensmittellinie mit Förderband und einem Formatteil beim Rüsten, mit Schrittkarte auf einem Tablet](/img/illustraties/customers-food-changeover-inspections.svg)
+![Ein Smartphone vor eine Roboterlinie zeigt AR-Schritte und eine bestätigte Prüfung für rüsten lebensmittelindustrie ar](/images/customers-food-changeover-inspections-1600.webp)
 
 *Fallstudie realisiert mit Technologiepartner DeepSight. Zahlen wie von DeepSight veröffentlicht; Kunde anonymisiert.*
 

@@ -13,8 +13,8 @@ h1: "Line clearance checklist: gratis GMP-template voor batchwissels"
 keyword_primary: "line clearance checklist"
 keywords_secondary: ["line clearance gmp", "line clearance farma", "batchwissel"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-line-clearance-checklist.svg
-image_alt: "Pentekening van een lege verpakkingslijn met één gemarkeerde achtergebleven doos, een klembord en een tablet met de line clearance checklist"
+image: /images/resources-templates-line-clearance-checklist-1600.webp
+image_alt: "Een telefoon voor een transportlijn toont AR-stappen en een bevestigde controle voor line clearance checklist"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een line clearance checklist bevestigt dat een productie- of verpakkingslijn vrij is van materiaal, etiketten, product en documenten van de vorige batch voordat de volgende start. Line clearance voorkomt verwisselingen, een van de belangrijkste oorzaken van terugroepacties in farma en food. Deze gratis checklist dekt verwijderen, reinigen, lijnspecifieke controles en onafhankelijke QA-verificatie.
 
-![Pentekening van een lege verpakkingslijn met één gemarkeerde achtergebleven doos, een klembord en een tablet met de line clearance checklist](/img/illustraties/resources-templates-line-clearance-checklist.svg)
+![Een telefoon voor een transportlijn toont AR-stappen en een bevestigde controle voor line clearance checklist](/images/resources-templates-line-clearance-checklist-1600.webp)
 
 ## Waarom gaan er toch dingen mis bij een batchwissel?
 

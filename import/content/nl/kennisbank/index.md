@@ -13,8 +13,8 @@ h1: "Kennisbank voor digitale werkinstructies"
 keyword_primary: "kennisbank werkinstructies"
 keywords_secondary: ["template werkinstructie", "sop opstellen"]
 schema: ["CollectionPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources.svg
-image_alt: "Pentekening: bovenaanzicht van een bureau met documenten, een tablet met cyane stapkaart, een rekenmachine, een kalender en een video"
+image: /images/resources-1600.webp
+image_alt: "Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor kennisbank werkinstructies boven procesinstallaties"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > De kennisbank van Actarion bundelt gratis templates, praktische gidsen, een ROI-calculator, een begrippenlijst, whitepapers, events en video's over digitale werkinstructies. Zo zetten operations-, onderhouds-, kwaliteits- en HR-teams papieren SOP's om in heldere stap-voor-stap-instructies, met of zonder AR, en bouwen ze een businesscase voor een pilot.
 
-![Pentekening: bovenaanzicht van een bureau met documenten, een tablet met cyane stapkaart, een rekenmachine, een kalender en een video](/img/illustraties/resources.svg)
+![Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor kennisbank werkinstructies boven procesinstallaties](/images/resources-1600.webp)
 
 ## Wat heb je nodig voordat je instructies digitaliseert?
 

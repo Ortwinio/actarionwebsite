@@ -13,8 +13,8 @@ h1: "Competentiematrix die zichzelf bijwerkt vanuit het echte werk"
 keyword_primary: "competentiematrix"
 keywords_secondary: ["competentiebeheer", "skills matrix software", "bekwaamheidsmatrix"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/platform-skills-management.svg
-image_alt: "Pentekening: een scherm met een competentiematrix waarin cyaan cellen bevoegde medewerkers tonen"
+image: /images/platform-skills-management-1600.webp
+image_alt: "Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor competentiematrix"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een competentiematrix laat zien welke medewerker voor welke taak is ingewerkt, bekwaam of bevoegd. Bij Actarion zit de competentiematrix in de console en wordt hij gevoed door het echte werk: uitgevoerde AR-werkinstructies, beoordelingen en aftekeningen. Teamleiders zien gaten in één oogopslag en kwaliteit heeft bewijs van bekwaamheid voor elke audit.
 
-![Pentekening: een scherm met een competentiematrix waarin cyaan cellen bevoegde medewerkers tonen](/img/illustraties/platform-skills-management.svg)
+![Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor competentiematrix](/images/platform-skills-management-1600.webp)
 
 ## Waarom loopt je competentiematrix altijd achter?
 

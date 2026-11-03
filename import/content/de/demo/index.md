@@ -13,8 +13,8 @@ h1: "Demo für AR-Arbeitsanweisungen vereinbaren"
 keyword_primary: "demo ar arbeitsanweisungen"
 keywords_secondary: ["demo digitale arbeitsanweisungen", "deepsight demo"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/demo.svg
-image_alt: "Federzeichnung: Laptop mit Videogespräch und cyanfarbener Schrittkarte, daneben AR-Brille und Häkchen"
+image: /images/demo-1600.webp
+image_alt: "Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für demo ar arbeitsanweisungen über eine Förderanlage"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > In einer Demo von Actarion sehen Sie, wie aus einer bestehenden SOP eine KI-erstellte Arbeitsanweisung Schritt für Schritt wird, wie ein Bediener ihr mit AR-Werkerführung auf Tablet oder AR-Brille folgt und wie jede Ausführung in Audit-Trail und Qualifikationsmatrix landet. Wir richten die Demo auf einen Anwendungsfall Ihrer Branche aus.
 
-![Federzeichnung: Laptop mit Videogespräch und cyanfarbener Schrittkarte, daneben AR-Brille und Häkchen](/img/illustraties/demo.svg)
+![Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für demo ar arbeitsanweisungen über eine Förderanlage](/images/demo-1600.webp)
 
 ## Was möchten Sie nach einer Demo wissen?
 

@@ -13,8 +13,8 @@ h1: "Skills matrix software that updates from real work"
 keyword_primary: "skills matrix software"
 keywords_secondary: ["skills management", "competency matrix", "training matrix"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/platform-skills-management.svg
-image_alt: "Pen drawing: a screen with a skills matrix where cyan cells show certified employees"
+image: /images/platform-skills-management-1600.webp
+image_alt: "A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for skills matrix software"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Skills matrix software shows which employee is trained, qualified or certified for which task. In Actarion, the skills matrix is part of the console and is fed by real work: completed AR work instructions, assessments and sign-offs. Team leaders see gaps at a glance, and quality has proof of qualification for every audit.
 
-![Pen drawing: a screen with a skills matrix where cyan cells show certified employees](/img/illustraties/platform-skills-management.svg)
+![A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for skills matrix software](/images/platform-skills-management-1600.webp)
 
 ## Why is your skills matrix always out of date?
 

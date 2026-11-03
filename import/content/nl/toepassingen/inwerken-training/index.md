@@ -13,8 +13,8 @@ h1: "Inwerken productiemedewerkers: sneller zelfstandig met AR"
 keyword_primary: "inwerken productiemedewerkers"
 keywords_secondary: ["inwerkprogramma productie", "training on the job", "competentiematrix"]
 schema: ["Service", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/use-cases-onboarding-training.svg
-image_alt: "Pentekening van een werkbank van bovenaf met tablet met leerpad, AR-bril en werkstuk voor het inwerken van productiemedewerkers"
+image: /images/use-cases-onboarding-training-1600.webp
+image_alt: "Een telefoon voor een productiehal toont AR-stappen en een bevestigde controle voor inwerken productiemedewerkers"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Inwerken van productiemedewerkers is de periode waarin een nieuwe collega leert taken veilig en zelfstandig uit te voeren. Met Actarion leren nieuwe operators op de machine zelf, met AI-gegenereerde stap-voor-stapinstructies en AR-begeleiding op tablet of AR-bril. Elke afgeronde stap vult de competentiematrix, zodat je ziet wanneer iemand klaar is.
 
-![Pentekening van een werkbank van bovenaf met tablet met leerpad, AR-bril en werkstuk voor het inwerken van productiemedewerkers](/img/illustraties/use-cases-onboarding-training.svg)
+![Een telefoon voor een productiehal toont AR-stappen en een bevestigde controle voor inwerken productiemedewerkers](/images/use-cases-onboarding-training-1600.webp)
 
 ## Waarom duurt inwerken zo lang?
 

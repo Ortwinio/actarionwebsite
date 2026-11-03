@@ -13,8 +13,8 @@ h1: "Einarbeitungsplan Produktion: kostenlose 90-Tage-Vorlage"
 keyword_primary: "Einarbeitungsplan"
 keywords_secondary: ["Einarbeitungsplan Vorlage", "Einarbeitung neuer Mitarbeiter", "Einarbeitung Produktion"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-operator-onboarding-plan.svg
-image_alt: "Federzeichnung: Einarbeitungsplan als Zeitleiste auf einem Tisch neben einer AR-Brille mit cyanfarbener Einblendung"
+image: /images/resources-templates-operator-onboarding-plan-1600.webp
+image_alt: "Ein Smartphone vor eine Produktionshalle zeigt AR-Schritte und eine bestätigte Prüfung für Einarbeitungsplan"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Ein Einarbeitungsplan ist ein strukturierter Plan, der neue Mitarbeiter in der Produktion vom ersten Tag bis zum selbstständigen Arbeiten führt. Diese kostenlose Vorlage enthält Vorbereitung, ersten Tag, erste Woche und einen 30-60-90-Tage-Plan mit Freigabe je Tätigkeit und Feedbackgesprächen. Actarion verkürzt die Einarbeitung mit AR-Werkerführung an der Maschine.
 
-![Federzeichnung: Einarbeitungsplan als Zeitleiste auf einem Tisch neben einer AR-Brille mit cyanfarbener Einblendung](/img/illustraties/resources-templates-operator-onboarding-plan.svg)
+![Ein Smartphone vor eine Produktionshalle zeigt AR-Schritte und eine bestätigte Prüfung für Einarbeitungsplan](/images/resources-templates-operator-onboarding-plan-1600.webp)
 
 ## Warum dauert die Einarbeitung so lange?
 

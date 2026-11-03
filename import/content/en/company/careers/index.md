@@ -13,8 +13,8 @@ h1: "Careers at Actarion: shape AR and AI on the shop floor"
 keyword_primary: "ar developer jobs europe"
 keywords_secondary: ["sales engineer ar", "product manager connected worker"]
 schema: ["CollectionPage", "JobPosting", "BreadcrumbList"]
-image: /img/illustraties/company-careers.svg
-image_alt: "Pen drawing: toolbox, laptop with code and a cyan screen, and AR glasses"
+image: /images/company-careers-1600.webp
+image_alt: "A worker wearing Apple Vision Pro sees floating SOP panels for ar developer jobs europe over a production hall"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Actarion is a small, entrepreneurial team that changes how factories and field teams work across Europe. You get responsibility early, room to experiment and short feedback loops. Current openings are an AR Developer in Germany, a Sales Engineer in the Netherlands and a Product Manager in Switzerland.
 
-![Pen drawing: toolbox, laptop with code and a cyan screen, and AR glasses](/img/illustraties/company-careers.svg)
+![A worker wearing Apple Vision Pro sees floating SOP panels for ar developer jobs europe over a production hall](/images/company-careers-1600.webp)
 
 ## Which roles are open?
 

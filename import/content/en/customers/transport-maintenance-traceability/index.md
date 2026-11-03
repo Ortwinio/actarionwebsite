@@ -13,8 +13,8 @@ h1: "Transport case: AR maintenance training with traceability"
 keyword_primary: "preventive maintenance training transport"
 keywords_secondary: ["fleet maintenance work instructions", "maintenance traceability"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/customers-transport-maintenance-traceability.svg
-image_alt: "Pen drawing: truck with a cyan marker on the wheel and a digital maintenance checklist with check marks"
+image: /images/customers-transport-maintenance-traceability-1600.webp
+image_alt: "A technician holds an iPad up to process equipment; the screen shows AR work instruction steps for preventive maintenance training transport"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > A transport and logistics company used AR work instructions to train hundreds of new hires in preventive maintenance and to document every job. On the DeepSight platform it built 20 training courses for two sites, with evaluations, skills management and remote assistance. Actarion delivers this approach to fleet and logistics operations in Europe.
 
-![Pen drawing: truck with a cyan marker on the wheel and a digital maintenance checklist with check marks](/img/illustraties/customers-transport-maintenance-traceability.svg)
+![A technician holds an iPad up to process equipment; the screen shows AR work instruction steps for preventive maintenance training transport](/images/customers-transport-maintenance-traceability-1600.webp)
 
 *Case realised with technology partner DeepSight. Figures as published by DeepSight; customer anonymised.*
 

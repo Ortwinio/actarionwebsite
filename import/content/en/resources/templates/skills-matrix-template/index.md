@@ -13,8 +13,8 @@ h1: "Skills Matrix Template: See Who Can Do What on Every Shift"
 keyword_primary: "skills matrix template"
 keywords_secondary: ["skills matrix", "training matrix", "competency matrix manufacturing"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-skills-matrix-template.svg
-image_alt: "Pen drawing of a whiteboard with a skills matrix next to a tablet showing the same skills matrix digitally"
+image: /images/resources-templates-skills-matrix-template-1600.webp
+image_alt: "A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for skills matrix template"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > A skills matrix is a grid that shows, per employee, which tasks they can perform and at what level. This free skills matrix template uses a 0–4 scale, a target per task and a gap row, so team leaders can plan shifts and training. Actarion keeps the skills matrix current automatically from completed AR-guided work instructions.
 
-![Pen drawing of a whiteboard with a skills matrix next to a tablet showing the same skills matrix digitally](/img/illustraties/resources-templates-skills-matrix-template.svg)
+![A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for skills matrix template](/images/resources-templates-skills-matrix-template-1600.webp)
 
 ## Why do shift plans fail on skills?
 

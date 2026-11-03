@@ -13,8 +13,8 @@ h1: "AR werkinstructies die laten zien waar je moet zijn"
 keyword_primary: "AR werkinstructies"
 keywords_secondary: ["augmented reality werkinstructies", "AR-begeleiding", "AR bril werkinstructies"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/platform-ar-guidance.svg
-image_alt: "Pentekening: een AR-bril toont een cyaan ring en stapkaart op de juiste klep van een paneel"
+image: /images/platform-ar-guidance-1600.webp
+image_alt: "Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor AR werkinstructies boven een schakelkast"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > AR werkinstructies leggen digitale aanwijzingen over de echte werkplek heen. In plaats van een handleiding te lezen, ziet de operator welke klep, bout of connector de volgende is, direct op de installatie. Actarion levert AR werkinstructies op tablets en AR-brillen en legt elke bevestigde stap vast in de audit trail.
 
-![Pentekening: een AR-bril toont een cyaan ring en stapkaart op de juiste klep van een paneel](/img/illustraties/platform-ar-guidance.svg)
+![Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor AR werkinstructies boven een schakelkast](/images/platform-ar-guidance-1600.webp)
 
 ## Waar gaat het nu mis?
 

@@ -13,8 +13,8 @@ h1: "What Is a Skills Matrix? Definition & Example"
 keyword_primary: "what is a skills matrix"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-skills-matrix.svg
-image_alt: "Pen drawing for the glossary term skills matrix: grid of qualification cells with highlighted skills"
+image: /images/resources-glossary-skills-matrix-1600.webp
+image_alt: "A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for what is a skills matrix"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > A skills matrix is a table that shows which employees are qualified for which tasks or machines, and at what level. It supports shift planning, training and audits. Actarion keeps the skills matrix current in the DeepSight console, based on real executions of digital work instructions.
 
-![Pen drawing for the glossary term skills matrix: grid of qualification cells with highlighted skills](/img/illustraties/resources-glossary-skills-matrix.svg)
+![A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for what is a skills matrix](/images/resources-glossary-skills-matrix-1600.webp)
 
 ## Why does it matter on the shop floor?
 

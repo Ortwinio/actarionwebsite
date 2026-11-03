@@ -13,8 +13,8 @@ h1: "Oplossingen voor de werkvloer: van SOP naar werken met AR"
 keyword_primary: "oplossingen werkvloer"
 keywords_secondary: ["digitale werkinstructies", "connected worker", "sop software"]
 schema: ["CollectionPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/solutions.svg
-image_alt: "Pentekening: een centrale tablet met stapkaart, verbonden met zes oplossingen van Actarion"
+image: /images/solutions-1600.webp
+image_alt: "Een technicus houdt een iPad voor een robotlijn; op het scherm verschijnen AR-werkinstructies voor oplossingen werkvloer"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Actarion biedt zes oplossingen op één platform: digitale werkinstructies, een connected worker platform, SOP-software, training en inwerken, digitale checklists en kennisborging. Elke oplossing begint bij je bestaande SOP's, digitaliseert ze met AI, begeleidt operators met AR en legt elke uitvoering vast als audit-bewijs.
 
-![Pentekening: een centrale tablet met stapkaart, verbonden met zes oplossingen van Actarion](/img/illustraties/solutions.svg)
+![Een technicus houdt een iPad voor een robotlijn; op het scherm verschijnen AR-werkinstructies voor oplossingen werkvloer](/images/solutions-1600.webp)
 
 ## Welk probleem wil je als eerste oplossen?
 

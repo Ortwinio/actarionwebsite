@@ -13,8 +13,8 @@ h1: "Word partner van Actarion voor AR-werkinstructies"
 keyword_primary: "partner worden ar-werkinstructies"
 keywords_secondary: ["connected worker partner", "deepsight partner"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/partners-become-a-partner.svg
-image_alt: "Pentekening: een groot en een cyaan tandwiel grijpen in elkaar, naast een tablet met stapkaart"
+image: /images/partners-become-a-partner-1600.webp
+image_alt: "Een technicus houdt een iPad voor procesinstallaties; op het scherm verschijnen AR-werkinstructies voor partner worden ar-werkinstructies"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Actarion werkt met een netwerk van lokale technologie-, integratie- en opleidingspartners. Bedien je industriële, logistieke of energiebedrijven in Europa, dan kun je partner worden en werkinstructies met AI en AR, gebouwd op het DeepSight-platform, naar je klanten brengen. We starten met een kennismaking en een eerste gezamenlijk project.
 
-![Pentekening: een groot en een cyaan tandwiel grijpen in elkaar, naast een tablet met stapkaart](/img/illustraties/partners-become-a-partner.svg)
+![Een technicus houdt een iPad voor procesinstallaties; op het scherm verschijnen AR-werkinstructies voor partner worden ar-werkinstructies](/images/partners-become-a-partner-1600.webp)
 
 ## Welke partners zoeken we?
 

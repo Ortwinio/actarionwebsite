@@ -13,8 +13,8 @@ h1: "MRO work instructions for aerospace: traceable at every step"
 keyword_primary: "mro work instructions"
 keywords_secondary: ["aerospace mro", "easa part-145", "maintenance traceability"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/industries-aerospace-mro.svg
-image_alt: "Pen drawing of a jet engine with an AR marker on a blade and a tablet with traceability steps for MRO work instructions"
+image: /images/industries-aerospace-mro-1600.webp
+image_alt: "A technician holds an iPad up to an aircraft hangar; the screen shows AR work instruction steps for mro work instructions"
 cta: intake
 phase: 2
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > MRO work instructions guide technicians through maintenance, repair and overhaul tasks on aircraft and components. Actarion turns maintenance data and internal procedures into guided digital steps with AR on the part. Every step is signed off with user, time and evidence, which supports traceability and the documentation requirements of EASA Part-145.
 
-![Pen drawing of a jet engine with an AR marker on a blade and a tablet with traceability steps for MRO work instructions](/img/illustraties/industries-aerospace-mro.svg)
+![A technician holds an iPad up to an aircraft hangar; the screen shows AR work instruction steps for mro work instructions](/images/industries-aerospace-mro-1600.webp)
 
 ## What challenges do MRO organizations face?
 

@@ -13,8 +13,8 @@ h1: "Digital vs paper work instructions: which works better?"
 keyword_primary: "digital vs paper work instructions"
 keywords_secondary: ["paperless work instructions", "electronic work instructions", "paper sop problems"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/compare-digital-vs-paper-work-instructions.svg
-image_alt: "Pen drawing of a paper clipboard instruction next to a tablet showing a digital work instruction step"
+image: /images/compare-digital-vs-paper-work-instructions-1600.webp
+image_alt: "A worker wearing Apple Vision Pro sees floating SOP panels for digital vs paper work instructions over a production hall"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Digital vs paper work instructions: digital wins when instructions change often, when tasks are complex or safety-critical, and when you need proof of execution. Paper still works for simple, stable tasks. Actarion converts your existing SOPs into digital, AR-guided work instructions that log every step for audits.
 
-![Pen drawing of a paper clipboard instruction next to a tablet showing a digital work instruction step](/img/illustraties/compare-digital-vs-paper-work-instructions.svg)
+![A worker wearing Apple Vision Pro sees floating SOP panels for digital vs paper work instructions over a production hall](/images/compare-digital-vs-paper-work-instructions-1600.webp)
 
 ## What goes wrong with paper instructions?
 

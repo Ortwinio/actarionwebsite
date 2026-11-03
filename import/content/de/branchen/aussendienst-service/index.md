@@ -13,8 +13,8 @@ h1: "Arbeitsanweisungen im Außendienst: beim ersten Einsatz gelöst"
 keyword_primary: "arbeitsanweisungen außendienst"
 keywords_secondary: ["checkliste servicetechniker", "remote-support", "first time fix rate"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/industries-field-service.svg
-image_alt: "Federzeichnung eines Außenschaltschranks, eines Werkzeugkoffers und eines Tablets mit Verbindung zu einem Experten für Arbeitsanweisungen im Außendienst"
+image: /images/industries-field-service-1600.webp
+image_alt: "Ein Smartphone vor eine Hochspannungsleitung zeigt AR-Schritte und eine bestätigte Prüfung für arbeitsanweisungen außendienst"
 cta: intake
 phase: 2
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Arbeitsanweisungen im Außendienst führen Servicetechniker durch Installation, Wartung und Reparatur beim Kunden vor Ort. Actarion gibt ihnen digitale Checklisten und Schritt-für-Schritt-Führung mit AR auf Tablet oder Brille, dazu Remote-Support durch einen Experten. Das Ergebnis: mehr Lösungen beim ersten Einsatz, weniger Zweiteinsätze und ein vollständiger Servicebericht.
 
-![Federzeichnung eines Außenschaltschranks, eines Werkzeugkoffers und eines Tablets mit Verbindung zu einem Experten für Arbeitsanweisungen im Außendienst](/img/illustraties/industries-field-service.svg)
+![Ein Smartphone vor eine Hochspannungsleitung zeigt AR-Schritte und eine bestätigte Prüfung für arbeitsanweisungen außendienst](/images/industries-field-service-1600.webp)
 
 ## Vor welchen Herausforderungen stehen Serviceteams?
 

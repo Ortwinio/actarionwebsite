@@ -13,8 +13,8 @@ h1: "Operator Onboarding: From First Day to Qualified, Faster"
 keyword_primary: "operator onboarding"
 keywords_secondary: ["onboarding plan manufacturing", "new operator training", "time to competence"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-operator-onboarding.svg
-image_alt: "Operator onboarding: learning steps with checks next to a workbench tablet with step card"
+image: /images/blog-operator-onboarding-1600.webp
+image_alt: "A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for operator onboarding"
 cta: template
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Operator onboarding is the structured process that takes a new production employee from first day to working independently and safely. A good onboarding plan defines tasks, levels, a buddy and checkpoints. Actarion shortens onboarding with digital work instructions and AR guidance, so new operators learn on the job while every step is recorded.
 
-![Operator onboarding: learning steps with checks next to a workbench tablet with step card](/img/illustraties/blog-operator-onboarding.svg)
+![A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for operator onboarding](/images/blog-operator-onboarding-1600.webp)
 
 **Contents**
 - [Why is onboarding operators so hard?](#why-is-onboarding-operators-so-hard)

@@ -13,8 +13,8 @@ h1: "Was ist Poka-Yoke? Fehlervermeidung erklärt"
 keyword_primary: "was ist poka-yoke"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-poka-yoke.svg
-image_alt: "Federzeichnung zum Begriff Poka-Yoke"
+image: /images/resources-glossary-poka-yoke-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Roboterlinie; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für was ist poka-yoke"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Poka-Yoke ist das Lean-Prinzip der Fehlhandlungssicherheit: Teile, Werkzeuge oder Abläufe werden so gestaltet, dass ein Fehler nicht passieren kann oder sofort erkannt wird. Beispiele sind kodierte Stecker und Sensoren, die eine Presse stoppen. Actarion ergänzt digitales Poka-Yoke: Pflichtprüfungen in der Arbeitsanweisung.
 
-![Federzeichnung zum Begriff Poka-Yoke](/img/illustraties/resources-glossary-poka-yoke.svg)
+![Ein Techniker hält ein iPad vor eine Roboterlinie; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für was ist poka-yoke](/images/resources-glossary-poka-yoke-1600.webp)
 
 ## Warum ist das in der Fertigung wichtig?
 

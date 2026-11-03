@@ -13,8 +13,8 @@ h1: "Quality Inspection Checklist: Free Template for Manufacturing"
 keyword_primary: "quality inspection checklist"
 keywords_secondary: ["quality control checklist", "inspection checklist template", "first article inspection checklist"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-quality-inspection-checklist.svg
-image_alt: "Pen drawing of a caliper measuring a flange next to a tablet recording the quality inspection checklist"
+image: /images/resources-templates-quality-inspection-checklist-1600.webp
+image_alt: "A phone held up to a conveyor line shows AR steps and a confirmed check for quality inspection checklist"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > A quality inspection checklist defines which characteristics are checked, against which specification, with which gauge, how often and what happens when a part fails. This free quality inspection checklist covers first-article, in-process and final inspection with OK/NOK and reaction plan. Actarion turns it into AR-guided inspections that record every measured value.
 
-![Pen drawing of a caliper measuring a flange next to a tablet recording the quality inspection checklist](/img/illustraties/resources-templates-quality-inspection-checklist.svg)
+![A phone held up to a conveyor line shows AR steps and a confirmed check for quality inspection checklist](/images/resources-templates-quality-inspection-checklist-1600.webp)
 
 ## Why do defects still reach the customer?
 

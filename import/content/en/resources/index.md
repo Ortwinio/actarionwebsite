@@ -13,8 +13,8 @@ h1: "Resources for digital work instructions"
 keyword_primary: "work instruction resources"
 keywords_secondary: ["work instruction template", "sop guide"]
 schema: ["CollectionPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources.svg
-image_alt: "Pen drawing: top view of a desk with documents, a tablet with a cyan step card, a calculator, a calendar and a video"
+image: /images/resources-1600.webp
+image_alt: "A worker wearing Apple Vision Pro sees floating SOP panels for work instruction resources over process equipment"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > The Actarion resource hub brings together free templates, practical guides, an ROI calculator, a glossary, whitepapers, events and videos about digital work instructions. It helps operations, maintenance, quality and HR teams turn paper SOPs into clear step-by-step instructions, with or without AR, and build a business case for a pilot.
 
-![Pen drawing: top view of a desk with documents, a tablet with a cyan step card, a calculator, a calendar and a video](/img/illustraties/resources.svg)
+![A worker wearing Apple Vision Pro sees floating SOP panels for work instruction resources over process equipment](/images/resources-1600.webp)
 
 ## What do you need before you digitize instructions?
 

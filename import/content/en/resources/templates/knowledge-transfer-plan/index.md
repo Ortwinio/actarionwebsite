@@ -13,8 +13,8 @@ h1: "Knowledge Transfer Plan: Capture Expert Know-How Before It Leaves"
 keyword_primary: "knowledge transfer plan"
 keywords_secondary: ["knowledge transfer template", "succession knowledge capture", "retiring workforce knowledge"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-knowledge-transfer-plan.svg
-image_alt: "Pen drawing of an expert's notebook, captured on a tablet as digital steps and passed on through AR glasses"
+image: /images/resources-templates-knowledge-transfer-plan-1600.webp
+image_alt: "A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for knowledge transfer plan"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > A knowledge transfer plan is a structured plan to capture the critical know-how of an experienced employee and pass it to successors before they retire, move or leave. This free knowledge transfer plan template maps tasks, ranks knowledge risk, plans capture and transfer, and verifies successors. Actarion captures expert tasks as AR-guided instructions.
 
-![Pen drawing of an expert's notebook, captured on a tablet as digital steps and passed on through AR glasses](/img/illustraties/resources-templates-knowledge-transfer-plan.svg)
+![A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for knowledge transfer plan](/images/resources-templates-knowledge-transfer-plan-1600.webp)
 
 ## Why is knowledge lost when an expert leaves?
 

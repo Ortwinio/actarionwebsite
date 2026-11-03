@@ -13,8 +13,8 @@ h1: "Smart Glasses for Manufacturing: Types, Use Cases and How to Choose"
 keyword_primary: "smart glasses for manufacturing"
 keywords_secondary: ["industrial smart glasses", "ar glasses", "assisted reality glasses"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-smart-glasses-industry.svg
-image_alt: "Smart glasses for manufacturing: close-up of glasses with a step card in the lens and a gear behind"
+image: /images/blog-smart-glasses-industry-1600.webp
+image_alt: "A worker wearing Apple Vision Pro sees floating SOP panels for smart glasses for manufacturing over a production hall"
 cta: intake
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Smart glasses for manufacturing are wearable displays that show work instructions, checklists or a remote expert's view in the operator's field of vision, leaving both hands free. They range from simple monocular displays to full mixed reality headsets. Actarion runs your digital work instructions on smart glasses and tablets alike, so you pick the device per task.
 
-![Smart glasses for manufacturing: close-up of glasses with a step card in the lens and a gear behind](/img/illustraties/blog-smart-glasses-industry.svg)
+![A worker wearing Apple Vision Pro sees floating SOP panels for smart glasses for manufacturing over a production hall](/images/blog-smart-glasses-industry-1600.webp)
 
 **Contents**
 - [When do smart glasses make sense?](#when-do-smart-glasses-make-sense)

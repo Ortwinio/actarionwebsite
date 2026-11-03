@@ -13,8 +13,8 @@ h1: "Pilot met AR-werkinstructies in vier fasen"
 keyword_primary: "pilot ar-werkinstructies"
 keywords_secondary: ["pilot connected worker", "implementatie digitale werkinstructies"]
 schema: ["Service", "HowTo", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/pilot.svg
-image_alt: "Pentekening: vier oplopende treden van briefing via discovery en pilot naar opschalen met meerdere tablets"
+image: /images/pilot-1600.webp
+image_alt: "Een technicus houdt een iPad voor een robotlijn; op het scherm verschijnen AR-werkinstructies voor pilot ar-werkinstructies"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een pilot van Actarion bewijst de waarde van AI-gegenereerde werkinstructies met AR-begeleiding op één lijn of locatie, voordat je opschaalt. Hij verloopt in vier fasen: een future-of-work-briefing, use-case-discovery, een pilot met vaste KPI's en opschalen met enablement van je eigen team. Je start met een kosteloze intake.
 
-![Pentekening: vier oplopende treden van briefing via discovery en pilot naar opschalen met meerdere tablets](/img/illustraties/pilot.svg)
+![Een technicus houdt een iPad voor een robotlijn; op het scherm verschijnen AR-werkinstructies voor pilot ar-werkinstructies](/images/pilot-1600.webp)
 
 ## Waarom mislukken veel digitaliseringspilots?
 

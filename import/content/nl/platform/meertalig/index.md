@@ -13,8 +13,8 @@ h1: "Meertalige werkinstructies: één procedure, elke taal"
 keyword_primary: "meertalige werkinstructies"
 keywords_secondary: ["werkinstructies vertalen", "taalbarrière werkvloer", "werkinstructies flexkrachten"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/platform-multilingual.svg
-image_alt: "Pentekening: één werkinstructie op een tablet waaiert uit naar drie stapkaarten in verschillende talen"
+image: /images/platform-multilingual-1600.webp
+image_alt: "Een technicus houdt een iPad voor een schakelkast; op het scherm verschijnen AR-werkinstructies voor meertalige werkinstructies"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Meertalige werkinstructies zijn digitale procedures die elke operator in de eigen taal opent, terwijl inhoud en goedkeuring gelijk blijven. Actarion levert meertalige werkinstructies op tablet en AR-bril. Samen met beelden en AR-overlays verminderen ze misverstanden in gemengde teams en bij flexkrachten.
 
-![Pentekening: één werkinstructie op een tablet waaiert uit naar drie stapkaarten in verschillende talen](/img/illustraties/platform-multilingual.svg)
+![Een technicus houdt een iPad voor een schakelkast; op het scherm verschijnen AR-werkinstructies voor meertalige werkinstructies](/images/platform-multilingual-1600.webp)
 
 ## Waar zit taal in de weg?
 

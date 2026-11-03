@@ -13,8 +13,8 @@ h1: "Apple Vision Pro im Unternehmen: AR-Arbeitsanweisungen und Schulung"
 keyword_primary: "Apple Vision Pro Unternehmen"
 keywords_secondary: ["Apple Vision Pro Enterprise", "Vision Pro Industrie", "Vision Pro Schulung"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/hardware-apple-vision-pro.svg
-image_alt: "Federzeichnung: Ein Mixed-Reality-Headset in Seitenansicht mit schwebendem cyanfarbenem Anweisungsfenster über einer Maschine"
+image: /images/hardware-apple-vision-pro-1600.webp
+image_alt: "Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für Apple Vision Pro Unternehmen über ein Lager"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Apple Vision Pro ist ein Mixed-Reality-Headset, das digitale Inhalte über hochauflösendes Passthrough-Video in die Umgebung einblendet. Im Unternehmen eignet es sich für Schulung, komplexe Montage und Aufgaben, bei denen detailliertes 3D hilft. Actarion nutzt Apple Vision Pro als eines der Geräte für AR-Arbeitsanweisungen, neben Tablets und anderen Headsets.
 
-![Federzeichnung: Ein Mixed-Reality-Headset in Seitenansicht mit schwebendem cyanfarbenem Anweisungsfenster über einer Maschine](/img/illustraties/hardware-apple-vision-pro.svg)
+![Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für Apple Vision Pro Unternehmen über ein Lager](/images/hardware-apple-vision-pro-1600.webp)
 
 ## Warum interessieren sich Unternehmen für Vision Pro?
 

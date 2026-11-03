@@ -13,8 +13,8 @@ h1: "FAQ about AI and AR work instructions"
 keyword_primary: "ar work instructions faq"
 keywords_secondary: ["digital work instructions questions", "ar sop"]
 schema: ["FAQPage", "BreadcrumbList"]
-image: /img/illustraties/faq.svg
-image_alt: "Pen drawing: expandable question list with one cyan opened question next to a tablet"
+image: /images/faq-1600.webp
+image_alt: "A technician holds an iPad up to a control room; the screen shows AR work instruction steps for ar work instructions faq"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > AI- and AR-guided work instructions are digital, step-by-step instructions that AI creates from your existing SOPs and that operators follow with AR guidance on a tablet or AR glasses. Actarion, DeepSight's European partner, implements them in Benelux, DACH and the Nordics. Below are answers on devices, use cases, audits, implementation and pricing.
 
-![Pen drawing: expandable question list with one cyan opened question next to a tablet](/img/illustraties/faq.svg)
+![A technician holds an iPad up to a control room; the screen shows AR work instruction steps for ar work instructions faq](/images/faq-1600.webp)
 
 ## What are the short answers?
 

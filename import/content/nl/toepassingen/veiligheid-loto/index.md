@@ -13,8 +13,8 @@ h1: "LOTO-procedure: elk afschakelpunt, elke keer"
 keyword_primary: "loto procedure"
 keywords_secondary: ["lockout tagout", "energie-isolatie", "machinespecifieke loto"]
 schema: ["Service", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/use-cases-safety-loto.svg
-image_alt: "Pentekening van een hoofdschakelaar met hangslot en label en een tablet met de stappen van de LOTO-procedure"
+image: /images/use-cases-safety-loto-1600.webp
+image_alt: "Een telefoon voor een machine met een afsluithendel toont AR-stappen en een bevestigde controle voor loto procedure"
 cta: template
 phase: 2
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een LOTO-procedure (lockout tagout) is de vaste volgorde waarin je alle energiebronnen van een machine afschakelt en borgt met slot en label voordat het werk begint. Actarion maakt van je machinespecifieke LOTO-procedures digitale stappen met AR: elk afschakelpunt verschijnt op de machine en elk slot wordt bevestigd en vastgelegd.
 
-![Pentekening van een hoofdschakelaar met hangslot en label en een tablet met de stappen van de LOTO-procedure](/img/illustraties/use-cases-safety-loto.svg)
+![Een telefoon voor een machine met een afsluithendel toont AR-stappen en een bevestigde controle voor loto procedure](/images/use-cases-safety-loto-1600.webp)
 
 ## Waar gaat LOTO in de praktijk mis?
 

@@ -13,8 +13,8 @@ h1: "Preventive Maintenance: How to Build a Plan That Gets Done"
 keyword_primary: "preventive maintenance"
 keywords_secondary: ["preventive maintenance plan", "pm checklist", "planned maintenance"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-preventive-maintenance-guide.svg
-image_alt: "Preventive maintenance: pump with an AR glasses overlay and a maintenance calendar"
+image: /images/blog-preventive-maintenance-guide-1600.webp
+image_alt: "A worker wearing Apple Vision Pro sees floating SOP panels for preventive maintenance over process equipment"
 cta: template
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Preventive maintenance is maintenance carried out on a fixed schedule or usage interval, before equipment fails. It reduces unplanned downtime and extends asset life. The plan only works if every task is done the same way and recorded. Actarion guides technicians through each PM task on a tablet or AR glasses and logs every check automatically.
 
-![Preventive maintenance: pump with an AR glasses overlay and a maintenance calendar](/img/illustraties/blog-preventive-maintenance-guide.svg)
+![A worker wearing Apple Vision Pro sees floating SOP panels for preventive maintenance over process equipment](/images/blog-preventive-maintenance-guide-1600.webp)
 
 **Contents**
 - [Why does preventive maintenance slip?](#why-does-preventive-maintenance-slip)

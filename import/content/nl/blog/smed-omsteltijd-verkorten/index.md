@@ -13,8 +13,8 @@ h1: "SMED: zo verkort je de omsteltijd stap voor stap"
 keyword_primary: "smed"
 keywords_secondary: ["omsteltijd verkorten", "omstellen", "single minute exchange of die"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-smed-guide.svg
-image_alt: "SMED omstellen: pers met matrijswagen en een tablet met timer die de omstelstappen begeleidt"
+image: /images/blog-smed-guide-1600.webp
+image_alt: "Een telefoon voor een robotlijn toont AR-stappen en een bevestigde controle voor smed"
 cta: template
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > SMED (single-minute exchange of die) is een lean-methode om de omsteltijd te verkorten door zoveel mogelijk werk te doen terwijl de machine nog draait. Het doel: omstellen in minder dan tien minuten. Actarion borgt de nieuwe standaard: elke omstelstap wordt begeleid op tablet of AR-bril en de tijd per stap wordt vastgelegd.
 
-![SMED omstellen: pers met matrijswagen en een tablet met timer die de omstelstappen begeleidt](/img/illustraties/blog-smed-guide.svg)
+![Een telefoon voor een robotlijn toont AR-stappen en een bevestigde controle voor smed](/images/blog-smed-guide-1600.webp)
 
 **Inhoud**
 - [Waarom duurt omstellen zo lang?](#waarom-duurt-omstellen-zo-lang)

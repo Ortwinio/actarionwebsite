@@ -13,8 +13,8 @@ h1: "Gidsen: werkinstructies, SOP's en AR op de werkvloer"
 keyword_primary: "werkinstructies"
 keywords_secondary: ["sop", "augmented reality industrie"]
 schema: ["CollectionPage", "BreadcrumbList"]
-image: /img/illustraties/blog.svg
-image_alt: "Stapel gidsen naast een tablet met een digitale werkinstructie"
+image: /images/blog-1600.webp
+image_alt: "Een technicus houdt een iPad voor een robotlijn; op het scherm verschijnen AR-werkinstructies voor werkinstructies"
 cta: template
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > De gidsen van Actarion helpen productie-, onderhouds-, kwaliteits- en HR-managers om werk te standaardiseren, sneller in te werken en audits met minder stress te doorstaan. Elke gids geeft een definitie, stappen, een voorbeeld en veelgemaakte fouten, en waar het helpt een gratis template. Geschreven door het Actarion-team.
 
-![Stapel gidsen naast een tablet met een digitale werkinstructie](/img/illustraties/blog.svg)
+![Een technicus houdt een iPad voor een robotlijn; op het scherm verschijnen AR-werkinstructies voor werkinstructies](/images/blog-1600.webp)
 
 ## Werkinstructies en SOP's
 - [Werkinstructie maken](/nl/blog/werkinstructie-maken/)

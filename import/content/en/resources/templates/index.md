@@ -13,8 +13,8 @@ h1: "Free Manufacturing Templates and Checklists for the Shop Floor"
 keyword_primary: "free manufacturing templates"
 keywords_secondary: ["manufacturing checklist templates", "work instruction template", "maintenance checklist template"]
 schema: ["CollectionPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates.svg
-image_alt: "Pen drawing of paper manufacturing templates on a desk next to a tablet showing the same checklist digitally"
+image: /images/resources-templates-1600.webp
+image_alt: "A worker wearing Apple Vision Pro sees floating SOP panels for free manufacturing templates over a control panel"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > These free manufacturing templates cover the documents every plant needs: work instructions, SOPs, preventive maintenance, LOTO, SMED changeovers, line clearance, quality inspection, 5S, pre-shift checks, skills matrix, onboarding and knowledge transfer. Each page shows the complete template, how to fill it in and an example. Actarion turns them into digital, AR-guided instructions with an audit trail.
 
-![Pen drawing of paper manufacturing templates on a desk next to a tablet showing the same checklist digitally](/img/illustraties/resources-templates.svg)
+![A worker wearing Apple Vision Pro sees floating SOP panels for free manufacturing templates over a control panel](/images/resources-templates-1600.webp)
 
 ## Why do shop-floor documents fail?
 

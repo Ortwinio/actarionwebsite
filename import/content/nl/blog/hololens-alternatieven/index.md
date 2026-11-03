@@ -13,8 +13,8 @@ h1: "HoloLens alternatieven: wat gebruik je nu voor industriële AR?"
 keyword_primary: "hololens"
 keywords_secondary: ["hololens 2 alternatief", "hololens gestopt", "ar bril industrie"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-hololens-2-alternatives.svg
-image_alt: "HoloLens alternatieven: tablet, mixed-reality-headset en lichte AR-bril naast elkaar"
+image: /images/blog-hololens-2-alternatives-1600.webp
+image_alt: "Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor hololens boven een schakelkast"
 cta: intake
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Microsoft stopte in oktober 2024 met de productie van de HoloLens 2 en levert beveiligingsupdates tot eind 2027. De belangrijkste HoloLens alternatieven zijn tablets, mixed-reality-headsets zoals Apple Vision Pro en Android XR-apparaten, en lichte smart glasses. De beste keuze hangt af van de taak. Actarion houdt je AR-instructies hardware-onafhankelijk, zodat je wisselt zonder alles opnieuw te maken.
 
-![HoloLens alternatieven: tablet, mixed-reality-headset en lichte AR-bril naast elkaar](/img/illustraties/blog-hololens-2-alternatives.svg)
+![Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor hololens boven een schakelkast](/images/blog-hololens-2-alternatives-1600.webp)
 
 **Inhoud**
 - [Waarom zoek je een alternatief?](#waarom-zoek-je-een-alternatief)

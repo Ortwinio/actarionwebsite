@@ -13,8 +13,8 @@ h1: "Was ist OEE? Gesamtanlageneffektivität erklärt"
 keyword_primary: "was ist oee"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-oee.svg
-image_alt: "Federzeichnung zum Begriff OEE"
+image: /images/resources-glossary-oee-1600.webp
+image_alt: "Ein Smartphone vor eine Leitwarte zeigt AR-Schritte und eine bestätigte Prüfung für was ist oee"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > OEE, Overall Equipment Effectiveness oder Gesamtanlageneffektivität, misst, welcher Anteil der geplanten Produktionszeit wirklich produktiv ist. Sie ergibt sich aus Verfügbarkeit, Leistung und Qualität. Eine niedrige OEE weist auf Stillstand, langsame Takte oder Ausschuss hin. Actarion verbessert die menschliche Seite der OEE mit geführtem Rüsten und Standardarbeit.
 
-![Federzeichnung zum Begriff OEE](/img/illustraties/resources-glossary-oee.svg)
+![Ein Smartphone vor eine Leitwarte zeigt AR-Schritte und eine bestätigte Prüfung für was ist oee](/images/resources-glossary-oee-1600.webp)
 
 ## Warum ist das in der Fertigung wichtig?
 

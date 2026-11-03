@@ -13,8 +13,8 @@ h1: "Kennisoverdracht bij vergrijzing: borg vakkennis voor die vertrekt"
 keyword_primary: "kennisoverdracht"
 keywords_secondary: ["kennisborging", "vergrijzing productie", "kennis vastleggen"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-knowledge-transfer-manufacturing.svg
-image_alt: "Kennisoverdracht: oude handleiding vastgelegd met een camera en omgezet in stapkaarten op een tablet"
+image: /images/blog-knowledge-transfer-manufacturing-1600.webp
+image_alt: "Een telefoon voor een robotlijn toont AR-stappen en een bevestigde controle voor kennisoverdracht"
 cta: template
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Kennisoverdracht is het gestructureerd vastleggen en doorgeven van de vakkennis van ervaren medewerkers, vooral de ongeschreven trucs, zodat anderen het werk op hetzelfde niveau kunnen doen. Door vergrijzing is kennisborging in productie urgent. Actarion legt het werk van experts vast op video, maakt er met AI digitale werkinstructies van en laat opvolgers ze volgen met AR-begeleiding.
 
-![Kennisoverdracht: oude handleiding vastgelegd met een camera en omgezet in stapkaarten op een tablet](/img/illustraties/blog-knowledge-transfer-manufacturing.svg)
+![Een telefoon voor een robotlijn toont AR-stappen en een bevestigde controle voor kennisoverdracht](/images/blog-knowledge-transfer-manufacturing-1600.webp)
 
 **Inhoud**
 - [Waarom loopt kennis de deur uit?](#waarom-loopt-kennis-de-deur-uit)

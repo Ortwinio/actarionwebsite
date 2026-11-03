@@ -13,8 +13,8 @@ h1: "AR in Manufacturing: Use Cases That Pay Off and How to Start"
 keyword_primary: "ar in manufacturing"
 keywords_secondary: ["augmented reality manufacturing", "ar work instructions", "industrial ar"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-ar-in-manufacturing.svg
-image_alt: "AR in manufacturing: conveyor with an AR frame and step card over one product"
+image: /images/blog-ar-in-manufacturing-1600.webp
+image_alt: "A phone held up to a robotic assembly line shows AR steps and a confirmed check for ar in manufacturing"
 cta: intake
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > AR in manufacturing means projecting digital information, such as work steps, arrows or checks, onto the real machine or product through a tablet or smart glasses. It helps operators find the right part, follow the right sequence and record what they did. Actarion uses AR to execute your SOPs as guided digital work instructions with an audit trail.
 
-![AR in manufacturing: conveyor with an AR frame and step card over one product](/img/illustraties/blog-ar-in-manufacturing.svg)
+![A phone held up to a robotic assembly line shows AR steps and a confirmed check for ar in manufacturing](/images/blog-ar-in-manufacturing-1600.webp)
 
 **Contents**
 - [Which problems does AR solve?](#which-problems-does-ar-solve)

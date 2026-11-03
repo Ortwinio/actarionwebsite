@@ -13,8 +13,8 @@ h1: "Remote-Support für Servicetechniker: der Experte vor Ort, ohne Reise"
 keyword_primary: "remote-support servicetechniker"
 keywords_secondary: ["remote assistance", "ar fernwartung", "see what i see"]
 schema: ["Service", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/use-cases-remote-expert-support.svg
-image_alt: "Federzeichnung des Tablets eines Servicetechnikers, verbunden mit dem Bildschirm eines Experten mit Live-Annotation für Remote-Support"
+image: /images/use-cases-remote-expert-support-1600.webp
+image_alt: "Ein Smartphone vor eine Hochspannungsleitung zeigt AR-Schritte und eine bestätigte Prüfung für remote-support servicetechniker"
 cta: intake
 phase: 2
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Remote-Support ist Live-Hilfe durch einen Spezialisten, der per Video auf Tablet oder AR-Brille sieht, was der Servicetechniker vor Ort sieht. Actarion verbindet das mit digitalen Arbeitsanweisungen: Der Experte zeichnet ins Livebild, zeigt auf das richtige Bauteil und macht aus der Lösung eine neue Anweisung.
 
-![Federzeichnung des Tablets eines Servicetechnikers, verbunden mit dem Bildschirm eines Experten mit Live-Annotation für Remote-Support](/img/illustraties/use-cases-remote-expert-support.svg)
+![Ein Smartphone vor eine Hochspannungsleitung zeigt AR-Schritte und eine bestätigte Prüfung für remote-support servicetechniker](/images/use-cases-remote-expert-support-1600.webp)
 
 ## Wann kostet das Warten auf den Experten Geld?
 

@@ -13,8 +13,8 @@ h1: "Wissenstransfer-Plan: Erfahrungswissen sichern, bevor Experten gehen"
 keyword_primary: "Wissenstransfer"
 keywords_secondary: ["Wissenstransfer Vorlage", "Wissenssicherung", "Know-how-Transfer Ruhestand"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-knowledge-transfer-plan.svg
-image_alt: "Federzeichnung: Notizbuch eines Experten, auf einem Tablet als digitale Schritte erfasst und über eine AR-Brille weitergegeben"
+image: /images/resources-templates-knowledge-transfer-plan-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Wissenstransfer"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Ein Wissenstransfer-Plan ist ein strukturierter Plan, um das kritische Erfahrungswissen eines Mitarbeiters zu erfassen und an Nachfolger zu übergeben, bevor er in Ruhestand geht, wechselt oder das Unternehmen verlässt. Mit dieser kostenlosen Vorlage für den Wissenstransfer erfassen Sie Tätigkeiten, bewerten das Risiko, wählen die Erfassungsmethode, planen die Übergabe und prüfen, ob Nachfolger die Arbeit beherrschen. Actarion erfasst Expertenwissen als AR-Arbeitsanweisungen.
 
-![Federzeichnung: Notizbuch eines Experten, auf einem Tablet als digitale Schritte erfasst und über eine AR-Brille weitergegeben](/img/illustraties/resources-templates-knowledge-transfer-plan.svg)
+![Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Wissenstransfer](/images/resources-templates-knowledge-transfer-plan-1600.webp)
 
 ## Warum geht Wissen verloren, wenn Experten gehen?
 

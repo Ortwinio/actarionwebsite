@@ -13,8 +13,8 @@ h1: "Wat is een werkinstructie? Betekenis"
 keyword_primary: "wat is een werkinstructie"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-work-instruction.svg
-image_alt: "Pentekening bij het begrip werkinstructie"
+image: /images/resources-glossary-work-instruction-1600.webp
+image_alt: "Een telefoon voor een productiehal toont AR-stappen en een bevestigde controle voor wat is een werkinstructie"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een werkinstructie is een gedetailleerde stap-voor-stap beschrijving van hoe je één specifieke taak aan de werkplek uitvoert, inclusief gereedschap, instellingen en controles. Ze valt onder de SOP. Actarion maakt van werkinstructies digitale stappen met AR-begeleiding op tablet of AR-bril, en legt elke uitvoering vast.
 
-![Pentekening bij het begrip werkinstructie](/img/illustraties/resources-glossary-work-instruction.svg)
+![Een telefoon voor een productiehal toont AR-stappen en een bevestigde controle voor wat is een werkinstructie](/images/resources-glossary-work-instruction-1600.webp)
 
 ## Waarom is dit belangrijk op de werkvloer?
 

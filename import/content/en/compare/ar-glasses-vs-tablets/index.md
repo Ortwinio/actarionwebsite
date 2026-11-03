@@ -13,8 +13,8 @@ h1: "AR glasses vs tablets: which device for work instructions?"
 keyword_primary: "ar glasses vs tablet"
 keywords_secondary: ["smart glasses for manufacturing", "tablet work instructions", "hands-free work instructions"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/compare-ar-glasses-vs-tablets.svg
-image_alt: "Pen drawing of AR glasses next to a tablet on a stand, both showing a digital work instruction step"
+image: /images/compare-ar-glasses-vs-tablets-1600.webp
+image_alt: "A worker wearing Apple Vision Pro sees floating SOP panels for ar glasses vs tablet over a warehouse"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > AR glasses vs tablet: tablets are the best starting point for most digital work instructions because they are familiar, robust and quick to roll out. AR glasses pay off when operators need both hands, work at height or inside machines, or need guidance on the exact part. Actarion runs the same instruction on both.
 
-![Pen drawing of AR glasses next to a tablet on a stand, both showing a digital work instruction step](/img/illustraties/compare-ar-glasses-vs-tablets.svg)
+![A worker wearing Apple Vision Pro sees floating SOP panels for ar glasses vs tablet over a warehouse](/images/compare-ar-glasses-vs-tablets-1600.webp)
 
 ## What is the real question behind the device choice?
 

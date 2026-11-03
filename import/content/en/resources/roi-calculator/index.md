@@ -13,8 +13,8 @@ h1: "ROI calculator for digital work instructions"
 keyword_primary: "work instructions roi calculator"
 keywords_secondary: ["connected worker roi", "ar training roi"]
 schema: ["WebApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-roi-calculator.svg
-image_alt: "Pen drawing: balance with a paper SOP and a clock on the left and a tablet with a cyan step card on the right, plus a rising arrow"
+image: /images/resources-roi-calculator-1600.webp
+image_alt: "A technician holds an iPad up to a control room; the screen shows AR work instruction steps for work instructions roi calculator"
 cta: roi
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > The ROI of digital work instructions is the yearly saving on onboarding, errors, downtime and audit preparation, minus the cost of the solution, divided by that cost. This page explains the inputs, assumptions and formula used in the Actarion ROI calculator, so you can build a business case for a pilot with your own numbers.
 
-![Pen drawing: balance with a paper SOP and a clock on the left and a tablet with a cyan step card on the right, plus a rising arrow](/img/illustraties/resources-roi-calculator.svg)
+![A technician holds an iPad up to a control room; the screen shows AR work instruction steps for work instructions roi calculator](/images/resources-roi-calculator-1600.webp)
 
 ## Why is the business case hard to make?
 

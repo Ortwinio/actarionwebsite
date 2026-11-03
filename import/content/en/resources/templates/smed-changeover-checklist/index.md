@@ -13,8 +13,8 @@ h1: "SMED Checklist: Free Changeover Template for Faster Setups"
 keyword_primary: "smed checklist"
 keywords_secondary: ["changeover checklist", "smed template", "quick changeover"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-smed-changeover-checklist.svg
-image_alt: "Pen drawing of a press with a die change cart, a stopwatch and a tablet showing the SMED checklist"
+image: /images/resources-templates-smed-changeover-checklist-1600.webp
+image_alt: "A phone held up to a robotic assembly line shows AR steps and a confirmed check for smed checklist"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > A SMED checklist makes sure everything needed for a changeover is ready before the machine stops, and that each changeover follows the same sequence. SMED (Single-Minute Exchange of Die) separates internal work, done while the machine is stopped, from external work, done while it runs. This free SMED checklist covers both, plus an analysis sheet.
 
-![Pen drawing of a press with a die change cart, a stopwatch and a tablet showing the SMED checklist](/img/illustraties/resources-templates-smed-changeover-checklist.svg)
+![A phone held up to a robotic assembly line shows AR steps and a confirmed check for smed checklist](/images/resources-templates-smed-changeover-checklist-1600.webp)
 
 ## Why do changeovers take longer than planned?
 

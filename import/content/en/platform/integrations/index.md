@@ -13,8 +13,8 @@ h1: "Integrations with SAP, MES and LMS for work instructions"
 keyword_primary: "work instruction integration"
 keywords_secondary: ["SAP integration", "MES integration", "LMS integration", "Power BI"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/platform-integrations.svg
-image_alt: "Pen drawing: a tablet with a work instruction connected to a server rack, a dashboard and a machine"
+image: /images/platform-integrations-1600.webp
+image_alt: "A technician holds an iPad up to a control room; the screen shows AR work instruction steps for work instruction integration"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Work instruction integration means exchanging data between your digital work instructions and the systems you already run, such as ERP (for example SAP), MES, LMS or BI tools. The Actarion platform offers CSV export and API connections. Which systems you connect, and how, is scoped per project during the pilot.
 
-![Pen drawing: a tablet with a work instruction connected to a server rack, a dashboard and a machine](/img/illustraties/platform-integrations.svg)
+![A technician holds an iPad up to a control room; the screen shows AR work instruction steps for work instruction integration](/images/platform-integrations-1600.webp)
 
 ## Why do isolated tools create extra work?
 

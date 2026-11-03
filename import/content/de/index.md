@@ -13,8 +13,8 @@ h1: "Digitale Arbeitsanweisungen mit KI und AR, vom ersten Tag an auditfest"
 keyword_primary: "digitale Arbeitsanweisungen"
 keywords_secondary: ["Werkerassistenzsystem", "Werkerführung", "AR Arbeitsanweisung", "SOP Software"]
 schema: ["Organization", "WebSite", "FAQPage"]
-image: /img/illustraties/home.svg
-image_alt: "Federzeichnung: eine Papier-SOP wird zur digitalen Arbeitsanweisung auf Tablet und AR-Brille, Ausführungsdaten fließen in ein Dashboard"
+image: /images/home-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Roboterlinie; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für digitale Arbeitsanweisungen"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Actarion wandelt Ihre bestehenden SOPs und Arbeitsanweisungen per KI in digitale Arbeitsanweisungen Schritt für Schritt um. Werker führen sie mit AR-Werkerführung auf Tablet oder AR-Brille aus. Jede Ausführung wird protokolliert: Zeit, Bestätigungen, Abweichungen. So arbeiten Sie neue Mitarbeiter schneller ein, vermeiden Fehler und erhalten Auditnachweise ohne zusätzlichen Papierkram.
 
-![Federzeichnung: eine Papier-SOP wird zur digitalen Arbeitsanweisung auf Tablet und AR-Brille, Ausführungsdaten fließen in ein Dashboard](/img/illustraties/home.svg)
+![Ein Techniker hält ein iPad vor eine Roboterlinie; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für digitale Arbeitsanweisungen](/images/home-1600.webp)
 
 ## Kennen Sie das aus Ihrer Fertigung?
 

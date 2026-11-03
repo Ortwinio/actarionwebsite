@@ -13,8 +13,8 @@ h1: "Line-Clearance-Checkliste: GMP-Vorlage für den Chargenwechsel"
 keyword_primary: "Line Clearance Checkliste"
 keywords_secondary: ["Line Clearance GMP", "Linienfreigabe", "Chargenwechsel Pharma"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-line-clearance-checklist.svg
-image_alt: "Federzeichnung: leere Verpackungslinie mit einem markierten zurückgebliebenen Karton, Klemmbrett und Tablet mit der Line-Clearance-Checkliste"
+image: /images/resources-templates-line-clearance-checklist-1600.webp
+image_alt: "Ein Smartphone vor eine Förderanlage zeigt AR-Schritte und eine bestätigte Prüfung für Line Clearance Checkliste"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Eine Line-Clearance-Checkliste bestätigt, dass eine Produktions- oder Verpackungslinie frei von Material, Etiketten, Produkt und Dokumenten der vorherigen Charge ist, bevor die nächste startet. Line Clearance (Linienräumung) verhindert Verwechslungen, eine Hauptursache für Rückrufe in Pharma und Lebensmitteln. Diese kostenlose Checkliste umfasst Räumung, Reinigung, linienspezifische Kontrollen und unabhängige QS-Freigabe.
 
-![Federzeichnung: leere Verpackungslinie mit einem markierten zurückgebliebenen Karton, Klemmbrett und Tablet mit der Line-Clearance-Checkliste](/img/illustraties/resources-templates-line-clearance-checklist.svg)
+![Ein Smartphone vor eine Förderanlage zeigt AR-Schritte und eine bestätigte Prüfung für Line Clearance Checkliste](/images/resources-templates-line-clearance-checklist-1600.webp)
 
 ## Warum passieren trotzdem Verwechslungen?
 

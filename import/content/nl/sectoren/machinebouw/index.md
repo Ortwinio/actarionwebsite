@@ -13,8 +13,8 @@ h1: "Digitale service-instructies voor machinebouwers en OEM's"
 keyword_primary: "service-instructies machinebouw"
 keywords_secondary: ["machineverordening 2023/1230", "digitale gebruiksaanwijzing", "oem service"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/industries-machine-builders.svg
-image_alt: "Pentekening van een machine met ingebouwd scherm, servicekoffer en console van de machinebouwer voor digitale service-instructies"
+image: /images/industries-machine-builders-1600.webp
+image_alt: "Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor service-instructies machinebouw"
 cta: intake
 phase: 2
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Machinebouwers kunnen digitale service- en bedieningsinstructies meeleveren met elke machine. Actarion zet je handleidingen om in stap-voor-stapinstructies met AR, voor je eigen servicemonteurs en voor de operators van je klanten. Remote ondersteuning verbindt hen met je experts, en de Machineverordening (EU) 2023/1230 staat digitale instructies uitdrukkelijk toe.
 
-![Pentekening van een machine met ingebouwd scherm, servicekoffer en console van de machinebouwer voor digitale service-instructies](/img/illustraties/industries-machine-builders.svg)
+![Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor service-instructies machinebouw](/images/industries-machine-builders-1600.webp)
 
 ## Met welke uitdagingen hebben machinebouwers te maken?
 

@@ -13,8 +13,8 @@ h1: "Maintenance Schedule Template: Plan Every PM Task for the Year"
 keyword_primary: "maintenance schedule template"
 keywords_secondary: ["preventive maintenance schedule", "maintenance plan template", "pm schedule excel"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-maintenance-schedule.svg
-image_alt: "Pen drawing of a maintenance schedule calendar with marked tasks, a gear and a tablet showing planned maintenance orders"
+image: /images/resources-templates-maintenance-schedule-1600.webp
+image_alt: "A technician holds an iPad up to process equipment; the screen shows AR work instruction steps for maintenance schedule template"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > A maintenance schedule template is a planning sheet that lists every asset, its preventive maintenance tasks, their frequency and when each task is due over the year. This free maintenance schedule template contains an asset register, a task plan and a 52-week overview with status tracking. Actarion links each planned task to an AR-guided checklist that logs completion.
 
-![Pen drawing of a maintenance schedule calendar with marked tasks, a gear and a tablet showing planned maintenance orders](/img/illustraties/resources-templates-maintenance-schedule.svg)
+![A technician holds an iPad up to process equipment; the screen shows AR work instruction steps for maintenance schedule template](/images/resources-templates-maintenance-schedule-1600.webp)
 
 ## Why does the maintenance plan slip?
 

@@ -13,8 +13,8 @@ h1: "Kennisoverdrachtsplan: borg vakkennis voordat de expert vertrekt"
 keyword_primary: "kennisoverdracht"
 keywords_secondary: ["kennisoverdrachtsplan", "kennisborging", "kennis borgen vergrijzing"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-knowledge-transfer-plan.svg
-image_alt: "Pentekening van het notitieboek van een expert, vastgelegd op een tablet als digitale stappen en doorgegeven via een AR-bril"
+image: /images/resources-templates-knowledge-transfer-plan-1600.webp
+image_alt: "Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor kennisoverdracht"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een kennisoverdrachtsplan is een gestructureerd plan om de kritieke kennis van een ervaren medewerker vast te leggen en over te dragen aan opvolgers voordat hij met pensioen gaat, verhuist of vertrekt. Deze gratis template voor kennisoverdracht brengt taken en risico in kaart, plant vastleggen en overdracht en toetst de opvolger. Actarion legt expertkennis vast als werkinstructies met AR-begeleiding.
 
-![Pentekening van het notitieboek van een expert, vastgelegd op een tablet als digitale stappen en doorgegeven via een AR-bril](/img/illustraties/resources-templates-knowledge-transfer-plan.svg)
+![Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor kennisoverdracht](/images/resources-templates-knowledge-transfer-plan-1600.webp)
 
 ## Waarom gaat kennis verloren als een expert vertrekt?
 

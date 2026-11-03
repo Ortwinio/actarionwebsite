@@ -13,8 +13,8 @@ h1: "Wissenstransfer: Expertenwissen sichern, bevor es in Rente geht"
 keyword_primary: "Wissenstransfer"
 keywords_secondary: ["Wissenssicherung", "Erfahrungswissen sichern", "Wissensmanagement Fertigung"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/solutions-knowledge-capture.svg
-image_alt: "Federzeichnung: eine Kamera erfasst die Arbeit an Pumpe und Ventil, die als digitale Schrittkarten für den Wissenstransfer gesichert wird"
+image: /images/solutions-knowledge-capture-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Wissenstransfer"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Wissenstransfer bedeutet, das Erfahrungswissen erfahrener Mitarbeiter zu erfassen und an andere weiterzugeben. Actarion erfasst Expertenwissen per Video oder direkt bei der Tätigkeit, macht daraus per KI Schritt-für-Schritt-Arbeitsanweisungen mit AR und stellt sie jedem Werker zur Verfügung, mit Protokoll jeder Ausführung.
 
-![Federzeichnung: eine Kamera erfasst die Arbeit an Pumpe und Ventil, die als digitale Schrittkarten für den Wissenstransfer gesichert wird](/img/illustraties/solutions-knowledge-capture.svg)
+![Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Wissenstransfer](/images/solutions-knowledge-capture-1600.webp)
 
 ## Warum geht Wissen in Ihrem Werk verloren?
 

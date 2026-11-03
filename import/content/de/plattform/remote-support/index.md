@@ -13,8 +13,8 @@ h1: "Remote Support mit AR: Der Experte sieht live mit"
 keyword_primary: "Remote Support"
 keywords_secondary: ["Remote Assistance AR", "Fernwartung AR", "AR Remote Support"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/platform-remote-support.svg
-image_alt: "Federzeichnung: Die AR-Brille eines Werkers an einer Pumpe ist mit einem Laptop verbunden, auf dem ein Experte das Bauteil cyan markiert"
+image: /images/platform-remote-support-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Hochspannungsleitung; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Remote Support"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Remote Support mit AR ist eine Live-Videoverbindung, bei der ein Experte aus der Ferne mitsieht und Markierungen zeichnet, die direkt an der Anlage erscheinen. Der Remote Support von Actarion funktioniert auf Tablet, Smartphone oder AR-Brille und startet direkt aus der Arbeitsanweisung. Störungen werden behoben, ohne auf die Anreise eines Spezialisten zu warten.
 
-![Federzeichnung: Die AR-Brille eines Werkers an einer Pumpe ist mit einem Laptop verbunden, auf dem ein Experte das Bauteil cyan markiert](/img/illustraties/platform-remote-support.svg)
+![Ein Techniker hält ein iPad vor eine Hochspannungsleitung; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Remote Support](/images/platform-remote-support-1600.webp)
 
 ## Was kostet Sie heute eine Störung?
 

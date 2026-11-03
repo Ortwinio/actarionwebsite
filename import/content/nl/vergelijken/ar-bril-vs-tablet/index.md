@@ -13,8 +13,8 @@ h1: "AR-bril vs tablet: welk apparaat voor werkinstructies?"
 keyword_primary: "ar-bril vs tablet"
 keywords_secondary: ["slimme bril industrie", "werkinstructies op tablet", "handsfree werkinstructies"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/compare-ar-glasses-vs-tablets.svg
-image_alt: "Pentekening van een AR-bril naast een tablet op een statief, beide met een digitale werkinstructiestap"
+image: /images/compare-ar-glasses-vs-tablets-1600.webp
+image_alt: "Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor ar-bril vs tablet boven een magazijn"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > AR-bril vs tablet: een tablet is voor de meeste digitale werkinstructies het beste startpunt. Iedereen kent het, het is robuust en snel uit te rollen. Een AR-bril loont als operators beide handen nodig hebben, in een machine werken of begeleiding op het exacte onderdeel nodig hebben. Actarion draait dezelfde instructie op allebei.
 
-![Pentekening van een AR-bril naast een tablet op een statief, beide met een digitale werkinstructiestap](/img/illustraties/compare-ar-glasses-vs-tablets.svg)
+![Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor ar-bril vs tablet boven een magazijn](/images/compare-ar-glasses-vs-tablets-1600.webp)
 
 ## Wat is de echte vraag achter de apparaatkeuze?
 

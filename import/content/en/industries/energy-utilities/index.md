@@ -13,8 +13,8 @@ h1: "Work instructions for energy and utilities: safe in the field"
 keyword_primary: "energy utilities work instructions"
 keywords_secondary: ["field service", "safety procedures", "shutdown", "substation maintenance"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/industries-energy-utilities.svg
-image_alt: "Pen drawing of a transformer and power pylon with AR glasses and a step card for energy and utilities work instructions"
+image: /images/industries-energy-utilities-1600.webp
+image_alt: "A technician holds an iPad up to a high-voltage line; the screen shows AR work instruction steps for energy utilities work instructions"
 cta: intake
 phase: 2
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Energy and utility companies run critical assets across many sites, often with small crews. Actarion gives field technicians digital work instructions with AR guidance for maintenance, isolation and inspections. Every job is logged, so safety procedures are followed and documented, also at remote sites and during shutdowns.
 
-![Pen drawing of a transformer and power pylon with AR glasses and a step card for energy and utilities work instructions](/img/illustraties/industries-energy-utilities.svg)
+![A technician holds an iPad up to a high-voltage line; the screen shows AR work instruction steps for energy utilities work instructions](/images/industries-energy-utilities-1600.webp)
 
 ## What challenges does the sector face?
 

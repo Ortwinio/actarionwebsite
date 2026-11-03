@@ -13,8 +13,8 @@ h1: "SOP Software: SOPs digitalisieren, die Werker wirklich befolgen"
 keyword_primary: "SOP Software"
 keywords_secondary: ["SOP digitalisieren", "digitale SOP", "SOP erstellen"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/solutions-sop-software.svg
-image_alt: "Federzeichnung von oben: ein Stapel Papier-SOPs wird per KI in digitale Schrittkarten auf einem Tablet umgewandelt"
+image: /images/solutions-sop-software-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für SOP Software"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > SOP Software ist ein System, um Standardarbeitsanweisungen digital zu erstellen, freizugeben, zu verteilen und auszuführen. Die SOP Software von Actarion digitalisiert Ihre bestehenden Dokumente per KI, führt Werker Schritt für Schritt mit AR auf Tablet oder AR-Brille und protokolliert jede Ausführung für Ihre Audits.
 
-![Federzeichnung von oben: ein Stapel Papier-SOPs wird per KI in digitale Schrittkarten auf einem Tablet umgewandelt](/img/illustraties/solutions-sop-software.svg)
+![Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für SOP Software](/images/solutions-sop-software-1600.webp)
 
 ## Warum machen Papier-SOPs Probleme?
 

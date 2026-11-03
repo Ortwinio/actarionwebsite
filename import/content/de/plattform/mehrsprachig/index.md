@@ -13,8 +13,8 @@ h1: "Mehrsprachige Arbeitsanweisungen: ein Verfahren, jede Sprache"
 keyword_primary: "mehrsprachige Arbeitsanweisungen"
 keywords_secondary: ["Arbeitsanweisungen übersetzen", "Sprachbarriere Fertigung", "Arbeitsanweisung Leiharbeiter"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/platform-multilingual.svg
-image_alt: "Federzeichnung: Eine Arbeitsanweisung auf einem Tablet fächert sich in drei Schrittkarten in verschiedenen Sprachen auf"
+image: /images/platform-multilingual-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor einen Schaltschrank; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für mehrsprachige Arbeitsanweisungen"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Mehrsprachige Arbeitsanweisungen sind digitale Verfahren, die jeder Werker in seiner Sprache öffnet, während Inhalt und Freigabe gleich bleiben. Actarion liefert mehrsprachige Arbeitsanweisungen auf Tablet und AR-Brille. Zusammen mit Bildern und AR-Overlays verringern sie Missverständnisse in gemischten Teams und bei Leiharbeitskräften.
 
-![Federzeichnung: Eine Arbeitsanweisung auf einem Tablet fächert sich in drei Schrittkarten in verschiedenen Sprachen auf](/img/illustraties/platform-multilingual.svg)
+![Ein Techniker hält ein iPad vor einen Schaltschrank; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für mehrsprachige Arbeitsanweisungen](/images/platform-multilingual-1600.webp)
 
 ## Wo steht die Sprache im Weg?
 

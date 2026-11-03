@@ -13,8 +13,8 @@ h1: "Neem contact op met Actarion en plan een kosteloze intake"
 keyword_primary: "contact actarion"
 keywords_secondary: ["kosteloze intake", "contact ar-werkinstructies"]
 schema: ["ContactPage", "Organization", "BreadcrumbList"]
-image: /img/illustraties/contact.svg
-image_alt: "Pentekening: envelop en een cyane tekstballon die een gesprek starten"
+image: /images/contact-1600.webp
+image_alt: "Een technicus houdt een iPad voor een robotlijn; op het scherm verschijnen AR-werkinstructies voor contact actarion"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Je bereikt Actarion via hello@actarion.com of via het contactformulier hieronder. Plan een kosteloze intake over AI-gegenereerde werkinstructies met AR-begeleiding, vraag een demo aan, bespreek een partnerschap of krijg support. Actarion bedient klanten in de Benelux, DACH en de Nordics.
 
-![Pentekening: envelop en een cyane tekstballon die een gesprek starten](/img/illustraties/contact.svg)
+![Een technicus houdt een iPad voor een robotlijn; op het scherm verschijnen AR-werkinstructies voor contact actarion](/images/contact-1600.webp)
 
 ## Waarmee kunnen we je helpen?
 

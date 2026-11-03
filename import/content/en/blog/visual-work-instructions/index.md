@@ -13,8 +13,8 @@ h1: "Visual Work Instructions: How to Show Instead of Tell"
 keyword_primary: "visual work instructions"
 keywords_secondary: ["visual instructions manufacturing", "ar work instructions", "picture work instructions"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-visual-work-instructions.svg
-image_alt: "Visual work instructions: valve panel and a tablet showing the same valve with an AR arrow"
+image: /images/blog-visual-work-instructions-1600.webp
+image_alt: "A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for visual work instructions"
 cta: intake
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Visual work instructions are work instructions that use photos, drawings, video or AR overlays instead of long text to show each step. They are faster to understand, work across languages and reduce interpretation errors. Actarion creates visual instructions from your existing SOPs with AI and shows them on a tablet or AR glasses, right on the part.
 
-![Visual work instructions: valve panel and a tablet showing the same valve with an AR arrow](/img/illustraties/blog-visual-work-instructions.svg)
+![A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for visual work instructions](/images/blog-visual-work-instructions-1600.webp)
 
 **Contents**
 - [Why text-only instructions fail](#why-text-only-instructions-fail)

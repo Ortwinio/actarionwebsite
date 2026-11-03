@@ -13,8 +13,8 @@ h1: "Digitale Arbeitsanweisung: weniger Fehler, jeder Schritt dokumentiert"
 keyword_primary: "digitale Arbeitsanweisung"
 keywords_secondary: ["Werkerführung", "Arbeitsanweisung Software", "AR Arbeitsanweisung"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/solutions-digital-work-instructions.svg
-image_alt: "Federzeichnung von oben: ein Flansch mit Schrauben, eine AR-Markierung auf der nächsten Schraube und ein Tablet mit digitaler Arbeitsanweisung"
+image: /images/solutions-digital-work-instructions-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für digitale Arbeitsanweisung"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Eine digitale Arbeitsanweisung ist ein Schritt-für-Schritt-Verfahren auf Tablet oder AR-Brille statt auf Papier, mit Fotos, Video und Pflichtprüfungen. Actarion wandelt Ihre bestehenden SOPs per KI in digitale Arbeitsanweisungen um, führt Werker mit AR und protokolliert jede Ausführung als Auditnachweis.
 
-![Federzeichnung von oben: ein Flansch mit Schrauben, eine AR-Markierung auf der nächsten Schraube und ein Tablet mit digitaler Arbeitsanweisung](/img/illustraties/solutions-digital-work-instructions.svg)
+![Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für digitale Arbeitsanweisung](/images/solutions-digital-work-instructions-1600.webp)
 
 ## Warum scheitern Papier-Arbeitsanweisungen in der Fertigung?
 

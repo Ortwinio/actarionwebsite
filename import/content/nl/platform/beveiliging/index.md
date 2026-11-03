@@ -13,8 +13,8 @@ h1: "Beveiliging en AVG bij digitale werkinstructies"
 keyword_primary: "AVG werkinstructies"
 keywords_secondary: ["EU hosting", "ISO 27001", "EU AI Act", "gegevensbeveiliging"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/platform-security.svg
-image_alt: "Pentekening: een serverrek met een cyaan hangslot en een schild met een vinkje"
+image: /images/platform-security-1600.webp
+image_alt: "Een telefoon voor een controlekamer toont AR-stappen en een bevestigde controle voor AVG werkinstructies"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Digitale werkinstructies verwerken bedrijfskennis en gegevens over medewerkers. Beveiliging en naleving van de AVG (de Europese privacywet, ook GDPR) horen dus bij elke uitrol. Op deze pagina lees je hoe Actarion omgaat met gegevensbescherming, hosting, toegangsbeheer en de EU AI Act. Certificeringen en hostinggegevens bevestigen we per contract en vermelden we hier zodra ze geverifieerd zijn.
 
-![Pentekening: een serverrek met een cyaan hangslot en een schild met een vinkje](/img/illustraties/platform-security.svg)
+![Een telefoon voor een controlekamer toont AR-stappen en een bevestigde controle voor AVG werkinstructies](/images/platform-security-1600.webp)
 
 ## Wat willen IT en de ondernemingsraad weten?
 

@@ -13,8 +13,8 @@ h1: "What Is OEE? Overall Equipment Effectiveness"
 keyword_primary: "what is oee"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-oee.svg
-image_alt: "Pen drawing for the glossary term OEE: bar chart of availability, performance and quality"
+image: /images/resources-glossary-oee-1600.webp
+image_alt: "A phone held up to a control room shows AR steps and a confirmed check for what is oee"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > OEE, or overall equipment effectiveness, measures how much of planned production time is truly productive. It multiplies availability, performance and quality. A low OEE points to stops, slow cycles or scrap. Actarion improves the human side of OEE with guided changeovers, standard work and faster fault handling.
 
-![Pen drawing for the glossary term OEE: bar chart of availability, performance and quality](/img/illustraties/resources-glossary-oee.svg)
+![A phone held up to a control room shows AR steps and a confirmed check for what is oee](/images/resources-glossary-oee-1600.webp)
 
 ## Why does it matter on the shop floor?
 

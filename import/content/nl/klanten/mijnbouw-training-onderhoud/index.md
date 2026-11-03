@@ -13,8 +13,8 @@ h1: "Case mijnbouw: AR-training en onderhoud op meerdere locaties"
 keyword_primary: "ar-training mijnbouw"
 keywords_secondary: ["onderhoudsinstructies mijnbouw", "3d-werkinstructies"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/customers-mining-training-maintenance.svg
-image_alt: "Pentekening: mijnbouwvoertuig met een cyaan onderhoudspunt, gekoppeld aan een AR-bril en een tablet met stapkaart"
+image: /images/customers-mining-training-maintenance-1600.webp
+image_alt: "Een technicus houdt een iPad voor procesinstallaties; op het scherm verschijnen AR-werkinstructies voor ar-training mijnbouw"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een wereldwijd mijnbouwbedrijf standaardiseerde training, onderhoud en voorinspecties op zijn mijnlocaties met AR-werkinstructies. Op het DeepSight-platform zijn 40 trainingen gebouwd voor drie locaties, met 3D-instructies, remote ondersteuning en traceerbaarheid van de uitvoering. Actarion brengt deze aanpak naar Europese industriële bedrijven.
 
-![Pentekening: mijnbouwvoertuig met een cyaan onderhoudspunt, gekoppeld aan een AR-bril en een tablet met stapkaart](/img/illustraties/customers-mining-training-maintenance.svg)
+![Een technicus houdt een iPad voor procesinstallaties; op het scherm verschijnen AR-werkinstructies voor ar-training mijnbouw](/images/customers-mining-training-maintenance-1600.webp)
 
 *Case gerealiseerd met technologiepartner DeepSight. Cijfers zoals gepubliceerd door DeepSight; klant geanonimiseerd.*
 

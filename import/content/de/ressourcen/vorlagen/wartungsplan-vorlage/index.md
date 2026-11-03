@@ -13,8 +13,8 @@ h1: "Wartungsplan Vorlage: jede Wartungsaufgabe über das Jahr planen"
 keyword_primary: "Wartungsplan"
 keywords_secondary: ["Wartungsplan Vorlage", "Instandhaltungsplan", "Wartungsplan Excel"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-maintenance-schedule.svg
-image_alt: "Federzeichnung: Wartungsplan als Kalender mit markierten Aufgaben, ein Zahnrad und ein Tablet mit geplanten Wartungsaufträgen"
+image: /images/resources-templates-maintenance-schedule-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor Prozessanlagen; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Wartungsplan"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Ein Wartungsplan ist eine Planungsübersicht aller Anlagen, ihrer vorbeugenden Wartungsaufgaben, Intervalle und Fälligkeiten im Jahr. Diese kostenlose Wartungsplan Vorlage enthält eine Anlagenliste, einen Aufgabenplan und eine Jahresübersicht nach Kalenderwochen mit Status. Actarion verknüpft jede geplante Aufgabe mit einer Checkliste mit AR-Werkerführung, die die Durchführung dokumentiert.
 
-![Federzeichnung: Wartungsplan als Kalender mit markierten Aufgaben, ein Zahnrad und ein Tablet mit geplanten Wartungsaufträgen](/img/illustraties/resources-templates-maintenance-schedule.svg)
+![Ein Techniker hält ein iPad vor Prozessanlagen; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Wartungsplan](/images/resources-templates-maintenance-schedule-1600.webp)
 
 ## Warum wird der Wartungsplan nicht eingehalten?
 

@@ -13,8 +13,8 @@ h1: "Inwerken nieuwe medewerkers in productie: sneller zelfstandig"
 keyword_primary: "inwerken nieuwe medewerkers"
 keywords_secondary: ["inwerkprogramma", "inwerkplan productie", "onboarding operators"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-operator-onboarding.svg
-image_alt: "Inwerken nieuwe medewerkers: leertreden met vinkjes naast een tablet op een werkbank"
+image: /images/blog-operator-onboarding-1600.webp
+image_alt: "Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor inwerken nieuwe medewerkers"
 cta: template
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Inwerken van nieuwe medewerkers in productie is het gestructureerde traject van de eerste werkdag tot zelfstandig en veilig werken. Een goed inwerkprogramma legt taken, niveaus, een buddy en meetmomenten vast. Actarion verkort het inwerken met digitale werkinstructies en AR-begeleiding: nieuwe collega's leren op de werkplek en elke stap wordt vastgelegd.
 
-![Inwerken nieuwe medewerkers: leertreden met vinkjes naast een tablet op een werkbank](/img/illustraties/blog-operator-onboarding.svg)
+![Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor inwerken nieuwe medewerkers](/images/blog-operator-onboarding-1600.webp)
 
 **Inhoud**
 - [Waarom is inwerken in productie zo lastig?](#waarom-is-inwerken-in-productie-zo-lastig)

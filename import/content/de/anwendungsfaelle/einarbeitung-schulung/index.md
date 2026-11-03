@@ -13,8 +13,8 @@ h1: "Einarbeitung in der Produktion: schneller selbstständig mit AR"
 keyword_primary: "einarbeitung produktion"
 keywords_secondary: ["einarbeitungsplan produktion", "training on the job", "qualifikationsmatrix"]
 schema: ["Service", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/use-cases-onboarding-training.svg
-image_alt: "Federzeichnung einer Werkbank von oben mit Tablet mit Lernpfad, AR-Brille und Werkstück für die Einarbeitung in der Produktion"
+image: /images/use-cases-onboarding-training-1600.webp
+image_alt: "Ein Smartphone vor eine Produktionshalle zeigt AR-Schritte und eine bestätigte Prüfung für einarbeitung produktion"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Die Einarbeitung in der Produktion ist die Phase, in der neue Mitarbeitende lernen, Tätigkeiten sicher und selbstständig auszuführen. Mit Actarion lernen sie direkt an der Maschine, mit KI-erstellten Schritt-für-Schritt-Anweisungen und AR-Werkerführung auf Tablet oder AR-Brille. Jeder abgeschlossene Schritt fließt in die Qualifikationsmatrix ein.
 
-![Federzeichnung einer Werkbank von oben mit Tablet mit Lernpfad, AR-Brille und Werkstück für die Einarbeitung in der Produktion](/img/illustraties/use-cases-onboarding-training.svg)
+![Ein Smartphone vor eine Produktionshalle zeigt AR-Schritte und eine bestätigte Prüfung für einarbeitung produktion](/images/use-cases-onboarding-training-1600.webp)
 
 ## Warum dauert die Einarbeitung so lange?
 

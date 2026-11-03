@@ -13,8 +13,8 @@ h1: "Arbeitsanweisung erstellen, die Werker wirklich befolgen"
 keyword_primary: "Arbeitsanweisung erstellen"
 keywords_secondary: ["Arbeitsanweisung", "Arbeitsanweisung Beispiel", "Werkerführung"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-how-to-write-work-instructions.svg
-image_alt: "Arbeitsanweisung erstellen: Papieranweisung wird zu digitalen Schrittkarten auf einem Tablet"
+image: /images/blog-how-to-write-work-instructions-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Arbeitsanweisung erstellen"
 cta: template
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Eine Arbeitsanweisung erstellen Sie so: Wählen Sie eine Tätigkeit, schauen Sie Ihrem erfahrensten Werker zu und zerlegen Sie die Tätigkeit in kurze Schritte mit je einer Handlung. Beginnen Sie jeden Schritt mit einem Verb, ergänzen Sie ein Foto der kritischen Stelle und nennen Sie die Prüfung. Actarion macht daraus digitale Arbeitsanweisungen mit AR-Werkerführung und Audit-Trail.
 
-![Arbeitsanweisung erstellen: Papieranweisung wird zu digitalen Schrittkarten auf einem Tablet](/img/illustraties/blog-how-to-write-work-instructions.svg)
+![Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Arbeitsanweisung erstellen](/images/blog-how-to-write-work-instructions-1600.webp)
 
 **Inhalt**
 - [Warum scheitern Arbeitsanweisungen?](#warum-scheitern-arbeitsanweisungen)

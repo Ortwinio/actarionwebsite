@@ -13,8 +13,8 @@ h1: "Beste Software für Arbeitsanweisungen: so wählen Sie 2026"
 keyword_primary: "software arbeitsanweisungen"
 keywords_secondary: ["arbeitsanweisungen software vergleich", "digitale werkerführung software", "ar arbeitsanweisung software"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/compare-best-work-instruction-software.svg
-image_alt: "Federzeichnung einer Bewertungscheckliste für Software für Arbeitsanweisungen neben Tablet und Maschine"
+image: /images/compare-best-work-instruction-software-1600.webp
+image_alt: "Ein Smartphone vor eine Produktionshalle zeigt AR-Schritte und eine bestätigte Prüfung für software arbeitsanweisungen"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Die beste Software für Arbeitsanweisungen ist die, die Ihre Werker wirklich nutzen und Ihre Auditoren akzeptieren. Bewerten Sie Erstellungstempo, Nutzung in der Fertigung, Geräteunterstützung, Audit Trail, Qualifikationsmanagement, Schnittstellen und Pilotbegleitung. Actarion passt zu Teams, die SOPs per KI umwandeln, AR-Werkerführung wollen und Implementierungsbegleitung in Europa suchen.
 
-![Federzeichnung einer Bewertungscheckliste für Software für Arbeitsanweisungen neben Tablet und Maschine](/img/illustraties/compare-best-work-instruction-software.svg)
+![Ein Smartphone vor eine Produktionshalle zeigt AR-Schritte und eine bestätigte Prüfung für software arbeitsanweisungen](/images/compare-best-work-instruction-software-1600.webp)
 
 ## Warum ist die Softwareauswahl so schwierig?
 

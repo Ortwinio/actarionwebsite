@@ -13,8 +13,8 @@ h1: "SMED Rüstcheckliste: kostenlose Vorlage für schnelleres Rüsten"
 keyword_primary: "SMED Rüsten"
 keywords_secondary: ["Rüstcheckliste", "Rüstzeit reduzieren", "SMED Vorlage"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-smed-changeover-checklist.svg
-image_alt: "Federzeichnung: Presse mit Werkzeugwechselwagen, Stoppuhr und Tablet mit der SMED Rüstcheckliste"
+image: /images/resources-templates-smed-changeover-checklist-1600.webp
+image_alt: "Ein Smartphone vor eine Roboterlinie zeigt AR-Schritte und eine bestätigte Prüfung für SMED Rüsten"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Eine SMED-Rüstcheckliste stellt sicher, dass alles für den Rüstvorgang bereitliegt, bevor die Maschine stoppt, und dass jeder Wechsel in derselben Reihenfolge abläuft. SMED (Single-Minute Exchange of Die) trennt internes Rüsten bei stehender Maschine vom externen Rüsten bei laufender Maschine. Diese kostenlose Vorlage für SMED-Rüsten deckt beides ab, plus Analyseblatt.
 
-![Federzeichnung: Presse mit Werkzeugwechselwagen, Stoppuhr und Tablet mit der SMED Rüstcheckliste](/img/illustraties/resources-templates-smed-changeover-checklist.svg)
+![Ein Smartphone vor eine Roboterlinie zeigt AR-Schritte und eine bestätigte Prüfung für SMED Rüsten](/images/resources-templates-smed-changeover-checklist-1600.webp)
 
 ## Warum dauert das Rüsten länger als geplant?
 

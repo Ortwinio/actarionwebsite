@@ -13,8 +13,8 @@ h1: "Remote expert support: the specialist on site, without traveling"
 keyword_primary: "remote expert support"
 keywords_secondary: ["remote assistance", "ar remote support", "see what i see"]
 schema: ["Service", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/use-cases-remote-expert-support.svg
-image_alt: "Pen drawing of a technician's tablet linked to an expert's screen with live annotation for remote expert support"
+image: /images/use-cases-remote-expert-support-1600.webp
+image_alt: "A phone held up to a high-voltage line shows AR steps and a confirmed check for remote expert support"
 cta: intake
 phase: 2
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Remote expert support is live help from a specialist who sees what the technician on site sees, via video on a tablet or AR glasses. Actarion combines it with digital work instructions: the expert can draw on the live image, point to the right part and turn the solution into a new instruction.
 
-![Pen drawing of a technician's tablet linked to an expert's screen with live annotation for remote expert support](/img/illustraties/use-cases-remote-expert-support.svg)
+![A phone held up to a high-voltage line shows AR steps and a confirmed check for remote expert support](/images/use-cases-remote-expert-support-1600.webp)
 
 ## When does waiting for an expert cost you?
 

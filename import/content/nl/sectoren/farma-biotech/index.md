@@ -13,8 +13,8 @@ h1: "GMP-werkinstructies voor farma en biotech, klaar voor de audit"
 keyword_primary: "gmp werkinstructies"
 keywords_secondary: ["line clearance", "batchvoorbereiding", "audit trail", "data-integriteit"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/industries-pharma-biotech.svg
-image_alt: "Pentekening van een RVS-reactor, flacons en een tablet met batch-checklist voor GMP-werkinstructies"
+image: /images/industries-pharma-biotech-1600.webp
+image_alt: "Een technicus houdt een iPad voor een transportlijn; op het scherm verschijnen AR-werkinstructies voor gmp werkinstructies"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > GMP-werkinstructies beschrijven precies hoe operators productiestappen uitvoeren volgens Good Manufacturing Practice. Actarion zet je SOP's om in begeleide digitale stappen met AR voor batchvoorbereiding, line clearance en omstellingen. Elke uitvoering wordt vastgelegd met tijd, gebruiker en afwijkingen. Dat ondersteunt data-integriteit en inspecties.
 
-![Pentekening van een RVS-reactor, flacons en een tablet met batch-checklist voor GMP-werkinstructies](/img/illustraties/industries-pharma-biotech.svg)
+![Een technicus houdt een iPad voor een transportlijn; op het scherm verschijnen AR-werkinstructies voor gmp werkinstructies](/images/industries-pharma-biotech-1600.webp)
 
 ## Waar liggen farma-operations managers wakker van?
 

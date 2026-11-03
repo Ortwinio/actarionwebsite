@@ -13,8 +13,8 @@ h1: "Wat is een slimme bril? Gebruik in de industrie"
 keyword_primary: "wat is een slimme bril"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-smart-glasses.svg
-image_alt: "Pentekening bij het begrip slimme bril"
+image: /images/resources-glossary-smart-glasses-1600.webp
+image_alt: "Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor wat is een slimme bril boven een schakelkast"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een slimme bril, of smart glasses, is een draagbaar apparaat dat digitale informatie in het gezichtsveld toont, zodat beide handen vrij blijven. Het varieert van een eenvoudig schermpje naast het oog tot een volwaardige AR-headset. Actarion gebruikt slimme brillen en headsets voor handsfree werkinstructies en remote ondersteuning.
 
-![Pentekening bij het begrip slimme bril](/img/illustraties/resources-glossary-smart-glasses.svg)
+![Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor wat is een slimme bril boven een schakelkast](/images/resources-glossary-smart-glasses-1600.webp)
 
 ## Waarom is dit belangrijk op de werkvloer?
 

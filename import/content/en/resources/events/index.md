@@ -13,8 +13,8 @@ h1: "Events and webinars on AR work instructions"
 keyword_primary: "ar work instructions webinar"
 keywords_secondary: ["connected worker event", "ar manufacturing trade fair"]
 schema: ["CollectionPage", "BreadcrumbList"]
-image: /img/illustraties/resources-events.svg
-image_alt: "Pen drawing: presentation screen with a cyan step card and AR glasses, with an audience in silhouette"
+image: /images/resources-events-1600.webp
+image_alt: "A technician holds an iPad up to an electrical cabinet; the screen shows AR work instruction steps for ar work instructions webinar"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > At Actarion events you see AI-generated, AR-guided work instructions in action. We host webinars, join industry trade fairs and run on-site sessions where your team tries a step-by-step instruction on a tablet or AR glasses. Upcoming dates are listed below; you can also request a session at your own site.
 
-![Pen drawing: presentation screen with a cyan step card and AR glasses, with an audience in silhouette](/img/illustraties/resources-events.svg)
+![A technician holds an iPad up to an electrical cabinet; the screen shows AR work instruction steps for ar work instructions webinar](/images/resources-events-1600.webp)
 
 ## Why see it live?
 

@@ -13,8 +13,8 @@ h1: "What Is Augmented Reality (AR) in Industry?"
 keyword_primary: "what is augmented reality"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-augmented-reality.svg
-image_alt: "Pen drawing for the glossary term augmented reality: tablet overlaying a digital gear on a machine"
+image: /images/resources-glossary-augmented-reality-1600.webp
+image_alt: "A worker wearing Apple Vision Pro sees floating SOP panels for what is augmented reality over a robotic assembly line"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Augmented reality (AR) overlays digital information, such as arrows, labels or 3D models, on the real world, seen through a tablet camera or AR glasses. In industry, AR shows operators exactly where and how to act. Actarion uses AR to guide work instructions step by step on the actual machine.
 
-![Pen drawing for the glossary term augmented reality: tablet overlaying a digital gear on a machine](/img/illustraties/resources-glossary-augmented-reality.svg)
+![A worker wearing Apple Vision Pro sees floating SOP panels for what is augmented reality over a robotic assembly line](/images/resources-glossary-augmented-reality-1600.webp)
 
 ## Why does it matter on the shop floor?
 

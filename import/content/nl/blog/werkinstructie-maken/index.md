@@ -13,8 +13,8 @@ h1: "Werkinstructie maken die operators echt volgen"
 keyword_primary: "werkinstructie maken"
 keywords_secondary: ["werkinstructies", "werkinstructie voorbeeld", "werkinstructie opstellen"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-how-to-write-work-instructions.svg
-image_alt: "Werkinstructie maken: papieren instructie omgezet naar digitale stapkaarten op een tablet"
+image: /images/blog-how-to-write-work-instructions-1600.webp
+image_alt: "Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor werkinstructie maken"
 cta: template
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Een werkinstructie maken doe je zo: kies één taak, kijk mee met je beste operator en knip de taak op in korte stappen met één handeling per stap. Begin elke stap met een werkwoord, voeg een foto toe van het kritieke punt en benoem de controle. Test met een nieuwe collega. Actarion maakt er digitale werkinstructies met AR-begeleiding en audit trail van.
 
-![Werkinstructie maken: papieren instructie omgezet naar digitale stapkaarten op een tablet](/img/illustraties/blog-how-to-write-work-instructions.svg)
+![Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor werkinstructie maken](/images/blog-how-to-write-work-instructions-1600.webp)
 
 **Inhoud**
 - [Waarom werken werkinstructies vaak niet?](#waarom-werken-werkinstructies-vaak-niet)

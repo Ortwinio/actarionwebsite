@@ -13,8 +13,8 @@ h1: "Simply Change: change partner for AR roll-outs"
 keyword_primary: "ar roll-out change management"
 keywords_secondary: ["fmcg changeover", "scaling connected worker"]
 schema: ["Organization", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/partners-simply-change.svg
-image_alt: "Pen drawing: three factories in which a cyan screen is rolled out step by step, each with a check mark"
+image: /images/partners-simply-change-1600.webp
+image_alt: "A technician holds an iPad up to process equipment; the screen shows AR work instruction steps for ar roll-out change management"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Simply Change is Actarion's change management and implementation partner, with experience in FMCG and operational transformation. Together they help AI and AR work instructions move beyond pilots and become embedded in daily work at scale, through stakeholder engagement, coaching of supervisors, structured roll-outs and measurement of adoption and impact.
 
-![Pen drawing: three factories in which a cyan screen is rolled out step by step, each with a check mark](/img/illustraties/partners-simply-change.svg)
+![A technician holds an iPad up to process equipment; the screen shows AR work instruction steps for ar roll-out change management](/images/partners-simply-change-1600.webp)
 
 ## Why do pilots fail to become the standard?
 

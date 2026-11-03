@@ -13,8 +13,8 @@ h1: "Work instruction platform: from SOP to AR guidance and audit trail"
 keyword_primary: "work instruction platform"
 keywords_secondary: ["digital work instruction software", "connected worker platform", "ar work instructions"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/platform.svg
-image_alt: "Pen drawing: a stack of SOP documents becomes a digital step card on a tablet, with execution data flowing to a dashboard"
+image: /images/platform-1600.webp
+image_alt: "A phone held up to a control room shows AR steps and a confirmed check for work instruction platform"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > A work instruction platform is software that creates, distributes and records step-by-step procedures for frontline work. The Actarion work instruction platform uses AI to turn your existing SOPs into digital instructions, guides operators with AR on a tablet or AR glasses, and logs every execution as audit evidence. The technology comes from partner DeepSight.
 
-![Pen drawing: a stack of SOP documents becomes a digital step card on a tablet, with execution data flowing to a dashboard](/img/illustraties/platform.svg)
+![A phone held up to a control room shows AR steps and a confirmed check for work instruction platform](/images/platform-1600.webp)
 
 ## Why do paper procedures fail on the shop floor?
 

@@ -13,8 +13,8 @@ h1: "AR-Kommissionierung: gleich das richtige Teil, auch für Neue"
 keyword_primary: "ar kommissionierung"
 keywords_secondary: ["pick by vision", "kommissionierfehler", "lager arbeitsanweisung"]
 schema: ["Service", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/use-cases-logistics.svg
-image_alt: "Federzeichnung eines Lagerregals, in dem die AR-Kommissionierung den richtigen Karton markiert"
+image: /images/use-cases-logistics-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor ein Lager; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für ar kommissionierung"
 cta: intake
 phase: 2
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Bei der AR-Kommissionierung (Pick-by-Vision) sehen Kommissionierer Lagerplatz, Artikel und Menge über eine AR-Brille im Sichtfeld, mit beiden Händen frei. Actarion überträgt diesen Ansatz auf weitere Logistikaufgaben wie Kitting, Verpacken und Verladen: Schritt-für-Schritt-Anweisungen mit AR-Werkerführung und ein Protokoll für jeden Auftrag.
 
-![Federzeichnung eines Lagerregals, in dem die AR-Kommissionierung den richtigen Karton markiert](/img/illustraties/use-cases-logistics.svg)
+![Ein Techniker hält ein iPad vor ein Lager; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für ar kommissionierung](/images/use-cases-logistics-1600.webp)
 
 ## Woher kommen Fehler im Lager?
 

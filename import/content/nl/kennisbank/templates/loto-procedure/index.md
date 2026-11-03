@@ -13,8 +13,8 @@ h1: "LOTO-procedure template: machinespecifiek energievrij werken"
 keyword_primary: "loto procedure"
 keywords_secondary: ["lockout tagout", "loto procedure template", "energievrij maken machine"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-lockout-tagout-procedure.svg
-image_alt: "Pentekening van een schakelkast met hangslot en label naast een tablet met de stappen van de LOTO-procedure"
+image: /images/resources-templates-lockout-tagout-procedure-1600.webp
+image_alt: "Een technicus houdt een iPad voor een machine met een afsluithendel; op het scherm verschijnen AR-werkinstructies voor loto procedure"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een LOTO-procedure (lockout tagout) is een machinespecifiek document dat beschrijft hoe je een machine uitschakelt, alle energiebronnen scheidt, vergrendelt, restenergie afvoert en controleert dat de machine energievrij is vóór onderhoud. Deze gratis LOTO-procedure template volgt EN ISO 14118 en de opbouw van OSHA 1910.147. Actarion begeleidt elke LOTO-stap met AR en legt hem vast.
 
-![Pentekening van een schakelkast met hangslot en label naast een tablet met de stappen van de LOTO-procedure](/img/illustraties/resources-templates-lockout-tagout-procedure.svg)
+![Een technicus houdt een iPad voor een machine met een afsluithendel; op het scherm verschijnen AR-werkinstructies voor loto procedure](/images/resources-templates-lockout-tagout-procedure-1600.webp)
 
 ## Waarom gaat vergrendelen toch mis?
 

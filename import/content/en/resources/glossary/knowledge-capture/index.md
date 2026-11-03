@@ -13,8 +13,8 @@ h1: "What Is Knowledge Capture? Definition"
 keyword_primary: "what is knowledge capture"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-knowledge-capture.svg
-image_alt: "Pen drawing for the glossary term knowledge capture: tool being recorded into a digital step card"
+image: /images/resources-glossary-knowledge-capture-1600.webp
+image_alt: "A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for what is knowledge capture"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Knowledge capture is the process of recording the practical know-how of experienced employees, often tacit knowledge, so it stays in the organization and can be reused. It is urgent where staff retire. Actarion captures expert tasks on video and turns them with AI into digital work instructions.
 
-![Pen drawing for the glossary term knowledge capture: tool being recorded into a digital step card](/img/illustraties/resources-glossary-knowledge-capture.svg)
+![A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for what is knowledge capture](/images/resources-glossary-knowledge-capture-1600.webp)
 
 ## Why does it matter on the shop floor?
 

@@ -13,8 +13,8 @@ h1: "Wat is remote assistentie? Betekenis"
 keyword_primary: "wat is remote assistentie"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-remote-assistance.svg
-image_alt: "Pentekening bij het begrip remote assistentie"
+image: /images/resources-glossary-remote-assistance-1600.webp
+image_alt: "Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor wat is remote assistentie boven een hoogspanningslijn"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Remote assistentie is live ondersteuning waarbij een expert op afstand via tablet, smartphone of slimme bril meekijkt met de monteur en hem begeleidt met spraak, tekeningen of AR-markeringen. Het scheelt reistijd en stilstand. Actarion biedt remote assistentie in hetzelfde platform als de werkinstructies.
 
-![Pentekening bij het begrip remote assistentie](/img/illustraties/resources-glossary-remote-assistance.svg)
+![Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor wat is remote assistentie boven een hoogspanningslijn](/images/resources-glossary-remote-assistance-1600.webp)
 
 ## Waarom is dit belangrijk op de werkvloer?
 

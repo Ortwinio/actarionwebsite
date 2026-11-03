@@ -13,8 +13,8 @@ h1: "SMED: So reduzieren Sie die Rüstzeit Schritt für Schritt"
 keyword_primary: "SMED"
 keywords_secondary: ["Rüstzeit reduzieren", "Rüstzeitoptimierung", "Rüsten"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-smed-guide.svg
-image_alt: "SMED Rüsten: Presse mit Werkzeugwagen und Tablet mit Timer, das die Rüstschritte führt"
+image: /images/blog-smed-guide-1600.webp
+image_alt: "Ein Smartphone vor eine Roboterlinie zeigt AR-Schritte und eine bestätigte Prüfung für SMED"
 cta: template
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > SMED (Single Minute Exchange of Die) ist eine Lean-Methode, um die Rüstzeit zu reduzieren, indem möglichst viele Tätigkeiten bei laufender Maschine erledigt werden. Ziel ist ein Rüstvorgang im einstelligen Minutenbereich. Actarion sichert den neuen Standard ab: Jeder Rüstschritt wird auf Tablet oder AR-Brille geführt und die Zeit je Schritt erfasst.
 
-![SMED Rüsten: Presse mit Werkzeugwagen und Tablet mit Timer, das die Rüstschritte führt](/img/illustraties/blog-smed-guide.svg)
+![Ein Smartphone vor eine Roboterlinie zeigt AR-Schritte und eine bestätigte Prüfung für SMED](/images/blog-smed-guide-1600.webp)
 
 **Inhalt**
 - [Warum dauert Rüsten so lange?](#warum-dauert-rusten-so-lange)

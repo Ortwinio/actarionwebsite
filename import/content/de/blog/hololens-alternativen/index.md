@@ -13,8 +13,8 @@ h1: "HoloLens-Alternativen: Was Sie jetzt für industrielle AR nutzen"
 keyword_primary: "HoloLens"
 keywords_secondary: ["HoloLens 2 Alternative", "HoloLens eingestellt", "AR-Brille Industrie"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-hololens-2-alternatives.svg
-image_alt: "HoloLens-Alternativen: Tablet, Mixed-Reality-Headset und leichte AR-Brille nebeneinander"
+image: /images/blog-hololens-2-alternatives-1600.webp
+image_alt: "Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für HoloLens über einen Schaltschrank"
 cta: intake
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Microsoft hat die Produktion der HoloLens 2 im Oktober 2024 eingestellt und liefert Sicherheitsupdates bis Ende 2027. Die wichtigsten HoloLens-Alternativen sind Tablets, Mixed-Reality-Headsets wie Apple Vision Pro und Android-XR-Geräte sowie leichte Datenbrillen. Die beste Wahl hängt von der Tätigkeit ab. Actarion hält Ihre AR-Anweisungen geräteunabhängig, damit Sie ohne Neuerstellung wechseln können.
 
-![HoloLens-Alternativen: Tablet, Mixed-Reality-Headset und leichte AR-Brille nebeneinander](/img/illustraties/blog-hololens-2-alternatives.svg)
+![Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für HoloLens über einen Schaltschrank](/images/blog-hololens-2-alternatives-1600.webp)
 
 **Inhalt**
 - [Warum suchen Sie eine Alternative?](#warum-suchen-sie-eine-alternative)

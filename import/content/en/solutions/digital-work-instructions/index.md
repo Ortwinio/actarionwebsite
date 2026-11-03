@@ -13,8 +13,8 @@ h1: "Digital work instructions: fewer errors, every step on record"
 keyword_primary: "digital work instructions"
 keywords_secondary: ["work instruction software", "ar work instructions", "visual work instructions"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/solutions-digital-work-instructions.svg
-image_alt: "Pen drawing from above: a flange with bolts, an AR marker on the next bolt and a tablet showing digital work instructions"
+image: /images/solutions-digital-work-instructions-1600.webp
+image_alt: "A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for digital work instructions"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Digital work instructions are step-by-step procedures shown on a tablet or AR glasses instead of paper, with images, video and mandatory checks. Actarion uses AI to turn your existing SOPs into digital work instructions, guides operators with AR overlays and logs every execution as audit evidence.
 
-![Pen drawing from above: a flange with bolts, an AR marker on the next bolt and a tablet showing digital work instructions](/img/illustraties/solutions-digital-work-instructions.svg)
+![A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for digital work instructions](/images/solutions-digital-work-instructions-1600.webp)
 
 ## Why do paper work instructions fail on the shop floor?
 

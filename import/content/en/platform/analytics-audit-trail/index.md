@@ -13,8 +13,8 @@ h1: "Work instruction audit trail: proof of every step, automatically"
 keyword_primary: "work instruction audit trail"
 keywords_secondary: ["execution data", "audit evidence", "work instruction analytics"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/platform-analytics-audit-trail.svg
-image_alt: "Pen drawing: a checked checklist and a tablet showing a trend line and timeline as audit trail"
+image: /images/platform-analytics-audit-trail-1600.webp
+image_alt: "A worker wearing Apple Vision Pro sees floating SOP panels for work instruction audit trail over a control room"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > A work instruction audit trail is a record of every execution: who did which step, when, on which version, and with what result. Actarion builds the audit trail automatically while operators follow digital work instructions. The same data shows where time is lost and where errors start.
 
-![Pen drawing: a checked checklist and a tablet showing a trend line and timeline as audit trail](/img/illustraties/platform-analytics-audit-trail.svg)
+![A worker wearing Apple Vision Pro sees floating SOP panels for work instruction audit trail over a control room](/images/platform-analytics-audit-trail-1600.webp)
 
 ## Why are audits so stressful?
 

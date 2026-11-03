@@ -13,8 +13,8 @@ h1: "Digitale Arbeitsanweisungen für jede Branche mit kritischen Abläufen"
 keyword_primary: "digitale arbeitsanweisungen branchen"
 keywords_secondary: ["werkerassistenz industrie", "ar in der industrie"]
 schema: ["CollectionPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/industries.svg
-image_alt: "Federzeichnung einer Fabrik, eines Reaktors, eines Strommasts und einer Windkraftanlage rund um ein Tablet mit digitalen Arbeitsanweisungen"
+image: /images/industries-1600.webp
+image_alt: "Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für digitale arbeitsanweisungen branchen über ein Bedienfeld"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Digitale Arbeitsanweisungen helpen in jeder Branche, in der Menschen kritische, wiederkehrende Abläufe ausführen und deren korrekte Ausführung nachweisen müssen. Actarion arbeitet für Fertigung, Pharma und Biotech, Lebensmittel, Energie und Versorger, Luftfahrt-MRO, Maschinenbau und Außendienst. Der Kern ist überall gleich: von der SOP über KI zu AR, mit Audit-Trail.
 
-![Federzeichnung einer Fabrik, eines Reaktors, eines Strommasts und einer Windkraftanlage rund um ein Tablet mit digitalen Arbeitsanweisungen](/img/illustraties/industries.svg)
+![Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für digitale arbeitsanweisungen branchen über ein Bedienfeld](/images/industries-1600.webp)
 
 ## Was haben diese Branchen gemeinsam?
 

@@ -13,8 +13,8 @@ h1: "Lockout Tagout Procedure Template: Machine-Specific and OSHA-Aligned"
 keyword_primary: "lockout tagout procedure template"
 keywords_secondary: ["loto procedure", "energy control procedure", "osha 1910.147"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-lockout-tagout-procedure.svg
-image_alt: "Pen drawing of an electrical cabinet with a padlock and tag next to a tablet showing the lockout tagout procedure steps"
+image: /images/resources-templates-lockout-tagout-procedure-1600.webp
+image_alt: "A technician holds an iPad up to a machine with an isolation lever; the screen shows AR work instruction steps for lockout tagout procedure template"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > A lockout tagout procedure is a machine-specific document that tells authorized employees how to shut down, isolate, lock, release stored energy and verify zero energy before service or maintenance. This free lockout tagout procedure template follows the structure of OSHA 29 CFR 1910.147 and common EU practice (EN ISO 14118). Actarion guides each LOTO step with AR and logs it.
 
-![Pen drawing of an electrical cabinet with a padlock and tag next to a tablet showing the lockout tagout procedure steps](/img/illustraties/resources-templates-lockout-tagout-procedure.svg)
+![A technician holds an iPad up to a machine with an isolation lever; the screen shows AR work instruction steps for lockout tagout procedure template](/images/resources-templates-lockout-tagout-procedure-1600.webp)
 
 ## Why do lockout procedures fail?
 

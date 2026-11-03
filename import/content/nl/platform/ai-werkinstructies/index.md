@@ -13,8 +13,8 @@ h1: "AI werkinstructie: van papieren procedure naar digitale stappen"
 keyword_primary: "AI werkinstructie"
 keywords_secondary: ["AI SOP generator", "werkinstructies maken met AI", "SOP software"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/platform-ai-authoring.svg
-image_alt: "Pentekening: een papieren SOP gaat door AI-tandwielen en wordt afgevinkte digitale stapkaarten op een tablet"
+image: /images/platform-ai-authoring-1600.webp
+image_alt: "Een technicus houdt een iPad voor een transportlijn; op het scherm verschijnen AR-werkinstructies voor AI werkinstructie"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een AI werkinstructie is een stap-voor-stap-instructie die AI opstelt uit bestaand materiaal, zoals een Word-SOP, een pdf of een opname van het werk. Actarion zet je bestaande SOP's met AI om in digitale werkinstructies met beelden, controles en waarschuwingen. Je experts controleren en keuren goed voordat iets de vloer op gaat.
 
-![Pentekening: een papieren SOP gaat door AI-tandwielen en wordt afgevinkte digitale stapkaarten op een tablet](/img/illustraties/platform-ai-authoring.svg)
+![Een technicus houdt een iPad voor een transportlijn; op het scherm verschijnen AR-werkinstructies voor AI werkinstructie](/images/platform-ai-authoring-1600.webp)
 
 ## Waarom kost het schrijven van werkinstructies zoveel tijd?
 

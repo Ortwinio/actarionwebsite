@@ -13,8 +13,8 @@ h1: "Inwerkprogramma productie: gratis 90-dagenplan voor operators"
 keyword_primary: "inwerkprogramma"
 keywords_secondary: ["inwerkplan", "inwerken productie", "onboarding checklist"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-operator-onboarding-plan.svg
-image_alt: "Pentekening van een inwerkprogramma als tijdlijn op tafel naast een AR-bril met cyaan overlay"
+image: /images/resources-templates-operator-onboarding-plan-1600.webp
+image_alt: "Een telefoon voor een productiehal toont AR-stappen en een bevestigde controle voor inwerkprogramma"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een inwerkprogramma is een gestructureerd plan dat een nieuwe productiemedewerker van dag één naar zelfstandig werken brengt. Deze gratis template bevat de voorbereiding, de eerste dag, de eerste week en een 30-60-90-dagenplan met aftekening per taak en evaluatiemomenten. Actarion verkort het inwerken met werkinstructies met AR-begeleiding aan de machine.
 
-![Pentekening van een inwerkprogramma als tijdlijn op tafel naast een AR-bril met cyaan overlay](/img/illustraties/resources-templates-operator-onboarding-plan.svg)
+![Een telefoon voor een productiehal toont AR-stappen en een bevestigde controle voor inwerkprogramma](/images/resources-templates-operator-onboarding-plan-1600.webp)
 
 ## Waarom duurt inwerken zo lang?
 

@@ -13,8 +13,8 @@ h1: "Wat is een digital twin? Betekenis en voorbeeld"
 keyword_primary: "wat is een digital twin"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-digital-twin.svg
-image_alt: "Pentekening bij het begrip digital twin"
+image: /images/resources-glossary-digital-twin-1600.webp
+image_alt: "Een telefoon voor een controlekamer toont AR-stappen en een bevestigde controle voor wat is een digital twin"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een digital twin, of digitale tweeling, is een virtuele weergave van een machine, lijn of proces die synchroon blijft met data uit de echte wereld. Je gebruikt hem om te monitoren, simuleren en optimaliseren. Actarion sluit daarop aan vanaf de operator: AR-instructies op de echte machine, met uitvoeringsdata die terugvloeit.
 
-![Pentekening bij het begrip digital twin](/img/illustraties/resources-glossary-digital-twin.svg)
+![Een telefoon voor een controlekamer toont AR-stappen en een bevestigde controle voor wat is een digital twin](/images/resources-glossary-digital-twin-1600.webp)
 
 ## Waarom is dit belangrijk op de werkvloer?
 

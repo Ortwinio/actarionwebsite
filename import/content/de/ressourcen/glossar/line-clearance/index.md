@@ -13,8 +13,8 @@ h1: "Was ist Line Clearance? Definition und Schritte"
 keyword_primary: "was ist line clearance"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-line-clearance.svg
-image_alt: "Federzeichnung zum Begriff Line Clearance"
+image: /images/resources-glossary-line-clearance-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Förderanlage; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für was ist line clearance"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Line Clearance (Linienfreigabe) ist die dokumentierte Prüfung, dass eine Produktions- oder Verpackungslinie frei von Material, Etiketten und Dokumenten der vorherigen Charge ist, bevor eine neue Charge startet. So werden Verwechslungen verhindert, besonders in Pharma und Lebensmittel. Actarion macht daraus eine geführte digitale Checkliste mit Fotonachweis.
 
-![Federzeichnung zum Begriff Line Clearance](/img/illustraties/resources-glossary-line-clearance.svg)
+![Ein Techniker hält ein iPad vor eine Förderanlage; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für was ist line clearance](/images/resources-glossary-line-clearance-1600.webp)
 
 ## Warum ist das in der Fertigung wichtig?
 

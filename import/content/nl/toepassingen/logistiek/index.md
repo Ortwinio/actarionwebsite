@@ -13,8 +13,8 @@ h1: "AR-orderpicken: meteen het juiste artikel, ook voor nieuwe mensen"
 keyword_primary: "ar orderpicken"
 keywords_secondary: ["vision picking", "magazijninstructies", "pickfouten"]
 schema: ["Service", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/use-cases-logistics.svg
-image_alt: "Pentekening van een magazijnstelling waarbij AR-orderpicken de juiste doos markeert"
+image: /images/use-cases-logistics-1600.webp
+image_alt: "Een technicus houdt een iPad voor een magazijn; op het scherm verschijnen AR-werkinstructies voor ar orderpicken"
 cta: intake
 phase: 2
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Bij AR-orderpicken ziet de orderpicker locatie, artikel en aantal in zijn blikveld via een AR-bril, met beide handen vrij. Actarion past dezelfde aanpak toe op andere logistieke taken, zoals kitting, inpakken en laden: stap-voor-stapinstructies met AR-begeleiding en een registratie van elke order.
 
-![Pentekening van een magazijnstelling waarbij AR-orderpicken de juiste doos markeert](/img/illustraties/use-cases-logistics.svg)
+![Een technicus houdt een iPad voor een magazijn; op het scherm verschijnen AR-werkinstructies voor ar orderpicken](/images/use-cases-logistics-1600.webp)
 
 ## Waardoor ontstaan fouten in het magazijn?
 

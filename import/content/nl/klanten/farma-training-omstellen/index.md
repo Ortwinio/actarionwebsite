@@ -13,8 +13,8 @@ h1: "Case farma: AR-training voor omstellingen in elke dienst"
 keyword_primary: "omstellen farma training"
 keywords_secondary: ["gmp-werkinstructies", "ar-training farmaceutisch"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/customers-pharma-training-changeover.svg
-image_alt: "Pentekening: farmaceutische vulmachine met een cyane AR-markering bij de omstelling, gekoppeld aan een tablet"
+image: /images/customers-pharma-training-changeover-1600.webp
+image_alt: "Een telefoon voor een robotlijn toont AR-stappen en een bevestigde controle voor omstellen farma training"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een internationaal farmaceutisch bedrijf zette AR-werkinstructies in zodat nacht- en weekenddiensten omstellingen goed uitvoeren zonder expert op de vloer. Op het DeepSight-platform bouwde het 30 trainingen voor 350 medewerkers, met kennisborging en skills management. Actarion brengt deze aanpak naar farma- en biotechlocaties in Europa.
 
-![Pentekening: farmaceutische vulmachine met een cyane AR-markering bij de omstelling, gekoppeld aan een tablet](/img/illustraties/customers-pharma-training-changeover.svg)
+![Een telefoon voor een robotlijn toont AR-stappen en een bevestigde controle voor omstellen farma training](/images/customers-pharma-training-changeover-1600.webp)
 
 *Case gerealiseerd met technologiepartner DeepSight. Cijfers zoals gepubliceerd door DeepSight; klant geanonimiseerd.*
 

@@ -13,8 +13,8 @@ h1: "Potentify: HR-Partner für Lernen und Qualifikation mit AR"
 keyword_primary: "ar einarbeitung hr partner"
 keywords_secondary: ["qualifikationsmatrix", "einarbeitungszeit verkürzen"]
 schema: ["Organization", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/partners-potentify.svg
-image_alt: "Federzeichnung: Qualifikationsmatrix mit einer cyanfarbenen Zelle und einer aufsteigenden Treppe als Lernpfad"
+image: /images/partners-potentify-1600.webp
+image_alt: "Ein Smartphone vor Prozessanlagen zeigt AR-Schritte und eine bestätigte Prüfung für ar einarbeitung hr partner"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Potentify ist der HR-Implementierungspartner von Actarion für Lernen und Qualifikation. Gemeinsam verbinden sie KI- und AR-geführte Arbeitsanweisungen mit HR-, Lern- und Talentstrategie: AR-gestützte Einarbeitung für schnellere Einsatzfähigkeit, AR-Schulungsdaten in Lernnachweisen und Qualifikationsprogramme, die abgeschlossene AR-Aufgaben als Nachweis der Kompetenz nutzen.
 
-![Federzeichnung: Qualifikationsmatrix mit einer cyanfarbenen Zelle und einer aufsteigenden Treppe als Lernpfad](/img/illustraties/partners-potentify.svg)
+![Ein Smartphone vor Prozessanlagen zeigt AR-Schritte und eine bestätigte Prüfung für ar einarbeitung hr partner](/images/partners-potentify-1600.webp)
 
 ## Warum bleibt die Schulung in der Produktion von HR getrennt?
 

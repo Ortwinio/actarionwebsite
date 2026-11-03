@@ -13,8 +13,8 @@ h1: "Was ist Wissenserfassung? Definition"
 keyword_primary: "was ist wissenserfassung"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-knowledge-capture.svg
-image_alt: "Federzeichnung zum Begriff Wissenserfassung"
+image: /images/resources-glossary-knowledge-capture-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für was ist wissenserfassung"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Wissenserfassung ist das Festhalten des praktischen Know-hows erfahrener Mitarbeiter, oft implizites Wissen, damit es im Unternehmen bleibt und wiederverwendbar ist. Das ist dringend, wo Fachkräfte in Rente gehen. Actarion erfasst Expertentätigkeiten per Video und wandelt sie per KI in digitale Arbeitsanweisungen um.
 
-![Federzeichnung zum Begriff Wissenserfassung](/img/illustraties/resources-glossary-knowledge-capture.svg)
+![Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für was ist wissenserfassung](/images/resources-glossary-knowledge-capture-1600.webp)
 
 ## Warum ist das in der Fertigung wichtig?
 

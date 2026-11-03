@@ -13,8 +13,8 @@ h1: "Was ist First Time Right? Definition und KPI"
 keyword_primary: "first time right"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-first-time-right.svg
-image_alt: "Federzeichnung zum Begriff First Time Right"
+image: /images/resources-glossary-first-time-right-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Roboterlinie; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für first time right"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > First Time Right (FTR) ist der Prozentsatz an Produkten, Tätigkeiten oder Aufträgen, die beim ersten Mal richtig erledigt werden, ohne Nacharbeit, Reparatur oder zweiten Einsatz. Die Kennzahl spiegelt Prozessqualität und Verständlichkeit der Anweisungen. Actarion steigert FTR mit digitalen Schritt-für-Schritt-Anweisungen, Prüfungen und AR-Werkerführung.
 
-![Federzeichnung zum Begriff First Time Right](/img/illustraties/resources-glossary-first-time-right.svg)
+![Ein Techniker hält ein iPad vor eine Roboterlinie; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für first time right](/images/resources-glossary-first-time-right-1600.webp)
 
 ## Warum ist das in der Fertigung wichtig?
 

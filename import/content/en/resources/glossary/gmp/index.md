@@ -13,8 +13,8 @@ h1: "What Is GMP? Good Manufacturing Practice"
 keyword_primary: "what is gmp"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-gmp.svg
-image_alt: "Pen drawing for the glossary term GMP: laboratory flask and a checked batch record"
+image: /images/resources-glossary-gmp-1600.webp
+image_alt: "A worker wearing Apple Vision Pro sees floating SOP panels for what is gmp over a conveyor line"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > GMP, or good manufacturing practice, is the set of regulations and guidelines that ensures medicines, food and similar products are produced consistently and controlled to quality standards. Documented procedures and records are central. Actarion supports GMP with controlled digital work instructions and an audit trail per execution.
 
-![Pen drawing for the glossary term GMP: laboratory flask and a checked batch record](/img/illustraties/resources-glossary-gmp.svg)
+![A worker wearing Apple Vision Pro sees floating SOP panels for what is gmp over a conveyor line](/images/resources-glossary-gmp-1600.webp)
 
 ## Why does it matter on the shop floor?
 

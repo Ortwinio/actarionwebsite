@@ -13,8 +13,8 @@ h1: "Wat is lijnvrijgave? Line clearance uitgelegd"
 keyword_primary: "wat is line clearance"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-line-clearance.svg
-image_alt: "Pentekening bij het begrip lijnvrijgave"
+image: /images/resources-glossary-line-clearance-1600.webp
+image_alt: "Een technicus houdt een iPad voor een transportlijn; op het scherm verschijnen AR-werkinstructies voor wat is line clearance"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Lijnvrijgave, of line clearance, is de vastgelegde controle dat een productie- of verpaklijn vrij is van materialen, etiketten en documenten van de vorige batch voordat een nieuwe batch start. Zo voorkom je verwisselingen. In farma en voeding is dit cruciaal. Actarion maakt er een begeleide digitale checklist met fotobewijs van.
 
-![Pentekening bij het begrip lijnvrijgave](/img/illustraties/resources-glossary-line-clearance.svg)
+![Een technicus houdt een iPad voor een transportlijn; op het scherm verschijnen AR-werkinstructies voor wat is line clearance](/images/resources-glossary-line-clearance-1600.webp)
 
 ## Waarom is dit belangrijk op de werkvloer?
 

@@ -13,8 +13,8 @@ h1: "Häufige Fragen zu KI- und AR-Arbeitsanweisungen"
 keyword_primary: "faq ar arbeitsanweisungen"
 keywords_secondary: ["fragen digitale arbeitsanweisungen", "ar sop"]
 schema: ["FAQPage", "BreadcrumbList"]
-image: /img/illustraties/faq.svg
-image_alt: "Federzeichnung: aufklappbare Fragenliste mit einer cyanfarben geöffneten Frage neben einem Tablet"
+image: /images/faq-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Leitwarte; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für faq ar arbeitsanweisungen"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > KI- und AR-geführte Arbeitsanweisungen sind digitale Schritt-für-Schritt-Anweisungen, die KI aus Ihren bestehenden SOPs erstellt und denen Mitarbeitende mit AR-Werkerführung auf Tablet oder AR-Brille folgen. Actarion, europäischer Partner von DeepSight, implementiert sie in Benelux, DACH und den Nordics. Hier finden Sie Antworten zu Geräten, Anwendungsfällen, Audits, Einführung und Preisen.
 
-![Federzeichnung: aufklappbare Fragenliste mit einer cyanfarben geöffneten Frage neben einem Tablet](/img/illustraties/faq.svg)
+![Ein Techniker hält ein iPad vor eine Leitwarte; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für faq ar arbeitsanweisungen](/images/faq-1600.webp)
 
 ## Was sind die Kurzantworten?
 

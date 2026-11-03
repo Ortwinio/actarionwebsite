@@ -13,8 +13,8 @@ h1: "SMED omstel checklist: gratis template voor sneller omstellen"
 keyword_primary: "smed omstellen"
 keywords_secondary: ["smed checklist", "omsteltijd verkorten", "omstelchecklist"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-smed-changeover-checklist.svg
-image_alt: "Pentekening van een pers met matrijswagen, een stopwatch en een tablet met de SMED omstel checklist"
+image: /images/resources-templates-smed-changeover-checklist-1600.webp
+image_alt: "Een telefoon voor een robotlijn toont AR-stappen en een bevestigde controle voor smed omstellen"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een SMED-checklist zorgt dat alles voor het omstellen klaarligt vóórdat de machine stopt, en dat elke omstelling in dezelfde volgorde gaat. SMED (Single-Minute Exchange of Die) scheidt intern werk, dat alleen kan als de machine stilstaat, van extern werk, dat kan terwijl hij draait. Deze gratis checklist voor SMED omstellen dekt beide, plus een analyseblad.
 
-![Pentekening van een pers met matrijswagen, een stopwatch en een tablet met de SMED omstel checklist](/img/illustraties/resources-templates-smed-changeover-checklist.svg)
+![Een telefoon voor een robotlijn toont AR-stappen en een bevestigde controle voor smed omstellen](/images/resources-templates-smed-changeover-checklist-1600.webp)
 
 ## Waarom duurt omstellen langer dan gepland?
 

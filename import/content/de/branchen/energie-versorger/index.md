@@ -13,8 +13,8 @@ h1: "Arbeitsanweisungen für Energie und Versorger: sicher im Feld"
 keyword_primary: "arbeitsanweisungen energieversorger"
 keywords_secondary: ["feldarbeit", "sicherheitsverfahren", "revision", "umspannwerk wartung"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/industries-energy-utilities.svg
-image_alt: "Federzeichnung eines Transformators und eines Hochspannungsmasts mit AR-Brille und Schrittkarte für Arbeitsanweisungen bei Energieversorgern"
+image: /images/industries-energy-utilities-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Hochspannungsleitung; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für arbeitsanweisungen energieversorger"
 cta: intake
 phase: 2
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Energie- und Versorgungsunternehmen betreiben kritische Anlagen an vielen Standorten, oft mit kleinen Teams. Actarion gibt Technikern digitale Arbeitsanweisungen mit AR für Instandhaltung, Freischaltung und Prüfungen. Jeder Einsatz wird protokolliert, sodass Sicherheitsverfahren eingehalten und dokumentiert sind, auch an abgelegenen Standorten und bei Revisionen.
 
-![Federzeichnung eines Transformators und eines Hochspannungsmasts mit AR-Brille und Schrittkarte für Arbeitsanweisungen bei Energieversorgern](/img/illustraties/industries-energy-utilities.svg)
+![Ein Techniker hält ein iPad vor eine Hochspannungsleitung; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für arbeitsanweisungen energieversorger](/images/industries-energy-utilities-1600.webp)
 
 ## Vor welchen Herausforderungen steht die Branche?
 

@@ -13,8 +13,8 @@ h1: "What Is a Connected Worker? Definition"
 keyword_primary: "what is a connected worker"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-connected-worker.svg
-image_alt: "Pen drawing for the glossary term connected worker: helmet, tablet and machine connected by data lines"
+image: /images/resources-glossary-connected-worker-1600.webp
+image_alt: "A technician holds an iPad up to a warehouse; the screen shows AR work instruction steps for what is a connected worker"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > A connected worker is a frontline employee who uses digital tools, such as tablets, AR glasses and apps, to get instructions, data and expert help during the task, and whose work is recorded. Actarion delivers connected worker solutions: AI-generated work instructions, AR guidance, skills tracking and remote assistance.
 
-![Pen drawing for the glossary term connected worker: helmet, tablet and machine connected by data lines](/img/illustraties/resources-glossary-connected-worker.svg)
+![A technician holds an iPad up to a warehouse; the screen shows AR work instruction steps for what is a connected worker](/images/resources-glossary-connected-worker-1600.webp)
 
 ## Why does it matter on the shop floor?
 

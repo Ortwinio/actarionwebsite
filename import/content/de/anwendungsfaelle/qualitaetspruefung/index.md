@@ -13,8 +13,8 @@ h1: "Digitale Prüfcheckliste: Fehler an der Quelle finden"
 keyword_primary: "digitale prüfcheckliste"
 keywords_secondary: ["qualitätsprüfung", "prüfanweisung digital", "qualitätskontrolle checkliste"]
 schema: ["Service", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/use-cases-quality-inspections.svg
-image_alt: "Federzeichnung eines Flansches, eines Messschiebers und eines Tablets mit digitaler Prüfcheckliste"
+image: /images/use-cases-quality-inspections-1600.webp
+image_alt: "Ein Smartphone vor eine Förderanlage zeigt AR-Schritte und eine bestätigte Prüfung für digitale prüfcheckliste"
 cta: template
 phase: 2
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Eine digitale Prüfcheckliste ersetzt das Papierformular durch geführte Prüfungen auf Tablet oder AR-Brille. Actarion erstellt die Checkliste aus Ihrem Prüfplan, zeigt jedes Prüfmerkmal am Produkt und erfasst je Schritt Messwerte, Fotos und i.O./n.i.O. Die Qualitätssicherung erhält vollständige, durchsuchbare Daten statt abgehakter Kästchen.
 
-![Federzeichnung eines Flansches, eines Messschiebers und eines Tablets mit digitaler Prüfcheckliste](/img/illustraties/use-cases-quality-inspections.svg)
+![Ein Smartphone vor eine Förderanlage zeigt AR-Schritte und eine bestätigte Prüfung für digitale prüfcheckliste](/images/use-cases-quality-inspections-1600.webp)
 
 ## Was ist an Papierprüfungen falsch?
 

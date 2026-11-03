@@ -13,8 +13,8 @@ h1: "Vorbeugende Wartung: ein Wartungsplan, der auch umgesetzt wird"
 keyword_primary: "vorbeugende Wartung"
 keywords_secondary: ["Wartungsplan", "Wartungsplan erstellen", "präventive Instandhaltung"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-preventive-maintenance-guide.svg
-image_alt: "Vorbeugende Wartung: Pumpe mit AR-Brillen-Einblendung und Wartungskalender"
+image: /images/blog-preventive-maintenance-guide-1600.webp
+image_alt: "Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für vorbeugende Wartung über Prozessanlagen"
 cta: template
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Vorbeugende Wartung ist Instandhaltung nach festem Zeit- oder Nutzungsintervall, bevor eine Anlage ausfällt. Sie senkt ungeplante Stillstände und verlängert die Lebensdauer. Der Wartungsplan wirkt nur, wenn jede Aufgabe gleich ausgeführt und dokumentiert wird. Actarion führt Instandhalter auf Tablet oder AR-Brille durch jede Wartung und dokumentiert jede Prüfung automatisch.
 
-![Vorbeugende Wartung: Pumpe mit AR-Brillen-Einblendung und Wartungskalender](/img/illustraties/blog-preventive-maintenance-guide.svg)
+![Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für vorbeugende Wartung über Prozessanlagen](/images/blog-preventive-maintenance-guide-1600.webp)
 
 **Inhalt**
 - [Warum bleibt vorbeugende Wartung liegen?](#warum-bleibt-vorbeugende-wartung-liegen)

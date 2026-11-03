@@ -13,8 +13,8 @@ h1: "Rüstzeit reduzieren: SMED dauerhaft verankern mit AR"
 keyword_primary: "rüstzeit reduzieren"
 keywords_secondary: ["smed", "rüstzeitoptimierung", "schnellrüsten", "rüsten"]
 schema: ["Service", "HowTo", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/use-cases-changeover-smed.svg
-image_alt: "Federzeichnung eines Werkzeugwechsels an einer Presse mit Stoppuhr und Tablet mit Rüstschritten, um die Rüstzeit zu reduzieren"
+image: /images/use-cases-changeover-smed-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Roboterlinie; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für rüstzeit reduzieren"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Rüstzeit reduzieren heißt, die Zeit zwischen dem letzten Gutteil eines Auftrags und dem ersten Gutteil des nächsten zu verkürzen. SMED (Single-Minute Exchange of Die) ist dafür die bekannte Methode. Actarion sorgt dafür, dass der optimierte SMED-Ablauf bleibt: Werker folgen ihm Schritt für Schritt mit AR, und jeder Rüstvorgang wird je Schritt gemessen.
 
-![Federzeichnung eines Werkzeugwechsels an einer Presse mit Stoppuhr und Tablet mit Rüstschritten, um die Rüstzeit zu reduzieren](/img/illustraties/use-cases-changeover-smed.svg)
+![Ein Techniker hält ein iPad vor eine Roboterlinie; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für rüstzeit reduzieren](/images/use-cases-changeover-smed-1600.webp)
 
 ## Warum bleibt das Rüsten nach einem SMED-Projekt lang?
 

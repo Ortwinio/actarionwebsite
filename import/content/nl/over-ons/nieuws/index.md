@@ -13,8 +13,8 @@ h1: "Nieuws van Actarion: partnerschappen, projecten en updates"
 keyword_primary: "nieuws actarion"
 keywords_secondary: ["nieuws ar-werkinstructies", "deepsight europa nieuws"]
 schema: ["CollectionPage", "BreadcrumbList"]
-image: /img/illustraties/company-news.svg
-image_alt: "Pentekening: nieuwsbrief met een cyane afbeelding en een dashboard met staafjes"
+image: /images/company-news-1600.webp
+image_alt: "Een technicus houdt een iPad voor procesinstallaties; op het scherm verschijnen AR-werkinstructies voor nieuws actarion"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Het nieuws van Actarion gaat over partnerschappen, klantprojecten, events en productupdates rond AI-gegenereerde werkinstructies met AR-begeleiding in de Benelux, DACH en de Nordics. Hier vind je aankondigingen van Actarion en technologiepartner DeepSight, plus links naar webinars en beurzen. Verdiepende artikelen en how-to's staan op de blog.
 
-![Pentekening: nieuwsbrief met een cyane afbeelding en een dashboard met staafjes](/img/illustraties/company-news.svg)
+![Een technicus houdt een iPad voor procesinstallaties; op het scherm verschijnen AR-werkinstructies voor nieuws actarion](/images/company-news-1600.webp)
 
 ## Wat is het laatste nieuws?
 

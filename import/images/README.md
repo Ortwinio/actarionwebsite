@@ -1,18 +1,15 @@
-# AR-beelden (foto-composities)
+# AR-beelden (foto-composities) – 120 stuks, één per pagina-id
 
-Per beeld drie breedtes (800/1200/1600 px) in AVIF (kleinst) en WebP (fallback). 16:10.
+Bestandsnaam = pagina-id met `/` → `-`, bv. `use-cases/changeover-smed` → `use-cases-changeover-smed`.
+Per beeld: 800/1200/1600 px breed, 16:10, in **AVIF** (kleinst) en **WebP** (fallback). Mapping: `../_manifest/images.tsv`.
+De frontmatter in `import/content` verwijst al naar `/images/<naam>-1600.webp` en heeft per taal een alt-tekst (`image_alt`).
 
 ```html
 <picture>
-  <source type="image/avif" srcset="/images/foto-ipad-robot-800.avif 800w, /images/foto-ipad-robot-1200.avif 1200w, /images/foto-ipad-robot-1600.avif 1600w" sizes="(max-width: 900px) 100vw, 1200px">
-  <img src="/images/foto-ipad-robot-1200.webp" srcset="/images/foto-ipad-robot-800.webp 800w, /images/foto-ipad-robot-1200.webp 1200w, /images/foto-ipad-robot-1600.webp 1600w" sizes="(max-width: 900px) 100vw, 1200px" width="1600" height="1000" alt="Technicus houdt een iPad voor een robotlijn; op het scherm verschijnen SOP-stappen in AR" loading="lazy" decoding="async">
+  <source type="image/avif" srcset="/images/home-800.avif 800w, /images/home-1200.avif 1200w, /images/home-1600.avif 1600w" sizes="(max-width: 900px) 100vw, 1200px">
+  <img src="/images/home-1200.webp" srcset="/images/home-800.webp 800w, /images/home-1200.webp 1200w, /images/home-1600.webp 1600w"
+       sizes="(max-width: 900px) 100vw, 1200px" width="1600" height="1000" alt="{image_alt}" loading="lazy" decoding="async">
 </picture>
 ```
-
-| Bestand | Bedoeld voor | Alt-tekst (EN) |
-|---|---|---|
-| foto-ipad-robot | home / use case assembly / industries manufacturing | A technician holds an iPad up to a robotic welding line; the screen shows AR work instruction steps |
-| foto-telefoon-loto | use case safety-loto / LOTO template | A phone held up to a machine shows lockout-tagout steps and a verified zero-energy check in AR |
-| foto-visionpro-hal | hardware/apple-vision-pro / platform ar-guidance | A worker wearing Apple Vision Pro sees floating SOP panels over a production hall |
-
-Gebruik boven de vouw geen `loading="lazy"` (en eventueel `fetchpriority="high"`). Bronnen: zie BRONNEN.md (Unsplash License).
+Boven de vouw: geen `loading="lazy"`, wel `fetchpriority="high"`.
+Verdeling apparaten: iPad 63, telefoon 32, Apple Vision Pro 25 (≈21%). Bronnen: BRONNEN.md (Unsplash License).

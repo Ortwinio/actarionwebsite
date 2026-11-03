@@ -13,8 +13,8 @@ h1: "Multilingual work instructions: one procedure, every language"
 keyword_primary: "multilingual work instructions"
 keywords_secondary: ["translated work instructions", "work instructions in multiple languages", "language barrier shop floor"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/platform-multilingual.svg
-image_alt: "Pen drawing: one work instruction on a tablet fans out into three step cards in different languages"
+image: /images/platform-multilingual-1600.webp
+image_alt: "A technician holds an iPad up to an electrical cabinet; the screen shows AR work instruction steps for multilingual work instructions"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Multilingual work instructions are digital procedures that each operator can open in their own language, while the content and approval stay the same. Actarion delivers multilingual work instructions on tablet and AR glasses. Combined with visuals and AR overlays, they reduce misunderstandings in mixed teams and with temporary staff.
 
-![Pen drawing: one work instruction on a tablet fans out into three step cards in different languages](/img/illustraties/platform-multilingual.svg)
+![A technician holds an iPad up to an electrical cabinet; the screen shows AR work instruction steps for multilingual work instructions](/images/platform-multilingual-1600.webp)
 
 ## Where does language get in the way?
 

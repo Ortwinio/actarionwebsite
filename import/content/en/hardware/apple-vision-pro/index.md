@@ -13,8 +13,8 @@ h1: "Apple Vision Pro in the enterprise: AR work instructions and training"
 keyword_primary: "apple vision pro enterprise"
 keywords_secondary: ["vision pro manufacturing", "vision pro training", "visionOS enterprise"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/hardware-apple-vision-pro.svg
-image_alt: "Pen drawing: a mixed reality headset in side view with a floating cyan instruction window above a machine"
+image: /images/hardware-apple-vision-pro-1600.webp
+image_alt: "A worker wearing Apple Vision Pro sees floating SOP panels for apple vision pro enterprise over a warehouse"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Apple Vision Pro is a mixed reality headset that shows digital content in the user's surroundings through high-resolution passthrough video. For the enterprise, it fits training, complex assembly and tasks where detailed 3D content helps. Actarion uses Apple Vision Pro as one of the devices for AR work instructions, next to tablets and other headsets.
 
-![Pen drawing: a mixed reality headset in side view with a floating cyan instruction window above a machine](/img/illustraties/hardware-apple-vision-pro.svg)
+![A worker wearing Apple Vision Pro sees floating SOP panels for apple vision pro enterprise over a warehouse](/images/hardware-apple-vision-pro-1600.webp)
 
 ## Why are companies looking at Vision Pro?
 

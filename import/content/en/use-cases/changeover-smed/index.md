@@ -13,8 +13,8 @@ h1: "Changeover time reduction: SMED made repeatable with AR"
 keyword_primary: "changeover time reduction"
 keywords_secondary: ["smed", "quick changeover", "setup time reduction"]
 schema: ["Service", "HowTo", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/use-cases-changeover-smed.svg
-image_alt: "Pen drawing of a die change at a press with a stopwatch and a tablet with changeover steps for changeover time reduction"
+image: /images/use-cases-changeover-smed-1600.webp
+image_alt: "A technician holds an iPad up to a robotic assembly line; the screen shows AR work instruction steps for changeover time reduction"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Changeover time reduction means shortening the time between the last good part of one run and the first good part of the next. SMED (Single-Minute Exchange of Die) is the classic method for this. Actarion makes the improved SMED sequence stick: operators follow it step by step with AR guidance, and every changeover is timed per step.
 
-![Pen drawing of a die change at a press with a stopwatch and a tablet with changeover steps for changeover time reduction](/img/illustraties/use-cases-changeover-smed.svg)
+![A technician holds an iPad up to a robotic assembly line; the screen shows AR work instruction steps for changeover time reduction](/images/use-cases-changeover-smed-1600.webp)
 
 ## Why do changeovers stay long after a SMED project?
 

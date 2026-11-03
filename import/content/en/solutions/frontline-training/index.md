@@ -13,8 +13,8 @@ h1: "AR training for frontline workers: productive sooner, safer at work"
 keyword_primary: "ar training"
 keywords_secondary: ["augmented reality training", "frontline worker training", "on the job training"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/solutions-frontline-training.svg
-image_alt: "Pen drawing: a control panel with an AR arrow showing the turning direction and a step card, linked to a skills matrix"
+image: /images/solutions-frontline-training-1600.webp
+image_alt: "A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for ar training"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > AR training is on-the-job training where augmented reality shows a new operator each step directly on the real machine, via tablet or AR glasses. Actarion combines AR training with AI-generated work instructions and a live skills matrix, so frontline worker training is faster, consistent and documented for every employee.
 
-![Pen drawing: a control panel with an AR arrow showing the turning direction and a step card, linked to a skills matrix](/img/illustraties/solutions-frontline-training.svg)
+![A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for ar training](/images/solutions-frontline-training-1600.webp)
 
 ## Why does frontline worker training take so long?
 

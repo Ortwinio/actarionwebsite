@@ -13,8 +13,8 @@ h1: "Digital work instructions for manufacturing: fewer errors, higher OEE"
 keyword_primary: "digital work instructions manufacturing"
 keywords_secondary: ["manufacturing work instructions", "oee improvement", "changeover", "assembly errors"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/industries-manufacturing.svg
-image_alt: "Pen drawing of a conveyor with robot arm and a tablet with OEE gauge for digital work instructions in manufacturing"
+image: /images/industries-manufacturing-1600.webp
+image_alt: "A phone held up to a robotic assembly line shows AR steps and a confirmed check for digital work instructions manufacturing"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Digital work instructions in manufacturing replace binders and PDFs with step-by-step guidance at the workstation. Actarion uses AI to convert your SOPs and assembly instructions, and AR to show each step on the machine. The result: faster changeovers, fewer assembly errors, quicker onboarding and data that helps raise OEE.
 
-![Pen drawing of a conveyor with robot arm and a tablet with OEE gauge for digital work instructions in manufacturing](/img/illustraties/industries-manufacturing.svg)
+![A phone held up to a robotic assembly line shows AR steps and a confirmed check for digital work instructions manufacturing](/images/industries-manufacturing-1600.webp)
 
 ## What challenges do manufacturers face?
 

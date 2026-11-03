@@ -13,8 +13,8 @@ h1: "AR picking: the right item, first time, even for new staff"
 keyword_primary: "ar picking"
 keywords_secondary: ["vision picking", "warehouse work instructions", "picking errors"]
 schema: ["Service", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/use-cases-logistics.svg
-image_alt: "Pen drawing of warehouse shelving where AR picking highlights the right box"
+image: /images/use-cases-logistics-1600.webp
+image_alt: "A technician holds an iPad up to a warehouse; the screen shows AR work instruction steps for ar picking"
 cta: intake
 phase: 2
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > AR picking means pickers see the location, item and quantity in their field of view through AR glasses, with both hands free. Actarion applies the same approach to other logistics tasks such as kitting, packing and loading: step-by-step instructions with AR guidance and a record of every order.
 
-![Pen drawing of warehouse shelving where AR picking highlights the right box](/img/illustraties/use-cases-logistics.svg)
+![A technician holds an iPad up to a warehouse; the screen shows AR work instruction steps for ar picking](/images/use-cases-logistics-1600.webp)
 
 ## What causes errors in the warehouse?
 

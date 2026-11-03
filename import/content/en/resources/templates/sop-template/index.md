@@ -13,8 +13,8 @@ h1: "SOP Template for Manufacturing: Free and Audit-Ready"
 keyword_primary: "sop template"
 keywords_secondary: ["standard operating procedure template", "sop format", "sop example manufacturing"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-sop-template.svg
-image_alt: "Pen drawing of SOP binders and a document stack next to a tablet showing the SOP template as digital steps"
+image: /images/resources-templates-sop-template-1600.webp
+image_alt: "A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for sop template"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > An SOP template (standard operating procedure template) is a controlled format that defines a process: its purpose, scope, responsibilities, procedure steps, records and revision history. This free SOP template follows common ISO 9001 and GMP practice. Use it to standardize processes, then let Actarion turn the procedure into AR-guided digital work instructions.
 
-![Pen drawing of SOP binders and a document stack next to a tablet showing the SOP template as digital steps](/img/illustraties/resources-templates-sop-template.svg)
+![A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for sop template](/images/resources-templates-sop-template-1600.webp)
 
 ## Why do SOPs end up in a binder?
 

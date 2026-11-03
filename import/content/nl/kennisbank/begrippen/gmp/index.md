@@ -13,8 +13,8 @@ h1: "Wat is GMP? Good Manufacturing Practice"
 keyword_primary: "wat is gmp"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-gmp.svg
-image_alt: "Pentekening bij het begrip GMP"
+image: /images/resources-glossary-gmp-1600.webp
+image_alt: "Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor wat is gmp boven een transportlijn"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > GMP, of Good Manufacturing Practice, is het geheel van regels en richtlijnen dat zorgt dat geneesmiddelen, voeding en vergelijkbare producten consistent en beheerst volgens kwaliteitseisen worden gemaakt. Vastgelegde procedures en registraties staan centraal. Actarion ondersteunt GMP met beheerste digitale werkinstructies en een audit trail per uitvoering.
 
-![Pentekening bij het begrip GMP](/img/illustraties/resources-glossary-gmp.svg)
+![Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor wat is gmp boven een transportlijn](/images/resources-glossary-gmp-1600.webp)
 
 ## Waarom is dit belangrijk op de werkvloer?
 

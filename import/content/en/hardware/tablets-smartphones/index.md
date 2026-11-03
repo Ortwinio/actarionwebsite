@@ -13,8 +13,8 @@ h1: "Work instructions on tablet and smartphone: the practical start"
 keyword_primary: "work instructions on tablet"
 keywords_secondary: ["tablet work instructions", "mobile work instructions", "ar on tablet"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/hardware-tablets-smartphones.svg
-image_alt: "Pen drawing: a tablet on an arm next to a conveyor and a smartphone showing a cyan step card"
+image: /images/hardware-tablets-smartphones-1600.webp
+image_alt: "A technician holds an iPad up to an electrical cabinet; the screen shows AR work instruction steps for work instructions on tablet"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Work instructions on tablet are digital, step-by-step procedures shown on a tablet at the workstation or carried to the task. Most Actarion customers start on tablets: they are familiar, affordable and support AR through the camera. Smartphones cover field service and quick checks. AR glasses can be added later for hands-free tasks.
 
-![Pen drawing: a tablet on an arm next to a conveyor and a smartphone showing a cyan step card](/img/illustraties/hardware-tablets-smartphones.svg)
+![A technician holds an iPad up to an electrical cabinet; the screen shows AR work instruction steps for work instructions on tablet](/images/hardware-tablets-smartphones-1600.webp)
 
 ## Why start on a tablet?
 

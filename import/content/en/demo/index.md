@@ -13,8 +13,8 @@ h1: "Book a demo of AR work instructions"
 keyword_primary: "ar work instructions demo"
 keywords_secondary: ["digital work instructions demo", "deepsight demo"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/demo.svg
-image_alt: "Pen drawing: laptop with a video call and a cyan step card, next to AR glasses and a check mark"
+image: /images/demo-1600.webp
+image_alt: "A worker wearing Apple Vision Pro sees floating SOP panels for ar work instructions demo over a conveyor line"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > In an Actarion demo you see how an existing SOP becomes an AI-generated, step-by-step work instruction, how an operator follows it with AR guidance on a tablet or AR glasses, and how every execution lands in the audit trail and skills matrix. We tailor the demo to a use case from your own sector.
 
-![Pen drawing: laptop with a video call and a cyan step card, next to AR glasses and a check mark](/img/illustraties/demo.svg)
+![A worker wearing Apple Vision Pro sees floating SOP panels for ar work instructions demo over a conveyor line](/images/demo-1600.webp)
 
 ## What do you want to know after a demo?
 

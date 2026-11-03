@@ -13,8 +13,8 @@ h1: "Operator Onboarding Checklist: Free 90-Day Plan for Production"
 keyword_primary: "operator onboarding checklist"
 keywords_secondary: ["manufacturing onboarding plan", "new operator training plan", "30-60-90 day plan production"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-operator-onboarding-plan.svg
-image_alt: "Pen drawing of an operator onboarding plan as a timeline on a table next to AR glasses with a cyan overlay"
+image: /images/resources-templates-operator-onboarding-plan-1600.webp
+image_alt: "A phone held up to a production hall shows AR steps and a confirmed check for operator onboarding checklist"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > An operator onboarding checklist is a structured plan that takes a new production employee from day one to working independently. This free template covers pre-arrival, the first day, the first week and a 30-60-90 day plan with task sign-offs and reviews. Actarion shortens onboarding with AR-guided work instructions at the machine.
 
-![Pen drawing of an operator onboarding plan as a timeline on a table next to AR glasses with a cyan overlay](/img/illustraties/resources-templates-operator-onboarding-plan.svg)
+![A phone held up to a production hall shows AR steps and a confirmed check for operator onboarding checklist](/images/resources-templates-operator-onboarding-plan-1600.webp)
 
 ## Why does onboarding take so long?
 

@@ -13,8 +13,8 @@ h1: "AR-Brille vs. Tablet: welches Gerät für Arbeitsanweisungen?"
 keyword_primary: "ar-brille vs tablet"
 keywords_secondary: ["datenbrille industrie", "arbeitsanweisungen tablet", "hands-free werkerführung"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/compare-ar-glasses-vs-tablets.svg
-image_alt: "Federzeichnung einer AR-Brille neben einem Tablet auf Stativ, beide mit digitalem Arbeitsschritt"
+image: /images/compare-ar-glasses-vs-tablets-1600.webp
+image_alt: "Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für ar-brille vs tablet über ein Lager"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > AR-Brille vs. Tablet: Für die meisten digitalen Arbeitsanweisungen ist das Tablet der beste Einstieg. Es ist vertraut, robust und schnell ausgerollt. Eine AR-Brille lohnt sich, wenn Werker beide Hände brauchen, in der Maschine arbeiten oder Führung direkt am Bauteil benötigen. Actarion spielt dieselbe Anweisung auf beiden Geräten aus.
 
-![Federzeichnung einer AR-Brille neben einem Tablet auf Stativ, beide mit digitalem Arbeitsschritt](/img/illustraties/compare-ar-glasses-vs-tablets.svg)
+![Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für ar-brille vs tablet über ein Lager](/images/compare-ar-glasses-vs-tablets-1600.webp)
 
 ## Welche Frage steckt hinter der Gerätewahl?
 

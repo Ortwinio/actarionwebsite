@@ -13,8 +13,8 @@ h1: "Videos: AR-Arbeitsanweisungen in Aktion"
 keyword_primary: "video ar arbeitsanweisungen"
 keywords_secondary: ["video ar instandhaltung", "demo digitale arbeitsanweisung"]
 schema: ["CollectionPage", "VideoObject", "BreadcrumbList"]
-image: /img/illustraties/resources-videos.svg
-image_alt: "Federzeichnung: Videobildschirm mit Maschine und cyanfarbener AR-Schrittkarte, mit Zeitleiste und Wiedergabetaste"
+image: /images/resources-videos-1600.webp
+image_alt: "Ein Smartphone vor eine Leitwarte zeigt AR-Schritte und eine bestätigte Prüfung für video ar arbeitsanweisungen"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Diese kurzen Videos zeigen KI-erstellte, AR-geführte Arbeitsanweisungen im echten Einsatz: einen Rüstvorgang, eine Wartungsaufgabe, die Einarbeitung eines neuen Bedieners und eine Qualitätsprüfung. Sie sehen, wie aus einer Papier-SOP eine digitale Schrittkarte wird, wie der Bediener ihr auf Tablet oder AR-Brille folgt und wie jeder Schritt dokumentiert wird.
 
-![Federzeichnung: Videobildschirm mit Maschine und cyanfarbener AR-Schrittkarte, mit Zeitleiste und Wiedergabetaste](/img/illustraties/resources-videos.svg)
+![Ein Smartphone vor eine Leitwarte zeigt AR-Schritte und eine bestätigte Prüfung für video ar arbeitsanweisungen](/images/resources-videos-1600.webp)
 
 ## Was möchten Sie vor einer Demo sehen?
 

@@ -13,8 +13,8 @@ h1: "Field service-werkinstructies: in één bezoek goed opgelost"
 keyword_primary: "field service werkinstructies"
 keywords_secondary: ["checklist servicemonteur", "remote ondersteuning", "first time fix"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/industries-field-service.svg
-image_alt: "Pentekening van een buitenkast, gereedschapskist en tablet verbonden met een expert voor field service-werkinstructies"
+image: /images/industries-field-service-1600.webp
+image_alt: "Een telefoon voor een hoogspanningslijn toont AR-stappen en een bevestigde controle voor field service werkinstructies"
 cta: intake
 phase: 2
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Field service-werkinstructies begeleiden servicemonteurs bij installatie, onderhoud en reparatie op locatie bij de klant. Actarion geeft ze digitale checklists en stap-voor-stapbegeleiding met AR op tablet of bril, plus remote ondersteuning van een expert. Het resultaat: vaker in één keer opgelost, minder terugkomers en een complete werkbon.
 
-![Pentekening van een buitenkast, gereedschapskist en tablet verbonden met een expert voor field service-werkinstructies](/img/illustraties/industries-field-service.svg)
+![Een telefoon voor een hoogspanningslijn toont AR-stappen en een bevestigde controle voor field service werkinstructies](/images/industries-field-service-1600.webp)
 
 ## Met welke uitdagingen hebben serviceteams te maken?
 

@@ -13,8 +13,8 @@ h1: "Sicherheit und DSGVO bei digitalen Arbeitsanweisungen"
 keyword_primary: "DSGVO Arbeitsanweisungen"
 keywords_secondary: ["EU Hosting", "ISO 27001", "EU AI Act", "Datensicherheit"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/platform-security.svg
-image_alt: "Federzeichnung: Ein Serverschrank mit cyanfarbenem Vorhängeschloss und ein Schild mit Haken"
+image: /images/platform-security-1600.webp
+image_alt: "Ein Smartphone vor eine Leitwarte zeigt AR-Schritte und eine bestätigte Prüfung für DSGVO Arbeitsanweisungen"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Digitale Arbeitsanweisungen verarbeiten Unternehmenswissen und Daten über Mitarbeiter. Datensicherheit und DSGVO-Konformität gehören deshalb zu jeder Einführung. Hier lesen Sie, wie Actarion mit Datenschutz, Hosting, Zugriffssteuerung und dem EU AI Act umgeht. Zertifizierungen und Hosting-Details bestätigen wir je Vertrag und ergänzen sie hier, sobald sie verifiziert sind.
 
-![Federzeichnung: Ein Serverschrank mit cyanfarbenem Vorhängeschloss und ein Schild mit Haken](/img/illustraties/platform-security.svg)
+![Ein Smartphone vor eine Leitwarte zeigt AR-Schritte und eine bestätigte Prüfung für DSGVO Arbeitsanweisungen](/images/platform-security-1600.webp)
 
 ## Was wollen IT und Betriebsrat wissen?
 

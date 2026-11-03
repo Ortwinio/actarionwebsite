@@ -11,3 +11,10 @@
 - fab_pijp: https://unsplash.com/photos/KAta7ryR9Is
 - fab_rood: https://unsplash.com/photos/wyY-aZt7GDI (NAIS)
 - fab_draai: https://unsplash.com/photos/_VBsh_IKsD8
+- mag_pallet: https://unsplash.com/photos/-aCrA9FmT8Y
+- hangar: https://unsplash.com/photos/Yn0XSaJozxY
+- kast: https://unsplash.com/photos/mSkj6UKt33Y
+- controlroom: https://unsplash.com/photos/C3DfIgig1j8
+- paneel: https://unsplash.com/photos/r6fBLCriUgg
+- wind: https://unsplash.com/photos/DzCY1gDGomw
+- hoogspanning: https://unsplash.com/photos/znytbxrOv_4

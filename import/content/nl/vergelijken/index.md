@@ -13,8 +13,8 @@ h1: "Werkinstructies vergelijken: kies de juiste aanpak"
 keyword_primary: "werkinstructies vergelijken"
 keywords_secondary: ["digitale vs papieren werkinstructies", "ar-bril vs tablet", "connected worker vs lms"]
 schema: ["CollectionPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/compare.svg
-image_alt: "Pentekening van een weegschaal die een papieren werkinstructie afweegt tegen een tablet met een digitale stap"
+image: /images/compare-1600.webp
+image_alt: "Een technicus houdt een iPad voor een controlekamer; op het scherm verschijnen AR-werkinstructies voor werkinstructies vergelijken"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Op deze pagina kun je werkinstructies vergelijken: papier of digitaal, LMS of connected worker platform, tablet of AR-bril. Elke vergelijking begint met de conclusie en daarna een tabel met criteria. Actarion zet je SOP's om in digitale werkinstructies met AR-begeleiding en helpt je de juiste mix kiezen voor een pilot.
 
-![Pentekening van een weegschaal die een papieren werkinstructie afweegt tegen een tablet met een digitale stap](/img/illustraties/compare.svg)
+![Een technicus houdt een iPad voor een controlekamer; op het scherm verschijnen AR-werkinstructies voor werkinstructies vergelijken](/images/compare-1600.webp)
 
 ## Waarom is kiezen zo lastig?
 

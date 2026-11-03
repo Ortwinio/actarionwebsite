@@ -13,8 +13,8 @@ h1: "Was ist eine SOP? Definition und Beispiel"
 keyword_primary: "was ist eine sop"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-sop.svg
-image_alt: "Federzeichnung zum Begriff SOP"
+image: /images/resources-glossary-sop-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für was ist eine sop"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Eine SOP, Standard Operating Procedure, ist die freigegebene, schriftliche Beschreibung, wie eine wiederkehrende Tätigkeit auszuführen ist, von wem und mit welchen Prüfungen. SOPs sichern Qualität, Sicherheit und Compliance. Actarion wandelt bestehende SOPs per KI in digitale Schritt-für-Schritt-Arbeitsanweisungen mit AR-Werkerführung und Audit Trail um.
 
-![Federzeichnung zum Begriff SOP](/img/illustraties/resources-glossary-sop.svg)
+![Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für was ist eine sop](/images/resources-glossary-sop-1600.webp)
 
 ## Warum ist das in der Fertigung wichtig?
 

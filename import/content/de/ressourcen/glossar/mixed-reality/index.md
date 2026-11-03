@@ -13,8 +13,8 @@ h1: "Was ist Mixed Reality? Unterschied zu AR und VR"
 keyword_primary: "was ist mixed reality"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-mixed-reality.svg
-image_alt: "Federzeichnung zum Begriff Mixed Reality"
+image: /images/resources-glossary-mixed-reality-1600.webp
+image_alt: "Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für was ist mixed reality über eine Leitwarte"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Mixed Reality (MR) verbindet digitale Inhalte so mit der physischen Welt, dass Hologramme an ihrem Platz bleiben und auf reale Oberflächen und Hände reagieren. Headsets wie Apple Vision Pro und HoloLens 2 liefern MR. Actarion nutzt Mixed-Reality-Headsets für freihändige Arbeitsanweisungen, Schulung und Remote-Support.
 
-![Federzeichnung zum Begriff Mixed Reality](/img/illustraties/resources-glossary-mixed-reality.svg)
+![Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für was ist mixed reality über eine Leitwarte](/images/resources-glossary-mixed-reality-1600.webp)
 
 ## Warum ist das in der Fertigung wichtig?
 

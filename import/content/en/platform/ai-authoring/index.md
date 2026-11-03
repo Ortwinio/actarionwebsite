@@ -13,8 +13,8 @@ h1: "AI SOP generator: from paper procedure to digital instruction"
 keyword_primary: "ai sop generator"
 keywords_secondary: ["ai work instructions", "ai authoring", "sop software"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/platform-ai-authoring.svg
-image_alt: "Pen drawing: a paper SOP passes through AI gears and becomes checked digital step cards on a tablet"
+image: /images/platform-ai-authoring-1600.webp
+image_alt: "A technician holds an iPad up to a conveyor line; the screen shows AR work instruction steps for ai sop generator"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > An AI SOP generator is software that turns source material, such as a Word SOP, a PDF or a recorded walkthrough, into a structured, step-by-step procedure. Actarion's AI authoring converts your existing SOPs into digital work instructions with images, checks and warnings. Your experts review and approve before anything reaches the shop floor.
 
-![Pen drawing: a paper SOP passes through AI gears and becomes checked digital step cards on a tablet](/img/illustraties/platform-ai-authoring.svg)
+![A technician holds an iPad up to a conveyor line; the screen shows AR work instruction steps for ai sop generator](/images/platform-ai-authoring-1600.webp)
 
 ## Why does writing work instructions take so long?
 

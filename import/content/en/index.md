@@ -13,8 +13,8 @@ h1: "Digital work instructions with AI and AR, audit-ready from day one"
 keyword_primary: "digital work instructions"
 keywords_secondary: ["ai work instructions", "ar work instructions", "connected worker platform", "sop software"]
 schema: ["Organization", "WebSite", "FAQPage"]
-image: /img/illustraties/home.svg
-image_alt: "Pen drawing: a paper SOP becomes a digital work instruction on a tablet and AR glasses, with execution data flowing to a dashboard"
+image: /images/home-1600.webp
+image_alt: "A technician holds an iPad up to a robotic assembly line; the screen shows AR work instruction steps for digital work instructions"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Actarion turns your existing SOPs and work instructions into digital, step-by-step work instructions using AI. Operators follow them with AR guidance on a tablet or AR glasses. Every execution is logged with time, confirmations and deviations, so you get faster onboarding, fewer errors and audit evidence without extra paperwork.
 
-![Pen drawing: a paper SOP becomes a digital work instruction on a tablet and AR glasses, with execution data flowing to a dashboard](/img/illustraties/home.svg)
+![A technician holds an iPad up to a robotic assembly line; the screen shows AR work instruction steps for digital work instructions](/images/home-1600.webp)
 
 ## Does this sound familiar on your shop floor?
 

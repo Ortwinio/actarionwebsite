@@ -13,8 +13,8 @@ h1: "Digitale checklist: geen overgeslagen controles, bewijs erbij"
 keyword_primary: "digitale checklist"
 keywords_secondary: ["checklist app", "papierloze checklist", "digitale checklist productie"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/solutions-digital-checklists.svg
-image_alt: "Pentekening: een tablet met een digitale checklist, afgevinkte stappen en fotobewijs, naast een papieren klembord"
+image: /images/solutions-digital-checklists-1600.webp
+image_alt: "Een technicus houdt een iPad voor een bedieningspaneel; op het scherm verschijnen AR-werkinstructies voor digitale checklist"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een digitale checklist vervangt het papieren formulier door een checklist op tablet of AR-bril die elke controle afdwingt, foto's en meetwaarden vastlegt en elk punt een tijdstempel geeft. Actarion maakt met AI digitale checklists van je bestaande formulieren en koppelt ze aan werkinstructies en een audit trail.
 
-![Pentekening: een tablet met een digitale checklist, afgevinkte stappen en fotobewijs, naast een papieren klembord](/img/illustraties/solutions-digital-checklists.svg)
+![Een technicus houdt een iPad voor een bedieningspaneel; op het scherm verschijnen AR-werkinstructies voor digitale checklist](/images/solutions-digital-checklists-1600.webp)
 
 ## Wat gaat er mis met papieren checklists?
 

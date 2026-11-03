@@ -13,8 +13,8 @@ h1: "Checkliste Schichtbeginn: kostenlose Vorlage für jede Maschine"
 keyword_primary: "Checkliste Schichtbeginn"
 keywords_secondary: ["Prüfung vor Arbeitsbeginn", "Anfahrcheckliste", "Sichtprüfung Maschine"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-pre-shift-checklist.svg
-image_alt: "Federzeichnung: Bedienpanel mit Messinstrumenten neben einem Tablet mit der Checkliste für den Schichtbeginn"
+image: /images/resources-templates-pre-shift-checklist-1600.webp
+image_alt: "Ein Smartphone vor Prozessanlagen zeigt AR-Schritte und eine bestätigte Prüfung für Checkliste Schichtbeginn"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Eine Checkliste für den Schichtbeginn ist eine kurze Prüfung, die der Maschinenbediener vor dem Anfahren einer Maschine oder Linie durchführt. Sie bestätigt, dass Schutzeinrichtungen und Not-Halt funktionieren, die Maschine in Ordnung ist, Medien und Material bereitstehen und Probleme der Vorschicht bekannt sind. Diese kostenlose Vorlage dauert fünf bis zehn Minuten. Actarion macht daraus eine geführte digitale Prüfung.
 
-![Federzeichnung: Bedienpanel mit Messinstrumenten neben einem Tablet mit der Checkliste für den Schichtbeginn](/img/illustraties/resources-templates-pre-shift-checklist.svg)
+![Ein Smartphone vor Prozessanlagen zeigt AR-Schritte und eine bestätigte Prüfung für Checkliste Schichtbeginn](/images/resources-templates-pre-shift-checklist-1600.webp)
 
 ## Warum zeigen sich Probleme erst eine Stunde nach Schichtbeginn?
 

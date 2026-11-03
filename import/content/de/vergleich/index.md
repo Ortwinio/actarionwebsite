@@ -13,8 +13,8 @@ h1: "Arbeitsanweisungen im Vergleich: der richtige Ansatz"
 keyword_primary: "arbeitsanweisungen vergleich"
 keywords_secondary: ["digitale vs papier arbeitsanweisungen", "ar-brille vs tablet", "werkerassistenz vs lms"]
 schema: ["CollectionPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/compare.svg
-image_alt: "Federzeichnung einer Waage, die eine Papier-Arbeitsanweisung gegen ein Tablet mit digitalem Arbeitsschritt abwägt"
+image: /images/compare-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Leitwarte; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für arbeitsanweisungen vergleich"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Dieser Arbeitsanweisungen-Vergleich hilft Produktions-, Qualitäts- und Schulungsverantwortlichen bei der Wahl: Papier oder digital, LMS oder Werkerassistenzsystem, Tablet oder AR-Brille. Jeder Vergleich beginnt mit dem Fazit und einer Kriterientabelle. Actarion macht aus Ihren SOPs digitale Arbeitsanweisungen mit AR-Werkerführung und hilft, den richtigen Mix für ein Pilotprojekt zu finden.
 
-![Federzeichnung einer Waage, die eine Papier-Arbeitsanweisung gegen ein Tablet mit digitalem Arbeitsschritt abwägt](/img/illustraties/compare.svg)
+![Ein Techniker hält ein iPad vor eine Leitwarte; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für arbeitsanweisungen vergleich](/images/compare-1600.webp)
 
 ## Warum fällt die Entscheidung so schwer?
 

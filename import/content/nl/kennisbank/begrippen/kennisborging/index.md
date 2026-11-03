@@ -13,8 +13,8 @@ h1: "Wat is kennisborging? Betekenis en aanpak"
 keyword_primary: "wat is kennisborging"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-knowledge-capture.svg
-image_alt: "Pentekening bij het begrip kennisborging"
+image: /images/resources-glossary-knowledge-capture-1600.webp
+image_alt: "Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor wat is kennisborging"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Kennisborging is het vastleggen van de praktische vakkennis van ervaren medewerkers, vaak impliciete kennis, zodat die in de organisatie blijft en herbruikbaar is. Dat is urgent waar mensen met pensioen gaan. Actarion legt experttaken vast op video en zet ze met AI om in digitale werkinstructies.
 
-![Pentekening bij het begrip kennisborging](/img/illustraties/resources-glossary-knowledge-capture.svg)
+![Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor wat is kennisborging](/images/resources-glossary-knowledge-capture-1600.webp)
 
 ## Waarom is dit belangrijk op de werkvloer?
 

@@ -13,8 +13,8 @@ h1: "Lockout-Tagout-Verfahren: jede Trennstelle, jedes Mal"
 keyword_primary: "lockout tagout verfahren"
 keywords_secondary: ["loto verfahren", "energietrennung", "maschinenspezifisches loto"]
 schema: ["Service", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/use-cases-safety-loto.svg
-image_alt: "Federzeichnung eines Hauptschalters mit Vorhängeschloss und Anhänger sowie eines Tablets mit den Schritten des Lockout-Tagout-Verfahrens"
+image: /images/use-cases-safety-loto-1600.webp
+image_alt: "Ein Smartphone vor eine Maschine mit Absperrhebel zeigt AR-Schritte und eine bestätigte Prüfung für lockout tagout verfahren"
 cta: template
 phase: 2
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Ein Lockout-Tagout-Verfahren (LOTO) ist die feste Reihenfolge, in der Sie alle Energiequellen einer Maschine trennen und mit Schloss und Anhänger sichern, bevor die Arbeit beginnt. Actarion macht aus Ihren maschinenspezifischen LOTO-Verfahren digitale Schritte mit AR: Jede Trennstelle erscheint an der Maschine, jedes Schloss wird bestätigt und protokolliert.
 
-![Federzeichnung eines Hauptschalters mit Vorhängeschloss und Anhänger sowie eines Tablets mit den Schritten des Lockout-Tagout-Verfahrens](/img/illustraties/use-cases-safety-loto.svg)
+![Ein Smartphone vor eine Maschine mit Absperrhebel zeigt AR-Schritte und eine bestätigte Prüfung für lockout tagout verfahren](/images/use-cases-safety-loto-1600.webp)
 
 ## Wo scheitert LOTO in der Praxis?
 

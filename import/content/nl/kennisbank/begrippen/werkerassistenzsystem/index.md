@@ -13,8 +13,8 @@ h1: "Wat is een Werkerassistenzsystem? Betekenis"
 keyword_primary: "werkerassistenzsystem"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-werkerassistenzsystem.svg
-image_alt: "Pentekening bij het begrip Werkerassistenzsystem"
+image: /images/resources-glossary-werkerassistenzsystem-1600.webp
+image_alt: "Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor werkerassistenzsystem boven een schakelkast"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Werkerassistenzsystem is de Duitse term voor een werkerondersteuningssysteem: technologie die operators stap voor stap begeleidt aan de werkplek via scherm, projectie, pick-to-light of AR-bril, en het werk vastlegt. Het lijkt sterk op een connected worker platform. Actarion levert dit met AI-werkinstructies en AR-begeleiding.
 
-![Pentekening bij het begrip Werkerassistenzsystem](/img/illustraties/resources-glossary-werkerassistenzsystem.svg)
+![Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor werkerassistenzsystem boven een schakelkast](/images/resources-glossary-werkerassistenzsystem-1600.webp)
 
 ## Waarom is dit belangrijk op de werkvloer?
 

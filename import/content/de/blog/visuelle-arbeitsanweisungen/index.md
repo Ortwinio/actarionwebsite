@@ -13,8 +13,8 @@ h1: "Visuelle Arbeitsanweisungen: Zeigen statt beschreiben"
 keyword_primary: "visuelle Arbeitsanweisungen"
 keywords_secondary: ["Arbeitsanweisung mit Bildern", "bebilderte Arbeitsanweisung", "AR-Werkerführung"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-visual-work-instructions.svg
-image_alt: "Visuelle Arbeitsanweisungen: Ventilpanel und Tablet mit demselben Ventil und AR-Pfeil"
+image: /images/blog-visual-work-instructions-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für visuelle Arbeitsanweisungen"
 cta: intake
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Visuelle Arbeitsanweisungen zeigen jeden Arbeitsschritt mit Fotos, Zeichnungen, Video oder AR-Einblendung statt mit langem Text. Sie sind schneller verständlich, funktionieren sprachübergreifend und vermeiden Interpretationsfehler. Actarion erstellt visuelle Arbeitsanweisungen mit KI aus Ihren bestehenden SOPs und zeigt sie auf Tablet oder AR-Brille direkt am Bauteil.
 
-![Visuelle Arbeitsanweisungen: Ventilpanel und Tablet mit demselben Ventil und AR-Pfeil](/img/illustraties/blog-visual-work-instructions.svg)
+![Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für visuelle Arbeitsanweisungen](/images/blog-visual-work-instructions-1600.webp)
 
 **Inhalt**
 - [Warum reiner Text nicht funktioniert](#warum-reiner-text-nicht-funktioniert)

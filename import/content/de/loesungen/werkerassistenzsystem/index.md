@@ -13,8 +13,8 @@ h1: "Werkerassistenzsystem: Anweisungen, Qualifikation und Experten vereint"
 keyword_primary: "Werkerassistenzsystem"
 keywords_secondary: ["Connected Worker", "Connected Worker Plattform", "Werkerführung"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/solutions-connected-worker-platform.svg
-image_alt: "Federzeichnung: AR-Brille im Zentrum eines Werkerassistenzsystems, verbunden mit Maschine, Dashboard und Remote-Experte"
+image: /images/solutions-connected-worker-platform-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Leitwarte; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Werkerassistenzsystem"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Ein Werkerassistenzsystem verbindet Werker mit den Anweisungen, Menschen und Daten, die sie bei der Arbeit brauchen. Das Werkerassistenzsystem von Actarion, auch Connected-Worker-Plattform genannt, kombiniert KI-Arbeitsanweisungen, AR-Werkerführung auf Tablet oder AR-Brille, eine Qualifikationsmatrix, Remote-Support und einen Audit Trail.
 
-![Federzeichnung: AR-Brille im Zentrum eines Werkerassistenzsystems, verbunden mit Maschine, Dashboard und Remote-Experte](/img/illustraties/solutions-connected-worker-platform.svg)
+![Ein Techniker hält ein iPad vor eine Leitwarte; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Werkerassistenzsystem](/images/solutions-connected-worker-platform-1600.webp)
 
 ## Warum arbeiten Werker noch immer ohne Vernetzung?
 

@@ -13,8 +13,8 @@ h1: "Was ist ein Werkerassistenzsystem?"
 keyword_primary: "werkerassistenzsystem"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-werkerassistenzsystem.svg
-image_alt: "Federzeichnung zum Begriff Werkerassistenzsystem"
+image: /images/resources-glossary-werkerassistenzsystem-1600.webp
+image_alt: "Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für werkerassistenzsystem über einen Schaltschrank"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Ein Werkerassistenzsystem ist Technik, die Mitarbeitende am Arbeitsplatz Schritt für Schritt führt, per Bildschirm, Projektion, Pick-to-Light oder AR-Brille, und die Ausführung dokumentiert, etwa für Qualität und Audits. Im Englischen entspricht es weitgehend einer Connected-Worker-Plattform. Actarion liefert Werkerassistenz mit KI-generierten Arbeitsanweisungen und AR-Werkerführung.
 
-![Federzeichnung zum Begriff Werkerassistenzsystem](/img/illustraties/resources-glossary-werkerassistenzsystem.svg)
+![Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für werkerassistenzsystem über einen Schaltschrank](/images/resources-glossary-werkerassistenzsystem-1600.webp)
 
 ## Warum ist das in der Fertigung wichtig?
 

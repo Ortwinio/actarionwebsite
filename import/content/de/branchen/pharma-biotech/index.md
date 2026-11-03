@@ -13,8 +13,8 @@ h1: "GMP-Arbeitsanweisungen für Pharma und Biotech, auditfest by Design"
 keyword_primary: "gmp arbeitsanweisung"
 keywords_secondary: ["line clearance", "chargenvorbereitung", "audit trail", "datenintegrität"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/industries-pharma-biotech.svg
-image_alt: "Federzeichnung eines Edelstahlreaktors, von Vials und eines Tablets mit Chargen-Checkliste für GMP-Arbeitsanweisungen"
+image: /images/industries-pharma-biotech-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Förderanlage; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für gmp arbeitsanweisung"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > GMP-Arbeitsanweisungen beschreiben genau, wie Mitarbeitende Produktionsschritte nach Good Manufacturing Practice ausführen. Actarion wandelt Ihre SOPs in geführte digitale Schritte mit AR für Chargenvorbereitung, Line Clearance und Rüstvorgänge um. Jede Ausführung wird mit Zeit, Benutzer und Abweichungen erfasst. Das unterstützt Datenintegrität und Inspektionen.
 
-![Federzeichnung eines Edelstahlreaktors, von Vials und eines Tablets mit Chargen-Checkliste für GMP-Arbeitsanweisungen](/img/illustraties/industries-pharma-biotech.svg)
+![Ein Techniker hält ein iPad vor eine Förderanlage; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für gmp arbeitsanweisung](/images/industries-pharma-biotech-1600.webp)
 
 ## Was beschäftigt Pharma-Produktionsleiter?
 

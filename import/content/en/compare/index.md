@@ -13,8 +13,8 @@ h1: "Work instruction comparisons: choose the right approach"
 keyword_primary: "work instruction comparison"
 keywords_secondary: ["digital vs paper work instructions", "ar glasses vs tablet", "connected worker vs lms"]
 schema: ["CollectionPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/compare.svg
-image_alt: "Pen drawing of a balance weighing a paper work instruction against a tablet with a digital step"
+image: /images/compare-1600.webp
+image_alt: "A technician holds an iPad up to a control room; the screen shows AR work instruction steps for work instruction comparison"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > This work instruction comparison hub helps operations, quality and L&D leaders choose between paper and digital instructions, training systems and frontline tools, tablets and AR glasses. Each comparison starts with a conclusion, then a criteria table. Actarion turns your SOPs into digital, AR-guided work instructions and helps you pick the right mix for a pilot.
 
-![Pen drawing of a balance weighing a paper work instruction against a tablet with a digital step](/img/illustraties/compare.svg)
+![A technician holds an iPad up to a control room; the screen shows AR work instruction steps for work instruction comparison](/images/compare-1600.webp)
 
 ## Why is choosing the right setup so hard?
 

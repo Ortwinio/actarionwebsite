@@ -13,8 +13,8 @@ h1: "Partners van Actarion: technologie en implementatie"
 keyword_primary: "partners ar-werkinstructies"
 keywords_secondary: ["deepsight partner europa", "implementatiepartner connected worker"]
 schema: ["CollectionPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/partners.svg
-image_alt: "Pentekening: tablet met cyane stapkaart in het midden van een partnernetwerk met tandwiel, AR-bril, document en skills matrix"
+image: /images/partners-1600.webp
+image_alt: "Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor partners ar-werkinstructies boven een schakelkast"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Actarion combineert één technologieplatform met lokale implementatiepartners. DeepSight levert het AR- en AI-platform voor digitale werkinstructies. Hardware van Apple, Microsoft en Google brengt de instructies naar het werk. Potentify (HR en vaardigheden) en Simply Change (verandermanagement) zorgen dat de nieuwe werkwijze op de werkvloer blijft hangen.
 
-![Pentekening: tablet met cyane stapkaart in het midden van een partnernetwerk met tandwiel, AR-bril, document en skills matrix](/img/illustraties/partners.svg)
+![Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor partners ar-werkinstructies boven een schakelkast](/images/partners-1600.webp)
 
 ## Waarom stranden AR-projecten na de demo?
 

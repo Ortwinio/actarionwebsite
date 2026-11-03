@@ -13,8 +13,8 @@ h1: "Whitepapers on AR and AI work instructions"
 keyword_primary: "ar work instructions whitepaper"
 keywords_secondary: ["connected worker whitepaper", "digital sop whitepaper"]
 schema: ["CollectionPage", "BreadcrumbList"]
-image: /img/illustraties/resources-whitepapers.svg
-image_alt: "Pen drawing: stack of whitepapers with a cyan diagram area and a download arrow"
+image: /images/resources-whitepapers-1600.webp
+image_alt: "A technician holds an iPad up to process equipment; the screen shows AR work instruction steps for ar work instructions whitepaper"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Actarion whitepapers give operations, quality and HR leaders in-depth background on AI-generated, AR-guided work instructions. They cover the business case, compliance and audit trails, skills management and scaling from pilot to multiple sites. Each whitepaper is a free download and links to practical templates and the pilot approach.
 
-![Pen drawing: stack of whitepapers with a cyan diagram area and a download arrow](/img/illustraties/resources-whitepapers.svg)
+![A technician holds an iPad up to process equipment; the screen shows AR work instruction steps for ar work instructions whitepaper](/images/resources-whitepapers-1600.webp)
 
 ## What do decision makers ask before a pilot?
 

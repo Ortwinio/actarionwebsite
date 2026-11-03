@@ -13,8 +13,8 @@ h1: "HoloLens 2 alternatief: houd je AR-werkinstructies draaiende"
 keyword_primary: "hololens"
 keywords_secondary: ["hololens 2 alternatief", "hololens 2 einde", "hololens migratie"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/hardware-hololens.svg
-image_alt: "Pentekening: werkinstructies verhuizen van een oude AR-bril naar een tablet en een nieuwe headset"
+image: /images/hardware-hololens-1600.webp
+image_alt: "Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor hololens boven een productiehal"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Microsoft is gestopt met de productie van HoloLens 2 en levert beveiligingsupdates tot 31 december 2027. Teams die met de HoloLens werken, hebben vóór die datum een alternatief nodig. Actarion helpt je AR-werkinstructies te verhuizen naar tablets, Apple Vision Pro of Android XR-apparaten, en blijft HoloLens 2 gebruiken waar die nog draait.
 
-![Pentekening: werkinstructies verhuizen van een oude AR-bril naar een tablet en een nieuwe headset](/img/illustraties/hardware-hololens.svg)
+![Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor hololens boven een productiehal](/images/hardware-hololens-1600.webp)
 
 ## Wat betekent het einde van HoloLens 2 voor jou?
 

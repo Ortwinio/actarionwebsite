@@ -13,8 +13,8 @@ h1: "AR work instructions pilot in four phases"
 keyword_primary: "ar work instructions pilot"
 keywords_secondary: ["connected worker pilot", "digital work instructions implementation"]
 schema: ["Service", "HowTo", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/pilot.svg
-image_alt: "Pen drawing: four rising steps from briefing via discovery and pilot to scale-up with several tablets"
+image: /images/pilot-1600.webp
+image_alt: "A technician holds an iPad up to a robotic assembly line; the screen shows AR work instruction steps for ar work instructions pilot"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > An Actarion pilot proves the value of AI-generated, AR-guided work instructions on one line or site before you scale. It runs in four phases: a future-of-work briefing, use case discovery, a pilot with fixed KPIs and scale-up with enablement of your own team. You start with a free intake call.
 
-![Pen drawing: four rising steps from briefing via discovery and pilot to scale-up with several tablets](/img/illustraties/pilot.svg)
+![A technician holds an iPad up to a robotic assembly line; the screen shows AR work instruction steps for ar work instructions pilot](/images/pilot-1600.webp)
 
 ## Why do many digitization pilots fail?
 

@@ -13,8 +13,8 @@ h1: "Potentify: HR-partner voor leren en vaardigheden met AR"
 keyword_primary: "ar inwerken hr-partner"
 keywords_secondary: ["skills matrix", "inwerktijd verkorten"]
 schema: ["Organization", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/partners-potentify.svg
-image_alt: "Pentekening: skills matrix met één cyane cel en een opgaande trap als leerpad"
+image: /images/partners-potentify-1600.webp
+image_alt: "Een telefoon voor procesinstallaties toont AR-stappen en een bevestigde controle voor ar inwerken hr-partner"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Potentify is de HR-implementatiepartner van Actarion voor leren en vaardigheden. Samen verbinden ze werkinstructies met AI en AR aan HR-, leer- en talentstrategie: inwerken met AR om sneller bekwaam te zijn, trainingsdata uit AR gekoppeld aan leerregistratie, en skills-programma's die AR-taken als bewijs gebruiken.
 
-![Pentekening: skills matrix met één cyane cel en een opgaande trap als leerpad](/img/illustraties/partners-potentify.svg)
+![Een telefoon voor procesinstallaties toont AR-stappen en een bevestigde controle voor ar inwerken hr-partner](/images/partners-potentify-1600.webp)
 
 ## Waarom blijft training op de werkvloer los van HR?
 

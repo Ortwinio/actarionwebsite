@@ -13,8 +13,8 @@ h1: "Gratis templates en checklists voor productie en onderhoud"
 keyword_primary: "templates productie"
 keywords_secondary: ["werkinstructie template", "checklist onderhoud", "competentiematrix template"]
 schema: ["CollectionPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates.svg
-image_alt: "Pentekening van papieren templates voor productie op een bureau naast een tablet met dezelfde checklist digitaal"
+image: /images/resources-templates-1600.webp
+image_alt: "Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor templates productie boven een bedieningspaneel"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Deze gratis templates voor productie dekken de documenten die elke fabriek nodig heeft: werkinstructie, SOP, preventief onderhoud, LOTO, SMED-omstellen, line clearance, kwaliteitsinspectie, 5S, opstartchecks, competentiematrix, inwerken en kennisoverdracht. Elke pagina toont de volledige template, een invulinstructie en een voorbeeld. Actarion maakt er digitale werkinstructies met AR-begeleiding en audit trail van.
 
-![Pentekening van papieren templates voor productie op een bureau naast een tablet met dezelfde checklist digitaal](/img/illustraties/resources-templates.svg)
+![Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor templates productie boven een bedieningspaneel](/images/resources-templates-1600.webp)
 
 ## Waarom werken documenten op de werkvloer vaak niet?
 

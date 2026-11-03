@@ -13,8 +13,8 @@ h1: "Competentiematrix maken: zo bouw je een skills matrix voor productie"
 keyword_primary: "competentiematrix"
 keywords_secondary: ["skills matrix", "bekwaamheidsmatrix", "competentiematrix template"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-skills-matrix-guide.svg
-image_alt: "Competentiematrix op een scherm: medewerkers tegen taken met bevoegde cellen gemarkeerd"
+image: /images/blog-skills-matrix-guide-1600.webp
+image_alt: "Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor competentiematrix"
 cta: template
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Een competentiematrix (skills matrix) is een overzicht dat laat zien welke medewerker voor welke taak bevoegd is, en op welk niveau. Je plant er ploegen mee, ziet waar kennis bij één persoon zit en richt training gericht in. Actarion houdt de competentiematrix automatisch actueel: elke begeleide uitvoering van een digitale werkinstructie telt als bewijs.
 
-![Competentiematrix op een scherm: medewerkers tegen taken met bevoegde cellen gemarkeerd](/img/illustraties/blog-skills-matrix-guide.svg)
+![Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor competentiematrix](/images/blog-skills-matrix-guide-1600.webp)
 
 **Inhoud**
 - [Waarom heb je een competentiematrix nodig?](#waarom-heb-je-een-competentiematrix-nodig)

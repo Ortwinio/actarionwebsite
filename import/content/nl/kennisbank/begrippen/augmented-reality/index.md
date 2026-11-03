@@ -13,8 +13,8 @@ h1: "Wat is augmented reality (AR) in de industrie?"
 keyword_primary: "wat is augmented reality"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-augmented-reality.svg
-image_alt: "Pentekening bij het begrip augmented reality"
+image: /images/resources-glossary-augmented-reality-1600.webp
+image_alt: "Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor wat is augmented reality boven een robotlijn"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Augmented reality (AR) legt digitale informatie, zoals pijlen, labels of 3D-modellen, over de echte wereld, zichtbaar via de camera van een tablet of een AR-bril. In de industrie laat AR operators precies zien waar en hoe ze moeten handelen. Actarion gebruikt AR om werkinstructies stap voor stap op de echte machine te tonen.
 
-![Pentekening bij het begrip augmented reality](/img/illustraties/resources-glossary-augmented-reality.svg)
+![Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor wat is augmented reality boven een robotlijn](/images/resources-glossary-augmented-reality-1600.webp)
 
 ## Waarom is dit belangrijk op de werkvloer?
 

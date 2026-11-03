@@ -13,8 +13,8 @@ h1: "Begrippenlijst: werkvloer-, kwaliteits- en AR-termen uitgelegd"
 keyword_primary: "begrippenlijst productie"
 keywords_secondary: []
 schema: ["DefinedTermSet", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary.svg
-image_alt: "Pentekening van een open begrippenboek met een cyaan bladwijzer"
+image: /images/resources-glossary-1600.webp
+image_alt: "Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor begrippenlijst productie"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Deze begrippenlijst legt de termen uit die productie-, kwaliteits- en HSE-teams dagelijks gebruiken, van SOP en SMED tot LOTO, GMP en augmented reality. Elk begrip krijgt een korte definitie, een voorbeeld van de werkvloer en verwante termen. Actarion gebruikt deze begrippen om SOP's om te zetten in digitale werkinstructies met AR.
 
-![Pentekening van een open begrippenboek met een cyaan bladwijzer](/img/illustraties/resources-glossary.svg)
+![Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor begrippenlijst productie](/images/resources-glossary-1600.webp)
 
 ## Waarom een gedeelde woordenschat?
 

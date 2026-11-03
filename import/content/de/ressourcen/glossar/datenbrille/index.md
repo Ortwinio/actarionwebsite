@@ -13,8 +13,8 @@ h1: "Was ist eine Datenbrille? Industrieeinsatz"
 keyword_primary: "was ist eine datenbrille"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-smart-glasses.svg
-image_alt: "Federzeichnung zum Begriff Datenbrille"
+image: /images/resources-glossary-smart-glasses-1600.webp
+image_alt: "Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für was ist eine datenbrille über einen Schaltschrank"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Eine Datenbrille, Smart Glasses, ist ein tragbares Gerät, das digitale Informationen im Sichtfeld anzeigt, sodass beide Hände frei bleiben. Die Bandbreite reicht vom kleinen Display neben dem Auge bis zum vollwertigen AR-Headset. Actarion nutzt Datenbrillen und Headsets für freihändige Arbeitsanweisungen und Remote-Experten-Support.
 
-![Federzeichnung zum Begriff Datenbrille](/img/illustraties/resources-glossary-smart-glasses.svg)
+![Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für was ist eine datenbrille über einen Schaltschrank](/images/resources-glossary-smart-glasses-1600.webp)
 
 ## Warum ist das in der Fertigung wichtig?
 

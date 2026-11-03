@@ -13,8 +13,8 @@ h1: "Onze visie: begeleid werken in plaats van documenten"
 keyword_primary: "toekomst van werk industrie"
 keywords_secondary: ["begeleid werken", "visie ar-werkinstructies"]
 schema: ["AboutPage", "BreadcrumbList"]
-image: /img/illustraties/company-vision.svg
-image_alt: "Pentekening: pad van een papieren SOP via een tablet naar een netwerk van verbonden locaties"
+image: /images/company-vision-1600.webp
+image_alt: "Een telefoon voor procesinstallaties toont AR-stappen en een bevestigde controle voor toekomst van werk industrie"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > De visie van Actarion is complex industrieel werk eenvoudiger en slimmer maken met AI en augmented reality. Operators doen kritieke taken in één keer goed, kennis wordt vastgelegd en gedeeld, en training gebeurt tijdens het werk zelf. Mensen staan voorop: technologie haalt frictie weg zodat mensen zelfstandiger werken, niet om hen te vervangen.
 
-![Pentekening: pad van een papieren SOP via een tablet naar een netwerk van verbonden locaties](/img/illustraties/company-vision.svg)
+![Een telefoon voor procesinstallaties toont AR-stappen en een bevestigde controle voor toekomst van werk industrie](/images/company-vision-1600.webp)
 
 ## Waarom moet de manier van kennis overdragen veranderen?
 

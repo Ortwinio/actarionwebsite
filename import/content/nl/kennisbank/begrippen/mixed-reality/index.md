@@ -13,8 +13,8 @@ h1: "Wat is mixed reality? Verschil met AR en VR"
 keyword_primary: "wat is mixed reality"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-mixed-reality.svg
-image_alt: "Pentekening bij het begrip mixed reality"
+image: /images/resources-glossary-mixed-reality-1600.webp
+image_alt: "Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor wat is mixed reality boven een controlekamer"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Mixed reality (MR) mengt digitale content met de fysieke wereld, zodat hologrammen op hun plek blijven en reageren op echte oppervlakken en handen. Headsets zoals de Apple Vision Pro en HoloLens 2 leveren MR. Actarion gebruikt mixed reality-headsets voor handsfree werkinstructies, training en remote ondersteuning.
 
-![Pentekening bij het begrip mixed reality](/img/illustraties/resources-glossary-mixed-reality.svg)
+![Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor wat is mixed reality boven een controlekamer](/images/resources-glossary-mixed-reality-1600.webp)
 
 ## Waarom is dit belangrijk op de werkvloer?
 

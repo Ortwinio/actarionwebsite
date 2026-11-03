@@ -13,8 +13,8 @@ h1: "Preventief onderhoud checklist: gratis template voor machines"
 keyword_primary: "preventief onderhoud checklist"
 keywords_secondary: ["onderhoudschecklist", "checklist onderhoud machine", "preventief onderhoud"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-preventive-maintenance-checklist.svg
-image_alt: "Pentekening van een pomp met gemarkeerd lager naast een tablet met een preventief onderhoud checklist"
+image: /images/resources-templates-preventive-maintenance-checklist-1600.webp
+image_alt: "Een telefoon voor procesinstallaties toont AR-stappen en een bevestigde controle voor preventief onderhoud checklist"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een preventief onderhoud checklist bevat de inspecties, smeerbeurten, afstellingen en vervangingen die een installatie draaiende houden, per frequentie, met normen en aftekening. Deze gratis checklist dekt dagelijkse tot jaarlijkse taken voor machines met motoren, aandrijvingen, hydrauliek en pneumatiek. Actarion maakt er onderhoudstaken met AR-begeleiding en automatische registratie van.
 
-![Pentekening van een pomp met gemarkeerd lager naast een tablet met een preventief onderhoud checklist](/img/illustraties/resources-templates-preventive-maintenance-checklist.svg)
+![Een telefoon voor procesinstallaties toont AR-stappen en een bevestigde controle voor preventief onderhoud checklist](/images/resources-templates-preventive-maintenance-checklist-1600.webp)
 
 ## Waarom mist preventief onderhoud toch storingen?
 

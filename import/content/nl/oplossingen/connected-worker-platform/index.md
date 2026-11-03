@@ -13,8 +13,8 @@ h1: "Connected worker: instructies, vaardigheden en experts op één plek"
 keyword_primary: "connected worker"
 keywords_secondary: ["connected worker platform", "connected worker software"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/solutions-connected-worker-platform.svg
-image_alt: "Pentekening: AR-bril als middelpunt van een connected worker platform, verbonden met machine, dashboard en remote expert"
+image: /images/solutions-connected-worker-platform-1600.webp
+image_alt: "Een technicus houdt een iPad voor een controlekamer; op het scherm verschijnen AR-werkinstructies voor connected worker"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een connected worker platform verbindt medewerkers op de werkvloer met de instructies, mensen en data die ze nodig hebben tijdens het werk. Het connected worker platform van Actarion combineert AI-werkinstructies, AR-begeleiding op tablet of AR-bril, een competentiematrix, remote ondersteuning en een audit trail. Zo werkt elke operator op de juiste manier.
 
-![Pentekening: AR-bril als middelpunt van een connected worker platform, verbonden met machine, dashboard en remote expert](/img/illustraties/solutions-connected-worker-platform.svg)
+![Een technicus houdt een iPad voor een controlekamer; op het scherm verschijnen AR-werkinstructies voor connected worker](/images/solutions-connected-worker-platform-1600.webp)
 
 ## Waarom werkt de werkvloer nog steeds los van de rest?
 

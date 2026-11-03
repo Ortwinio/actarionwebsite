@@ -13,8 +13,8 @@ h1: "What Are Smart Glasses? Industrial Use"
 keyword_primary: "what are smart glasses"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-smart-glasses.svg
-image_alt: "Pen drawing for the glossary term smart glasses: smart glasses showing a small step card in the lens"
+image: /images/resources-glossary-smart-glasses-1600.webp
+image_alt: "A worker wearing Apple Vision Pro sees floating SOP panels for what are smart glasses over an electrical cabinet"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Smart glasses are wearable devices that show digital information in the user's field of view, keeping both hands free. They range from simple monocular displays to full AR headsets. Actarion uses smart glasses and headsets for hands-free work instructions and remote expert support.
 
-![Pen drawing for the glossary term smart glasses: smart glasses showing a small step card in the lens](/img/illustraties/resources-glossary-smart-glasses.svg)
+![A worker wearing Apple Vision Pro sees floating SOP panels for what are smart glasses over an electrical cabinet](/images/resources-glossary-smart-glasses-1600.webp)
 
 ## Why does it matter on the shop floor?
 

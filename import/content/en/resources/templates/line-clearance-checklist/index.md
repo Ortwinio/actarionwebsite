@@ -13,8 +13,8 @@ h1: "Line Clearance Checklist: Free GMP Template for Batch Changes"
 keyword_primary: "line clearance checklist"
 keywords_secondary: ["line clearance gmp", "line clearance pharma", "packaging line clearance sop"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-line-clearance-checklist.svg
-image_alt: "Pen drawing of an empty packaging line with one highlighted leftover carton, a clipboard and a tablet showing the line clearance checklist"
+image: /images/resources-templates-line-clearance-checklist-1600.webp
+image_alt: "A phone held up to a conveyor line shows AR steps and a confirmed check for line clearance checklist"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > A line clearance checklist confirms that a production or packaging line is free of materials, labels, product and documents from the previous batch before the next batch starts. Line clearance prevents mix-ups, one of the main causes of recalls in pharma and food. This free line clearance checklist covers removal, cleaning, line-specific checks and independent QA verification.
 
-![Pen drawing of an empty packaging line with one highlighted leftover carton, a clipboard and a tablet showing the line clearance checklist](/img/illustraties/resources-templates-line-clearance-checklist.svg)
+![A phone held up to a conveyor line shows AR steps and a confirmed check for line clearance checklist](/images/resources-templates-line-clearance-checklist-1600.webp)
 
 ## Why do mix-ups still happen?
 

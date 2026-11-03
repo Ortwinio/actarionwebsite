@@ -13,8 +13,8 @@ h1: "Wartungsplan und vorbeugende Wartung: jeder Schritt mit AR"
 keyword_primary: "wartungsplan"
 keywords_secondary: ["vorbeugende wartung", "instandhaltung ar", "wartungsanweisung digital"]
 schema: ["Service", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/use-cases-preventive-maintenance.svg
-image_alt: "Federzeichnung einer Pumpe und eines Ventils mit AR-Markierung und Wartungsplan"
+image: /images/use-cases-preventive-maintenance-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor Prozessanlagen; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für wartungsplan"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Ein Wartungsplan legt fest, welche Instandhaltungsaufgaben an welcher Anlage in welchem Intervall erfolgen. Actarion setzt Ihren Wartungsplan in der Praxis um: Die vorbeugende Wartung wird zur Schritt-für-Schritt-Anweisung mit AR an der Anlage, Messwerte werden direkt erfasst, und jeder Auftrag hinterlässt ein vollständiges digitales Protokoll.
 
-![Federzeichnung einer Pumpe und eines Ventils mit AR-Markierung und Wartungsplan](/img/illustraties/use-cases-preventive-maintenance.svg)
+![Ein Techniker hält ein iPad vor Prozessanlagen; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für wartungsplan](/images/use-cases-preventive-maintenance-1600.webp)
 
 ## Warum geht bei der vorbeugenden Wartung noch etwas verloren?
 

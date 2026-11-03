@@ -13,8 +13,8 @@ h1: "Inwerkprogramma met AR: nieuwe medewerkers sneller zelfstandig"
 keyword_primary: "inwerkprogramma"
 keywords_secondary: ["inwerken nieuwe medewerkers", "ar training", "training op de werkvloer"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/solutions-frontline-training.svg
-image_alt: "Pentekening: een bedieningspaneel met AR-pijl voor de draairichting en een stapkaart, gekoppeld aan een competentiematrix"
+image: /images/solutions-frontline-training-1600.webp
+image_alt: "Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor inwerkprogramma"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een inwerkprogramma met AR laat nieuwe medewerkers op de echte machine leren, met elke stap in beeld via tablet of AR-bril. Actarion combineert AR-training met AI-werkinstructies en een actuele competentiematrix. Zo gaat het inwerken van nieuwe medewerkers sneller, werkt iedereen op dezelfde manier en is elke training vastgelegd.
 
-![Pentekening: een bedieningspaneel met AR-pijl voor de draairichting en een stapkaart, gekoppeld aan een competentiematrix](/img/illustraties/solutions-frontline-training.svg)
+![Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor inwerkprogramma](/images/solutions-frontline-training-1600.webp)
 
 ## Waarom duurt inwerken op de werkvloer zo lang?
 

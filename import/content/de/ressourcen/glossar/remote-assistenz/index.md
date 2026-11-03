@@ -13,8 +13,8 @@ h1: "Was ist Remote-Assistenz? Definition und Nutzen"
 keyword_primary: "was ist remote assistenz"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-remote-assistance.svg
-image_alt: "Federzeichnung zum Begriff Remote-Assistenz"
+image: /images/resources-glossary-remote-assistance-1600.webp
+image_alt: "Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für was ist remote assistenz über eine Hochspannungsleitung"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Remote-Assistenz ist Live-Unterstützung, bei der ein Experte aus der Ferne über Tablet, Smartphone oder Datenbrille mitsieht und den Techniker per Sprache, Zeichnungen oder AR-Markierungen anleitet. Das spart Reisezeit, Kosten und Stillstand der Anlage. Actarion bietet Remote-Assistenz auf derselben Plattform wie die Arbeitsanweisungen.
 
-![Federzeichnung zum Begriff Remote-Assistenz](/img/illustraties/resources-glossary-remote-assistance.svg)
+![Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für was ist remote assistenz über eine Hochspannungsleitung](/images/resources-glossary-remote-assistance-1600.webp)
 
 ## Warum ist das in der Fertigung wichtig?
 

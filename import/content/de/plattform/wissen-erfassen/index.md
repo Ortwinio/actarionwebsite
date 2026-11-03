@@ -13,8 +13,8 @@ h1: "Expertenwissen erfassen, bevor es in Rente geht"
 keyword_primary: "Expertenwissen erfassen"
 keywords_secondary: ["Wissenstransfer Produktion", "Erfahrungswissen sichern", "demografischer Wandel Fertigung"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/platform-knowledge-capture.svg
-image_alt: "Federzeichnung: Ein Tablet auf einem Stativ zeichnet einen Arbeitsschritt an einer Maschine auf und erzeugt Schrittkarten"
+image: /images/platform-knowledge-capture-1600.webp
+image_alt: "Ein Smartphone vor eine Produktionshalle zeigt AR-Schritte und eine bestätigte Prüfung für Expertenwissen erfassen"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Expertenwissen erfassen heißt festzuhalten, wie erfahrene Mitarbeiter eine Tätigkeit wirklich ausführen, einschließlich der Kniffe, die in keinem Handbuch stehen. Mit Actarion zeichnet ein Experte die Tätigkeit während der echten Arbeit auf, per Tablet oder AR-Brille. KI macht daraus eine Schritt-für-Schritt-Arbeitsanweisung, der neue Kollegen mit AR-Werkerführung folgen.
 
-![Federzeichnung: Ein Tablet auf einem Stativ zeichnet einen Arbeitsschritt an einer Maschine auf und erzeugt Schrittkarten](/img/illustraties/platform-knowledge-capture.svg)
+![Ein Smartphone vor eine Produktionshalle zeigt AR-Schritte und eine bestätigte Prüfung für Expertenwissen erfassen](/images/platform-knowledge-capture-1600.webp)
 
 ## Was passiert, wenn Ihre Experten gehen?
 

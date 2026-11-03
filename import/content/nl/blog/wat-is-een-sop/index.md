@@ -13,8 +13,8 @@ h1: "Wat is een SOP? Betekenis, opbouw en voorbeeld"
 keyword_primary: "sop"
 keywords_secondary: ["standaard werkprocedure", "wat is een sop", "sop betekenis"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-what-is-an-sop.svg
-image_alt: "Wat is een SOP: ordner en SOP-document met auditvinkje naast een tablet met dashboard"
+image: /images/blog-what-is-an-sop-1600.webp
+image_alt: "Een telefoon voor een productiehal toont AR-stappen en een bevestigde controle voor sop"
 cta: template
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Een SOP (standard operating procedure, standaard werkprocedure) is een vastgestelde beschrijving van hoe een terugkerend proces moet verlopen, door wie en volgens welke norm. Een SOP maakt werk eenduidig, veilig en controleerbaar. Actarion zet bestaande SOP's met AI om in digitale stap-voor-stap instructies met AR-begeleiding, waarbij elke uitvoering wordt vastgelegd.
 
-![Wat is een SOP: ordner en SOP-document met auditvinkje naast een tablet met dashboard](/img/illustraties/blog-what-is-an-sop.svg)
+![Een telefoon voor een productiehal toont AR-stappen en een bevestigde controle voor sop](/images/blog-what-is-an-sop-1600.webp)
 
 **Inhoud**
 - [Waarom geven SOP's zoveel gedoe?](#waarom-geven-sops-zoveel-gedoe)

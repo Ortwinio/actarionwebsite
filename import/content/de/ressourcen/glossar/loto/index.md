@@ -13,8 +13,8 @@ h1: "Was ist LOTO? Lockout/Tagout erklärt"
 keyword_primary: "was ist loto"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-loto.svg
-image_alt: "Federzeichnung zum Begriff LOTO"
+image: /images/resources-glossary-loto-1600.webp
+image_alt: "Ein Smartphone vor eine Maschine mit Absperrhebel zeigt AR-Schritte und eine bestätigte Prüfung für was ist loto"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > LOTO, Lockout/Tagout, ist ein Sicherheitsverfahren, das eine Maschine von allen gefährlichen Energien trennt und verriegelt, damit sie bei Instandhaltung oder Reinigung nicht anlaufen kann. Jede Person setzt ein eigenes Schloss mit Anhänger. Actarion führt LOTO Schritt für Schritt auf Tablet oder AR-Brille und dokumentiert jede Trennstelle.
 
-![Federzeichnung zum Begriff LOTO](/img/illustraties/resources-glossary-loto.svg)
+![Ein Smartphone vor eine Maschine mit Absperrhebel zeigt AR-Schritte und eine bestätigte Prüfung für was ist loto](/images/resources-glossary-loto-1600.webp)
 
 ## Warum ist das in der Fertigung wichtig?
 

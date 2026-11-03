@@ -13,8 +13,8 @@ h1: "Wissenstransfer bei Fachkräftemangel: Erfahrungswissen sichern"
 keyword_primary: "Wissenstransfer"
 keywords_secondary: ["Wissenssicherung", "Erfahrungswissen sichern", "Fachkräftemangel Produktion"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-knowledge-transfer-manufacturing.svg
-image_alt: "Wissenstransfer: altes Handbuch per Kamera erfasst und zu Schrittkarten auf einem Tablet umgewandelt"
+image: /images/blog-knowledge-transfer-manufacturing-1600.webp
+image_alt: "Ein Smartphone vor eine Roboterlinie zeigt AR-Schritte und eine bestätigte Prüfung für Wissenstransfer"
 cta: template
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Wissenstransfer ist das systematische Erfassen und Weitergeben des Erfahrungswissens langjähriger Mitarbeiter, vor allem der ungeschriebenen Kniffe, damit andere die Arbeit im gleichen Standard ausführen. In der Produktion ist er dringend, weil die Babyboomer-Jahrgänge in Rente gehen. Actarion erfasst Expertenarbeit per Video, macht daraus mit KI digitale Arbeitsanweisungen und führt Nachfolger mit AR.
 
-![Wissenstransfer: altes Handbuch per Kamera erfasst und zu Schrittkarten auf einem Tablet umgewandelt](/img/illustraties/blog-knowledge-transfer-manufacturing.svg)
+![Ein Smartphone vor eine Roboterlinie zeigt AR-Schritte und eine bestätigte Prüfung für Wissenstransfer](/images/blog-knowledge-transfer-manufacturing-1600.webp)
 
 **Inhalt**
 - [Warum geht Wissen verloren?](#warum-geht-wissen-verloren)

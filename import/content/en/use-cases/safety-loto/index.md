@@ -13,8 +13,8 @@ h1: "Lockout tagout procedure: every isolation point, every time"
 keyword_primary: "lockout tagout procedure"
 keywords_secondary: ["loto procedure", "energy isolation", "machine specific loto"]
 schema: ["Service", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/use-cases-safety-loto.svg
-image_alt: "Pen drawing of a main switch with padlock and tag and a tablet showing the lockout tagout procedure steps"
+image: /images/use-cases-safety-loto-1600.webp
+image_alt: "A phone held up to a machine with an isolation lever shows AR steps and a confirmed check for lockout tagout procedure"
 cta: template
 phase: 2
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > A lockout tagout procedure (LOTO) is the sequence for isolating all energy sources of a machine and securing them with a lock and tag before work starts. Actarion turns your machine-specific LOTO procedures into digital steps with AR: each isolation point is shown on the machine and every lock is confirmed and logged.
 
-![Pen drawing of a main switch with padlock and tag and a tablet showing the lockout tagout procedure steps](/img/illustraties/use-cases-safety-loto.svg)
+![A phone held up to a machine with an isolation lever shows AR steps and a confirmed check for lockout tagout procedure](/images/use-cases-safety-loto-1600.webp)
 
 ## Where does LOTO fail in practice?
 

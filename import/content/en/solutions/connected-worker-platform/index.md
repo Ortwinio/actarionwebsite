@@ -13,8 +13,8 @@ h1: "Connected worker platform: one place for instructions, skills, experts"
 keyword_primary: "connected worker platform"
 keywords_secondary: ["connected worker", "connected worker software", "frontline worker app"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/solutions-connected-worker-platform.svg
-image_alt: "Pen drawing: AR glasses at the center of a connected worker platform, linked to a machine, a dashboard and a remote expert"
+image: /images/solutions-connected-worker-platform-1600.webp
+image_alt: "A technician holds an iPad up to a control room; the screen shows AR work instruction steps for connected worker platform"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > A connected worker platform links frontline workers to the instructions, people and data they need while they work. Actarion's connected worker platform combines AI-generated work instructions, AR guidance on tablet or AR glasses, a skills matrix, remote expert support and an audit trail, so every operator works the right way.
 
-![Pen drawing: AR glasses at the center of a connected worker platform, linked to a machine, a dashboard and a remote expert](/img/illustraties/solutions-connected-worker-platform.svg)
+![A technician holds an iPad up to a control room; the screen shows AR work instruction steps for connected worker platform](/images/solutions-connected-worker-platform-1600.webp)
 
 ## Why do frontline workers still work disconnected?
 

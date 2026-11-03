@@ -13,8 +13,8 @@ h1: "Actarion news: partnerships, projects and updates"
 keyword_primary: "actarion news"
 keywords_secondary: ["ar work instructions news", "deepsight europe news"]
 schema: ["CollectionPage", "BreadcrumbList"]
-image: /img/illustraties/company-news.svg
-image_alt: "Pen drawing: newsletter with a cyan image and a dashboard with bars"
+image: /images/company-news-1600.webp
+image_alt: "A technician holds an iPad up to process equipment; the screen shows AR work instruction steps for actarion news"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Actarion news covers partnerships, customer projects, events and product updates around AI-generated, AR-guided work instructions in Benelux, DACH and Nordics. Here you find announcements from Actarion and its technology partner DeepSight, plus links to webinars and trade fairs. For in-depth articles and how-tos, see the Actarion blog.
 
-![Pen drawing: newsletter with a cyan image and a dashboard with bars](/img/illustraties/company-news.svg)
+![A technician holds an iPad up to process equipment; the screen shows AR work instruction steps for actarion news](/images/company-news-1600.webp)
 
 ## What is the latest news?
 

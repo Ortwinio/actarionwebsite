@@ -13,8 +13,8 @@ h1: "Karriere bei Actarion: AR und KI in der Produktion gestalten"
 keyword_primary: "ar developer jobs"
 keywords_secondary: ["sales engineer ar", "product manager connected worker"]
 schema: ["CollectionPage", "JobPosting", "BreadcrumbList"]
-image: /img/illustraties/company-careers.svg
-image_alt: "Federzeichnung: Werkzeugkiste, Laptop mit Code und cyanfarbenem Bildschirm sowie eine AR-Brille"
+image: /images/company-careers-1600.webp
+image_alt: "Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für ar developer jobs über eine Produktionshalle"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Actarion ist ein kleines, unternehmerisches Team, das verändert, wie Werke und Außendienstteams in Europa arbeiten. Sie übernehmen früh Verantwortung, haben Raum zum Experimentieren und kurze Feedbackwege. Offene Stellen sind AR Developer in Deutschland, Sales Engineer in den Niederlanden und Product Manager in der Schweiz.
 
-![Federzeichnung: Werkzeugkiste, Laptop mit Code und cyanfarbenem Bildschirm sowie eine AR-Brille](/img/illustraties/company-careers.svg)
+![Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für ar developer jobs über eine Produktionshalle](/images/company-careers-1600.webp)
 
 ## Welche Stellen sind offen?
 

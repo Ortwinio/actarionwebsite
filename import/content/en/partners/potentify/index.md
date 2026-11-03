@@ -13,8 +13,8 @@ h1: "Potentify: HR partner for AR learning and skills"
 keyword_primary: "ar onboarding hr partner"
 keywords_secondary: ["skills matrix", "time to competence"]
 schema: ["Organization", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/partners-potentify.svg
-image_alt: "Pen drawing: skills matrix with one cyan cell and a rising staircase as a learning path"
+image: /images/partners-potentify-1600.webp
+image_alt: "A phone held up to process equipment shows AR steps and a confirmed check for ar onboarding hr partner"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Potentify is Actarion's HR implementation partner for learning and skills. Together they connect AI- and AR-guided work instructions to HR, learning and talent strategy: AR-enabled onboarding that aims to shorten time to competence, AR training data linked to learning records, and skills programs that use AR tasks as evidence.
 
-![Pen drawing: skills matrix with one cyan cell and a rising staircase as a learning path](/img/illustraties/partners-potentify.svg)
+![A phone held up to process equipment shows AR steps and a confirmed check for ar onboarding hr partner](/images/partners-potentify-1600.webp)
 
 ## Why does shop-floor training stay disconnected from HR?
 

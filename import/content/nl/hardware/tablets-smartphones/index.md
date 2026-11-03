@@ -13,8 +13,8 @@ h1: "Werkinstructies op tablet en smartphone: de praktische start"
 keyword_primary: "werkinstructies op tablet"
 keywords_secondary: ["tablet werkinstructies", "mobiele werkinstructies", "AR op tablet"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/hardware-tablets-smartphones.svg
-image_alt: "Pentekening: een tablet aan een arm naast een transportband en een smartphone met een cyaan stapkaart"
+image: /images/hardware-tablets-smartphones-1600.webp
+image_alt: "Een technicus houdt een iPad voor een schakelkast; op het scherm verschijnen AR-werkinstructies voor werkinstructies op tablet"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Werkinstructies op tablet zijn digitale stap-voor-stap-procedures die je toont op een tablet aan de werkplek of meeneemt naar de klus. De meeste klanten van Actarion beginnen op tablets: bekend, betaalbaar en geschikt voor AR via de camera. Smartphones dekken buitendienst en snelle checks. Een AR-bril voeg je later toe voor handsfree taken.
 
-![Pentekening: een tablet aan een arm naast een transportband en een smartphone met een cyaan stapkaart](/img/illustraties/hardware-tablets-smartphones.svg)
+![Een technicus houdt een iPad voor een schakelkast; op het scherm verschijnen AR-werkinstructies voor werkinstructies op tablet](/images/hardware-tablets-smartphones-1600.webp)
 
 ## Waarom beginnen op een tablet?
 

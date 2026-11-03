@@ -13,8 +13,8 @@ h1: "Montage-instructies die fouten voorkomen, bij elke variant"
 keyword_primary: "montage-instructies"
 keywords_secondary: ["digitale montage-instructie", "ar assemblage", "first time right"]
 schema: ["Service", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/use-cases-assembly.svg
-image_alt: "Pentekening van een assemblage waarbij AR volgens de montage-instructies de volgende bout markeert"
+image: /images/use-cases-assembly-1600.webp
+image_alt: "Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor montage-instructies boven een robotlijn"
 cta: intake
 phase: 2
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Montage-instructies beschrijven stap voor stap hoe je een product of module goed samenbouwt. Actarion zet je bestaande montage-instructies om in digitale stappen met AR-begeleiding: de monteur ziet welk onderdeel waar komt, in welke volgorde en met welk aanhaalmoment. Elke bouw wordt vastgelegd, dus kwaliteit kan elk product herleiden.
 
-![Pentekening van een assemblage waarbij AR volgens de montage-instructies de volgende bout markeert](/img/illustraties/use-cases-assembly.svg)
+![Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor montage-instructies boven een robotlijn](/images/use-cases-assembly-1600.webp)
 
 ## Wat gaat er nu mis bij assemblage?
 

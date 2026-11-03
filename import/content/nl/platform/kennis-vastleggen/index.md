@@ -13,8 +13,8 @@ h1: "Kennis vastleggen van experts, voordat ze met pensioen gaan"
 keyword_primary: "kennis vastleggen"
 keywords_secondary: ["kennisoverdracht productie", "expertkennis borgen", "vergrijzing werkvloer"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/platform-knowledge-capture.svg
-image_alt: "Pentekening: een tablet op een statief neemt een handeling aan een machine op en zet die om in stapkaarten"
+image: /images/platform-knowledge-capture-1600.webp
+image_alt: "Een telefoon voor een productiehal toont AR-stappen en een bevestigde controle voor kennis vastleggen"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Kennis vastleggen is het opnemen van hoe ervaren medewerkers een klus echt doen, inclusief de trucs die in geen handboek staan. Met Actarion neemt een expert een taak op tijdens het werk, met een tablet of AR-bril. AI maakt van de opname een stap-voor-stap-werkinstructie die nieuwe collega's volgen met AR-begeleiding.
 
-![Pentekening: een tablet op een statief neemt een handeling aan een machine op en zet die om in stapkaarten](/img/illustraties/platform-knowledge-capture.svg)
+![Een telefoon voor een productiehal toont AR-stappen en een bevestigde controle voor kennis vastleggen](/images/platform-knowledge-capture-1600.webp)
 
 ## Wat gebeurt er als je experts vertrekken?
 

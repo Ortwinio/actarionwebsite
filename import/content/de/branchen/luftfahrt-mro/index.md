@@ -13,8 +13,8 @@ h1: "MRO-Arbeitsanweisungen für die Luftfahrt: rückverfolgbar je Schritt"
 keyword_primary: "mro arbeitsanweisungen"
 keywords_secondary: ["luftfahrt instandhaltung", "easa part-145", "rückverfolgbarkeit wartung"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/industries-aerospace-mro.svg
-image_alt: "Federzeichnung eines Strahltriebwerks mit AR-Markierung an einer Schaufel und eines Tablets mit Rückverfolgbarkeit für MRO-Arbeitsanweisungen"
+image: /images/industries-aerospace-mro-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor einen Flugzeughangar; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für mro arbeitsanweisungen"
 cta: intake
 phase: 2
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > MRO-Arbeitsanweisungen führen Techniker durch Instandhaltung, Reparatur und Überholung (Maintenance, Repair and Overhaul) von Luftfahrzeugen und Komponenten. Actarion wandelt Instandhaltungsdaten und interne Verfahren in geführte digitale Schritte mit AR am Bauteil um. Jeder Schritt wird mit Benutzer, Zeit und Nachweis abgezeichnet, was Rückverfolgbarkeit und die Dokumentationsanforderungen nach EASA Part-145 unterstützt.
 
-![Federzeichnung eines Strahltriebwerks mit AR-Markierung an einer Schaufel und eines Tablets mit Rückverfolgbarkeit für MRO-Arbeitsanweisungen](/img/illustraties/industries-aerospace-mro.svg)
+![Ein Techniker hält ein iPad vor einen Flugzeughangar; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für mro arbeitsanweisungen](/images/industries-aerospace-mro-1600.webp)
 
 ## Vor welchen Herausforderungen stehen MRO-Betriebe?
 

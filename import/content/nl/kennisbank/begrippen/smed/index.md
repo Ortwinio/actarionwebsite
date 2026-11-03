@@ -13,8 +13,8 @@ h1: "Wat is SMED? Omstelmethode uitgelegd"
 keyword_primary: "wat is smed"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-smed.svg
-image_alt: "Pentekening bij het begrip SMED"
+image: /images/resources-glossary-smed-1600.webp
+image_alt: "Een telefoon voor een robotlijn toont AR-stappen en een bevestigde controle voor wat is smed"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > SMED, of single-minute exchange of die, is een lean-methode om omsteltijd te verkorten. Je verplaatst werk naar vóór of na de machinestop en vereenvoudigt wat overblijft. Het doel is omstellen binnen tien minuten. Actarion ondersteunt SMED met digitale omstelinstructies met AR-begeleiding en tijdregistratie per stap.
 
-![Pentekening bij het begrip SMED](/img/illustraties/resources-glossary-smed.svg)
+![Een telefoon voor een robotlijn toont AR-stappen en een bevestigde controle voor wat is smed](/images/resources-glossary-smed-1600.webp)
 
 ## Waarom is dit belangrijk op de werkvloer?
 

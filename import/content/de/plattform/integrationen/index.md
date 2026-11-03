@@ -13,8 +13,8 @@ h1: "Integrationen mit SAP, MES und LMS für Arbeitsanweisungen"
 keyword_primary: "Integration Arbeitsanweisungen"
 keywords_secondary: ["SAP Anbindung", "MES Integration", "LMS Anbindung", "Power BI"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/platform-integrations.svg
-image_alt: "Federzeichnung: Ein Tablet mit Arbeitsanweisung ist mit einem Serverschrank, einem Dashboard und einer Maschine verbunden"
+image: /images/platform-integrations-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Leitwarte; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Integration Arbeitsanweisungen"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Die Integration von Arbeitsanweisungen bedeutet Datenaustausch zwischen Ihren digitalen Arbeitsanweisungen und vorhandenen Systemen wie ERP (zum Beispiel SAP), MES, LMS oder BI-Tools. Die Actarion-Plattform bietet CSV-Export und API-Anbindungen. Welche Systeme Sie wie anbinden, legen wir je Projekt im Pilotprojekt fest.
 
-![Federzeichnung: Ein Tablet mit Arbeitsanweisung ist mit einem Serverschrank, einem Dashboard und einer Maschine verbunden](/img/illustraties/platform-integrations.svg)
+![Ein Techniker hält ein iPad vor eine Leitwarte; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Integration Arbeitsanweisungen](/images/platform-integrations-1600.webp)
 
 ## Warum erzeugen Insellösungen Mehraufwand?
 

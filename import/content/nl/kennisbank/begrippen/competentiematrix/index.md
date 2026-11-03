@@ -13,8 +13,8 @@ h1: "Wat is een competentiematrix? Voorbeeld"
 keyword_primary: "wat is een competentiematrix"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-skills-matrix.svg
-image_alt: "Pentekening bij het begrip competentiematrix"
+image: /images/resources-glossary-skills-matrix-1600.webp
+image_alt: "Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor wat is een competentiematrix"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een competentiematrix (skills matrix) is een tabel die laat zien welke medewerkers voor welke taken of machines gekwalificeerd zijn, en op welk niveau. Hij helpt bij roosteren, opleiden en audits. Actarion houdt de competentiematrix actueel in de DeepSight-console, op basis van echte uitvoeringen van digitale werkinstructies.
 
-![Pentekening bij het begrip competentiematrix](/img/illustraties/resources-glossary-skills-matrix.svg)
+![Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor wat is een competentiematrix](/images/resources-glossary-skills-matrix-1600.webp)
 
 ## Waarom is dit belangrijk op de werkvloer?
 

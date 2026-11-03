@@ -13,8 +13,8 @@ h1: "SOP software: from paper SOP to digital SOP that people follow"
 keyword_primary: "sop software"
 keywords_secondary: ["digital sop", "ai sop generator", "sop management software"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/solutions-sop-software.svg
-image_alt: "Pen drawing from above: a stack of paper SOPs converted by AI into digital step cards on a tablet"
+image: /images/solutions-sop-software-1600.webp
+image_alt: "A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for sop software"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > SOP software is a system to write, approve, distribute and execute standard operating procedures digitally. Actarion's SOP software uses an AI SOP generator to convert your existing documents into digital SOPs, guides operators step by step with AR on tablet or AR glasses, and logs every execution for your audits.
 
-![Pen drawing from above: a stack of paper SOPs converted by AI into digital step cards on a tablet](/img/illustraties/solutions-sop-software.svg)
+![A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for sop software](/images/solutions-sop-software-1600.webp)
 
 ## Why do SOPs on paper cause problems?
 

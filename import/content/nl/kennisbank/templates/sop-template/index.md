@@ -13,8 +13,8 @@ h1: "SOP template voor productie: gratis en auditklaar"
 keyword_primary: "sop template"
 keywords_secondary: ["standard operating procedure", "sop voorbeeld", "procedure template"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-sop-template.svg
-image_alt: "Pentekening van ordners met SOP's en een stapel documenten naast een tablet met de SOP template als digitale stappen"
+image: /images/resources-templates-sop-template-1600.webp
+image_alt: "Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor sop template"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een SOP template (standard operating procedure) is een beheerst format dat een proces vastlegt: doel, scope, verantwoordelijkheden, processtappen, registraties en revisiehistorie. Deze gratis SOP template volgt de gangbare praktijk voor ISO 9001 en GMP. Gebruik hem om processen te standaardiseren. Actarion maakt er daarna digitale werkinstructies met AR-begeleiding van.
 
-![Pentekening van ordners met SOP's en een stapel documenten naast een tablet met de SOP template als digitale stappen](/img/illustraties/resources-templates-sop-template.svg)
+![Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor sop template](/images/resources-templates-sop-template-1600.webp)
 
 ## Waarom belanden SOP's in een ordner?
 

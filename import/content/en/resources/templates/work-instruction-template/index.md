@@ -13,8 +13,8 @@ h1: "Work Instruction Template: Free, Complete and With an Example"
 keyword_primary: "work instruction template"
 keywords_secondary: ["work instruction example", "work instructions format", "standard work instruction"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-work-instruction-template.svg
-image_alt: "Pen drawing of a work instruction template on a clipboard next to a tablet showing the same steps digitally"
+image: /images/resources-templates-work-instruction-template-1600.webp
+image_alt: "A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for work instruction template"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > A work instruction template is a fixed format that describes one task step by step: what to do, how to do it and why it matters. This free work instruction template contains a header, safety and tools section, a step table with key points, quality checks and sign-off. Actarion turns completed instructions into AR-guided digital steps.
 
-![Pen drawing of a work instruction template on a clipboard next to a tablet showing the same steps digitally](/img/illustraties/resources-templates-work-instruction-template.svg)
+![A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for work instruction template](/images/resources-templates-work-instruction-template-1600.webp)
 
 ## Why do work instructions get ignored?
 

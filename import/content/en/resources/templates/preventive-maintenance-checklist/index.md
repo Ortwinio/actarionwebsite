@@ -13,8 +13,8 @@ h1: "Preventive Maintenance Checklist: Free Template for Machines"
 keyword_primary: "preventive maintenance checklist"
 keywords_secondary: ["pm checklist", "machine maintenance checklist", "equipment maintenance checklist template"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-preventive-maintenance-checklist.svg
-image_alt: "Pen drawing of a pump with a highlighted bearing next to a tablet showing a preventive maintenance checklist"
+image: /images/resources-templates-preventive-maintenance-checklist-1600.webp
+image_alt: "A phone held up to process equipment shows AR steps and a confirmed check for preventive maintenance checklist"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > A preventive maintenance checklist lists the inspections, lubrication, adjustments and replacements that keep an asset running, grouped by frequency, with limits and sign-off. This free preventive maintenance checklist covers daily to annual tasks for machines with motors, drives, hydraulics and pneumatics. Actarion turns it into AR-guided PM tasks with an automatic record.
 
-![Pen drawing of a pump with a highlighted bearing next to a tablet showing a preventive maintenance checklist](/img/illustraties/resources-templates-preventive-maintenance-checklist.svg)
+![A phone held up to process equipment shows AR steps and a confirmed check for preventive maintenance checklist](/images/resources-templates-preventive-maintenance-checklist-1600.webp)
 
 ## Why does preventive maintenance still miss failures?
 

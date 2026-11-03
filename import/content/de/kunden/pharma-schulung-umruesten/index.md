@@ -13,8 +13,8 @@ h1: "Fallstudie Pharma: AR-Schulung fürs Rüsten in jeder Schicht"
 keyword_primary: "rüsten pharma schulung"
 keywords_secondary: ["gmp arbeitsanweisungen", "ar schulung pharma"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/customers-pharma-training-changeover.svg
-image_alt: "Federzeichnung: pharmazeutische Abfüllmaschine mit cyanfarbener AR-Markierung beim Rüsten, verbunden mit einem Tablet"
+image: /images/customers-pharma-training-changeover-1600.webp
+image_alt: "Ein Smartphone vor eine Roboterlinie zeigt AR-Schritte und eine bestätigte Prüfung für rüsten pharma schulung"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Ein internationales Pharmaunternehmen setzte AR-Arbeitsanweisungen ein, damit Nacht- und Wochenendschichten Rüstvorgänge ohne Experten vor Ort korrekt durchführen. Auf der DeepSight-Plattform entstanden 30 Schulungen für 350 Mitarbeitende, mit Wissenssicherung und Qualifikationsmanagement. Actarion bringt dieses Vorgehen an Pharma- und Biotech-Standorte in Europa.
 
-![Federzeichnung: pharmazeutische Abfüllmaschine mit cyanfarbener AR-Markierung beim Rüsten, verbunden mit einem Tablet](/img/illustraties/customers-pharma-training-changeover.svg)
+![Ein Smartphone vor eine Roboterlinie zeigt AR-Schritte und eine bestätigte Prüfung für rüsten pharma schulung](/images/customers-pharma-training-changeover-1600.webp)
 
 *Fallstudie realisiert mit Technologiepartner DeepSight. Zahlen wie von DeepSight veröffentlicht; Kunde anonymisiert.*
 

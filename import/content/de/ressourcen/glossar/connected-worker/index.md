@@ -13,8 +13,8 @@ h1: "Was ist ein Connected Worker? Definition"
 keyword_primary: "was ist ein connected worker"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-connected-worker.svg
-image_alt: "Federzeichnung zum Begriff Connected Worker"
+image: /images/resources-glossary-connected-worker-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor ein Lager; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für was ist ein connected worker"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Ein Connected Worker ist ein Mitarbeiter in Fertigung oder Service, der digitale Hilfsmittel wie Tablet, AR-Brille und Apps nutzt, um während der Tätigkeit Anweisungen, Daten und Expertenhilfe zu erhalten, und dessen Arbeit dokumentiert wird. Actarion liefert Connected-Worker-Lösungen: KI-Arbeitsanweisungen, AR-Werkerführung, Qualifikationsmanagement und Remote-Support.
 
-![Federzeichnung zum Begriff Connected Worker](/img/illustraties/resources-glossary-connected-worker.svg)
+![Ein Techniker hält ein iPad vor ein Lager; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für was ist ein connected worker](/images/resources-glossary-connected-worker-1600.webp)
 
 ## Warum ist das in der Fertigung wichtig?
 

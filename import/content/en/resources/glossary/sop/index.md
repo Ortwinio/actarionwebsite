@@ -13,8 +13,8 @@ h1: "What Is an SOP? Definition and Example"
 keyword_primary: "what is an sop"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-sop.svg
-image_alt: "Pen drawing for the glossary term SOP: SOP document turned into a digital step card"
+image: /images/resources-glossary-sop-1600.webp
+image_alt: "A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for what is an sop"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > An SOP, or standard operating procedure, is the approved, written description of how a recurring task must be done, by whom and with which checks. SOPs secure quality, safety and compliance. Actarion converts existing SOPs with AI into digital, step-by-step work instructions with AR guidance and an audit trail.
 
-![Pen drawing for the glossary term SOP: SOP document turned into a digital step card](/img/illustraties/resources-glossary-sop.svg)
+![A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for what is an sop](/images/resources-glossary-sop-1600.webp)
 
 ## Why does it matter on the shop floor?
 

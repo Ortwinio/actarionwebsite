@@ -13,8 +13,8 @@ h1: "Augmented Reality in der Industrie: Anwendungen mit echtem Nutzen"
 keyword_primary: "Augmented Reality Industrie"
 keywords_secondary: ["AR in der Fertigung", "AR Werkerführung", "Augmented Reality Instandhaltung"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-ar-in-manufacturing.svg
-image_alt: "Augmented Reality in der Industrie: Förderband mit AR-Rahmen und Schrittkarte über einem Produkt"
+image: /images/blog-ar-in-manufacturing-1600.webp
+image_alt: "Ein Smartphone vor eine Roboterlinie zeigt AR-Schritte und eine bestätigte Prüfung für Augmented Reality Industrie"
 cta: intake
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Augmented Reality in der Industrie bedeutet, dass digitale Informationen wie Arbeitsschritte, Pfeile oder Prüfungen über Tablet oder AR-Brille auf die reale Maschine oder das Produkt gelegt werden. Werker finden so das richtige Bauteil, folgen der richtigen Reihenfolge und dokumentieren ihre Arbeit. Actarion nutzt AR, um Ihre SOPs als geführte digitale Arbeitsanweisungen mit Audit-Trail auszuführen.
 
-![Augmented Reality in der Industrie: Förderband mit AR-Rahmen und Schrittkarte über einem Produkt](/img/illustraties/blog-ar-in-manufacturing.svg)
+![Ein Smartphone vor eine Roboterlinie zeigt AR-Schritte und eine bestätigte Prüfung für Augmented Reality Industrie](/images/blog-ar-in-manufacturing-1600.webp)
 
 **Inhalt**
 - [Welche Probleme löst AR?](#welche-probleme-lost-ar)

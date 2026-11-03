@@ -13,8 +13,8 @@ h1: "Whitepapers over werkinstructies met AR en AI"
 keyword_primary: "whitepaper ar-werkinstructies"
 keywords_secondary: ["whitepaper connected worker", "whitepaper digitale sop"]
 schema: ["CollectionPage", "BreadcrumbList"]
-image: /img/illustraties/resources-whitepapers.svg
-image_alt: "Pentekening: stapel whitepapers met een cyaan diagramvlak en een downloadpijl"
+image: /images/resources-whitepapers-1600.webp
+image_alt: "Een technicus houdt een iPad voor procesinstallaties; op het scherm verschijnen AR-werkinstructies voor whitepaper ar-werkinstructies"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > De whitepapers van Actarion geven operations-, kwaliteits- en HR-managers achtergrond bij AI-gegenereerde werkinstructies met AR-begeleiding. Ze behandelen de businesscase, compliance en audit trails, skills management en opschalen van pilot naar meerdere locaties. Elke whitepaper is gratis te downloaden en verwijst naar praktische templates en de pilot-aanpak.
 
-![Pentekening: stapel whitepapers met een cyaan diagramvlak en een downloadpijl](/img/illustraties/resources-whitepapers.svg)
+![Een technicus houdt een iPad voor procesinstallaties; op het scherm verschijnen AR-werkinstructies voor whitepaper ar-werkinstructies](/images/resources-whitepapers-1600.webp)
 
 ## Wat vragen beslissers vóór een pilot?
 

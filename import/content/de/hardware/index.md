@@ -13,8 +13,8 @@ h1: "Smart Glasses und AR Brille in der Industrie: je Aufgabe wählen"
 keyword_primary: "Smart Glasses"
 keywords_secondary: ["AR Brille", "AR Brille Industrie", "Datenbrille Produktion", "Arbeitsanweisung Tablet"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/hardware.svg
-image_alt: "Federzeichnung: Draufsicht auf Tablet, Smartphone, AR-Brille und Headset, jeweils mit cyanfarbener Arbeitsanweisung"
+image: /images/hardware-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor einen Schaltschrank; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Smart Glasses"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Smart Glasses, auch AR Brille oder Datenbrille genannt, sind am Kopf getragene Displays, die Arbeitsanweisungen ins Blickfeld des Werkers einblenden, sodass beide Hände frei bleiben. Sie sind nicht immer die beste Wahl. Actarion nutzt dieselben AR-Arbeitsanweisungen auf Tablets, Smartphones und AR-Headsets wie Apple Vision Pro, HoloLens 2 und Android-XR-Geräten und hilft, je Aufgabe das passende Gerät zu wählen.
 
-![Federzeichnung: Draufsicht auf Tablet, Smartphone, AR-Brille und Headset, jeweils mit cyanfarbener Arbeitsanweisung](/img/illustraties/hardware.svg)
+![Ein Techniker hält ein iPad vor einen Schaltschrank; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Smart Glasses](/images/hardware-1600.webp)
 
 ## Was geht schief, wenn man mit dem Gerät beginnt?
 

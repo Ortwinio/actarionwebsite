@@ -13,8 +13,8 @@ h1: "AR maintenance: preventive maintenance done right, every time"
 keyword_primary: "ar maintenance"
 keywords_secondary: ["preventive maintenance", "maintenance work instructions", "digital maintenance checklist"]
 schema: ["Service", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/use-cases-preventive-maintenance.svg
-image_alt: "Pen drawing of a pump and valve with an AR marker and a maintenance plan for AR maintenance"
+image: /images/use-cases-preventive-maintenance-1600.webp
+image_alt: "A technician holds an iPad up to process equipment; the screen shows AR work instruction steps for ar maintenance"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > AR maintenance means technicians see maintenance steps projected on the asset through a tablet or AR glasses. Actarion converts your preventive maintenance procedures into step-by-step AR instructions. Technicians follow the right sequence, record readings on the spot and leave a complete digital record for every job.
 
-![Pen drawing of a pump and valve with an AR marker and a maintenance plan for AR maintenance](/img/illustraties/use-cases-preventive-maintenance.svg)
+![A technician holds an iPad up to process equipment; the screen shows AR work instruction steps for ar maintenance](/images/use-cases-preventive-maintenance-1600.webp)
 
 ## Why does preventive maintenance still miss things?
 

@@ -13,8 +13,8 @@ h1: "Videos: AR work instructions in action"
 keyword_primary: "ar work instructions video"
 keywords_secondary: ["ar maintenance video", "digital work instructions demo"]
 schema: ["CollectionPage", "VideoObject", "BreadcrumbList"]
-image: /img/illustraties/resources-videos.svg
-image_alt: "Pen drawing: video screen with a machine and a cyan AR step card, with a timeline and a play button"
+image: /images/resources-videos-1600.webp
+image_alt: "A phone held up to a control room shows AR steps and a confirmed check for ar work instructions video"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > These short videos show AI-generated, AR-guided work instructions in real work: a changeover, a maintenance task, onboarding of a new operator and a quality inspection. You see how a paper SOP becomes a digital step card, how the operator follows it on a tablet or AR glasses, and how each step is logged.
 
-![Pen drawing: video screen with a machine and a cyan AR step card, with a timeline and a play button](/img/illustraties/resources-videos.svg)
+![A phone held up to a control room shows AR steps and a confirmed check for ar work instructions video](/images/resources-videos-1600.webp)
 
 ## What do you want to see before a demo?
 

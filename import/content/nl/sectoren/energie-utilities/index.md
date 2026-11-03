@@ -13,8 +13,8 @@ h1: "Werkinstructies voor energie en utilities: veilig in het veld"
 keyword_primary: "werkinstructies energie"
 keywords_secondary: ["veldwerk", "veiligheidsprocedures", "onderhoudsstop", "onderhoud onderstation"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/industries-energy-utilities.svg
-image_alt: "Pentekening van een transformator en hoogspanningsmast met AR-bril en stapkaart voor werkinstructies in de energiesector"
+image: /images/industries-energy-utilities-1600.webp
+image_alt: "Een technicus houdt een iPad voor een hoogspanningslijn; op het scherm verschijnen AR-werkinstructies voor werkinstructies energie"
 cta: intake
 phase: 2
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Energie- en utilitybedrijven beheren kritieke installaties op veel locaties, vaak met kleine ploegen. Actarion geeft monteurs digitale werkinstructies met AR voor onderhoud, afschakelen en inspecties. Elke klus wordt vastgelegd, zodat veiligheidsprocedures worden gevolgd en gedocumenteerd, ook op afgelegen locaties en tijdens stops.
 
-![Pentekening van een transformator en hoogspanningsmast met AR-bril en stapkaart voor werkinstructies in de energiesector](/img/illustraties/industries-energy-utilities.svg)
+![Een technicus houdt een iPad voor een hoogspanningslijn; op het scherm verschijnen AR-werkinstructies voor werkinstructies energie](/images/industries-energy-utilities-1600.webp)
 
 ## Met welke uitdagingen heeft de sector te maken?
 

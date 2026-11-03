@@ -13,8 +13,8 @@ h1: "Whitepaper zu Arbeitsanweisungen mit AR und KI"
 keyword_primary: "whitepaper ar arbeitsanweisungen"
 keywords_secondary: ["whitepaper connected worker", "whitepaper digitale sop"]
 schema: ["CollectionPage", "BreadcrumbList"]
-image: /img/illustraties/resources-whitepapers.svg
-image_alt: "Federzeichnung: Stapel Whitepaper mit einer cyanfarbenen Diagrammfläche und einem Download-Pfeil"
+image: /images/resources-whitepapers-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor Prozessanlagen; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für whitepaper ar arbeitsanweisungen"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Die Whitepaper von Actarion liefern Produktions-, Qualitäts- und HR-Verantwortlichen fundiertes Hintergrundwissen zu KI-erstellten, AR-geführten Arbeitsanweisungen. Sie behandeln Business Case, Compliance und Audit-Trail, Qualifikationsmanagement und die Skalierung vom Pilot auf mehrere Standorte. Jedes Whitepaper ist kostenlos und verweist auf praktische Vorlagen und das Pilotvorgehen.
 
-![Federzeichnung: Stapel Whitepaper mit einer cyanfarbenen Diagrammfläche und einem Download-Pfeil](/img/illustraties/resources-whitepapers.svg)
+![Ein Techniker hält ein iPad vor Prozessanlagen; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für whitepaper ar arbeitsanweisungen](/images/resources-whitepapers-1600.webp)
 
 ## Was fragen Entscheider vor einem Pilotprojekt?
 

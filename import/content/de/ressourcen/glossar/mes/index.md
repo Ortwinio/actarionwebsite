@@ -13,8 +13,8 @@ h1: "Was ist ein MES? Manufacturing Execution System"
 keyword_primary: "was ist ein mes"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-mes.svg
-image_alt: "Federzeichnung zum Begriff MES"
+image: /images/resources-glossary-mes-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Leitwarte; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für was ist ein mes"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Ein MES, Manufacturing Execution System oder Fertigungsmanagementsystem, ist Software, die die Produktion in der Fertigung steuert und dokumentiert: Aufträge, Material, Maschinenstatus, Qualitätsdaten und Rückverfolgbarkeit. Es verbindet die ERP-Planung mit der Linie. Actarion ergänzt ein MES um AR-Arbeitsanweisungen und Daten je Schritt zur tatsächlichen Ausführung.
 
-![Federzeichnung zum Begriff MES](/img/illustraties/resources-glossary-mes.svg)
+![Ein Techniker hält ein iPad vor eine Leitwarte; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für was ist ein mes](/images/resources-glossary-mes-1600.webp)
 
 ## Warum ist das in der Fertigung wichtig?
 

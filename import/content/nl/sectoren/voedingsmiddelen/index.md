@@ -13,8 +13,8 @@ h1: "Werkinstructies voor voedingsmiddelen: snel omstellen, veilig voedsel"
 keyword_primary: "werkinstructies voedingsmiddelenindustrie"
 keywords_secondary: ["omstellen", "cip reiniging", "haccp", "voedselveiligheid"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/industries-food-beverage.svg
-image_alt: "Pentekening van een afvullijn met flessen, CIP-leiding en tablet met reinigingsstap voor werkinstructies in de voedingsmiddelenindustrie"
+image: /images/industries-food-beverage-1600.webp
+image_alt: "Een technicus houdt een iPad voor een transportlijn; op het scherm verschijnen AR-werkinstructies voor werkinstructies voedingsmiddelenindustrie"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Voedingsmiddelenbedrijven draaien veel korte batches, omstellen vaak en hebben strenge reinigingsroutines. Actarion zet je omstel-, reinigings- en inspectieprocedures om in digitale werkinstructies met AR. Operators volgen op elke ploeg dezelfde stappen en elke uitvoering wordt vastgelegd als bewijs voor HACCP en klantaudits.
 
-![Pentekening van een afvullijn met flessen, CIP-leiding en tablet met reinigingsstap voor werkinstructies in de voedingsmiddelenindustrie](/img/illustraties/industries-food-beverage.svg)
+![Een technicus houdt een iPad voor een transportlijn; op het scherm verschijnen AR-werkinstructies voor werkinstructies voedingsmiddelenindustrie](/images/industries-food-beverage-1600.webp)
 
 ## Met welke uitdagingen worstelen voedingsbedrijven?
 

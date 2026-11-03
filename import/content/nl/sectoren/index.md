@@ -13,8 +13,8 @@ h1: "Digitale werkinstructies voor elke sector met kritieke procedures"
 keyword_primary: "digitale werkinstructies sectoren"
 keywords_secondary: ["connected worker maakindustrie", "ar in de industrie"]
 schema: ["CollectionPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/industries.svg
-image_alt: "Pentekening van een fabriek, reactor, hoogspanningsmast en windturbine rond een tablet met digitale werkinstructies"
+image: /images/industries-1600.webp
+image_alt: "Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor digitale werkinstructies sectoren boven een bedieningspaneel"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Digitale werkinstructies helpen elke sector waar mensen kritieke, terugkerende procedures uitvoeren en moeten aantonen dat ze het goed deden. Actarion werkt voor maakindustrie, farma en biotech, voedingsmiddelen, energie en utilities, luchtvaart-MRO, machinebouw en field service. De kern is overal gelijk: van SOP via AI naar AR, met audit trail.
 
-![Pentekening van een fabriek, reactor, hoogspanningsmast en windturbine rond een tablet met digitale werkinstructies](/img/illustraties/industries.svg)
+![Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor digitale werkinstructies sectoren boven een bedieningspaneel](/images/industries-1600.webp)
 
 ## Wat hebben deze sectoren gemeen?
 

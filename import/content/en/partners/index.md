@@ -13,8 +13,8 @@ h1: "Actarion partners: technology and implementation"
 keyword_primary: "ar work instructions partners"
 keywords_secondary: ["deepsight partner europe", "connected worker implementation partner"]
 schema: ["CollectionPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/partners.svg
-image_alt: "Pen drawing: tablet with a cyan step card at the center of a partner network with a gear, AR glasses, a document and a skills matrix"
+image: /images/partners-1600.webp
+image_alt: "A worker wearing Apple Vision Pro sees floating SOP panels for ar work instructions partners over an electrical cabinet"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Actarion combines one technology platform with local implementation partners. DeepSight supplies the AR and AI platform for digital work instructions. Hardware from Apple, Microsoft and Google brings the instructions to the work. Potentify (HR and skills) and Simply Change (change management) help the new way of working stick on the shop floor.
 
-![Pen drawing: tablet with a cyan step card at the center of a partner network with a gear, AR glasses, a document and a skills matrix](/img/illustraties/partners.svg)
+![A worker wearing Apple Vision Pro sees floating SOP panels for ar work instructions partners over an electrical cabinet](/images/partners-1600.webp)
 
 ## Why do AR projects stall after the demo?
 

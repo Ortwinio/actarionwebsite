@@ -13,8 +13,8 @@ h1: "SOP-software: van papieren SOP naar een SOP die mensen volgen"
 keyword_primary: "sop software"
 keywords_secondary: ["sop", "digitale sop", "sop opstellen"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/solutions-sop-software.svg
-image_alt: "Pentekening van boven: een stapel papieren SOP's wordt met AI omgezet in digitale stapkaarten op een tablet"
+image: /images/solutions-sop-software-1600.webp
+image_alt: "Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor sop software"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > SOP-software is een systeem om standaardwerkwijzen digitaal te schrijven, goed te keuren, te verspreiden en uit te voeren. De SOP-software van Actarion zet je bestaande documenten met AI om in digitale SOP's, begeleidt operators stap voor stap met AR op tablet of AR-bril en legt elke uitvoering vast voor je audits.
 
-![Pentekening van boven: een stapel papieren SOP's wordt met AI omgezet in digitale stapkaarten op een tablet](/img/illustraties/solutions-sop-software.svg)
+![Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor sop software](/images/solutions-sop-software-1600.webp)
 
 ## Waarom geven papieren SOP's problemen?
 

@@ -13,8 +13,8 @@ h1: "AR bril of smart glasses voor de industrie: kies per taak"
 keyword_primary: "AR bril"
 keywords_secondary: ["smart glasses", "AR bril industrie", "smart glasses productie", "werkinstructies op tablet"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/hardware.svg
-image_alt: "Pentekening: bovenaanzicht van een tablet, smartphone, AR-bril en headset, elk met een cyaan werkinstructie"
+image: /images/hardware-1600.webp
+image_alt: "Een technicus houdt een iPad voor een schakelkast; op het scherm verschijnen AR-werkinstructies voor AR bril"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een AR bril of smart glasses is een scherm op het hoofd dat werkinstructies in het zicht van de operator toont, zodat beide handen vrij blijven. Het is niet altijd de beste keuze. Actarion draait dezelfde AR-werkinstructies op tablets, smartphones en AR-headsets zoals Apple Vision Pro, HoloLens 2 en Android XR-apparaten, en helpt je per taak het juiste apparaat te kiezen.
 
-![Pentekening: bovenaanzicht van een tablet, smartphone, AR-bril en headset, elk met een cyaan werkinstructie](/img/illustraties/hardware.svg)
+![Een technicus houdt een iPad voor een schakelkast; op het scherm verschijnen AR-werkinstructies voor AR bril](/images/hardware-1600.webp)
 
 ## Wat gaat er mis als je met het apparaat begint?
 

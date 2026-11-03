@@ -13,8 +13,8 @@ h1: "Wat is poka-yoke? Foutvrij werken uitgelegd"
 keyword_primary: "wat is poka-yoke"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-poka-yoke.svg
-image_alt: "Pentekening bij het begrip poka-yoke"
+image: /images/resources-glossary-poka-yoke-1600.webp
+image_alt: "Een technicus houdt een iPad voor een robotlijn; op het scherm verschijnen AR-werkinstructies voor wat is poka-yoke"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Poka-yoke is het lean-principe van foutvrij maken: een onderdeel, gereedschap of proces zo ontwerpen dat een fout niet kan gebeuren of direct wordt gezien. Voorbeelden zijn stekkers die maar op één manier passen en sensoren die een pers stoppen. Actarion voegt digitale poka-yoke toe: verplichte controles in de werkinstructie.
 
-![Pentekening bij het begrip poka-yoke](/img/illustraties/resources-glossary-poka-yoke.svg)
+![Een technicus houdt een iPad voor een robotlijn; op het scherm verschijnen AR-werkinstructies voor wat is poka-yoke](/images/resources-glossary-poka-yoke-1600.webp)
 
 ## Waarom is dit belangrijk op de werkvloer?
 

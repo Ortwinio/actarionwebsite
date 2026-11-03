@@ -13,8 +13,8 @@ h1: "Case transport: onderhoudstraining met AR en traceerbaarheid"
 keyword_primary: "preventief onderhoud training transport"
 keywords_secondary: ["onderhoudsinstructies wagenpark", "traceerbaarheid onderhoud"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/customers-transport-maintenance-traceability.svg
-image_alt: "Pentekening: vrachtwagen met een cyane markering op het wiel en een digitale onderhoudschecklist met vinkjes"
+image: /images/customers-transport-maintenance-traceability-1600.webp
+image_alt: "Een technicus houdt een iPad voor procesinstallaties; op het scherm verschijnen AR-werkinstructies voor preventief onderhoud training transport"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een transport- en logistiekbedrijf zette AR-werkinstructies in om honderden nieuwe medewerkers in te werken in preventief onderhoud en elke klus vast te leggen. Op het DeepSight-platform bouwde het 20 trainingen voor twee locaties, met toetsen, skills management en remote ondersteuning. Actarion brengt deze aanpak naar Europese wagenpark- en logistiekbedrijven.
 
-![Pentekening: vrachtwagen met een cyane markering op het wiel en een digitale onderhoudschecklist met vinkjes](/img/illustraties/customers-transport-maintenance-traceability.svg)
+![Een technicus houdt een iPad voor procesinstallaties; op het scherm verschijnen AR-werkinstructies voor preventief onderhoud training transport](/images/customers-transport-maintenance-traceability-1600.webp)
 
 *Case gerealiseerd met technologiepartner DeepSight. Cijfers zoals gepubliceerd door DeepSight; klant geanonimiseerd.*
 

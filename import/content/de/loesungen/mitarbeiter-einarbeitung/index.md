@@ -13,8 +13,8 @@ h1: "Einarbeitung neuer Mitarbeiter mit AR: schneller selbstständig"
 keyword_primary: "Einarbeitung neuer Mitarbeiter"
 keywords_secondary: ["Einarbeitungsplan", "AR Schulung", "Mitarbeiterschulung Fertigung"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/solutions-frontline-training.svg
-image_alt: "Federzeichnung: ein Bedienpanel mit AR-Pfeil für die Drehrichtung und einer Schrittkarte, verknüpft mit einer Qualifikationsmatrix"
+image: /images/solutions-frontline-training-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Einarbeitung neuer Mitarbeiter"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Bei der Einarbeitung neuer Mitarbeiter mit AR lernen Werker an der realen Maschine, jeder Schritt wird auf Tablet oder AR-Brille eingeblendet. Actarion kombiniert AR-Schulung mit KI-Arbeitsanweisungen und einer aktuellen Qualifikationsmatrix. So wird Ihr Einarbeitungsplan schneller, einheitlich und für jeden Mitarbeiter dokumentiert.
 
-![Federzeichnung: ein Bedienpanel mit AR-Pfeil für die Drehrichtung und einer Schrittkarte, verknüpft mit einer Qualifikationsmatrix](/img/illustraties/solutions-frontline-training.svg)
+![Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Einarbeitung neuer Mitarbeiter](/images/solutions-frontline-training-1600.webp)
 
 ## Warum dauert die Einarbeitung in der Fertigung so lange?
 

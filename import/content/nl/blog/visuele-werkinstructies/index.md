@@ -13,8 +13,8 @@ h1: "Visuele werkinstructies: laten zien in plaats van uitleggen"
 keyword_primary: "visuele werkinstructies"
 keywords_secondary: ["werkinstructie met foto's", "visuele werkinstructie voorbeeld", "ar werkinstructies"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-visual-work-instructions.svg
-image_alt: "Visuele werkinstructies: kleppenpaneel en een tablet met dezelfde klep en een AR-pijl"
+image: /images/blog-visual-work-instructions-1600.webp
+image_alt: "Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor visuele werkinstructies"
 cta: intake
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Visuele werkinstructies zijn werkinstructies die elke stap tonen met foto's, tekeningen, video of een AR-overlay in plaats van lange tekst. Ze zijn sneller te begrijpen, werken over taalgrenzen heen en voorkomen interpretatiefouten. Actarion maakt visuele werkinstructies met AI uit je bestaande SOP's en toont ze op tablet of AR-bril, direct op het onderdeel.
 
-![Visuele werkinstructies: kleppenpaneel en een tablet met dezelfde klep en een AR-pijl](/img/illustraties/blog-visual-work-instructions.svg)
+![Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor visuele werkinstructies](/images/blog-visual-work-instructions-1600.webp)
 
 **Inhoud**
 - [Waarom tekst alleen niet werkt](#waarom-tekst-alleen-niet-werkt)

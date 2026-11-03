@@ -13,8 +13,8 @@ h1: "Kontakt zu Actarion: kostenloses Erstgespräch vereinbaren"
 keyword_primary: "kontakt actarion"
 keywords_secondary: ["kostenloses erstgespräch", "kontakt ar arbeitsanweisungen"]
 schema: ["ContactPage", "Organization", "BreadcrumbList"]
-image: /img/illustraties/contact.svg
-image_alt: "Federzeichnung: Briefumschlag und eine cyanfarbene Sprechblase, die ein Gespräch beginnen"
+image: /images/contact-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Roboterlinie; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für kontakt actarion"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Sie erreichen Actarion per E-Mail an hello@actarion.com oder über das Kontaktformular unten. Vereinbaren Sie ein kostenloses Erstgespräch zu KI-erstellten, AR-geführten Arbeitsanweisungen, fordern Sie eine Demo an, sprechen Sie über eine Partnerschaft oder erhalten Sie Support. Actarion betreut Kunden in Benelux, DACH und den Nordics.
 
-![Federzeichnung: Briefumschlag und eine cyanfarbene Sprechblase, die ein Gespräch beginnen](/img/illustraties/contact.svg)
+![Ein Techniker hält ein iPad vor eine Roboterlinie; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für kontakt actarion](/images/contact-1600.webp)
 
 ## Wobei können wir helfen?
 

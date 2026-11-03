@@ -13,8 +13,8 @@ h1: "Wat is een connected worker? Uitleg, bouwstenen en voorbeelden"
 keyword_primary: "connected worker"
 keywords_secondary: ["connected worker platform", "digitale werkplek productie", "verbonden medewerker"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-what-is-a-connected-worker.svg
-image_alt: "Connected worker: operator met AR-bril verbonden met machine, checklist en dashboard"
+image: /images/blog-what-is-a-connected-worker-1600.webp
+image_alt: "Een technicus houdt een iPad voor een controlekamer; op het scherm verschijnen AR-werkinstructies voor connected worker"
 cta: intake
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Een connected worker is een medewerker op de werkvloer die met digitale hulpmiddelen, zoals een tablet, smartphone of AR-bril, op het moment van werken de juiste instructies, data en hulp van experts krijgt, terwijl zijn handelingen worden vastgelegd. Actarion bouwt connected-worker-oplossingen rond je SOP's: AI-werkinstructies, AR-begeleiding, skills-data en audit trail.
 
-![Connected worker: operator met AR-bril verbonden met machine, checklist en dashboard](/img/illustraties/blog-what-is-a-connected-worker.svg)
+![Een technicus houdt een iPad voor een controlekamer; op het scherm verschijnen AR-werkinstructies voor connected worker](/images/blog-what-is-a-connected-worker-1600.webp)
 
 **Inhoud**
 - [Welk probleem lost een connected worker op?](#welk-probleem-lost-een-connected-worker-op)

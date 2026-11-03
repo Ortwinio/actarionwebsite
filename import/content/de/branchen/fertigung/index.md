@@ -13,8 +13,8 @@ h1: "Arbeitsanweisungen in der Fertigung: weniger Fehler, höhere OEE"
 keyword_primary: "arbeitsanweisungen fertigung"
 keywords_secondary: ["werkerführung produktion", "oee steigern", "rüsten", "montagefehler"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/industries-manufacturing.svg
-image_alt: "Federzeichnung eines Förderbands mit Roboterarm und Tablet mit OEE-Anzeige für Arbeitsanweisungen in der Fertigung"
+image: /images/industries-manufacturing-1600.webp
+image_alt: "Ein Smartphone vor eine Roboterlinie zeigt AR-Schritte und eine bestätigte Prüfung für arbeitsanweisungen fertigung"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Digitale Arbeitsanweisungen in der Fertigung ersetzen Ordner und PDFs durch Schritt-für-Schritt-Werkerführung am Arbeitsplatz. Actarion wandelt Ihre SOPs und Montageanleitungen per KI um und zeigt jeden Schritt per AR an der Maschine. Das Ergebnis: schnelleres Rüsten, weniger Montagefehler, kürzere Einarbeitung und Daten, die Ihre OEE steigern.
 
-![Federzeichnung eines Förderbands mit Roboterarm und Tablet mit OEE-Anzeige für Arbeitsanweisungen in der Fertigung](/img/illustraties/industries-manufacturing.svg)
+![Ein Smartphone vor eine Roboterlinie zeigt AR-Schritte und eine bestätigte Prüfung für arbeitsanweisungen fertigung](/images/industries-manufacturing-1600.webp)
 
 ## Vor welchen Herausforderungen stehen Fertigungsbetriebe?
 

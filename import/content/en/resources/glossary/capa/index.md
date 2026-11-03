@@ -13,8 +13,8 @@ h1: "What Is CAPA? Corrective & Preventive Action"
 keyword_primary: "what is capa"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-capa.svg
-image_alt: "Pen drawing for the glossary term CAPA: cycle of arrows around a deviation warning"
+image: /images/resources-glossary-capa-1600.webp
+image_alt: "A technician holds an iPad up to a conveyor line; the screen shows AR work instruction steps for what is capa"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > CAPA, or corrective and preventive action, is the quality process that investigates the root cause of a deviation, corrects it and prevents recurrence. It is required in GMP and ISO-based systems. Actarion speeds up CAPA by pushing updated work instructions to every station and showing step-level deviation data.
 
-![Pen drawing for the glossary term CAPA: cycle of arrows around a deviation warning](/img/illustraties/resources-glossary-capa.svg)
+![A technician holds an iPad up to a conveyor line; the screen shows AR work instruction steps for what is capa](/images/resources-glossary-capa-1600.webp)
 
 ## Why does it matter on the shop floor?
 

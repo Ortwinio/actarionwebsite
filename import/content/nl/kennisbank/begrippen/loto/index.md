@@ -13,8 +13,8 @@ h1: "Wat is LOTO? Lockout/tagout uitgelegd"
 keyword_primary: "wat is loto"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-loto.svg
-image_alt: "Pentekening bij het begrip LOTO"
+image: /images/resources-glossary-loto-1600.webp
+image_alt: "Een telefoon voor een machine met een afsluithendel toont AR-stappen en een bevestigde controle voor wat is loto"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > LOTO, of lockout/tagout, is een veiligheidsprocedure die een machine van alle gevaarlijke energie scheidt en vergrendelt, zodat hij tijdens onderhoud of reiniging niet kan starten. Elke medewerker hangt een eigen slot en label. Actarion begeleidt LOTO stap voor stap op tablet of AR-bril en legt elk scheidingspunt vast.
 
-![Pentekening bij het begrip LOTO](/img/illustraties/resources-glossary-loto.svg)
+![Een telefoon voor een machine met een afsluithendel toont AR-stappen en een bevestigde controle voor wat is loto](/images/resources-glossary-loto-1600.webp)
 
 ## Waarom is dit belangrijk op de werkvloer?
 

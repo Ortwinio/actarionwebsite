@@ -13,8 +13,8 @@ h1: "How to Write Work Instructions Operators Actually Follow"
 keyword_primary: "how to write work instructions"
 keywords_secondary: ["work instructions", "work instruction example", "step-by-step instructions"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-how-to-write-work-instructions.svg
-image_alt: "How to write work instructions: a paper instruction turned into digital step cards on a tablet"
+image: /images/blog-how-to-write-work-instructions-1600.webp
+image_alt: "A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for how to write work instructions"
 cta: template
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > To write work instructions, pick one task, watch an experienced operator do it, and split it into short steps of one action each. Start every step with a verb, add a photo of the critical point and state the check. Test it with a new operator. Actarion turns these steps into digital instructions with AR guidance and an audit trail.
 
-![How to write work instructions: a paper instruction turned into digital step cards on a tablet](/img/illustraties/blog-how-to-write-work-instructions.svg)
+![A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for how to write work instructions](/images/blog-how-to-write-work-instructions-1600.webp)
 
 **Contents**
 - [Why do work instructions fail?](#why-do-work-instructions-fail)

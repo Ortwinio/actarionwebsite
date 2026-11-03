@@ -13,8 +13,8 @@ h1: "Toepassingen van AR-werkinstructies op de werkvloer"
 keyword_primary: "toepassingen ar werkinstructies"
 keywords_secondary: ["digitale werkinstructies voorbeelden", "connected worker toepassingen"]
 schema: ["CollectionPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/use-cases.svg
-image_alt: "Pentekening van een tablet met digitale stapkaart, verbonden met onderhoud, inspectie en logistiek"
+image: /images/use-cases-1600.webp
+image_alt: "Een technicus houdt een iPad voor een schakelkast; op het scherm verschijnen AR-werkinstructies voor toepassingen ar werkinstructies"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > AR-werkinstructies leveren het meest op bij kritieke taken die mensen vaak herhalen: inwerken, assemblage, omstellen, onderhoud, inspecties, LOTO, stops en orderpicken. Actarion zet je bestaande SOP's om in digitale stap-voor-stapinstructies met AR-begeleiding op tablet of AR-bril. Elke uitvoering wordt vastgelegd, dus je hebt audit-bewijs zonder extra papierwerk.
 
-![Pentekening van een tablet met digitale stapkaart, verbonden met onderhoud, inspectie en logistiek](/img/illustraties/use-cases.svg)
+![Een technicus houdt een iPad voor een schakelkast; op het scherm verschijnen AR-werkinstructies voor toepassingen ar werkinstructies](/images/use-cases-1600.webp)
 
 ## Waar knelt het nu?
 

@@ -13,8 +13,8 @@ h1: "Digital checklists for manufacturing: no skipped checks, with proof"
 keyword_primary: "digital checklist manufacturing"
 keywords_secondary: ["digital checklist", "checklist app manufacturing", "paperless checklist"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/solutions-digital-checklists.svg
-image_alt: "Pen drawing: a tablet with a digital checklist, ticked steps and photo evidence, next to a paper clipboard"
+image: /images/solutions-digital-checklists-1600.webp
+image_alt: "A technician holds an iPad up to a control panel; the screen shows AR work instruction steps for digital checklist manufacturing"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > A digital checklist in manufacturing replaces the paper form with a checklist on a tablet or AR glasses that enforces every check, captures photos and measurements and timestamps each item. Actarion builds digital checklists from your existing forms with AI and links them to work instructions and an audit trail.
 
-![Pen drawing: a tablet with a digital checklist, ticked steps and photo evidence, next to a paper clipboard](/img/illustraties/solutions-digital-checklists.svg)
+![A technician holds an iPad up to a control panel; the screen shows AR work instruction steps for digital checklist manufacturing](/images/solutions-digital-checklists-1600.webp)
 
 ## What goes wrong with paper checklists?
 

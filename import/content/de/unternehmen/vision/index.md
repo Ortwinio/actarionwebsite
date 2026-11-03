@@ -13,8 +13,8 @@ h1: "Unsere Vision: geführte Arbeit statt Dokumente"
 keyword_primary: "zukunft der arbeit industrie"
 keywords_secondary: ["geführte arbeit", "vision ar arbeitsanweisungen"]
 schema: ["AboutPage", "BreadcrumbList"]
-image: /img/illustraties/company-vision.svg
-image_alt: "Federzeichnung: Weg von einer Papier-SOP über ein Tablet zu einem Netzwerk verbundener Standorte"
+image: /images/company-vision-1600.webp
+image_alt: "Ein Smartphone vor Prozessanlagen zeigt AR-Schritte und eine bestätigte Prüfung für zukunft der arbeit industrie"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Die Vision von Actarion ist, komplexe Industriearbeit mit KI und Augmented Reality einfacher und intelligenter zu machen. Mitarbeitende erledigen kritische Tätigkeiten beim ersten Mal richtig, Wissen wird erfasst und geteilt, und Schulung findet in der Arbeit selbst statt. Der Mensch steht im Mittelpunkt: Technik beseitigt Reibung, statt Menschen zu ersetzen.
 
-![Federzeichnung: Weg von einer Papier-SOP über ein Tablet zu einem Netzwerk verbundener Standorte](/img/illustraties/company-vision.svg)
+![Ein Smartphone vor Prozessanlagen zeigt AR-Schritte und eine bestätigte Prüfung für zukunft der arbeit industrie](/images/company-vision-1600.webp)
 
 ## Warum muss sich die Wissensweitergabe ändern?
 

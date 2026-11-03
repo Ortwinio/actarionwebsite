@@ -13,8 +13,8 @@ h1: "Omsteltijd verkorten: SMED die blijft hangen dankzij AR"
 keyword_primary: "omsteltijd verkorten"
 keywords_secondary: ["smed", "snel omstellen", "omstelling", "quick changeover"]
 schema: ["Service", "HowTo", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/use-cases-changeover-smed.svg
-image_alt: "Pentekening van een matrijswissel bij een pers met stopwatch en tablet met omstelstappen om de omsteltijd te verkorten"
+image: /images/use-cases-changeover-smed-1600.webp
+image_alt: "Een technicus houdt een iPad voor een robotlijn; op het scherm verschijnen AR-werkinstructies voor omsteltijd verkorten"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Omsteltijd verkorten betekent de tijd tussen het laatste goede product van de ene order en het eerste goede product van de volgende inkorten. SMED (Single-Minute Exchange of Die) is daarvoor de bekende methode. Actarion zorgt dat de verbeterde SMED-volgorde blijft: operators volgen haar stap voor stap met AR, en elke omstelling wordt per stap getimed.
 
-![Pentekening van een matrijswissel bij een pers met stopwatch en tablet met omstelstappen om de omsteltijd te verkorten](/img/illustraties/use-cases-changeover-smed.svg)
+![Een technicus houdt een iPad voor een robotlijn; op het scherm verschijnen AR-werkinstructies voor omsteltijd verkorten](/images/use-cases-changeover-smed-1600.webp)
 
 ## Waarom blijft omstellen lang duren na een SMED-project?
 

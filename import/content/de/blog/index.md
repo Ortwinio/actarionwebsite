@@ -13,8 +13,8 @@ h1: "Leitfäden: Arbeitsanweisungen, SOPs und AR in der Fertigung"
 keyword_primary: "Arbeitsanweisung"
 keywords_secondary: ["SOP", "Augmented Reality Industrie"]
 schema: ["CollectionPage", "BreadcrumbList"]
-image: /img/illustraties/blog.svg
-image_alt: "Stapel Leitfäden neben einem Tablet mit digitaler Arbeitsanweisung"
+image: /images/blog-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Roboterlinie; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Arbeitsanweisung"
 cta: template
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Die Leitfäden von Actarion helfen Produktions-, Instandhaltungs-, Qualitäts- und Personalverantwortlichen, Arbeit zu standardisieren, schneller einzuarbeiten und Audits gelassener zu bestehen. Jeder Leitfaden bietet Definition, Schritte, Beispiel und typische Fehler, wo sinnvoll mit kostenloser Vorlage. Verfasst vom Actarion-Team.
 
-![Stapel Leitfäden neben einem Tablet mit digitaler Arbeitsanweisung](/img/illustraties/blog.svg)
+![Ein Techniker hält ein iPad vor eine Roboterlinie; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Arbeitsanweisung](/images/blog-1600.webp)
 
 ## Arbeitsanweisungen und SOPs
 - [Arbeitsanweisung erstellen](/de/blog/arbeitsanweisung-erstellen/)

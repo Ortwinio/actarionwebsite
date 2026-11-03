@@ -13,8 +13,8 @@ h1: "Checkliste Qualitätsprüfung: kostenlose Vorlage für die Fertigung"
 keyword_primary: "Qualitätsprüfung Checkliste"
 keywords_secondary: ["Prüfplan Vorlage", "Erstmusterprüfung", "Qualitätskontrolle Checkliste"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-quality-inspection-checklist.svg
-image_alt: "Federzeichnung: Messschieber misst einen Flansch, daneben ein Tablet mit der Checkliste Qualitätsprüfung"
+image: /images/resources-templates-quality-inspection-checklist-1600.webp
+image_alt: "Ein Smartphone vor eine Förderanlage zeigt AR-Schritte und eine bestätigte Prüfung für Qualitätsprüfung Checkliste"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Eine Checkliste für die Qualitätsprüfung legt fest, welche Merkmale gegen welche Vorgabe, mit welchem Prüfmittel und wie oft geprüft werden und was bei n.i.O.-Teilen passiert. Diese kostenlose Vorlage deckt Erstteilprüfung, Zwischenprüfung und Endprüfung mit i.O./n.i.O. und Reaktionsplan ab. Actarion macht daraus Prüfungen mit AR-Werkerführung, die jeden Messwert dokumentieren.
 
-![Federzeichnung: Messschieber misst einen Flansch, daneben ein Tablet mit der Checkliste Qualitätsprüfung](/img/illustraties/resources-templates-quality-inspection-checklist.svg)
+![Ein Smartphone vor eine Förderanlage zeigt AR-Schritte und eine bestätigte Prüfung für Qualitätsprüfung Checkliste](/images/resources-templates-quality-inspection-checklist-1600.webp)
 
 ## Warum erreichen Fehler trotzdem den Kunden?
 

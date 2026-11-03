@@ -13,8 +13,8 @@ h1: "What Is an SOP? Definition, Structure and Example"
 keyword_primary: "sop"
 keywords_secondary: ["standard operating procedure", "what is an sop", "sop example"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-what-is-an-sop.svg
-image_alt: "What is an SOP: SOP binder and document with audit check next to a tablet dashboard"
+image: /images/blog-what-is-an-sop-1600.webp
+image_alt: "A phone held up to a production hall shows AR steps and a confirmed check for sop"
 cta: template
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > An SOP (standard operating procedure) is a written, approved description of how a recurring process must be carried out, by whom and to which standard. SOPs make work consistent, safe and auditable. Actarion converts existing SOPs with AI into step-by-step digital instructions that operators follow with AR guidance, with every execution logged.
 
-![What is an SOP: SOP binder and document with audit check next to a tablet dashboard](/img/illustraties/blog-what-is-an-sop.svg)
+![A phone held up to a production hall shows AR steps and a confirmed check for sop](/images/blog-what-is-an-sop-1600.webp)
 
 **Contents**
 - [Why do SOPs cause headaches?](#why-do-sops-cause-headaches)

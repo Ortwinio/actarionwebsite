@@ -13,8 +13,8 @@ h1: "Operator onboarding: new hires productive faster with AR guidance"
 keyword_primary: "operator onboarding"
 keywords_secondary: ["frontline training", "on the job training manufacturing", "skills matrix"]
 schema: ["Service", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/use-cases-onboarding-training.svg
-image_alt: "Pen drawing of a workbench from above with a tablet showing a learning path, AR glasses and a workpiece for operator onboarding"
+image: /images/use-cases-onboarding-training-1600.webp
+image_alt: "A phone held up to a production hall shows AR steps and a confirmed check for operator onboarding"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Operator onboarding is the period in which a new hire learns to run tasks safely and alone. With Actarion, new operators learn on the job with AI-generated, step-by-step instructions and AR guidance on a tablet or AR glasses. Every completed step feeds the skills matrix, so you know when someone is ready.
 
-![Pen drawing of a workbench from above with a tablet showing a learning path, AR glasses and a workpiece for operator onboarding](/img/illustraties/use-cases-onboarding-training.svg)
+![A phone held up to a production hall shows AR steps and a confirmed check for operator onboarding](/images/use-cases-onboarding-training-1600.webp)
 
 ## Why does onboarding take so long?
 

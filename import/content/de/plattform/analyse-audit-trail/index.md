@@ -13,8 +13,8 @@ h1: "Audit Trail für Arbeitsanweisungen: Nachweis jedes Schritts"
 keyword_primary: "Audit Trail Arbeitsanweisungen"
 keywords_secondary: ["Ausführungsdaten", "Auditnachweis", "Analyse Arbeitsanweisungen"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/platform-analytics-audit-trail.svg
-image_alt: "Federzeichnung: Eine abgehakte Checkliste und ein Tablet mit Trendlinie und Zeitleiste als Audit Trail"
+image: /images/platform-analytics-audit-trail-1600.webp
+image_alt: "Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für Audit Trail Arbeitsanweisungen über eine Leitwarte"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Ein Audit Trail für Arbeitsanweisungen ist die Aufzeichnung jeder Ausführung: wer welchen Schritt wann, mit welcher Version und mit welchem Ergebnis ausgeführt hat. Actarion erstellt diesen Audit Trail automatisch, während Werker digitalen Arbeitsanweisungen folgen. Dieselben Daten zeigen, wo Zeit verloren geht und wo Fehler entstehen.
 
-![Federzeichnung: Eine abgehakte Checkliste und ein Tablet mit Trendlinie und Zeitleiste als Audit Trail](/img/illustraties/platform-analytics-audit-trail.svg)
+![Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für Audit Trail Arbeitsanweisungen über eine Leitwarte](/images/platform-analytics-audit-trail-1600.webp)
 
 ## Warum sind Audits so belastend?
 

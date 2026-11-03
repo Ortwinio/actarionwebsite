@@ -13,8 +13,8 @@ h1: "What Is Poka-Yoke? Error-Proofing Explained"
 keyword_primary: "what is poka-yoke"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-poka-yoke.svg
-image_alt: "Pen drawing for the glossary term poka-yoke: keyed plug that fits only one way into its socket"
+image: /images/resources-glossary-poka-yoke-1600.webp
+image_alt: "A technician holds an iPad up to a robotic assembly line; the screen shows AR work instruction steps for what is poka-yoke"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Poka-yoke is the lean principle of error-proofing: designing a part, tool or process so that a mistake cannot happen or is detected immediately. Examples are keyed connectors and sensors that stop a press. Actarion adds digital poka-yoke: mandatory checks and confirmations inside the work instruction.
 
-![Pen drawing for the glossary term poka-yoke: keyed plug that fits only one way into its socket](/img/illustraties/resources-glossary-poka-yoke.svg)
+![A technician holds an iPad up to a robotic assembly line; the screen shows AR work instruction steps for what is poka-yoke](/images/resources-glossary-poka-yoke-1600.webp)
 
 ## Why does it matter on the shop floor?
 

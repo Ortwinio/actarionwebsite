@@ -13,8 +13,8 @@ h1: "Pilotprojekt für AR-Arbeitsanweisungen in vier Phasen"
 keyword_primary: "pilotprojekt ar arbeitsanweisungen"
 keywords_secondary: ["pilot werkerführung", "einführung digitale arbeitsanweisungen"]
 schema: ["Service", "HowTo", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/pilot.svg
-image_alt: "Federzeichnung: vier aufsteigende Stufen vom Briefing über Discovery und Pilot bis zur Skalierung mit mehreren Tablets"
+image: /images/pilot-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Roboterlinie; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für pilotprojekt ar arbeitsanweisungen"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Ein Pilotprojekt von Actarion belegt den Nutzen KI-erstellter, AR-geführter Arbeitsanweisungen an einer Linie oder einem Standort, bevor Sie skalieren. Es läuft in vier Phasen: Future-of-Work-Briefing, Use-Case-Discovery, Pilot mit festen KPIs sowie Skalierung und Befähigung Ihres eigenen Teams. Sie starten mit einem kostenlosen Erstgespräch.
 
-![Federzeichnung: vier aufsteigende Stufen vom Briefing über Discovery und Pilot bis zur Skalierung mit mehreren Tablets](/img/illustraties/pilot.svg)
+![Ein Techniker hält ein iPad vor eine Roboterlinie; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für pilotprojekt ar arbeitsanweisungen](/images/pilot-1600.webp)
 
 ## Warum scheitern viele Digitalisierungspiloten?
 

@@ -13,8 +13,8 @@ h1: "SOP mit KI erstellen: schneller schreiben, sicher freigeben"
 keyword_primary: "SOP mit KI erstellen"
 keywords_secondary: ["KI SOP Generator", "Arbeitsanweisung mit KI", "KI Arbeitsanweisungen"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-ai-sop-generator.svg
-image_alt: "SOP mit KI erstellen: Dokumente werden von KI in digitale Schrittkarten umgewandelt"
+image: /images/blog-ai-sop-generator-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für SOP mit KI erstellen"
 cta: intake
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Eine SOP mit KI erstellen heißt: Ein Sprachmodell wandelt Quellmaterial wie alte Verfahrensanweisungen, Handbücher, Notizen oder Videos in eine strukturierte SOP oder Arbeitsanweisung um. Das spart Schreibzeit, das Ergebnis ist aber ein Entwurf, den ein Experte prüfen muss. Actarion nutzt KI-Erstellung, um Ihre SOPs in digitale Anweisungen mit AR-Werkerführung zu überführen.
 
-![SOP mit KI erstellen: Dokumente werden von KI in digitale Schrittkarten umgewandelt](/img/illustraties/blog-ai-sop-generator.svg)
+![Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für SOP mit KI erstellen](/images/blog-ai-sop-generator-1600.webp)
 
 **Inhalt**
 - [Warum ist das Schreiben von SOPs ein Engpass?](#warum-ist-das-schreiben-von-sops-ein-engpass)

@@ -13,8 +13,8 @@ h1: "Stops en turnarounds: van werkpakket naar live voortgang"
 keyword_primary: "turnaround planning"
 keywords_secondary: ["onderhoudsstop", "fabrieksstop", "shutdown"]
 schema: ["Service", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/use-cases-shutdown-turnaround.svg
-image_alt: "Pentekening van een procescolonne met steiger en voortgangsdashboard voor turnaround planning"
+image: /images/use-cases-shutdown-turnaround-1600.webp
+image_alt: "Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor turnaround planning boven procesinstallaties"
 cta: intake
 phase: 2
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een stop of turnaround is een geplande stilstand van een fabriek om in een kort venster onderhoud, inspecties en aanpassingen uit te voeren. Actarion ondersteunt turnaround planning en uitvoering met digitale werkpakketten: elke ploeg volgt dezelfde stappen met AR, de voortgang is live zichtbaar en elke taak is vastgelegd voor de overdracht.
 
-![Pentekening van een procescolonne met steiger en voortgangsdashboard voor turnaround planning](/img/illustraties/use-cases-shutdown-turnaround.svg)
+![Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor turnaround planning boven procesinstallaties](/images/use-cases-shutdown-turnaround-1600.webp)
 
 ## Wat maakt een turnaround lastig?
 

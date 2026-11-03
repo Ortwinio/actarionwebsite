@@ -13,8 +13,8 @@ h1: "Onderhoudsplan template: plan elke onderhoudstaak over het jaar"
 keyword_primary: "onderhoudsplan"
 keywords_secondary: ["onderhoudsplanning", "preventief onderhoudsplan", "onderhoudsplan excel"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-maintenance-schedule.svg
-image_alt: "Pentekening van een onderhoudsplan als kalender met gemarkeerde taken, een tandwiel en een tablet met geplande werkorders"
+image: /images/resources-templates-maintenance-schedule-1600.webp
+image_alt: "Een technicus houdt een iPad voor procesinstallaties; op het scherm verschijnen AR-werkinstructies voor onderhoudsplan"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een onderhoudsplan is een planningsoverzicht van alle installaties, hun preventieve onderhoudstaken, de frequentie en wanneer elke taak dit jaar gepland staat. Deze gratis onderhoudsplan template bevat een installatielijst, een takenplan en een jaaroverzicht per week met status. Actarion koppelt elke geplande taak aan een checklist met AR-begeleiding die de uitvoering vastlegt.
 
-![Pentekening van een onderhoudsplan als kalender met gemarkeerde taken, een tandwiel en een tablet met geplande werkorders](/img/illustraties/resources-templates-maintenance-schedule.svg)
+![Een technicus houdt een iPad voor procesinstallaties; op het scherm verschijnen AR-werkinstructies voor onderhoudsplan](/images/resources-templates-maintenance-schedule-1600.webp)
 
 ## Waarom loopt het onderhoudsplan uit?
 

@@ -13,8 +13,8 @@ h1: "What Is LOTO? Lockout/Tagout Explained"
 keyword_primary: "what is loto"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-loto.svg
-image_alt: "Pen drawing for the glossary term LOTO: safety padlock with a digital lockout tag"
+image: /images/resources-glossary-loto-1600.webp
+image_alt: "A phone held up to a machine with an isolation lever shows AR steps and a confirmed check for what is loto"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > LOTO, or lockout/tagout, is a safety procedure that isolates a machine from all hazardous energy and locks it, so it cannot start during maintenance or cleaning. Each person applies a personal lock and tag. Actarion guides LOTO step by step on tablet or AR glasses and logs every isolation point.
 
-![Pen drawing for the glossary term LOTO: safety padlock with a digital lockout tag](/img/illustraties/resources-glossary-loto.svg)
+![A phone held up to a machine with an isolation lever shows AR steps and a confirmed check for what is loto](/images/resources-glossary-loto-1600.webp)
 
 ## Why does it matter on the shop floor?
 

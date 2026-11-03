@@ -13,8 +13,8 @@ h1: "Opstartchecklist: gratis template voor elke dienst en machine"
 keyword_primary: "opstartchecklist"
 keywords_secondary: ["checklist start dienst", "startcontrole machine", "dagelijkse controle machine"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-pre-shift-checklist.svg
-image_alt: "Pentekening van een bedieningspaneel met meters naast een tablet met de opstartchecklist voor de dienst"
+image: /images/resources-templates-pre-shift-checklist-1600.webp
+image_alt: "Een telefoon voor procesinstallaties toont AR-stappen en een bevestigde controle voor opstartchecklist"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een opstartchecklist is een korte controle die de operator uitvoert voordat hij aan het begin van de dienst een machine of lijn start. Hij bevestigt dat afschermingen en noodstoppen werken, de machine in goede staat is, nutsvoorzieningen en materiaal klaarstaan en problemen van de vorige ploeg bekend zijn. Actarion maakt er een begeleide digitale check van.
 
-![Pentekening van een bedieningspaneel met meters naast een tablet met de opstartchecklist voor de dienst](/img/illustraties/resources-templates-pre-shift-checklist.svg)
+![Een telefoon voor procesinstallaties toont AR-stappen en een bevestigde controle voor opstartchecklist](/images/resources-templates-pre-shift-checklist-1600.webp)
 
 ## Waarom duiken problemen pas een uur na de start op?
 

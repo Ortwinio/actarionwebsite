@@ -13,8 +13,8 @@ h1: "Knowledge Capture in Manufacturing: Secure Expertise Before It Leaves"
 keyword_primary: "knowledge capture"
 keywords_secondary: ["knowledge transfer manufacturing", "tribal knowledge", "aging workforce"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-knowledge-transfer-manufacturing.svg
-image_alt: "Knowledge capture: an old manual captured by camera and turned into step cards on a tablet"
+image: /images/blog-knowledge-transfer-manufacturing-1600.webp
+image_alt: "A phone held up to a robotic assembly line shows AR steps and a confirmed check for knowledge capture"
 cta: template
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Knowledge capture is the systematic recording of the know-how of experienced employees, especially the unwritten tricks, so others can perform the work to the same standard. In manufacturing it is urgent because experienced operators and technicians retire. Actarion captures expert work on video, turns it into digital work instructions with AI and lets new people follow it with AR guidance.
 
-![Knowledge capture: an old manual captured by camera and turned into step cards on a tablet](/img/illustraties/blog-knowledge-transfer-manufacturing.svg)
+![A phone held up to a robotic assembly line shows AR steps and a confirmed check for knowledge capture](/images/blog-knowledge-transfer-manufacturing-1600.webp)
 
 **Contents**
 - [Why is knowledge walking out the door?](#why-is-knowledge-walking-out-the-door)

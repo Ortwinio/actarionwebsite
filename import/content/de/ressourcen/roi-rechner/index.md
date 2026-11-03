@@ -13,8 +13,8 @@ h1: "ROI-Rechner für digitale Arbeitsanweisungen"
 keyword_primary: "roi rechner arbeitsanweisungen"
 keywords_secondary: ["roi connected worker", "business case ar schulung"]
 schema: ["WebApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-roi-calculator.svg
-image_alt: "Federzeichnung: Waage mit Papier-SOP und Uhr links und einem Tablet mit cyanfarbener Schrittkarte rechts, dazu ein steigender Pfeil"
+image: /images/resources-roi-calculator-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Leitwarte; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für roi rechner arbeitsanweisungen"
 cta: roi
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Der ROI digitaler Arbeitsanweisungen ist die jährliche Einsparung bei Einarbeitung, Fehlern, Stillstand und Auditvorbereitung, abzüglich der Kosten der Lösung, geteilt durch diese Kosten. Diese Seite erklärt Eingaben, Annahmen und Formel des Actarion-ROI-Rechners, damit Sie mit eigenen Zahlen einen Business Case für ein Pilotprojekt erstellen.
 
-![Federzeichnung: Waage mit Papier-SOP und Uhr links und einem Tablet mit cyanfarbener Schrittkarte rechts, dazu ein steigender Pfeil](/img/illustraties/resources-roi-calculator.svg)
+![Ein Techniker hält ein iPad vor eine Leitwarte; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für roi rechner arbeitsanweisungen](/images/resources-roi-calculator-1600.webp)
 
 ## Warum ist der Business Case schwer zu rechnen?
 

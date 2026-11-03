@@ -13,8 +13,8 @@ h1: "Plan een demo van AR-werkinstructies"
 keyword_primary: "demo ar-werkinstructies"
 keywords_secondary: ["demo digitale werkinstructies", "deepsight demo"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/demo.svg
-image_alt: "Pentekening: laptop met videogesprek en een cyane stapkaart, naast een AR-bril en een vinkje"
+image: /images/demo-1600.webp
+image_alt: "Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor demo ar-werkinstructies boven een transportlijn"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > In een demo van Actarion zie je hoe een bestaande SOP een AI-gegenereerde stap-voor-stap-werkinstructie wordt, hoe een operator die volgt met AR-begeleiding op een tablet of AR-bril, en hoe elke uitvoering in de audit trail en skills matrix landt. We stemmen de demo af op een use case uit jouw sector.
 
-![Pentekening: laptop met videogesprek en een cyane stapkaart, naast een AR-bril en een vinkje](/img/illustraties/demo.svg)
+![Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor demo ar-werkinstructies boven een transportlijn](/images/demo-1600.webp)
 
 ## Wat wil je weten na een demo?
 

@@ -13,8 +13,8 @@ h1: "Arbeitsanweisung Vorlage: kostenlos, vollständig, mit Beispiel"
 keyword_primary: "Arbeitsanweisung Vorlage"
 keywords_secondary: ["Arbeitsanweisung Beispiel", "Arbeitsanweisung erstellen", "Arbeitsanweisung Muster"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-work-instruction-template.svg
-image_alt: "Federzeichnung: Arbeitsanweisung Vorlage auf einem Klemmbrett neben einem Tablet mit denselben Schritten in digitaler Form"
+image: /images/resources-templates-work-instruction-template-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Arbeitsanweisung Vorlage"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Eine Arbeitsanweisung Vorlage ist ein festes Format, das eine Tätigkeit Schritt für Schritt beschreibt: was zu tun ist, wie und warum. Diese kostenlose Vorlage enthält Kopfdaten, Arbeitsschutz und Arbeitsmittel, eine Schritttabelle mit Kernpunkten, Qualitätsprüfungen und Freigabe, dazu ein Beispiel. Actarion macht daraus digitale Schritte mit AR-Werkerführung.
 
-![Federzeichnung: Arbeitsanweisung Vorlage auf einem Klemmbrett neben einem Tablet mit denselben Schritten in digitaler Form](/img/illustraties/resources-templates-work-instruction-template.svg)
+![Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Arbeitsanweisung Vorlage](/images/resources-templates-work-instruction-template-1600.webp)
 
 ## Warum werden Arbeitsanweisungen nicht befolgt?
 

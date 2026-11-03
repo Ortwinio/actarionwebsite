@@ -13,8 +13,8 @@ h1: "Beste werkinstructie-software: zo kies je in 2026"
 keyword_primary: "beste werkinstructie software"
 keywords_secondary: ["werkinstructie software vergelijken", "digitale werkinstructies software", "ar werkinstructie software"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/compare-best-work-instruction-software.svg
-image_alt: "Pentekening van een beoordelingschecklist voor werkinstructie-software naast een tablet en een machine"
+image: /images/compare-best-work-instruction-software-1600.webp
+image_alt: "Een telefoon voor een productiehal toont AR-stappen en een bevestigde controle voor beste werkinstructie software"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > De beste werkinstructie-software is de software die je operators echt gebruiken en je auditors accepteren. Beoordeel op snelheid van opstellen, gebruik op de vloer, apparaatondersteuning, audit trail, competentiebeheer, koppelingen en pilotbegeleiding. Actarion past bij teams die SOP's met AI willen omzetten, AR-begeleiding willen en implementatiesteun in Europa zoeken.
 
-![Pentekening van een beoordelingschecklist voor werkinstructie-software naast een tablet en een machine](/img/illustraties/compare-best-work-instruction-software.svg)
+![Een telefoon voor een productiehal toont AR-stappen en een bevestigde controle voor beste werkinstructie software](/images/compare-best-work-instruction-software-1600.webp)
 
 ## Waarom is software kiezen zo lastig?
 

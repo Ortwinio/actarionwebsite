@@ -13,8 +13,8 @@ h1: "Was ist ein digitaler Zwilling? Definition"
 keyword_primary: "was ist ein digitaler zwilling"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-digital-twin.svg
-image_alt: "Federzeichnung zum Begriff digitaler Zwilling"
+image: /images/resources-glossary-digital-twin-1600.webp
+image_alt: "Ein Smartphone vor eine Leitwarte zeigt AR-Schritte und eine bestätigte Prüfung für was ist ein digitaler zwilling"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Ein digitaler Zwilling (Digital Twin) ist eine virtuelle Abbildung einer Anlage, Linie oder eines Prozesses, die mit Daten aus der realen Welt synchron bleibt. Er dient zum Überwachen, Simulieren und Optimieren. Actarion knüpft von der Werkerseite daran an: AR-Anweisungen an der echten Maschine, mit Ausführungsdaten als Rückfluss.
 
-![Federzeichnung zum Begriff digitaler Zwilling](/img/illustraties/resources-glossary-digital-twin.svg)
+![Ein Smartphone vor eine Leitwarte zeigt AR-Schritte und eine bestätigte Prüfung für was ist ein digitaler zwilling](/images/resources-glossary-digital-twin-1600.webp)
 
 ## Warum ist das in der Fertigung wichtig?
 

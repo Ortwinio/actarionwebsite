@@ -13,8 +13,8 @@ h1: "Shutdown turnaround planning: from work package to live progress"
 keyword_primary: "shutdown turnaround planning"
 keywords_secondary: ["plant shutdown", "turnaround execution", "maintenance shutdown"]
 schema: ["Service", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/use-cases-shutdown-turnaround.svg
-image_alt: "Pen drawing of a process column with scaffolding and a progress dashboard for shutdown turnaround planning"
+image: /images/use-cases-shutdown-turnaround-1600.webp
+image_alt: "A worker wearing Apple Vision Pro sees floating SOP panels for shutdown turnaround planning over process equipment"
 cta: intake
 phase: 2
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > A shutdown or turnaround is a planned stop of a plant to carry out maintenance, inspections and modifications in a short window. Actarion supports shutdown turnaround planning and execution with digital work packages: every crew follows the same AR-guided steps, progress is visible live and every task is documented for handover.
 
-![Pen drawing of a process column with scaffolding and a progress dashboard for shutdown turnaround planning](/img/illustraties/use-cases-shutdown-turnaround.svg)
+![A worker wearing Apple Vision Pro sees floating SOP panels for shutdown turnaround planning over process equipment](/images/use-cases-shutdown-turnaround-1600.webp)
 
 ## What makes a turnaround hard?
 

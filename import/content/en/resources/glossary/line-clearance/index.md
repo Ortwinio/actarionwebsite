@@ -13,8 +13,8 @@ h1: "What Is Line Clearance? Definition & Steps"
 keyword_primary: "what is line clearance"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-line-clearance.svg
-image_alt: "Pen drawing for the glossary term line clearance: empty conveyor with a highlighted inspection zone"
+image: /images/resources-glossary-line-clearance-1600.webp
+image_alt: "A technician holds an iPad up to a conveyor line; the screen shows AR work instruction steps for what is line clearance"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Line clearance is the documented check that a production or packaging line is free of materials, labels and documents from the previous batch before a new batch starts. It prevents mix-ups. It is critical in pharma and food. Actarion makes line clearance a guided digital checklist with photo proof.
 
-![Pen drawing for the glossary term line clearance: empty conveyor with a highlighted inspection zone](/img/illustraties/resources-glossary-line-clearance.svg)
+![A technician holds an iPad up to a conveyor line; the screen shows AR work instruction steps for what is line clearance](/images/resources-glossary-line-clearance-1600.webp)
 
 ## Why does it matter on the shop floor?
 

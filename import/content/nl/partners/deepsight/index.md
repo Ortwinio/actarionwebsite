@@ -13,8 +13,8 @@ h1: "DeepSight in Europa, geïmplementeerd door Actarion"
 keyword_primary: "deepsight europa"
 keywords_secondary: ["deepsight ar-platform", "connected-workerplatform"]
 schema: ["Organization", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/partners-deepsight.svg
-image_alt: "Pentekening: monitor met cyane stapkaarten in een studio, uitgerold naar een tablet op statief en een AR-bril"
+image: /images/partners-deepsight-1600.webp
+image_alt: "Een technicus houdt een iPad voor een transportlijn; op het scherm verschijnen AR-werkinstructies voor deepsight europa"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > DeepSight is een AR-first connected-workerplatform uit Montreal voor het maken en uitvoeren van werkinstructies, trainingen en remote ondersteuning met AI en AR. Actarion is de Europese partner van DeepSight en implementeert het platform in de Benelux, DACH en de Nordics: van use-case-keuze en content tot pilot, uitrol en verandermanagement.
 
-![Pentekening: monitor met cyane stapkaarten in een studio, uitgerold naar een tablet op statief en een AR-bril](/img/illustraties/partners-deepsight.svg)
+![Een technicus houdt een iPad voor een transportlijn; op het scherm verschijnen AR-werkinstructies voor deepsight europa](/images/partners-deepsight-1600.webp)
 
 ## Wat hebben Europese teams nodig naast een goed platform?
 

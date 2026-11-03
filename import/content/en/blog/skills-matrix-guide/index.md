@@ -13,8 +13,8 @@ h1: "Skills Matrix: How to Build One for Your Production Team"
 keyword_primary: "skills matrix"
 keywords_secondary: ["training matrix", "competency matrix", "skills matrix template"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-skills-matrix-guide.svg
-image_alt: "Skills matrix on a screen: operators against tasks with qualified cells highlighted"
+image: /images/blog-skills-matrix-guide-1600.webp
+image_alt: "A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for skills matrix"
 cta: template
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > A skills matrix is a grid that shows which employee is qualified for which task, and at what level. It helps you plan shifts, spot single points of failure and target training. Actarion keeps the skills matrix current automatically, because every guided execution of a digital work instruction counts as evidence of competence.
 
-![Skills matrix on a screen: operators against tasks with qualified cells highlighted](/img/illustraties/blog-skills-matrix-guide.svg)
+![A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for skills matrix](/images/blog-skills-matrix-guide-1600.webp)
 
 **Contents**
 - [Why do you need a skills matrix?](#why-do-you-need-a-skills-matrix)

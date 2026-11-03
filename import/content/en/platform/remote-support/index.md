@@ -13,8 +13,8 @@ h1: "Remote assistance with AR: the expert sees what you see"
 keyword_primary: "remote assistance ar"
 keywords_secondary: ["remote support", "ar remote support", "remote expert"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/platform-remote-support.svg
-image_alt: "Pen drawing: an operator's AR glasses at a pump connect to a laptop where a remote expert marks the part in cyan"
+image: /images/platform-remote-support-1600.webp
+image_alt: "A technician holds an iPad up to a high-voltage line; the screen shows AR work instruction steps for remote assistance ar"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Remote assistance with AR is a live video connection in which a remote expert sees the operator's view and draws annotations that appear on the equipment. Actarion remote support works from a tablet, smartphone or AR glasses and starts from within a work instruction. Breakdowns get solved without waiting for a specialist to travel.
 
-![Pen drawing: an operator's AR glasses at a pump connect to a laptop where a remote expert marks the part in cyan](/img/illustraties/platform-remote-support.svg)
+![A technician holds an iPad up to a high-voltage line; the screen shows AR work instruction steps for remote assistance ar](/images/platform-remote-support-1600.webp)
 
 ## What does a breakdown cost you today?
 

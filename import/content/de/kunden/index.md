@@ -13,8 +13,8 @@ h1: "Kundenprojekte: AR-Arbeitsanweisungen in der Praxis"
 keyword_primary: "ar arbeitsanweisungen praxisbeispiel"
 keywords_secondary: ["digitale werkerführung referenz", "connected worker fallstudie"]
 schema: ["CollectionPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/customers.svg
-image_alt: "Federzeichnung: vier Sockel mit Helm, Kiste, Fläschchen und Rad, verbunden mit einem Tablet mit cyanfarbener Projektkarte"
+image: /images/customers-1600.webp
+image_alt: "Ein Smartphone vor eine Produktionshalle zeigt AR-Schritte und eine bestätigte Prüfung für ar arbeitsanweisungen praxisbeispiel"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Diese Kundenprojekte zeigen, wie Industrieunternehmen KI-erstellte Arbeitsanweisungen mit AR-Werkerführung nutzen: für schnellere Einarbeitung, korrektes Rüsten in jeder Schicht und auditfähig dokumentierte Instandhaltung. Die vier anonymisierten Projekte stammen aus Bergbau, Lebensmittel, Pharma und Transport und wurden auf der DeepSight-Plattform realisiert, die Actarion in Europa implementiert.
 
-![Federzeichnung: vier Sockel mit Helm, Kiste, Fläschchen und Rad, verbunden mit einem Tablet mit cyanfarbener Projektkarte](/img/illustraties/customers.svg)
+![Ein Smartphone vor eine Produktionshalle zeigt AR-Schritte und eine bestätigte Prüfung für ar arbeitsanweisungen praxisbeispiel](/images/customers-1600.webp)
 
 ## Womit kämpfen Betriebe, bevor sie digitalisieren?
 

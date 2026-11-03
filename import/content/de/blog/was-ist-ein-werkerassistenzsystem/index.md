@@ -13,8 +13,8 @@ h1: "Was ist ein Werkerassistenzsystem? Definition, Bausteine, Beispiele"
 keyword_primary: "Werkerassistenzsystem"
 keywords_secondary: ["Connected Worker", "Werkerführung", "Assistenzsystem Montage"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-what-is-a-connected-worker.svg
-image_alt: "Werkerassistenzsystem: Werker mit AR-Brille, verbunden mit Maschine, Checkliste und Dashboard"
+image: /images/blog-what-is-a-connected-worker-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Leitwarte; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Werkerassistenzsystem"
 cta: intake
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Ein Werkerassistenzsystem ist ein digitales System, das Werker bei der Arbeit unterstützt: mit Schritt-für-Schritt-Anweisungen, Prüfungen und Expertenhilfe auf Tablet oder AR-Brille, während jede Handlung dokumentiert wird. International spricht man vom Connected Worker. Actarion baut Werkerassistenz auf Basis Ihrer SOPs: KI-Arbeitsanweisungen, AR-Werkerführung, Qualifikationsdaten und Audit-Trail.
 
-![Werkerassistenzsystem: Werker mit AR-Brille, verbunden mit Maschine, Checkliste und Dashboard](/img/illustraties/blog-what-is-a-connected-worker.svg)
+![Ein Techniker hält ein iPad vor eine Leitwarte; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Werkerassistenzsystem](/images/blog-what-is-a-connected-worker-1600.webp)
 
 **Inhalt**
 - [Welches Problem löst ein Werkerassistenzsystem?](#welches-problem-lost-ein-werkerassistenzsystem)

@@ -13,8 +13,8 @@ h1: "SOP Vorlage für die Produktion: kostenlos und auditfest"
 keyword_primary: "SOP Vorlage"
 keywords_secondary: ["Verfahrensanweisung Vorlage", "Standard Operating Procedure", "SOP Beispiel"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-sop-template.svg
-image_alt: "Federzeichnung: Ordner mit SOPs und ein Dokumentenstapel neben einem Tablet mit der SOP Vorlage als digitale Schritte"
+image: /images/resources-templates-sop-template-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für SOP Vorlage"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Eine SOP Vorlage (Standard Operating Procedure, im deutschen QM oft Verfahrensanweisung) ist ein gelenktes Format, das einen Prozess festlegt: Zweck, Geltungsbereich, Zuständigkeiten, Ablauf, Aufzeichnungen und Revisionsstand. Diese kostenlose SOP Vorlage folgt der gängigen Praxis nach ISO 9001 und GMP. Actarion macht daraus digitale Arbeitsanweisungen mit AR-Werkerführung.
 
-![Federzeichnung: Ordner mit SOPs und ein Dokumentenstapel neben einem Tablet mit der SOP Vorlage als digitale Schritte](/img/illustraties/resources-templates-sop-template.svg)
+![Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für SOP Vorlage](/images/resources-templates-sop-template-1600.webp)
 
 ## Warum verstauben SOPs im Ordner?
 

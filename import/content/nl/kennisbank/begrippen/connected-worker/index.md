@@ -13,8 +13,8 @@ h1: "Wat is een connected worker? Betekenis"
 keyword_primary: "wat is een connected worker"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-connected-worker.svg
-image_alt: "Pentekening bij het begrip connected worker"
+image: /images/resources-glossary-connected-worker-1600.webp
+image_alt: "Een technicus houdt een iPad voor een magazijn; op het scherm verschijnen AR-werkinstructies voor wat is een connected worker"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een connected worker is een medewerker op de werkvloer die digitale hulpmiddelen gebruikt, zoals tablet, AR-bril en apps, om tijdens de taak instructies, data en hulp van experts te krijgen, en wiens werk wordt vastgelegd. Actarion levert connected worker-oplossingen: AI-werkinstructies, AR-begeleiding, competentiebeheer en remote ondersteuning.
 
-![Pentekening bij het begrip connected worker](/img/illustraties/resources-glossary-connected-worker.svg)
+![Een technicus houdt een iPad voor een magazijn; op het scherm verschijnen AR-werkinstructies voor wat is een connected worker](/images/resources-glossary-connected-worker-1600.webp)
 
 ## Waarom is dit belangrijk op de werkvloer?
 

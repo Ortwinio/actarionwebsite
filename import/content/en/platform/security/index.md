@@ -13,8 +13,8 @@ h1: "Security and GDPR for digital work instructions"
 keyword_primary: "gdpr work instructions"
 keywords_secondary: ["EU hosting", "ISO 27001", "EU AI Act", "data security"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/platform-security.svg
-image_alt: "Pen drawing: a server rack with a cyan padlock and a shield with a check mark"
+image: /images/platform-security-1600.webp
+image_alt: "A phone held up to a control room shows AR steps and a confirmed check for gdpr work instructions"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Digital work instructions process company know-how and data about employees, so security and GDPR compliance are part of every rollout. This page explains how Actarion handles data protection, hosting, access control and the EU AI Act. Certifications and hosting details are confirmed per contract and listed here once verified.
 
-![Pen drawing: a server rack with a cyan padlock and a shield with a check mark](/img/illustraties/platform-security.svg)
+![A phone held up to a control room shows AR steps and a confirmed check for gdpr work instructions](/images/platform-security-1600.webp)
 
 ## What do IT and the works council want to know?
 

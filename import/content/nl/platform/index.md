@@ -13,8 +13,8 @@ h1: "Werkinstructie platform: van SOP naar AR-begeleiding en audit trail"
 keyword_primary: "werkinstructie platform"
 keywords_secondary: ["digitale werkinstructies software", "connected worker platform", "AR werkinstructies"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/platform.svg
-image_alt: "Pentekening: een stapel SOP-documenten wordt een digitale stapkaart op een tablet, met data naar een dashboard"
+image: /images/platform-1600.webp
+image_alt: "Een telefoon voor een controlekamer toont AR-stappen en een bevestigde controle voor werkinstructie platform"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een werkinstructie platform is software waarmee je stap-voor-stap-instructies voor de werkvloer maakt, verspreidt en vastlegt. Het werkinstructie platform van Actarion zet je bestaande SOP's met AI om in digitale instructies, begeleidt operators met AR op een tablet of AR-bril en legt elke uitvoering vast als audit-bewijs. De technologie komt van partner DeepSight.
 
-![Pentekening: een stapel SOP-documenten wordt een digitale stapkaart op een tablet, met data naar een dashboard](/img/illustraties/platform.svg)
+![Een telefoon voor een controlekamer toont AR-stappen en een bevestigde controle voor werkinstructie platform](/images/platform-1600.webp)
 
 ## Waarom werken papieren procedures niet op de vloer?
 

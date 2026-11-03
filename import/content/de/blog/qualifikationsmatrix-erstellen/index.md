@@ -13,8 +13,8 @@ h1: "Qualifikationsmatrix erstellen: Anleitung für die Produktion"
 keyword_primary: "Qualifikationsmatrix"
 keywords_secondary: ["Qualifikationsmatrix erstellen", "Skills Matrix", "Qualifikationsmatrix Vorlage"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-skills-matrix-guide.svg
-image_alt: "Qualifikationsmatrix auf einem Bildschirm: Mitarbeiter gegen Tätigkeiten mit markierten Qualifikationen"
+image: /images/blog-skills-matrix-guide-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Qualifikationsmatrix"
 cta: template
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Eine Qualifikationsmatrix ist eine Übersicht, welcher Mitarbeiter für welche Tätigkeit auf welcher Stufe qualifiziert ist. Sie hilft bei der Schichtplanung, zeigt Wissensinseln und steuert Schulungen gezielt. Actarion hält die Qualifikationsmatrix automatisch aktuell, weil jede geführte Ausführung einer digitalen Arbeitsanweisung als Nachweis zählt.
 
-![Qualifikationsmatrix auf einem Bildschirm: Mitarbeiter gegen Tätigkeiten mit markierten Qualifikationen](/img/illustraties/blog-skills-matrix-guide.svg)
+![Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Qualifikationsmatrix](/images/blog-skills-matrix-guide-1600.webp)
 
 **Inhalt**
 - [Wozu brauchen Sie eine Qualifikationsmatrix?](#wozu-brauchen-sie-eine-qualifikationsmatrix)

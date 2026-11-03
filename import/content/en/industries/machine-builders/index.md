@@ -13,8 +13,8 @@ h1: "Digital service instructions for machine builders and OEMs"
 keyword_primary: "service instructions machine builders"
 keywords_secondary: ["machinery regulation 2023/1230", "digital instructions for use", "oem service"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/industries-machine-builders.svg
-image_alt: "Pen drawing of a machine with built-in screen, service case and the machine builder's console for digital service instructions"
+image: /images/industries-machine-builders-1600.webp
+image_alt: "A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for service instructions machine builders"
 cta: intake
 phase: 2
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Machine builders can ship digital service and operating instructions with every machine. Actarion turns your manuals into step-by-step instructions with AR guidance, for your own service engineers and for your customers' operators. Remote support connects them to your experts, and the Machinery Regulation (EU) 2023/1230 explicitly allows digital instructions.
 
-![Pen drawing of a machine with built-in screen, service case and the machine builder's console for digital service instructions](/img/illustraties/industries-machine-builders.svg)
+![A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for service instructions machine builders](/images/industries-machine-builders-1600.webp)
 
 ## What challenges do machine builders face?
 

@@ -13,8 +13,8 @@ h1: "Use cases for AR work instructions on the shop floor"
 keyword_primary: "ar work instructions use cases"
 keywords_secondary: ["digital work instructions examples", "connected worker use cases"]
 schema: ["CollectionPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/use-cases.svg
-image_alt: "Pen drawing of a tablet with a digital step card linked to maintenance, inspection and logistics tasks"
+image: /images/use-cases-1600.webp
+image_alt: "A technician holds an iPad up to an electrical cabinet; the screen shows AR work instruction steps for ar work instructions use cases"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > AR work instructions pay off wherever people repeat critical tasks: onboarding, assembly, changeovers, maintenance, inspections, lockout/tagout, shutdowns and picking. Actarion turns your existing SOPs into step-by-step digital instructions with AR guidance on a tablet or AR glasses. Every run is logged, so you get audit evidence without extra paperwork.
 
-![Pen drawing of a tablet with a digital step card linked to maintenance, inspection and logistics tasks](/img/illustraties/use-cases.svg)
+![A technician holds an iPad up to an electrical cabinet; the screen shows AR work instruction steps for ar work instructions use cases](/images/use-cases-1600.webp)
 
 ## Where does it hurt today?
 

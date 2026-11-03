@@ -13,8 +13,8 @@ h1: "Best work instruction software: how to choose in 2026"
 keyword_primary: "best work instruction software"
 keywords_secondary: ["work instruction software comparison", "digital work instruction platform", "ar work instruction software"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/compare-best-work-instruction-software.svg
-image_alt: "Pen drawing of an evaluation checklist for work instruction software next to a tablet and a machine"
+image: /images/compare-best-work-instruction-software-1600.webp
+image_alt: "A phone held up to a production hall shows AR steps and a confirmed check for best work instruction software"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > The best work instruction software is the one your operators actually use and your auditors accept. Judge tools on authoring speed, execution on the floor, device support, audit trail, skills tracking, integration and pilot support. Actarion fits teams that want AI-converted SOPs with AR guidance and implementation support in Europe.
 
-![Pen drawing of an evaluation checklist for work instruction software next to a tablet and a machine](/img/illustraties/compare-best-work-instruction-software.svg)
+![A phone held up to a production hall shows AR steps and a confirmed check for best work instruction software](/images/compare-best-work-instruction-software-1600.webp)
 
 ## Why is software selection so difficult?
 

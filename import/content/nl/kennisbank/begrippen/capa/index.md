@@ -13,8 +13,8 @@ h1: "Wat is CAPA? Betekenis en stappen"
 keyword_primary: "wat is capa"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-capa.svg
-image_alt: "Pentekening bij het begrip CAPA"
+image: /images/resources-glossary-capa-1600.webp
+image_alt: "Een technicus houdt een iPad voor een transportlijn; op het scherm verschijnen AR-werkinstructies voor wat is capa"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > CAPA, of corrective and preventive action, is het kwaliteitsproces dat de grondoorzaak van een afwijking onderzoekt, die oplost en herhaling voorkomt. Het is verplicht in GMP en ISO-systemen. Actarion versnelt CAPA door aangepaste werkinstructies direct naar elk station te sturen en afwijkingen per stap zichtbaar te maken.
 
-![Pentekening bij het begrip CAPA](/img/illustraties/resources-glossary-capa.svg)
+![Een technicus houdt een iPad voor een transportlijn; op het scherm verschijnen AR-werkinstructies voor wat is capa](/images/resources-glossary-capa-1600.webp)
 
 ## Waarom is dit belangrijk op de werkvloer?
 

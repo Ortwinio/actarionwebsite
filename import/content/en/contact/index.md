@@ -13,8 +13,8 @@ h1: "Contact Actarion and book a free intake call"
 keyword_primary: "contact actarion"
 keywords_secondary: ["free intake call", "ar work instructions contact"]
 schema: ["ContactPage", "Organization", "BreadcrumbList"]
-image: /img/illustraties/contact.svg
-image_alt: "Pen drawing: envelope and a cyan speech bubble starting a conversation"
+image: /images/contact-1600.webp
+image_alt: "A technician holds an iPad up to a robotic assembly line; the screen shows AR work instruction steps for contact actarion"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > You can contact Actarion by email at hello@actarion.com or through the contact form below. Use it to book a free intake call about AI-generated, AR-guided work instructions, to request a demo, to discuss a partnership or to get support. Actarion serves customers in Benelux, DACH and the Nordics.
 
-![Pen drawing: envelope and a cyan speech bubble starting a conversation](/img/illustraties/contact.svg)
+![A technician holds an iPad up to a robotic assembly line; the screen shows AR work instruction steps for contact actarion](/images/contact-1600.webp)
 
 ## What can we help you with?
 

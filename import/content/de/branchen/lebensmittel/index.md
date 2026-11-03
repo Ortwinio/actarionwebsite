@@ -13,8 +13,8 @@ h1: "Arbeitsanweisungen für Lebensmittel: schnell rüsten, sicher arbeiten"
 keyword_primary: "arbeitsanweisungen lebensmittelindustrie"
 keywords_secondary: ["rüsten", "cip reinigung", "haccp", "lebensmittelsicherheit"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/industries-food-beverage.svg
-image_alt: "Federzeichnung einer Abfülllinie mit Flaschen, CIP-Leitung und Tablet mit Reinigungsschritt für Arbeitsanweisungen in der Lebensmittelindustrie"
+image: /images/industries-food-beverage-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Förderanlage; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für arbeitsanweisungen lebensmittelindustrie"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Lebensmittelbetriebe fahren viele kurze Chargen, rüsten häufig um und haben strenge Reinigungsroutinen. Actarion wandelt Ihre Rüst-, Reinigungs- und Prüfverfahren in digitale Arbeitsanweisungen mit AR um. Jede Schicht folgt denselben Schritten, und jede Ausführung wird als Nachweis für HACCP und Kundenaudits protokolliert.
 
-![Federzeichnung einer Abfülllinie mit Flaschen, CIP-Leitung und Tablet mit Reinigungsschritt für Arbeitsanweisungen in der Lebensmittelindustrie](/img/illustraties/industries-food-beverage.svg)
+![Ein Techniker hält ein iPad vor eine Förderanlage; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für arbeitsanweisungen lebensmittelindustrie](/images/industries-food-beverage-1600.webp)
 
 ## Vor welchen Herausforderungen stehen Lebensmittelbetriebe?
 

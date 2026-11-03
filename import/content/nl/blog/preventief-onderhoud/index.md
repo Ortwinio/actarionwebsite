@@ -13,8 +13,8 @@ h1: "Preventief onderhoud: een plan dat ook echt wordt uitgevoerd"
 keyword_primary: "preventief onderhoud"
 keywords_secondary: ["preventief onderhoudsplan", "onderhoudschecklist", "gepland onderhoud"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-preventive-maintenance-guide.svg
-image_alt: "Preventief onderhoud: pomp met AR-bril-overlay en een onderhoudskalender"
+image: /images/blog-preventive-maintenance-guide-1600.webp
+image_alt: "Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor preventief onderhoud boven procesinstallaties"
 cta: template
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Preventief onderhoud is onderhoud volgens een vast schema of gebruiksinterval, voordat een installatie uitvalt. Het vermindert ongeplande stilstand en verlengt de levensduur. Het plan werkt alleen als elke taak op dezelfde manier wordt uitgevoerd en vastgelegd. Actarion begeleidt monteurs bij elke onderhoudstaak op tablet of AR-bril en legt elke controle automatisch vast.
 
-![Preventief onderhoud: pomp met AR-bril-overlay en een onderhoudskalender](/img/illustraties/blog-preventive-maintenance-guide.svg)
+![Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor preventief onderhoud boven procesinstallaties](/images/blog-preventive-maintenance-guide-1600.webp)
 
 **Inhoud**
 - [Waarom schiet preventief onderhoud erbij in?](#waarom-schiet-preventief-onderhoud-erbij-in)

@@ -13,8 +13,8 @@ h1: "Pharma case: AR training for changeovers on every shift"
 keyword_primary: "pharma changeover training"
 keywords_secondary: ["gmp work instructions", "ar training pharmaceutical"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/customers-pharma-training-changeover.svg
-image_alt: "Pen drawing: pharmaceutical filling machine with a cyan AR marker at the changeover, linked to a tablet"
+image: /images/customers-pharma-training-changeover-1600.webp
+image_alt: "A phone held up to a robotic assembly line shows AR steps and a confirmed check for pharma changeover training"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > An international pharmaceutical company used AR work instructions so night and weekend shifts could perform changeovers correctly without an expert on site. On the DeepSight platform it built 30 training courses that 350 employees can use, with knowledge capture and skills management. Actarion delivers this approach to pharma and biotech sites in Europe.
 
-![Pen drawing: pharmaceutical filling machine with a cyan AR marker at the changeover, linked to a tablet](/img/illustraties/customers-pharma-training-changeover.svg)
+![A phone held up to a robotic assembly line shows AR steps and a confirmed check for pharma changeover training](/images/customers-pharma-training-changeover-1600.webp)
 
 *Case realised with technology partner DeepSight. Figures as published by DeepSight; customer anonymised.*
 

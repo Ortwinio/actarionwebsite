@@ -13,8 +13,8 @@ h1: "Digitale vs papieren werkinstructies: wat werkt beter?"
 keyword_primary: "digitale vs papieren werkinstructies"
 keywords_secondary: ["papierloze werkinstructies", "digitale werkinstructie", "werkinstructies digitaliseren"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/compare-digital-vs-paper-work-instructions.svg
-image_alt: "Pentekening van een papieren werkinstructie op een klembord naast een tablet met een digitale werkinstructiestap"
+image: /images/compare-digital-vs-paper-work-instructions-1600.webp
+image_alt: "Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor digitale vs papieren werkinstructies boven een productiehal"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Digitale vs papieren werkinstructies: digitaal wint als instructies vaak wijzigen, als taken complex of veiligheidskritisch zijn en als je bewijs van uitvoering nodig hebt. Papier volstaat voor eenvoudige, stabiele taken. Actarion zet je bestaande SOP's om in digitale werkinstructies met AR-begeleiding die elke stap vastleggen voor audits.
 
-![Pentekening van een papieren werkinstructie op een klembord naast een tablet met een digitale werkinstructiestap](/img/illustraties/compare-digital-vs-paper-work-instructions.svg)
+![Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor digitale vs papieren werkinstructies boven een productiehal](/images/compare-digital-vs-paper-work-instructions-1600.webp)
 
 ## Wat gaat er mis met papier?
 

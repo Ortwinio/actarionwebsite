@@ -13,8 +13,8 @@ h1: "Kostenlose Vorlagen und Checklisten für Produktion und Instandhaltung"
 keyword_primary: "Vorlagen Produktion"
 keywords_secondary: ["Arbeitsanweisung Vorlage", "Wartungscheckliste", "Qualifikationsmatrix Vorlage"]
 schema: ["CollectionPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates.svg
-image_alt: "Federzeichnung: Papiervorlagen für die Produktion auf einem Schreibtisch neben einem Tablet mit derselben Checkliste in digitaler Form"
+image: /images/resources-templates-1600.webp
+image_alt: "Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für Vorlagen Produktion über ein Bedienfeld"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Diese kostenlosen Vorlagen für die Produktion decken die Dokumente ab, die jedes Werk braucht: Arbeitsanweisung, SOP, Wartungscheckliste, Wartungsplan, LOTO, SMED-Rüsten, Line Clearance, Qualitätsprüfung, 5S, Schichtbeginn, Qualifikationsmatrix, Einarbeitung und Wissenstransfer. Jede Seite enthält die vollständige Vorlage, eine Ausfüllhilfe und ein Beispiel. Actarion macht daraus digitale Arbeitsanweisungen mit AR-Werkerführung und Audit-Trail.
 
-![Federzeichnung: Papiervorlagen für die Produktion auf einem Schreibtisch neben einem Tablet mit derselben Checkliste in digitaler Form](/img/illustraties/resources-templates.svg)
+![Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für Vorlagen Produktion über ein Bedienfeld](/images/resources-templates-1600.webp)
 
 ## Warum scheitern Dokumente in der Fertigung?
 

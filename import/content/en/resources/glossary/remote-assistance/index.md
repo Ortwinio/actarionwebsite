@@ -13,8 +13,8 @@ h1: "What Is Remote Assistance? Definition & Use"
 keyword_primary: "what is remote assistance"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-remote-assistance.svg
-image_alt: "Pen drawing for the glossary term remote assistance: expert tablet connected to a machine with a highlighted spot"
+image: /images/resources-glossary-remote-assistance-1600.webp
+image_alt: "A worker wearing Apple Vision Pro sees floating SOP panels for what is remote assistance over a high-voltage line"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Remote assistance is live support in which an off-site expert sees the technician's view through a tablet, smartphone or smart glasses and guides them with voice, annotations or AR markers. It cuts travel and downtime. Actarion offers remote assistance within the same platform as the work instructions.
 
-![Pen drawing for the glossary term remote assistance: expert tablet connected to a machine with a highlighted spot](/img/illustraties/resources-glossary-remote-assistance.svg)
+![A worker wearing Apple Vision Pro sees floating SOP panels for what is remote assistance over a high-voltage line](/images/resources-glossary-remote-assistance-1600.webp)
 
 ## Why does it matter on the shop floor?
 

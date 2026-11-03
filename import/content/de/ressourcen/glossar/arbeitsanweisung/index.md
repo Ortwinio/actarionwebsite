@@ -13,8 +13,8 @@ h1: "Was ist eine Arbeitsanweisung? Definition"
 keyword_primary: "was ist eine arbeitsanweisung"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-work-instruction.svg
-image_alt: "Federzeichnung zum Begriff Arbeitsanweisung"
+image: /images/resources-glossary-work-instruction-1600.webp
+image_alt: "Ein Smartphone vor eine Produktionshalle zeigt AR-Schritte und eine bestätigte Prüfung für was ist eine arbeitsanweisung"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Eine Arbeitsanweisung ist eine detaillierte Schritt-für-Schritt-Beschreibung, wie eine bestimmte Tätigkeit am Arbeitsplatz ausgeführt wird, mit Werkzeugen, Einstellungen und Prüfungen. Sie steht unterhalb der SOP. Actarion macht Arbeitsanweisungen zu digitalen Schritten mit AR-Werkerführung auf Tablet oder AR-Brille und protokolliert jede Ausführung.
 
-![Federzeichnung zum Begriff Arbeitsanweisung](/img/illustraties/resources-glossary-work-instruction.svg)
+![Ein Smartphone vor eine Produktionshalle zeigt AR-Schritte und eine bestätigte Prüfung für was ist eine arbeitsanweisung](/images/resources-glossary-work-instruction-1600.webp)
 
 ## Warum ist das in der Fertigung wichtig?
 

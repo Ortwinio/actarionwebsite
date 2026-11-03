@@ -13,8 +13,8 @@ h1: "Solutions for frontline teams: from SOP to AR-guided work"
 keyword_primary: "frontline solutions"
 keywords_secondary: ["digital work instructions", "connected worker platform", "sop software"]
 schema: ["CollectionPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/solutions.svg
-image_alt: "Pen drawing: a central tablet with a step card connected to six Actarion solutions"
+image: /images/solutions-1600.webp
+image_alt: "A technician holds an iPad up to a robotic assembly line; the screen shows AR work instruction steps for frontline solutions"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Actarion offers six solutions built on one platform: digital work instructions, a connected worker platform, SOP software, frontline training, digital checklists and knowledge capture. Each one starts from your existing SOPs, uses AI to digitize them and AR to guide operators, and logs every execution as audit evidence.
 
-![Pen drawing: a central tablet with a step card connected to six Actarion solutions](/img/illustraties/solutions.svg)
+![A technician holds an iPad up to a robotic assembly line; the screen shows AR work instruction steps for frontline solutions](/images/solutions-1600.webp)
 
 ## Which problem do you want to solve first?
 

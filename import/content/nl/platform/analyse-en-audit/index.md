@@ -13,8 +13,8 @@ h1: "Audit trail voor werkinstructies: bewijs van elke stap, automatisch"
 keyword_primary: "audit trail werkinstructies"
 keywords_secondary: ["uitvoeringsdata", "audit-bewijs", "analyse werkinstructies"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/platform-analytics-audit-trail.svg
-image_alt: "Pentekening: een afgevinkte checklist en een tablet met trendlijn en tijdlijn als audit trail"
+image: /images/platform-analytics-audit-trail-1600.webp
+image_alt: "Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor audit trail werkinstructies boven een controlekamer"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een audit trail voor werkinstructies is een registratie van elke uitvoering: wie welke stap deed, wanneer, met welke versie en met welk resultaat. Actarion bouwt die audit trail automatisch op terwijl operators digitale werkinstructies volgen. Dezelfde data laat zien waar tijd verloren gaat en waar fouten ontstaan.
 
-![Pentekening: een afgevinkte checklist en een tablet met trendlijn en tijdlijn als audit trail](/img/illustraties/platform-analytics-audit-trail.svg)
+![Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor audit trail werkinstructies boven een controlekamer](/images/platform-analytics-audit-trail-1600.webp)
 
 ## Waarom geven audits zoveel stress?
 

@@ -13,8 +13,8 @@ h1: "Digital inspection checklist: catch defects at the source"
 keyword_primary: "digital inspection checklist"
 keywords_secondary: ["quality inspection", "inspection app", "quality control checklist"]
 schema: ["Service", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/use-cases-quality-inspections.svg
-image_alt: "Pen drawing of a flange, caliper and tablet with a digital inspection checklist"
+image: /images/use-cases-quality-inspections-1600.webp
+image_alt: "A phone held up to a conveyor line shows AR steps and a confirmed check for digital inspection checklist"
 cta: template
 phase: 2
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > A digital inspection checklist replaces the paper form with guided checks on a tablet or AR glasses. Actarion builds the checklist from your inspection plan, shows each inspection point on the product and records values, photos and pass/fail per step. Quality gets complete, searchable data instead of ticked boxes.
 
-![Pen drawing of a flange, caliper and tablet with a digital inspection checklist](/img/illustraties/use-cases-quality-inspections.svg)
+![A phone held up to a conveyor line shows AR steps and a confirmed check for digital inspection checklist](/images/use-cases-quality-inspections-1600.webp)
 
 ## What is wrong with paper inspections?
 

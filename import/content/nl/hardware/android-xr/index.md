@@ -13,8 +13,8 @@ h1: "Android XR zakelijk: AR-werkinstructies op Android-apparaten"
 keyword_primary: "android xr zakelijk"
 keywords_secondary: ["android xr enterprise", "galaxy xr", "android xr headset industrie"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/hardware-android-xr.svg
-image_alt: "Pentekening: een Android XR-headset boven een werkbank met een cyaan overlay op een onderdeel"
+image: /images/hardware-android-xr-1600.webp
+image_alt: "Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor android xr zakelijk boven een controlekamer"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Android XR is het besturingssysteem van Google voor XR-headsets en -brillen. Het eerste apparaat, Samsung Galaxy XR, kwam in oktober 2025 uit, en in 2026 voegde Google Android Enterprise-beheer toe voor Android XR. Voor bedrijven die al Android-apparaten beheren is het een nieuwe optie voor AR-werkinstructies. Actarion beoordeelt het per taak.
 
-![Pentekening: een Android XR-headset boven een werkbank met een cyaan overlay op een onderdeel](/img/illustraties/hardware-android-xr.svg)
+![Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor android xr zakelijk boven een controlekamer](/images/hardware-android-xr-1600.webp)
 
 ## Waarom kijken naar Android XR?
 

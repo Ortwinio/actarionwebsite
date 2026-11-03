@@ -13,8 +13,8 @@ h1: "Connected worker platform vs LMS: what is the difference?"
 keyword_primary: "connected worker vs lms"
 keywords_secondary: ["connected worker platform", "learning management system manufacturing", "on the job training software"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/compare-connected-worker-vs-lms.svg
-image_alt: "Pen drawing of a classroom training screen next to a machine with a digital step card for connected worker guidance"
+image: /images/compare-connected-worker-vs-lms-1600.webp
+image_alt: "A technician holds an iPad up to a robotic assembly line; the screen shows AR work instruction steps for connected worker vs lms"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Connected worker vs LMS: a learning management system (LMS) manages courses and certificates away from the line. A connected worker platform guides the actual task at the workstation and records how it was done. Most plants need both. Actarion adds AR-guided work instructions and skills tracking that link on-the-job performance to qualification.
 
-![Pen drawing of a classroom training screen next to a machine with a digital step card for connected worker guidance](/img/illustraties/compare-connected-worker-vs-lms.svg)
+![A technician holds an iPad up to a robotic assembly line; the screen shows AR work instruction steps for connected worker vs lms](/images/compare-connected-worker-vs-lms-1600.webp)
 
 ## Where does training fall short on the line?
 

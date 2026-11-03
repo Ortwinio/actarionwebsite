@@ -13,8 +13,8 @@ h1: "What Is an MES? Manufacturing Execution System"
 keyword_primary: "what is an mes"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-mes.svg
-image_alt: "Pen drawing for the glossary term MES: central server linked to two production machines"
+image: /images/resources-glossary-mes-1600.webp
+image_alt: "A technician holds an iPad up to a control room; the screen shows AR work instruction steps for what is an mes"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > An MES, or manufacturing execution system, is software that manages and records production on the shop floor: orders, materials, machine status, quality data and traceability. It links ERP planning to the line. Actarion complements an MES with AR-guided work instructions and step-level data on how tasks were done.
 
-![Pen drawing for the glossary term MES: central server linked to two production machines](/img/illustraties/resources-glossary-mes.svg)
+![A technician holds an iPad up to a control room; the screen shows AR work instruction steps for what is an mes](/images/resources-glossary-mes-1600.webp)
 
 ## Why does it matter on the shop floor?
 

@@ -13,8 +13,8 @@ h1: "Het team van Actarion: ervaring in operations en digitaal"
 keyword_primary: "team actarion"
 keywords_secondary: ["management actarion", "experts ar-werkinstructies"]
 schema: ["AboutPage", "Person", "BreadcrumbList"]
-image: /img/illustraties/company-team.svg
-image_alt: "Pentekening: drie silhouetten van het team onder een tablet met een cyane stapkaart"
+image: /images/company-team-1600.webp
+image_alt: "Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor team actarion"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Het team van Actarion combineert ervaring op de werkvloer met digitale bedrijfservaring. Mark Dercksen leidt DACH, Jack Kessels leidt de Benelux en oprichter Ortwin Verreck zit in de advisory board. Samen helpen ze industriële bedrijven de juiste use cases te kiezen, pilots met meetbaar resultaat te draaien en AR-werkinstructies over locaties uit te rollen.
 
-![Pentekening: drie silhouetten van het team onder een tablet met een cyane stapkaart](/img/illustraties/company-team.svg)
+![Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor team actarion](/images/company-team-1600.webp)
 
 ## Wie leidt Actarion?
 

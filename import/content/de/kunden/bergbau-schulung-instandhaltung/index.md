@@ -13,8 +13,8 @@ h1: "Fallstudie Bergbau: AR-Schulung und Instandhaltung"
 keyword_primary: "ar schulung bergbau"
 keywords_secondary: ["instandhaltung arbeitsanweisung bergbau", "3d arbeitsanweisungen"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/customers-mining-training-maintenance.svg
-image_alt: "Federzeichnung: Bergbaufahrzeug mit cyanfarbenem Wartungspunkt, verbunden mit AR-Brille und Tablet mit Schrittkarte"
+image: /images/customers-mining-training-maintenance-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor Prozessanlagen; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für ar schulung bergbau"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Ein globales Bergbauunternehmen standardisierte Schulung, Instandhaltung und Vorab-Inspektionen an seinen Minenstandorten mit AR-Arbeitsanweisungen. Auf der DeepSight-Plattform entstanden 40 Schulungen für drei Standorte, mit 3D-Anweisungen, Remote-Support und Rückverfolgbarkeit der Ausführung. Actarion bringt dieses bewährte Vorgehen zu europäischen Industriebetrieben und begleitet die Umsetzung.
 
-![Federzeichnung: Bergbaufahrzeug mit cyanfarbenem Wartungspunkt, verbunden mit AR-Brille und Tablet mit Schrittkarte](/img/illustraties/customers-mining-training-maintenance.svg)
+![Ein Techniker hält ein iPad vor Prozessanlagen; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für ar schulung bergbau](/images/customers-mining-training-maintenance-1600.webp)
 
 *Fallstudie realisiert mit Technologiepartner DeepSight. Zahlen wie von DeepSight veröffentlicht; Kunde anonymisiert.*
 

@@ -13,8 +13,8 @@ h1: "Work instructions for food and beverage: fast changeovers, safe food"
 keyword_primary: "food and beverage work instructions"
 keywords_secondary: ["changeover", "cip cleaning", "haccp", "food safety"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/industries-food-beverage.svg
-image_alt: "Pen drawing of a bottling line with a CIP pipe and a tablet with a cleaning step for food and beverage work instructions"
+image: /images/industries-food-beverage-1600.webp
+image_alt: "A technician holds an iPad up to a conveyor line; the screen shows AR work instruction steps for food and beverage work instructions"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Food and beverage plants run many short batches, frequent changeovers and strict cleaning routines. Actarion turns your changeover, cleaning and inspection procedures into digital work instructions with AR guidance. Operators follow the same steps on every shift, and every execution is recorded as evidence for HACCP and customer audits.
 
-![Pen drawing of a bottling line with a CIP pipe and a tablet with a cleaning step for food and beverage work instructions](/img/illustraties/industries-food-beverage.svg)
+![A technician holds an iPad up to a conveyor line; the screen shows AR work instruction steps for food and beverage work instructions](/images/industries-food-beverage-1600.webp)
 
 ## What challenges do food plants face?
 

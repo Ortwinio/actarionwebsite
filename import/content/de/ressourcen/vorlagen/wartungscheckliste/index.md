@@ -13,8 +13,8 @@ h1: "Wartungscheckliste: kostenlose Vorlage für Maschinen und Anlagen"
 keyword_primary: "Wartungscheckliste"
 keywords_secondary: ["Wartungscheckliste Vorlage", "Checkliste Instandhaltung", "vorbeugende Wartung"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-preventive-maintenance-checklist.svg
-image_alt: "Federzeichnung: Pumpe mit markiertem Lager neben einem Tablet mit einer Wartungscheckliste"
+image: /images/resources-templates-preventive-maintenance-checklist-1600.webp
+image_alt: "Ein Smartphone vor Prozessanlagen zeigt AR-Schritte und eine bestätigte Prüfung für Wartungscheckliste"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Eine Wartungscheckliste listet die Inspektionen, Schmierarbeiten, Einstellungen und Austauschteile, die eine Anlage betriebsbereit halten, nach Intervall, mit Sollwerten und Abzeichnung. Diese kostenlose Wartungscheckliste deckt tägliche bis jährliche Aufgaben für Maschinen mit Motoren, Antrieben, Hydraulik und Pneumatik ab. Actarion macht daraus Wartungsaufgaben mit AR-Werkerführung und automatischem Nachweis.
 
-![Federzeichnung: Pumpe mit markiertem Lager neben einem Tablet mit einer Wartungscheckliste](/img/illustraties/resources-templates-preventive-maintenance-checklist.svg)
+![Ein Smartphone vor Prozessanlagen zeigt AR-Schritte und eine bestätigte Prüfung für Wartungscheckliste](/images/resources-templates-preventive-maintenance-checklist-1600.webp)
 
 ## Warum verhindert Wartung trotzdem keine Ausfälle?
 

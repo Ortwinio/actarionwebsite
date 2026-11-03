@@ -13,8 +13,8 @@ h1: "SOP maken met AI: sneller schrijven, zonder risico"
 keyword_primary: "sop maken met ai"
 keywords_secondary: ["ai sop generator", "werkinstructie maken met ai", "ai werkinstructies"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-ai-sop-generator.svg
-image_alt: "SOP maken met AI: documenten die door AI worden omgezet in digitale stapkaarten"
+image: /images/blog-ai-sop-generator-1600.webp
+image_alt: "Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor sop maken met ai"
 cta: intake
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Een SOP maken met AI betekent dat een taalmodel bronmateriaal, zoals oude procedures, handleidingen, aantekeningen of video, omzet in een gestructureerde SOP of stap-voor-stap werkinstructie. Dat scheelt schrijftijd, maar het resultaat is een concept dat een expert moet controleren. Actarion gebruikt AI-authoring om je SOP's om te zetten in digitale instructies met AR-begeleiding.
 
-![SOP maken met AI: documenten die door AI worden omgezet in digitale stapkaarten](/img/illustraties/blog-ai-sop-generator.svg)
+![Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor sop maken met ai](/images/blog-ai-sop-generator-1600.webp)
 
 **Inhoud**
 - [Waarom is SOP's schrijven een knelpunt?](#waarom-is-sops-schrijven-een-knelpunt)

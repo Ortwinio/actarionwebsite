@@ -13,8 +13,8 @@ h1: "Werkerassistenzsystem vs. LMS: was ist der Unterschied?"
 keyword_primary: "werkerassistenzsystem vs lms"
 keywords_secondary: ["connected worker plattform", "lms produktion", "training on the job software"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/compare-connected-worker-vs-lms.svg
-image_alt: "Federzeichnung eines Schulungsbildschirms neben einer Maschine mit digitaler Schrittkarte als Werkerassistenz"
+image: /images/compare-connected-worker-vs-lms-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Roboterlinie; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für werkerassistenzsystem vs lms"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Werkerassistenzsystem vs. LMS: Ein Learning-Management-System (LMS) verwaltet Kurse und Zertifikate abseits der Linie. Ein Werkerassistenzsystem (Connected-Worker-Plattform) führt die echte Tätigkeit am Arbeitsplatz und dokumentiert die Ausführung. Die meisten Werke brauchen beides. Actarion ergänzt AR-Arbeitsanweisungen und eine Qualifikationsmatrix, die Praxis und Qualifikation verbinden.
 
-![Federzeichnung eines Schulungsbildschirms neben einer Maschine mit digitaler Schrittkarte als Werkerassistenz](/img/illustraties/compare-connected-worker-vs-lms.svg)
+![Ein Techniker hält ein iPad vor eine Roboterlinie; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für werkerassistenzsystem vs lms](/images/compare-connected-worker-vs-lms-1600.webp)
 
 ## Wo greift Schulung an der Linie zu kurz?
 

@@ -13,8 +13,8 @@ h1: "Pre-Start Checklist: Free Template for Every Shift and Machine"
 keyword_primary: "pre start checklist"
 keywords_secondary: ["pre-shift checklist", "machine pre-start inspection", "start-up checklist production"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-pre-shift-checklist.svg
-image_alt: "Pen drawing of a machine control panel with gauges next to a tablet showing the pre-start checklist for the shift"
+image: /images/resources-templates-pre-shift-checklist-1600.webp
+image_alt: "A phone held up to process equipment shows AR steps and a confirmed check for pre start checklist"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > A pre-start checklist is a short check an operator completes before starting a machine or line at the beginning of a shift. It confirms that guards and emergency stops work, the machine is in good condition, utilities and materials are ready and the previous shift's issues are known. Actarion makes it a guided digital check.
 
-![Pen drawing of a machine control panel with gauges next to a tablet showing the pre-start checklist for the shift](/img/illustraties/resources-templates-pre-shift-checklist.svg)
+![A phone held up to process equipment shows AR steps and a confirmed check for pre start checklist](/images/resources-templates-pre-shift-checklist-1600.webp)
 
 ## Why do problems show up an hour into the shift?
 

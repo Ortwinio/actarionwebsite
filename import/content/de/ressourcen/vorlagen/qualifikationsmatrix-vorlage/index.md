@@ -13,8 +13,8 @@ h1: "Qualifikationsmatrix Vorlage: Wer kann was in jeder Schicht?"
 keyword_primary: "Qualifikationsmatrix"
 keywords_secondary: ["Qualifikationsmatrix Vorlage", "Kompetenzmatrix", "Skill-Matrix"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-skills-matrix-template.svg
-image_alt: "Federzeichnung: Whiteboard mit Qualifikationsmatrix neben einem Tablet mit derselben Matrix in digitaler Form"
+image: /images/resources-templates-skills-matrix-template-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Qualifikationsmatrix"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Eine Qualifikationsmatrix ist eine Tabelle, die je Mitarbeiter zeigt, welche Tätigkeiten er auf welcher Stufe beherrscht. Diese kostenlose Qualifikationsmatrix Vorlage nutzt eine Skala von 0 bis 4, einen Sollwert je Tätigkeit und eine Lückenzeile, damit Teamleiter Schichten und Schulungen planen können. Actarion hält die Matrix über abgeschlossene AR-Arbeitsanweisungen automatisch aktuell.
 
-![Federzeichnung: Whiteboard mit Qualifikationsmatrix neben einem Tablet mit derselben Matrix in digitaler Form](/img/illustraties/resources-templates-skills-matrix-template.svg)
+![Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Qualifikationsmatrix](/images/resources-templates-skills-matrix-template-1600.webp)
 
 ## Warum scheitert die Schichtplanung an Qualifikationen?
 

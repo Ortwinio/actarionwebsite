@@ -13,8 +13,8 @@ h1: "Digital work instructions for every industry with critical procedures"
 keyword_primary: "digital work instructions industries"
 keywords_secondary: ["connected worker manufacturing", "ar in industry"]
 schema: ["CollectionPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/industries.svg
-image_alt: "Pen drawing of a factory, reactor, power pylon and wind turbine around a tablet showing digital work instructions"
+image: /images/industries-1600.webp
+image_alt: "A worker wearing Apple Vision Pro sees floating SOP panels for digital work instructions industries over a control panel"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Digital work instructions help any industry where people carry out critical, repeated procedures and must prove they did it right. Actarion serves manufacturing, pharma and biotech, food and beverage, energy and utilities, aerospace MRO, machine builders and field service. The core is the same: SOP to AI to AR, with an audit trail.
 
-![Pen drawing of a factory, reactor, power pylon and wind turbine around a tablet showing digital work instructions](/img/illustraties/industries.svg)
+![A worker wearing Apple Vision Pro sees floating SOP panels for digital work instructions industries over a control panel](/images/industries-1600.webp)
 
 ## What do these industries have in common?
 

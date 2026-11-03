@@ -13,8 +13,8 @@ h1: "Case voeding: omstellen en inspecties met AR-begeleiding"
 keyword_primary: "omstellen voedingsindustrie ar"
 keywords_secondary: ["werkinstructie lijnomstelling", "operators inwerken voeding"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/customers-food-changeover-inspections.svg
-image_alt: "Pentekening: voedingslijn met transportband en een formaatdeel dat wordt omgesteld, met de stapkaart op een tablet"
+image: /images/customers-food-changeover-inspections-1600.webp
+image_alt: "Een telefoon voor een robotlijn toont AR-stappen en een bevestigde controle voor omstellen voedingsindustrie ar"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een Noord-Amerikaanse voedingsproducent zette AR-werkinstructies in om nieuwe operators in te werken, lijnomstellingen te begeleiden en voorinspecties te standaardiseren. Op het DeepSight-platform bouwde hij 105 trainingen voor 300 medewerkers, zodat ervaren mensen minder tijd kwijt zijn aan coachen. Actarion brengt deze aanpak naar Europese voedingsbedrijven.
 
-![Pentekening: voedingslijn met transportband en een formaatdeel dat wordt omgesteld, met de stapkaart op een tablet](/img/illustraties/customers-food-changeover-inspections.svg)
+![Een telefoon voor een robotlijn toont AR-stappen en een bevestigde controle voor omstellen voedingsindustrie ar](/images/customers-food-changeover-inspections-1600.webp)
 
 *Case gerealiseerd met technologiepartner DeepSight. Cijfers zoals gepubliceerd door DeepSight; klant geanonimiseerd.*
 

@@ -13,8 +13,8 @@ h1: "Remote support met AR: de expert kijkt live mee"
 keyword_primary: "remote support"
 keywords_secondary: ["remote assistance AR", "hulp op afstand", "AR remote support"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/platform-remote-support.svg
-image_alt: "Pentekening: de AR-bril van een operator bij een pomp is verbonden met een laptop waarop een expert het onderdeel in cyaan markeert"
+image: /images/platform-remote-support-1600.webp
+image_alt: "Een technicus houdt een iPad voor een hoogspanningslijn; op het scherm verschijnen AR-werkinstructies voor remote support"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Remote support met AR is een live videoverbinding waarin een expert op afstand meekijkt met de operator en aantekeningen tekent die op de installatie verschijnen. Remote support van Actarion werkt vanaf een tablet, smartphone of AR-bril en start vanuit de werkinstructie. Storingen worden opgelost zonder te wachten tot een specialist er is.
 
-![Pentekening: de AR-bril van een operator bij een pomp is verbonden met een laptop waarop een expert het onderdeel in cyaan markeert](/img/illustraties/platform-remote-support.svg)
+![Een technicus houdt een iPad voor een hoogspanningslijn; op het scherm verschijnen AR-werkinstructies voor remote support](/images/platform-remote-support-1600.webp)
 
 ## Wat kost een storing je nu?
 

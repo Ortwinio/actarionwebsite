@@ -13,8 +13,8 @@ h1: "Our vision: guided work instead of documents"
 keyword_primary: "future of work manufacturing"
 keywords_secondary: ["guided work", "ar work instructions vision"]
 schema: ["AboutPage", "BreadcrumbList"]
-image: /img/illustraties/company-vision.svg
-image_alt: "Pen drawing: path from a paper SOP via a tablet to a network of connected sites"
+image: /images/company-vision-1600.webp
+image_alt: "A phone held up to process equipment shows AR steps and a confirmed check for future of work manufacturing"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Actarion's vision is to make complex industrial work simpler and smarter with AI and augmented reality. Operators get critical tasks right the first time, knowledge is captured and shared, and training happens inside the work itself. The vision is people first: technology removes friction so people can work more independently, not to replace them.
 
-![Pen drawing: path from a paper SOP via a tablet to a network of connected sites](/img/illustraties/company-vision.svg)
+![A phone held up to process equipment shows AR steps and a confirmed check for future of work manufacturing](/images/company-vision-1600.webp)
 
 ## Why must the way we pass on knowledge change?
 

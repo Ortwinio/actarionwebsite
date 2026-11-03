@@ -13,8 +13,8 @@ h1: "Vision Pro vs. HoloLens 2: welches Headset für Industrie-AR?"
 keyword_primary: "vision pro vs hololens"
 keywords_secondary: ["hololens 2 eingestellt", "apple vision pro unternehmen", "hololens alternative"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/compare-vision-pro-vs-hololens.svg
-image_alt: "Federzeichnung zu Vision Pro vs. HoloLens: geschlossenes Passthrough-Headset neben Headset mit Durchsichtvisier"
+image: /images/compare-vision-pro-vs-hololens-1600.webp
+image_alt: "Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für vision pro vs hololens über eine Produktionshalle"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Vision Pro vs. HoloLens: Microsoft hat die HoloLens 2 eingestellt und liefert bis 31. Dezember 2027 nur noch kritische Sicherheitsupdates. Bestehende Flotten laufen weiter, neue Rollouts sollten aber auf aktuelle Geräte wie die Apple Vision Pro oder Android-XR-Headsets setzen. Actarion unterstützt alle drei, Ihre Anweisungen ziehen also mit.
 
-![Federzeichnung zu Vision Pro vs. HoloLens: geschlossenes Passthrough-Headset neben Headset mit Durchsichtvisier](/img/illustraties/compare-vision-pro-vs-hololens.svg)
+![Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für vision pro vs hololens über eine Produktionshalle](/images/compare-vision-pro-vs-hololens-1600.webp)
 
 ## Was beschäftigt Teams mit HoloLens-Flotte?
 

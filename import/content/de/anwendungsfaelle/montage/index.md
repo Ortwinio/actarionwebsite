@@ -13,8 +13,8 @@ h1: "Montageanleitung digital: Fehler vermeiden bei jeder Variante"
 keyword_primary: "montageanleitung digital"
 keywords_secondary: ["digitale montageanweisung", "werkerführung montage", "first time right"]
 schema: ["Service", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/use-cases-assembly.svg
-image_alt: "Federzeichnung einer Montage, bei der AR gemäß der digitalen Montageanleitung die nächste Schraube markiert"
+image: /images/use-cases-assembly-1600.webp
+image_alt: "Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für montageanleitung digital über eine Roboterlinie"
 cta: intake
 phase: 2
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Eine Montageanleitung beschreibt Schritt für Schritt, wie ein Produkt oder eine Baugruppe korrekt montiert wird. Actarion macht Ihre bestehende Montageanleitung digital und ergänzt AR-Werkerführung: Der Werker sieht, welches Teil wohin gehört, in welcher Reihenfolge und mit welchem Anzugsmoment. Jede Montage wird protokolliert und ist rückverfolgbar.
 
-![Federzeichnung einer Montage, bei der AR gemäß der digitalen Montageanleitung die nächste Schraube markiert](/img/illustraties/use-cases-assembly.svg)
+![Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für montageanleitung digital über eine Roboterlinie](/images/use-cases-assembly-1600.webp)
 
 ## Was geht in der Montage heute schief?
 

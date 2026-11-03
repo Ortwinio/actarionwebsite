@@ -13,8 +13,8 @@ h1: "MRO-werkinstructies voor de luchtvaart: herleidbaar bij elke stap"
 keyword_primary: "mro werkinstructies"
 keywords_secondary: ["luchtvaartonderhoud", "easa part-145", "traceerbaarheid onderhoud"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/industries-aerospace-mro.svg
-image_alt: "Pentekening van een straalmotor met AR-markering op een schoep en tablet met traceerbaarheid voor MRO-werkinstructies"
+image: /images/industries-aerospace-mro-1600.webp
+image_alt: "Een technicus houdt een iPad voor een vliegtuighangar; op het scherm verschijnen AR-werkinstructies voor mro werkinstructies"
 cta: intake
 phase: 2
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > MRO-werkinstructies begeleiden technici bij onderhoud, reparatie en revisie (maintenance, repair and overhaul) van vliegtuigen en componenten. Actarion zet onderhoudsdata en interne procedures om in begeleide digitale stappen met AR op het onderdeel. Elke stap wordt afgetekend met gebruiker, tijd en bewijs. Dat ondersteunt traceerbaarheid en de documentatie-eisen van EASA Part-145.
 
-![Pentekening van een straalmotor met AR-markering op een schoep en tablet met traceerbaarheid voor MRO-werkinstructies](/img/illustraties/industries-aerospace-mro.svg)
+![Een technicus houdt een iPad voor een vliegtuighangar; op het scherm verschijnen AR-werkinstructies voor mro werkinstructies](/images/industries-aerospace-mro-1600.webp)
 
 ## Met welke uitdagingen hebben MRO-bedrijven te maken?
 

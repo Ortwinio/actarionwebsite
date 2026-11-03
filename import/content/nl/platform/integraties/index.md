@@ -13,8 +13,8 @@ h1: "Integraties met SAP, MES en LMS voor werkinstructies"
 keyword_primary: "integratie werkinstructies"
 keywords_secondary: ["SAP koppeling", "MES integratie", "LMS koppeling", "Power BI"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/platform-integrations.svg
-image_alt: "Pentekening: een tablet met werkinstructie verbonden met een serverrek, een dashboard en een machine"
+image: /images/platform-integrations-1600.webp
+image_alt: "Een technicus houdt een iPad voor een controlekamer; op het scherm verschijnen AR-werkinstructies voor integratie werkinstructies"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Integratie van werkinstructies betekent data uitwisselen tussen je digitale werkinstructies en de systemen die je al gebruikt, zoals ERP (bijvoorbeeld SAP), MES, LMS of BI-tools. Het Actarion-platform biedt CSV-export en API-koppelingen. Welke systemen je koppelt en hoe, bepalen we per project tijdens de pilot.
 
-![Pentekening: een tablet met werkinstructie verbonden met een serverrek, een dashboard en een machine](/img/illustraties/platform-integrations.svg)
+![Een technicus houdt een iPad voor een controlekamer; op het scherm verschijnen AR-werkinstructies voor integratie werkinstructies](/images/platform-integrations-1600.webp)
 
 ## Waarom leveren losse systemen extra werk op?
 

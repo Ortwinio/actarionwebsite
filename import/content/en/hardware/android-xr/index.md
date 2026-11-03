@@ -13,8 +13,8 @@ h1: "Android XR in the enterprise: AR work instructions on Android devices"
 keyword_primary: "android xr enterprise"
 keywords_secondary: ["android xr", "galaxy xr", "android xr headset industry"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/hardware-android-xr.svg
-image_alt: "Pen drawing: an Android XR headset above a workbench with a cyan overlay on a part"
+image: /images/hardware-android-xr-1600.webp
+image_alt: "A worker wearing Apple Vision Pro sees floating SOP panels for android xr enterprise over a control room"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Android XR is Google's operating system for extended reality headsets and glasses. The first device, Samsung Galaxy XR, launched in October 2025, and Google added Android Enterprise management for Android XR in 2026. For companies that already manage Android devices, Android XR is a new option for AR work instructions. Actarion assesses it per task.
 
-![Pen drawing: an Android XR headset above a workbench with a cyan overlay on a part](/img/illustraties/hardware-android-xr.svg)
+![A worker wearing Apple Vision Pro sees floating SOP panels for android xr enterprise over a control room](/images/hardware-android-xr-1600.webp)
 
 ## Why look at Android XR?
 

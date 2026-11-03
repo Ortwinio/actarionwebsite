@@ -13,8 +13,8 @@ h1: "5S Audit Checklist: Free Template With Scoring per Area"
 keyword_primary: "5s audit checklist"
 keywords_secondary: ["5s checklist", "5s audit form", "workplace organization audit"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-5s-audit-checklist.svg
-image_alt: "Pen drawing of a tool shadow board with one empty spot highlighted, next to a tablet showing a 5S audit checklist"
+image: /images/resources-templates-5s-audit-checklist-1600.webp
+image_alt: "A phone held up to a warehouse shows AR steps and a confirmed check for 5s audit checklist"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > A 5S audit checklist scores how well a work area applies the five S's: Sort, Set in order, Shine, Standardize and Sustain. This free 5S audit checklist contains 25 questions with a 0–4 score, a total out of 100 and an action list. Use it monthly per area. Actarion turns it into a guided digital audit with photos and trends.
 
-![Pen drawing of a tool shadow board with one empty spot highlighted, next to a tablet showing a 5S audit checklist](/img/illustraties/resources-templates-5s-audit-checklist.svg)
+![A phone held up to a warehouse shows AR steps and a confirmed check for 5s audit checklist](/images/resources-templates-5s-audit-checklist-1600.webp)
 
 ## Why does 5S fade after the kick-off?
 

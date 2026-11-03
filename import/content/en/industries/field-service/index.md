@@ -13,8 +13,8 @@ h1: "Field service work instructions: fixed right on the first visit"
 keyword_primary: "field service work instructions"
 keywords_secondary: ["field service checklist", "remote support", "first time fix rate"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/industries-field-service.svg
-image_alt: "Pen drawing of an outdoor cabinet, toolbox and tablet connected to an expert for field service work instructions"
+image: /images/industries-field-service-1600.webp
+image_alt: "A phone held up to a high-voltage line shows AR steps and a confirmed check for field service work instructions"
 cta: intake
 phase: 2
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Field service work instructions guide technicians through installation, maintenance and repair at the customer's site. Actarion gives them digital checklists and step-by-step AR guidance on a tablet or glasses, plus remote support from an expert. The result: more first-time fixes, fewer return visits and a complete job report.
 
-![Pen drawing of an outdoor cabinet, toolbox and tablet connected to an expert for field service work instructions](/img/illustraties/industries-field-service.svg)
+![A phone held up to a high-voltage line shows AR steps and a confirmed check for field service work instructions](/images/industries-field-service-1600.webp)
 
 ## What challenges do field service teams face?
 

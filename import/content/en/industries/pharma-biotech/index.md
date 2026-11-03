@@ -13,8 +13,8 @@ h1: "GMP work instructions for pharma and biotech, audit-ready by design"
 keyword_primary: "gmp work instructions"
 keywords_secondary: ["line clearance", "batch preparation", "audit trail", "data integrity"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/industries-pharma-biotech.svg
-image_alt: "Pen drawing of a stainless reactor, vials and a tablet with a batch checklist for GMP work instructions"
+image: /images/industries-pharma-biotech-1600.webp
+image_alt: "A technician holds an iPad up to a conveyor line; the screen shows AR work instruction steps for gmp work instructions"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > GMP work instructions describe exactly how operators execute production steps under Good Manufacturing Practice. Actarion converts your SOPs into guided digital steps with AR support for batch preparation, line clearance and changeovers. Every execution is recorded with time, user and deviations, which supports data integrity and inspections.
 
-![Pen drawing of a stainless reactor, vials and a tablet with a batch checklist for GMP work instructions](/img/illustraties/industries-pharma-biotech.svg)
+![A technician holds an iPad up to a conveyor line; the screen shows AR work instruction steps for gmp work instructions](/images/industries-pharma-biotech-1600.webp)
 
 ## What keeps pharma operations managers awake?
 

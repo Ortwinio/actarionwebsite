@@ -13,8 +13,8 @@ h1: "Expert knowledge capture: record know-how before it retires"
 keyword_primary: "expert knowledge capture"
 keywords_secondary: ["knowledge transfer manufacturing", "tribal knowledge", "capture expert knowledge"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/platform-knowledge-capture.svg
-image_alt: "Pen drawing: a tablet on a tripod records a task at a machine and turns it into step cards"
+image: /images/platform-knowledge-capture-1600.webp
+image_alt: "A phone held up to a production hall shows AR steps and a confirmed check for expert knowledge capture"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Expert knowledge capture is the process of recording how experienced employees actually do a job, including the tricks that are not in any manual. With Actarion, experts record a task during real work on a tablet or AR glasses. AI turns the recording into a step-by-step work instruction that new colleagues follow with AR guidance.
 
-![Pen drawing: a tablet on a tripod records a task at a machine and turns it into step cards](/img/illustraties/platform-knowledge-capture.svg)
+![A phone held up to a production hall shows AR steps and a confirmed check for expert knowledge capture](/images/platform-knowledge-capture-1600.webp)
 
 ## What happens when your experts leave?
 

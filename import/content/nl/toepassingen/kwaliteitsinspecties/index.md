@@ -13,8 +13,8 @@ h1: "Digitale inspectiechecklist: fouten vinden aan de bron"
 keyword_primary: "digitale inspectiechecklist"
 keywords_secondary: ["kwaliteitsinspectie", "inspectie app", "kwaliteitscontrole checklist"]
 schema: ["Service", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/use-cases-quality-inspections.svg
-image_alt: "Pentekening van een flens, schuifmaat en tablet met een digitale inspectiechecklist"
+image: /images/use-cases-quality-inspections-1600.webp
+image_alt: "Een telefoon voor een transportlijn toont AR-stappen en een bevestigde controle voor digitale inspectiechecklist"
 cta: template
 phase: 2
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een digitale inspectiechecklist vervangt het papieren formulier door begeleide controles op tablet of AR-bril. Actarion bouwt de checklist uit je inspectieplan, toont elk inspectiepunt op het product en legt per stap waarden, foto's en goed/afkeur vast. Kwaliteit krijgt volledige, doorzoekbare data in plaats van afgevinkte hokjes.
 
-![Pentekening van een flens, schuifmaat en tablet met een digitale inspectiechecklist](/img/illustraties/use-cases-quality-inspections.svg)
+![Een telefoon voor een transportlijn toont AR-stappen en een bevestigde controle voor digitale inspectiechecklist](/images/use-cases-quality-inspections-1600.webp)
 
 ## Wat is er mis met papieren inspecties?
 

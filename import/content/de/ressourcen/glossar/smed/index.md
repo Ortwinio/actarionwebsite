@@ -13,8 +13,8 @@ h1: "Was ist SMED? Rüstzeitreduzierung erklärt"
 keyword_primary: "was ist smed"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-smed.svg
-image_alt: "Federzeichnung zum Begriff SMED"
+image: /images/resources-glossary-smed-1600.webp
+image_alt: "Ein Smartphone vor eine Roboterlinie zeigt AR-Schritte und eine bestätigte Prüfung für was ist smed"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > SMED, Single Minute Exchange of Die, ist eine Lean-Methode zur Verkürzung der Rüstzeit. Arbeiten werden vor oder nach den Maschinenstillstand verlagert und der Rest vereinfacht. Ziel ist Rüsten in unter zehn Minuten. Actarion unterstützt SMED mit digitalen Rüstanweisungen, AR-Werkerführung und Zeiterfassung je Schritt.
 
-![Federzeichnung zum Begriff SMED](/img/illustraties/resources-glossary-smed.svg)
+![Ein Smartphone vor eine Roboterlinie zeigt AR-Schritte und eine bestätigte Prüfung für was ist smed](/images/resources-glossary-smed-1600.webp)
 
 ## Warum ist das in der Fertigung wichtig?
 

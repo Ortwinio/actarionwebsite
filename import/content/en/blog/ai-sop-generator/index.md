@@ -13,8 +13,8 @@ h1: "AI SOP Generator: How to Create SOPs with AI, Safely"
 keyword_primary: "ai sop generator"
 keywords_secondary: ["create sop with ai", "ai work instructions", "generative ai sop"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-ai-sop-generator.svg
-image_alt: "AI SOP generator: documents processed by AI into digital step cards"
+image: /images/blog-ai-sop-generator-1600.webp
+image_alt: "A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for ai sop generator"
 cta: intake
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > An AI SOP generator uses a language model to turn source material, such as old procedures, manuals, notes or video, into a structured SOP or step-by-step work instruction. It saves writing time, but the output is a draft that an expert must review. Actarion uses AI authoring to convert your SOPs into digital instructions that operators execute with AR guidance.
 
-![AI SOP generator: documents processed by AI into digital step cards](/img/illustraties/blog-ai-sop-generator.svg)
+![A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for ai sop generator](/images/blog-ai-sop-generator-1600.webp)
 
 **Contents**
 - [Why is SOP writing a bottleneck?](#why-is-sop-writing-a-bottleneck)

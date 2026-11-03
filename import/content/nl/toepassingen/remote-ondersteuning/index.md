@@ -13,8 +13,8 @@ h1: "Remote ondersteuning: de specialist erbij, zonder te reizen"
 keyword_primary: "remote ondersteuning monteur"
 keywords_secondary: ["remote assistance", "ar ondersteuning op afstand", "meekijken op afstand"]
 schema: ["Service", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/use-cases-remote-expert-support.svg
-image_alt: "Pentekening van de tablet van een monteur gekoppeld aan het scherm van een expert met live annotatie voor remote ondersteuning"
+image: /images/use-cases-remote-expert-support-1600.webp
+image_alt: "Een telefoon voor een hoogspanningslijn toont AR-stappen en een bevestigde controle voor remote ondersteuning monteur"
 cta: intake
 phase: 2
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Remote ondersteuning is live hulp van een specialist die meekijkt met de monteur ter plaatse, via video op tablet of AR-bril. Actarion combineert dat met digitale werkinstructies: de expert tekent op het live beeld, wijst het juiste onderdeel aan en maakt van de oplossing een nieuwe instructie.
 
-![Pentekening van de tablet van een monteur gekoppeld aan het scherm van een expert met live annotatie voor remote ondersteuning](/img/illustraties/use-cases-remote-expert-support.svg)
+![Een telefoon voor een hoogspanningslijn toont AR-stappen en een bevestigde controle voor remote ondersteuning monteur](/images/use-cases-remote-expert-support-1600.webp)
 
 ## Wanneer kost wachten op de expert je geld?
 

@@ -13,8 +13,8 @@ h1: "What Is Mixed Reality? Definition vs AR and VR"
 keyword_primary: "what is mixed reality"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-mixed-reality.svg
-image_alt: "Pen drawing for the glossary term mixed reality: headset and a floating hologram cube above a workbench"
+image: /images/resources-glossary-mixed-reality-1600.webp
+image_alt: "A worker wearing Apple Vision Pro sees floating SOP panels for what is mixed reality over a control room"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Mixed reality (MR) blends digital content with the physical world so holograms stay anchored and can interact with real surfaces and hands. Headsets such as Apple Vision Pro and HoloLens 2 deliver MR. Actarion uses mixed reality headsets for hands-free work instructions, training and remote assistance.
 
-![Pen drawing for the glossary term mixed reality: headset and a floating hologram cube above a workbench](/img/illustraties/resources-glossary-mixed-reality.svg)
+![A worker wearing Apple Vision Pro sees floating SOP panels for what is mixed reality over a control room](/images/resources-glossary-mixed-reality-1600.webp)
 
 ## Why does it matter on the shop floor?
 

@@ -13,8 +13,8 @@ h1: "Werken bij Actarion: bouw mee aan AR en AI op de werkvloer"
 keyword_primary: "vacatures ar developer"
 keywords_secondary: ["sales engineer ar", "product manager connected worker"]
 schema: ["CollectionPage", "JobPosting", "BreadcrumbList"]
-image: /img/illustraties/company-careers.svg
-image_alt: "Pentekening: gereedschapskist, laptop met code en een cyaan scherm, en een AR-bril"
+image: /images/company-careers-1600.webp
+image_alt: "Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor vacatures ar developer boven een productiehal"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Actarion is een klein, ondernemend team dat verandert hoe fabrieken en buitendienstteams in Europa werken. Je krijgt vroeg verantwoordelijkheid, ruimte om te experimenteren en korte feedbacklijnen. Openstaande vacatures zijn AR Developer in Duitsland, Sales Engineer in Nederland en Product Manager in Zwitserland.
 
-![Pentekening: gereedschapskist, laptop met code en een cyaan scherm, en een AR-bril](/img/illustraties/company-careers.svg)
+![Een medewerker met Apple Vision Pro ziet zwevende SOP-panelen voor vacatures ar developer boven een productiehal](/images/company-careers-1600.webp)
 
 ## Welke vacatures staan open?
 

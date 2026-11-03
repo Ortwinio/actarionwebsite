@@ -13,8 +13,8 @@ h1: "Anwendungsfälle für AR-Arbeitsanweisungen in der Produktion"
 keyword_primary: "ar arbeitsanweisungen anwendungsfälle"
 keywords_secondary: ["digitale arbeitsanweisungen beispiele", "werkerassistenz anwendungen"]
 schema: ["CollectionPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/use-cases.svg
-image_alt: "Federzeichnung eines Tablets mit digitaler Schrittkarte, verbunden mit Wartung, Prüfung und Logistik"
+image: /images/use-cases-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor einen Schaltschrank; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für ar arbeitsanweisungen anwendungsfälle"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > AR-Arbeitsanweisungen lohnen sich überall dort, wo Mitarbeitende kritische Tätigkeiten oft wiederholen: Einarbeitung, Montage, Rüsten, Instandhaltung, Prüfungen, LOTO, Stillstände und Kommissionierung. Actarion wandelt Ihre bestehenden SOPs in digitale Schritt-für-Schritt-Anweisungen mit AR-Werkerführung auf Tablet oder AR-Brille um. Jede Ausführung wird protokolliert, so entsteht Audit-Nachweis ohne Zusatzaufwand.
 
-![Federzeichnung eines Tablets mit digitaler Schrittkarte, verbunden mit Wartung, Prüfung und Logistik](/img/illustraties/use-cases.svg)
+![Ein Techniker hält ein iPad vor einen Schaltschrank; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für ar arbeitsanweisungen anwendungsfälle](/images/use-cases-1600.webp)
 
 ## Wo drückt der Schuh?
 

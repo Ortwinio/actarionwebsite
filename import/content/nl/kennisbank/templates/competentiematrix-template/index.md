@@ -13,8 +13,8 @@ h1: "Competentiematrix template: zie per ploeg wie wat kan"
 keyword_primary: "competentiematrix"
 keywords_secondary: ["skills matrix", "competentiematrix template", "vaardigheidsmatrix"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-skills-matrix-template.svg
-image_alt: "Pentekening van een whiteboard met een competentiematrix naast een tablet met dezelfde skills matrix digitaal"
+image: /images/resources-templates-skills-matrix-template-1600.webp
+image_alt: "Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor competentiematrix"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een competentiematrix (skills matrix) is een raster dat per medewerker laat zien welke taken hij beheerst en op welk niveau. Deze gratis competentiematrix template gebruikt een schaal van 0 tot 4, een norm per taak en een regel voor tekorten, zodat je ploegen en training kunt plannen. Actarion houdt de skills matrix automatisch actueel via uitgevoerde werkinstructies met AR-begeleiding.
 
-![Pentekening van een whiteboard met een competentiematrix naast een tablet met dezelfde skills matrix digitaal](/img/illustraties/resources-templates-skills-matrix-template.svg)
+![Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor competentiematrix](/images/resources-templates-skills-matrix-template-1600.webp)
 
 ## Waarom loopt de ploegbezetting vast op kennis?
 

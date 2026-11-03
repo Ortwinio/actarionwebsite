@@ -13,8 +13,8 @@ h1: "Datenbrillen in der Industrie: Typen, Einsatz und Auswahl"
 keyword_primary: "Smart Glasses"
 keywords_secondary: ["AR Brille", "Datenbrille", "Datenbrille Industrie"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-smart-glasses-industry.svg
-image_alt: "Smart Glasses in der Industrie: Nahaufnahme einer AR-Brille mit Schrittkarte im Glas und Zahnrad"
+image: /images/blog-smart-glasses-industry-1600.webp
+image_alt: "Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für Smart Glasses über eine Produktionshalle"
 cta: intake
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Smart Glasses oder Datenbrillen sind tragbare Displays, die Arbeitsanweisungen, Checklisten oder das Bild eines Remote-Experten ins Sichtfeld des Werkers bringen, während beide Hände frei bleiben. Das Spektrum reicht vom kleinen Display neben dem Auge bis zur vollwertigen AR-Brille. Actarion lässt Ihre digitalen Arbeitsanweisungen auf Datenbrillen und Tablets laufen, damit Sie je Tätigkeit wählen.
 
-![Smart Glasses in der Industrie: Nahaufnahme einer AR-Brille mit Schrittkarte im Glas und Zahnrad](/img/illustraties/blog-smart-glasses-industry.svg)
+![Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für Smart Glasses über eine Produktionshalle](/images/blog-smart-glasses-industry-1600.webp)
 
 **Inhalt**
 - [Wann lohnen sich Datenbrillen?](#wann-lohnen-sich-datenbrillen)

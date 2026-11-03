@@ -13,8 +13,8 @@ h1: "Events en webinars over AR-werkinstructies"
 keyword_primary: "webinar ar-werkinstructies"
 keywords_secondary: ["event connected worker", "beurs ar maakindustrie"]
 schema: ["CollectionPage", "BreadcrumbList"]
-image: /img/illustraties/resources-events.svg
-image_alt: "Pentekening: presentatiescherm met een cyane stapkaart en een AR-bril, met publiek in silhouet"
+image: /images/resources-events-1600.webp
+image_alt: "Een technicus houdt een iPad voor een schakelkast; op het scherm verschijnen AR-werkinstructies voor webinar ar-werkinstructies"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Op de events van Actarion zie je AI-gegenereerde werkinstructies met AR-begeleiding in actie. We organiseren webinars, staan op vakbeurzen en verzorgen sessies op locatie waar je team een stap-voor-stap-instructie uitprobeert op een tablet of AR-bril. De komende data staan hieronder; je kunt ook een sessie op je eigen locatie aanvragen.
 
-![Pentekening: presentatiescherm met een cyane stapkaart en een AR-bril, met publiek in silhouet](/img/illustraties/resources-events.svg)
+![Een technicus houdt een iPad voor een schakelkast; op het scherm verschijnen AR-werkinstructies voor webinar ar-werkinstructies](/images/resources-events-1600.webp)
 
 ## Waarom live zien?
 

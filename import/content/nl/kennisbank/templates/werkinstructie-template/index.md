@@ -13,8 +13,8 @@ h1: "Werkinstructie template: gratis, compleet en met voorbeeld"
 keyword_primary: "werkinstructie template"
 keywords_secondary: ["werkinstructie voorbeeld", "werkinstructie maken", "format werkinstructie"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-work-instruction-template.svg
-image_alt: "Pentekening van een werkinstructie template op een klembord naast een tablet met dezelfde stappen digitaal"
+image: /images/resources-templates-work-instruction-template-1600.webp
+image_alt: "Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor werkinstructie template"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een werkinstructie template is een vast format dat één taak stap voor stap beschrijft: wat je doet, hoe je het doet en waarom. Deze gratis werkinstructie template bevat een kop, veiligheid en gereedschap, een stappentabel met aandachtspunten, kwaliteitscontroles en aftekening, plus een werkinstructie voorbeeld. Actarion zet ingevulde instructies om in digitale stappen met AR-begeleiding.
 
-![Pentekening van een werkinstructie template op een klembord naast een tablet met dezelfde stappen digitaal](/img/illustraties/resources-templates-work-instruction-template.svg)
+![Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor werkinstructie template](/images/resources-templates-work-instruction-template-1600.webp)
 
 ## Waarom worden werkinstructies niet gelezen?
 

@@ -13,8 +13,8 @@ h1: "Simply Change: veranderpartner voor de uitrol van AR"
 keyword_primary: "uitrol ar verandermanagement"
 keywords_secondary: ["omstellen fmcg", "connected worker opschalen"]
 schema: ["Organization", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/partners-simply-change.svg
-image_alt: "Pentekening: drie fabrieken waarin een cyaan scherm stap voor stap wordt uitgerold met vinkjes"
+image: /images/partners-simply-change-1600.webp
+image_alt: "Een technicus houdt een iPad voor procesinstallaties; op het scherm verschijnen AR-werkinstructies voor uitrol ar verandermanagement"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Simply Change is de partner van Actarion voor verandermanagement en implementatie, met ervaring in FMCG en operationele transformatie. Samen zorgen ze dat werkinstructies met AI en AR de pilotfase ontgroeien en op schaal in het dagelijkse werk landen, via betrokkenheid van stakeholders, coaching van teamleiders, gestructureerde uitrol en meting van gebruik en effect.
 
-![Pentekening: drie fabrieken waarin een cyaan scherm stap voor stap wordt uitgerold met vinkjes](/img/illustraties/partners-simply-change.svg)
+![Een technicus houdt een iPad voor procesinstallaties; op het scherm verschijnen AR-werkinstructies voor uitrol ar verandermanagement](/images/partners-simply-change-1600.webp)
 
 ## Waarom wordt een pilot geen standaard?
 

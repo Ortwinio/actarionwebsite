@@ -13,8 +13,8 @@ h1: "Wat is een MES? Manufacturing execution system"
 keyword_primary: "wat is een mes"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-mes.svg
-image_alt: "Pentekening bij het begrip MES"
+image: /images/resources-glossary-mes-1600.webp
+image_alt: "Een technicus houdt een iPad voor een controlekamer; op het scherm verschijnen AR-werkinstructies voor wat is een mes"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een MES, of manufacturing execution system, is software die de productie op de werkvloer aanstuurt en vastlegt: orders, materialen, machinestatus, kwaliteitsdata en traceerbaarheid. Het verbindt de ERP-planning met de lijn. Actarion vult een MES aan met AR-werkinstructies en data per stap over hoe taken zijn uitgevoerd.
 
-![Pentekening bij het begrip MES](/img/illustraties/resources-glossary-mes.svg)
+![Een technicus houdt een iPad voor een controlekamer; op het scherm verschijnen AR-werkinstructies voor wat is een mes](/images/resources-glossary-mes-1600.webp)
 
 ## Waarom is dit belangrijk op de werkvloer?
 

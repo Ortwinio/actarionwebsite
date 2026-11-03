@@ -13,8 +13,8 @@ h1: "Kwaliteitsinspectie checklist: gratis template voor productie"
 keyword_primary: "kwaliteitsinspectie checklist"
 keywords_secondary: ["kwaliteitscontrole checklist", "inspectieformulier", "eerste stuk controle"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-quality-inspection-checklist.svg
-image_alt: "Pentekening van een schuifmaat die een flens meet naast een tablet met de kwaliteitsinspectie checklist"
+image: /images/resources-templates-quality-inspection-checklist-1600.webp
+image_alt: "Een telefoon voor een transportlijn toont AR-stappen en een bevestigde controle voor kwaliteitsinspectie checklist"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Een kwaliteitsinspectie checklist legt vast welke kenmerken je controleert, tegen welke specificatie, met welk meetmiddel, hoe vaak en wat er gebeurt als een product afgekeurd wordt. Deze gratis checklist dekt eerste-stukcontrole, tussencontrole en eindcontrole met OK/NOK en een reactieplan. Actarion maakt er inspecties met AR-begeleiding van die elke meetwaarde vastleggen.
 
-![Pentekening van een schuifmaat die een flens meet naast een tablet met de kwaliteitsinspectie checklist](/img/illustraties/resources-templates-quality-inspection-checklist.svg)
+![Een telefoon voor een transportlijn toont AR-stappen en een bevestigde controle voor kwaliteitsinspectie checklist](/images/resources-templates-quality-inspection-checklist-1600.webp)
 
 ## Waarom bereiken fouten toch de klant?
 

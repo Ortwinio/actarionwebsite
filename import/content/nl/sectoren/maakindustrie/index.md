@@ -13,8 +13,8 @@ h1: "Werkinstructies voor de maakindustrie: minder fouten, hogere OEE"
 keyword_primary: "werkinstructies maakindustrie"
 keywords_secondary: ["digitale werkinstructies productie", "oee verbeteren", "omstellen", "montagefouten"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/industries-manufacturing.svg
-image_alt: "Pentekening van een transportband met robotarm en tablet met OEE-meter voor werkinstructies in de maakindustrie"
+image: /images/industries-manufacturing-1600.webp
+image_alt: "Een telefoon voor een robotlijn toont AR-stappen en een bevestigde controle voor werkinstructies maakindustrie"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Digitale werkinstructies in de maakindustrie vervangen mappen en pdf's door stap-voor-stapbegeleiding aan de werkplek. Actarion zet je SOP's en montage-instructies met AI om en toont elke stap met AR op de machine. Het resultaat: sneller omstellen, minder montagefouten, sneller inwerken en data die je OEE omhoog helpt.
 
-![Pentekening van een transportband met robotarm en tablet met OEE-meter voor werkinstructies in de maakindustrie](/img/illustraties/industries-manufacturing.svg)
+![Een telefoon voor een robotlijn toont AR-stappen en een bevestigde controle voor werkinstructies maakindustrie](/images/industries-manufacturing-1600.webp)
 
 ## Met welke uitdagingen worstelt de maakindustrie?
 

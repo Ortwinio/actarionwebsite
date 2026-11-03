@@ -13,8 +13,8 @@ h1: "5S-Audit-Checkliste: kostenlose Vorlage mit Bewertung je Bereich"
 keyword_primary: "5S Audit Checkliste"
 keywords_secondary: ["5S Checkliste", "5S Audit", "Arbeitsplatzorganisation"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-templates-5s-audit-checklist.svg
-image_alt: "Federzeichnung: Werkzeugwand mit Schattenbrett und einem markierten leeren Platz, daneben ein Tablet mit einer 5S-Audit-Checkliste"
+image: /images/resources-templates-5s-audit-checklist-1600.webp
+image_alt: "Ein Smartphone vor ein Lager zeigt AR-Schritte und eine bestätigte Prüfung für 5S Audit Checkliste"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Eine 5S-Audit-Checkliste bewertet, wie gut ein Arbeitsbereich die fünf S umsetzt: Sortieren, Systematisieren (Setzen), Säubern, Standardisieren und Selbstdisziplin. Diese kostenlose 5S-Audit-Checkliste enthält 25 Fragen mit einer Bewertung von 0 bis 4, eine Gesamtpunktzahl von 100 und eine Maßnahmenliste. Actarion macht daraus ein digitales Audit mit Fotos und Trends.
 
-![Federzeichnung: Werkzeugwand mit Schattenbrett und einem markierten leeren Platz, daneben ein Tablet mit einer 5S-Audit-Checkliste](/img/illustraties/resources-templates-5s-audit-checklist.svg)
+![Ein Smartphone vor ein Lager zeigt AR-Schritte und eine bestätigte Prüfung für 5S Audit Checkliste](/images/resources-templates-5s-audit-checklist-1600.webp)
 
 ## Warum schläft 5S nach dem Kick-off ein?
 

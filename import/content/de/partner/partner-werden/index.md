@@ -13,8 +13,8 @@ h1: "Partner von Actarion für AR-Arbeitsanweisungen werden"
 keyword_primary: "partner werden ar arbeitsanweisungen"
 keywords_secondary: ["connected worker partner", "deepsight partner"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/partners-become-a-partner.svg
-image_alt: "Federzeichnung: ein großes und ein cyanfarbenes Zahnrad greifen ineinander, daneben ein Tablet mit Schrittkarte"
+image: /images/partners-become-a-partner-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor Prozessanlagen; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für partner werden ar arbeitsanweisungen"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Actarion arbeitet mit einem Netzwerk lokaler Technologie-, Integrations- und Bildungspartner. Wenn Sie Industrie-, Logistik- oder Energieunternehmen in Europa betreuen, können Sie Partner werden und KI- und AR-geführte Arbeitsanweisungen auf Basis der DeepSight-Plattform zu Ihren Kunden bringen. Wir starten mit einem Kennenlerngespräch und einem ersten gemeinsamen Projekt.
 
-![Federzeichnung: ein großes und ein cyanfarbenes Zahnrad greifen ineinander, daneben ein Tablet mit Schrittkarte](/img/illustraties/partners-become-a-partner.svg)
+![Ein Techniker hält ein iPad vor Prozessanlagen; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für partner werden ar arbeitsanweisungen](/images/partners-become-a-partner-1600.webp)
 
 ## Welche Partner suchen wir?
 

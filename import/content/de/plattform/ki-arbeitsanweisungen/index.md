@@ -13,8 +13,8 @@ h1: "KI Arbeitsanweisung: vom Papierverfahren zu digitalen Schritten"
 keyword_primary: "KI Arbeitsanweisung"
 keywords_secondary: ["Arbeitsanweisung erstellen KI", "AI SOP Generator", "SOP Software"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/platform-ai-authoring.svg
-image_alt: "Federzeichnung: Eine Papier-SOP läuft durch KI-Zahnräder und wird zu abgehakten digitalen Schrittkarten auf einem Tablet"
+image: /images/platform-ai-authoring-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Förderanlage; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für KI Arbeitsanweisung"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Eine KI Arbeitsanweisung ist eine Schritt-für-Schritt-Anweisung, die KI aus vorhandenem Material erstellt, etwa aus einer Word-SOP, einem PDF oder einer Aufnahme der Tätigkeit. Actarion wandelt Ihre bestehenden SOPs mit KI in digitale Arbeitsanweisungen mit Bildern, Prüfungen und Warnhinweisen um. Ihre Experten prüfen und geben frei, bevor etwas in die Fertigung geht.
 
-![Federzeichnung: Eine Papier-SOP läuft durch KI-Zahnräder und wird zu abgehakten digitalen Schrittkarten auf einem Tablet](/img/illustraties/platform-ai-authoring.svg)
+![Ein Techniker hält ein iPad vor eine Förderanlage; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für KI Arbeitsanweisung](/images/platform-ai-authoring-1600.webp)
 
 ## Warum dauert das Erstellen von Arbeitsanweisungen so lange?
 

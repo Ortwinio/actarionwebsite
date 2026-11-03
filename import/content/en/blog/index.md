@@ -13,8 +13,8 @@ h1: "Guides: Work Instructions, SOPs and AR on the Shop Floor"
 keyword_primary: "work instructions guide"
 keywords_secondary: ["sop guide", "ar in manufacturing"]
 schema: ["CollectionPage", "BreadcrumbList"]
-image: /img/illustraties/blog.svg
-image_alt: "Stack of guides next to a tablet showing a digital work instruction step card"
+image: /images/blog-1600.webp
+image_alt: "A technician holds an iPad up to a robotic assembly line; the screen shows AR work instruction steps for work instructions guide"
 cta: template
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > The Actarion guides help operations, maintenance, quality and HR leaders standardize work, onboard faster and pass audits with less stress. Each guide gives a definition, steps, an example and common mistakes, plus a free template where it helps. Written by the Actarion team, implementation partner for SOP → AI → AR work instructions.
 
-![Stack of guides next to a tablet showing a digital work instruction step card](/img/illustraties/blog.svg)
+![A technician holds an iPad up to a robotic assembly line; the screen shows AR work instruction steps for work instructions guide](/images/blog-1600.webp)
 
 ## Work instructions and SOPs
 - [How to write work instructions](/en/blog/how-to-write-work-instructions/)

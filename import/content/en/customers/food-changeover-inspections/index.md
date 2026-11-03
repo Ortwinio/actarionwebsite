@@ -13,8 +13,8 @@ h1: "Food case: AR-guided changeovers and inspections"
 keyword_primary: "ar changeover food production"
 keywords_secondary: ["food line changeover instructions", "operator training food industry"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/customers-food-changeover-inspections.svg
-image_alt: "Pen drawing: food line with conveyor and a change part being swapped, with the step card on a tablet"
+image: /images/customers-food-changeover-inspections-1600.webp
+image_alt: "A phone held up to a robotic assembly line shows AR steps and a confirmed check for ar changeover food production"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > A North-American food producer used AR work instructions to train new operators, guide line changeovers and standardize pre-inspections. On the DeepSight platform it built 105 training courses that 300 employees can use, so experienced staff spend less time coaching. Actarion delivers this approach to European food plants.
 
-![Pen drawing: food line with conveyor and a change part being swapped, with the step card on a tablet](/img/illustraties/customers-food-changeover-inspections.svg)
+![A phone held up to a robotic assembly line shows AR steps and a confirmed check for ar changeover food production](/images/customers-food-changeover-inspections-1600.webp)
 
 *Case realised with technology partner DeepSight. Figures as published by DeepSight; customer anonymised.*
 

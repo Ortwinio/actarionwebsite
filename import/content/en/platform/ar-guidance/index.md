@@ -13,8 +13,8 @@ h1: "Augmented reality work instructions that show where to act"
 keyword_primary: "augmented reality work instructions"
 keywords_secondary: ["ar work instructions", "ar guidance", "smart glasses work instructions"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/platform-ar-guidance.svg
-image_alt: "Pen drawing: AR glasses show a cyan overlay ring and step card on the correct valve of a panel"
+image: /images/platform-ar-guidance-1600.webp
+image_alt: "A worker wearing Apple Vision Pro sees floating SOP panels for augmented reality work instructions over an electrical cabinet"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Augmented reality work instructions place digital guidance on top of the real workplace. Instead of reading a manual, the operator sees which valve, bolt or connector comes next, right on the equipment. Actarion delivers AR work instructions on tablets and AR glasses, and records each confirmed step for the audit trail.
 
-![Pen drawing: AR glasses show a cyan overlay ring and step card on the correct valve of a panel](/img/illustraties/platform-ar-guidance.svg)
+![A worker wearing Apple Vision Pro sees floating SOP panels for augmented reality work instructions over an electrical cabinet](/images/platform-ar-guidance-1600.webp)
 
 ## Where do operators go wrong today?
 

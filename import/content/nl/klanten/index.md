@@ -13,8 +13,8 @@ h1: "Klantcases: AR-werkinstructies in de praktijk"
 keyword_primary: "klantcases ar-werkinstructies"
 keywords_secondary: ["digitale werkinstructies voorbeelden", "connected worker case"]
 schema: ["CollectionPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/customers.svg
-image_alt: "Pentekening: vier sokkels met een helm, een krat, een flacon en een wiel, verbonden met een tablet met een cyane casekaart"
+image: /images/customers-1600.webp
+image_alt: "Een telefoon voor een productiehal toont AR-stappen en een bevestigde controle voor klantcases ar-werkinstructies"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Deze klantcases laten zien hoe industriële bedrijven AI-gegenereerde werkinstructies met AR-begeleiding inzetten om sneller in te werken, in elke dienst goed om te stellen en onderhoud audit-proof vast te leggen. De vier geanonimiseerde cases komen uit mijnbouw, voeding, farma en transport, gerealiseerd op het DeepSight-platform dat Actarion in Europa implementeert.
 
-![Pentekening: vier sokkels met een helm, een krat, een flacon en een wiel, verbonden met een tablet met een cyane casekaart](/img/illustraties/customers.svg)
+![Een telefoon voor een productiehal toont AR-stappen en een bevestigde controle voor klantcases ar-werkinstructies](/images/customers-1600.webp)
 
 ## Waar lopen operationele teams tegenaan voordat ze digitaliseren?
 

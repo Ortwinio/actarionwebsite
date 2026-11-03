@@ -13,8 +13,8 @@ h1: "Lösungen für die Fertigung: von der SOP zur AR-Werkerführung"
 keyword_primary: "Lösungen Fertigung"
 keywords_secondary: ["digitale Arbeitsanweisungen", "Werkerassistenzsystem", "SOP Software"]
 schema: ["CollectionPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/solutions.svg
-image_alt: "Federzeichnung: ein zentrales Tablet mit Schrittkarte, verbunden mit sechs Actarion-Lösungen"
+image: /images/solutions-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Roboterlinie; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Lösungen Fertigung"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Actarion bietet sechs Lösungen auf einer Plattform: digitale Arbeitsanweisungen, ein Werkerassistenzsystem, SOP Software, Mitarbeiter-Einarbeitung, digitale Checklisten und Wissenstransfer. Jede Lösung startet bei Ihren bestehenden SOPs, digitalisiert sie per KI, führt Werker mit AR und protokolliert jede Ausführung als Auditnachweis.
 
-![Federzeichnung: ein zentrales Tablet mit Schrittkarte, verbunden mit sechs Actarion-Lösungen](/img/illustraties/solutions.svg)
+![Ein Techniker hält ein iPad vor eine Roboterlinie; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Lösungen Fertigung](/images/solutions-1600.webp)
 
 ## Welches Problem wollen Sie zuerst lösen?
 

@@ -13,8 +13,8 @@ h1: "Was ist eine Qualifikationsmatrix? Beispiel"
 keyword_primary: "was ist eine qualifikationsmatrix"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-skills-matrix.svg
-image_alt: "Federzeichnung zum Begriff Qualifikationsmatrix"
+image: /images/resources-glossary-skills-matrix-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für was ist eine qualifikationsmatrix"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Eine Qualifikationsmatrix (Skills Matrix) ist eine Tabelle, die zeigt, welche Mitarbeitenden für welche Tätigkeiten oder Anlagen qualifiziert sind und auf welchem Niveau. Sie unterstützt Schichtplanung, Schulung und Audits. Actarion hält die Qualifikationsmatrix in der DeepSight-Konsole aktuell, auf Basis echter Ausführungen digitaler Arbeitsanweisungen.
 
-![Federzeichnung zum Begriff Qualifikationsmatrix](/img/illustraties/resources-glossary-skills-matrix.svg)
+![Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für was ist eine qualifikationsmatrix](/images/resources-glossary-skills-matrix-1600.webp)
 
 ## Warum ist das in der Fertigung wichtig?
 

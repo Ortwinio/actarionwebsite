@@ -13,8 +13,8 @@ h1: "Assembly work instructions that prevent errors at every variant"
 keyword_primary: "assembly work instructions"
 keywords_secondary: ["digital assembly instructions", "ar assembly", "first time right"]
 schema: ["Service", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/use-cases-assembly.svg
-image_alt: "Pen drawing of an assembly where AR highlights the next bolt to fit, following digital assembly work instructions"
+image: /images/use-cases-assembly-1600.webp
+image_alt: "A worker wearing Apple Vision Pro sees floating SOP panels for assembly work instructions over a robotic assembly line"
 cta: intake
 phase: 2
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Assembly work instructions describe, step by step, how to build a product or module correctly. Actarion turns your existing assembly instructions into digital steps with AR guidance: the operator sees which part goes where, in which order and with which torque. Every build is logged, so quality can trace each unit.
 
-![Pen drawing of an assembly where AR highlights the next bolt to fit, following digital assembly work instructions](/img/illustraties/use-cases-assembly.svg)
+![A worker wearing Apple Vision Pro sees floating SOP panels for assembly work instructions over a robotic assembly line](/images/use-cases-assembly-1600.webp)
 
 ## What goes wrong in assembly today?
 

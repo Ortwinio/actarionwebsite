@@ -13,8 +13,8 @@ h1: "HoloLens 2 Alternatives: What to Use Now for Industrial AR"
 keyword_primary: "hololens 2 alternative"
 keywords_secondary: ["hololens discontinued", "hololens replacement", "industrial ar headset"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-hololens-2-alternatives.svg
-image_alt: "HoloLens 2 alternatives: tablet, mixed reality headset and lightweight AR glasses side by side"
+image: /images/blog-hololens-2-alternatives-1600.webp
+image_alt: "A worker wearing Apple Vision Pro sees floating SOP panels for hololens 2 alternative over an electrical cabinet"
 cta: intake
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Microsoft ended HoloLens 2 production in October 2024 and will provide security updates until the end of 2027. Main HoloLens 2 alternatives are tablets, mixed reality headsets such as Apple Vision Pro and Android XR devices, and lightweight smart glasses. The best choice depends on the task. Actarion keeps your AR instructions device-independent, so you can switch without rewriting content.
 
-![HoloLens 2 alternatives: tablet, mixed reality headset and lightweight AR glasses side by side](/img/illustraties/blog-hololens-2-alternatives.svg)
+![A worker wearing Apple Vision Pro sees floating SOP panels for hololens 2 alternative over an electrical cabinet](/images/blog-hololens-2-alternatives-1600.webp)
 
 **Contents**
 - [Why are you looking for an alternative?](#why-are-you-looking-for-an-alternative)

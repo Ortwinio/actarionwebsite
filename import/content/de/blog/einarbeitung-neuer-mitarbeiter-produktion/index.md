@@ -13,8 +13,8 @@ h1: "Einarbeitung neuer Mitarbeiter in der Produktion: schneller eigenständig"
 keyword_primary: "Einarbeitung neuer Mitarbeiter"
 keywords_secondary: ["Einarbeitungsplan", "Einarbeitungsplan Produktion", "Anlernen Produktion"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-operator-onboarding.svg
-image_alt: "Einarbeitung neuer Mitarbeiter: Lernstufen mit Haken neben einem Tablet an der Werkbank"
+image: /images/blog-operator-onboarding-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Einarbeitung neuer Mitarbeiter"
 cta: template
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > Die Einarbeitung neuer Mitarbeiter in der Produktion ist der strukturierte Weg vom ersten Arbeitstag bis zum selbstständigen, sicheren Arbeiten. Ein guter Einarbeitungsplan legt Tätigkeiten, Stufen, einen Paten und Meilensteine fest. Actarion verkürzt die Einarbeitung mit digitalen Arbeitsanweisungen und AR-Werkerführung: Neue lernen direkt am Arbeitsplatz, jeder Schritt wird dokumentiert.
 
-![Einarbeitung neuer Mitarbeiter: Lernstufen mit Haken neben einem Tablet an der Werkbank](/img/illustraties/blog-operator-onboarding.svg)
+![Ein Techniker hält ein iPad vor eine Produktionshalle; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für Einarbeitung neuer Mitarbeiter](/images/blog-operator-onboarding-1600.webp)
 
 **Inhalt**
 - [Warum ist die Einarbeitung in der Produktion so schwierig?](#warum-ist-die-einarbeitung-in-der-produktion-so-schwierig)

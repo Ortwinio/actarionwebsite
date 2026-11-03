@@ -13,8 +13,8 @@ h1: "Mining case: AR training and maintenance across sites"
 keyword_primary: "ar training mining"
 keywords_secondary: ["mining maintenance work instructions", "3d work instructions"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/customers-mining-training-maintenance.svg
-image_alt: "Pen drawing: mining vehicle with a cyan maintenance point, linked to AR glasses and a tablet with a step card"
+image: /images/customers-mining-training-maintenance-1600.webp
+image_alt: "A technician holds an iPad up to process equipment; the screen shows AR work instruction steps for ar training mining"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > A global mining company used AR work instructions to standardize training, maintenance and pre-inspections across its mine sites. Built on the DeepSight platform, the program delivered 40 training courses over three sites, with 3D instructions, remote assistance and operations traceability. Actarion delivers this approach to European operations.
 
-![Pen drawing: mining vehicle with a cyan maintenance point, linked to AR glasses and a tablet with a step card](/img/illustraties/customers-mining-training-maintenance.svg)
+![A technician holds an iPad up to process equipment; the screen shows AR work instruction steps for ar training mining](/images/customers-mining-training-maintenance-1600.webp)
 
 *Case realised with technology partner DeepSight. Figures as published by DeepSight; customer anonymised.*
 

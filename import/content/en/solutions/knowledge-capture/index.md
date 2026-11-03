@@ -13,8 +13,8 @@ h1: "Knowledge capture: keep expert know-how when people leave"
 keyword_primary: "knowledge capture"
 keywords_secondary: ["knowledge transfer manufacturing", "tribal knowledge", "expert knowledge retention"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/solutions-knowledge-capture.svg
-image_alt: "Pen drawing: a camera records the work on a pump and valve, which is stored as digital step cards for knowledge capture"
+image: /images/solutions-knowledge-capture-1600.webp
+image_alt: "A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for knowledge capture"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Knowledge capture is the process of recording how experienced employees do their work, so others can repeat it. Actarion captures expert know-how on video or during the task, turns it into AI-generated, step-by-step work instructions with AR, and makes it available to every operator, with a record of every execution.
 
-![Pen drawing: a camera records the work on a pump and valve, which is stored as digital step cards for knowledge capture](/img/illustraties/solutions-knowledge-capture.svg)
+![A technician holds an iPad up to a production hall; the screen shows AR work instruction steps for knowledge capture](/images/solutions-knowledge-capture-1600.webp)
 
 ## Why is knowledge walking out of your plant?
 

@@ -13,8 +13,8 @@ h1: "Digitale werkinstructies met AI en AR, vanaf dag één audit-proof"
 keyword_primary: "digitale werkinstructies"
 keywords_secondary: ["werkinstructies", "ar werkinstructies", "connected worker", "sop software"]
 schema: ["Organization", "WebSite", "FAQPage"]
-image: /img/illustraties/home.svg
-image_alt: "Pentekening: een papieren SOP wordt een digitale werkinstructie op tablet en AR-bril, met uitvoeringsdata naar een dashboard"
+image: /images/home-1600.webp
+image_alt: "Een technicus houdt een iPad voor een robotlijn; op het scherm verschijnen AR-werkinstructies voor digitale werkinstructies"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Actarion zet je bestaande SOP's en werkinstructies met AI om in digitale werkinstructies, stap voor stap. Operators voeren ze uit met AR-begeleiding op een tablet of AR-bril. Elke uitvoering wordt vastgelegd: tijd, bevestigingen en afwijkingen. Zo werk je nieuwe mensen sneller in, maak je minder fouten en heb je audit-bewijs zonder extra papierwerk.
 
-![Pentekening: een papieren SOP wordt een digitale werkinstructie op tablet en AR-bril, met uitvoeringsdata naar een dashboard](/img/illustraties/home.svg)
+![Een technicus houdt een iPad voor een robotlijn; op het scherm verschijnen AR-werkinstructies voor digitale werkinstructies](/images/home-1600.webp)
 
 ## Herken je dit op de werkvloer?
 

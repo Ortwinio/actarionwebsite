@@ -13,8 +13,8 @@ h1: "Was ist GMP? Gute Herstellungspraxis erklärt"
 keyword_primary: "was ist gmp"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-gmp.svg
-image_alt: "Federzeichnung zum Begriff GMP"
+image: /images/resources-glossary-gmp-1600.webp
+image_alt: "Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für was ist gmp über eine Förderanlage"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > GMP, Good Manufacturing Practice oder Gute Herstellungspraxis, umfasst Vorschriften und Leitlinien, die sicherstellen, dass Arzneimittel, Lebensmittel und ähnliche Produkte gleichbleibend und kontrolliert nach Qualitätsstandards hergestellt werden. Dokumentierte Verfahren und Aufzeichnungen stehen im Mittelpunkt. Actarion unterstützt GMP mit gelenkten digitalen Arbeitsanweisungen und Audit Trail.
 
-![Federzeichnung zum Begriff GMP](/img/illustraties/resources-glossary-gmp.svg)
+![Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für was ist gmp über eine Förderanlage](/images/resources-glossary-gmp-1600.webp)
 
 ## Warum ist das in der Fertigung wichtig?
 

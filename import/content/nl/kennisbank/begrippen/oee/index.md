@@ -13,8 +13,8 @@ h1: "Wat is OEE? Betekenis en berekening"
 keyword_primary: "wat is oee"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-oee.svg
-image_alt: "Pentekening bij het begrip OEE"
+image: /images/resources-glossary-oee-1600.webp
+image_alt: "Een telefoon voor een controlekamer toont AR-stappen en een bevestigde controle voor wat is oee"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > OEE, of overall equipment effectiveness, meet welk deel van de geplande productietijd echt productief is. Je vermenigvuldigt beschikbaarheid, prestatie en kwaliteit. Een lage OEE wijst op stilstand, trage cycli of afkeur. Actarion verbetert de menselijke kant van OEE met begeleid omstellen, standaardwerk en snellere storingsafhandeling.
 
-![Pentekening bij het begrip OEE](/img/illustraties/resources-glossary-oee.svg)
+![Een telefoon voor een controlekamer toont AR-stappen en een bevestigde controle voor wat is oee](/images/resources-glossary-oee-1600.webp)
 
 ## Waarom is dit belangrijk op de werkvloer?
 

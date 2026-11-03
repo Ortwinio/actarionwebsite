@@ -13,8 +13,8 @@ h1: "Über Actarion: AR-Arbeitsanweisungen für die europäische Industrie"
 keyword_primary: "über actarion"
 keywords_secondary: ["unternehmen ar arbeitsanweisungen", "europäischer partner deepsight"]
 schema: ["Organization", "AboutPage", "BreadcrumbList"]
-image: /img/illustraties/company.svg
-image_alt: "Federzeichnung: Bürogebäude, drei verbundene Regionsknoten mit cyanfarbenem Zentrum und ein Tablet mit Schrittkarte"
+image: /images/company-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Roboterlinie; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für über actarion"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Actarion unterstützt Industrie-, Logistik- und Energieunternehmen dabei, die Arbeit in der Produktion mit KI- und AR-geführten Arbeitsanweisungen neu zu denken. Gegründet von erfahrenen Unternehmern und Praktikern, ist Actarion der europäische Partner von DeepSight. Wir implementieren die Plattform in Benelux, DACH und den Nordics, gemeinsam mit lokalen Partnern.
 
-![Federzeichnung: Bürogebäude, drei verbundene Regionsknoten mit cyanfarbenem Zentrum und ein Tablet mit Schrittkarte](/img/illustraties/company.svg)
+![Ein Techniker hält ein iPad vor eine Roboterlinie; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für über actarion](/images/company-1600.webp)
 
 ## Warum gibt es Actarion?
 

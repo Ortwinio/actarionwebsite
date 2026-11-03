@@ -13,8 +13,8 @@ h1: "Events und Webinare zu AR-Arbeitsanweisungen"
 keyword_primary: "webinar ar arbeitsanweisungen"
 keywords_secondary: ["event connected worker", "messe ar fertigung"]
 schema: ["CollectionPage", "BreadcrumbList"]
-image: /img/illustraties/resources-events.svg
-image_alt: "Federzeichnung: Präsentationsbildschirm mit cyanfarbener Schrittkarte und AR-Brille, davor Publikum als Silhouetten"
+image: /images/resources-events-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor einen Schaltschrank; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für webinar ar arbeitsanweisungen"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Bei Events von Actarion erleben Sie KI-erstellte, AR-geführte Arbeitsanweisungen in der Praxis. Wir veranstalten Webinare, sind auf Fachmessen vertreten und bieten Termine vor Ort, bei denen Ihr Team eine Schritt-für-Schritt-Anweisung auf Tablet oder AR-Brille ausprobiert. Die nächsten Termine finden Sie unten; einen Termin in Ihrem Werk können Sie anfragen.
 
-![Federzeichnung: Präsentationsbildschirm mit cyanfarbener Schrittkarte und AR-Brille, davor Publikum als Silhouetten](/img/illustraties/resources-events.svg)
+![Ein Techniker hält ein iPad vor einen Schaltschrank; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für webinar ar arbeitsanweisungen](/images/resources-events-1600.webp)
 
 ## Warum live erleben?
 

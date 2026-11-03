@@ -13,8 +13,8 @@ h1: "Wat is first time right? Betekenis en KPI"
 keyword_primary: "first time right"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-first-time-right.svg
-image_alt: "Pentekening bij het begrip first time right"
+image: /images/resources-glossary-first-time-right-1600.webp
+image_alt: "Een technicus houdt een iPad voor een robotlijn; op het scherm verschijnen AR-werkinstructies voor first time right"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > First time right (FTR) is het percentage producten, taken of klussen dat in één keer goed is, zonder herbewerking, reparatie of tweede bezoek. Het laat de kwaliteit van je proces en de duidelijkheid van je instructies zien. Actarion verhoogt FTR met digitale stap-voor-stap instructies, ingebouwde controles en AR-begeleiding.
 
-![Pentekening bij het begrip first time right](/img/illustraties/resources-glossary-first-time-right.svg)
+![Een technicus houdt een iPad voor een robotlijn; op het scherm verschijnen AR-werkinstructies voor first time right](/images/resources-glossary-first-time-right-1600.webp)
 
 ## Waarom is dit belangrijk op de werkvloer?
 

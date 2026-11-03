@@ -13,8 +13,8 @@ h1: "Kennisborging: houd vakkennis vast als ervaren mensen vertrekken"
 keyword_primary: "kennisborging"
 keywords_secondary: ["kennisoverdracht", "kennis borgen", "vakkennis vastleggen"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/solutions-knowledge-capture.svg
-image_alt: "Pentekening: een camera legt het werk aan een pomp en klep vast, dat als digitale stapkaarten wordt geborgd"
+image: /images/solutions-knowledge-capture-1600.webp
+image_alt: "Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor kennisborging"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Kennisborging is het vastleggen van hoe ervaren medewerkers hun werk doen, zodat anderen het kunnen herhalen. Actarion legt vakkennis vast op video of tijdens de taak, maakt er met AI stap-voor-stap werkinstructies met AR van en stelt die beschikbaar voor elke operator. Zo wordt kennisoverdracht onderdeel van het dagelijkse werk.
 
-![Pentekening: een camera legt het werk aan een pomp en klep vast, dat als digitale stapkaarten wordt geborgd](/img/illustraties/solutions-knowledge-capture.svg)
+![Een technicus houdt een iPad voor een productiehal; op het scherm verschijnen AR-werkinstructies voor kennisborging](/images/solutions-knowledge-capture-1600.webp)
 
 ## Waarom verdwijnt er kennis uit je bedrijf?
 

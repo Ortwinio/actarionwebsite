@@ -13,8 +13,8 @@ h1: "Ressourcen für digitale Arbeitsanweisungen"
 keyword_primary: "ressourcen arbeitsanweisungen"
 keywords_secondary: ["vorlage arbeitsanweisung", "sop erstellen"]
 schema: ["CollectionPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources.svg
-image_alt: "Federzeichnung: Draufsicht auf einen Schreibtisch mit Dokumenten, Tablet mit cyanfarbener Schrittkarte, Taschenrechner, Kalender und Video"
+image: /images/resources-1600.webp
+image_alt: "Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für ressourcen arbeitsanweisungen über Prozessanlagen"
 cta: template
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Die Ressourcen von Actarion bündeln kostenlose Vorlagen, praxisnahe Ratgeber, einen ROI-Rechner, ein Glossar, Whitepaper, Events und Videos zu digitalen Arbeitsanweisungen. Damit wandeln Produktions-, Instandhaltungs-, Qualitäts- und HR-Teams Papier-SOPs in klare Schritt-für-Schritt-Anweisungen um, mit oder ohne AR, und erstellen einen Business Case für ein Pilotprojekt.
 
-![Federzeichnung: Draufsicht auf einen Schreibtisch mit Dokumenten, Tablet mit cyanfarbener Schrittkarte, Taschenrechner, Kalender und Video](/img/illustraties/resources.svg)
+![Ein Mitarbeiter mit Apple Vision Pro sieht schwebende SOP-Panels für ressourcen arbeitsanweisungen über Prozessanlagen](/images/resources-1600.webp)
 
 ## Was brauchen Sie, bevor Sie Anweisungen digitalisieren?
 

@@ -13,8 +13,8 @@ h1: "Plattform für Arbeitsanweisungen: von der SOP zur AR-Werkerführung"
 keyword_primary: "Plattform Arbeitsanweisungen"
 keywords_secondary: ["digitale Arbeitsanweisungen Software", "Werkerassistenzsystem", "AR Arbeitsanweisungen"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/platform.svg
-image_alt: "Federzeichnung: Ein Stapel SOP-Dokumente wird zu einer digitalen Schrittkarte auf einem Tablet, Daten fließen in ein Dashboard"
+image: /images/platform-1600.webp
+image_alt: "Ein Smartphone vor eine Leitwarte zeigt AR-Schritte und eine bestätigte Prüfung für Plattform Arbeitsanweisungen"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Eine Plattform für Arbeitsanweisungen ist Software, mit der Sie Schritt-für-Schritt-Anweisungen für die Fertigung erstellen, verteilen und dokumentieren. Die Actarion-Plattform wandelt Ihre bestehenden SOPs mit KI in digitale Arbeitsanweisungen um, führt Werker mit AR auf Tablet oder AR-Brille und dokumentiert jede Ausführung als Auditnachweis. Die Technologie stammt von Partner DeepSight.
 
-![Federzeichnung: Ein Stapel SOP-Dokumente wird zu einer digitalen Schrittkarte auf einem Tablet, Daten fließen in ein Dashboard](/img/illustraties/platform.svg)
+![Ein Smartphone vor eine Leitwarte zeigt AR-Schritte und eine bestätigte Prüfung für Plattform Arbeitsanweisungen](/images/platform-1600.webp)
 
 ## Warum scheitern Papieranweisungen in der Fertigung?
 

@@ -13,8 +13,8 @@ h1: "Smart glasses for manufacturing: choose the right device per task"
 keyword_primary: "smart glasses for manufacturing"
 keywords_secondary: ["smart glasses", "ar glasses", "ar headset industry", "tablet work instructions"]
 schema: ["WebPage", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/hardware.svg
-image_alt: "Pen drawing: top view of a tablet, smartphone, AR glasses and headset, each showing a cyan work instruction"
+image: /images/hardware-1600.webp
+image_alt: "A technician holds an iPad up to an electrical cabinet; the screen shows AR work instruction steps for smart glasses for manufacturing"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Smart glasses for manufacturing are head-worn displays that show work instructions in the operator's field of view, so both hands stay free. They are not always the best choice. Actarion runs the same AR work instructions on tablets, smartphones and AR headsets such as Apple Vision Pro, HoloLens 2 and Android XR devices, and helps you pick the device per task.
 
-![Pen drawing: top view of a tablet, smartphone, AR glasses and headset, each showing a cyan work instruction](/img/illustraties/hardware.svg)
+![A technician holds an iPad up to an electrical cabinet; the screen shows AR work instruction steps for smart glasses for manufacturing](/images/hardware-1600.webp)
 
 ## What goes wrong when you start with the device?
 

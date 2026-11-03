@@ -13,8 +13,8 @@ h1: "Was ist CAPA? Korrektur- und Vorbeugemaßnahmen"
 keyword_primary: "was ist capa"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-capa.svg
-image_alt: "Federzeichnung zum Begriff CAPA"
+image: /images/resources-glossary-capa-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor eine Förderanlage; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für was ist capa"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > CAPA, Corrective and Preventive Action, ist der Qualitätsprozess, der die Grundursache einer Abweichung untersucht, behebt und eine Wiederholung verhindert. Er ist in GMP- und ISO-Systemen Pflicht. Actarion beschleunigt CAPA, indem geänderte Arbeitsanweisungen sofort an jede Station gehen und Abweichungen je Schritt sichtbar werden.
 
-![Federzeichnung zum Begriff CAPA](/img/illustraties/resources-glossary-capa.svg)
+![Ein Techniker hält ein iPad vor eine Förderanlage; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für was ist capa](/images/resources-glossary-capa-1600.webp)
 
 ## Warum ist das in der Fertigung wichtig?
 

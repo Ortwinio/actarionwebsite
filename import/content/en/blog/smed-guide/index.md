@@ -13,8 +13,8 @@ h1: "SMED: How to Cut Changeover Time Step by Step"
 keyword_primary: "smed"
 keywords_secondary: ["single minute exchange of die", "changeover time reduction", "quick changeover"]
 schema: ["Article", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/blog-smed-guide.svg
-image_alt: "SMED changeover: press with die cart and a tablet timer guiding the changeover steps"
+image: /images/blog-smed-guide-1600.webp
+image_alt: "A phone held up to a robotic assembly line shows AR steps and a confirmed check for smed"
 cta: template
 author: "Actarion team"
 phase: 1
@@ -25,7 +25,7 @@ updated: 2026-11-03
 
 > SMED (single-minute exchange of die) is a lean method to cut changeover time by moving as much work as possible to while the machine is still running. The goal is a changeover in single-digit minutes. Actarion makes the new standard stick: every changeover step is guided on a tablet or AR glasses, and the time per step is logged.
 
-![SMED changeover: press with die cart and a tablet timer guiding the changeover steps](/img/illustraties/blog-smed-guide.svg)
+![A phone held up to a robotic assembly line shows AR steps and a confirmed check for smed](/images/blog-smed-guide-1600.webp)
 
 **Contents**
 - [Why are changeovers so slow?](#why-are-changeovers-so-slow)

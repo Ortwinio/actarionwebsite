@@ -13,8 +13,8 @@ h1: "What Is a Work Instruction? Definition"
 keyword_primary: "what is a work instruction"
 keywords_secondary: []
 schema: ["DefinedTerm", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-glossary-work-instruction.svg
-image_alt: "Pen drawing for the glossary term work instruction: tablet on a stand showing a work instruction step"
+image: /images/resources-glossary-work-instruction-1600.webp
+image_alt: "A phone held up to a production hall shows AR steps and a confirmed check for what is a work instruction"
 cta: demo
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > A work instruction is a detailed, step-by-step description of how one specific task is performed at the workstation, including tools, settings and checks. It sits below the SOP. Actarion turns work instructions into digital, AR-guided steps on tablets or AR glasses, with every execution logged.
 
-![Pen drawing for the glossary term work instruction: tablet on a stand showing a work instruction step](/img/illustraties/resources-glossary-work-instruction.svg)
+![A phone held up to a production hall shows AR steps and a confirmed check for what is a work instruction](/images/resources-glossary-work-instruction-1600.webp)
 
 ## Why does it matter on the shop floor?
 

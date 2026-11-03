@@ -13,8 +13,8 @@ h1: "Preventief onderhoud met AR: elke keer goed uitgevoerd"
 keyword_primary: "preventief onderhoud"
 keywords_secondary: ["ar onderhoud", "onderhoudsinstructies", "digitale onderhoudschecklist"]
 schema: ["Service", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/use-cases-preventive-maintenance.svg
-image_alt: "Pentekening van een pomp en klep met AR-markering en onderhoudsplanning voor preventief onderhoud"
+image: /images/use-cases-preventive-maintenance-1600.webp
+image_alt: "Een technicus houdt een iPad voor procesinstallaties; op het scherm verschijnen AR-werkinstructies voor preventief onderhoud"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Preventief onderhoud is gepland onderhoud dat storingen voorkomt voordat ze ontstaan. Actarion zet je onderhoudsprocedures om in stap-voor-stapinstructies met AR: de monteur ziet op de installatie wat te doen, legt metingen direct vast en laat bij elke klus een volledige digitale registratie achter.
 
-![Pentekening van een pomp en klep met AR-markering en onderhoudsplanning voor preventief onderhoud](/img/illustraties/use-cases-preventive-maintenance.svg)
+![Een technicus houdt een iPad voor procesinstallaties; op het scherm verschijnen AR-werkinstructies voor preventief onderhoud](/images/use-cases-preventive-maintenance-1600.webp)
 
 ## Waarom mist preventief onderhoud nog steeds dingen?
 

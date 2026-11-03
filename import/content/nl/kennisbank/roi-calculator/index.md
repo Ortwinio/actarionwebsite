@@ -13,8 +13,8 @@ h1: "ROI-calculator voor digitale werkinstructies"
 keyword_primary: "roi werkinstructies berekenen"
 keywords_secondary: ["roi connected worker", "businesscase ar-training"]
 schema: ["WebApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/resources-roi-calculator.svg
-image_alt: "Pentekening: balans met een papieren SOP en een klok links en een tablet met cyane stapkaart rechts, plus een stijgende pijl"
+image: /images/resources-roi-calculator-1600.webp
+image_alt: "Een technicus houdt een iPad voor een controlekamer; op het scherm verschijnen AR-werkinstructies voor roi werkinstructies berekenen"
 cta: roi
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > De ROI van digitale werkinstructies is de jaarlijkse besparing op inwerken, fouten, stilstand en auditvoorbereiding, minus de kosten van de oplossing, gedeeld door die kosten. Deze pagina legt de invoer, aannames en formule van de ROI-calculator van Actarion uit, zodat je met je eigen cijfers een businesscase voor een pilot maakt.
 
-![Pentekening: balans met een papieren SOP en een klok links en een tablet met cyane stapkaart rechts, plus een stijgende pijl](/img/illustraties/resources-roi-calculator.svg)
+![Een technicus houdt een iPad voor een controlekamer; op het scherm verschijnen AR-werkinstructies voor roi werkinstructies berekenen](/images/resources-roi-calculator-1600.webp)
 
 ## Waarom is de businesscase lastig te maken?
 

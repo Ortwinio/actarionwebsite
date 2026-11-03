@@ -13,8 +13,8 @@ h1: "Digitale Checkliste: keine übersprungene Prüfung, Nachweis inklusive"
 keyword_primary: "digitale Checkliste"
 keywords_secondary: ["Checklisten App", "papierlose Checkliste", "digitale Checkliste Fertigung"]
 schema: ["SoftwareApplication", "FAQPage", "BreadcrumbList"]
-image: /img/illustraties/solutions-digital-checklists.svg
-image_alt: "Federzeichnung: ein Tablet mit digitaler Checkliste, abgehakten Schritten und Fotonachweis neben einem Papier-Klemmbrett"
+image: /images/solutions-digital-checklists-1600.webp
+image_alt: "Ein Techniker hält ein iPad vor ein Bedienfeld; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für digitale Checkliste"
 cta: intake
 phase: 1
 updated: 2026-11-03
@@ -24,7 +24,7 @@ updated: 2026-11-03
 
 > Eine digitale Checkliste ersetzt das Papierformular durch eine Checkliste auf Tablet oder AR-Brille, die jede Prüfung erzwingt, Fotos und Messwerte erfasst und jeden Punkt mit Zeitstempel versieht. Actarion erstellt digitale Checklisten per KI aus Ihren bestehenden Formularen und verknüpft sie mit Arbeitsanweisungen und Audit Trail.
 
-![Federzeichnung: ein Tablet mit digitaler Checkliste, abgehakten Schritten und Fotonachweis neben einem Papier-Klemmbrett](/img/illustraties/solutions-digital-checklists.svg)
+![Ein Techniker hält ein iPad vor ein Bedienfeld; auf dem Bildschirm erscheinen AR-Arbeitsanweisungen für digitale Checkliste](/images/solutions-digital-checklists-1600.webp)
 
 ## Was läuft mit Papier-Checklisten schief?
 
