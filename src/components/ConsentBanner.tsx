@@ -42,7 +42,7 @@ export function ConsentBanner({ locale }: { locale: Locale }) {
 
   if (!open) return null;
   return (
-    <div role="dialog" aria-label={t.title} className="fixed inset-x-4 bottom-4 z-50 mx-auto max-w-xl rounded-card bg-ink p-4 sm:p-5 text-white shadow-float">
+    <div id="consent-banner" role="dialog" aria-label={t.title} className="fixed inset-x-4 bottom-4 z-50 mx-auto max-w-xl rounded-card bg-ink p-4 sm:p-5 text-white shadow-float">
       <p className="mb-3 text-sm sm:text-[15px] leading-relaxed text-muted-lighter">{t.body}</p>
       <div className="flex gap-3">
         <button type="button" onClick={() => choose(true)} className="btn-sky min-h-[44px] flex-1 px-4 sm:flex-none">{t.accept}</button>
