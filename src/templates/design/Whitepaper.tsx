@@ -1,3 +1,4 @@
+import { AnswerBox, Faq, Sections } from '@/components/Blocks';
 import { Cta } from '@/components/Cta';
 import { WhitepaperForms } from '@/components/design/WhitepaperForms';
 import { whitepaperCopy } from '@/content/design/whitepaper';
@@ -11,8 +12,7 @@ export function WhitepaperDesign({ routeKey, locale }: { routeKey: string; local
   const idx = t.items.findIndex((it) => it.routeKey === routeKey);
   const isHub = idx < 0;
   const page = isHub ? null : getPage(locale, routeKey);
-  // PDF files still to be supplied: /downloads/<slug>.pdf
-  const pdfHrefs = t.items.map((it) => `/downloads/${it.slug}.pdf`);
+  const pdfHrefs = t.items.map((it) => `/downloads/${locale}/${it.slug}.pdf`);
   return (
     <>
       <WhitepaperForms
@@ -30,6 +30,13 @@ export function WhitepaperDesign({ routeKey, locale }: { routeKey: string; local
           </>
         }
       />
+      {page && (
+        <div className="mx-auto max-w-[920px] px-6 pb-16">
+          <AnswerBox text={page.answer} locale={locale} />
+          <Sections sections={page.sections} locale={locale} />
+          <Faq items={page.faq} locale={locale} />
+        </div>
+      )}
       <Cta locale={locale} heading={t.ctaHeading} />
     </>
   );

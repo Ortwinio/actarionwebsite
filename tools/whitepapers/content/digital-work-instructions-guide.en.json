@@ -1,0 +1,392 @@
+{
+ "slug": "digital-work-instructions-guide",
+ "lang": "en",
+ "title": "Digital work instructions: the practical guide for manufacturing",
+ "subtitle": "From paper binders to digital and AR-guided work instructions: what they are, where AI and AR genuinely help, and how to roll them out in four phases",
+ "keyword": "digital work instructions",
+ "metaTitle": "Digital work instructions: a practical guide | ActARion",
+ "metaDescription": "What digital work instructions are, when AR adds value and when a tablet is enough, how AI speeds up authoring, plus a 4-phase rollout plan.",
+ "audience": "Operations, plant, quality and training managers in manufacturing",
+ "readingTime": 11,
+ "answer": "Digital work instructions are step-by-step procedures shown on a tablet, smartphone or smart glasses, with visuals, checks and automatic recording of execution. They reduce errors and shorten onboarding when they target the right processes. AI speeds up authoring and translation; AR helps mainly with complex spatial tasks. Roll out in four phases: choose, baseline, pilot, scale.",
+ "keyTakeaways": [
+  "Digital work instructions only pay off on processes with a measurable problem: errors, long onboarding, many variants or safety-critical steps.",
+  "A tablet with clear photos solves most problems; AR is worth it where location, orientation or sequence in 3D is the real difficulty.",
+  "AI shortens authoring and translation considerably, but a subject-matter expert must always review and approve the result.",
+  "Measure a baseline before the pilot, otherwise you cannot prove anything afterwards.",
+  "Adoption is decided on the shop floor: involve operators in writing and testing, and make feedback on instructions easy."
+ ],
+ "chapters": [
+  {
+   "title": "What are digital work instructions?",
+   "lead": "Digital work instructions are step-by-step procedures that an operator follows on a device at the workstation, instead of in a binder or PDF. Each step combines a short instruction, a visual and, where needed, a check or confirmation that is recorded automatically.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "**Definition.** A digital work instruction is a structured, version-controlled procedure that is delivered at the point of work on a tablet, smartphone, workstation screen or smart glasses, and that records how each step was executed."
+    },
+    {
+     "type": "p",
+     "text": "The difference from a scanned PDF is structure. A PDF is a document; a digital work instruction is a sequence of steps with data behind it. That makes it possible to show only the relevant variant, enforce mandatory checks, capture photos or measurements, and see afterwards which step causes the most questions or errors."
+    },
+    {
+     "type": "h3",
+     "text": "Related terms"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Work instruction software**: the platform used to author, approve, publish and analyse instructions.",
+      "**Worker guidance system** (in German: Werkerführung or Werkerassistenzsystem): software that guides the operator step by step, often linked to tools, scanners or MES.",
+      "**AR work instructions**: digital instructions in which the guidance is projected onto the real object via camera or smart glasses.",
+      "**Standard work / SOP**: the agreed best way of performing a task. Digital work instructions are the means to make that standard executable."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Typical applications are assembly, changeovers, quality inspections, preventive maintenance, cleaning and line clearance, and onboarding new employees."
+    },
+    {
+     "type": "h3",
+     "text": "Paper, digital or digital with AR: what is the difference?"
+    },
+    {
+     "type": "p",
+     "text": "Paper is cheap but hard to keep current and provides no data. Digital instructions add version control, variants and execution data. AR adds spatial guidance for tasks where the question is mainly \"where exactly?\"."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Aspect",
+      "Paper / PDF",
+      "Digital (tablet, screen)",
+      "Digital + AR"
+     ],
+     "rows": [
+      [
+       "Keeping current",
+       "Manual; old copies stay in circulation",
+       "One central version, published instantly",
+       "Same as digital, plus 3D/AR content to maintain"
+      ],
+      [
+       "Variants",
+       "Separate documents or tables",
+       "Only the relevant variant shown",
+       "Variant-specific overlays on the object"
+      ],
+      [
+       "Clarity",
+       "Text and static images",
+       "Photos, video, short steps",
+       "Guidance on the object itself"
+      ],
+      [
+       "Proof of execution",
+       "Signature on a form",
+       "Confirmations, photos, measurements per step",
+       "Same, plus visual verification"
+      ],
+      [
+       "Language",
+       "Translation is costly and slow",
+       "Multilingual, partly AI-translated",
+       "Visual guidance needs less text"
+      ],
+      [
+       "Investment and effort",
+       "Low",
+       "Moderate",
+       "Higher: content and devices"
+      ],
+      [
+       "Best for",
+       "Stable, simple tasks",
+       "Most production and maintenance tasks",
+       "Complex, spatial, infrequent or high-risk tasks"
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "title": "Not a ladder you have to climb",
+     "text": "Digital + AR is not automatically the better option. For many processes a tablet with good photos is the best price-performance choice. Choose per process, not per plant."
+    }
+   ]
+  },
+  {
+   "title": "Where does AI help with work instructions?",
+   "lead": "AI helps mainly in authoring and maintenance: turning photos, video and speech into draft steps, and translating instructions. It does not replace the subject-matter expert, who remains responsible for content and safety.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The biggest bottleneck in digitising work instructions is rarely the software. It is the time experienced people need to document their knowledge. That is exactly where AI makes the difference."
+    },
+    {
+     "type": "h3",
+     "text": "Practical AI applications"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Authoring from photos and video**: an expert records the task while explaining it; the software suggests steps, titles and frames.",
+      "**Structuring existing documents**: converting long PDFs or Word SOPs into short steps with one action each.",
+      "**Translation**: draft translations in all languages spoken on the shop floor, reviewed by a native speaker with process knowledge.",
+      "**Consistency checks**: flagging vague wording, missing tools or inconsistent terminology.",
+      "**Analysing feedback**: clustering operator comments and spotting steps where people regularly stall."
+     ]
+    },
+    {
+     "type": "callout",
+     "title": "Human in the loop",
+     "text": "Treat AI output as a draft. Every instruction, and certainly every safety-critical step, is reviewed and approved by a responsible expert before publication. This is also important under the EU AI Act, which sets transparency and oversight requirements depending on the AI application."
+    },
+    {
+     "type": "p",
+     "text": "Also agree in advance where video and audio recordings are stored and who may see them. Recording people at work touches on privacy rules and, in many countries, on co-determination by the works council."
+    }
+   ]
+  },
+  {
+   "title": "When does AR add value, and when is a tablet enough?",
+   "lead": "AR adds value where the difficulty is spatial: finding the right part, connector or bolt in a complex machine, or performing steps in a precise 3D sequence. For linear tasks with clear visuals, a tablet is usually enough.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "**Definition.** AR work instructions overlay digital guidance (arrows, highlights, 3D models, text) onto the live camera image or the field of view through smart glasses, anchored to the real object."
+    },
+    {
+     "type": "table",
+     "head": [
+      "AR is worth it when…",
+      "A tablet is enough when…"
+     ],
+     "rows": [
+      [
+       "The task is performed rarely, so routine is missing",
+       "The task is performed daily and is well known"
+      ],
+      [
+       "Many similar components make it easy to pick the wrong one",
+       "The workstation is clear and parts are easy to identify"
+      ],
+      [
+       "Sequence and orientation in 3D are critical",
+       "The sequence is linear and easy to show in photos"
+      ],
+      [
+       "Errors are costly or dangerous (safety, product recall)",
+       "Errors are easy to spot and correct"
+      ],
+      [
+       "Hands must stay free (smart glasses)",
+       "The operator can briefly look at a screen"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "In practice many organisations combine both: the same instruction runs on a tablet, with an AR view for the few steps where spatial guidance makes the difference. That keeps content effort manageable."
+    },
+    {
+     "type": "p",
+     "text": "Remote expert support is a related use of AR: a technician shares the camera image with a remote specialist, who draws annotations in the image. This is particularly useful for corrective maintenance and for sites without on-site specialists."
+    }
+   ]
+  },
+  {
+   "title": "How do you write a good work instruction?",
+   "lead": "A good work instruction has one action per step, starts with a verb, shows the result visually and states only what the operator needs at that moment. Write for the least experienced person who has to perform the task.",
+   "blocks": [
+    {
+     "type": "steps",
+     "items": [
+      {
+       "t": "Define scope and result",
+       "d": "Which task, which variants, which starting situation and what is the end result? One instruction per task, not per machine."
+      },
+      {
+       "t": "Observe the real work",
+       "d": "Watch how an experienced operator does it and ask why. The best practice is often not in the existing SOP."
+      },
+      {
+       "t": "One action per step",
+       "d": "Start with a verb: \"Loosen\", \"Check\", \"Scan\". Keep sentences short; controlled language such as ASD-STE100 Simplified Technical English is a useful guideline."
+      },
+      {
+       "t": "Show, don't explain",
+       "d": "A good photo with an arrow or highlight says more than three sentences. Show the correct result, and where useful a typical mistake."
+      },
+      {
+       "t": "Mark critical steps",
+       "d": "Make safety and quality-critical steps visually distinct, with a mandatory confirmation, measurement or photo."
+      },
+      {
+       "t": "Test with a newcomer",
+       "d": "Have someone who does not know the task perform it using only the instruction. Every question they ask is an improvement point."
+      }
+     ]
+    },
+    {
+     "type": "checklist",
+     "items": [
+      "Each step contains one action and a maximum of about 20 words",
+      "Tools, materials and PPE are listed at the start",
+      "Each step has a visual showing the expected result",
+      "Critical steps require a confirmation or evidence",
+      "Terminology matches what is used on the shop floor",
+      "An owner and review date are recorded"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "How do you roll out digital work instructions in four phases?",
+   "lead": "Roll out in four phases: choose the right process, measure a baseline, run a time-boxed pilot with clear success criteria, and then scale using a fixed standard for content and governance.",
+   "blocks": [
+    {
+     "type": "steps",
+     "items": [
+      {
+       "t": "1. Choose the process",
+       "d": "Select one or two processes with a measurable problem: recurring errors, long onboarding, many variants, frequent changeovers or safety-critical steps. Avoid starting with the most complex process in the plant."
+      },
+      {
+       "t": "2. Measure the baseline",
+       "d": "Record the current state before you change anything: error or rework rate, time to competence for new operators, changeover time, number of questions to team leaders. Without a baseline there is no business case."
+      },
+      {
+       "t": "3. Run the pilot",
+       "d": "Digitise the chosen instructions, train a small group and run the pilot for 6 to 12 weeks. Collect operator feedback weekly and adjust the content."
+      },
+      {
+       "t": "4. Scale",
+       "d": "Compare results with the baseline, lay down a template, naming convention and approval process, and add processes, lines and sites in waves."
+      }
+     ]
+    },
+    {
+     "type": "kpis",
+     "items": [
+      {
+       "n": "Error rate",
+       "l": "Rework, scrap or deviations per 100 executions"
+      },
+      {
+       "n": "Time to competence",
+       "l": "Days until a new operator works independently"
+      },
+      {
+       "n": "Changeover time",
+       "l": "Minutes per changeover, including start-up"
+      },
+      {
+       "n": "Adoption",
+       "l": "Share of executions performed using the digital instruction"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "title": "From pilot to proof",
+     "text": "Agree in advance what result counts as success, for example a target reduction in rework on the pilot line. [customer figure: add example pilot result]"
+    },
+    {
+     "type": "p",
+     "text": "Integration with MES, ERP or CMMS is usually not necessary for the pilot. Plan it for the scaling phase, when it becomes clear which data actually matters."
+    }
+   ]
+  },
+  {
+   "title": "How do you get operators to actually use the instructions?",
+   "lead": "Adoption follows from usefulness: operators use digital instructions when these are faster and clearer than asking a colleague. Involve them in writing, give team leaders a clear role and act visibly on feedback.",
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "**Co-create**: let experienced operators help write and test instructions. It is their knowledge, and they will defend it on the floor.",
+      "**Position it as support, not control**: explain why execution data is recorded and what it is not used for. Involve the works council early where required.",
+      "**Make feedback a one-tap action**: a button per step to report an error or suggestion, with visible follow-up.",
+      "**Give team leaders a role**: they coach on use, process feedback and are the first point of contact.",
+      "**Keep devices at hand**: a tablet in a locker on the other side of the hall will not be used. Mounts, charging points and robust cases matter.",
+      "**Celebrate early wins**: share pilot results and operator stories in shift meetings."
+     ]
+    },
+    {
+     "type": "quote",
+     "text": "The best instruction is the one the operator wants to use because it saves time, not the one they are obliged to use.",
+     "by": "ActARion implementation principle"
+    }
+   ]
+  },
+  {
+   "title": "Checklist: are you ready for digital work instructions?",
+   "lead": "Use this checklist to determine whether your organisation is ready to start a pilot. If you can tick most items, you can start within a few weeks.",
+   "blocks": [
+    {
+     "type": "checklist",
+     "items": [
+      "We have chosen one or two processes with a measurable problem",
+      "We know the current error rate, onboarding time or changeover time for those processes",
+      "There is an owner from operations and a subject-matter expert with time to author",
+      "Operators and team leaders are involved from the start",
+      "Suitable devices and Wi-Fi or offline use at the workstation are arranged",
+      "There is an approval process for new and changed instructions",
+      "Privacy, recording and, where relevant, works council aspects have been discussed",
+      "Success criteria and the duration of the pilot are agreed",
+      "It is clear who decides on scaling after the pilot"
+     ]
+    },
+    {
+     "type": "callout",
+     "title": "How ActARion helps",
+     "text": "ActARion is the European implementation partner for digital and AR work instructions on the DeepSight platform. We help with use-case selection, baseline measurement, content creation, change management and rollout in the Benelux and DACH region."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the difference between work instructions and an SOP?",
+   "a": "An SOP describes what must happen and who is responsible, often at process level. A work instruction describes step by step how a specific task is performed at the workstation. Digital work instructions make the SOP executable."
+  },
+  {
+   "q": "Do we need smart glasses for AR work instructions?",
+   "a": "No. Most AR applications run on tablets and smartphones. Smart glasses are useful when both hands are needed throughout the task, but they require more change management."
+  },
+  {
+   "q": "How long does a pilot take?",
+   "a": "A focused pilot on one or two processes usually takes 6 to 12 weeks, including baseline measurement, content creation, training and evaluation."
+  },
+  {
+   "q": "Can AI write work instructions on its own?",
+   "a": "AI can generate a good draft from video, photos or existing documents and translate it. A subject-matter expert must always review and approve the content, especially for safety-critical steps."
+  },
+  {
+   "q": "Do digital work instructions need to be integrated with MES or ERP?",
+   "a": "Not for a pilot. Integration becomes relevant when scaling, for example to open the right instruction from a work order or to send execution data to quality systems."
+  }
+ ],
+ "sources": [
+  {
+   "title": "ASD-STE100 Simplified Technical English specification",
+   "url": "https://www.asd-ste100.org/"
+  },
+  {
+   "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+  },
+  {
+   "title": "Regulation (EU) 2023/1230 on machinery",
+   "url": "https://eur-lex.europa.eu/eli/reg/2023/1230/oj"
+  },
+  {
+   "title": "ISO 9001:2015 Quality management systems — Requirements",
+   "url": "https://www.iso.org/standard/62085.html"
+  }
+ ],
+ "cta": {
+  "title": "Book a free intake call",
+  "text": "Discuss with Jack Kessels (Benelux) or Mark Dercksen (DACH) which process is the best starting point for digital work instructions in your plant, and what a pilot with baseline measurement would look like."
+ }
+}

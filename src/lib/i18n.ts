@@ -15,6 +15,8 @@ export const isLocale = (value: string): value is Locale => (locales as readonly
 export const htmlLang: Record<Locale, string> = { en: 'en', nl: 'nl', de: 'de' };
 export const ogLocale: Record<Locale, string> = { en: 'en_GB', nl: 'nl_NL', de: 'de_DE' };
 
+import { wpPages } from '@/content/whitepapers';
+
 const dictionaries = { en, nl, de };
 
 export const getUi = (locale: Locale): UiStrings => dictionaries[locale].ui;
@@ -54,7 +56,7 @@ export function getPage(locale: Locale, key: RouteKey): PageContent {
   const hit = cache.get(id);
   if (hit) return hit;
   const base = defaultsFor(key, locale);
-  const own = dictionaries[locale].pages[key];
+  const own = dictionaries[locale].pages[key] ?? wpPages[locale][key];
   const merged: PageContent = own
     ? { ...base, ...own, label: base.label, placeholder: own.placeholder ?? false }
     : base;

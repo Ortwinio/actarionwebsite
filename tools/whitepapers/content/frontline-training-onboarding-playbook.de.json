@@ -1,0 +1,522 @@
+{
+ "slug": "frontline-training-onboarding-playbook",
+ "lang": "de",
+ "title": "Das Playbook für Einarbeitung und Qualifizierung in der Produktion",
+ "subtitle": "Wie Produktion, Pharma, Lebensmittel und Instandhaltung neue Werker und Techniker schneller zu sicherem, selbstständigem Arbeiten führen: mit Qualifikationsmatrix, strukturiertem Einarbeitungsplan und digitalen und AR-Arbeitsanweisungen",
+ "keyword": "Einarbeitungsplan",
+ "metaTitle": "Einarbeitungsplan für die Produktion | ActARion",
+ "metaDescription": "Playbook zur Einarbeitung neuer Mitarbeiter in der Produktion: Qualifikationsmatrix, Einarbeitungsplan nach Wochen, AR-Training und 30-60-90-Tage-Plan.",
+ "audience": "Produktions-, Werks-, Personalentwicklungs- und HR-Verantwortliche in Industrie, Pharma, Lebensmittel, Energie und Instandhaltung",
+ "readingTime": 12,
+ "answer": "Ein wirksamer Einarbeitungsplan für die Produktion verbindet eine klare Definition der Qualifikation pro Tätigkeit, eine Qualifikationsmatrix, die Lücken sichtbar macht, einen Plan nach Wochen und das Lernen am Arbeitsplatz mit digitalen oder AR-Arbeitsanweisungen. So arbeiten neue Mitarbeitende schneller selbstständig, Trainer werden entlastet und Qualifizierung wird mess- und auditierbar.",
+ "keyTakeaways": [
+  "Steuern Sie die Einarbeitung über die Zeit bis zur Selbstständigkeit pro Tätigkeit, nicht über absolvierte Schulungstage.",
+  "Eine Qualifikationsmatrix mit vier Stufen macht aus Schulung einen Plan: Wer kann was, wer kann es weitergeben, wo sind Lücken?",
+  "Mit digitalen und AR-Arbeitsanweisungen lernen neue Werker direkt am Arbeitsplatz, während der Trainer coacht statt dieselbe Erklärung zu wiederholen.",
+  "Messen Sie vor dem Start: Nur eine Ausgangsbasis zu Einarbeitungszeit und First-Time-Right belegt Verbesserungen."
+ ],
+ "chapters": [
+  {
+   "title": "Warum dauert die Einarbeitung in der Produktion so lange?",
+   "lead": "Weil das meiste Wissen, das neue Werker brauchen, nicht nutzbar dokumentiert ist. Es steckt in den Köpfen weniger erfahrener Kollegen, die gleichzeitig die Produktion am Laufen halten. Die Einarbeitung hängt dann davon ab, wer gerade Schicht hat.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "In vielen Werken läuft ein neuer Werker einige Wochen bei einem Paten mit, liest einen Ordner mit Verfahrensanweisungen und wird freigegeben, wenn der Schichtleiter ein gutes Gefühl hat. Das funktioniert bei geringer Fluktuation und stabilen Produkten. Beides trifft heute selten zu: Erfahrene gehen in Rente, Zeitarbeitskräfte wechseln, Varianten nehmen zu und Teams sprechen mehrere Sprachen."
+    },
+    {
+     "type": "p",
+     "text": "Das Ergebnis kennt jede Werkleitung: lange und unvorhersehbare Einarbeitung, erfahrene Mitarbeitende, die von ihrer eigentlichen Arbeit abgezogen werden, Qualitätsprobleme in den ersten Monaten und unterschiedliche Arbeitsweisen je Schicht. Die Kosten tauchen selten in einer Budgetzeile auf, weil sie sich auf Produktion, Qualität und Personal verteilen."
+    },
+    {
+     "type": "h3",
+     "text": "Typische Anzeichen"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Die Einarbeitungszeit schwankt stark je Person und Schicht.",
+      "Alle Fragen landen bei denselben zwei oder drei Experten.",
+      "Fehler und Beinaheunfälle häufen sich in den ersten Wochen nach Eintritt oder Linienwechsel.",
+      "Arbeitsanweisungen existieren, werden am Arbeitsplatz aber nicht genutzt.",
+      "Niemand sieht auf einen Blick, wer für welche Tätigkeit qualifiziert ist."
+     ]
+    },
+    {
+     "type": "callout",
+     "title": "Definition: Zeit bis zur Selbstständigkeit",
+     "text": "Die Zeit bis zur Selbstständigkeit (Time-to-Competence) reicht vom ersten Arbeitstag, oder dem ersten Tag an einer neuen Tätigkeit, bis die Person diese Tätigkeit selbstständig, sicher und in der geforderten Qualität ausführt, bestätigt durch eine dokumentierte Freigabe. Sie ist die zentrale Kennzahl dieses Playbooks."
+    }
+   ]
+  },
+  {
+   "title": "Wie definieren Sie Qualifikation mit einer Qualifikationsmatrix?",
+   "lead": "Erfassen Sie die Tätigkeiten je Arbeitsplatz, definieren Sie vier Qualifikationsstufen und halten Sie pro Person fest, welche Stufe erreicht und freigegeben ist. Die Matrix zeigt dann Lücken, Abhängigkeiten von Einzelpersonen und verfügbare Trainer.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Eine Qualifikationsmatrix stellt Mitarbeitende den Tätigkeiten gegenüber. Das Instrument ist nicht neu, doch in vielen Werken ist es eine Tabelle, die einmal im Jahr für ein Audit aktualisiert wird. Richtig genutzt wird sie zum Planungswerkzeug für Einarbeitung, Schichtbesetzung und Requalifizierung."
+    },
+    {
+     "type": "h3",
+     "text": "Vier Qualifikationsstufen"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Stufe",
+      "Beschreibung",
+      "Freigabe durch"
+     ],
+     "rows": [
+      [
+       "1. Unterwiesen",
+       "Hat die Unterweisung erhalten und kennt die Gefährdungen; arbeitet nur unter Aufsicht",
+       "Trainer"
+      ],
+      [
+       "2. Unter Anleitung",
+       "Führt die Tätigkeit mit Trainer in der Nähe aus; folgt der Arbeitsanweisung Schritt für Schritt",
+       "Trainer"
+      ],
+      [
+       "3. Selbstständig",
+       "Führt die Tätigkeit allein, sicher und fehlerfrei in der Vorgabezeit aus",
+       "Schichtleitung oder Qualität"
+      ],
+      [
+       "4. Trainer",
+       "Kann die Tätigkeit vermitteln und die Ausführung anderer beurteilen",
+       "Produktionsleitung"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Die Matrix in fünf Schritten aufbauen"
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "t": "Tätigkeiten statt Stellen",
+       "d": "Jeden Arbeitsplatz in einzeln trainier- und prüfbare Tätigkeiten zerlegen: Anfahren, Rüsten, Prozesskontrolle, Reinigen, Störungsbehebung."
+      },
+      {
+       "t": "Kritische Tätigkeiten kennzeichnen",
+       "d": "Tätigkeiten mit Auswirkungen auf Sicherheit, Qualität oder Regulierung markieren. Sie brauchen eine formale Freigabe und oft eine regelmäßige Requalifizierung."
+      },
+      {
+       "t": "Sollbesetzung je Linie festlegen",
+       "d": "Wie viele Personen je Schicht müssen pro Tätigkeit Stufe 3 oder 4 haben? Das ist Ihre Mindestabdeckung."
+      },
+      {
+       "t": "Ist-Stand erfassen",
+       "d": "Matrix ehrlich ausfüllen. Lücken und Tätigkeiten mit nur einer Person auf Stufe 4 sind Ihre Risiken."
+      },
+      {
+       "t": "Mit Arbeitsanweisungen verknüpfen",
+       "d": "Jede Tätigkeit verweist auf genau eine aktuelle Arbeitsanweisung, damit Schulung und Ausführung denselben Standard nutzen."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "In regulierten Umgebungen wie Pharma (GMP), Lebensmittel und Luftfahrtinstandhaltung ist nachweisbare Qualifikation eine Auditanforderung. Auch ISO 9001 verlangt, erforderliche Kompetenzen zu bestimmen, sicherzustellen und dokumentierte Nachweise aufzubewahren. Eine Matrix, die mit freigegebenen Ausführungen digitaler Anweisungen verknüpft ist, liefert diesen Nachweis nebenbei."
+    }
+   ]
+  },
+  {
+   "title": "Wie sieht ein strukturierter Einarbeitungsplan aus?",
+   "lead": "Ein strukturierter Einarbeitungsplan ordnet Sicherheit, Grundtätigkeiten und zunehmend komplexe Tätigkeiten über eine feste Zahl von Wochen, mit definiertem Freigabezeitpunkt je Schritt. So wird die Einarbeitung neuer Mitarbeiter planbar und unabhängig davon, wer Schicht hat.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Der folgende Plan ist ein Beispiel für einen Maschinen- oder Anlagenbediener. Passen Sie die Dauer an die Komplexität Ihrer Linie an; die Struktur bleibt gleich."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Woche",
+      "Schwerpunkt",
+      "Lernform",
+      "Freigabe"
+     ],
+     "rows": [
+      [
+       "Woche 0 (Preboarding)",
+       "Vertrag, PSA-Größe, Zugänge, Sprachwunsch, Willkommensvideo",
+       "Digital, zu Hause oder im Personalbüro",
+       "Zugänge aktiv, PSA bereit"
+      ],
+      [
+       "Woche 1",
+       "Sicherheitsunterweisung, Werksregeln, Hygiene/GMP-Grundlagen, Rundgang, Patenvorstellung",
+       "Präsenz plus Rundgang; kurze digitale Module",
+       "Sicherheitstest bestanden, Stufe 1 bei Grundtätigkeiten"
+      ],
+      [
+       "Woche 2",
+       "Grundtätigkeiten an einem Arbeitsplatz: Anfahren, Standardbetrieb, Prozesskontrollen",
+       "Lernen am Arbeitsplatz mit digitalen Arbeitsanweisungen, Pate daneben",
+       "Stufe 2 bei Grundtätigkeiten"
+      ],
+      [
+       "Woche 3",
+       "Selbstständige Grundtätigkeiten; erste Qualitätsaufzeichnungen",
+       "Digitale Anweisung als Leitfaden, Pate auf Abstand",
+       "Stufe 3 bei Grundtätigkeiten"
+      ],
+      [
+       "Woche 4–6",
+       "Rüsten, Reinigen, einfache Störungen",
+       "AR- oder Schritt-für-Schritt-Anweisungen; Üben bei geplanten Rüstvorgängen",
+       "Stufe 2, dann 3 beim Rüsten"
+      ],
+      [
+       "Woche 7–8",
+       "Zweiter Arbeitsplatz oder Schichtrotation; Eskalationswege",
+       "Anweisungen plus Remote-Support bei Bedarf",
+       "Stufe 3 am zweiten Arbeitsplatz"
+      ],
+      [
+       "Woche 12",
+       "Abschlussgespräch",
+       "Gespräch mit Schichtleitung und Trainer, Matrix aktualisieren",
+       "Einarbeitung formal abgeschlossen"
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "title": "Preboarding lohnt sich",
+     "text": "Alles, was keine Linie braucht, etwa Formalitäten, Werksregeln und ein erster Blick auf den Arbeitsplatz per Video, kann vor dem ersten Arbeitstag passieren. So bleibt Woche 1 frei für das, was Präsenz erfordert: Sicherheit und Praxis."
+    },
+    {
+     "type": "h3",
+     "text": "Rollen in der Einarbeitung"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Schichtleitung**: verantwortet den Plan für die neue Person und gibt Stufe 3 frei.",
+      "**Pate oder Trainer**: erfahrener Kollege auf Stufe 4, mit ausdrücklich eingeplanter Zeit im Schichtplan.",
+      "**Personalentwicklung bzw. Schulungskoordination**: pflegt die Matrix, plant Requalifizierungen, berichtet den Fortschritt.",
+      "**Prozess- oder Qualitätsingenieur**: inhaltlich verantwortlich für die Arbeitsanweisungen.",
+      "**Personalabteilung**: Preboarding, Verträge, Sprache, Auswertung der Bindung."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Wie unterstützen digitale und AR-Arbeitsanweisungen das Lernen am Arbeitsplatz?",
+   "lead": "Sie bringen den Standard an den Arbeitsplatz: Der neue Werker sieht jeden Schritt mit Fotos, Video oder AR-Einblendung an der realen Anlage, in seiner Sprache. Der Trainer coacht und prüft, statt jeden Schritt neu zu erklären.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Lernen am Arbeitsplatz ist der wirksamste Weg, manuelle und prozedurale Arbeit zu lernen, aber auch der teuerste an Trainerzeit. Digitale Arbeitsanweisungen verringern den Anteil, der auf Wiederholung entfällt. Augmented Reality (AR) geht weiter und blendet Anweisungen an oder neben der Maschine ein, etwa welches Ventil zu schließen ist oder wo ein Sensor sitzt. Damit wird das Werkerassistenzsystem zum Lernwerkzeug."
+    },
+    {
+     "type": "h3",
+     "text": "Welches Format passt wozu?"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Format",
+      "Geeignet für",
+      "Zu beachten"
+     ],
+     "rows": [
+      [
+       "Schritt für Schritt auf Tablet oder Smartphone",
+       "Standardbetrieb, Prüfungen, Reinigen, die meisten Rüstvorgänge",
+       "Kurze Schritte; eine Handlung pro Schritt"
+      ],
+      [
+       "Video je Schritt",
+       "Schwer beschreibbare Bewegungen: Handhabung, Montage, Justage",
+       "Kurze Clips, nicht vom Ton abhängig in lauter Umgebung"
+      ],
+      [
+       "AR-Einblendung (Tablet oder Headset)",
+       "Räumliche Aufgaben: Bauteile finden, komplexe Montage, Instandhaltung großer Anlagen",
+       "Geräteauswahl, Beleuchtung, Modellgenauigkeit"
+      ],
+      [
+       "Remote-Experte",
+       "Seltene Tätigkeiten, Störungen, standortübergreifende Hilfe",
+       "Regeln zu Aufzeichnung und Datenschutz"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Anweisungen lernfreundlich gestalten"
+    },
+    {
+     "type": "checklist",
+     "items": [
+      "Eine Handlung pro Schritt, beginnend mit einem Verb.",
+      "Das richtige Ergebnis zeigen (Foto eines Gutteils oder der korrekten Einstellung), nicht nur die Handlung.",
+      "Kritische Schritte visuell hervorheben und Bestätigung oder Fotonachweis verlangen.",
+      "Bei kritischen Schritten das Warum erklären; Verständnis fördert das Behalten.",
+      "Einen Lernmodus mit zusätzlicher Erklärung und einen Expertenmodus mit Kernschritten anbieten.",
+      "Werker unklare Schritte direkt aus der Anweisung melden lassen.",
+      "Jeder Anweisung einen inhaltlich Verantwortlichen und ein Prüfdatum zuweisen."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "KI kann die Erstellung beschleunigen, etwa indem sie Schritte aus einem vorhandenen Handbuch oder aus der Aufnahme eines erfahrenen Technikers entwirft. Jeder KI-Entwurf wird vom inhaltlich Verantwortlichen geprüft und freigegeben, bevor er für die Schulung genutzt wird."
+    }
+   ]
+  },
+  {
+   "title": "Wie qualifizieren Sie mehrsprachige Teams bei knapper Trainerkapazität?",
+   "lead": "Bieten Sie Arbeitsanweisungen in den Sprachen der Werker an, setzen Sie mehr auf Bild als auf Text und sichern Sie Trainerzeit ausdrücklich im Schichtplan. Erhöhen Sie die Kapazität, indem Sie mehr Kollegen auf Stufe 4 bringen, statt Schulungsstunden hinzuzufügen.",
+   "blocks": [
+    {
+     "type": "h3",
+     "text": "Mehrsprachige Teams"
+    },
+    {
+     "type": "p",
+     "text": "Viele Werke in DACH und Benelux beschäftigen Mitarbeitende aus mehreren Ländern, oft über Personaldienstleister. Sicherheit und Qualität hängen davon ab, ob alle die Anweisung verstehen, nicht davon, ob sie existiert. Digitale Arbeitsanweisungen machen es praktikabel, dieselben Inhalte in mehreren Sprachen anzubieten, verknüpft mit einer Masterversion."
+    },
+    {
+     "type": "list",
+     "items": [
+      "Sprachen nach der tatsächlichen Belegschaft wählen, nicht nach der Konzernsprachliste.",
+      "Fotos, Videos und Symbole nutzen, damit Text weniger Bedeutung tragen muss.",
+      "Sicherheitskritische Schritte von Muttersprachlern prüfen lassen, auch bei KI-Übersetzung.",
+      "Sprachwechsel pro Sitzung erlauben, damit Pate und neue Person denselben Schritt jeweils in ihrer Sprache sehen.",
+      "Master und Übersetzungen synchron halten: Eine Änderung am Master setzt alle Übersetzungen auf Prüfung."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Trainerkapazität"
+    },
+    {
+     "type": "p",
+     "text": "Erfahrene Trainer sind meist auch die besten Werker; jede Schulungsstunde kostet Produktion. Machen Sie das sichtbar und planen Sie es ein."
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "t": "Trainerstunden zählen",
+       "d": "Erfassen, wie viele Stunden Kollegen auf Stufe 4 heute je neuer Person in die Einarbeitung investieren. Das gehört zur Ausgangsbasis."
+      },
+      {
+       "t": "Kapazität reservieren",
+       "d": "Patenzeit in den Schichtplan aufnehmen, statt sie neben der normalen Arbeit zu erwarten."
+      },
+      {
+       "t": "Stufe 4 ausbauen",
+       "d": "Je kritischer Tätigkeit einen zweiten und dritten Trainer qualifizieren. Die Matrix zeigt, wo es nur einen gibt."
+      },
+      {
+       "t": "Rolle verändern",
+       "d": "Mit digitalen Anweisungen beobachtet, korrigiert und gibt der Trainer frei, statt jeden Schritt zu erklären."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "title": "Zeitarbeit und befristete Einsätze",
+     "text": "Bei kurzen Einsätzen bietet sich ein reduziertes Tätigkeitsspektrum an: Zeitarbeitskräfte bis Stufe 3 bei einigen Grundtätigkeiten, komplexe Tätigkeiten bleiben bei der Stammbelegschaft. Die Matrix macht diese Grenzen sichtbar."
+    }
+   ]
+  },
+  {
+   "title": "Wie steuern Sie Zertifizierung und Requalifizierung?",
+   "lead": "Geben Sie jeder kritischen Tätigkeit eine Gültigkeitsdauer, planen Sie Requalifizierung aus der Qualifikationsmatrix und nutzen Sie Anweisungsausführungen plus Beobachtung als Nachweis. So bleibt Qualifikation nach Prozessänderungen und im Audit aktuell.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Qualifikation verblasst, wenn eine Tätigkeit selten ausgeführt wird, und veraltet, wenn sich Prozess oder Anlage ändern. Beide Fälle brauchen einen Auslöser für die Requalifizierung."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Auslöser",
+      "Beispiel",
+      "Reaktion"
+     ],
+     "rows": [
+      [
+       "Zeit",
+       "Kritische Tätigkeit seit 12 Monaten nicht neu bewertet",
+       "Geplante Beobachtung und kurzer Wissenstest"
+      ],
+      [
+       "Geringe Häufigkeit",
+       "Tätigkeit seltener als ein festgelegter Wert pro Quartal ausgeführt",
+       "Auffrischung mit der digitalen Anweisung im Lernmodus"
+      ],
+      [
+       "Änderung",
+       "Neue Version der Arbeitsanweisung, neues Werkzeug oder neue Variante",
+       "Qualifizierte informieren; Bestätigung durch angeleitete Ausführung"
+      ],
+      [
+       "Vorfall",
+       "Abweichung oder Beinaheunfall bei einer Tätigkeit",
+       "Gezielte Nachschulung und Überprüfung der Anweisung"
+      ],
+      [
+       "Gesetzliche oder Kundenanforderung",
+       "Zertifizierte Tätigkeiten, etwa bestimmte Schweiß-, Elektro- oder Lebensmittelsicherheitsarbeiten",
+       "Externes Schema befolgen; Zertifikate in der Matrix erfassen"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Nach der EU-Rahmenrichtlinie zum Arbeitsschutz müssen Arbeitgeber für ausreichende Sicherheitsunterweisung bei Einstellung, Versetzung und Einführung neuer Arbeitsmittel oder Technologien sorgen. In Deutschland ist dies in § 12 Arbeitsschutzgesetz umgesetzt. Eine Requalifizierung, die an Änderungen der Arbeitsanweisungen gekoppelt ist, deckt genau diese Zeitpunkte ab."
+    }
+   ]
+  },
+  {
+   "title": "Wie messen Sie den Erfolg und führen in 90 Tagen ein?",
+   "lead": "Messen Sie die Zeit bis zur Selbstständigkeit, First-Time-Right in den ersten Wochen, Trainerstunden und frühe Bindung, beginnend mit einer Ausgangsbasis. Folgen Sie dann einem 30-60-90-Tage-Plan von einer Pilotlinie zu einem wiederholbaren Vorgehen.",
+   "blocks": [
+    {
+     "type": "h3",
+     "text": "Kennzahlen"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Kennzahl",
+      "Definition",
+      "Quelle"
+     ],
+     "rows": [
+      [
+       "Zeit bis zur Selbstständigkeit",
+       "Tage vom Start bis Stufe 3 bei den definierten Grundtätigkeiten",
+       "Qualifikationsmatrix"
+      ],
+      [
+       "First-Time-Right neuer Mitarbeitender",
+       "Anteil Aufträge oder Chargen ohne Abweichung in Woche 1–8",
+       "Qualitätsaufzeichnungen, Anweisungsprotokolle"
+      ],
+      [
+       "Trainerstunden je neuer Person",
+       "Stunden von Stufe-4-Kollegen für Einarbeitung",
+       "Schichtplan oder Zeiterfassung"
+      ],
+      [
+       "Abdeckung",
+       "Anteil kritischer Tätigkeiten mit Sollbesetzung je Schicht",
+       "Qualifikationsmatrix"
+      ],
+      [
+       "Frühe Bindung",
+       "Anteil neuer Mitarbeitender, die nach 90 Tagen noch im Unternehmen sind",
+       "Personalabteilung"
+      ],
+      [
+       "Anweisungsqualität",
+       "Gemeldete unklare Schritte und Bearbeitungszeit",
+       "Anweisungsplattform"
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "title": "Erst die Ausgangsbasis",
+     "text": "Erfassen Sie vor dem Pilot die aktuellen Werte mindestens der ersten drei Kennzahlen. Ohne Ausgangsbasis bleiben Verbesserungen Anekdoten. Zur Veranschaulichung: [Kundenzahl: verkürzte Einarbeitungszeit bei einem Referenzkunden ergänzen]."
+    },
+    {
+     "type": "h3",
+     "text": "30-60-90-Tage-Plan"
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "t": "Tag 1–30: vorbereiten",
+       "d": "Eine Linie und eine Funktion mit regelmäßigem Zugang wählen. Ausgangsbasis messen. Qualifikationsmatrix für die Linie aufbauen. Die 10 bis 20 Tätigkeiten auswählen, die Neue zuerst lernen, und dafür mit dem Verantwortlichen digitale Arbeitsanweisungen erstellen. Geräte, Datenschutz und Betriebsrat klären."
+      },
+      {
+       "t": "Tag 31–60: Pilot",
+       "d": "Die nächsten neuen Mitarbeitenden nach dem Wochenplan und mit den digitalen Anweisungen einarbeiten. Trainer coachen und geben in der Matrix frei. Gemeldete Schritte sammeln und Anweisungen wöchentlich verbessern. Zeit bis zur Selbstständigkeit und Trainerstunden verfolgen."
+      },
+      {
+       "t": "Tag 61–90: auswerten und standardisieren",
+       "d": "Mit der Ausgangsbasis vergleichen. Einarbeitungsvorlage, Matrixstruktur und Inhaltsstandards dokumentieren. Über weitere Linien oder Standorte, Sprachen und AR-Anwendungsfälle entscheiden."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Checkliste: bereit für strukturierte Einarbeitung?"
+    },
+    {
+     "type": "checklist",
+     "items": [
+      "Tätigkeiten je Arbeitsplatz erfasst und kritische Tätigkeiten gekennzeichnet.",
+      "Vier Qualifikationsstufen mit benannten Freigaberollen definiert.",
+      "Qualifikationsmatrix für die Pilotlinie ausgefüllt, inklusive Trainer.",
+      "Einarbeitungsplan nach Wochen mit der Schichtleitung abgestimmt.",
+      "Digitale Arbeitsanweisungen für die ersten Tätigkeiten, mit Verantwortlichen und Prüfdatum.",
+      "Sprachen nach der tatsächlichen Belegschaft gewählt.",
+      "Trainerzeit im Schichtplan reserviert.",
+      "Auslöser für Requalifizierung kritischer Tätigkeiten festgelegt.",
+      "Ausgangsbasis für Zeit bis zur Selbstständigkeit, First-Time-Right und Trainerstunden gemessen.",
+      "Vereinbarungen mit Datenschutz und Betriebsrat zu Anweisungsprotokollen getroffen."
+     ]
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Was ist der Unterschied zwischen Schulung und Einarbeitung?",
+   "a": "Die Einarbeitung umfasst den gesamten Weg zur selbstständigen Arbeit, inklusive Preboarding, Sicherheit, sozialer Integration und Formalitäten. Schulung ist der Teil, der Qualifikation für Tätigkeiten aufbaut. Dieses Playbook verbindet beides über die Qualifikationsmatrix."
+  },
+  {
+   "q": "Wie lange dauert die Einarbeitung neuer Mitarbeiter in der Produktion?",
+   "a": "Das hängt von Komplexität und Regulierung ab. Legen Sie statt einer festen Wochenzahl die Zielstufe je Tätigkeit fest und messen Sie die Zeit bis zur Selbstständigkeit. Viele Werke nutzen einen Plan von 8 bis 12 Wochen für den ersten Arbeitsplatz als Ausgangspunkt."
+  },
+  {
+   "q": "Braucht gute Qualifizierung in der Produktion AR?",
+   "a": "Nein. Schritt-für-Schritt-Anweisungen auf dem Tablet decken die meisten Tätigkeiten ab. AR bringt Mehrwert bei räumlichen Aufgaben, etwa beim Auffinden von Bauteilen an großen Anlagen oder bei komplexer Montage. Wählen Sie das Format je Tätigkeit."
+  },
+  {
+   "q": "Wie halten wir Schulungsinhalte aktuell?",
+   "a": "Jede Arbeitsanweisung erhält einen Verantwortlichen und ein Prüfdatum, Werker melden unklare Schritte, und Änderungen lösen eine Requalifizierung der qualifizierten Mitarbeitenden aus."
+  },
+  {
+   "q": "Dürfen Anweisungsprotokolle zur Bewertung einzelner Mitarbeitender genutzt werden?",
+   "a": "Nur im Rahmen der Vereinbarungen mit Datenschutz und Betriebsrat, der nach § 87 Abs. 1 Nr. 6 BetrVG mitbestimmt. Die meisten Unternehmen nutzen Protokolle für Lernfortschritt und Rückverfolgbarkeit und werten Leistung auf Teamebene aus."
+  }
+ ],
+ "sources": [
+  {
+   "title": "ISO 9001:2015 Qualitätsmanagementsysteme – Anforderungen (Abschnitt 7.2 Kompetenz)",
+   "url": "https://www.iso.org/standard/62085.html"
+  },
+  {
+   "title": "EU-OSHA: Richtlinie 89/391/EWG – Arbeitsschutz-Rahmenrichtlinie",
+   "url": "https://osha.europa.eu/en/legislation/directives/the-osh-framework-directive/1"
+  },
+  {
+   "title": "Arbeitsschutzgesetz § 12 Unterweisung",
+   "url": "https://www.gesetze-im-internet.de/arbschg/__12.html"
+  },
+  {
+   "title": "Betriebsverfassungsgesetz § 87 Mitbestimmungsrechte",
+   "url": "https://www.gesetze-im-internet.de/betrvg/__87.html"
+  }
+ ],
+ "cta": {
+  "title": "Kostenloses Erstgespräch vereinbaren",
+  "text": "Sie möchten die Einarbeitung an einer Linie innerhalb von 90 Tagen verkürzen? Vereinbaren Sie ein kostenloses Erstgespräch mit Mark Dercksen (DACH) oder Jack Kessels (Benelux). Wir helfen bei der Auswahl der Tätigkeiten, der Ausgangsmessung und den ersten digitalen und AR-Arbeitsanweisungen."
+ }
+}

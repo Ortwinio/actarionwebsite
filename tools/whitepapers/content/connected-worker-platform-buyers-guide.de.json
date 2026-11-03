@@ -1,0 +1,469 @@
+{
+ "slug": "connected-worker-platform-buyers-guide",
+ "lang": "de",
+ "title": "Ein Werkerassistenzsystem auswählen: der Leitfaden für Connected-Worker-Plattformen",
+ "subtitle": "Was die Plattform leisten muss, wann sich AR lohnt, wie Sie Anbieter bewerten und warum ein gemessener Pilot die Entscheidung treffen sollte",
+ "keyword": "Werkerassistenzsystem",
+ "metaTitle": "Werkerassistenzsystem auswählen: Leitfaden | ActARion",
+ "metaDescription": "So wählen Sie ein Werkerassistenzsystem: Funktionen, Mobil oder AR, gewichtete Bewertungsmatrix, Anbindung an SAP, MES und LMS und Auswahl per Pilot.",
+ "audience": "Produktions-, Werks-, Qualitäts-/HSE-, Schulungs- und IT/OT-Verantwortliche in Fertigung, Pharma, Lebensmittel, Energie und MRO",
+ "readingTime": 12,
+ "answer": "Ein Werkerassistenzsystem, auch Connected-Worker-Plattform genannt, bringt Werkern das richtige Wissen genau im Moment der Arbeit: Arbeitsanweisungen, kontextbezogene Führung, Ausführungsdaten, Remote-Support und Qualifikationsnachweise. Sie wählen es aus, indem Sie Anbieter nach gewichteten Kriterien bewerten, die Anbindung an SAP, MES, LMS und SSO prüfen und einen gemessenen Pilot entscheiden lassen.",
+ "keyTakeaways": [
+  "Ein Werkerassistenzsystem verbindet Wissen mit der Arbeit, nicht nur Menschen mit Systemen; bewerten Sie es nach fünf Fähigkeiten: Inhalte, Führung, Daten, Remote-Support und Qualifikation.",
+  "Tablets und Smartphones decken die meisten Aufgaben ab; AR und Datenbrillen lohnen sich bei manuellen, räumlichen oder seltenen Tätigkeiten.",
+  "Nutzen Sie eine gewichtete Bewertungsmatrix und lassen Sie Anbieter mit Ihren eigenen Arbeitsanweisungen vorführen, nicht mit Demo-Inhalten.",
+  "Integration (SAP, MES, CMMS, LMS, SSO) und einfache Erstellung von Inhalten entscheiden langfristig mehr als einzelne Funktionen.",
+  "Entscheiden Sie über einen Pilot mit Nullmessung, vorab vereinbarten Erfolgskriterien und Go/No-Go nach 8 bis 12 Wochen."
+ ],
+ "chapters": [
+  {
+   "title": "Warum geht Wissen in der Produktion verloren?",
+   "lead": "Wissen geht verloren, weil es bei wenigen erfahrenen Mitarbeitenden liegt und in Dokumenten, die an der Maschine schwer nutzbar sind. Steigende Komplexität, Fluktuation und eine alternde Belegschaft vergrößern diese Lücke jedes Jahr.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Den meisten Industrieunternehmen fehlt es nicht an Dokumentation. Verfahrensanweisungen, Handbücher, SOPs und Schulungsunterlagen sind vorhanden. Das Problem: Dieses Wissen ist **im Arbeitsablauf** nicht verfügbar. Ein PDF im Netzlaufwerk hilft keinem Werker, der mitten im Rüsten steht und beide Hände braucht."
+    },
+    {
+     "type": "h3",
+     "text": "Vier Muster, die wir in fast jedem Werk sehen"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Expertise bei wenigen Köpfen.** Eine Handvoll erfahrener Werker und Instandhalter kennt die Kniffe und frühen Warnsignale. Sind sie im Urlaub, in einer anderen Schicht oder im Ruhestand, wird die Linie langsamer oder steht.",
+      "**Implizites Wissen, das nie aufgeschrieben wurde.** Formale Arbeitsanweisungen erfassen die Grundlagen; die Feinheiten zwischen gutem und mittelmäßigem Ergebnis stecken in den Köpfen.",
+      "**Lücken zwischen Schichten und Standorten.** Ein Problem, das die Nachtschicht gelöst hat, taucht am nächsten Morgen wieder auf. Eine Best Practice in einem Werk erreicht das andere nie.",
+      "**Komplexität wächst schneller als die Einarbeitungskapazität.** Mehr Varianten, mehr Regulierung und mehr Automatisierung bedeuten mehr Anweisungen, während Trainer und erfahrene Paten weniger Zeit haben."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Die Demografie erhöht den Druck. Laut Destatis, auf Basis der EU-Arbeitskräfteerhebung, waren 2024 in Deutschland 24,0% der Erwerbstätigen zwischen 15 und 64 Jahren zwischen 55 und 64 Jahre alt; der EU-Durchschnitt lag bei 20,1%. Ein großer Teil dieser Erfahrung verlässt in den kommenden zehn Jahren den Betrieb."
+    },
+    {
+     "type": "callout",
+     "title": "Definition: Connected Worker und Werkerassistenzsystem",
+     "text": "Ein Connected Worker ist ein Mitarbeitender in der Produktion oder Instandhaltung, der am Arbeitsplatz digital auf die Anweisungen, Daten und Kollegen zugreifen kann, die er braucht, um eine Aufgabe beim ersten Mal richtig zu erledigen. Ein Werkerassistenzsystem ist die Software, die das ermöglicht."
+    },
+    {
+     "type": "p",
+     "text": "Diese Lücken zeigen sich als Fehler, Nacharbeit, längere Rüstzeiten, langsamere Einarbeitung und vermeidbarer ungeplanter Stillstand. Sie stehen selten als eine Kostenposition in den Büchern. Genau deshalb beginnt eine gute Auswahl mit dem Messen."
+    }
+   ]
+  },
+  {
+   "title": "Was muss ein Werkerassistenzsystem leisten?",
+   "lead": "Ein Werkerassistenzsystem muss fünf Fähigkeiten bieten: strukturierte Inhalte, kontextbezogene Führung, Ausführungsdaten, Remote-Support und Qualifikationsmanagement. Ein Tool, das nur ein oder zwei davon abdeckt, ist eine Insellösung, keine Plattform.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Der Begriff wird für sehr unterschiedliche Produkte verwendet, von digitalen Checklisten bis zu kompletten MES-Suiten. Die Tabelle trennt Kernfunktionen von Nice-to-haves."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Fähigkeit",
+      "Was das in der Praxis bedeutet",
+      "Mindestanforderung"
+     ],
+     "rows": [
+      [
+       "Inhalte",
+       "Digitale Arbeitsanweisungen, SOPs und Checklisten mit Foto, Video und 3D, erstellt von den Menschen, die den Prozess kennen",
+       "Visuelle Schritt-für-Schritt-Erstellung durch Fachexperten, Versionierung und Freigabe-Workflow"
+      ],
+      [
+       "Führung",
+       "Die richtige Anweisung für die richtige Aufgabe, Anlage, Variante und Person am Arbeitsplatz",
+       "Start per QR-Code, Auftrag oder Anlage; unterschiedliche Detailtiefe für Neue und Erfahrene"
+      ],
+      [
+       "Daten",
+       "Nachweis, wie die Arbeit tatsächlich ausgeführt wird",
+       "Zeiten je Schritt, Bestätigungen, Fotos, Abweichungen und Freigaben, exportierbar für Qualität und KVP"
+      ],
+      [
+       "Remote-Support",
+       "Einen Experten hinzuziehen, wenn die Anweisung nicht reicht",
+       "Live-Video mit Annotationen, idealerweise mit geteilter Sicht von Brille oder Tablet"
+      ],
+      [
+       "Qualifikation",
+       "Transparenz, wer wofür qualifiziert ist",
+       "Verknüpfung ausgeführter Anweisungen mit der Qualifikationsmatrix; LMS-Anbindung"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Ein Werkerassistenzsystem ist kein Learning Management System (LMS), das Kurse und Zertifikate verwaltet, und kein Dokumentenmanagementsystem, das Dateien ablegt. Es wirkt während der Ausführung. Gute Systeme sind mit beiden verbunden, sodass Schulungsnachweise und gelenkte Dokumente in ihren führenden Systemen bleiben."
+    },
+    {
+     "type": "callout",
+     "title": "Tipp",
+     "text": "Lassen Sie sich einen durchgängigen Ablauf zeigen: Ein Werker scannt eine Maschine, folgt einer visuellen Arbeitsanweisung, erfasst eine Abweichung, ruft einen Experten hinzu, und der Schichtleiter sieht das Ergebnis in der Qualifikationsmatrix. Lücken werden sofort sichtbar."
+    }
+   ]
+  },
+  {
+   "title": "Nur mobil oder mit AR: welche Geräte brauchen Sie?",
+   "lead": "Starten Sie mit den Geräten, die Ihre Mitarbeitenden heute nutzen können, meist Tablets und Smartphones. Ergänzen Sie AR und Datenbrillen dort, wo Aufgaben beide Hände brauchen, räumlich sind oder selten vorkommen und wo der Blick weg von der Arbeit tatsächlich Fehler verursacht.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Viele Connected-Worker-Tools sind mobile-first: eine App mit Checklisten, Formularen und Benachrichtigungen. Damit deckt man einen großen Teil der Aufgaben ab. Bei komplexer Handarbeit stoßen sie jedoch an Grenzen."
+    },
+    {
+     "type": "h3",
+     "text": "Wo reine Mobillösungen nicht reichen"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Übersetzungsschritt.** Der Werker muss ein Bild auf dem Bildschirm auf die reale Maschine übertragen. Dort entstehen falsche Anschlüsse und vertauschte Teile.",
+      "**Kein räumlicher Bezug.** Ein Tablet kann nicht zeigen, welches Ventil oder welcher Prüfpunkt gemeint ist.",
+      "**Hände belegt.** Viele Tätigkeiten brauchen zwei Hände. Das Gerät ständig aufnehmen und ablegen bremst die Nutzung.",
+      "**Checklisten-Müdigkeit.** Wenn jeder Schritt ein Haken ist, sehen kritische und triviale Schritte gleich aus."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Was AR ergänzt"
+    },
+    {
+     "type": "p",
+     "text": "Augmented Reality (AR) blendet digitale Hinweise in die reale Umgebung ein: Pfeile, Markierungen und 3D-Modelle, die an der Anlage verankert sind. Mit Datenbrillen bleibt die Anweisung im Blickfeld, während beide Hände frei sind. Beim Remote-Support sieht der Experte, was der Techniker sieht, und zeichnet direkt in dessen Sichtfeld."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Situation",
+      "Beste Wahl",
+      "Warum"
+     ],
+     "rows": [
+      [
+       "Routinerundgänge, Checklisten, Freigaben",
+       "Smartphone oder Tablet",
+       "Schnell, vertraut, geringe Gerätekosten"
+      ],
+      [
+       "Montage mit vielen Varianten",
+       "Tablet oder AR auf dem Tablet",
+       "Visuelle Schritte und variantenspezifische Anweisungen"
+      ],
+      [
+       "Rüsten und Line Clearance",
+       "Tablet, optional AR",
+       "Reihenfolge und Bestätigung zählen; Fotos als Nachweis"
+      ],
+      [
+       "Komplexe Instandhaltung, beide Hände nötig",
+       "Datenbrille mit AR",
+       "Freihändig, Anweisung im Blickfeld"
+      ],
+      [
+       "Seltene Tätigkeiten (Revision, Kalibrierung)",
+       "AR auf Tablet oder Brille",
+       "Keine Routine; räumliche Führung verhindert Fehler"
+      ],
+      [
+       "Störungsbehebung mit externem Experten",
+       "Brille oder Tablet mit Remote-Support",
+       "Geteilte Sicht ersetzt die Anreise"
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "title": "Auswahlregel",
+     "text": "Wählen Sie eine Plattform, auf der dieselbe Arbeitsanweisung ohne Neuerstellung auf Smartphone, Tablet und Datenbrille läuft. So starten Sie mobil und ergänzen AR je Anwendungsfall, ohne sich an einen Hardwarehersteller zu binden."
+    }
+   ]
+  },
+  {
+   "title": "Mit welchen Anwendungsfällen erzielen Sie zuerst Nutzen?",
+   "lead": "Die ersten Anwendungsfälle sollten häufig vorkommen, teuer sein, wenn etwas schiefgeht, und heute schon messbar sein. Rüsten, Einarbeitung, vorbeugende Instandhaltung, qualitätskritische Montage und Störungsbehebung per Remote-Support erfüllen das meist.",
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "Anwendungsfall",
+      "Typisches Problem",
+      "Was Sie messen"
+     ],
+     "rows": [
+      [
+       "Rüsten",
+       "Lange und schwankende Rüstzeiten, Anlaufausschuss",
+       "Rüstzeit, First Pass Yield nach Anlauf"
+      ],
+      [
+       "Einarbeitung und Mehrfachqualifikation",
+       "Wochenlanges Mitlaufen, Trainer nicht verfügbar",
+       "Stunden bis zur selbstständigen Arbeit, Trainerstunden"
+      ],
+      [
+       "Qualitätskritische Montage",
+       "Falsche oder fehlende Teile, Nacharbeit",
+       "Fehler je 1.000 Teile, Nacharbeitsstunden"
+      ],
+      [
+       "Vorbeugende Instandhaltung",
+       "Übersprungene Schritte, Unterschiede zwischen Technikern",
+       "Auftragszeit, erfasste Befunde, Wiederholstörungen"
+      ],
+      [
+       "Störungsbehebung und Remote-Support",
+       "Warten auf Experten, Reisekosten",
+       "MTTR, Experteneinsätze pro Jahr"
+      ],
+      [
+       "Line Clearance und GMP-Dokumentation",
+       "Papieraufwand, fehlende Unterschriften",
+       "Dokumentationsfehler, Abweichungen"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Wählen Sie ein oder zwei davon für den Pilot, nicht fünf. Ein enger Umfang macht die Nullmessung machbar und den Vergleich glaubwürdig. In regulierten Umgebungen wie Pharma und Lebensmittel beginnen Sie am besten mit einem Prozess, in dem elektronische Nachweise (Fotos, Zeitstempel, Freigaben) den Prüfaufwand direkt senken."
+    },
+    {
+     "type": "callout",
+     "title": "Häufiger Fehler",
+     "text": "Mit dem Prozess mit dem schönsten Demo-Effekt beginnen statt mit dem Prozess mit der größten messbaren Lücke. Optischer Eindruck überzeugt einen Lenkungskreis einmal; gemessene Einsparungen überzeugen das Controlling jedes Jahr."
+    }
+   ]
+  },
+  {
+   "title": "Wie bewerten Sie Anbieter? Eine gewichtete Bewertungsmatrix",
+   "lead": "Bewerten Sie jeden Anbieter nach denselben gewichteten Kriterien und lassen Sie mit Ihren eigenen Arbeitsanweisungen vorführen. Die Gewichte gehören zu Ihrer Situation; die Vorlage unten ist ein guter Ausgangspunkt für einen Produktionsstandort.",
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "Kriterium",
+      "Gewicht",
+      "Fragen an den Anbieter"
+     ],
+     "rows": [
+      [
+       "Einfache Erstellung",
+       "20%",
+       "Kann ein Schichtleiter in unter einer Stunde eine Anweisung mit 15 Schritten aus Fotos und Video erstellen? Gibt es KI-Unterstützung? Wie laufen Prüfung und Freigabe?"
+      ],
+      [
+       "Führung und Geräte",
+       "15%",
+       "Läuft derselbe Inhalt auf Smartphone, Tablet und Datenbrille? Ist AR an der Anlage verankert? Welche Brillen werden unterstützt?"
+      ],
+      [
+       "Daten und Auswertung",
+       "15%",
+       "Welche Ausführungsdaten werden je Schritt erfasst? Können wir sie in BI- oder QM-Systeme exportieren? Sehen Schichtleiter Abweichungen in Echtzeit?"
+      ],
+      [
+       "Integration",
+       "15%",
+       "Welche Standardschnittstellen gibt es zu SAP, MES, CMMS und LMS? Gibt es eine offene API? Wie funktioniert SSO (Microsoft Entra ID, SAML)?"
+      ],
+      [
+       "Remote-Support",
+       "10%",
+       "Ist Remote-Support integriert oder ein separates Produkt? Funktioniert er bei geringer Bandbreite? Lassen sich Sitzungen aufzeichnen und in Anweisungen umwandeln?"
+      ],
+      [
+       "Qualifikation",
+       "10%",
+       "Fließen ausgeführte Anweisungen in die Qualifikationsmatrix ein? Können wir Tätigkeiten auf qualifizierte Mitarbeitende beschränken?"
+      ],
+      [
+       "Sicherheit, Compliance und Offline",
+       "10%",
+       "Wo werden Daten gehostet (EU)? DSGVO, ISO 27001? Audit Trail und elektronische Unterschriften für GMP? Funktioniert es offline in der Halle?"
+      ],
+      [
+       "Partner und Einführung",
+       "5%",
+       "Wer unterstützt bei Auswahl der Anwendungsfälle, Inhalten und Change Management? Gibt es lokalen Support in unserer Sprache?"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Vergeben Sie je Kriterium 1 bis 5 Punkte, multiplizieren Sie mit dem Gewicht und addieren Sie. Legen Sie die Gewichte vor den Vorführungen fest, nicht danach. In einem Pharmawerk kann Compliance 20% wiegen; an einem Standort mit alternder Belegschaft verdienen Qualifikation und Erstellung mehr Gewicht."
+    },
+    {
+     "type": "h3",
+     "text": "Warnsignale in der Bewertung"
+    },
+    {
+     "type": "checklist",
+     "items": [
+      "Die Demo nutzt nur Anbieterinhalte, nie Ihre eigene Arbeitsanweisung.",
+      "Jede Inhaltsänderung braucht den Anbieter oder Ihre IT.",
+      "AR funktioniert nur auf einer bestimmten Brille.",
+      "Datenexport beschränkt sich auf PDF-Berichte.",
+      "Keine klare Antwort zu Hosting-Standort und Dateneigentum.",
+      "Vertragsbedingungen, die einen begrenzten Pilot unmöglich machen."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Wie sieht die Anbindung an SAP, MES, LMS und SSO aus?",
+   "lead": "Die Integration soll dafür sorgen, dass ein Auftrag die richtige Anweisung startet und Ausführungsdaten ins führende System zurückfließen. Gehen Sie stufenweise vor: zuerst SSO, dann die Verknüpfung mit Auftrag oder Anlage, danach Daten zurück in Qualitäts- und Schulungssysteme.",
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "System",
+      "Typische Anbindung",
+      "Nutzen"
+     ],
+     "rows": [
+      [
+       "SAP (PM/PP/QM) oder anderes ERP",
+       "Fertigungs- oder Instandhaltungsauftrag öffnet die passende Anweisung; Rückmeldung fließt zurück",
+       "Kein Suchen, richtige Version je Auftrag, geschlossener Regelkreis"
+      ],
+      [
+       "MES",
+       "Auftrags-, Varianten- und Stationskontext; Schrittergebnisse in die Chargen- oder Fertigungsdokumentation",
+       "Variantenspezifische Führung, Rückverfolgbarkeit"
+      ],
+      [
+       "CMMS / EAM",
+       "Anlagen-ID per QR-Code; Befunde und Fotos zurück in die Anlagenhistorie",
+       "Bessere Instandhaltungshistorie, weniger Wiederholstörungen"
+      ],
+      [
+       "LMS / HR",
+       "Ausgeführte geführte Tätigkeiten und Freigaben aktualisieren Qualifikationen",
+       "Aktuelle Qualifikationsmatrix ohne doppelte Pflege"
+      ],
+      [
+       "SSO / Identität",
+       "Anmeldung mit bestehenden Unternehmenskonten (z. B. Microsoft Entra ID, SAML/OIDC)",
+       "Sicherheit, Benutzerverwaltung, keine zusätzlichen Passwörter"
+      ],
+      [
+       "DMS / QMS",
+       "Gelenkte Quelldokumente mit Anweisungen verknüpft",
+       "Eine gültige Version für Audits"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Beziehen Sie IT/OT früh ein. Lassen Sie Netzwerkanforderungen, Geräteverwaltung (MDM), Datenhosting und API-Dokumentation während der Auswahl prüfen, nicht nach Vertragsabschluss. Für den Pilot reicht meist eine leichte Anbindung (SSO plus QR-Codes je Anlage); tiefe ERP- oder MES-Schnittstellen folgen, wenn der Business Case belegt ist."
+    },
+    {
+     "type": "callout",
+     "title": "Praxisregel",
+     "text": "Machen Sie die vollständige Integration nicht zur Voraussetzung für den Pilot. Belegen Sie den Nutzen mit minimaler Anbindung und investieren Sie danach in die Schnittstellen, die der Rollout wirklich braucht."
+    }
+   ]
+  },
+  {
+   "title": "Wie treffen Sie die endgültige Entscheidung mit einem Pilot?",
+   "lead": "Treffen Sie die endgültige Entscheidung auf Basis eines kurzen, gemessenen Pilots: ein oder zwei Prozesse, eine Nullmessung vor dem Start, vorab vereinbarte Erfolgskriterien und Go/No-Go nach 8 bis 12 Wochen. So werden Anbieterversprechen zu Ihren eigenen Belegen.",
+   "blocks": [
+    {
+     "type": "steps",
+     "items": [
+      {
+       "t": "Anwendungsfall wählen",
+       "d": "Wählen Sie ein oder zwei Prozesse, die häufig vorkommen, bei Fehlern teuer sind und heute schon messbar sind."
+      },
+      {
+       "t": "Nullmessung durchführen",
+       "d": "Erfassen Sie zwei bis vier Wochen lang Zeiten, Fehler, Einarbeitungsstunden oder Stillstand, mit denselben Definitionen wie später."
+      },
+      {
+       "t": "Erfolgskriterien festlegen",
+       "d": "Vereinbaren Sie vorab, welches Ergebnis Go, Nachsteuern oder Stopp bedeutet, etwa 20% kürzere Rüstzeit oder halb so viele Patenstunden."
+      },
+      {
+       "t": "Inhalte mit Experten erstellen",
+       "d": "Lassen Sie Ihre erfahrenen Werker die Arbeitsanweisungen mit Unterstützung erstellen; das schafft auch Akzeptanz."
+      },
+      {
+       "t": "In der Halle einsetzen",
+       "d": "Schulen Sie Anwender kurz, begleiten Sie die ersten Wochen vor Ort und sammeln Sie Feedback je Anweisung."
+      },
+      {
+       "t": "Vergleichen und entscheiden",
+       "d": "Messen Sie dieselben KPIs, rechnen Sie den Business Case mit echten Daten und entscheiden Sie über die Skalierung."
+      }
+     ]
+    },
+    {
+     "type": "kpis",
+     "items": [
+      {
+       "n": "8–12 Wochen",
+       "l": "übliche Pilotdauer"
+      },
+      {
+       "n": "1–2",
+       "l": "Prozesse im Umfang"
+      },
+      {
+       "n": "2–4 Wochen",
+       "l": "Nullmessung"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "ActARion begleitet solche Pilotprojekte mit der Plattform DeepSight in Benelux und DACH: von der Auswahl der Anwendungsfälle und der Nullmessung bis zu Inhalten, Change Management und Rollout. [Kundenzahl: Pilotergebnis eines Referenzkunden ergänzen, z. B. Verkürzung der Rüstzeit]"
+    },
+    {
+     "type": "callout",
+     "title": "Nächster Schritt",
+     "text": "Schätzen Sie mit dem ROI-Rechner auf unserer Website die Einsparung mit Ihren eigenen Zahlen und prüfen Sie die Annahmen danach in einem Pilot."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Was ist ein Werkerassistenzsystem?",
+   "a": "Software, die Werkern am Arbeitsplatz digitalen Zugriff auf Arbeitsanweisungen, kontextbezogene Führung, Expertenunterstützung und Ausführungsdaten gibt. International spricht man von einer Connected-Worker-Plattform. Sie ergänzt ERP, MES und LMS, ersetzt sie aber nicht."
+  },
+  {
+   "q": "Brauchen wir zum Start Datenbrillen?",
+   "a": "Nein. Die meisten Unternehmen starten mit Tablets und Smartphones. Wählen Sie aber eine Plattform, auf der derselbe Inhalt auch auf Datenbrillen läuft, damit Sie AR später für manuelle oder seltene Tätigkeiten ergänzen können."
+  },
+  {
+   "q": "Was ist der Unterschied zu einem LMS?",
+   "a": "Ein LMS verwaltet Kurse und Zertifikate. Ein Werkerassistenzsystem unterstützt die Tätigkeit selbst während der Ausführung und kann Qualifikationsdaten an das LMS zurückmelden."
+  },
+  {
+   "q": "Wie lange dauert ein Pilot?",
+   "a": "In der Regel 8 bis 12 Wochen für ein oder zwei Prozesse, mit einer vorgeschalteten Nullmessung von zwei bis vier Wochen."
+  },
+  {
+   "q": "Welche Schnittstellen braucht ein Pilot?",
+   "a": "Meist nur Single Sign-on und QR-Codes je Anlage oder Arbeitsplatz. SAP-, MES- oder LMS-Anbindungen folgen beim Rollout."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Destatis: Deutschland hat EU-weit älteste Arbeitsbevölkerung (Handwerksblatt, 2026)",
+   "url": "https://www.handwerksblatt.de/panorama/destatis-deutschland-hat-eu-weit-aelteste-arbeitsbevoelkerung"
+  },
+  {
+   "title": "Eurostat: Employment rate of older workers, age group 55-64 (tesem050)",
+   "url": "https://db.nomics.world/Eurostat/tesem050"
+  }
+ ],
+ "cta": {
+  "title": "Kostenloses Erstgespräch vereinbaren",
+  "text": "Besprechen Sie Ihre Prozesse mit Mark Dercksen (DACH). Wir helfen Ihnen, den richtigen ersten Anwendungsfall zu wählen, die Nullmessung aufzusetzen und einen Pilot zu planen."
+ }
+}

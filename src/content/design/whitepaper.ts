@@ -1,4 +1,5 @@
 import type { Locale } from '@/lib/locale';
+import { wpItems } from '../whitepapers';
 
 export interface WpItem { slug: string; title: string; voor: string; meta: string; cover: string; routeKey?: string }
 
@@ -29,24 +30,13 @@ export interface WhitepaperCopy {
   ctaHeading: string;
 }
 
-const covers = ['/img/hero-tablet-ar.webp', '/img/usecase-assembly.webp', '/img/usecase-maintenance.webp', '/img/usecase-changeover.webp', '/img/hero-tablet-ar.webp'];
-const slugs = ['ai-ar-work-instructions-guide', 'digital-work-instructions-ar-sops', 'choosing-connected-worker-platforms', 'roi-calculator-method', 'it-security-ar-ai'];
-const mk = (rows: [string, string, string][]): WpItem[] =>
-  rows.map(([title, voor, meta], i) => ({ slug: slugs[i], title, voor, meta, cover: covers[i], routeKey: i === 4 ? 'wpItSecurity' : undefined }));
-
 export const whitepaperCopy: Record<Locale, WhitepaperCopy> = {
   nl: {
     eyebrow: 'Kennis · gratis te downloaden',
     h1: 'Onderbouw uw businesscase, voordat u iets koopt.',
     lead: 'Kies de gids die past bij de vraag die nu op tafel ligt.',
     groupLabel: 'Kies een whitepaper',
-    items: mk([
-      ['AI- en AR-werkinstructies: praktische gids', 'Voor operations: inwerken, onderhoud, veiligheid en adoptie', 'pdf'],
-      ['Digitale werkinstructies en AR-SOP’s', 'Voor quality en HSE: standaardwerk en compliance', 'pdf'],
-      ['Connected worker platforms kiezen', 'Voor wie platforms vergelijkt: waar AR waarde toevoegt', 'pdf'],
-      ['ROI-calculator: methode en aannames', 'Voor de businesscase: bronnen, definities, bandbreedtes', 'pdf'],
-      ['IT- en securitydossier', 'Voor IT, OT en security: devices, data, koppelingen, offline', 'nieuw'],
-    ]),
+    items: wpItems.nl,
     emailLabel: 'Zakelijk e-mailadres',
     emailPh: 'naam@bedrijf.nl',
     optIn: 'Ja, stuur mij maandelijks praktijkinzichten over AR op de werkvloer.',
@@ -72,13 +62,7 @@ export const whitepaperCopy: Record<Locale, WhitepaperCopy> = {
     h1: 'Build your business case before you buy anything.',
     lead: 'Choose the guide that fits the question on the table right now.',
     groupLabel: 'Choose a whitepaper',
-    items: mk([
-      ['AI and AR work instructions: a practical guide', 'For operations: onboarding, maintenance, safety and adoption', 'pdf'],
-      ['Digital work instructions and AR SOPs', 'For quality and HSE: standard work and compliance', 'pdf'],
-      ['Choosing a connected worker platform', 'For anyone comparing platforms: where AR adds value', 'pdf'],
-      ['ROI calculator: method and assumptions', 'For the business case: sources, definitions, ranges', 'pdf'],
-      ['IT and security dossier', 'For IT, OT and security: devices, data, integrations, offline', 'new'],
-    ]),
+    items: wpItems.en,
     emailLabel: 'Business email',
     emailPh: 'name@company.com',
     optIn: 'Yes, send me monthly practical insights on AR on the shop floor.',
@@ -104,13 +88,7 @@ export const whitepaperCopy: Record<Locale, WhitepaperCopy> = {
     h1: 'Untermauern Sie Ihren Business Case, bevor Sie etwas kaufen.',
     lead: 'Wählen Sie den Leitfaden, der zu Ihrer aktuellen Frage passt.',
     groupLabel: 'Whitepaper wählen',
-    items: mk([
-      ['KI- und AR-Arbeitsanweisungen: Praxisleitfaden', 'Für die Produktion: Einarbeitung, Instandhaltung, Sicherheit und Akzeptanz', 'pdf'],
-      ['Digitale Arbeitsanweisungen und AR-SOPs', 'Für Qualität und Arbeitssicherheit: Standardarbeit und Compliance', 'pdf'],
-      ['Werkerassistenzsysteme auswählen', 'Für alle, die Plattformen vergleichen: wo AR Mehrwert schafft', 'pdf'],
-      ['ROI-Rechner: Methode und Annahmen', 'Für den Business Case: Quellen, Definitionen, Bandbreiten', 'pdf'],
-      ['IT- und Sicherheitsdossier', 'Für IT, OT und Security: Geräte, Daten, Schnittstellen, offline', 'neu'],
-    ]),
+    items: wpItems.de,
     emailLabel: 'Geschäftliche E-Mail-Adresse',
     emailPh: 'name@unternehmen.de',
     optIn: 'Ja, senden Sie mir monatlich Praxiseinblicke zu AR in der Fertigung.',

@@ -1,0 +1,637 @@
+{
+ "slug": "roi-business-case-digital-work-instructions",
+ "lang": "nl",
+ "title": "De businesscase voor digitale werkinstructies: ROI-methode, aannames en bandbreedtes",
+ "subtitle": "Zo werkt de ROI-calculator van ActARion: vier besparingsformules, het financiële model achter terugverdientijd, ROI en netto contante waarde, een rekenvoorbeeld en hoe u de cijfers verdedigt bij finance",
+ "keyword": "ROI digitale werkinstructies",
+ "metaTitle": "ROI digitale werkinstructies: de businesscase | ActARion",
+ "metaDescription": "Bouw de businesscase voor digitale en AR-werkinstructies: vier besparingsformules, terugverdientijd, ROI en NCW, een rekenvoorbeeld en een goede nulmeting.",
+ "audience": "Operationeel managers, plantmanagers, controllers en finance, CI- en L&D-managers die een investeringsbesluit voorbereiden",
+ "readingTime": 13,
+ "answer": "De ROI van digitale werkinstructies komt uit vier bronnen: korter inwerken, minder fouten, minder stilstand en minder expertbezoeken. Met de standaardwaarden van de calculator is de besparing bij volledige adoptie €75.260 per jaar, met een terugverdientijd van 15 maanden, een ROI over drie jaar van 61% en een netto contante waarde van circa €53.000.",
+ "keyTakeaways": [
+  "Elke euro in de businesscase is terug te voeren op één van vier transparante formules: inwerken, kwaliteit, stilstand en expertbezoeken.",
+  "Het financiële model laat de adoptie groeien van 60% via 80% naar 100% in drie jaar en verdisconteert de netto kasstroom tegen 8%.",
+  "Met de standaardwaarden: €75.260 besparing per jaar, terugverdiend in 15 maanden, 61% ROI over drie jaar en een NCW van circa €53.000.",
+  "Het impactniveau weegt zwaarder dan elke losse invoer: van €46.100 (voorzichtig) tot €99.700 (ambitieus) per jaar.",
+  "Finance vertrouwt een businesscase op basis van uw eigen nulmeting, bevestigd door een gemeten pilot, meer dan benchmarks van leveranciers."
+ ],
+ "chapters": [
+  {
+   "title": "Welke vragen moet een businesscase voor digitale werkinstructies beantwoorden?",
+   "lead": "Een businesscase moet laten zien waar de besparing vandaan komt, wanneer de investering is terugverdiend en hoe zeker dat is. Dat vraagt transparante formules, uw eigen nulmeting, een groeiende adoptie en een bandbreedte in plaats van één getal.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Digitale werkinstructies vervangen papieren of pdf-procedures door visuele stap-voor-stapbegeleiding op tablet, smartphone of smart glasses, eventueel met augmented reality (AR). De vraag van finance is niet of dat modern is, maar of het zich terugverdient."
+    },
+    {
+     "type": "callout",
+     "title": "Definitie: ROI",
+     "text": "Return on investment (ROI) is de netto opbrengst van een investering gedeeld door de kosten. In deze whitepaper betekent ROI altijd de ROI over drie jaar: (besparing over drie jaar − kosten over drie jaar) ÷ kosten over drie jaar."
+    },
+    {
+     "type": "p",
+     "text": "De ROI-calculator op onze website gebruikt precies de methode die we hier beschrijven. Elk getal in deze whitepaper kunt u in de calculator narekenen. Calculator, mobiele versie en pdf-rapport delen één rekenkern, dus de uitkomsten wijken nooit van elkaar af."
+    },
+    {
+     "type": "h3",
+     "text": "Twee manieren van rekenen"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Snelle schatting:** tien invoerwaarden over uw operatie, een branche-voorinstelling en een impactniveau. Geschikt voor een eerste gesprek en een orde van grootte.",
+      "**Per use case:** aparte waarden voor en na, voor assemblage, omstellen, onderhoud, storingsherstel en inwerken. Geschikt zodra u weet welk proces u wilt piloten."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Beide routes gebruiken hetzelfde financiële model. Deze whitepaper volgt vooral de snelle schatting, omdat de standaardwaarden daarvan het rekenvoorbeeld opleveren dat finance meestal als eerste ziet."
+    },
+    {
+     "type": "callout",
+     "title": "Belangrijk",
+     "text": "De calculator geeft een indicatie, geen offerte. De investeringsbedragen zijn aanpasbare voorbeeldaannames. Gebruik uw eigen cijfers waar u die heeft."
+    }
+   ]
+  },
+  {
+   "title": "Waar komt de besparing vandaan? Vier formules",
+   "lead": "De besparing komt uit vier bronnen: korter inwerken, minder fouten en afkeur, minder stilstand door fouten in de uitvoering van werkinstructies en minder bezoeken van externe experts. Elke bron heeft een eigen formule, zodat u elke euro kunt herleiden en ter discussie stellen.",
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "Besparing",
+      "Formule (snelle schatting)",
+      "Standaardinvoer (Andere maakindustrie)"
+     ],
+     "rows": [
+      [
+       "Inwerken",
+       "nieuwe operators × (inwerkuren × reductie %) × (uurloon operator + uurloon trainer)",
+       "6 nieuwe operators per jaar, 24 uur elk, €40 + €60 per uur"
+      ],
+      [
+       "Kwaliteit (fouten en afkeur)",
+       "operators × uitvoeringen × foutpercentage × reductie % × kosten per fout",
+       "25 operators, 400 uitvoeringen per operator per jaar, 3% fouten, €250 per fout"
+      ],
+      [
+       "Stilstand",
+       "uren stilstand door SOP-fouten × reductie % × kosten per uur",
+       "40 uur per jaar, €2.000 per uur"
+      ],
+      [
+       "Expertbezoeken (optioneel)",
+       "bezoeken × 50% × kosten per bezoek",
+       "Standaard uit; 10 bezoeken à €1.500 als u het aanzet"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Wat elke formule meetelt"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Inwerken** telt zowel de uren van de nieuwe operator als die van de trainer of buddy, want beiden worden betaald terwijl de nieuwe collega leert. Nieuwe operators zijn ook interne wissels, niet alleen nieuwe instroom.",
+      "**Kwaliteit** telt het deel van de uitvoeringen met een fout, rework of afkeur. Kosten per fout omvatten rework, afkeur en klachten.",
+      "**Stilstand** telt alleen stilstand die door SOP-fouten ontstaat, niet alle ongeplande stilstand. Dat houdt de schatting verdedigbaar.",
+      "**Expertbezoeken** gaan ervan uit dat remote support het aantal bezoeken ter plaatse halveert. Zet dit alleen aan als er nu externe of centrale experts naar uw locatie reizen."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Impactniveaus"
+    },
+    {
+     "type": "p",
+     "text": "De reductiepercentages volgen uit één keuze: voorzichtig, gemiddeld of ambitieus. Gemiddeld is de standaard."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Impactniveau",
+      "Minder fouten",
+      "Korter inwerken",
+      "Minder stilstand"
+     ],
+     "rows": [
+      [
+       "Voorzichtig",
+       "30%",
+       "25%",
+       "25%"
+      ],
+      [
+       "Gemiddeld",
+       "50%",
+       "40%",
+       "40%"
+      ],
+      [
+       "Ambitieus",
+       "70%",
+       "50%",
+       "50%"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Voorinstellingen per branche"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Branche",
+      "Operators",
+      "Nieuw per jaar",
+      "Inwerkuren",
+      "Uitvoeringen",
+      "Foutpercentage",
+      "Kosten/fout",
+      "Stilstand (u)",
+      "Kosten/uur"
+     ],
+     "rows": [
+      [
+       "Food & beverage",
+       "25",
+       "6",
+       "24",
+       "400",
+       "3%",
+       "€250",
+       "40",
+       "€2.000"
+      ],
+      [
+       "Farma",
+       "30",
+       "8",
+       "40",
+       "300",
+       "2%",
+       "€500",
+       "30",
+       "€5.000"
+      ],
+      [
+       "Verpakking",
+       "20",
+       "5",
+       "20",
+       "500",
+       "4%",
+       "€200",
+       "50",
+       "€1.500"
+      ],
+      [
+       "Logistiek",
+       "35",
+       "10",
+       "16",
+       "600",
+       "5%",
+       "€150",
+       "60",
+       "€1.000"
+      ],
+      [
+       "Andere maakindustrie",
+       "25",
+       "6",
+       "24",
+       "400",
+       "3%",
+       "€250",
+       "40",
+       "€2.000"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Voorinstellingen zijn een vertrekpunt, geen benchmark voor uw locatie. Vervang ze door uw eigen cijfers zodra u die heeft."
+    },
+    {
+     "type": "h3",
+     "text": "Formules per use case"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Assemblage:** assemblages × (foutpercentage vandaag − met begeleiding) × kosten per fout.",
+      "**Omstellen:** omstellingen × bespaarde minuten × kosten per minuut + omstellingen × minder aanloopafkeur.",
+      "**Onderhoud:** uren ongeplande stilstand × reductie × kosten per uur + spoedbezoeken × 50% × kosten per bezoek.",
+      "**Storingsherstel:** storingen × (MTTR vandaag − met remote expert) × kosten per uur + bezoeken × 60% × €1.500.",
+      "**Inwerken:** nieuwe operators × bespaarde inwerkuren × (uurloon operator + trainer) + nieuwe operators × minder afkeur per nieuwe operator."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Hoe worden terugverdientijd, ROI en netto contante waarde berekend?",
+   "lead": "De jaarlijkse besparing bij volledige adoptie telt in jaar 1 voor 60%, in jaar 2 voor 80% en in jaar 3 voor 100%. De jaarlijkse kosten gaan er elk jaar af, de eenmalige kosten bij de start, en de netto kasstroom wordt tegen 8% verdisconteerd.",
+   "blocks": [
+    {
+     "type": "steps",
+     "items": [
+      {
+       "t": "Besparing per jaar",
+       "d": "Som van de vier besparingen bij volledige adoptie."
+      },
+      {
+       "t": "Adoptiecurve",
+       "d": "Jaar 1 telt 60% van de besparing, jaar 2 80%, jaar 3 100%. Een echte uitrol kost tijd: gebruikers, content en processen moeten groeien."
+      },
+      {
+       "t": "Netto kasstroom",
+       "d": "Netto per jaar = besparing × adoptie − jaarlijkse kosten. Bij de start zijn de eenmalige kosten een negatieve kasstroom."
+      },
+      {
+       "t": "Terugverdientijd",
+       "d": "Het moment waarop de cumulatieve kasstroom nul wordt, lineair binnen het jaar, in maanden. Gebeurt dat niet binnen 36 maanden, dan toont de calculator > 36 maanden."
+      },
+      {
+       "t": "ROI over 3 jaar",
+       "d": "(besparing over drie jaar − kosten over drie jaar) ÷ kosten over drie jaar. Kosten over drie jaar = eenmalige kosten + 3 × jaarlijkse kosten."
+      },
+      {
+       "t": "Netto contante waarde (NCW)",
+       "d": "De eenmalige kosten plus de netto kasstroom van elk jaar, verdisconteerd tegen 8% per jaar."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Aannames voor de investering"
+    },
+    {
+     "type": "p",
+     "text": "De calculator start met twee aanpasbare voorbeeldwaarden: **€29.000 per jaar** (licenties, devices en contentbeheer) en **€25.000 eenmalig** (implementatie en eerste werkinstructies). Dit zijn indicatieve aannames om het model te laten rekenen, geen prijs en geen offerte. Uw werkelijke investering hangt af van scope, aantal gebruikers, devices en integratie en hoort deze waarden in uw eigen businesscase te vervangen."
+    },
+    {
+     "type": "callout",
+     "title": "Waarom 8%?",
+     "text": "Een discontovoet rekent toekomstige euro's om naar de waarde van vandaag. 8% is een gangbare rendementseis voor operationele investeringen. Hanteert uw financiële afdeling een eigen WACC of rendementseis, gebruik die dan. De methode blijft gelijk."
+    }
+   ]
+  },
+  {
+   "title": "Wat laat het rekenvoorbeeld met de standaardwaarden zien?",
+   "lead": "Met de standaardwaarden (Andere maakindustrie, gemiddelde impact, voorbeeldwaarden voor de investering) is de besparing bij volledige adoptie €75.260 per jaar. De investering is na 15 maanden terugverdiend, de ROI over drie jaar is 61% en de NCW circa €53.000.",
+   "blocks": [
+    {
+     "type": "kpis",
+     "items": [
+      {
+       "n": "€75.260",
+       "l": "besparing per jaar bij volledige adoptie"
+      },
+      {
+       "n": "15 maanden",
+       "l": "terugverdientijd"
+      },
+      {
+       "n": "61%",
+       "l": "ROI over 3 jaar"
+      },
+      {
+       "n": "≈ €53.000",
+       "l": "NCW bij 8%"
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Besparing per bron"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Bron",
+      "Berekening",
+      "Per jaar",
+      "Aandeel"
+     ],
+     "rows": [
+      [
+       "Inwerken",
+       "6 × (24 u × 40%) × (€40 + €60)",
+       "€5.760",
+       "8%"
+      ],
+      [
+       "Kwaliteit",
+       "25 × 400 × 3% × 50% × €250",
+       "€37.500",
+       "50%"
+      ],
+      [
+       "Stilstand",
+       "40 u × 40% × €2.000",
+       "€32.000",
+       "43%"
+      ],
+      [
+       "Expertbezoeken",
+       "uitgeschakeld",
+       "€0",
+       "0%"
+      ],
+      [
+       "Totaal",
+       "",
+       "€75.260",
+       "100%"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Kasstroom over drie jaar"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Periode",
+      "Adoptie",
+      "Besparing",
+      "Kosten",
+      "Netto",
+      "Cumulatief"
+     ],
+     "rows": [
+      [
+       "Start",
+       "",
+       "",
+       "€25.000",
+       "−€25.000",
+       "−€25.000"
+      ],
+      [
+       "Jaar 1",
+       "60%",
+       "€45.156",
+       "€29.000",
+       "€16.156",
+       "−€8.844"
+      ],
+      [
+       "Jaar 2",
+       "80%",
+       "€60.208",
+       "€29.000",
+       "€31.208",
+       "€22.364"
+      ],
+      [
+       "Jaar 3",
+       "100%",
+       "€75.260",
+       "€29.000",
+       "€46.260",
+       "€68.624"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "De cumulatieve kasstroom wordt in jaar 2 positief: €8.844 ÷ €31.208 ≈ 0,28 jaar, dus de terugverdientijd is 1,28 jaar, afgerond 15 maanden."
+    },
+    {
+     "type": "p",
+     "text": "Over drie jaar staat €180.624 aan besparing tegenover €112.000 aan kosten (€25.000 + 3 × €29.000). ROI = €68.624 ÷ €112.000 = 61%. Verdisconteerd tegen 8% geven de netto kasstromen een NCW van €53.438."
+    },
+    {
+     "type": "callout",
+     "title": "Zo leest u dit",
+     "text": "In dit voorbeeld komt de helft van de waarde uit minder fouten en ruim 40% uit minder stilstand. De besparing op inwerken is klein omdat de standaardlocatie maar zes mensen per jaar inwerkt. Een locatie met veel verloop of interne wissels ziet een heel andere verdeling."
+    }
+   ]
+  },
+  {
+   "title": "Hoe gevoelig is de uitkomst voor de aannames?",
+   "lead": "Het impactniveau heeft het grootste effect: met de standaardwaarden loopt de jaarlijkse besparing van €46.100 (voorzichtig) tot €99.700 (ambitieus). Foutpercentage, kosten per fout en kosten per uur stilstand zijn de invoerwaarden die de uitkomst het meest bewegen.",
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "Impactniveau",
+      "Besparing per jaar",
+      "Terugverdientijd",
+      "ROI over 3 jaar",
+      "NCW (8%)"
+     ],
+     "rows": [
+      [
+       "Voorzichtig",
+       "€46.100",
+       "> 36 maanden",
+       "−1%",
+       "≈ −€5.900"
+      ],
+      [
+       "Gemiddeld",
+       "€75.260",
+       "15 maanden",
+       "61%",
+       "≈ €53.000"
+      ],
+      [
+       "Ambitieus",
+       "€99.700",
+       "10 maanden",
+       "114%",
+       "≈ €103.000"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Met voorzichtige aannames en de voorbeeldwaarden voor de investering verdient de case zich niet binnen drie jaar terug. Dat is nuttige informatie, geen zwakte: het laat zien onder welke voorwaarden de investering zinvol is en welke invoer u zorgvuldig moet meten."
+    },
+    {
+     "type": "h3",
+     "text": "Welke invoer weegt het zwaarst?"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Foutpercentage en kosten per fout.** Kwaliteit is de helft van de standaardwaarde. Halveert u de kosten per fout, dan daalt de besparing bij gemiddelde impact met circa €18.750 per jaar.",
+      "**Kosten per uur stilstand.** Stilstand is de tweede driver. Gebruik de werkelijk gemiste dekkingsbijdrage per uur, geen theoretisch maximum.",
+      "**Uren stilstand door SOP-fouten.** Tel alleen stops die door fouten of onzekerheid bij het uitvoeren van een werkinstructie ontstaan. Te ruim tellen is de meest gemaakte fout.",
+      "**Nieuwe operators per jaar.** Op locaties met veel verloop, uitzendkrachten of taakroulatie kan inwerken de grootste driver worden."
+     ]
+    },
+    {
+     "type": "callout",
+     "title": "Praktisch advies",
+     "text": "Laat finance alle drie de niveaus zien, baseer uw besluit op gemiddeld en geef aan welke invoer u in de pilot gaat toetsen. Een bandbreedte is geloofwaardiger dan één exact ogend getal."
+    }
+   ]
+  },
+  {
+   "title": "Hoe verzamelt u betrouwbare data voor de nulmeting?",
+   "lead": "Verzamel twee tot vier weken data voor het proces dat u wilt piloten, met definities die u na de livegang opnieuw gebruikt. De meeste invoer staat al in MES, CMMS, kwaliteitssysteem en HR-systeem; de rest meet u met eenvoudige tijdstudies.",
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "Invoer",
+      "Waar vindt u het",
+      "Tip"
+     ],
+     "rows": [
+      [
+       "Operators die met SOP's werken",
+       "Ploegenroosters, HR",
+       "Tel mensen, geen fte, op de processen in scope"
+      ],
+      [
+       "Nieuwe operators per jaar",
+       "HR: instroom, uitzendkrachten, interne wissels",
+       "Neem taakroulatie en multi-inzetbaarheid mee"
+      ],
+      [
+       "Inwerkuren per nieuwe operator",
+       "Trainingsregistratie, teamleiders",
+       "Uren tot zelfstandig werken, inclusief meeloopuren"
+      ],
+      [
+       "Uitvoeringen per operator",
+       "MES, orderdata, ploegenlogboek",
+       "Alleen uitvoeringen van de werkinstructies in scope"
+      ],
+      [
+       "Foutpercentage",
+       "Kwaliteitssysteem, rework- en afkeurregistratie, NCR's",
+       "Alleen fouten die door de menselijke uitvoering ontstaan"
+      ],
+      [
+       "Kosten per fout",
+       "Controlling, kwaliteit",
+       "Rework-uren, afgekeurd materiaal, klachtafhandeling"
+      ],
+      [
+       "Stilstand door SOP-fouten",
+       "MES/OEE-stopredenen, CMMS",
+       "Label stops door fouten of onzekerheid bij de uitvoering"
+      ],
+      [
+       "Kosten per uur stilstand",
+       "Controlling",
+       "Gemiste dekkingsbijdrage plus stilstaande arbeid"
+      ],
+      [
+       "Expertbezoeken",
+       "Servicefacturen, reiskosten",
+       "Externe en interne experts die naar de locatie reizen"
+      ]
+     ]
+    },
+    {
+     "type": "checklist",
+     "items": [
+      "Stem definities af met kwaliteit en controlling voordat u gaat meten.",
+      "Meet dezelfde ploegen en producten voor en na de livegang.",
+      "Registreer uitzonderingen (productintroducties, grote storingen) apart.",
+      "Bewaar de ruwe data; finance gaat ernaar vragen.",
+      "Noteer wie elk getal heeft aangeleverd en wanneer."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Hoe presenteert u de businesscase aan finance?",
+   "lead": "Presenteer de businesscase als bandbreedte met transparante aannames, een groeiende adoptie en een pilot die de kritieke invoer toetst. Finance accepteert onzekerheid, maar geen verborgen aannames.",
+   "blocks": [
+    {
+     "type": "steps",
+     "items": [
+      {
+       "t": "Begin met het probleem in euro's",
+       "d": "Laat de huidige kosten van fouten, stilstand en inwerken zien voor het proces in scope, op basis van uw nulmeting."
+      },
+      {
+       "t": "Toon de vier formules",
+       "d": "Maak elke euro herleidbaar tot een invoer en de bron daarvan. Geen black box."
+      },
+      {
+       "t": "Presenteer drie scenario's",
+       "d": "Voorzichtig, gemiddeld en ambitieus, elk met terugverdientijd, ROI over drie jaar en NCW."
+      },
+      {
+       "t": "Gebruik hun discontovoet",
+       "d": "Vervang de 8% door de rendementseis of WACC van uw organisatie als die afwijkt."
+      },
+      {
+       "t": "Vervang de voorbeeldbedragen",
+       "d": "Gebruik de werkelijke offerte voor licenties, devices en implementatie in plaats van de voorbeeldwaarden uit de calculator."
+      },
+      {
+       "t": "Stel een pilot voor als beslismoment",
+       "d": "Vraag een beperkt budget voor 8 tot 12 weken, met vooraf afgesproken succescriteria, voordat u tot uitrol besluit."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Het pdf-rapport uit de calculator bevat alle aannames, de kasstroom per jaar en een voorstel voor één of twee pilotprocessen. ActARion helpt u de aannames te toetsen, de nulmeting op te zetten en de pilot uit te voeren met het DeepSight-platform. [klantcijfer: gemeten pilotresultaat van een referentieklant toevoegen, bijv. minder inwerkuren]"
+    },
+    {
+     "type": "callout",
+     "title": "Checklist voor het overleg met finance",
+     "text": "Nulmeting met bronnen, drie scenario's, gevoeligheid van de drie belangrijkste invoerwaarden, uw eigen investeringsbedragen, de discontovoet van uw organisatie, pilotplan met succescriteria en besluitdatum."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hoe wordt de ROI van digitale werkinstructies berekend?",
+   "a": "Als ROI over drie jaar: besparing over drie jaar min kosten over drie jaar, gedeeld door de kosten over drie jaar. De besparing groeit mee met een adoptie van 60%, 80% en 100%."
+  },
+  {
+   "q": "Wat is een realistische terugverdientijd?",
+   "a": "Met de standaardwaarden en voorbeeldbedragen van de calculator 15 maanden bij gemiddelde impact en 10 maanden bij ambitieuze impact. Bij voorzichtige impact verdient de standaardcase zich niet binnen 36 maanden terug. Uw eigen data beslissen."
+  },
+  {
+   "q": "Zijn de investeringsbedragen in de calculator een prijs?",
+   "a": "Nee. €29.000 per jaar en €25.000 eenmalig zijn aanpasbare voorbeeldaannames. Vervang ze door uw werkelijke offerte."
+  },
+  {
+   "q": "Waarom telt alleen stilstand door SOP-fouten mee?",
+   "a": "Omdat digitale werkinstructies alleen invloed hebben op stilstand die door fouten of onzekerheid bij de uitvoering ontstaat. Alle ongeplande stilstand meetellen zou de businesscase overdrijven."
+  },
+  {
+   "q": "Kunnen we onze eigen discontovoet gebruiken?",
+   "a": "Ja. De calculator rekent met 8%. Gebruik in uw businesscase de rendementseis of WACC die uw financiële afdeling hanteert."
+  }
+ ],
+ "sources": [
+  {
+   "title": "ActARion ROI-calculator",
+   "url": "https://www.actarion.com/nl/kennisbank/roi-calculator"
+  },
+  {
+   "title": "Investopedia: Net Present Value (NPV)",
+   "url": "https://www.investopedia.com/terms/n/npv.asp"
+  },
+  {
+   "title": "Investopedia: Payback Period",
+   "url": "https://www.investopedia.com/terms/p/paybackperiod.asp"
+  }
+ ],
+ "cta": {
+  "title": "Plan een kosteloze intake",
+  "text": "Twijfelt u over de aannames? Toets ze met Jack Kessels (Benelux). In 30 minuten bekijken we uw invoer en stellen we één of twee pilotprocessen voor."
+ }
+}

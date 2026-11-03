@@ -1,0 +1,518 @@
+{
+ "slug": "frontline-training-onboarding-playbook",
+ "lang": "nl",
+ "title": "Het playbook voor training en inwerken op de werkvloer",
+ "subtitle": "Hoe productie, farma, food en onderhoud nieuwe operators en monteurs sneller zelfstandig en veilig laten werken, met een competentiematrix, een gestructureerd inwerkprogramma en digitale en AR-werkinstructies",
+ "keyword": "inwerkprogramma",
+ "metaTitle": "Inwerkprogramma voor de werkvloer: het playbook | ActARion",
+ "metaDescription": "Playbook voor het inwerken van nieuwe medewerkers: tijd tot zelfstandigheid, competentiematrix, inwerkprogramma per week en een 30-60-90-dagenplan.",
+ "audience": "Operationeel managers, plantmanagers, trainings-/L&D- en HR-managers in productie, farma, food, energie en onderhoud",
+ "readingTime": 12,
+ "answer": "Een effectief inwerkprogramma voor de werkvloer combineert een heldere definitie van vakbekwaamheid per taak, een competentiematrix die gaten laat zien, een planning per week en leren op de werkplek met digitale of AR-werkinstructies. Zo werken nieuwe medewerkers sneller zelfstandig, worden ervaren trainers ontlast en zijn kwalificatie en herkwalificatie meetbaar en auditbaar.",
+ "keyTakeaways": [
+  "Stuur het inwerken op tijd tot zelfstandigheid per taak, niet op het aantal gevolgde trainingsdagen.",
+  "Een competentiematrix met vier niveaus maakt van training een planning: wie kan wat, wie kan het overdragen en waar zitten de gaten?",
+  "Met digitale en AR-werkinstructies leert een nieuwe operator aan de werkplek, terwijl de trainer coacht in plaats van dezelfde uitleg te herhalen.",
+  "Meet vóór u begint: een nulmeting van de huidige inwerktijd en first-time-right is de enige manier om verbetering aan te tonen."
+ ],
+ "chapters": [
+  {
+   "title": "Waarom duurt inwerken op de werkvloer zo lang?",
+   "lead": "Omdat de meeste kennis die nieuwe operators nodig hebben niet bruikbaar is vastgelegd. Die zit in de hoofden van een paar ervaren collega's die ook de productie draaiende moeten houden. Inwerken hangt dan af van wie er toevallig in de ploeg staat.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "In veel fabrieken loopt een nieuwe operator een paar weken mee met een buddy, leest een map met procedures en wordt afgetekend als de ploegleider er vertrouwen in heeft. Dat werkt zolang het verloop laag is en producten zelden veranderen. Voor de meeste producenten geldt geen van beide nog: ervaren mensen gaan met pensioen, uitzendkrachten wisselen, het aantal varianten groeit en teams spreken meerdere talen."
+    },
+    {
+     "type": "p",
+     "text": "Het resultaat herkent elke plantmanager: lange en onvoorspelbare inwerktijden, ervaren mensen die van hun eigen werk worden gehaald, kwaliteitsproblemen in de eerste maanden en verschillende werkwijzen per ploeg. De kosten zijn zelden zichtbaar op één begrotingsregel, omdat ze verspreid zijn over productie, kwaliteit en HR."
+    },
+    {
+     "type": "h3",
+     "text": "Herkenbare signalen"
+    },
+    {
+     "type": "list",
+     "items": [
+      "De inwerktijd verschilt sterk per persoon en per ploeg.",
+      "Elke vraag komt terecht bij dezelfde twee of drie experts.",
+      "Fouten en bijna-ongevallen concentreren zich in de eerste weken na de start of een lijnwissel.",
+      "Er zijn procedures, maar ze worden aan de werkplek niet gebruikt.",
+      "Niemand kan in één oogopslag zien wie voor welke taak bevoegd is."
+     ]
+    },
+    {
+     "type": "callout",
+     "title": "Definitie: tijd tot zelfstandigheid",
+     "text": "Tijd tot zelfstandigheid (time-to-competence) is de tijd vanaf de eerste werkdag, of de eerste dag op een nieuwe taak, tot de medewerker die taak zelfstandig, veilig en volgens kwaliteitsnorm uitvoert, bevestigd door een vastgelegde aftekening. Het is de centrale maatstaf van dit playbook."
+    }
+   ]
+  },
+  {
+   "title": "Hoe legt u vakbekwaamheid vast in een competentiematrix?",
+   "lead": "Benoem de taken per werkplek, definieer vier niveaus en leg per persoon vast welk niveau is bereikt en afgetekend. De matrix laat dan gaten, kwetsbare afhankelijkheden van één persoon en de beschikbare trainers zien.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Een competentiematrix (of kwalificatiematrix) zet medewerkers af tegen taken. Het instrument is niet nieuw, maar in veel fabrieken is het een spreadsheet die eens per jaar voor een audit wordt bijgewerkt. Goed gebruikt wordt het de planningstool voor inwerken, ploegbezetting en herkwalificatie."
+    },
+    {
+     "type": "h3",
+     "text": "Vier niveaus"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Niveau",
+      "Omschrijving",
+      "Aftekening door"
+     ],
+     "rows": [
+      [
+       "1. Geïnstrueerd",
+       "Heeft uitleg gehad en kent de veiligheidsrisico's; werkt alleen onder toezicht",
+       "Trainer"
+      ],
+      [
+       "2. Onder begeleiding",
+       "Voert de taak uit met een trainer in de buurt; volgt de werkinstructie stap voor stap",
+       "Trainer"
+      ],
+      [
+       "3. Zelfstandig",
+       "Voert de taak alleen uit, veilig en in één keer goed, binnen de normtijd",
+       "Ploegleider of kwaliteit"
+      ],
+      [
+       "4. Trainer",
+       "Kan de taak overdragen en de uitvoering van anderen beoordelen",
+       "Productiemanager"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "De matrix opbouwen in vijf stappen"
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "t": "Benoem taken, geen functies",
+       "d": "Deel elke werkplek op in taken die afzonderlijk te trainen en te beoordelen zijn: opstarten, omstellen, procescontrole, reinigen, storingen verhelpen."
+      },
+      {
+       "t": "Markeer kritieke taken",
+       "d": "Geef taken met impact op veiligheid, kwaliteit of regelgeving een markering. Die vragen een formele aftekening en vaak periodieke herkwalificatie."
+      },
+      {
+       "t": "Bepaal de norm per lijn",
+       "d": "Hoeveel mensen per ploeg moeten per taak op niveau 3 of 4 zitten? Dat is uw minimale bezetting."
+      },
+      {
+       "t": "Breng de huidige stand in kaart",
+       "d": "Vul de matrix eerlijk in. Gaten en taken met maar één persoon op niveau 4 zijn uw risico's."
+      },
+      {
+       "t": "Koppel aan werkinstructies",
+       "d": "Elke taak in de matrix verwijst naar één actuele werkinstructie, zodat training en uitvoering dezelfde standaard gebruiken."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "In gereguleerde omgevingen zoals farma (GMP), voedingsmiddelen en vliegtuigonderhoud is aantoonbare vakbekwaamheid een auditeis. Ook ISO 9001 vraagt organisaties om benodigde competenties te bepalen, te borgen en gedocumenteerd bewijs te bewaren. Een matrix die gekoppeld is aan afgetekende instructie-uitvoeringen levert dat bewijs als bijproduct."
+    }
+   ]
+  },
+  {
+   "title": "Hoe ziet een gestructureerd inwerkprogramma eruit?",
+   "lead": "Een gestructureerd inwerkprogramma ordent veiligheid, basistaken en steeds complexere taken over een vast aantal weken, met een vast aftekenmoment per stap. Zo wordt inwerken voorspelbaar en onafhankelijk van wie er dienst heeft.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Onderstaand programma is een voorbeeld voor een productieoperator. Pas de duur aan op de complexiteit van uw lijn; de structuur blijft gelijk."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Week",
+      "Focus",
+      "Leervorm",
+      "Aftekening"
+     ],
+     "rows": [
+      [
+       "Week 0 (preboarding)",
+       "Contract, PBM-maat, accounts, taalvoorkeur, welkomstvideo",
+       "Digitaal, thuis of bij HR",
+       "Accounts actief, PBM klaar"
+      ],
+      [
+       "Week 1",
+       "Veiligheidsinstructie, huisregels, hygiëne/GMP-basis, rondleiding, kennismaking buddy",
+       "Klassikaal plus rondgang; korte digitale modules",
+       "Veiligheidstoets behaald, niveau 1 op basistaken"
+      ],
+      [
+       "Week 2",
+       "Basistaken op één werkplek: opstarten, standaard bedienen, procescontroles",
+       "Leren op de werkplek met digitale werkinstructies, buddy ernaast",
+       "Niveau 2 op basistaken"
+      ],
+      [
+       "Week 3",
+       "Zelfstandig uitvoeren van basistaken; eerste kwaliteitsregistraties",
+       "Digitale instructie als leidraad, buddy op afstand",
+       "Niveau 3 op basistaken"
+      ],
+      [
+       "Week 4–6",
+       "Omstellen, reinigen, eenvoudige storingen",
+       "AR- of stap-voor-stapinstructies; oefenen tijdens geplande omstellingen",
+       "Niveau 2, daarna 3 op omstellen"
+      ],
+      [
+       "Week 7–8",
+       "Tweede werkplek of ploegrotatie; escalatieroutines",
+       "Instructies plus ondersteuning op afstand waar nodig",
+       "Niveau 3 op tweede werkplek"
+      ],
+      [
+       "Week 12",
+       "Evaluatie",
+       "Gesprek met ploegleider en trainer, matrix bijwerken",
+       "Inwerken formeel afgerond"
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "title": "Preboarding loont",
+     "text": "Alles wat de lijn niet nodig heeft, zoals administratie, huisregels en een eerste blik op de werkplek via video, kan vóór de eerste werkdag. Dan blijft week 1 vrij voor wat echt aanwezigheid vraagt: veiligheid en praktijk."
+    },
+    {
+     "type": "h3",
+     "text": "Rollen bij het inwerken"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Ploegleider**: eigenaar van het programma voor de nieuwe medewerker, tekent niveau 3 af.",
+      "**Buddy of trainer**: ervaren collega op niveau 4, met expliciet gereserveerde tijd in het rooster.",
+      "**Trainings- of L&D-coördinator**: beheert de matrix, plant herkwalificaties en rapporteert voortgang.",
+      "**Proces- of kwaliteitsengineer**: inhoudelijk eigenaar van de werkinstructies.",
+      "**HR**: preboarding, contracten, taal en rapportage over behoud."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Hoe ondersteunen digitale en AR-werkinstructies leren op de werkplek?",
+   "lead": "Ze brengen de standaard naar de werkplek: de nieuwe operator ziet elke stap met foto's, video of AR-weergave op de echte installatie, in de eigen taal. De trainer coacht en controleert, in plaats van elke stap opnieuw uit te leggen.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Leren op de werkplek is de effectiefste manier om handmatig en procedureel werk te leren, maar ook de duurste in trainerstijd. Digitale werkinstructies verkleinen het deel van die tijd dat opgaat aan herhalen. Augmented reality (AR) gaat een stap verder door instructies op of naast de machine te tonen, bijvoorbeeld welke afsluiter dicht moet of waar een sensor komt."
+    },
+    {
+     "type": "h3",
+     "text": "Welke vorm past waar?"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Vorm",
+      "Geschikt voor",
+      "Let op"
+     ],
+     "rows": [
+      [
+       "Stap voor stap op tablet of telefoon",
+       "Standaardbediening, controles, reinigen, de meeste omstellingen",
+       "Korte stappen; één handeling per stap"
+      ],
+      [
+       "Video per stap",
+       "Bewegingen die lastig te beschrijven zijn: hanteren, monteren, afstellen",
+       "Korte clips, niet afhankelijk van geluid op een lawaaiige vloer"
+      ],
+      [
+       "AR-weergave (tablet of headset)",
+       "Ruimtelijke taken: onderdelen vinden, complexe assemblage, onderhoud aan grote installaties",
+       "Keuze device, verlichting, nauwkeurigheid model"
+      ],
+      [
+       "Ondersteuning op afstand",
+       "Zeldzame taken, storingen, hulp tussen locaties",
+       "Afspraken over opnemen en privacy"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Instructies ontwerpen om van te leren"
+    },
+    {
+     "type": "checklist",
+     "items": [
+      "Eén handeling per stap, beginnend met een werkwoord.",
+      "Laat het juiste resultaat zien (foto van een goed product of de juiste instelling), niet alleen de handeling.",
+      "Markeer kritieke stappen visueel en voeg een bevestiging of fotocontrole toe.",
+      "Leg bij kritieke stappen het waarom uit; begrip helpt onthouden.",
+      "Bied een leermodus met extra uitleg en een expertmodus met alleen de kernstappen.",
+      "Laat operators onduidelijke stappen direct vanuit de instructie melden.",
+      "Geef elke instructie een inhoudelijk eigenaar en een reviewdatum."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "AI kan het maken van content versnellen, bijvoorbeeld door stappen op te stellen uit een bestaande handleiding of uit een opname van een ervaren monteur. Elk AI-concept wordt gecontroleerd en goedgekeurd door de inhoudelijk eigenaar voordat het voor training wordt gebruikt."
+    }
+   ]
+  },
+  {
+   "title": "Hoe traint u een meertalig team met beperkte trainerscapaciteit?",
+   "lead": "Bied werkinstructies aan in de talen van de operators, leun meer op beeld dan op tekst en bescherm trainerstijd expliciet in het rooster. Vergroot de capaciteit door meer collega's naar niveau 4 te brengen in plaats van klassikale uren toe te voegen.",
+   "blocks": [
+    {
+     "type": "h3",
+     "text": "Meertalige teams"
+    },
+    {
+     "type": "p",
+     "text": "Veel fabrieken in de Benelux en DACH werken met medewerkers uit meerdere landen, vaak via uitzendbureaus. Veiligheid en kwaliteit hangen af van of iedereen de instructie begrijpt, niet van of de instructie bestaat. Digitale werkinstructies maken het praktisch haalbaar om dezelfde inhoud in meerdere talen aan te bieden, gekoppeld aan één hoofdversie."
+    },
+    {
+     "type": "list",
+     "items": [
+      "Kies talen op basis van de werkelijke bezetting, niet op basis van de concerntalen.",
+      "Gebruik foto's, video en symbolen, zodat tekst minder betekenis hoeft te dragen.",
+      "Laat veiligheidskritische stappen controleren door een moedertaalspreker, ook als AI vertaalt.",
+      "Laat operators per sessie van taal wisselen, zodat buddy en nieuwe collega dezelfde stap elk in de eigen taal zien.",
+      "Houd hoofdversie en vertalingen synchroon: een wijziging in de hoofdversie zet alle vertalingen op review."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Trainerscapaciteit"
+    },
+    {
+     "type": "p",
+     "text": "Ervaren trainers zijn meestal ook de beste operators, dus elk trainingsuur kost productie. Maak dat zichtbaar en plan het in."
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "t": "Tel trainersuren",
+       "d": "Leg vast hoeveel uur collega's op niveau 4 nu per nieuwe medewerker aan inwerken besteden. Dit hoort bij uw nulmeting."
+      },
+      {
+       "t": "Reserveer capaciteit",
+       "d": "Zet buddytijd in het rooster in plaats van te verwachten dat het naast het normale werk gebeurt."
+      },
+      {
+       "t": "Laat niveau 4 groeien",
+       "d": "Leid per kritieke taak een tweede en derde trainer op. De matrix laat zien waar er maar één is."
+      },
+      {
+       "t": "Verander de rol",
+       "d": "Met digitale instructies observeert, corrigeert en tekent de trainer af, in plaats van elke stap uit te leggen."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "title": "Uitzendkrachten en tijdelijke medewerkers",
+     "text": "Overweeg bij korte inzet een beperkt takenpakket: tijdelijke medewerkers tot niveau 3 op een aantal basistaken, complexe taken blijven bij vaste medewerkers. De matrix maakt die grenzen expliciet."
+    }
+   ]
+  },
+  {
+   "title": "Hoe regelt u certificering en herkwalificatie?",
+   "lead": "Geef elke kritieke taak een geldigheidsduur, plan herkwalificatie vanuit de competentiematrix en gebruik instructie-uitvoeringen plus observatie als bewijs. Zo blijft vakbekwaamheid actueel na proceswijzigingen en tijdens audits.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Vakbekwaamheid zakt weg als een taak zelden wordt uitgevoerd, en raakt verouderd als het proces of de installatie verandert. Beide situaties vragen om een aanleiding voor herkwalificatie."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Aanleiding",
+      "Voorbeeld",
+      "Reactie"
+     ],
+     "rows": [
+      [
+       "Tijd",
+       "Kritieke taak 12 maanden niet opnieuw beoordeeld",
+       "Geplande observatie en korte kennischeck"
+      ],
+      [
+       "Lage frequentie",
+       "Taak minder vaak uitgevoerd dan een vastgestelde norm per kwartaal",
+       "Opfrissen met de digitale instructie in leermodus"
+      ],
+      [
+       "Wijziging",
+       "Nieuwe versie werkinstructie, nieuw gereedschap of productvariant",
+       "Bevoegde medewerkers informeren; bevestigen met begeleide uitvoering"
+      ],
+      [
+       "Incident",
+       "Afwijking of bijna-ongeval gekoppeld aan een taak",
+       "Gerichte hertraining en review van de instructie"
+      ],
+      [
+       "Wettelijke of klanteis",
+       "Gecertificeerde werkzaamheden, zoals specifiek laswerk, elektrotechnisch werk of voedselveiligheid",
+       "Extern schema volgen; certificaten vastleggen in de matrix"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Volgens de Europese kaderrichtlijn voor veiligheid en gezondheid op het werk moeten werkgevers zorgen voor voldoende veiligheidsinstructie bij indiensttreding, bij overplaatsing en bij de introductie van nieuwe arbeidsmiddelen of technologie. In Nederland is dit uitgewerkt in de Arbowet. Een herkwalificatieproces dat gekoppeld is aan wijzigingen in werkinstructies dekt precies deze momenten."
+    }
+   ]
+  },
+  {
+   "title": "Hoe meet u resultaat en rolt u uit in 90 dagen?",
+   "lead": "Meet tijd tot zelfstandigheid, first-time-right in de eerste weken, trainersuren en vroeg behoud, met een nulmeting vóór u iets verandert. Volg daarna een 30-60-90-dagenplan van één pilotlijn naar een herhaalbare aanpak.",
+   "blocks": [
+    {
+     "type": "h3",
+     "text": "Kengetallen"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Kengetal",
+      "Definitie",
+      "Bron"
+     ],
+     "rows": [
+      [
+       "Tijd tot zelfstandigheid",
+       "Dagen vanaf start tot niveau 3 op de vastgestelde basistaken",
+       "Competentiematrix"
+      ],
+      [
+       "First-time-right nieuwe medewerkers",
+       "Aandeel taken of batches zonder afwijking in week 1–8",
+       "Kwaliteitsregistratie, instructielogs"
+      ],
+      [
+       "Trainersuren per nieuwe medewerker",
+       "Uren van niveau-4-collega's besteed aan inwerken",
+       "Rooster of urenregistratie"
+      ],
+      [
+       "Bezetting",
+       "Aandeel kritieke taken met minimaal de normbezetting per ploeg",
+       "Competentiematrix"
+      ],
+      [
+       "Vroeg behoud",
+       "Aandeel nieuwe medewerkers dat na 90 dagen nog in dienst is",
+       "HR"
+      ],
+      [
+       "Kwaliteit van instructies",
+       "Aantal gemelde onduidelijke stappen en doorlooptijd van oplossen",
+       "Instructieplatform"
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "title": "Eerst de nulmeting",
+     "text": "Leg de huidige waarden van ten minste de eerste drie kengetallen vast vóór de pilot. Zonder nulmeting blijven verbeteringen anekdotes. Ter illustratie: [klantcijfer: kortere inwerktijd bij referentieklant toevoegen]."
+    },
+    {
+     "type": "h3",
+     "text": "30-60-90-dagenplan"
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "t": "Dag 1–30: voorbereiden",
+       "d": "Kies één lijn en één functie met regelmatige instroom. Doe de nulmeting. Bouw de competentiematrix voor die lijn. Selecteer de 10 tot 20 taken die nieuwe medewerkers als eerste leren en maak er met de inhoudelijk eigenaar digitale werkinstructies voor. Regel devices, privacy en de afspraken met de OR."
+      },
+      {
+       "t": "Dag 31–60: pilot",
+       "d": "Werk de volgende nieuwe medewerkers in met het weekprogramma en de digitale instructies. Trainers coachen en tekenen af in de matrix. Verzamel gemelde stappen en verbeter instructies wekelijks. Volg tijd tot zelfstandigheid en trainersuren."
+      },
+      {
+       "t": "Dag 61–90: evalueren en standaardiseren",
+       "d": "Vergelijk met de nulmeting. Leg het inwerksjabloon, de matrixopbouw en de contentstandaarden vast. Besluit over volgende lijnen of locaties en over extra talen en AR-toepassingen."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Checklist: klaar voor gestructureerd inwerken?"
+    },
+    {
+     "type": "checklist",
+     "items": [
+      "Taken per werkplek benoemd en kritieke taken gemarkeerd.",
+      "Vier niveaus vastgesteld met benoemde aftekenrollen.",
+      "Competentiematrix ingevuld voor de pilotlijn, inclusief trainers.",
+      "Inwerkprogramma per week afgestemd met ploegleiders.",
+      "Digitale werkinstructies voor de eerste taken, met eigenaar en reviewdatum.",
+      "Talen gekozen op basis van de werkelijke bezetting.",
+      "Trainerstijd gereserveerd in het rooster.",
+      "Aanleidingen voor herkwalificatie vastgesteld voor kritieke taken.",
+      "Nulmeting gedaan voor tijd tot zelfstandigheid, first-time-right en trainersuren.",
+      "Afspraken met FG en OR over instructielogs vastgelegd."
+     ]
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wat is het verschil tussen training en inwerken?",
+   "a": "Inwerken is het hele traject om een nieuwe medewerker zelfstandig te laten werken, inclusief preboarding, veiligheid, sociale inbedding en administratie. Training is het deel dat vakbekwaamheid per taak opbouwt. Dit playbook verbindt beide via de competentiematrix."
+  },
+  {
+   "q": "Hoe lang duurt het inwerken van nieuwe medewerkers op de werkvloer?",
+   "a": "Dat hangt af van de complexiteit van de taken en de mate van regelgeving. Leg liever per taak het doelniveau vast en meet de tijd tot zelfstandigheid. Veel fabrieken gebruiken een programma van 8 tot 12 weken voor een eerste werkplek als vertrekpunt."
+  },
+  {
+   "q": "Is AR nodig voor goede training op de werkvloer?",
+   "a": "Nee. Stap-voor-stapinstructies op een tablet dekken de meeste taken. AR voegt waarde toe bij ruimtelijke taken, zoals onderdelen vinden op grote installaties of complexe assemblage. Kies de vorm per taak."
+  },
+  {
+   "q": "Hoe houden we trainingscontent actueel?",
+   "a": "Geef elke werkinstructie een eigenaar en reviewdatum, laat operators onduidelijke stappen melden en koppel wijzigingen aan herkwalificatie van bevoegde medewerkers."
+  },
+  {
+   "q": "Mogen we instructielogs gebruiken om individuele medewerkers te beoordelen?",
+   "a": "Alleen binnen de afspraken met uw functionaris gegevensbescherming en de ondernemingsraad, die instemmingsrecht heeft op personeelsvolgsystemen. De meeste organisaties gebruiken logs voor leervoortgang en kwaliteitsherleidbaarheid en rapporteren prestaties op teamniveau."
+  }
+ ],
+ "sources": [
+  {
+   "title": "ISO 9001:2015 Kwaliteitsmanagementsystemen – Eisen (paragraaf 7.2 Competentie)",
+   "url": "https://www.iso.org/standard/62085.html"
+  },
+  {
+   "title": "EU-OSHA: Richtlijn 89/391/EEG – Kaderrichtlijn veiligheid en gezondheid op het werk",
+   "url": "https://osha.europa.eu/en/legislation/directives/the-osh-framework-directive/1"
+  },
+  {
+   "title": "Arbeidsomstandighedenwet, wetten.overheid.nl",
+   "url": "https://wetten.overheid.nl/BWBR0010346"
+  }
+ ],
+ "cta": {
+  "title": "Plan een kosteloze intake",
+  "text": "Wilt u binnen 90 dagen de inwerktijd op één lijn verkorten? Plan een kosteloze intake met Jack Kessels (Benelux) of Mark Dercksen (DACH). Wij helpen u de juiste taken te kiezen, de nulmeting op te zetten en de eerste digitale en AR-werkinstructies te bouwen."
+ }
+}
