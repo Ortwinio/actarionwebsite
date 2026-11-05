@@ -3,6 +3,7 @@ import { Cta } from '@/components/Cta';
 import { JsonLd } from '@/components/JsonLd';
 import { Md } from '@/components/Md';
 import { events, eventsCopy, type EventItem } from '@/content/design/events';
+import { networkCopy } from '@/content/design/network';
 import { getPage } from '@/lib/i18n';
 import type { Locale } from '@/lib/locale';
 
@@ -18,6 +19,8 @@ function dateRange(e: EventItem, locale: Locale) {
 
 function EventCard({ e, locale }: { e: EventItem; locale: Locale }) {
   const c = eventsCopy[locale];
+  const city = typeof e.city === 'string' ? e.city : e.city?.[locale];
+  const place = [city, e.country?.[locale]].filter(Boolean).join(', ');
   return (
     <li id={e.id} className="flex scroll-mt-24 flex-col gap-3 rounded-[22px] border border-line bg-white p-5">
       {e.logo && (
@@ -25,10 +28,14 @@ function EventCard({ e, locale }: { e: EventItem; locale: Locale }) {
           <img src={`/img/events/${e.logo.file}.webp`} width={e.logo.w} height={e.logo.h} alt={`${e.naam} logo`} loading="lazy" className="h-auto max-h-[64px] w-auto max-w-[90%]" />
         </a>
       )}
-      <p className="m-0 font-mono text-[13px]"><time dateTime={e.start}>{dateRange(e, locale)}</time> · {e.city}, {e.country[locale]}</p>
+      <div className="flex flex-wrap items-center gap-2">
+        <span className="rounded-full bg-sky px-3 py-1.5 font-mono text-[13px]"><time dateTime={e.start}>{dateRange(e, locale)}</time></span>
+        <span className="rounded-full border border-line bg-canvas px-3 py-1.5 font-mono text-[13px]">{networkCopy[locale].regions[e.region]}</span>
+      </div>
       <h3 className="m-0 text-lg font-bold leading-tight">{e.naam}</h3>
+      {place && <p className="m-0 text-[15px] font-semibold">{place}</p>}
       <p className="m-0 flex-grow text-[15px] leading-[1.45] text-muted">{e.text[locale]}</p>
-      <a href={e.url} target="_blank" rel="noopener" className="inline-flex min-h-[44px] items-center gap-1 font-bold">{c.visit} ↗<span className="sr-only">{c.newWindow}</span></a>
+      {e.url && <a href={e.url} target="_blank" rel="noopener" className="inline-flex min-h-[44px] items-center gap-1 font-bold">{c.visit} ↗<span className="sr-only">{c.newWindow}</span></a>}
     </li>
   );
 }
@@ -42,8 +49,8 @@ function eventSchema(e: EventItem, locale: Locale) {
     endDate: e.end ?? e.start,
     eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
     eventStatus: 'https://schema.org/EventScheduled',
-    location: { '@type': 'Place', name: e.city, address: { '@type': 'PostalAddress', addressLocality: e.city, addressCountry: e.country.en } },
-    url: e.url,
+    location: { '@type': 'Place', name: (typeof e.city === 'string' ? e.city : e.city?.en) ?? e.country?.en ?? e.region, address: { '@type': 'PostalAddress', addressLocality: typeof e.city === 'string' ? e.city : e.city?.en, addressCountry: e.country?.en } },
+    ...(e.url ? { url: e.url } : {}),
     description: e.text[locale],
     performer: { '@type': 'Organization', name: 'ActARion', url: 'https://www.actarion.com' },
   };

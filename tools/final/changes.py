@@ -5,7 +5,10 @@ Run after tools/final/finalize.py:  python3 tools/final/changes.py
 2026-11-05 (Mark Dercksen): Potentify and Simply Change are no longer partners;
 Events moved to its own top-level page (/en/events, /nl/events, /de/events).
 """
-import json, os
+import json, os, sys
+
+sys.path.insert(0, os.path.dirname(__file__))
+import legal
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 F = os.path.join(ROOT, 'src/content/imported.ts')
@@ -58,6 +61,12 @@ for loc, pages in data.items():
     for pg in pages.values():
         if 'related' in pg:
             pg['related'] = [r for r in pg['related'] if r not in ('partnerPotentify', 'partnerSimplyChange')]
+
+legal.apply(data)  # company details and liability cap (Mark, 5 Nov 2026)
+for loc, pages in data.items():
+    for k in ('privacy', 'terms', 'imprint'):
+        if k in pages:
+            pages[k]['updated'] = '2026-11-05'
 
 out = json.dumps(data, ensure_ascii=False, indent=1)
 for old in ('/en/resources/events/', '/nl/kennisbank/events/', '/de/ressourcen/events/'):

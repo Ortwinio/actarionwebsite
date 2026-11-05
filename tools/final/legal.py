@@ -4,15 +4,14 @@ Based on what the site itself states: ActARion B.V., Netherlands; hello@actarion
 managing partners Jack Kessels (Benelux) and Mark Dercksen (DACH); forms are mailed via
 Resend; analytics via Google Tag Manager / GA4 with Consent Mode (only after consent);
 hosting on Vercel; platform by DeepSight (Trust Center at trust.deepsight.ca).
-Company address, Chamber of Commerce (KvK) number and VAT number are not on the site:
-fill them in COMPANY below and re-run finalize.py; the sentences appear automatically.
+Company address, KvK and VAT number supplied by Mark Dercksen (5 Nov 2026).
 """
 
 COMPANY = {
     'name': 'ActARion B.V.',
-    'address': None,  # e.g. 'Straat 1, 1234 AB Plaats'
-    'kvk': None,      # e.g. '12345678'
-    'vat': None,      # e.g. 'NL123456789B01'
+    'address': 'Lange Marktstraat 1, 8911 AD Leeuwarden',
+    'kvk': '99555840',
+    'vat': 'NL869038606B01',
     'email': 'hello@actarion.com',
 }
 
@@ -104,7 +103,7 @@ TERMS_BODY = {
         "De Klant blijft eigenaar van zijn eigen content, zoals werkinstructies, foto's, video's en procedures. Alle rechten op het Platform liggen bij DeepSight; rechten op methoden, templates en materialen van ActARion blijven bij ActARion. De Klant krijgt een gebruiksrecht voor de duur van de Overeenkomst.",
         "Beide partijen houden vertrouwelijke informatie van de ander geheim en gebruiken die alleen voor de uitvoering van de Overeenkomst. Deze plicht geldt ook na afloop van de Overeenkomst.",
         "Als ActARion bij de uitvoering persoonsgegevens verwerkt namens de Klant, sluiten partijen een verwerkersovereenkomst volgens de AVG. ActARion verwerkt die gegevens alleen in opdracht van de Klant. Zie ook onze [privacyverklaring](/nl/privacy).",
-        "De aansprakelijkheid van ActARion is beperkt tot directe schade en tot ten hoogste het bedrag dat de Klant in de twaalf maanden vóór het schadeveroorzakende feit onder de Overeenkomst heeft betaald. ActARion is niet aansprakelijk voor indirecte schade, zoals gevolgschade, gederfde winst of productieverlies. Deze beperkingen gelden niet bij opzet of bewuste roekeloosheid.",
+        "De aansprakelijkheid van ActARion is beperkt tot directe schade en tot ten hoogste het bedrag dat de Klant in de drie maanden vóór het schadeveroorzakende feit onder de Overeenkomst heeft betaald, of tot het bedrag dat sinds de laatst goedgekeurde projectmijlpaal is betaald als die periode korter is. ActARion is niet aansprakelijk voor indirecte schade, zoals gevolgschade, gederfde winst of productieverlies. Deze beperkingen gelden niet bij opzet of bewuste roekeloosheid.",
         "Bij overmacht, zoals storingen bij toeleveranciers of in internet- en telecomverbindingen, overheidsmaatregelen of andere omstandigheden buiten de macht van ActARion, worden de verplichtingen opgeschort. Duurt de overmacht langer dan 60 dagen, dan mogen beide partijen de Overeenkomst schriftelijk beëindigen.",
         "De looptijd staat in de offerte. Licenties worden stilzwijgend verlengd met dezelfde periode, tenzij een partij uiterlijk twee maanden voor het einde schriftelijk opzegt. Beide partijen mogen de Overeenkomst direct beëindigen bij faillissement of een ernstige tekortkoming die na schriftelijke ingebrekestelling niet binnen 30 dagen is hersteld.",
         "Op de Overeenkomst is Nederlands recht van toepassing. Geschillen leggen partijen eerst in onderling overleg voor; lukt dat niet, dan beslist de bevoegde rechter in Nederland.",
@@ -120,7 +119,7 @@ TERMS_BODY = {
         "The Customer remains the owner of its own content, such as work instructions, photos, videos and procedures. All rights to the Platform belong to DeepSight; rights to ActARion's methods, templates and materials remain with ActARion. The Customer receives a right of use for the term of the Agreement.",
         "Both parties keep the other party's confidential information secret and use it only to perform the Agreement. This obligation continues after the Agreement ends.",
         "If ActARion processes personal data on behalf of the Customer, the parties conclude a data processing agreement in line with the GDPR. ActARion processes such data only on the Customer's instructions. See also our [privacy policy](/en/privacy).",
-        "ActARion's liability is limited to direct damage and to no more than the amount the Customer paid under the Agreement in the twelve months before the event causing the damage. ActARion is not liable for indirect damage such as consequential loss, lost profit or production loss. These limits do not apply in case of intent or wilful recklessness.",
+        "ActARion's liability is limited to direct damage and to no more than the amount the Customer paid under the Agreement in the three months before the event causing the damage, or the amount paid since the last approved project milestone if that period is shorter. ActARion is not liable for indirect damage such as consequential loss, lost profit or production loss. These limits do not apply in case of intent or wilful recklessness.",
         "In case of force majeure, such as failures at suppliers or in internet and telecom connections, government measures or other circumstances beyond ActARion's control, obligations are suspended. If force majeure lasts longer than 60 days, either party may terminate the Agreement in writing.",
         "The term is set out in the proposal. Licences renew automatically for the same period unless a party gives written notice at least two months before the end. Either party may terminate the Agreement immediately in case of bankruptcy or a material breach not remedied within 30 days of written notice.",
         "The Agreement is governed by Dutch law. The parties first try to resolve disputes by mutual consultation; failing that, the competent court in the Netherlands decides.",
@@ -136,7 +135,7 @@ TERMS_BODY = {
         "Der Kunde bleibt Eigentümer seiner eigenen Inhalte wie Arbeitsanweisungen, Fotos, Videos und Verfahren. Alle Rechte an der Plattform liegen bei DeepSight; Rechte an Methoden, Vorlagen und Materialien von ActARion verbleiben bei ActARion. Der Kunde erhält ein Nutzungsrecht für die Vertragslaufzeit.",
         "Beide Parteien behandeln vertrauliche Informationen der anderen Partei vertraulich und nutzen sie nur zur Vertragserfüllung. Diese Pflicht gilt auch nach Vertragsende fort.",
         "Verarbeitet ActARion im Auftrag des Kunden personenbezogene Daten, schließen die Parteien einen Auftragsverarbeitungsvertrag nach Art. 28 DSGVO. ActARion verarbeitet diese Daten nur auf Weisung des Kunden. Siehe auch unsere [Datenschutzerklärung](/de/datenschutz).",
-        "ActARion haftet unbeschränkt bei Vorsatz und grober Fahrlässigkeit sowie bei Verletzung von Leben, Körper oder Gesundheit. Im Übrigen ist die Haftung auf den vertragstypischen, vorhersehbaren Schaden und auf höchstens den Betrag begrenzt, den der Kunde in den zwölf Monaten vor dem schadensbegründenden Ereignis aus dem Vertrag gezahlt hat. Für mittelbare Schäden wie entgangenen Gewinn oder Produktionsausfall haftet ActARion bei leichter Fahrlässigkeit nicht.",
+        "ActARion haftet unbeschränkt bei Vorsatz und grober Fahrlässigkeit sowie bei Verletzung von Leben, Körper oder Gesundheit. Im Übrigen ist die Haftung auf den vertragstypischen, vorhersehbaren Schaden und auf höchstens den Betrag begrenzt, den der Kunde in den drei Monaten vor dem schadensbegründenden Ereignis aus dem Vertrag gezahlt hat, oder auf den seit dem zuletzt abgenommenen Projektmeilenstein gezahlten Betrag, wenn dieser Zeitraum kürzer ist. Für mittelbare Schäden wie entgangenen Gewinn oder Produktionsausfall haftet ActARion bei leichter Fahrlässigkeit nicht.",
         "Bei höherer Gewalt, etwa Störungen bei Zulieferern oder in Internet- und Telekommunikationsverbindungen, behördlichen Maßnahmen oder anderen Umständen außerhalb des Einflusses von ActARion, ruhen die Pflichten. Dauert die höhere Gewalt länger als 60 Tage, kann jede Partei den Vertrag schriftlich kündigen.",
         "Die Laufzeit steht im Angebot. Lizenzen verlängern sich stillschweigend um denselben Zeitraum, sofern nicht eine Partei spätestens zwei Monate vor Ablauf schriftlich kündigt. Jede Partei kann den Vertrag fristlos kündigen bei Insolvenz oder einer erheblichen Pflichtverletzung, die nicht innerhalb von 30 Tagen nach schriftlicher Abmahnung behoben wird.",
         "Es gilt niederländisches Recht unter Ausschluss des UN-Kaufrechts. Streitigkeiten versuchen die Parteien zunächst einvernehmlich zu lösen; gelingt das nicht, entscheidet das zuständige Gericht in den Niederlanden.",
@@ -162,7 +161,7 @@ def imprint(loc):
         if COMPANY['vat']:
             heads_bodies.append(('Umsatzsteuer-ID', f"Umsatzsteuer-Identifikationsnummer: {COMPANY['vat']}."))
         heads_bodies += [
-            ('Verantwortlich für den Inhalt', 'Mark Dercksen, Managing Partner DACH, ActARion B.V.'),
+            ('Verantwortlich für den Inhalt', 'Mark Dercksen, Managing Partner DACH, ActARion B.V. Hinweise auf Fehler oder Korrekturen bitte an [mark@actarion.com](mailto:mark@actarion.com).'),
             ('Streitschlichtung', 'Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen. Unsere Angebote richten sich ausschließlich an Unternehmen.'),
             ('Haftung für Inhalte und Links', 'Wir erstellen die Inhalte dieser Website mit Sorgfalt, übernehmen aber keine Gewähr für Vollständigkeit und Aktualität. Für Inhalte externer Websites, auf die wir verlinken, sind ausschließlich deren Betreiber verantwortlich. Bei Bekanntwerden von Rechtsverletzungen entfernen wir solche Links umgehend.'),
             ('Urheberrecht', 'Texte, Bilder und Grafiken dieser Website unterliegen dem Urheberrecht von ActARion oder der jeweiligen Rechteinhaber. Die Vorlagen in unseren Ressourcen dürfen Sie frei nutzen und anpassen. DeepSight ist eine Marke der DeepSight Inc.'),
@@ -173,6 +172,7 @@ def imprint(loc):
             ('Uitgever', f"{_addr('nl')}. {ids}".strip()),
             ('Directie', 'Jack Kessels (managing partner Benelux) en Mark Dercksen (managing partner DACH).'),
             ('Contact', f"E-mail: {MAIL}. Of gebruik ons [contactformulier](/nl/contact)."),
+            ('Verantwoordelijk voor de inhoud', 'Mark Dercksen, managing partner DACH. Fouten of correcties op de website graag melden via [mark@actarion.com](mailto:mark@actarion.com).'),
             ('Aansprakelijkheid', 'We stellen de inhoud van deze website met zorg samen, maar kunnen niet garanderen dat alle informatie volledig en actueel is. Voor de inhoud van externe websites waarnaar we linken zijn wij niet verantwoordelijk.'),
             ('Auteursrecht', 'Teksten, beelden en illustraties op deze website zijn auteursrechtelijk beschermd en eigendom van ActARion of de betreffende rechthebbenden. De templates in onze kennisbank mag je vrij gebruiken en aanpassen. DeepSight is een merk van DeepSight Inc.'),
         ]
@@ -180,6 +180,7 @@ def imprint(loc):
         ('Publisher', f"{_addr('en')}. {ids}".strip()),
         ('Management', 'Jack Kessels (Managing Partner Benelux) and Mark Dercksen (Managing Partner DACH).'),
         ('Contact', f"Email: {MAIL}. Or use our [contact form](/en/contact)."),
+        ('Responsible for content', 'Mark Dercksen, Managing Partner DACH. Please report errors or corrections to [mark@actarion.com](mailto:mark@actarion.com).'),
         ('Liability', 'We compile the content of this website with care but cannot guarantee that all information is complete and up to date. We are not responsible for the content of external websites we link to.'),
         ('Copyright', 'Texts, images and illustrations on this website are protected by copyright and belong to ActARion or the respective rights holders. You may freely use and adapt the templates in our resources. DeepSight is a trademark of DeepSight Inc.'),
     ]

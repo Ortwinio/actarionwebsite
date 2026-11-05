@@ -17,7 +17,11 @@ export async function POST(req: Request) {
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return NextResponse.json({ error: 'email' }, { status: 422 });
 
   const key = process.env.RESEND_API_KEY;
-  const to = process.env.LEAD_NOTIFY_EMAIL || 'info@actarion.com';
+  const general = process.env.LEAD_NOTIFY_EMAIL || 'info@actarion.com';
+  // On-site visit requests go straight to the managing partners.
+  const to = body.kind === 'onsite'
+    ? (process.env.ONSITE_NOTIFY_EMAILS || 'mark@actarion.com,jack@actarion.com').split(',').map((x) => x.trim())
+    : [general];
   if (key) {
     const lines = Object.entries(body)
       .filter(([k]) => k !== 'website')
@@ -28,7 +32,8 @@ export async function POST(req: Request) {
       headers: { Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' },
       body: JSON.stringify({
         from: process.env.LEAD_FROM_EMAIL || 'ActARion website <website@actarion.com>',
-        to: [to],
+        to,
+        ...(body.kind === 'onsite' ? { cc: [general] } : {}),
         reply_to: email,
         subject: `[${body.kind}] ${body.company || email} (${body.locale})`,
         text: lines,

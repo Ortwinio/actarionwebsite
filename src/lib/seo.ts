@@ -60,6 +60,9 @@ export const organizationSchema = {
   logo: absoluteUrl('/Actarionlogo.png'),
   description: 'European platform for AI and AR-guided digital work instructions for manufacturing and field operations.',
   email: 'info@actarion.com',
+  legalName: 'ActARion B.V.',
+  vatID: 'NL869038606B01',
+  address: { '@type': 'PostalAddress', streetAddress: 'Lange Marktstraat 1', postalCode: '8911 AD', addressLocality: 'Leeuwarden', addressCountry: 'NL' },
   // TODO: confirm and complete profiles (Crunchbase, G2, partner pages).
   sameAs: ['https://www.linkedin.com/company/actarion'],
 };

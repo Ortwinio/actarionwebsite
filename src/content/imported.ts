@@ -9621,7 +9621,7 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
      "kind": "text",
      "h2": "1. Who is responsible for your data?",
      "body": [
-      "ActARion B.V., the Netherlands is the controller for the personal data collected through actarion.com.  You can reach us at [hello@actarion.com](mailto:hello@actarion.com)."
+      "ActARion B.V., Lange Marktstraat 1, 8911 AD Leeuwarden, the Netherlands is the controller for the personal data collected through actarion.com. Chamber of Commerce no. 99555840, VAT no. NL869038606B01. You can reach us at [hello@actarion.com](mailto:hello@actarion.com)."
      ]
     },
     {
@@ -9716,7 +9716,7 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
      ]
     }
    ],
-   "updated": "2026-11-03",
+   "updated": "2026-11-05",
    "placeholder": false
   },
   "events": {
@@ -18207,7 +18207,7 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
      "kind": "text",
      "h2": "11. Liability",
      "body": [
-      "ActARion's liability is limited to direct damage and to no more than the amount the Customer paid under the Agreement in the twelve months before the event causing the damage. ActARion is not liable for indirect damage such as consequential loss, lost profit or production loss. These limits do not apply in case of intent or wilful recklessness."
+      "ActARion's liability is limited to direct damage and to no more than the amount the Customer paid under the Agreement in the three months before the event causing the damage, or the amount paid since the last approved project milestone if that period is shorter. ActARion is not liable for indirect damage such as consequential loss, lost profit or production loss. These limits do not apply in case of intent or wilful recklessness."
      ]
     },
     {
@@ -18232,7 +18232,7 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
      ]
     }
    ],
-   "updated": "2026-11-03",
+   "updated": "2026-11-05",
    "placeholder": false
   },
   "ucAssembly": {
@@ -19653,7 +19653,7 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
      "kind": "text",
      "h2": "Publisher",
      "body": [
-      "ActARion B.V., the Netherlands."
+      "ActARion B.V., Lange Marktstraat 1, 8911 AD Leeuwarden, the Netherlands. Chamber of Commerce no. 99555840, VAT no. NL869038606B01."
      ]
     },
     {
@@ -19672,6 +19672,13 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
     },
     {
      "kind": "text",
+     "h2": "Responsible for content",
+     "body": [
+      "Mark Dercksen, Managing Partner DACH. Please report errors or corrections to [mark@actarion.com](mailto:mark@actarion.com)."
+     ]
+    },
+    {
+     "kind": "text",
      "h2": "Liability",
      "body": [
       "We compile the content of this website with care but cannot guarantee that all information is complete and up to date. We are not responsible for the content of external websites we link to."
@@ -19684,7 +19691,8 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Texts, images and illustrations on this website are protected by copyright and belong to ActARion or the respective rights holders. You may freely use and adapt the templates in our resources. DeepSight is a trademark of DeepSight Inc."
      ]
     }
-   ]
+   ],
+   "updated": "2026-11-05"
   },
   "report2027": {
    "lead": "Our study of work instructions, onboarding and knowledge transfer in manufacturing across Benelux and DACH. The report will be published in 2027.",
@@ -35575,7 +35583,7 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
      "kind": "text",
      "h2": "1. Wie is verantwoordelijk voor je gegevens?",
      "body": [
-      "ActARion B.V., Nederland is verwerkingsverantwoordelijke voor de persoonsgegevens die via actarion.com worden verzameld.  Je bereikt ons via [hello@actarion.com](mailto:hello@actarion.com)."
+      "ActARion B.V., Lange Marktstraat 1, 8911 AD Leeuwarden, Nederland is verwerkingsverantwoordelijke voor de persoonsgegevens die via actarion.com worden verzameld. KvK-nummer 99555840, btw-nummer NL869038606B01. Je bereikt ons via [hello@actarion.com](mailto:hello@actarion.com)."
      ]
     },
     {
@@ -35670,7 +35678,7 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
      ]
     }
    ],
-   "updated": "2026-11-03",
+   "updated": "2026-11-05",
    "placeholder": false
   },
   "indEnergy": {
@@ -39302,7 +39310,7 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
      "kind": "text",
      "h2": "11. Aansprakelijkheid",
      "body": [
-      "De aansprakelijkheid van ActARion is beperkt tot directe schade en tot ten hoogste het bedrag dat de Klant in de twaalf maanden vóór het schadeveroorzakende feit onder de Overeenkomst heeft betaald. ActARion is niet aansprakelijk voor indirecte schade, zoals gevolgschade, gederfde winst of productieverlies. Deze beperkingen gelden niet bij opzet of bewuste roekeloosheid."
+      "De aansprakelijkheid van ActARion is beperkt tot directe schade en tot ten hoogste het bedrag dat de Klant in de drie maanden vóór het schadeveroorzakende feit onder de Overeenkomst heeft betaald, of tot het bedrag dat sinds de laatst goedgekeurde projectmijlpaal is betaald als die periode korter is. ActARion is niet aansprakelijk voor indirecte schade, zoals gevolgschade, gederfde winst of productieverlies. Deze beperkingen gelden niet bij opzet of bewuste roekeloosheid."
      ]
     },
     {
@@ -39327,7 +39335,7 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
      ]
     }
    ],
-   "updated": "2026-11-03",
+   "updated": "2026-11-05",
    "placeholder": false
   },
   "imprint": {
@@ -39340,7 +39348,7 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
      "kind": "text",
      "h2": "Uitgever",
      "body": [
-      "ActARion B.V., Nederland."
+      "ActARion B.V., Lange Marktstraat 1, 8911 AD Leeuwarden, Nederland. KvK-nummer 99555840, btw-nummer NL869038606B01."
      ]
     },
     {
@@ -39359,6 +39367,13 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
     },
     {
      "kind": "text",
+     "h2": "Verantwoordelijk voor de inhoud",
+     "body": [
+      "Mark Dercksen, managing partner DACH. Fouten of correcties op de website graag melden via [mark@actarion.com](mailto:mark@actarion.com)."
+     ]
+    },
+    {
+     "kind": "text",
      "h2": "Aansprakelijkheid",
      "body": [
       "We stellen de inhoud van deze website met zorg samen, maar kunnen niet garanderen dat alle informatie volledig en actueel is. Voor de inhoud van externe websites waarnaar we linken zijn wij niet verantwoordelijk."
@@ -39371,7 +39386,8 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
       "Teksten, beelden en illustraties op deze website zijn auteursrechtelijk beschermd en eigendom van ActARion of de betreffende rechthebbenden. De templates in onze kennisbank mag je vrij gebruiken en aanpassen. DeepSight is een merk van DeepSight Inc."
      ]
     }
-   ]
+   ],
+   "updated": "2026-11-05"
   },
   "report2027": {
    "lead": "Ons onderzoek naar werkinstructies, inwerken en kennisoverdracht in de maakindustrie in Benelux en DACH. Het rapport verschijnt in 2027.",
@@ -39481,7 +39497,7 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
      "kind": "text",
      "h2": "11. Haftung",
      "body": [
-      "ActARion haftet unbeschränkt bei Vorsatz und grober Fahrlässigkeit sowie bei Verletzung von Leben, Körper oder Gesundheit. Im Übrigen ist die Haftung auf den vertragstypischen, vorhersehbaren Schaden und auf höchstens den Betrag begrenzt, den der Kunde in den zwölf Monaten vor dem schadensbegründenden Ereignis aus dem Vertrag gezahlt hat. Für mittelbare Schäden wie entgangenen Gewinn oder Produktionsausfall haftet ActARion bei leichter Fahrlässigkeit nicht."
+      "ActARion haftet unbeschränkt bei Vorsatz und grober Fahrlässigkeit sowie bei Verletzung von Leben, Körper oder Gesundheit. Im Übrigen ist die Haftung auf den vertragstypischen, vorhersehbaren Schaden und auf höchstens den Betrag begrenzt, den der Kunde in den drei Monaten vor dem schadensbegründenden Ereignis aus dem Vertrag gezahlt hat, oder auf den seit dem zuletzt abgenommenen Projektmeilenstein gezahlten Betrag, wenn dieser Zeitraum kürzer ist. Für mittelbare Schäden wie entgangenen Gewinn oder Produktionsausfall haftet ActARion bei leichter Fahrlässigkeit nicht."
      ]
     },
     {
@@ -39506,7 +39522,7 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
      ]
     }
    ],
-   "updated": "2026-11-03",
+   "updated": "2026-11-05",
    "placeholder": false
   },
   "ucSafety": {
@@ -45176,7 +45192,7 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
      "kind": "text",
      "h2": "1. Verantwortlicher",
      "body": [
-      "Verantwortlicher für die über actarion.com erhobenen personenbezogenen Daten ist die ActARion B.V., Niederlande.  Sie erreichen uns unter [hello@actarion.com](mailto:hello@actarion.com)."
+      "Verantwortlicher für die über actarion.com erhobenen personenbezogenen Daten ist die ActARion B.V., Lange Marktstraat 1, 8911 AD Leeuwarden, Niederlande. Handelsregister (KvK) Nr. 99555840, USt-IdNr. NL869038606B01. Sie erreichen uns unter [hello@actarion.com](mailto:hello@actarion.com)."
      ]
     },
     {
@@ -45271,7 +45287,7 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
      ]
     }
    ],
-   "updated": "2026-11-03",
+   "updated": "2026-11-05",
    "placeholder": false
   },
   "demo": {
@@ -46319,7 +46335,7 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
      "kind": "text",
      "h2": "Angaben gemäß § 5 DDG",
      "body": [
-      "ActARion B.V., Niederlande"
+      "ActARion B.V., Lange Marktstraat 1, 8911 AD Leeuwarden, Niederlande"
      ]
     },
     {
@@ -46338,9 +46354,23 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
     },
     {
      "kind": "text",
+     "h2": "Registereintrag",
+     "body": [
+      "Handelsregister der niederländischen Handelskammer (Kamer van Koophandel), Nr. 99555840."
+     ]
+    },
+    {
+     "kind": "text",
+     "h2": "Umsatzsteuer-ID",
+     "body": [
+      "Umsatzsteuer-Identifikationsnummer: NL869038606B01."
+     ]
+    },
+    {
+     "kind": "text",
      "h2": "Verantwortlich für den Inhalt",
      "body": [
-      "Mark Dercksen, Managing Partner DACH, ActARion B.V."
+      "Mark Dercksen, Managing Partner DACH, ActARion B.V. Hinweise auf Fehler oder Korrekturen bitte an [mark@actarion.com](mailto:mark@actarion.com)."
      ]
     },
     {
@@ -46365,7 +46395,7 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
      ]
     }
    ],
-   "updated": "2026-11-03",
+   "updated": "2026-11-05",
    "placeholder": false
   },
   "home": {

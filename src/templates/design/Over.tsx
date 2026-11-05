@@ -4,6 +4,8 @@ import { Faq, Sections } from '@/components/Blocks';
 import { Cta } from '@/components/Cta';
 import { overCopy, type OverCopy } from '@/content/design/over';
 import { partnersCopy } from '@/content/design/partners';
+import { onsiteCopy } from '@/content/design/onsite';
+import { OnsiteForm } from '@/components/design/OnsiteForm';
 import { getPage } from '@/lib/i18n';
 import type { Locale } from '@/lib/locale';
 import { pathFor } from '@/lib/routes';
@@ -133,6 +135,45 @@ function ImageNote({ t }: { t: OverCopy }) {
 }
 
 /** About page (route key company). */
+/** Visit on site: test AR work guide at the customer's site, request form to Mark and Jack. */
+function OnsiteVisit({ locale }: { locale: Locale }) {
+  const t = onsiteCopy[locale];
+  return (
+    <section id="visit" aria-labelledby="visit-h" className="mx-auto max-w-site scroll-mt-24 px-6 pb-24">
+      <div className="flex flex-wrap gap-10 rounded-panel border border-line bg-white p-8 md:p-11">
+        <div className="flex min-w-0 flex-[1_1_420px] flex-col gap-4">
+          <div className="flex items-center gap-3">
+            <span className="flex flex-none">
+              <img src="/img/team/jack-kessels.webp" alt={t.altJack} width={72} height={72} loading="lazy" className="h-[72px] w-[72px] rounded-full border-[3px] border-sky bg-canvas object-cover" />
+              <img src="/img/team/mark-dercksen.webp" alt={t.altMark} width={72} height={72} loading="lazy" className="-ml-4 h-[72px] w-[72px] rounded-full border-[3px] border-sky bg-canvas object-cover" />
+            </span>
+            <p className={eyebrow}>{t.eyebrow}</p>
+          </div>
+          <h2 id="visit-h" className="font-display text-[clamp(28px,3.2vw,40px)] font-extrabold leading-[1.06] tracking-[-0.03em]">{t.h}</h2>
+          <p className="text-lg leading-normal">{t.lead}</p>
+          <h3 className="mt-2 text-lg font-bold">{t.howTitle}</h3>
+          <ol className="m-0 flex list-none flex-col gap-2.5 p-0">
+            {t.steps.map((x, i) => (
+              <li key={x} className="flex items-start gap-3 leading-[1.45]">
+                <span className="flex h-7 w-7 flex-none items-center justify-center rounded-full bg-sky font-mono text-sm font-bold">{i + 1}</span>
+                <span>{x}</span>
+              </li>
+            ))}
+          </ol>
+          <h3 className="mt-2 text-lg font-bold">{t.feeTitle}</h3>
+          <p className="leading-normal">{t.fee}</p>
+          <p className="leading-normal text-muted">{t.noObligation}</p>
+        </div>
+        <div className="flex min-w-0 flex-[1_1_380px] flex-col gap-3 rounded-[24px] bg-canvas p-6">
+          <h3 className="font-display text-2xl font-extrabold">{t.formTitle}</h3>
+          <p className="text-muted">{t.formIntro}</p>
+          <OnsiteForm locale={locale} t={t} />
+        </div>
+      </div>
+    </section>
+  );
+}
+
 export function OverDesign({ routeKey: _routeKey, locale }: { routeKey: string; locale: Locale }) {
   const t = overCopy[locale];
   return (
@@ -152,6 +193,7 @@ export function OverDesign({ routeKey: _routeKey, locale }: { routeKey: string; 
       <ImageNote t={t} />
       <div className="h-16" />
       <Cta locale={locale} heading={t.ctaHeading} />
+      <OnsiteVisit locale={locale} />
     </>
   );
 }
