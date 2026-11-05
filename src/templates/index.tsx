@@ -16,6 +16,7 @@ import { FitCheckDesign } from '@/templates/design/FitCheck';
 import { WhitepaperDesign } from '@/templates/design/Whitepaper';
 import { PartnersDesign, PartnerDetailDesign } from '@/templates/design/Partners';
 import { OverDesign, TeamDesign, VisionDesign } from '@/templates/design/Over';
+import { EventsDesign } from '@/templates/design/Events';
 
 import {
   AnswerBox,
@@ -547,6 +548,7 @@ const templates: Record<PageType, (p: Props) => React.ReactElement> = {
 const byKey: Record<string, (p: Props) => React.ReactElement> = {
   whitepapers: WhitepaperDesign,
   partners: PartnersDesign,
+  events: EventsDesign,
   partnerBecome: AanvraagDesign,
   company: OverDesign,
   vision: VisionDesign,

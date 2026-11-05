@@ -7719,10 +7719,10 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
   },
   "partners": {
    "metaTitle": "Partners: Technology and Implementation | ActARion",
-   "metaDescription": "Actarion works with DeepSight, hardware makers and implementation partners for HR and change, so AR work instructions really land on your shop floor.",
+   "metaDescription": "Actarion works with DeepSight, hardware makers and a network of industry partners, so AR work instructions really land on your shop floor.",
    "h1": "Actarion partners: technology and implementation",
-   "lead": "Actarion works with DeepSight, hardware makers and implementation partners for HR and change, so AR work instructions really land on your shop floor.",
-   "answer": "Actarion combines one technology platform with local implementation partners. DeepSight supplies the AR and AI platform for digital work instructions. Hardware from Apple, Microsoft and Google brings the instructions to the work. Potentify (HR and skills) and Simply Change (change management) help the new way of working stick on the shop floor.",
+   "lead": "Actarion works with DeepSight, hardware makers and a network of industry partners, so AR work instructions really land on your shop floor.",
+   "answer": "Actarion combines one technology platform with local implementation. DeepSight supplies the AR and AI platform for digital work instructions. Hardware from Apple, Microsoft and Google brings the instructions to the work. Actarion leads the implementation and brings in partners from its network where a project needs them.",
    "sections": [
     {
      "kind": "checklist",
@@ -7760,16 +7760,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
        "Google",
        "Hardware",
        "Android XR technologies for AR in the field"
-      ],
-      [
-       "[Potentify](/en/partners/potentify/)",
-       "Implementation",
-       "HR, learning design and skills matrices"
-      ],
-      [
-       "[Simply Change](/en/partners/simply-change/)",
-       "Implementation",
-       "Change management and roll-out, FMCG experience"
       ]
      ],
      "h2": "Who are Actarion's partners?"
@@ -7814,7 +7804,7 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
     },
     {
      "q": "Do I need all partners in my project?",
-     "a": "No. We bring in a partner only when your use case needs it, for example Potentify when skills records must link to HR."
+     "a": "No. We bring in a partner from our network only when your use case needs it."
     },
     {
      "q": "Can my company become a partner?",
@@ -7831,157 +7821,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
     "solDwi"
    ],
    "heroImage": "Pen drawing: tablet with a cyan step card at the center of a partner network with a gear, AR glasses, a document and a skills matrix"
-  },
-  "partnerPotentify": {
-   "metaTitle": "Potentify: HR Partner for AR Learning & Skills | ActARion",
-   "metaDescription": "Potentify is Actarion's HR implementation partner. Together we link AR work instructions to onboarding, skills matrices and learning records for HR.",
-   "h1": "Potentify: HR partner for AR learning and skills",
-   "lead": "Potentify is Actarion's HR implementation partner. Together we link AR work instructions to onboarding, skills matrices and learning records for HR.",
-   "answer": "Potentify is Actarion's HR implementation partner for learning and skills. Together they connect AI- and AR-guided work instructions to HR, learning and talent strategy: AR-enabled onboarding that aims to shorten time to competence, AR training data linked to learning records, and skills programs that use AR tasks as evidence.",
-   "sections": [
-    {
-     "kind": "checklist",
-     "items": [
-      "Training happens at the machine, but records live in a separate system.",
-      "Skills matrices are spreadsheets nobody updates.",
-      "Proving competence for an audit takes days."
-     ],
-     "h2": "Why does shop-floor training stay disconnected from HR?"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "Expertise in HR, learning design and performance management.",
-      "Experience designing competency frameworks and skills matrices.",
-      "Support aligning digital work instructions with onboarding, upskilling and compliance."
-     ],
-     "h2": "What does Potentify bring?"
-    },
-    {
-     "kind": "table",
-     "head": [
-      "Project",
-      "Goal"
-     ],
-     "rows": [
-      [
-       "HR-led AR onboarding for new technicians",
-       "Shorter time to competence"
-      ],
-      [
-       "Reskilling teams for new equipment, product lines or safety standards",
-       "Faster changeover of skills"
-      ],
-      [
-       "Skills and certification programs with AR tasks as evidence",
-       "Audit-proof qualification"
-      ]
-     ],
-     "h2": "Typical joint projects"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "Every completed AR instruction counts toward the skills matrix.",
-      "Training data flows to your learning records.",
-      "Continuous learning paths combine on-the-job AR guidance with formal training."
-     ],
-     "h2": "How Actarion helps"
-    }
-   ],
-   "faq": [
-    {
-     "q": "Do we need Potentify for every project?",
-     "a": "No. Potentify joins when the project must link to HR processes and skills records."
-    },
-    {
-     "q": "Where can I find Potentify?",
-     "a": "Potentify's website is potentify.nl. Potentify works from the Netherlands; through Actarion you sit down with them for questions about HR, learning and skills."
-    }
-   ],
-   "updated": "2026-11-03",
-   "placeholder": false,
-   "image": "/img/illustraties/partners-potentify.webp",
-   "related": [
-    "ucOnboarding",
-    "partners",
-    "pilot"
-   ],
-   "heroImage": "Pen drawing: skills matrix with one cyan cell and a rising staircase as a learning path"
-  },
-  "partnerSimplyChange": {
-   "metaTitle": "Simply Change: Change Partner for AR Roll-outs | ActARion",
-   "metaDescription": "Simply Change is Actarion's change management partner. Together we take AR work instructions beyond the pilot and embed them in daily work at scale.",
-   "h1": "Simply Change: change partner for AR roll-outs",
-   "lead": "Simply Change is Actarion's change management partner. Together we take AR work instructions beyond the pilot and embed them in daily work at scale.",
-   "answer": "Simply Change is Actarion's change management and implementation partner, with experience in FMCG and operational transformation. Together they help AI and AR work instructions move beyond pilots and become embedded in daily work at scale, through stakeholder engagement, coaching of supervisors, structured roll-outs and measurement of adoption and impact.",
-   "sections": [
-    {
-     "kind": "checklist",
-     "items": [
-      "The pilot team is enthusiastic, the next plant is not.",
-      "Roles and SOPs are not updated, so old habits return.",
-      "Nobody measures adoption, so support fades."
-     ],
-     "h2": "Why do pilots fail to become the standard?"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "**Change management:** stakeholder engagement, communication and coaching of supervisors and team leads.",
-      "**Structured roll-outs:** AR work instructions across multiple plants or warehouses.",
-      "**Process alignment:** SOPs, roles and responsibilities aligned so the new way of working lasts.",
-      "**Measurement:** adoption and impact, such as error reduction and training time."
-     ],
-     "h2": "What does Simply Change do?"
-    },
-    {
-     "kind": "steps",
-     "steps": [
-      {
-       "title": "AR-guided changeovers and setups on FMCG production lines.",
-       "text": ""
-      },
-      {
-       "title": "AR work instructions in warehouses and logistics.",
-       "text": ""
-      },
-      {
-       "title": "Continuous improvement programs that use AR execution data.",
-       "text": ""
-      }
-     ],
-     "h2": "Typical joint projects"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "A roll-out plan per site, based on the pilot KPIs.",
-      "Supervisors trained to coach with AR instructions.",
-      "Adoption dashboards from the execution data."
-     ],
-     "h2": "How Actarion helps"
-    }
-   ],
-   "faq": [
-    {
-     "q": "When does Simply Change join a project?",
-     "a": "Usually when the pilot succeeds and you plan to scale to more lines or sites."
-    },
-    {
-     "q": "Does Simply Change only work in FMCG?",
-     "a": "Their background is FMCG and operational transformation; the approach also fits other production and logistics settings."
-    }
-   ],
-   "updated": "2026-11-03",
-   "placeholder": false,
-   "image": "/img/illustraties/partners-simply-change.webp",
-   "related": [
-    "ucChangeover",
-    "pilot",
-    "partners"
-   ],
-   "heroImage": "Pen drawing: three factories in which a cyan screen is rolled out step by step, each with a check mark"
   },
   "pilot": {
    "metaTitle": "AR Work Instructions Pilot in 4 Phases | ActARion",
@@ -11950,7 +11789,7 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
        "In-depth background for decision makers"
       ],
       [
-       "[Events](/en/resources/events/)",
+       "[Events](/en/events/)",
        "Webinars, fairs and on-site sessions"
       ],
       [
@@ -26243,7 +26082,7 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
        "Achtergrond voor beslissers"
       ],
       [
-       "[Events](/nl/kennisbank/events/)",
+       "[Events](/nl/events/)",
        "Webinars, beurzen en sessies op locatie"
       ],
       [
@@ -33745,10 +33584,10 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
   },
   "partners": {
    "metaTitle": "Partners: technologie en implementatie | ActARion",
-   "metaDescription": "Actarion werkt met DeepSight, hardwaremakers en implementatiepartners voor HR en verandering, zodat AR-werkinstructies echt landen op jouw werkvloer.",
+   "metaDescription": "Actarion werkt met DeepSight, hardwaremakers en een netwerk van branchepartners, zodat AR-werkinstructies echt landen op je werkvloer.",
    "h1": "Partners van Actarion: technologie en implementatie",
-   "lead": "Actarion werkt met DeepSight, hardwaremakers en implementatiepartners voor HR en verandering, zodat AR-werkinstructies echt landen op jouw werkvloer.",
-   "answer": "Actarion combineert één technologieplatform met lokale implementatiepartners. DeepSight levert het AR- en AI-platform voor digitale werkinstructies. Hardware van Apple, Microsoft en Google brengt de instructies naar het werk. Potentify (HR en vaardigheden) en Simply Change (verandermanagement) zorgen dat de nieuwe werkwijze op de werkvloer blijft hangen.",
+   "lead": "Actarion werkt met DeepSight, hardwaremakers en een netwerk van branchepartners, zodat AR-werkinstructies echt landen op je werkvloer.",
+   "answer": "Actarion combineert één technologieplatform met lokale implementatie. DeepSight levert het AR- en AI-platform voor digitale werkinstructies. Hardware van Apple, Microsoft en Google brengt de instructies naar het werk. Actarion leidt de implementatie en haalt partners uit het netwerk erbij waar een project daarom vraagt.",
    "sections": [
     {
      "kind": "checklist",
@@ -33786,16 +33625,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
        "Google",
        "Hardware",
        "Android XR-technologie voor AR in het veld"
-      ],
-      [
-       "[Potentify](/nl/partners/potentify/)",
-       "Implementatie",
-       "HR, leerontwerp en skills matrices"
-      ],
-      [
-       "[Simply Change](/nl/partners/simply-change/)",
-       "Implementatie",
-       "Verandermanagement en uitrol, ervaring in FMCG"
       ]
      ],
      "h2": "Wie zijn de partners van Actarion?"
@@ -33840,7 +33669,7 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
     },
     {
      "q": "Heb ik alle partners nodig in mijn project?",
-     "a": "Nee. We halen een partner er alleen bij als je use case daarom vraagt, bijvoorbeeld Potentify als skills-registratie moet aansluiten op HR."
+     "a": "Nee. We halen een partner uit ons netwerk er alleen bij als je use case daarom vraagt."
     },
     {
      "q": "Kan mijn bedrijf partner worden?",
@@ -33946,157 +33775,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
     "pilot"
    ],
    "heroImage": "Pentekening: een groot en een cyaan tandwiel grijpen in elkaar, naast een tablet met stapkaart"
-  },
-  "partnerPotentify": {
-   "metaTitle": "Potentify: HR-partner voor leren en skills | ActARion",
-   "metaDescription": "Potentify is de HR-implementatiepartner van Actarion. Samen koppelen we AR-werkinstructies aan inwerken, skills matrices en leerregistratie voor HR.",
-   "h1": "Potentify: HR-partner voor leren en vaardigheden met AR",
-   "lead": "Potentify is de HR-implementatiepartner van Actarion. Samen koppelen we AR-werkinstructies aan inwerken, skills matrices en leerregistratie voor HR.",
-   "answer": "Potentify is de HR-implementatiepartner van Actarion voor leren en vaardigheden. Samen verbinden ze werkinstructies met AI en AR aan HR-, leer- en talentstrategie: inwerken met AR om sneller bekwaam te zijn, trainingsdata uit AR gekoppeld aan leerregistratie, en skills-programma's die AR-taken als bewijs gebruiken.",
-   "sections": [
-    {
-     "kind": "checklist",
-     "items": [
-      "Training gebeurt bij de machine, maar de registratie staat in een ander systeem.",
-      "Skills matrices zijn spreadsheets die niemand bijwerkt.",
-      "Bekwaamheid aantonen voor een audit kost dagen."
-     ],
-     "h2": "Waarom blijft training op de werkvloer los van HR?"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "Expertise in HR, leerontwerp en performancemanagement.",
-      "Ervaring met competentiemodellen en skills matrices.",
-      "Ondersteuning om digitale werkinstructies af te stemmen op inwerken, bijscholing en compliance."
-     ],
-     "h2": "Wat brengt Potentify mee?"
-    },
-    {
-     "kind": "table",
-     "head": [
-      "Project",
-      "Doel"
-     ],
-     "rows": [
-      [
-       "AR-inwerken van nieuwe monteurs, geleid door HR",
-       "Sneller bekwaam"
-      ],
-      [
-       "Omscholing voor nieuwe machines, productlijnen of veiligheidsnormen",
-       "Sneller nieuwe vaardigheden"
-      ],
-      [
-       "Skills- en certificeringsprogramma's met AR-taken als bewijs",
-       "Audit-proof kwalificatie"
-      ]
-     ],
-     "h2": "Typische gezamenlijke projecten"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "Elke afgeronde AR-instructie telt mee in de skills matrix.",
-      "Trainingsdata stroomt naar je leerregistratie.",
-      "Doorlopende leerpaden combineren AR-begeleiding op de werkvloer met formele training."
-     ],
-     "h2": "Hoe Actarion helpt"
-    }
-   ],
-   "faq": [
-    {
-     "q": "Hebben we Potentify bij elk project nodig?",
-     "a": "Nee. Potentify sluit aan als het project moet aansluiten op HR-processen en skills-registratie."
-    },
-    {
-     "q": "Waar vind ik Potentify?",
-     "a": "De website van Potentify is potentify.nl. Potentify werkt vanuit Nederland; via Actarion zit je samen met hen aan tafel voor vragen over HR, leren en vaardigheden."
-    }
-   ],
-   "updated": "2026-11-03",
-   "placeholder": false,
-   "image": "/img/illustraties/partners-potentify.webp",
-   "related": [
-    "ucOnboarding",
-    "partners",
-    "pilot"
-   ],
-   "heroImage": "Pentekening: skills matrix met één cyane cel en een opgaande trap als leerpad"
-  },
-  "partnerSimplyChange": {
-   "metaTitle": "Simply Change: veranderpartner voor AR-uitrol | ActARion",
-   "metaDescription": "Simply Change is de verandermanagementpartner van Actarion. Samen brengen we AR-werkinstructies voorbij de pilot en verankeren ze in het dagelijkse werk.",
-   "h1": "Simply Change: veranderpartner voor de uitrol van AR",
-   "lead": "Simply Change is de verandermanagementpartner van Actarion. Samen brengen we AR-werkinstructies voorbij de pilot en verankeren ze in het dagelijkse werk.",
-   "answer": "Simply Change is de partner van Actarion voor verandermanagement en implementatie, met ervaring in FMCG en operationele transformatie. Samen zorgen ze dat werkinstructies met AI en AR de pilotfase ontgroeien en op schaal in het dagelijkse werk landen, via betrokkenheid van stakeholders, coaching van teamleiders, gestructureerde uitrol en meting van gebruik en effect.",
-   "sections": [
-    {
-     "kind": "checklist",
-     "items": [
-      "Het pilotteam is enthousiast, de volgende fabriek niet.",
-      "Rollen en SOP's worden niet aangepast, dus oude gewoontes komen terug.",
-      "Niemand meet het gebruik, dus het draagvlak verdwijnt."
-     ],
-     "h2": "Waarom wordt een pilot geen standaard?"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "**Verandermanagement:** stakeholders betrekken, communicatie en coaching van teamleiders en ploegleiders.",
-      "**Gestructureerde uitrol:** AR-werkinstructies over meerdere fabrieken of magazijnen.",
-      "**Procesafstemming:** SOP's, rollen en verantwoordelijkheden op elkaar afgestemd zodat de nieuwe werkwijze blijft.",
-      "**Meten:** gebruik en effect, zoals minder fouten en kortere trainingstijd."
-     ],
-     "h2": "Wat doet Simply Change?"
-    },
-    {
-     "kind": "steps",
-     "steps": [
-      {
-       "title": "Omstellingen en instellingen met AR op FMCG-productielijnen.",
-       "text": ""
-      },
-      {
-       "title": "AR-werkinstructies in magazijnen en logistiek.",
-       "text": ""
-      },
-      {
-       "title": "Continu-verbeterprogramma's op basis van AR-uitvoeringsdata.",
-       "text": ""
-      }
-     ],
-     "h2": "Typische gezamenlijke projecten"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "Een uitrolplan per locatie, gebaseerd op de pilot-KPI's.",
-      "Teamleiders getraind om met AR-instructies te coachen.",
-      "Dashboards voor gebruik op basis van uitvoeringsdata."
-     ],
-     "h2": "Hoe Actarion helpt"
-    }
-   ],
-   "faq": [
-    {
-     "q": "Wanneer sluit Simply Change aan?",
-     "a": "Meestal als de pilot slaagt en je wilt opschalen naar meer lijnen of locaties."
-    },
-    {
-     "q": "Werkt Simply Change alleen in FMCG?",
-     "a": "Hun achtergrond is FMCG en operationele transformatie; de aanpak past ook in andere productie- en logistieke omgevingen."
-    }
-   ],
-   "updated": "2026-11-03",
-   "placeholder": false,
-   "image": "/img/illustraties/partners-simply-change.webp",
-   "related": [
-    "ucChangeover",
-    "pilot",
-    "partners"
-   ],
-   "heroImage": "Pentekening: drie fabrieken waarin een cyaan scherm stap voor stap wordt uitgerold met vinkjes"
   },
   "pilot": {
    "metaTitle": "Pilot AR-werkinstructies in 4 fasen | ActARion",
@@ -49253,10 +48931,10 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
   },
   "partners": {
    "metaTitle": "Partner: Technologie und Implementierung | ActARion",
-   "metaDescription": "Actarion arbeitet mit DeepSight, Hardwareherstellern und Partnern für HR und Change, damit AR-Arbeitsanweisungen in Ihrer Produktion wirklich ankommen.",
+   "metaDescription": "Actarion arbeitet mit DeepSight, Hardwareherstellern und einem Netzwerk von Branchenpartnern, damit AR-Arbeitsanweisungen in Ihrer Fertigung ankommen.",
    "h1": "Partner von Actarion: Technologie und Implementierung",
-   "lead": "Actarion arbeitet mit DeepSight, Hardwareherstellern und Partnern für HR und Change, damit AR-Arbeitsanweisungen in Ihrer Produktion wirklich ankommen.",
-   "answer": "Actarion verbindet eine Technologieplattform mit lokalen Implementierungspartnern. DeepSight liefert die AR- und KI-Plattform für digitale Arbeitsanweisungen. Hardware von Apple, Microsoft und Google bringt die Anweisungen an den Arbeitsplatz. Potentify (HR und Qualifikation) und Simply Change (Change-Management) sorgen dafür, dass die neue Arbeitsweise in der Produktion bleibt.",
+   "lead": "Actarion arbeitet mit DeepSight, Hardwareherstellern und einem Netzwerk von Branchenpartnern, damit AR-Arbeitsanweisungen in Ihrer Fertigung ankommen.",
+   "answer": "Actarion verbindet eine Technologieplattform mit lokaler Implementierung. DeepSight liefert die AR- und KI-Plattform für digitale Arbeitsanweisungen. Hardware von Apple, Microsoft und Google bringt die Anweisungen an den Arbeitsplatz. Actarion leitet die Implementierung und holt Partner aus seinem Netzwerk dazu, wenn ein Projekt es erfordert.",
    "sections": [
     {
      "kind": "checklist",
@@ -49294,16 +48972,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
        "Google",
        "Hardware",
        "Android-XR-Technologien für AR im Feld"
-      ],
-      [
-       "[Potentify](/de/partner/potentify/)",
-       "Implementierung",
-       "HR, Lerndesign und Qualifikationsmatrizen"
-      ],
-      [
-       "[Simply Change](/de/partner/simply-change/)",
-       "Implementierung",
-       "Change-Management und Rollout, Erfahrung in FMCG"
       ]
      ],
      "h2": "Wer sind die Partner von Actarion?"
@@ -49348,7 +49016,7 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
     },
     {
      "q": "Brauche ich alle Partner im Projekt?",
-     "a": "Nein. Wir binden einen Partner nur ein, wenn Ihr Anwendungsfall es erfordert, etwa Potentify, wenn Qualifikationsnachweise an HR angebunden werden sollen."
+     "a": "Nein. Wir binden einen Partner aus unserem Netzwerk nur ein, wenn Ihr Anwendungsfall es erfordert."
     },
     {
      "q": "Kann mein Unternehmen Partner werden?",
@@ -49454,157 +49122,6 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
     "pilot"
    ],
    "heroImage": "Federzeichnung: ein großes und ein cyanfarbenes Zahnrad greifen ineinander, daneben ein Tablet mit Schrittkarte"
-  },
-  "partnerPotentify": {
-   "metaTitle": "Potentify: HR-Partner für AR-Qualifizierung | ActARion",
-   "metaDescription": "Potentify ist HR-Implementierungspartner von Actarion. Gemeinsam verbinden wir AR-Arbeitsanweisungen mit Einarbeitung, Qualifikation und Lernnachweisen.",
-   "h1": "Potentify: HR-Partner für Lernen und Qualifikation mit AR",
-   "lead": "Potentify ist HR-Implementierungspartner von Actarion. Gemeinsam verbinden wir AR-Arbeitsanweisungen mit Einarbeitung, Qualifikation und Lernnachweisen.",
-   "answer": "Potentify ist der HR-Implementierungspartner von Actarion für Lernen und Qualifikation. Gemeinsam verbinden sie KI- und AR-geführte Arbeitsanweisungen mit HR-, Lern- und Talentstrategie: AR-gestützte Einarbeitung für schnellere Einsatzfähigkeit, AR-Schulungsdaten in Lernnachweisen und Qualifikationsprogramme, die abgeschlossene AR-Aufgaben als Nachweis der Kompetenz nutzen.",
-   "sections": [
-    {
-     "kind": "checklist",
-     "items": [
-      "Geschult wird an der Maschine, nachgewiesen in einem anderen System.",
-      "Qualifikationsmatrizen sind Tabellen, die niemand pflegt.",
-      "Der Qualifikationsnachweis für ein Audit dauert Tage."
-     ],
-     "h2": "Warum bleibt die Schulung in der Produktion von HR getrennt?"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "Expertise in HR, Lerndesign und Performance-Management.",
-      "Erfahrung mit Kompetenzmodellen und Qualifikationsmatrizen.",
-      "Unterstützung, digitale Arbeitsanweisungen mit Einarbeitung, Weiterqualifizierung und Compliance abzustimmen."
-     ],
-     "h2": "Was bringt Potentify mit?"
-    },
-    {
-     "kind": "table",
-     "head": [
-      "Projekt",
-      "Ziel"
-     ],
-     "rows": [
-      [
-       "HR-geführte AR-Einarbeitung neuer Techniker",
-       "Schneller einsatzfähig"
-      ],
-      [
-       "Umschulung für neue Anlagen, Produktlinien oder Sicherheitsstandards",
-       "Schneller neue Qualifikationen"
-      ],
-      [
-       "Qualifizierungs- und Zertifizierungsprogramme mit AR-Aufgaben als Nachweis",
-       "Auditfähige Qualifikation"
-      ]
-     ],
-     "h2": "Typische gemeinsame Projekte"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "Jede abgeschlossene AR-Anweisung zählt in der Qualifikationsmatrix.",
-      "Schulungsdaten fließen in Ihre Lernnachweise.",
-      "Kontinuierliche Lernpfade verbinden AR-Werkerführung mit formaler Schulung."
-     ],
-     "h2": "Wie Actarion unterstützt"
-    }
-   ],
-   "faq": [
-    {
-     "q": "Brauchen wir Potentify in jedem Projekt?",
-     "a": "Nein. Potentify kommt dazu, wenn das Projekt an HR-Prozesse und Qualifikationsnachweise angebunden werden soll."
-    },
-    {
-     "q": "Wo finde ich Potentify?",
-     "a": "Die Website von Potentify ist potentify.nl. Potentify arbeitet von den Niederlanden aus; über Actarion sitzen Sie für Fragen zu HR, Lernen und Kompetenzen gemeinsam mit ihnen am Tisch."
-    }
-   ],
-   "updated": "2026-11-03",
-   "placeholder": false,
-   "image": "/img/illustraties/partners-potentify.webp",
-   "related": [
-    "ucOnboarding",
-    "partners",
-    "pilot"
-   ],
-   "heroImage": "Federzeichnung: Qualifikationsmatrix mit einer cyanfarbenen Zelle und einer aufsteigenden Treppe als Lernpfad"
-  },
-  "partnerSimplyChange": {
-   "metaTitle": "Simply Change: Change-Partner für AR-Rollouts",
-   "metaDescription": "Simply Change ist Change-Management-Partner von Actarion. Gemeinsam bringen wir AR-Arbeitsanweisungen über den Pilot hinaus in den Arbeitsalltag.",
-   "h1": "Simply Change: Change-Partner für AR-Rollouts",
-   "lead": "Simply Change ist Change-Management-Partner von Actarion. Gemeinsam bringen wir AR-Arbeitsanweisungen über den Pilot hinaus in den Arbeitsalltag.",
-   "answer": "Simply Change ist der Partner von Actarion für Change-Management und Implementierung, mit Erfahrung in FMCG und operativer Transformation. Gemeinsam sorgen sie dafür, dass KI- und AR-Arbeitsanweisungen über Pilotprojekte hinaus im Arbeitsalltag ankommen: durch Einbindung der Beteiligten, Coaching von Schichtleitern, strukturierte Rollouts und Messung von Nutzung und Wirkung.",
-   "sections": [
-    {
-     "kind": "checklist",
-     "items": [
-      "Das Pilotteam ist begeistert, das nächste Werk nicht.",
-      "Rollen und SOPs werden nicht angepasst, alte Gewohnheiten kehren zurück.",
-      "Niemand misst die Nutzung, die Unterstützung schwindet."
-     ],
-     "h2": "Warum wird ein Pilot nicht zum Standard?"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "**Change-Management:** Einbindung der Beteiligten, Kommunikation und Coaching von Schicht- und Teamleitern.",
-      "**Strukturierte Rollouts:** AR-Arbeitsanweisungen über mehrere Werke oder Lager.",
-      "**Prozessabstimmung:** SOPs, Rollen und Verantwortlichkeiten so abgestimmt, dass die neue Arbeitsweise bleibt.",
-      "**Messung:** Nutzung und Wirkung, etwa weniger Fehler und kürzere Schulungszeit."
-     ],
-     "h2": "Was macht Simply Change?"
-    },
-    {
-     "kind": "steps",
-     "steps": [
-      {
-       "title": "AR-geführtes Rüsten und Einrichten an FMCG-Produktionslinien.",
-       "text": ""
-      },
-      {
-       "title": "AR-Arbeitsanweisungen in Lager und Logistik.",
-       "text": ""
-      },
-      {
-       "title": "KVP-Programme auf Basis von AR-Ausführungsdaten.",
-       "text": ""
-      }
-     ],
-     "h2": "Typische gemeinsame Projekte"
-    },
-    {
-     "kind": "checklist",
-     "items": [
-      "Ein Rollout-Plan je Standort auf Basis der Pilot-KPIs.",
-      "Schichtleiter, die mit AR-Anweisungen coachen.",
-      "Nutzungs-Dashboards aus den Ausführungsdaten."
-     ],
-     "h2": "Wie Actarion unterstützt"
-    }
-   ],
-   "faq": [
-    {
-     "q": "Wann kommt Simply Change dazu?",
-     "a": "Meist dann, wenn der Pilot erfolgreich ist und Sie auf weitere Linien oder Standorte skalieren wollen."
-    },
-    {
-     "q": "Arbeitet Simply Change nur in FMCG?",
-     "a": "Der Hintergrund ist FMCG und operative Transformation; das Vorgehen passt auch zu anderen Produktions- und Logistikumgebungen."
-    }
-   ],
-   "updated": "2026-11-03",
-   "placeholder": false,
-   "image": "/img/illustraties/partners-simply-change.webp",
-   "related": [
-    "ucChangeover",
-    "pilot",
-    "partners"
-   ],
-   "heroImage": "Federzeichnung: drei Werke, in denen ein cyanfarbener Bildschirm Schritt für Schritt ausgerollt wird, jeweils mit Häkchen"
   },
   "pilot": {
    "metaTitle": "Pilotprojekt AR-Arbeitsanweisungen in 4 Phasen",
@@ -53464,7 +52981,7 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
        "Hintergrundwissen für Entscheider"
       ],
       [
-       "[Events](/de/ressourcen/events/)",
+       "[Events](/de/events/)",
        "Webinare, Messen und Termine vor Ort"
       ],
       [

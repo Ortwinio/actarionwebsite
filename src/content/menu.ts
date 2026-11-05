@@ -181,6 +181,7 @@ export const menus: Menu[] = [
       cta: L('Lees de gids', 'Read the guide', 'Leitfaden lesen'),
     },
   },
+  { id: 'events', label: L('Events', 'Events', 'Events'), link: 'events', section: ['events'] },
   {
     id: 'bedrijf',
     label: L('Over ons', 'Company', 'Unternehmen'),

@@ -28,8 +28,6 @@ function ExtIcon() {
 
 const LOGOS: Record<string, { src: string; w: number; h: number }> = {
   DeepSight: { src: '/img/partners/deepsight.svg', w: 874, h: 186 },
-  Potentify: { src: '/img/partners/potentify.svg', w: 412, h: 100 },
-  'Simply Change': { src: '/img/partners/simplychange.png', w: 407, h: 85 },
 };
 
 /** Partner logo, linked to the partner's own website (opens in a new tab). */
@@ -96,28 +94,18 @@ export function PartnersDesign({ routeKey: _routeKey, locale }: { routeKey: stri
   );
 }
 
-const MAIN_REGION: Record<string, Region> = { deepsight: 'Benelux / DACH', potentify: 'Benelux', 'simply-change': 'Benelux' };
+const MAIN_REGION: Record<string, Region> = { deepsight: 'Benelux / DACH' };
 
 function RegionChip({ region, locale }: { region: Region; locale: Locale }) {
   return <span className="self-start rounded-full border border-line bg-canvas px-3 py-1.5 font-mono text-[13px]">{networkCopy[locale].regions[region]}</span>;
 }
 
-/** Short description of the three main partners, in the same style as the network partners. */
+/** Short description of the main partner(s), in the same style as the network partners. */
 const MAIN_TEXT: Record<string, Record<Locale, string>> = {
   deepsight: {
     en: 'AR-first connected worker platform: step-by-step instructions, training scenarios and remote support on tablets, smartphones and smart glasses.',
     nl: 'AR-first connected worker platform: stap-voor-stapinstructies, trainingsscenario’s en remote support op tablets, smartphones en smart glasses.',
     de: 'AR-first Plattform für Werkerassistenz: Schritt-für-Schritt-Anweisungen, Trainingsszenarien und Remote-Support auf Tablets, Smartphones und Datenbrillen.',
-  },
-  potentify: {
-    en: 'HR-focused implementation partner that connects work instructions to learning, skills and career paths.',
-    nl: 'HR-gerichte implementatiepartner die werkinstructies verbindt met leren, vaardigheden en loopbaanpaden.',
-    de: 'HR-orientierter Implementierungspartner, der Arbeitsanweisungen mit Lernen, Qualifikationen und Karrierepfaden verbindet.',
-  },
-  'simply-change': {
-    en: 'Partner for change management and implementation, with extensive experience in FMCG and operational transformation.',
-    nl: 'Partner voor verandermanagement en implementatie, met veel ervaring in FMCG en operationele transformatie.',
-    de: 'Partner für Change Management und Implementierung, mit viel Erfahrung in FMCG und operativer Transformation.',
   },
 };
 
@@ -203,7 +191,7 @@ function HardwareNote({ t, locale }: { t: PartnersCopy; locale: Locale }) {
   );
 }
 
-/** Partner detail pages: partnerDeepsight, partnerPotentify, partnerSimplyChange. */
+/** Partner detail page: partnerDeepsight. */
 export function PartnerDetailDesign({ routeKey, locale }: { routeKey: string; locale: Locale }) {
   const t = partnersCopy[locale];
   const p = t.partners.find((x) => x.routeKey === routeKey) ?? t.partners[0];
@@ -243,7 +231,7 @@ export function PartnerDetailDesign({ routeKey, locale }: { routeKey: string; lo
         </div>
       ) : null}
 
-      <section className="mx-auto flex max-w-site flex-col gap-6 px-6 pt-20">
+      {others.length > 0 && <section className="mx-auto flex max-w-site flex-col gap-6 px-6 pt-20">
         <div className="flex flex-wrap items-baseline justify-between gap-4">
           <h2 className="font-display text-[clamp(30px,3.6vw,40px)] font-extrabold tracking-[-0.03em]">{t.detailOther}</h2>
           <Link href={pathFor('partners', locale)} className="inline-flex min-h-[44px] items-center font-bold">{t.detailBack}</Link>
@@ -259,7 +247,7 @@ export function PartnerDetailDesign({ routeKey, locale }: { routeKey: string; lo
             </li>
           ))}
         </ul>
-      </section>
+      </section>}
 
       <HardwareNote t={t} locale={locale} />
 

@@ -54,6 +54,9 @@ export type Row = [
 export const catalog: Row[] = [
   ['home', 'home', null, 1, '', '', '', 'Home', 'Home', 'Start', 'digital work instructions with AI & AR | digitale werkinstructies | digitale Arbeitsanweisungen'],
 
+  // ── Events (own page + main menu tab, change request 5 Nov 2026) ──
+  ['events', 'media', 'home', 1, 'events', 'events', 'events', 'Events', 'Events', 'Events', 'AR events | events AR werkinstructies | AR Events'],
+
   // ── Solutions (commercial core) ──
   ['solutions', 'hub', 'home', 1, 'solutions', 'oplossingen', 'loesungen', 'Solutions', 'Oplossingen', 'Lösungen'],
   ['solDwi', 'solution', 'solutions', 1, 'solutions/digital-work-instructions', 'oplossingen/digitale-werkinstructies', 'loesungen/digitale-arbeitsanweisungen', 'Digital work instructions', 'Digitale werkinstructies', 'Digitale Arbeitsanweisungen', 'digital work instructions | digitale werkinstructies | digitale Arbeitsanweisung'],
@@ -131,7 +134,6 @@ export const catalog: Row[] = [
   ['wpItSecurity', 'whitepaper', 'whitepapers', 2, 'resources/whitepapers/it-security-ar-ai', 'kennisbank/whitepapers/it-beveiliging-ar-ai', 'ressourcen/whitepaper/it-sicherheit-ar-ki', 'IT & security for AR and AI', 'IT en beveiliging bij AR en AI', 'IT-Sicherheit bei AR und KI'],
   ['wpTraining', 'whitepaper', 'whitepapers', 2, 'resources/whitepapers/frontline-training-onboarding-playbook', 'kennisbank/whitepapers/inwerken-training-productie-playbook', 'ressourcen/whitepaper/einarbeitung-schulung-produktion-playbook', 'Frontline training playbook', 'Playbook inwerken en training', 'Playbook Einarbeitung und Schulung'],
   ['report2027', 'report', 'resources', 3, 'resources/frontline-work-report-2027', 'kennisbank/rapport-werkinstructies-2027', 'ressourcen/studie-werkerfuehrung-2027', 'State of frontline work 2027', 'Rapport werkinstructies 2027', 'Studie Werkerführung 2027'],
-  ['events', 'media', 'resources', 2, 'resources/events', 'kennisbank/events', 'ressourcen/events', 'Webinars & events', 'Webinars en events', 'Webinare und Events'],
   ['videos', 'media', 'resources', 2, 'resources/videos', 'kennisbank/videos', 'ressourcen/videos', 'Videos', "Video's", 'Videos'],
 
   // ── Glossary ──
@@ -189,8 +191,6 @@ export const catalog: Row[] = [
   ['caseTransport', 'caseStudy', 'customers', 2, 'customers/transport-maintenance-traceability', 'klanten/transport-onderhoud-traceerbaarheid', 'kunden/transport-wartung-rueckverfolgbarkeit', 'Transport operator', 'Transportbedrijf', 'Verkehrsbetrieb'],
   ['partners', 'hub', 'home', 1, 'partners', 'partners', 'partner', 'Partners', 'Partners', 'Partner'],
   ['partnerDeepsight', 'partner', 'partners', 1, 'partners/deepsight', 'partners/deepsight', 'partner/deepsight', 'DeepSight', 'DeepSight', 'DeepSight'],
-  ['partnerPotentify', 'partner', 'partners', 1, 'partners/potentify', 'partners/potentify', 'partner/potentify', 'Potentify', 'Potentify', 'Potentify'],
-  ['partnerSimplyChange', 'partner', 'partners', 1, 'partners/simply-change', 'partners/simply-change', 'partner/simply-change', 'Simply Change', 'Simply Change', 'Simply Change'],
   ['partnerBecome', 'contact', 'partners', 1, 'partners/become-a-partner', 'partners/partner-worden', 'partner/partner-werden', 'Become a partner', 'Partner worden', 'Partner werden'],
 
   // ── Conversion ──
