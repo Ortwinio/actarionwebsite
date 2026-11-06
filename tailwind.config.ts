@@ -1,33 +1,30 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from 'tailwindcss';
 
+/** Design tokens from the ActARion redesign (one system for site and ROI calculator). */
 const config: Config = {
-  content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
-  darkMode: 'class',
+  content: ['./src/**/*.{ts,tsx}'],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
       colors: {
-        'actarion-blue': '#1a80c2',
-        'actarion-blue-strong': '#0f67a3',
-        'actarion-dark': '#041430',
+        canvas: '#F4F7FA',
+        ink: { DEFAULT: '#10253A', 2: '#17324D', 3: '#2C4560' },
+        primary: { DEFAULT: '#166FA9', hover: '#125C8C', focus: '#1B81C4' },
+        sky: '#A9DBF5',
+        tint: '#E6F1F9',
+        line: '#DCE4EB',
+        muted: { DEFAULT: '#4A5D6E', light: '#B8CBDA', lighter: '#D7E3EC' },
+        warn: { bg: '#FFF1D6', fg: '#6B4A00' },
       },
       fontFamily: {
-        sans: ['var(--font-sans)', 'Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        sans: ['var(--font-body)', 'system-ui', 'sans-serif'],
+        display: ['var(--font-display)', 'system-ui', 'sans-serif'],
+        mono: ['var(--font-mono)', 'ui-monospace', 'monospace'],
       },
-      boxShadow: {
-        card: 'var(--shadow-card)',
-        soft: 'var(--shadow-soft)',
-      },
+      borderRadius: { card: '24px', panel: '32px' },
+      maxWidth: { site: '1200px', prose: '720px' },
+      boxShadow: { float: '0 18px 40px rgba(16,37,58,.16)' },
     },
   },
-  plugins: [require('@tailwindcss/typography')],
-}
-export default config 
+  plugins: [],
+};
+export default config;

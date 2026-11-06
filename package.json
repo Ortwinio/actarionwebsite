@@ -1,59 +1,39 @@
 {
-  "name": "ActARion-website",
-  "version": "1.0.0",
-  "description": "ActARion - Revolutionizing SOP Execution with Augmented Reality",
+  "name": "actarion-website",
+  "version": "2.0.0",
+  "description": "ActARion website v2 \u2013 AI & AR-guided work instructions",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack -p 3000",
     "build": "next build",
-    "build:analyze": "ANALYZE=true next build",
     "start": "next start",
     "lint": "next lint",
-    "lint:fix": "next lint --fix",
     "type-check": "tsc --noEmit",
-    "check:locales": "node scripts/checkLocales.ts",
     "qa": "npm run type-check && npm run lint",
-    "format": "prettier --write .",
-    "format:check": "prettier --check .",
-    "clean": "rm -rf .next out .velite",
-    "prebuild": "npm run clean && velite build",
-    "postbuild": "npm run type-check"
+    "prebuild": "node scripts/check-assets.mjs"
   },
   "dependencies": {
-    "@heroicons/react": "^2.2.0",
     "@vercel/analytics": "^1.6.1",
     "@vercel/speed-insights": "^1.3.1",
-    "framer-motion": "^10.18.0",
     "next": "15.5.19",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "reading-time": "^1.5.0",
-    "resend": "^6.12.4"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",
     "@next/eslint-plugin-next": "^15.5.19",
-    "@playwright/test": "^1.61.0",
-    "@tailwindcss/typography": "^0.5.20",
     "@types/node": "^20.19.43",
     "@types/react": "^18.3.31",
     "@types/react-dom": "^18.3.7",
     "autoprefixer": "^10.5.0",
     "eslint": "^9.39.4",
     "eslint-config-next": "15.4.1",
-    "github-slugger": "^2.0.0",
     "globals": "^15.15.0",
     "postcss": "^8.5.15",
     "prettier": "^3.8.4",
-    "rehype-autolink-headings": "^7.1.0",
-    "rehype-pretty-code": "^0.14.3",
-    "rehype-slug": "^6.0.0",
-    "remark-gfm": "^4.0.1",
-    "shiki": "^1.29.2",
     "tailwindcss": "^3.4.19",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.61.1",
-    "velite": "^0.2.4"
+    "typescript-eslint": "^8.61.1"
   },
   "engines": {
     "node": "22.x",
@@ -77,5 +57,11 @@
   "bugs": {
     "url": "https://github.com/Ortwinio/ActARionwebsite/issues"
   },
-  "homepage": "https://ActARion.com"
+  "homepage": "https://ActARion.com",
+  "browserslist": [
+    "chrome >= 111",
+    "edge >= 111",
+    "firefox >= 111",
+    "safari >= 16.4"
+  ]
 }

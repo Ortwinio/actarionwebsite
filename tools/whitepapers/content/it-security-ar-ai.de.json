@@ -1,0 +1,492 @@
+{
+ "slug": "it-security-ar-ai",
+ "lang": "de",
+ "title": "IT- und Sicherheitsdossier: AR und KI in der Produktion",
+ "subtitle": "Was IT/OT, CISO und Datenschutzbeauftragte prüfen sollten, bevor digitale und AR-Arbeitsanweisungen live gehen: Geräte, Netzwerk, Identität, Daten, DSGVO, EU AI Act und NIS2",
+ "keyword": "IT-Sicherheit AR KI",
+ "metaTitle": "IT-Sicherheit für AR und KI in der Fertigung | ActARion",
+ "metaDescription": "Sicherheitsdossier für AR- und KI-Arbeitsanweisungen: MDM, OT-Segmentierung, SSO, DSGVO, Betriebsrat, EU AI Act, NIS2 und Anbieter-Checkliste.",
+ "audience": "IT/OT-Leitung, CISOs, Datenschutzbeauftragte und Ansprechpartner des Betriebsrats in der Industrie",
+ "readingTime": 13,
+ "answer": "AR- und KI-gestützte Arbeitsanweisungen lassen sich sicher einführen, wenn man sie wie jede andere operative Anwendung behandelt: verwaltete Geräte, ein Netzsegment ohne Route ins OT-Netz, SSO mit Rollenmodell, minimale und dokumentierte Datenerfassung, eine DSFA, frühe Einbindung des Betriebsrats, EU-Hosting und menschliche Freigabe jeder KI-erstellten Anweisung.",
+ "keyTakeaways": [
+  "Tablets, Smartphones und Headsets sind verwaltete Endgeräte: MDM, Kiosk- oder Shared-Device-Modus, Fernlöschung und kontrollierte Updates.",
+  "Die Anweisungsplattform gehört nicht in die OT-Steuerungszone; Werker brauchen Inhalte, keinen Zugriff auf SPS oder SCADA.",
+  "Fotos, Videos und Schrittprotokolle sind personenbezogene Daten, sobald sie einem Mitarbeitenden zugeordnet werden können. DSFA durchführen und den Betriebsrat vor dem Pilot einbinden.",
+  "Nach dem EU AI Act sind KI-erstellte Arbeitsanweisungen in der Regel kein Hochrisiko-System, aber menschliche Prüfung, Nachvollziehbarkeit und KI-Kompetenz sind von Anfang an sinnvoll."
+ ],
+ "chapters": [
+  {
+   "title": "Warum gehören IT und Sicherheit vor den ersten Pilot?",
+   "lead": "Weil AR und KI in der Produktion gleichzeitig Geräte, Netzwerke, Identitäten und personenbezogene Daten betreffen. Wer IT/OT, CISO und Datenschutzbeauftragte früh einbindet, vermeidet einen Pilot, der operativ funktioniert, aber nicht skaliert werden kann.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Digitale und AR-Arbeitsanweisungen starten meist im Betrieb. Die Werkleitung will schnellere Einarbeitung, die Qualität weniger Abweichungen, die Instandhaltung Unterstützung aus der Ferne. Die Technik wird nach Bedienbarkeit ausgewählt. Sicherheitsfragen tauchen später auf, oft dann, wenn aus dem Pilot ein Rollout werden soll. Das ist der teuerste Zeitpunkt, um festzustellen, dass Geräte nicht verwaltet werden oder Videos außerhalb der EU liegen."
+    },
+    {
+     "type": "p",
+     "text": "Dieses Dossier richtet sich an diejenigen, die dem Rollout zustimmen müssen: IT- und OT-Verantwortliche, CISO, Datenschutzbeauftragte und die Schnittstelle zum Betriebsrat. Es beschreibt den typischen Aufbau, die realen Risiken und die Fragen an jeden Anbieter, auch an DeepSight, die Plattform, die ActARion implementiert."
+    },
+    {
+     "type": "h3",
+     "text": "Typischer Aufbau eines Werkerassistenzsystems"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Komponente",
+      "Funktion",
+      "Zentrale Sicherheitsfrage"
+     ],
+     "rows": [
+      [
+       "Autorenumgebung (Browser)",
+       "Ingenieure und Trainer erstellen und geben Anweisungen frei",
+       "Wer darf veröffentlichen, gibt es einen Freigabenachweis?"
+      ],
+      [
+       "Player-App auf Tablet, Smartphone oder Headset",
+       "Werker folgt Schritten, macht Fotos, bestätigt Prüfungen",
+       "Ist das Gerät verwaltet und fernlöschbar?"
+      ],
+      [
+       "Cloud-Plattform",
+       "Speichert Anweisungen, Medien, Ausführungsprotokolle",
+       "Wo liegen die Daten und wer hat Zugriff?"
+      ],
+      [
+       "KI-Dienste",
+       "Entwürfe aus Dokumenten, Video oder Audio; Übersetzung",
+       "Welche Daten gehen an welches Modell, werden sie für Training genutzt?"
+      ],
+      [
+       "Schnittstellen (optional)",
+       "ERP/MES/CMMS, Identity Provider, LMS",
+       "In welche Richtung fließen Daten, mit welchen Zugangsdaten?"
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "title": "Definition: Werkerassistenzsystem",
+     "text": "Ein Werkerassistenzsystem stellt Mitarbeitenden in Produktion und Instandhaltung digitale Arbeitsanweisungen, Checklisten und Unterstützung auf mobilen oder tragbaren Geräten bereit und dokumentiert die Ausführung. Aus Sicherheitssicht ist es eine Geschäftsanwendung mit mobilen Endgeräten und personenbezogenen Daten, kein OT-System."
+    }
+   ]
+  },
+  {
+   "title": "Wie verwalten Sie Tablets, Smartphones und AR-Headsets?",
+   "lead": "Jedes Gerät gehört ins Mobile Device Management (MDM), läuft in einem abgesicherten Kiosk- oder Shared-Device-Profil und erhält App- und Firmware-Updates zentral gesteuert. Headsets verdienen dieselbe Sorgfalt wie Tablets, auch wenn die MDM-Unterstützung je Modell variiert.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Geräte in der Produktion werden geteilt, herumgetragen, fallen herunter und verschwinden gelegentlich. Die Basis ist daher strenger als beim Büro-Laptop. Ein MDM- oder UEM-System ist meist vorhanden; die Arbeit liegt in einem eigenen Profil für den Shopfloor."
+    },
+    {
+     "type": "h3",
+     "text": "Basisprofil für Shopfloor-Geräte"
+    },
+    {
+     "type": "checklist",
+     "items": [
+      "Gerät im MDM/UEM registriert, bevor es an die Linie kommt; keine private Registrierung.",
+      "Kiosk- oder Single-App-Modus, wo möglich.",
+      "Shared-Device-Modus mit persönlicher Anmeldung pro Schicht statt Sammelkonto.",
+      "Bildschirmsperre, Verschlüsselung und automatische Abmeldung bei Inaktivität.",
+      "Kamera- und Mikrofonrechte nur für die Anweisungs-App.",
+      "Fernsperre und Fernlöschung getestet, auch für Headsets.",
+      "App- und OS-Updates gestaffelt: erst Testgerät, dann Linie, außerhalb von Produktionsspitzen.",
+      "Kennzeichnung und Inventarverzeichnis, damit verlorene Geräte schnell auffallen."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "AR-Headsets: Was ist anders?"
+    },
+    {
+     "type": "p",
+     "text": "Head-mounted Displays laufen oft mit eigenem Betriebssystem und unterstützen nur einen Teil der MDM-Funktionen. Fragen Sie den Anbieter, welche MDM-Systeme unterstützt werden, wie Firmware-Updates verteilt werden und ob Raumkarten oder Scans auf dem Gerät oder in der Cloud gespeichert werden. Räumliche Daten können das Hallenlayout offenlegen, was manche Standorte als vertraulich einstufen."
+    },
+    {
+     "type": "p",
+     "text": "Bring Your Own Device ist in der Produktion selten geeignet. Müssen Fremdfirmen oder Servicetechniker eigene Smartphones nutzen, beschränken Sie diese auf ein containerisiertes App-Profil mit Gastinhalten ohne Zugriff auf interne Anweisungen."
+    }
+   ]
+  },
+  {
+   "title": "Wie binden Sie AR ins Netz ein, ohne die OT zu berühren?",
+   "lead": "Shopfloor-Geräte kommen in ein eigenes WLAN-Segment mit Zugang zur Plattform, aber ohne Route ins Steuerungsnetz. Schnittstellen zu MES oder CMMS laufen Server-zu-Server über die DMZ, nie vom Gerät aus.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Die meisten Werke arbeiten mit Zonen und Conduits im Sinne der IEC 62443 oder des Purdue-Modells: Unternehmens-IT oben, eine demilitarisierte Zone (DMZ) in der Mitte, Steuerungssysteme (SPS, SCADA, PLS) unten. Anweisungsgeräte gehören auf die IT-Seite dieser Grenze, auch wenn sie physisch neben der Maschine stehen."
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "t": "Eigene SSID und eigenes VLAN",
+       "d": "Shopfloor-Geräte von Büro-Clients und OT trennen. Zertifikatsbasierte WLAN-Authentifizierung (802.1X) statt gemeinsamem Passwort."
+      },
+      {
+       "t": "Nur das Nötige freigeben",
+       "d": "Ausgehendes HTTPS zu den dokumentierten Endpunkten der Plattform. Domain- und Portliste beim Anbieter anfordern und in Firewall oder Proxy freischalten."
+      },
+      {
+       "t": "Laterale Verbindungen sperren",
+       "d": "Keine Routen vom Geräte-VLAN zu SPS, HMI oder Engineering-Stationen. Remote-Support darf keine Hintertür in die OT sein."
+      },
+      {
+       "t": "Integration in der DMZ",
+       "d": "Müssen Schrittdaten ins MES oder CMMS, dann über Konnektor oder Middleware in der DMZ mit eigenem Dienstkonto und Protokollierung."
+      },
+      {
+       "t": "Funklöcher einplanen",
+       "d": "WLAN-Abdeckung an jedem Arbeitsplatz prüfen. Klären, ob Anweisungen offline verfügbar sind und wie Protokolle danach synchronisieren."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "title": "Remote-Expertensitzungen",
+     "text": "Live-Videositzungen mit externen Experten sind oft die wertvollste und zugleich sensibelste Funktion. Legen Sie fest, welche Bereiche gefilmt werden dürfen, ob Sitzungen aufgezeichnet werden, wo Aufnahmen liegen und wie lange sie aufbewahrt werden."
+    }
+   ]
+  },
+  {
+   "title": "Welche Daten werden gespeichert und was verlangt die DSGVO?",
+   "lead": "Fotos, Videos, Audio und Schrittprotokolle sind personenbezogene Daten, sobald sie einer Person zugeordnet werden können. Die DSGVO verlangt dann eine Rechtsgrundlage, Datenminimierung, definierte Löschfristen und bei systematischer Überwachung eine Datenschutz-Folgenabschätzung (DSFA).",
+   "blocks": [
+    {
+     "type": "h3",
+     "text": "Dateninventar"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Datenart",
+      "Beispiel",
+      "Personenbezogen?",
+      "Typische Aufbewahrungsfrage"
+     ],
+     "rows": [
+      [
+       "Anweisungsinhalte",
+       "Schritte, 3D-Modelle, Referenzfotos",
+       "Selten (außer Personen sind sichtbar)",
+       "Versionshistorie, solange das Produkt betreut wird"
+      ],
+      [
+       "Ausführungsprotokolle",
+       "Wer hat welchen Schritt wann ausgeführt, Dauer, Bestätigungen",
+       "Ja",
+       "So lange wie für Rückverfolgbarkeit nötig"
+      ],
+      [
+       "Nachweisfotos",
+       "Foto der Drehmomenteinstellung oder des Etiketts",
+       "Möglich (Gesichter, Ausweise)",
+       "An Chargen- oder Auftragsaufbewahrung gekoppelt"
+      ],
+      [
+       "Video und Audio",
+       "Remote-Support, Aufnahmen für KI-Entwürfe",
+       "Ja",
+       "Standardmäßig kurz; länger nur mit Begründung"
+      ],
+      [
+       "Kontodaten",
+       "Name, Rolle, Sprache, Qualifikationen",
+       "Ja",
+       "Beschäftigungsdauer plus definierte Frist"
+      ],
+      [
+       "Räumliche Daten",
+       "Raumscans, Anker",
+       "Meist nicht, ggf. vertraulich",
+       "Löschen bei Linienänderung"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "DSFA: wann und wie"
+    },
+    {
+     "type": "p",
+     "text": "Art. 35 DSGVO verlangt eine DSFA, wenn eine Verarbeitung voraussichtlich ein hohes Risiko birgt, insbesondere bei systematischer Überwachung. Schrittprotokolle mit Zeitstempel pro Werker können zur Leistungsüberwachung genutzt werden. Die meisten Datenschutzbeauftragten verlangen daher eine DSFA oder zumindest eine dokumentierte Schwellwertanalyse, idealerweise schon im Pilotdesign."
+    },
+    {
+     "type": "checklist",
+     "items": [
+      "Zweck beschrieben: Arbeitsanweisung, Rückverfolgbarkeit, Qualifizierung, keine individuelle Leistungsrangliste.",
+      "Rechtsgrundlage dokumentiert (z. B. berechtigtes Interesse oder rechtliche Pflicht zur Rückverfolgbarkeit).",
+      "Datenminimierung: Auswertung auf Team- oder pseudonymisierter Ebene, wo Namen nicht nötig sind.",
+      "Löschfristen pro Datenart, technisch umgesetzt.",
+      "Auftragsverarbeitungsvertrag (AVV) und Liste der Unterauftragsverarbeiter.",
+      "Drittlandtransfers identifiziert und abgesichert oder vermieden.",
+      "Information der Beschäftigten in verständlicher Sprache und in den Sprachen der Belegschaft."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Betriebsrat: Mitbestimmung nach § 87 BetrVG"
+    },
+    {
+     "type": "p",
+     "text": "Nach § 87 Abs. 1 Nr. 6 BetrVG hat der Betriebsrat ein Mitbestimmungsrecht bei der Einführung und Anwendung technischer Einrichtungen, die dazu bestimmt sind, das Verhalten oder die Leistung der Arbeitnehmer zu überwachen. Nach ständiger Rechtsprechung genügt bereits die objektive Eignung zur Überwachung; auf die Absicht des Arbeitgebers kommt es nicht an. Ein Werkerassistenzsystem mit personenbezogenen Schrittprotokollen ist daher praktisch immer mitbestimmungspflichtig. In Österreich gelten mit dem ArbVG vergleichbare Zustimmungsrechte."
+    },
+    {
+     "type": "p",
+     "text": "In der Praxis regelt eine Betriebsvereinbarung, welche Daten erhoben werden, wer Einzeldaten sieht, dass keine individuelle Leistungs- und Verhaltenskontrolle erfolgt (sofern nicht ausdrücklich vereinbart) und wie Beschäftigte informiert werden. Eine frühe Einbindung beschleunigt den Rollout meist, weil die Akzeptanz in der Belegschaft steigt."
+    },
+    {
+     "type": "callout",
+     "title": "Hosting",
+     "text": "Hosting-Region der Plattform: [EU-Hosting: bestätigen]. Dieselbe Frage gilt für KI-Dienste, die mitunter in einer anderen Region als die Hauptplattform verarbeitet werden."
+    }
+   ]
+  },
+  {
+   "title": "Was bedeutet der EU AI Act für KI-erstellte Arbeitsanweisungen?",
+   "lead": "KI zum Entwerfen, Übersetzen oder Zusammenfassen von Arbeitsanweisungen ist nach dem EU AI Act in der Regel keine Hochrisiko-Anwendung. Relevant sind Transparenz, KI-Kompetenz und vor allem eine solide menschliche Prüfung, bevor ein KI-Entwurf an die Linie geht.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Der EU AI Act (Verordnung (EU) 2024/1689) gilt stufenweise. Verbotene Praktiken und KI-Kompetenz gelten seit dem 2. Februar 2025, Regeln für KI-Modelle mit allgemeinem Verwendungszweck seit dem 2. August 2025. Seit dem 2. August 2026 ist die Verordnung allgemein anwendbar."
+    },
+    {
+     "type": "p",
+     "text": "2026 hat die EU den Digital-Omnibus zur KI verabschiedet, der die Hochrisiko-Fristen verschiebt; er wurde am 24. Juli 2026 im Amtsblatt veröffentlicht. Pflichten für eigenständige Hochrisiko-Systeme nach Anhang III, darunter KI in Beschäftigung und Personalmanagement, gelten nun ab dem 2. Dezember 2027. Für Hochrisiko-KI in regulierten Produkten nach Anhang I gilt der 2. August 2028. Der Omnibus hat zudem den Artikel zur KI-Kompetenz umformuliert: Kommission und Mitgliedstaaten fördern sie, statt Anbietern und Betreibern eine direkte Pflicht aufzuerlegen. Prüfen Sie vor der Festlegung interner Richtlinien die aktuellen Leitlinien, da weitere Durchführungsdokumente folgen."
+    },
+    {
+     "type": "h3",
+     "text": "Einordnung typischer Anwendungen"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Anwendung",
+      "Voraussichtliche Einstufung",
+      "Maßnahme"
+     ],
+     "rows": [
+      [
+       "KI entwirft Schritte aus Handbuch oder Video; Ingenieur prüft und gibt frei",
+       "Kein Hochrisiko",
+       "Menschliche Prüfung, Versionierung, KI-Inhalte intern kennzeichnen"
+      ],
+      [
+       "KI übersetzt freigegebene Anweisungen",
+       "Kein Hochrisiko",
+       "Prüfung durch Muttersprachler bei sicherheitskritischen Schritten"
+      ],
+      [
+       "KI-Assistent beantwortet Fragen aus freigegebenen Inhalten",
+       "Meist kein Hochrisiko; Transparenzpflicht",
+       "Nutzer informieren; auf freigegebene Quellen beschränken"
+      ],
+      [
+       "KI bewertet individuelle Leistung oder verteilt Aufgaben",
+       "Möglicherweise Hochrisiko (Anhang III, Beschäftigung)",
+       "Aus dem Scope nehmen oder separates Projekt mit Rechtsprüfung"
+      ],
+      [
+       "Emotionserkennung bei Beschäftigten",
+       "Am Arbeitsplatz verboten (enge Ausnahmen)",
+       "Nicht einsetzen"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Freigabeprozess für KI-Entwürfe"
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "t": "Als Entwurf erzeugen",
+       "d": "KI-Ausgaben werden immer als Entwurf gespeichert, nie direkt veröffentlicht."
+      },
+      {
+       "t": "Fachliche Prüfung",
+       "d": "Prozess- oder Instandhaltungsingenieur prüft jeden Schritt, jede Toleranz, jedes Drehmoment und jede Werkzeugangabe gegen die Quelle."
+      },
+      {
+       "t": "Arbeitssicherheit und Qualität",
+       "d": "Die Fachkraft für Arbeitssicherheit prüft Warnhinweise und PSA; die Qualität prüft kritische Merkmale und Prüfpunkte."
+      },
+      {
+       "t": "Freigeben und versionieren",
+       "d": "Freigebende Person, Datum und Version werden dokumentiert; Vorgängerversionen bleiben abrufbar."
+      },
+      {
+       "t": "An der Linie validieren",
+       "d": "Ein erfahrener Werker führt die Anweisung einmal aus; Erkenntnisse fließen vor der breiten Freigabe zurück."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "title": "Modelltraining mit Ihren Daten",
+     "text": "Fragen Sie ausdrücklich, ob Ihre Dokumente, Bilder oder Videos zum Training von KI-Modellen des Anbieters oder Dritter genutzt werden und ob Sie widersprechen können. Halten Sie die Antwort im Vertrag fest, nicht nur in einer Vertriebspräsentation."
+    }
+   ]
+  },
+  {
+   "title": "Gilt NIS2, und wie passen Identität und SSO dazu?",
+   "lead": "Viele Hersteller, Lebensmittel- und Energieunternehmen fallen unter NIS2, womit Lieferkettensicherheit ausdrücklich Leitungsaufgabe wird. Single Sign-on mit Rollenmodell ist die wirksamste Einzelmaßnahme für eine Shopfloor-Plattform.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Die NIS2-Richtlinie (EU) 2022/2555 erweitert die Cybersicherheitspflichten auf mittlere und große Einrichtungen in Sektoren wie Energie, Lebensmittel, Maschinenbau, Medizinprodukte und Chemie. Art. 21 nennt die Risikomanagementmaßnahmen, ausdrücklich auch Sicherheit der Lieferkette, Zugriffskontrolle und Multi-Faktor-Authentifizierung. Umsetzung und Zeitplan unterscheiden sich in Deutschland und Österreich; die Schweiz ist kein EU-Mitglied, orientiert sich aber häufig daran. Klären Sie Ihre Betroffenheit mit der Rechtsabteilung."
+    },
+    {
+     "type": "p",
+     "text": "Für eine Anweisungsplattform heißt NIS2 vor allem: Sie müssen nachweisen können, dass der Anbieter bewertet wurde, der Zugriff kontrolliert ist und Sicherheitsvorfälle schnell genug gemeldet werden, damit Sie Ihre eigenen Meldepflichten erfüllen."
+    },
+    {
+     "type": "h3",
+     "text": "Identität und Zugriff"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**SSO** über Ihren Identity Provider (SAML 2.0 oder OpenID Connect) für Autoren, Freigebende und Administratoren. Unterstützung: [SSO-Protokolle: bestätigen].",
+      "**Multi-Faktor-Authentifizierung** für jede Rolle, die Inhalte veröffentlichen oder ändern darf.",
+      "**Werker-Anmeldung**, die zur Linie passt: Ausweis, QR-Code oder kurze PIN auf einem verwalteten Gerät, verknüpft mit einer namentlichen Identität.",
+      "**Rollenmodell**: Autor, Prüfer, Freigeber, Werker, Administrator, externer Experte; Rechte pro Standort und Linie.",
+      "**Automatisches Anlegen und Entziehen von Konten** (z. B. SCIM), damit Ausgeschiedene am selben Tag keinen Zugriff mehr haben.",
+      "**Audit-Logs** zu Anmeldungen, Veröffentlichungen und Admin-Änderungen, exportierbar ins SIEM."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Welche Fragen gehören in den Sicherheitsfragebogen für Anbieter?",
+   "lead": "Nutzen Sie einen kurzen, spezifischen Fragebogen zu Zertifizierung, Hosting, Datenverarbeitung, KI, Zugriff, Verfügbarkeit und Exit. Verlangen Sie Nachweise statt Ja/Nein-Antworten.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Die meisten Unternehmen haben einen Standardfragebogen für Lieferanten. Die folgende Liste ergänzt die Fragen, die speziell für AR und KI in der Produktion relevant sind. ActARion unterstützt Kunden dabei, diese Antworten von DeepSight einzuholen und für Datenschutz und Betriebsrat zu dokumentieren."
+    },
+    {
+     "type": "checklist",
+     "items": [
+      "Zertifizierung der Informationssicherheit und Geltungsbereich: [ISO 27001: bestätigen].",
+      "Hosting-Standort und Unterauftragsverarbeiter für Plattform, Medienspeicher und KI-Dienste.",
+      "Verschlüsselung bei Übertragung (TLS-Version) und Speicherung; Schlüsselverwaltung.",
+      "Letzter unabhängiger Penetrationstest, Umfang und Status der Behebung: [Pentest: Datum und Umfang bestätigen].",
+      "Unterstützte MDM-Systeme und Headset-Modelle; Offline-Verhalten.",
+      "SSO, MFA, SCIM und Rollenmodell; Export der Audit-Logs.",
+      "Aufbewahrungseinstellungen pro Datenart; Löschung auf Anfrage und bei Vertragsende.",
+      "Nutzung von Kundendaten für Modelltraining; Opt-out; welche KI-Modelle, wo betrieben.",
+      "Freigabeworkflow und Versionierung für KI-Inhalte.",
+      "Meldefrist und Kontakt bei Sicherheitsvorfällen; Abstimmung auf NIS2- und DSGVO-Fristen.",
+      "Business Continuity: Verfügbarkeitsziel, Backups, Wiederherstellungstests.",
+      "Exit: Exportformat für Anweisungen, Medien und Protokolle."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Praktische Reihenfolge"
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "t": "Woche 1: Scope",
+       "d": "Pilotlinie, Gerätetyp, zu erfassende Daten und Schnittstellen festlegen. IT/OT, Datenschutz und Betriebsrat einladen."
+      },
+      {
+       "t": "Woche 2–3: Bewertung",
+       "d": "Anbieterfragebogen, DSFA-Schwellwertanalyse, Netzwerkdesign, MDM-Profil."
+      },
+      {
+       "t": "Woche 3–4: Vereinbarungen",
+       "d": "AVV, Betriebsvereinbarung zur Datennutzung, internes Freigabeverfahren für KI-Inhalte."
+      },
+      {
+       "t": "Pilot",
+       "d": "Mit den vereinbarten Maßnahmen arbeiten; Sicherheitsbefunde neben den operativen KPIs dokumentieren."
+      },
+      {
+       "t": "Rollout-Entscheidung",
+       "d": "Befunde auswerten, Maßnahmen anpassen, dann standortweise skalieren."
+      }
+     ]
+    },
+    {
+     "type": "kpis",
+     "items": [
+      {
+       "n": "0",
+       "l": "Routen vom Geräte-VLAN ins OT-Steuerungsnetz"
+      },
+      {
+       "n": "100 %",
+       "l": "der KI-Entwürfe von einer benannten Person freigegeben"
+      },
+      {
+       "n": "1 Tag",
+       "l": "Zielwert für den Zugriffsentzug bei Austritt"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ist AR in der Produktion ein OT-Sicherheitsrisiko?",
+   "a": "Nicht bei richtiger Architektur. Anweisungsgeräte brauchen Inhalte aus einer Geschäftsanwendung, keinen Zugriff auf Steuerungen. Betreiben Sie sie in einem eigenen Netzsegment ohne Routen zu SPS oder SCADA und führen Sie MES- oder CMMS-Schnittstellen serverseitig über die DMZ."
+  },
+  {
+   "q": "Brauchen wir eine DSFA für digitale Arbeitsanweisungen?",
+   "a": "Häufig ja, zumindest eine dokumentierte Schwellwertanalyse. Personenbezogene Schrittprotokolle eignen sich zur Leistungsüberwachung, ein typischer Auslöser nach Art. 35 DSGVO. Die Entscheidung trifft Ihr Datenschutzbeauftragter, am besten schon im Pilotdesign."
+  },
+  {
+   "q": "Muss der Betriebsrat zustimmen?",
+   "a": "In aller Regel ja. Nach § 87 Abs. 1 Nr. 6 BetrVG genügt die objektive Eignung eines Systems zur Verhaltens- oder Leistungskontrolle. Eine Betriebsvereinbarung schafft Klarheit und Akzeptanz."
+  },
+  {
+   "q": "Sind KI-erstellte Arbeitsanweisungen nach dem EU AI Act Hochrisiko?",
+   "a": "In der Regel nicht, wenn KI nur Entwürfe oder Übersetzungen liefert, die Menschen prüfen und freigeben. KI zur Bewertung oder Steuerung einzelner Beschäftigter kann unter Anhang III fallen; diese Pflichten gelten nach dem Digital-Omnibus ab dem 2. Dezember 2027."
+  },
+  {
+   "q": "Kann die Plattform in der EU gehostet werden?",
+   "a": "Das ist je Anbieter und Komponente zu bestätigen, einschließlich der KI-Dienste. ActARion holt diese Informationen für DeepSight im Erstgespräch ein."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Verordnung (EU) 2024/1689 (KI-Verordnung), EUR-Lex",
+   "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+  },
+  {
+   "title": "Future of Privacy Forum: The AI Act implementation timeline – what changes under the AI Omnibus?",
+   "url": "https://fpf.org/blog/the-ai-act-implementation-timeline-what-changes-under-the-ai-omnibus"
+  },
+  {
+   "title": "Sidley Data Matters: EU lawmakers reach provisional agreement to delay key EU AI Act obligations",
+   "url": "https://datamatters.sidley.com/2026/06/22/eu-lawmakers-reach-provisional-agreement-to-delay-key-eu-ai-act-obligations/"
+  },
+  {
+   "title": "Verordnung (EU) 2016/679 (DSGVO), EUR-Lex",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+  },
+  {
+   "title": "Richtlinie (EU) 2022/2555 (NIS2), EUR-Lex",
+   "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj"
+  },
+  {
+   "title": "Betriebsverfassungsgesetz § 87 Mitbestimmungsrechte",
+   "url": "https://www.gesetze-im-internet.de/betrvg/__87.html"
+  }
+ ],
+ "cta": {
+  "title": "Kostenloses Erstgespräch vereinbaren",
+  "text": "Sie möchten Sicherheitsbewertung, DSFA und Betriebsvereinbarung vorbereiten, bevor der Pilot startet? Vereinbaren Sie ein kostenloses Erstgespräch mit Mark Dercksen (DACH) oder Jack Kessels (Benelux). Wir bringen die Anbieterantworten und ein bewährtes Pilotkonzept mit."
+ }
+}

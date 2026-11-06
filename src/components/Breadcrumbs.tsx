@@ -1,82 +1,36 @@
-import Link from "next/link";
+import Link from 'next/link';
+import { getPage, type Locale } from '@/lib/i18n';
+import { pathFor, trailFor, type RouteKey } from '@/lib/routes';
+import { headerText } from '@/content/menu';
 
-export interface BreadcrumbItem {
-  name: string;
-  url: string;
-}
+const Sep = () => (
+  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M5 3l4 4-4 4" stroke="#8597A6" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
+);
 
-interface BreadcrumbsProps {
-  items: BreadcrumbItem[];
-  className?: string;
-}
-
-/**
- * Breadcrumbs component for consistent navigation hierarchy display.
- * Implements SEO-friendly markup with proper accessibility.
- * 
- * Note: This component renders visual breadcrumbs only.
- * For JSON-LD structured data, use buildBreadcrumbListSchema from config/seo.ts
- * 
- * @example
- * ```tsx
- * const breadcrumbs = [
- *   { name: 'Home', url: '/en' },
- *   { name: 'Use Cases', url: '/en/use-cases' },
- *   { name: 'AR Training', url: '/en/use-cases/ar-training-and-onboarding' },
- * ];
- * 
- * <Breadcrumbs items={breadcrumbs} />
- * ```
- */
-export function Breadcrumbs({ items, className = "" }: BreadcrumbsProps) {
-  if (items.length === 0) return null;
-
+/** Breadcrumb bar from the redesign: grey band with crumbs left and the localized URL right. */
+export function Breadcrumbs({ routeKey, locale }: { routeKey: RouteKey; locale: Locale }) {
+  const trail = trailFor(routeKey);
   return (
-    <nav 
-      aria-label="Breadcrumb" 
-      className={`text-sm text-slate-600 ${className}`}
-    >
-      <ol className="flex flex-wrap items-center gap-2">
-        {items.map((item, index) => {
-          const isLast = index === items.length - 1;
-          
-          return (
-            <li key={item.url} className="flex items-center gap-2">
-              {index > 0 && (
-                <span className="text-slate-400" aria-hidden="true">/</span>
-              )}
-              {isLast ? (
-                <span 
-                  className="text-slate-900 font-medium"
-                  aria-current="page"
-                >
-                  {item.name}
-                </span>
-              ) : (
-                <Link 
-                  href={item.url} 
-                  className="hover:text-actarion-blue transition-colors"
-                >
-                  {item.name}
-                </Link>
-              )}
-            </li>
-          );
-        })}
-      </ol>
-    </nav>
+    <div className="border-b border-line bg-canvas">
+      <nav aria-label={headerText.crumbLabel[locale]} className="mx-auto flex min-h-11 max-w-site flex-wrap items-center justify-between gap-4 px-6">
+        <ol className="flex flex-wrap items-center gap-1 text-sm">
+          {trail.map((k, i) => {
+            const last = i === trail.length - 1;
+            const label = k === 'home' ? headerText.home[locale] : getPage(locale, k).label;
+            return (
+              <li key={k} className="inline-flex items-center gap-1">
+                {i > 0 && <Sep />}
+                {last ? (
+                  <span aria-current="page" className="px-1 font-bold text-ink">{label}</span>
+                ) : (
+                  <Link href={pathFor(k, locale)} className="inline-flex min-h-11 items-center px-1 text-muted">{label}</Link>
+                )}
+              </li>
+            );
+          })}
+        </ol>
+        <span className="hidden font-mono text-xs text-muted sm:inline">actarion.com{pathFor(routeKey, locale)}/</span>
+      </nav>
+    </div>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

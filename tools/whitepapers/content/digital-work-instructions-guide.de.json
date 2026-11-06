@@ -1,0 +1,393 @@
+{
+ "slug": "digital-work-instructions-guide",
+ "lang": "de",
+ "title": "Digitale Arbeitsanweisungen: der Praxisleitfaden für die Fertigung",
+ "subtitle": "Vom Papierordner zur digitalen Werkerführung mit AR: was digitale Arbeitsanweisungen sind, wo KI und AR wirklich helfen und wie Sie sie in vier Phasen einführen",
+ "keyword": "digitale Arbeitsanweisungen",
+ "metaTitle": "Digitale Arbeitsanweisungen: Praxisleitfaden | ActARion",
+ "metaDescription": "Was digitale Arbeitsanweisungen sind, wann AR lohnt und wann ein Tablet reicht, wie KI die Erstellung beschleunigt, und ein Einführungsplan in vier Phasen.",
+ "audience": "Produktions-, Werks-, Qualitäts- und Schulungsverantwortliche in der Fertigung",
+ "readingTime": 11,
+ "answer": "Digitale Arbeitsanweisungen sind Schritt-für-Schritt-Anleitungen, denen Werker am Arbeitsplatz auf Tablet, Smartphone oder Datenbrille folgen, mit Bildern, Prüfungen und automatischer Dokumentation der Ausführung. Gezielt eingesetzt senken sie Fehler und verkürzen die Einarbeitung. KI beschleunigt Erstellung und Übersetzung; AR hilft vor allem bei komplexen räumlichen Tätigkeiten.",
+ "keyTakeaways": [
+  "Digitale Arbeitsanweisungen lohnen sich bei Prozessen mit messbarem Problem: Fehler, lange Einarbeitung, viele Varianten oder sicherheitskritische Schritte.",
+  "Ein Tablet mit guten Fotos löst die meisten Probleme; AR lohnt sich, wo Position, Ausrichtung oder Reihenfolge im Raum die eigentliche Schwierigkeit ist.",
+  "KI verkürzt Erstellung und Übersetzung deutlich, doch ein Fachexperte prüft und gibt immer frei.",
+  "Erheben Sie vor dem Pilot eine Ausgangsbasis, sonst können Sie hinterher nichts belegen.",
+  "Über die Akzeptanz entscheidet der Shopfloor: Beziehen Sie Werker in Erstellung und Test ein und machen Sie Feedback einfach."
+ ],
+ "chapters": [
+  {
+   "title": "Was sind digitale Arbeitsanweisungen?",
+   "lead": "Digitale Arbeitsanweisungen sind Schritt-für-Schritt-Anleitungen, denen Werker auf einem Gerät am Arbeitsplatz folgen statt in einem Ordner oder PDF. Jeder Schritt verbindet eine kurze Anweisung, ein Bild und bei Bedarf eine Prüfung oder Bestätigung, die automatisch dokumentiert wird.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "**Definition.** Eine digitale Arbeitsanweisung ist eine strukturierte, versionierte Anleitung, die zum Zeitpunkt der Ausführung auf Tablet, Smartphone, Arbeitsplatzbildschirm oder Datenbrille angezeigt wird und festhält, wie jeder Schritt ausgeführt wurde."
+    },
+    {
+     "type": "p",
+     "text": "Der Unterschied zum eingescannten PDF ist die Struktur. Ein PDF ist ein Dokument; eine digitale Arbeitsanweisung ist eine Abfolge von Schritten mit Daten dahinter. So lässt sich nur die relevante Variante anzeigen, Pflichtprüfungen werden erzwungen, Fotos oder Messwerte erfasst, und im Nachhinein ist sichtbar, welcher Schritt die meisten Rückfragen oder Fehler verursacht."
+    },
+    {
+     "type": "h3",
+     "text": "Verwandte Begriffe"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Werkerführung / Werkerassistenzsystem**: Software, die den Werker Schritt für Schritt führt, oft gekoppelt mit Werkzeugen, Scannern oder MES.",
+      "**Software für Arbeitsanweisungen**: die Plattform, mit der Anweisungen erstellt, freigegeben, veröffentlicht und ausgewertet werden.",
+      "**AR-Arbeitsanweisungen**: digitale Anweisungen, bei denen die Hinweise per Kamera oder Datenbrille auf das reale Objekt eingeblendet werden.",
+      "**Standardarbeit / SOP**: die vereinbarte beste Art, eine Tätigkeit auszuführen. Digitale Arbeitsanweisungen machen diesen Standard ausführbar."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Typische Einsatzgebiete sind Montage, Rüsten, Qualitätsprüfungen, Instandhaltung, Reinigung und Linienfreigabe sowie die Einarbeitung neuer Mitarbeitender."
+    },
+    {
+     "type": "h3",
+     "text": "Papier, digital oder digital mit AR: Worin liegt der Unterschied?"
+    },
+    {
+     "type": "p",
+     "text": "Papier ist günstig, aber schwer aktuell zu halten und liefert keine Daten. Digitale Anweisungen bringen Versionierung, Varianten und Ausführungsdaten. AR ergänzt räumliche Führung für Tätigkeiten, bei denen die Frage vor allem lautet: Wo genau?"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Aspekt",
+      "Papier / PDF",
+      "Digital (Tablet, Bildschirm)",
+      "Digital + AR"
+     ],
+     "rows": [
+      [
+       "Aktualität",
+       "Manuell; alte Kopien bleiben im Umlauf",
+       "Eine zentrale Version, sofort veröffentlicht",
+       "Wie digital, plus 3D/AR-Inhalte zu pflegen"
+      ],
+      [
+       "Varianten",
+       "Getrennte Dokumente oder Tabellen",
+       "Nur die relevante Variante sichtbar",
+       "Variantenspezifische Einblendungen am Objekt"
+      ],
+      [
+       "Verständlichkeit",
+       "Text und statische Bilder",
+       "Fotos, Video, kurze Schritte",
+       "Hinweise direkt am Objekt"
+      ],
+      [
+       "Nachweis der Ausführung",
+       "Unterschrift auf Formular",
+       "Bestätigungen, Fotos, Messwerte je Schritt",
+       "Ebenso, plus visuelle Prüfung"
+      ],
+      [
+       "Sprache",
+       "Übersetzung teuer und langsam",
+       "Mehrsprachig, teils KI-übersetzt",
+       "Visuelle Führung braucht weniger Text"
+      ],
+      [
+       "Investition und Aufwand",
+       "Gering",
+       "Mittel",
+       "Höher: Inhalte und Geräte"
+      ],
+      [
+       "Geeignet für",
+       "Stabile, einfache Tätigkeiten",
+       "Die meisten Produktions- und Instandhaltungstätigkeiten",
+       "Komplexe, räumliche, seltene oder risikoreiche Tätigkeiten"
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "title": "Keine Stufenleiter",
+     "text": "Digital + AR ist nicht automatisch besser. Für viele Prozesse ist ein Tablet mit guten Fotos das beste Preis-Leistungs-Verhältnis. Entscheiden Sie je Prozess, nicht je Werk."
+    }
+   ]
+  },
+  {
+   "title": "Wo hilft KI bei Arbeitsanweisungen?",
+   "lead": "KI hilft vor allem bei Erstellung und Pflege: Aus Fotos, Videos und Sprache entstehen Schrittentwürfe, und Anweisungen werden übersetzt. Den Fachexperten ersetzt KI nicht; er bleibt für Inhalt und Sicherheit verantwortlich.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Der größte Engpass bei der Digitalisierung von Arbeitsanweisungen ist selten die Software. Es ist die Zeit, die erfahrene Mitarbeitende brauchen, um ihr Wissen festzuhalten. Genau dort macht KI den Unterschied."
+    },
+    {
+     "type": "h3",
+     "text": "Praktische KI-Anwendungen"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Erstellung aus Fotos und Video**: Ein Experte filmt die Tätigkeit und erklärt dabei; die Software schlägt Schritte, Titel und Bilder vor.",
+      "**Bestehende Dokumente strukturieren**: lange PDF- oder Word-SOPs in kurze Schritte mit je einer Handlung umwandeln.",
+      "**Übersetzung**: Übersetzungsentwürfe in alle Sprachen der Belegschaft, geprüft von Muttersprachlern mit Prozesskenntnis.",
+      "**Konsistenzprüfung**: unklare Formulierungen, fehlende Werkzeuge oder uneinheitliche Begriffe erkennen.",
+      "**Feedback auswerten**: Rückmeldungen der Werker bündeln und Schritte erkennen, an denen es regelmäßig hakt."
+     ]
+    },
+    {
+     "type": "callout",
+     "title": "Der Mensch entscheidet",
+     "text": "Behandeln Sie KI-Ergebnisse als Entwurf. Jede Anweisung, insbesondere jeder sicherheitskritische Schritt, wird vor der Veröffentlichung von einem verantwortlichen Experten geprüft und freigegeben. Das ist auch mit Blick auf die EU-KI-Verordnung wichtig, die je nach Anwendung Anforderungen an Transparenz und menschliche Aufsicht stellt."
+    },
+    {
+     "type": "p",
+     "text": "Klären Sie außerdem vorab, wo Video- und Audioaufnahmen gespeichert werden und wer sie sehen darf. Aufnahmen von Beschäftigten betreffen den Datenschutz und in Deutschland regelmäßig die Mitbestimmung des Betriebsrats nach § 87 BetrVG."
+    }
+   ]
+  },
+  {
+   "title": "Wann bringt AR Mehrwert, und wann reicht ein Tablet?",
+   "lead": "AR bringt Mehrwert, wenn die Schwierigkeit räumlich ist: das richtige Bauteil, den richtigen Stecker oder die richtige Schraube in einer komplexen Maschine finden oder Schritte in einer genauen räumlichen Reihenfolge ausführen. Für lineare Tätigkeiten mit klaren Bildern reicht meist ein Tablet.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "**Definition.** AR-Arbeitsanweisungen legen digitale Hinweise (Pfeile, Markierungen, 3D-Modelle, Text) über das Live-Kamerabild oder das Sichtfeld der Datenbrille, verankert am realen Objekt."
+    },
+    {
+     "type": "table",
+     "head": [
+      "AR lohnt sich, wenn…",
+      "Ein Tablet reicht, wenn…"
+     ],
+     "rows": [
+      [
+       "die Tätigkeit selten ausgeführt wird und Routine fehlt",
+       "die Tätigkeit täglich ausgeführt wird und bekannt ist"
+      ],
+      [
+       "viele ähnliche Bauteile Verwechslungen begünstigen",
+       "der Arbeitsplatz übersichtlich ist und Teile gut erkennbar sind"
+      ],
+      [
+       "Reihenfolge und Ausrichtung im Raum kritisch sind",
+       "die Reihenfolge linear ist und sich gut in Fotos zeigen lässt"
+      ],
+      [
+       "Fehler teuer oder gefährlich sind (Sicherheit, Rückruf)",
+       "Fehler leicht zu erkennen und zu korrigieren sind"
+      ],
+      [
+       "die Hände frei bleiben müssen (Datenbrille)",
+       "der Werker kurz auf einen Bildschirm schauen kann"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "In der Praxis kombinieren viele Unternehmen beides: Dieselbe Anweisung läuft auf dem Tablet, mit einer AR-Ansicht für die wenigen Schritte, bei denen räumliche Führung den Unterschied macht. So bleibt der Aufwand für Inhalte beherrschbar."
+    },
+    {
+     "type": "p",
+     "text": "Remote-Expertenunterstützung ist eine verwandte Anwendung: Ein Techniker teilt das Kamerabild mit einem entfernten Spezialisten, der Markierungen ins Bild zeichnet. Das ist besonders in der Störungsbehebung und an Standorten ohne eigene Spezialisten nützlich."
+    }
+   ]
+  },
+  {
+   "title": "Wie schreibt man eine gute Arbeitsanweisung?",
+   "lead": "Eine gute Arbeitsanweisung hat eine Handlung pro Schritt, beginnt mit einem Verb, zeigt das Ergebnis im Bild und nennt nur, was der Werker in diesem Moment braucht. Schreiben Sie für die am wenigsten erfahrene Person, die die Tätigkeit ausführen muss.",
+   "blocks": [
+    {
+     "type": "steps",
+     "items": [
+      {
+       "t": "Umfang und Ergebnis festlegen",
+       "d": "Welche Tätigkeit, welche Varianten, welche Ausgangssituation, welches Endergebnis? Eine Anweisung je Tätigkeit, nicht je Maschine."
+      },
+      {
+       "t": "Die reale Arbeit beobachten",
+       "d": "Schauen Sie einem erfahrenen Werker zu und fragen Sie nach dem Warum. Die beste Arbeitsweise steht oft nicht in der bestehenden SOP."
+      },
+      {
+       "t": "Eine Handlung pro Schritt",
+       "d": "Beginnen Sie mit einem Verb: \"Lösen\", \"Prüfen\", \"Scannen\". Halten Sie Sätze kurz; kontrollierte Sprache wie ASD-STE100 Simplified Technical English ist ein nützlicher Leitfaden, auch für Übersetzungen."
+      },
+      {
+       "t": "Zeigen statt erklären",
+       "d": "Ein gutes Foto mit Pfeil oder Markierung sagt mehr als drei Sätze. Zeigen Sie das richtige Ergebnis und, wo sinnvoll, einen typischen Fehler."
+      },
+      {
+       "t": "Kritische Schritte kennzeichnen",
+       "d": "Machen Sie sicherheits- und qualitätskritische Schritte visuell erkennbar, mit Pflichtbestätigung, Messung oder Foto."
+      },
+      {
+       "t": "Mit einem Neuling testen",
+       "d": "Lassen Sie jemanden, der die Tätigkeit nicht kennt, sie nur anhand der Anweisung ausführen. Jede Rückfrage ist ein Verbesserungspunkt."
+      }
+     ]
+    },
+    {
+     "type": "checklist",
+     "items": [
+      "Jeder Schritt enthält eine Handlung und höchstens etwa 20 Wörter",
+      "Werkzeuge, Material und PSA stehen am Anfang",
+      "Jeder Schritt hat ein Bild des erwarteten Ergebnisses",
+      "Kritische Schritte verlangen eine Bestätigung oder einen Nachweis",
+      "Die Begriffe entsprechen der Sprache auf dem Shopfloor",
+      "Verantwortlicher und Prüftermin sind festgelegt"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Wie führen Sie digitale Arbeitsanweisungen in vier Phasen ein?",
+   "lead": "Führen Sie in vier Phasen ein: den richtigen Prozess wählen, eine Ausgangsbasis messen, einen begrenzten Pilot mit klaren Erfolgskriterien durchführen und dann mit festen Standards für Inhalte und Governance skalieren.",
+   "blocks": [
+    {
+     "type": "steps",
+     "items": [
+      {
+       "t": "1. Prozess auswählen",
+       "d": "Wählen Sie ein bis zwei Prozesse mit messbarem Problem: wiederkehrende Fehler, lange Einarbeitung, viele Varianten, häufiges Rüsten oder sicherheitskritische Schritte. Beginnen Sie nicht mit dem komplexesten Prozess im Werk."
+      },
+      {
+       "t": "2. Ausgangsbasis messen",
+       "d": "Erfassen Sie den Ist-Zustand, bevor Sie etwas ändern: Fehler- oder Nacharbeitsquote, Einarbeitungszeit, Rüstzeit, Anzahl der Rückfragen an Schichtführer. Ohne Ausgangsbasis kein Business Case."
+      },
+      {
+       "t": "3. Pilot durchführen",
+       "d": "Digitalisieren Sie die gewählten Anweisungen, schulen Sie eine kleine Gruppe und führen Sie den Pilot 6 bis 12 Wochen durch. Sammeln Sie wöchentlich Feedback und passen Sie die Inhalte an."
+      },
+      {
+       "t": "4. Skalieren",
+       "d": "Vergleichen Sie die Ergebnisse mit der Ausgangsbasis, legen Sie Vorlage, Namenskonvention und Freigabeprozess fest und erweitern Sie in Wellen auf weitere Prozesse, Linien und Standorte."
+      }
+     ]
+    },
+    {
+     "type": "kpis",
+     "items": [
+      {
+       "n": "Fehlerquote",
+       "l": "Nacharbeit, Ausschuss oder Abweichungen je 100 Ausführungen"
+      },
+      {
+       "n": "Einarbeitungszeit",
+       "l": "Tage, bis neue Werker selbstständig arbeiten"
+      },
+      {
+       "n": "Rüstzeit",
+       "l": "Minuten je Rüstvorgang inklusive Anlauf"
+      },
+      {
+       "n": "Nutzungsgrad",
+       "l": "Anteil der Ausführungen mit digitaler Anweisung"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "title": "Vom Pilot zum Nachweis",
+     "text": "Legen Sie vorab fest, welches Ergebnis als Erfolg gilt, etwa eine angestrebte Senkung der Nacharbeit auf der Pilotlinie. [Kundenzahl: Beispiel für Pilotergebnis ergänzen]"
+    },
+    {
+     "type": "p",
+     "text": "Eine Anbindung an MES, ERP oder Instandhaltungssystem ist für den Pilot meist nicht nötig. Planen Sie sie für die Skalierung, wenn klar ist, welche Daten wirklich zählen."
+    }
+   ]
+  },
+  {
+   "title": "Wie erreichen Sie, dass Werker die Anweisungen wirklich nutzen?",
+   "lead": "Akzeptanz folgt aus Nutzen: Werker nutzen digitale Arbeitsanweisungen, wenn sie schneller und klarer sind als die Frage an einen Kollegen. Beziehen Sie sie in die Erstellung ein, geben Sie Schichtführern eine klare Rolle und reagieren Sie sichtbar auf Feedback.",
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "**Gemeinsam erstellen**: Lassen Sie erfahrene Werker mitschreiben und testen. Es ist ihr Wissen, und sie vertreten die Anweisungen in der Halle.",
+      "**Unterstützung statt Kontrolle**: Erklären Sie, wozu Ausführungsdaten erfasst werden und wozu nicht. Binden Sie den Betriebsrat frühzeitig ein.",
+      "**Feedback mit einem Tipp**: eine Schaltfläche je Schritt, um Fehler oder Vorschläge zu melden, mit sichtbarer Nachverfolgung.",
+      "**Rolle für Schichtführer**: Sie coachen die Nutzung, bearbeiten Feedback und sind erste Ansprechpartner.",
+      "**Geräte in Reichweite**: Ein Tablet im Schrank am anderen Hallenende wird nicht genutzt. Halterungen, Ladepunkte und robuste Hüllen zählen.",
+      "**Frühe Erfolge zeigen**: Pilotergebnisse und Erfahrungen von Werkern in Schichtbesprechungen teilen.",
+      "**Mit der Qualifikationsmatrix verknüpfen**: abgeschlossene Anweisungen in die Qualifizierung der Mitarbeitenden einfließen lassen."
+     ]
+    },
+    {
+     "type": "quote",
+     "text": "Die beste Anweisung ist die, die der Werker nutzen will, weil sie Zeit spart, nicht die, die er nutzen muss.",
+     "by": "Umsetzungsprinzip von ActARion"
+    }
+   ]
+  },
+  {
+   "title": "Checkliste: Sind Sie bereit für digitale Arbeitsanweisungen?",
+   "lead": "Mit dieser Checkliste prüfen Sie, ob Ihr Unternehmen bereit für einen Pilot ist. Können Sie die meisten Punkte abhaken, können Sie innerhalb weniger Wochen starten.",
+   "blocks": [
+    {
+     "type": "checklist",
+     "items": [
+      "Wir haben ein bis zwei Prozesse mit messbarem Problem ausgewählt",
+      "Wir kennen aktuelle Fehlerquote, Einarbeitungszeit oder Rüstzeit dieser Prozesse",
+      "Es gibt einen Verantwortlichen aus der Produktion und einen Fachexperten mit Zeit für die Erstellung",
+      "Werker und Schichtführer sind von Anfang an eingebunden",
+      "Geeignete Geräte und WLAN oder Offline-Nutzung am Arbeitsplatz sind geklärt",
+      "Es gibt einen Freigabeprozess für neue und geänderte Anweisungen",
+      "Datenschutz, Aufnahmen und Betriebsrat sind besprochen",
+      "Erfolgskriterien und Dauer des Pilots sind vereinbart",
+      "Es ist klar, wer nach dem Pilot über die Skalierung entscheidet"
+     ]
+    },
+    {
+     "type": "callout",
+     "title": "Wie ActARion unterstützt",
+     "text": "ActARion ist der europäische Implementierungspartner für digitale und AR-Arbeitsanweisungen auf der DeepSight-Plattform. Wir unterstützen bei der Auswahl der Use Cases, der Messung der Ausgangsbasis, der Erstellung von Inhalten, dem Change Management und dem Rollout in DACH und Benelux."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Was ist der Unterschied zwischen Arbeitsanweisung und SOP?",
+   "a": "Eine SOP beschreibt, was geschehen muss und wer verantwortlich ist, oft auf Prozessebene. Eine Arbeitsanweisung beschreibt Schritt für Schritt, wie eine bestimmte Tätigkeit am Arbeitsplatz ausgeführt wird. Digitale Arbeitsanweisungen machen die SOP ausführbar."
+  },
+  {
+   "q": "Brauchen wir Datenbrillen für AR-Arbeitsanweisungen?",
+   "a": "Nein. Die meisten AR-Anwendungen laufen auf Tablets und Smartphones. Datenbrillen sind sinnvoll, wenn während der ganzen Tätigkeit beide Hände gebraucht werden, erfordern aber mehr Change Management."
+  },
+  {
+   "q": "Wie lange dauert ein Pilot?",
+   "a": "Ein fokussierter Pilot mit ein bis zwei Prozessen dauert meist 6 bis 12 Wochen, einschließlich Ausgangsmessung, Inhaltserstellung, Schulung und Auswertung."
+  },
+  {
+   "q": "Kann KI Arbeitsanweisungen selbstständig erstellen?",
+   "a": "KI kann aus Videos, Fotos oder bestehenden Dokumenten einen guten Entwurf erzeugen und übersetzen. Ein Fachexperte muss den Inhalt immer prüfen und freigeben, besonders bei sicherheitskritischen Schritten."
+  },
+  {
+   "q": "Ist Werkerführung ohne MES-Anbindung sinnvoll?",
+   "a": "Ja, für den Pilot. Die Anbindung wird bei der Skalierung relevant, etwa um die richtige Anweisung aus einem Auftrag zu öffnen oder Ausführungsdaten an Qualitätssysteme zu übergeben."
+  }
+ ],
+ "sources": [
+  {
+   "title": "ASD-STE100 Simplified Technical English specification",
+   "url": "https://www.asd-ste100.org/"
+  },
+  {
+   "title": "Verordnung (EU) 2024/1689 (KI-Verordnung)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+  },
+  {
+   "title": "Verordnung (EU) 2023/1230 über Maschinen",
+   "url": "https://eur-lex.europa.eu/eli/reg/2023/1230/oj"
+  },
+  {
+   "title": "Betriebsverfassungsgesetz § 87 Mitbestimmungsrechte",
+   "url": "https://www.gesetze-im-internet.de/betrvg/__87.html"
+  }
+ ],
+ "cta": {
+  "title": "Kostenloses Erstgespräch vereinbaren",
+  "text": "Besprechen Sie mit Mark Dercksen (DACH) oder Jack Kessels (Benelux), welcher Prozess der beste Einstieg in digitale Arbeitsanweisungen in Ihrem Werk ist und wie ein Pilot mit Ausgangsmessung aussieht."
+ }
+}

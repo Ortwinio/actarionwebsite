@@ -1,0 +1,161 @@
+{
+ "slug": "sop-software-digital-standard-work",
+ "lang": "en",
+ "title": "From paper SOP to digital standard work: SOP software for quality and compliance",
+ "subtitle": "Why compliance is decided at execution, what SOP software must offer in version control and audit trail, and how to migrate safely, including AR SOPs for safety-critical tasks",
+ "keyword": "sop software",
+ "metaTitle": "SOP software for digital standard work | ActARion",
+ "metaDescription": "How SOP software turns paper procedures into executable, auditable standard work: version control, audit trail, AR SOPs, evaluation criteria and migration.",
+ "audience": "Quality, HSE, compliance and operations managers in regulated manufacturing",
+ "readingTime": 12,
+ "answer": "SOP software turns static procedures into executable, step-by-step instructions at the point of work, with version control, approval workflows and an audit trail of each execution. That closes the gap between what is documented and what is actually done. AR SOPs add visual guidance for safety-critical tasks such as lockout/tagout, line clearance and changeovers.",
+ "keyTakeaways": [
+  "Auditors and incidents test execution, not documentation: a perfect SOP that is not followed provides no protection.",
+  "A digital SOP needs controlled versions, documented approval and an audit trail that records who did what, when and with which version.",
+  "GMP, ISO 9001 and ISO 45001 all require controlled documented information; SOP software supports this but does not replace your own compliance assessment.",
+  "AR SOPs are most valuable for safety-critical, infrequent tasks such as LOTO, line clearance and changeovers.",
+  "Migrate in waves, starting with critical and frequently deviating SOPs, and clean up content before you digitise it."
+ ],
+ "chapters": [
+  {
+   "title": "Why does compliance depend on execution, not documentation?",
+   "lead": "A procedure only protects quality and safety if it is followed correctly every time. Paper SOPs prove that a standard exists, not that it was applied; that is precisely the gap auditors, customers and incident investigations look for.",
+   "blocks": [
+    {"type": "p", "text": "Most organisations have their SOPs in order on paper. The problem is in the gap between the document and the workstation. Procedures are long and hard to find at the moment of need, so operators work from memory or ask a colleague. Shifts and sites develop their own variants. A signature on a checklist proves that someone signed, not that each step was performed correctly."},
+    {"type": "p", "text": "**Definition.** Digital standard work is the agreed best method for a task, delivered as an executable, step-by-step instruction at the point of work, with recorded evidence of each execution."},
+    {"type": "table", "head": ["Problem with paper SOPs", "Consequence", "What digital standard work changes"], "rows": [
+     ["Hard to find at the workstation", "Work from memory, steps skipped", "The right SOP opens per task, line or work order"],
+     ["Old copies in circulation", "Execution according to an outdated version", "Only the approved, current version can be used"],
+     ["Signature as only evidence", "Weak evidence in audits and investigations", "Confirmation, measurements and photos per step"],
+     ["Differences between shifts and sites", "Variable quality and safety", "One standard, visible deviations"],
+     ["No feedback loop", "Errors in the SOP persist", "Operators report issues directly per step"]
+    ]}
+   ]
+  },
+  {
+   "title": "What is SOP software and what must it do?",
+   "lead": "SOP software is a platform in which procedures are authored, approved, published and executed step by step at the workstation. The core functions are document control, guided execution and evidence capture.",
+   "blocks": [
+    {"type": "p", "text": "Classic document management systems manage SOPs as files. SOP software for standard work goes a step further: the procedure itself becomes an executable workflow. That makes the difference between \"the SOP is available\" and \"the SOP was followed\"."},
+    {"type": "h3", "text": "Version control"},
+    {"type": "list", "items": [
+     "Each change creates a new version with a version number, author, reason for change and effective date.",
+     "Approval and release follow a defined workflow with authorised reviewers, for example operations, quality and HSE.",
+     "Only the released version is available at the workstation; withdrawn versions remain archived for traceability.",
+     "Changes can be linked to training: operators confirm they have read or been trained on the new version."
+    ]},
+    {"type": "h3", "text": "Audit trail"},
+    {"type": "p", "text": "**Definition.** An audit trail is a secure, time-stamped record of who created, changed, approved or executed what, when, and with which version. In regulated environments, such as those subject to EU GMP Annex 11 or US 21 CFR Part 11, requirements apply to audit trails and electronic signatures in computerised systems."},
+    {"type": "checklist", "items": [
+     "Who performed the task, at which workstation or asset",
+     "Which SOP version was used",
+     "Time per step and of completion",
+     "Recorded measurements, photos, scanned batch or serial numbers",
+     "Deviations, comments and who approved them",
+     "Changes to the SOP itself, with reason and approval"
+    ]}
+   ]
+  },
+  {
+   "title": "How does SOP software relate to GMP, ISO 9001 and ISO 45001?",
+   "lead": "All three frameworks require that procedures be controlled, current and applied, and that this can be demonstrated. SOP software supports that evidence, but does not make an organisation compliant on its own.",
+   "blocks": [
+    {"type": "callout", "title": "No legal advice", "text": "This chapter gives a general overview. Which requirements apply to your organisation, and how a system must be validated, is determined by your own quality and compliance function, in consultation with auditors or regulators where needed."},
+    {"type": "table", "head": ["Framework", "Relevant themes", "How SOP software supports"], "rows": [
+     ["EU GMP (EudraLex Vol. 4, incl. Chapter 4 and Annex 11)", "Documentation, data integrity, computerised systems, audit trail, electronic signatures", "Controlled versions, audit trail, recorded execution, access control; validation remains your own responsibility"],
+     ["ISO 9001:2015", "Control of documented information, competence, operational control, improvement", "Current versions at the workstation, link to training records, deviation data for improvement"],
+     ["ISO 45001:2018", "Operational control of OH&S risks, worker participation, competence", "Mandatory safety steps, evidence of execution, operator feedback on procedures"],
+     ["Food safety schemes (e.g. FSSC 22000, BRCGS)", "Cleaning, allergen changeover, verification", "Checklists with evidence, line clearance and changeover records"]
+    ]},
+    {"type": "p", "text": "In GMP environments, SOP software that records execution data is a computerised system. Plan validation proportionate to risk from the start, for example based on the GAMP 5 approach, and involve QA in vendor selection."}
+   ]
+  },
+  {
+   "title": "When do AR SOPs make sense for safety-critical tasks?",
+   "lead": "AR SOPs make sense when an error has major consequences and the task is complex or infrequent: lockout/tagout, line clearance and changeovers are typical examples. The visual guidance on the equipment reduces errors in which isolation point, which part or which sequence.",
+   "blocks": [
+    {"type": "p", "text": "**Definition.** An AR SOP is a digital SOP in which the steps are shown as visual overlays on the real machine or line, via a tablet camera or smart glasses."},
+    {"type": "h3", "text": "Lockout/tagout (LOTO)"},
+    {"type": "p", "text": "Isolating hazardous energy requires the right isolation points in the right order, followed by verification of zero energy. An AR SOP shows each isolation point on the machine itself, enforces the sequence and records the lock, the tag and the verification with a photo. Requirements for energy isolation are set out in, among others, the EU Work Equipment Directive and, in the US, OSHA 29 CFR 1910.147."},
+    {"type": "h3", "text": "Line clearance"},
+    {"type": "p", "text": "Before a new batch, all materials, labels and documentation from the previous batch must be removed. AR guidance leads the operator past every checkpoint, including the places that are often forgotten, and records evidence per point. That is directly relevant to mix-up prevention in pharma and food."},
+    {"type": "h3", "text": "Changeovers"},
+    {"type": "p", "text": "Changeovers combine time pressure with many variant-specific settings. A digital SOP shows only the settings for the next product, and AR indicates where each part or setting is located. This supports both shorter changeover times and fewer start-up errors."},
+    {"type": "callout", "title": "Tablet or AR?", "text": "Not every safety-critical SOP needs AR. Use AR where the difficulty is spatial; for linear checklists a tablet with clear photos and mandatory checks is often enough."}
+   ]
+  },
+  {
+   "title": "How do you evaluate SOP software?",
+   "lead": "Evaluate SOP software on five areas: compliance functionality, execution on the shop floor, authoring and maintenance, integration and security, and the vendor's implementation support. Test with your own SOPs and your own operators.",
+   "blocks": [
+    {"type": "table", "head": ["Area", "Questions to ask"], "rows": [
+     ["Compliance", "Is there a full audit trail? Electronic signatures? Configurable approval workflows? Validation support and documentation?"],
+     ["Execution", "Does it work on tablet, smartphone and smart glasses? Offline? With gloves and in noise? Multilingual?"],
+     ["Authoring", "Can subject-matter experts build SOPs themselves? Is there AI support for import, structuring and translation? Templates and reusable steps?"],
+     ["AR", "Is AR available for selected steps without separate content? How much effort is anchoring to equipment?"],
+     ["Integration and security", "Are there APIs for MES, ERP, CMMS, LMS? SSO? Where is data hosted (EU)? Role-based access?"],
+     ["Analytics", "Insight into step times, deviations, feedback and usage per line and site?"],
+     ["Implementation", "Is there local support for pilot, content and change management, in your language?"]
+    ]},
+    {"type": "checklist", "items": [
+     "Shortlist of 2–3 vendors based on requirements",
+     "Proof of concept with 2–3 of your own SOPs, including one safety-critical",
+     "Test with operators from at least two shifts",
+     "QA and IT review of audit trail, validation and security",
+     "Reference check with a comparable organisation"
+    ]}
+   ]
+  },
+  {
+   "title": "How do you migrate from paper SOPs to digital standard work?",
+   "lead": "Migrate in waves: inventory and prioritise SOPs, clean up content, pilot with a baseline measurement, and scale per line or site. Never digitise an SOP that is not followed in practice before reviewing it.",
+   "blocks": [
+    {"type": "steps", "items": [
+     {"t": "Inventory and prioritise", "d": "List SOPs and score them on risk, frequency of use, number of deviations and audit findings. Start with high-risk and frequently deviating SOPs."},
+     {"t": "Check reality", "d": "Compare each priority SOP with how the work is actually done. Adjust the SOP or the practice before digitising."},
+     {"t": "Restructure content", "d": "Rewrite into short steps with one action, visuals and clear critical steps. AI can convert existing documents into a first draft; an expert approves."},
+     {"t": "Set up governance", "d": "Define owners, approval workflow, review frequency and naming conventions. Agree how paper copies are withdrawn."},
+     {"t": "Pilot with a baseline", "d": "Measure deviations, audit findings, changeover time or onboarding time before the start. Run the pilot for 6 to 12 weeks on one line."},
+     {"t": "Scale in waves", "d": "Roll out per line or site, with trained key users, and connect to MES, ERP or CMMS where it adds value."}
+    ]},
+    {"type": "kpis", "items": [
+     {"n": "Deviations", "l": "Procedural deviations per 100 executions"},
+     {"n": "Audit findings", "l": "Findings related to documentation and execution"},
+     {"n": "Version currency", "l": "Share of executions on the current version"},
+     {"n": "Time to release", "l": "Days from change request to published SOP"}
+    ]},
+    {"type": "callout", "title": "Result from practice", "text": "[customer figure: add reduction in deviations or audit preparation time after migration]"}
+   ]
+  },
+  {
+   "title": "What does a successful SOP digitisation programme look like?",
+   "lead": "A successful programme has a clear owner, starts small with a measurable goal, involves operators and QA from day one and treats SOPs as living content that improves through feedback.",
+   "blocks": [
+    {"type": "list", "items": [
+     "**Ownership**: operations owns execution, QA and HSE own the standard and the release.",
+     "**Operators as co-authors**: those who do the work help write and test the steps.",
+     "**Feedback loop**: every report from the shop floor is assessed and leads to a decision within an agreed period.",
+     "**Training linked to versions**: a new version automatically triggers read confirmation or retraining in the competence matrix.",
+     "**Transparency on data**: explain that execution data is used for improvement and evidence, not for individual monitoring, and involve employee representatives where required."
+    ]},
+    {"type": "callout", "title": "How ActARion helps", "text": "ActARion is the European implementation partner for digital and AR SOPs on the DeepSight platform. We support SOP prioritisation, baseline measurement, content conversion, change management and rollout in the Benelux and DACH region, together with your QA and HSE teams."}
+   ]
+  }
+ ],
+ "faq": [
+  {"q": "What is the difference between SOP software and a document management system?", "a": "A document management system controls SOPs as files. SOP software for standard work also makes the procedure executable step by step at the workstation and records how each execution went."},
+  {"q": "Is SOP software suitable for GMP environments?", "a": "It can be, provided the system offers audit trails, access control and, where needed, electronic signatures, and is validated for its intended use. Validation remains the responsibility of the user organisation."},
+  {"q": "Do we need AR for digital SOPs?", "a": "No. Most SOPs work well on a tablet. AR adds value for spatially complex, infrequent or safety-critical tasks such as LOTO, line clearance and changeovers."},
+  {"q": "How do we start migrating hundreds of SOPs?", "a": "Do not start with all of them. Prioritise on risk and deviations, run a pilot with a handful of SOPs on one line, establish a template and governance, then scale in waves."},
+  {"q": "Does a digital SOP replace training?", "a": "No, but it changes it. Training focuses on understanding and risks, while the digital SOP guides execution. Linking versions to training records keeps qualification current."}
+ ],
+ "sources": [
+  {"title": "EudraLex Volume 4 – EU Guidelines for Good Manufacturing Practice", "url": "https://health.ec.europa.eu/medicinal-products/eudralex/eudralex-volume-4_en"},
+  {"title": "21 CFR Part 11 – Electronic Records; Electronic Signatures", "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-11"},
+  {"title": "ISO 9001:2015 Quality management systems — Requirements", "url": "https://www.iso.org/standard/62085.html"},
+  {"title": "ISO 45001:2018 Occupational health and safety management systems", "url": "https://www.iso.org/standard/63787.html"},
+  {"title": "OSHA – Control of Hazardous Energy (Lockout/Tagout)", "url": "https://www.osha.gov/control-hazardous-energy"},
+  {"title": "Directive 2009/104/EC – use of work equipment", "url": "https://eur-lex.europa.eu/eli/dir/2009/104/oj"}
+ ],
+ "cta": {"title": "Book a free intake call", "text": "Discuss with Jack Kessels (Benelux) or Mark Dercksen (DACH) which SOPs are the best starting point for digital standard work, and how to set up a pilot with your QA and HSE teams."}
+}

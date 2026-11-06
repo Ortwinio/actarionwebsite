@@ -1,0 +1,469 @@
+{
+ "slug": "connected-worker-platform-buyers-guide",
+ "lang": "en",
+ "title": "Choosing a connected worker platform: a buyer's guide",
+ "subtitle": "What the platform must do, when AR earns its place, how to score vendors and why a measured pilot should make the final decision",
+ "keyword": "connected worker platform",
+ "metaTitle": "Connected worker platform: buyer's guide | ActARion",
+ "metaDescription": "How to choose a connected worker platform: capabilities, mobile vs AR, a weighted vendor scorecard, SAP/MES/LMS integration and pilot selection.",
+ "audience": "Operations, plant, quality/HSE, L&D and IT/OT managers in manufacturing, pharma, food, energy and MRO",
+ "readingTime": 12,
+ "answer": "A connected worker platform puts the right knowledge in front of frontline workers at the moment of work: instructions, contextual guidance, execution data, remote expert support and skills tracking. Choose one by scoring vendors on weighted criteria, checking integration with SAP, MES, LMS and SSO, and letting a measured pilot on one or two real processes make the final decision.",
+ "keyTakeaways": [
+  "A connected worker platform connects knowledge to work, not just people to systems; judge it on five capabilities: content, guidance, data, remote support and skills.",
+  "Mobile devices cover most tasks; AR and smart glasses earn their place for hands-on, spatial or rare tasks where looking away from the work causes errors.",
+  "Use a weighted scorecard and ask vendors to demonstrate on your own procedures, not on their demo content.",
+  "Integration (SAP, MES, CMMS, LMS, SSO) and authoring ease decide long-term success more than features do.",
+  "Select through a pilot with a baseline measurement, clear success criteria and a go/no-go decision after 8 to 12 weeks."
+ ],
+ "chapters": [
+  {
+   "title": "Why does frontline knowledge break down?",
+   "lead": "Knowledge breaks down because it sits with a few experienced people and in documents that are hard to use at the workstation. Rising complexity, staff turnover and an ageing workforce make that gap wider every year.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Most industrial organisations do not lack documentation. Procedures, manuals, SOPs and training decks exist. The problem is that this knowledge is not available **in the flow of work**: a PDF on a shared drive does not help an operator who is halfway through a changeover with both hands busy."
+    },
+    {
+     "type": "h3",
+     "text": "Four patterns we see on almost every shop floor"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Expertise concentrated in a few people.** A handful of senior operators and technicians know the workarounds and early warning signs. When they are on leave, on another shift or retired, the line slows down or stops.",
+      "**Tacit knowledge that was never written down.** Formal procedures capture the basics; the nuances that separate a good result from a mediocre one live in people's heads.",
+      "**Gaps between shifts and sites.** A problem solved on the night shift returns the next morning. A best practice at one plant never reaches the other.",
+      "**Complexity growing faster than training capacity.** More variants, more regulation and more automation mean more procedures, while trainers and experienced buddies have less time."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Demographics add pressure. According to Destatis, based on the EU Labour Force Survey, 24.0% of employed people aged 15 to 64 in Germany were aged 55 to 64 in 2024, against an EU average of 20.1%. Much of the experience in those age groups will leave operations within the next decade."
+    },
+    {
+     "type": "callout",
+     "title": "Definition: connected worker",
+     "text": "A connected worker is a frontline employee who has digital access, at the point of work, to the instructions, data and colleagues needed to do a task correctly the first time. A connected worker platform is the software that makes this possible."
+    },
+    {
+     "type": "p",
+     "text": "These gaps show up as errors, rework, longer changeovers, slower onboarding and avoidable unplanned downtime. They are rarely booked as a single cost line, which is exactly why a structured selection process starts with measuring them."
+    }
+   ]
+  },
+  {
+   "title": "What must a connected worker platform do?",
+   "lead": "A connected worker platform must deliver five capabilities: structured content, contextual guidance, execution data, remote support and skills management. A tool that covers only one or two of these is a point solution, not a platform.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The term is used for very different products, from digital checklists to full manufacturing operations suites. The table below separates the core capabilities from nice-to-haves."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Capability",
+      "What it means in practice",
+      "Minimum you should expect"
+     ],
+     "rows": [
+      [
+       "Content",
+       "Digital work instructions, SOPs and checklists with photos, video and 3D, created by the people who know the process",
+       "Visual step-by-step authoring by subject-matter experts, version control and approval workflow"
+      ],
+      [
+       "Guidance",
+       "The right instruction for the right task, asset, variant and person, at the workstation",
+       "Launch by QR code, work order or asset; different detail levels for trainees and experts"
+      ],
+      [
+       "Data",
+       "Evidence of how work is actually executed",
+       "Step times, confirmations, photos, deviations and sign-offs, exportable for quality and CI"
+      ],
+      [
+       "Remote support",
+       "Access to an expert when the instruction is not enough",
+       "Live video with annotations, ideally shared view from glasses or tablet"
+      ],
+      [
+       "Skills",
+       "Insight into who is qualified for what",
+       "Link between completed instructions and a competence matrix; LMS integration"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "A connected worker platform is not a learning management system (LMS), which tracks courses and certificates, and not a document management system, which stores files. It works during execution. Good platforms connect to both, so that training records and controlled documents stay in their existing systems of record."
+    },
+    {
+     "type": "callout",
+     "title": "Tip",
+     "text": "Ask vendors to show a single end-to-end flow: an operator scans a machine, follows a visual instruction, records a deviation, calls an expert, and the supervisor sees the result in the competence matrix. Gaps become visible immediately."
+    }
+   ]
+  },
+  {
+   "title": "Mobile-only or AR: which devices do you need?",
+   "lead": "Start with the devices your people can use today, usually tablets and smartphones. Add AR and smart glasses where tasks are hands-on, spatial or rare, and where looking away from the work is a real source of errors.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Many connected worker tools are mobile-first: an app with checklists, forms and notifications. That covers a large share of frontline tasks. It has limits, though, in complex hands-on work."
+    },
+    {
+     "type": "h3",
+     "text": "Where mobile-only tools fall short"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Translation step.** The worker must map a picture on a screen to the physical machine. That is where wrong connectors and swapped parts originate.",
+      "**No spatial reference.** A tablet cannot point to the exact valve or inspection point in front of you.",
+      "**Hands busy.** Many tasks need two hands. Picking up and putting down a device creates friction and reduces use.",
+      "**Checklist fatigue.** When every step is a tick box, critical and trivial steps look the same."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "What AR adds"
+    },
+    {
+     "type": "p",
+     "text": "Augmented reality (AR) overlays digital guidance on the real environment: arrows, highlights and 3D models anchored to the equipment. On smart glasses the instruction stays in view while both hands remain free. For remote support, the expert sees what the technician sees and draws annotations directly in their field of view."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Situation",
+      "Best fit",
+      "Why"
+     ],
+     "rows": [
+      [
+       "Routine inspection rounds, checklists, sign-offs",
+       "Smartphone or tablet",
+       "Fast, familiar, low device cost"
+      ],
+      [
+       "Assembly with many variants",
+       "Tablet or AR on tablet",
+       "Visual step guidance and variant-specific instructions"
+      ],
+      [
+       "Changeover and line clearance",
+       "Tablet, optionally AR",
+       "Sequence and confirmation matter; photos as evidence"
+      ],
+      [
+       "Complex maintenance, both hands needed",
+       "Smart glasses with AR",
+       "Hands-free, guidance in field of view"
+      ],
+      [
+       "Rare tasks (annual overhaul, calibration)",
+       "AR on tablet or glasses",
+       "No muscle memory; spatial guidance prevents errors"
+      ],
+      [
+       "Troubleshooting with an off-site expert",
+       "Glasses or tablet with remote support",
+       "Shared view replaces travel"
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "title": "Selection rule",
+     "text": "Choose a platform where the same instruction runs on phone, tablet and smart glasses without re-authoring. That lets you start mobile and add AR per use case, instead of locking into one hardware vendor."
+    }
+   ]
+  },
+  {
+   "title": "Which use cases deliver value first?",
+   "lead": "The first use cases should be frequent, costly when they go wrong and measurable today. Changeovers, onboarding, preventive maintenance, quality-critical assembly and remote troubleshooting usually qualify.",
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "Use case",
+      "Typical problem",
+      "What to measure"
+     ],
+     "rows": [
+      [
+       "Changeover / Rüsten",
+       "Long and variable changeover times, start-up scrap",
+       "Changeover time, first-pass yield after start-up"
+      ],
+      [
+       "Onboarding and cross-training",
+       "Weeks of buddy training, trainers unavailable",
+       "Hours to independent work, trainer hours"
+      ],
+      [
+       "Quality-critical assembly",
+       "Wrong or missing parts, rework",
+       "Defects per 1,000 units, rework hours"
+      ],
+      [
+       "Preventive maintenance",
+       "Steps skipped, inconsistent execution between technicians",
+       "Task time, findings recorded, repeat failures"
+      ],
+      [
+       "Fault recovery and remote support",
+       "Waiting for an expert, travel",
+       "MTTR, expert visits per year"
+      ],
+      [
+       "Line clearance and GMP documentation",
+       "Manual paperwork, missing signatures",
+       "Documentation errors, deviations"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Pick one or two of these for the pilot, not five. A narrow scope makes the baseline measurable and the comparison credible. In regulated environments such as pharma and food, start with a process where electronic evidence (photos, timestamps, sign-offs) directly reduces review effort."
+    },
+    {
+     "type": "callout",
+     "title": "Common mistake",
+     "text": "Starting with the process that has the best demo effect instead of the one with the biggest measurable gap. Visual impact convinces a steering committee once; measured savings convince finance every year."
+    }
+   ]
+  },
+  {
+   "title": "How do you evaluate vendors? A weighted scorecard",
+   "lead": "Score every vendor on the same weighted criteria and ask them to demonstrate on your own procedures. Weights should reflect your situation; the template below is a sound starting point for a manufacturing site.",
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "Criterion",
+      "Weight",
+      "Questions to ask the vendor"
+     ],
+     "rows": [
+      [
+       "Authoring ease",
+       "20%",
+       "Can a team leader build a 15-step instruction from photos and video in under an hour? Is there AI-assisted authoring? How do review and approval work?"
+      ],
+      [
+       "Execution guidance and device range",
+       "15%",
+       "Does the same content run on phone, tablet and smart glasses? Is AR anchored to the asset? Which glasses are supported?"
+      ],
+      [
+       "Data and analytics",
+       "15%",
+       "Which execution data is captured per step? Can we export it to our BI or quality system? Are deviations visible to supervisors in real time?"
+      ],
+      [
+       "Integration",
+       "15%",
+       "Which standard connectors exist for SAP, MES, CMMS and LMS? Is there an open API? How is SSO (Azure AD/Entra ID, SAML) handled?"
+      ],
+      [
+       "Remote support",
+       "10%",
+       "Is remote support built in or a separate product? Does it work on low bandwidth? Can sessions be recorded and turned into instructions?"
+      ],
+      [
+       "Skills and qualification",
+       "10%",
+       "Can completed instructions feed a competence matrix? Can we restrict tasks to qualified workers?"
+      ],
+      [
+       "Security, compliance and offline use",
+       "10%",
+       "Where is data hosted (EU)? GDPR, ISO 27001? Audit trail and electronic signatures for GMP? Does it work offline on the shop floor?"
+      ],
+      [
+       "Partner and adoption support",
+       "5%",
+       "Who helps with use-case selection, content and change management? Is there local support in our language and time zone?"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Score each criterion from 1 to 5, multiply by the weight and add up. Adjust weights before you see the demos, not afterwards. In a pharma plant, compliance may weigh 20%; at a site with an ageing workforce, skills and authoring may deserve more."
+    },
+    {
+     "type": "h3",
+     "text": "Red flags during evaluation"
+    },
+    {
+     "type": "checklist",
+     "items": [
+      "The demo only uses vendor content, never your own procedure.",
+      "Every content change requires the vendor or your IT department.",
+      "AR only works on one specific headset.",
+      "Data export is limited to PDF reports.",
+      "No clear answer on hosting location and data ownership.",
+      "Pricing or contract terms that make a limited pilot impossible."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "What should integration with SAP, MES, LMS and SSO look like?",
+   "lead": "Integration should let work orders start the right instruction and send execution data back to the system of record. Plan it in phases: SSO first, then the work order or asset link, then data back to quality and training systems.",
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "System",
+      "Typical integration",
+      "Value"
+     ],
+     "rows": [
+      [
+       "SAP (PM/PP/QM) or other ERP",
+       "Work order or maintenance order opens the matching instruction; confirmation flows back",
+       "No searching, correct version per order, closed feedback loop"
+      ],
+      [
+       "MES",
+       "Order, variant and station context; step results into the batch or production record",
+       "Variant-specific guidance, traceability"
+      ],
+      [
+       "CMMS / EAM",
+       "Asset ID via QR code; findings and photos back to the asset history",
+       "Better maintenance history, fewer repeat failures"
+      ],
+      [
+       "LMS / HR",
+       "Completed guided tasks and sign-offs update qualifications",
+       "Up-to-date competence matrix without double administration"
+      ],
+      [
+       "SSO / identity",
+       "Login with existing corporate accounts (e.g. Microsoft Entra ID, SAML/OIDC)",
+       "Security, user lifecycle, no extra passwords"
+      ],
+      [
+       "Document management / QMS",
+       "Controlled source documents linked to instructions",
+       "One version of the truth for audits"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Involve IT/OT early. Ask them to review network requirements, device management (MDM), data hosting and the API documentation during the evaluation, not after the contract. For the pilot itself, a light integration (SSO plus QR codes per asset) is usually enough; deep ERP or MES links follow once the business case is proven."
+    },
+    {
+     "type": "callout",
+     "title": "Practical rule",
+     "text": "Do not let full integration be a precondition for the pilot. Prove value with minimal integration, then invest in the connections that the scaled roll-out actually needs."
+    }
+   ]
+  },
+  {
+   "title": "How do you make the final choice with a pilot?",
+   "lead": "Make the final decision on a short, measured pilot: one or two processes, a baseline measured before go-live, agreed success criteria and a go/no-go after 8 to 12 weeks. A pilot turns vendor claims into your own evidence.",
+   "blocks": [
+    {
+     "type": "steps",
+     "items": [
+      {
+       "t": "Select the use case",
+       "d": "Pick one or two processes that are frequent, costly when they go wrong and measurable today."
+      },
+      {
+       "t": "Measure the baseline",
+       "d": "Record current times, errors, training hours or downtime for two to four weeks, with the same definitions you will use later."
+      },
+      {
+       "t": "Define success criteria",
+       "d": "Agree upfront what result means go, adjust or stop, for example 20% shorter changeovers or half the buddy training hours."
+      },
+      {
+       "t": "Build content with the experts",
+       "d": "Let your own experienced operators create the instructions with support; this also creates ownership."
+      },
+      {
+       "t": "Run on the shop floor",
+       "d": "Train users briefly, support the first weeks on site and collect feedback per instruction."
+      },
+      {
+       "t": "Compare and decide",
+       "d": "Measure the same KPIs, calculate the business case with real data and decide on scaling."
+      }
+     ]
+    },
+    {
+     "type": "kpis",
+     "items": [
+      {
+       "n": "8–12 weeks",
+       "l": "typical pilot duration"
+      },
+      {
+       "n": "1–2",
+       "l": "processes in scope"
+      },
+      {
+       "n": "2–4 weeks",
+       "l": "baseline measurement"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "ActARion runs such pilots with the DeepSight platform in the Benelux and DACH regions: from use-case selection and baseline measurement to content creation, change management and roll-out. [customer figure: pilot result from a reference customer, e.g. reduction in changeover time]"
+    },
+    {
+     "type": "callout",
+     "title": "Next step",
+     "text": "Use the ROI calculator on our website to estimate the savings with your own numbers, then test the assumptions in a pilot."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a connected worker platform?",
+   "a": "Software that gives frontline workers digital access to instructions, contextual guidance, expert support and execution data at the point of work. It complements, but does not replace, ERP, MES and LMS systems."
+  },
+  {
+   "q": "Do we need smart glasses to start?",
+   "a": "No. Most organisations start with tablets and smartphones. Choose a platform where the same content also runs on smart glasses, so AR can be added for hands-on or rare tasks later."
+  },
+  {
+   "q": "How is a connected worker platform different from an LMS?",
+   "a": "An LMS manages courses and certificates. A connected worker platform supports the task itself, during execution, and can feed qualification data back to the LMS."
+  },
+  {
+   "q": "How long does a pilot take?",
+   "a": "Typically 8 to 12 weeks for one or two processes, preceded by a baseline measurement of two to four weeks."
+  },
+  {
+   "q": "Which integrations are needed for a pilot?",
+   "a": "Usually only single sign-on and QR codes per asset or workstation. SAP, MES or LMS integration follows when the roll-out is scaled."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Destatis: Germany has the oldest working population in the EU (Handwerksblatt, 2026)",
+   "url": "https://en.handwerksblatt.de/panorama/Destatis%3A-Germany-has-the-oldest-working-population-in-the-EU."
+  },
+  {
+   "title": "Eurostat: Employment rate of older workers, age group 55-64 (tesem050)",
+   "url": "https://db.nomics.world/Eurostat/tesem050"
+  }
+ ],
+ "cta": {
+  "title": "Book a free intake call",
+  "text": "Discuss your processes with Jack Kessels (Benelux) or Mark Dercksen (DACH). We help you choose the right first use case, set up the baseline measurement and plan a pilot."
+ }
+}

@@ -1,0 +1,637 @@
+{
+ "slug": "roi-business-case-digital-work-instructions",
+ "lang": "de",
+ "title": "Der Business Case für digitale Arbeitsanweisungen: ROI-Methode, Annahmen und Bandbreiten",
+ "subtitle": "So rechnet der ROI-Rechner von ActARion: vier Einsparungsformeln, das Finanzmodell hinter Amortisation, ROI und Kapitalwert, ein Rechenbeispiel und wie Sie die Zahlen gegenüber dem Controlling vertreten",
+ "keyword": "ROI digitale Arbeitsanweisungen",
+ "metaTitle": "ROI digitaler Arbeitsanweisungen: Business Case | ActARion",
+ "metaDescription": "Business Case für digitale und AR-Arbeitsanweisungen: vier Einsparungsformeln, Amortisation, ROI und Kapitalwert, Rechenbeispiel und Bandbreiten.",
+ "audience": "Produktions- und Werksleiter, Controlling, KVP- und Schulungsverantwortliche, die eine Investitionsentscheidung vorbereiten",
+ "readingTime": 13,
+ "answer": "Der ROI digitaler Arbeitsanweisungen speist sich aus vier Quellen: kürzere Einarbeitung, weniger Fehler, weniger Stillstand und weniger Experteneinsätze. Mit den Standardwerten des Rechners beträgt die Einsparung bei voller Nutzung 75.260 € pro Jahr, die Amortisation 15 Monate, der ROI über drei Jahre 61% und der Kapitalwert rund 53.000 €.",
+ "keyTakeaways": [
+  "Jeder Euro im Business Case lässt sich auf eine von vier transparenten Formeln zurückführen: Einarbeitung, Qualität, Stillstand und Experteneinsätze.",
+  "Das Finanzmodell lässt die Nutzung über drei Jahre von 60% über 80% auf 100% steigen und zinst den Netto-Cashflow mit 8% ab.",
+  "Mit den Standardwerten: 75.260 € Einsparung pro Jahr, Amortisation nach 15 Monaten, 61% ROI über drei Jahre und ein Kapitalwert von rund 53.000 €.",
+  "Die Wirkungsstufe wirkt stärker als jede einzelne Eingabe: von 46.100 € (vorsichtig) bis 99.700 € (ambitioniert) pro Jahr.",
+  "Das Controlling vertraut einem Business Case auf Basis Ihrer eigenen Nullmessung, bestätigt durch einen gemessenen Pilot, mehr als Anbieter-Benchmarks."
+ ],
+ "chapters": [
+  {
+   "title": "Welche Fragen muss ein Business Case für digitale Arbeitsanweisungen beantworten?",
+   "lead": "Ein Business Case muss zeigen, woher die Einsparung kommt, wann sich die Investition amortisiert und wie belastbar das ist. Dazu braucht es transparente Formeln, Ihre eigene Nullmessung, eine Nutzungskurve und eine Bandbreite statt einer einzigen Zahl.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Digitale Arbeitsanweisungen ersetzen Papier- oder PDF-Verfahren durch visuelle Schritt-für-Schritt-Führung auf Tablet, Smartphone oder Datenbrille, optional mit Augmented Reality (AR). Das Controlling fragt nicht, ob das modern ist, sondern ob es sich rechnet."
+    },
+    {
+     "type": "callout",
+     "title": "Definition: ROI",
+     "text": "Return on Investment (ROI) ist der Nettoertrag einer Investition geteilt durch ihre Kosten. In diesem Whitepaper bedeutet ROI immer den ROI über drei Jahre: (Einsparung über drei Jahre − Kosten über drei Jahre) ÷ Kosten über drei Jahre."
+    },
+    {
+     "type": "p",
+     "text": "Der ROI-Rechner auf unserer Website arbeitet genau nach der hier beschriebenen Methode. Jede Zahl in diesem Whitepaper können Sie im Rechner nachvollziehen. Rechner, mobile Version und PDF-Bericht nutzen denselben Rechenkern, die Ergebnisse weichen also nie voneinander ab."
+    },
+    {
+     "type": "h3",
+     "text": "Zwei Rechenwege"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Schnellschätzung:** zehn Eingaben zu Ihrem Betrieb, eine Branchenvorgabe und eine Wirkungsstufe. Geeignet für ein erstes Gespräch und eine Größenordnung.",
+      "**Je Anwendungsfall:** getrennte Vorher-/Nachher-Werte für Montage, Rüsten, Instandhaltung, Störungsbehebung und Einarbeitung. Geeignet, sobald klar ist, welchen Prozess Sie pilotieren wollen."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Beide Wege nutzen dasselbe Finanzmodell. Dieses Whitepaper folgt vor allem der Schnellschätzung, weil deren Standardwerte das Rechenbeispiel ergeben, das das Controlling meist zuerst sieht."
+    },
+    {
+     "type": "callout",
+     "title": "Wichtig",
+     "text": "Der Rechner liefert eine Schätzung, kein Angebot. Die Investitionsbeträge sind anpassbare Beispielannahmen. Nutzen Sie Ihre eigenen Zahlen, wo immer Sie sie haben."
+    }
+   ]
+  },
+  {
+   "title": "Woher kommt die Einsparung? Vier Formeln",
+   "lead": "Die Einsparung stammt aus vier Quellen: kürzere Einarbeitung, weniger Fehler und Ausschuss, weniger Stillstand durch Fehler bei der Ausführung von Arbeitsanweisungen und weniger Vor-Ort-Einsätze von Experten. Jede Quelle hat eine eigene Formel, sodass sich jeder Euro nachvollziehen und hinterfragen lässt.",
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "Einsparung",
+      "Formel (Schnellschätzung)",
+      "Standardeingaben (Sonstige Fertigung)"
+     ],
+     "rows": [
+      [
+       "Einarbeitung",
+       "neue Werker × (Einarbeitungsstunden × Reduktion %) × (Satz Werker + Satz Trainer)",
+       "6 neue Werker pro Jahr, je 24 Stunden, 40 € + 60 € pro Stunde"
+      ],
+      [
+       "Qualität (Fehler und Ausschuss)",
+       "Werker × Ausführungen × Fehlerquote × Reduktion % × Kosten je Fehler",
+       "25 Werker, 400 Ausführungen je Werker und Jahr, 3% Fehlerquote, 250 € je Fehler"
+      ],
+      [
+       "Stillstand",
+       "Stillstandsstunden durch SOP-Fehler × Reduktion % × Kosten je Stunde",
+       "40 Stunden pro Jahr, 2.000 € je Stunde"
+      ],
+      [
+       "Experteneinsätze (optional)",
+       "Einsätze × 50% × Kosten je Einsatz",
+       "Standardmäßig aus; 10 Einsätze à 1.500 €, wenn aktiviert"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Was jede Formel erfasst"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Einarbeitung** zählt die Stunden des neuen Werkers und die des Trainers oder Paten, denn beide werden bezahlt, während der neue Kollege lernt. Neue Werker umfassen auch interne Wechsel, nicht nur Neueinstellungen.",
+      "**Qualität** zählt den Anteil der Ausführungen mit Fehler, Nacharbeit oder Ausschuss. Kosten je Fehler umfassen Nacharbeit, Ausschuss und Reklamationen.",
+      "**Stillstand** zählt nur Stillstand durch SOP-Fehler, nicht jeden ungeplanten Stillstand. Das hält die Schätzung belastbar.",
+      "**Experteneinsätze** setzen voraus, dass Remote-Support die Vor-Ort-Einsätze halbiert. Aktivieren Sie dies nur, wenn heute externe oder zentrale Experten zu Ihrem Standort reisen."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Wirkungsstufen"
+    },
+    {
+     "type": "p",
+     "text": "Die Reduktionsprozente ergeben sich aus einer Wahl: vorsichtig, typisch oder ambitioniert. Typisch ist der Standard."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Wirkungsstufe",
+      "Weniger Fehler",
+      "Kürzere Einarbeitung",
+      "Weniger Stillstand"
+     ],
+     "rows": [
+      [
+       "Vorsichtig",
+       "30%",
+       "25%",
+       "25%"
+      ],
+      [
+       "Typisch",
+       "50%",
+       "40%",
+       "40%"
+      ],
+      [
+       "Ambitioniert",
+       "70%",
+       "50%",
+       "50%"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Branchenvorgaben"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Branche",
+      "Werker",
+      "Neu pro Jahr",
+      "Einarbeitung (h)",
+      "Ausführungen",
+      "Fehlerquote",
+      "Kosten/Fehler",
+      "Stillstand (h)",
+      "Kosten/Stunde"
+     ],
+     "rows": [
+      [
+       "Lebensmittel & Getränke",
+       "25",
+       "6",
+       "24",
+       "400",
+       "3%",
+       "250 €",
+       "40",
+       "2.000 €"
+      ],
+      [
+       "Pharma",
+       "30",
+       "8",
+       "40",
+       "300",
+       "2%",
+       "500 €",
+       "30",
+       "5.000 €"
+      ],
+      [
+       "Verpackung",
+       "20",
+       "5",
+       "20",
+       "500",
+       "4%",
+       "200 €",
+       "50",
+       "1.500 €"
+      ],
+      [
+       "Logistik",
+       "35",
+       "10",
+       "16",
+       "600",
+       "5%",
+       "150 €",
+       "60",
+       "1.000 €"
+      ],
+      [
+       "Sonstige Fertigung",
+       "25",
+       "6",
+       "24",
+       "400",
+       "3%",
+       "250 €",
+       "40",
+       "2.000 €"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Branchenvorgaben sind Ausgangswerte, keine Benchmarks für Ihren Standort. Ersetzen Sie sie durch eigene Zahlen, sobald Sie diese haben."
+    },
+    {
+     "type": "h3",
+     "text": "Formeln je Anwendungsfall"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Montage:** Montagen × (Fehlerquote heute − mit Führung) × Kosten je Fehler.",
+      "**Rüsten:** Umrüstungen × gesparte Minuten × Kosten je Minute + Umrüstungen × vermiedener Anlaufausschuss.",
+      "**Instandhaltung:** ungeplante Stillstandsstunden × Reduktion × Kosten je Stunde + Noteinsätze × 50% × Kosten je Einsatz.",
+      "**Störungsbehebung:** Störungen × (MTTR heute − mit Remote-Experte) × Kosten je Stunde + Einsätze × 60% × 1.500 €.",
+      "**Einarbeitung:** neue Werker × gesparte Einarbeitungsstunden × (Satz Werker + Trainer) + neue Werker × vermiedener Ausschuss je neuem Werker."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Wie werden Amortisation, ROI und Kapitalwert berechnet?",
+   "lead": "Die jährliche Einsparung bei voller Nutzung zählt im Jahr 1 zu 60%, im Jahr 2 zu 80% und im Jahr 3 zu 100%. Jährliche Kosten werden jedes Jahr abgezogen, einmalige Kosten zum Start, und der Netto-Cashflow wird mit 8% abgezinst.",
+   "blocks": [
+    {
+     "type": "steps",
+     "items": [
+      {
+       "t": "Einsparung pro Jahr",
+       "d": "Summe der vier Einsparungen bei voller Nutzung."
+      },
+      {
+       "t": "Nutzungskurve",
+       "d": "Jahr 1 zählt 60% der Einsparung, Jahr 2 80%, Jahr 3 100%. Ein echter Rollout braucht Zeit: Anwender, Inhalte und Prozesse müssen reifen."
+      },
+      {
+       "t": "Netto-Cashflow",
+       "d": "Netto pro Jahr = Einsparung × Nutzung − jährliche Kosten. Zum Start sind die einmaligen Kosten ein negativer Cashflow."
+      },
+      {
+       "t": "Amortisation",
+       "d": "Der Zeitpunkt, an dem der kumulierte Cashflow null erreicht, linear innerhalb des Jahres, in Monaten. Geschieht das nicht innerhalb von 36 Monaten, zeigt der Rechner > 36 Monate."
+      },
+      {
+       "t": "ROI über 3 Jahre",
+       "d": "(Einsparung über drei Jahre − Kosten über drei Jahre) ÷ Kosten über drei Jahre. Kosten über drei Jahre = einmalige Kosten + 3 × jährliche Kosten."
+      },
+      {
+       "t": "Kapitalwert",
+       "d": "Die einmaligen Kosten plus der Netto-Cashflow jedes Jahres, abgezinst mit 8% pro Jahr."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Annahmen zur Investition"
+    },
+    {
+     "type": "p",
+     "text": "Der Rechner startet mit zwei anpassbaren Beispielwerten: **29.000 € pro Jahr** (Lizenzen, Geräte und Content-Pflege) und **25.000 € einmalig** (Implementierung und erste Anleitungen). Das sind indikative Annahmen, damit das Modell rechnen kann, kein Preis und kein Angebot. Ihre tatsächliche Investition hängt von Umfang, Anzahl der Anwender, Geräten und Integration ab und sollte diese Werte in Ihrem eigenen Business Case ersetzen."
+    },
+    {
+     "type": "callout",
+     "title": "Warum 8%?",
+     "text": "Ein Diskontsatz rechnet künftige Euro in den heutigen Wert um. 8% ist ein gängiger Mindestzins für operative Investitionen. Verwendet Ihr Controlling einen eigenen WACC oder Kalkulationszins, nutzen Sie diesen. Die Methode bleibt gleich."
+    }
+   ]
+  },
+  {
+   "title": "Was zeigt das Rechenbeispiel mit den Standardwerten?",
+   "lead": "Mit den Standardwerten (Sonstige Fertigung, typische Wirkung, Beispielwerte für die Investition) beträgt die Einsparung bei voller Nutzung 75.260 € pro Jahr. Die Investition amortisiert sich nach 15 Monaten, der ROI über drei Jahre liegt bei 61% und der Kapitalwert bei rund 53.000 €.",
+   "blocks": [
+    {
+     "type": "kpis",
+     "items": [
+      {
+       "n": "75.260 €",
+       "l": "Einsparung pro Jahr bei voller Nutzung"
+      },
+      {
+       "n": "15 Monate",
+       "l": "Amortisation"
+      },
+      {
+       "n": "61%",
+       "l": "ROI über 3 Jahre"
+      },
+      {
+       "n": "≈ 53.000 €",
+       "l": "Kapitalwert bei 8%"
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Einsparung je Quelle"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Quelle",
+      "Berechnung",
+      "Pro Jahr",
+      "Anteil"
+     ],
+     "rows": [
+      [
+       "Einarbeitung",
+       "6 × (24 h × 40%) × (40 € + 60 €)",
+       "5.760 €",
+       "8%"
+      ],
+      [
+       "Qualität",
+       "25 × 400 × 3% × 50% × 250 €",
+       "37.500 €",
+       "50%"
+      ],
+      [
+       "Stillstand",
+       "40 h × 40% × 2.000 €",
+       "32.000 €",
+       "43%"
+      ],
+      [
+       "Experteneinsätze",
+       "deaktiviert",
+       "0 €",
+       "0%"
+      ],
+      [
+       "Summe",
+       "",
+       "75.260 €",
+       "100%"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Cashflow über drei Jahre"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Zeitraum",
+      "Nutzung",
+      "Einsparung",
+      "Kosten",
+      "Netto",
+      "Kumuliert"
+     ],
+     "rows": [
+      [
+       "Start",
+       "",
+       "",
+       "25.000 €",
+       "−25.000 €",
+       "−25.000 €"
+      ],
+      [
+       "Jahr 1",
+       "60%",
+       "45.156 €",
+       "29.000 €",
+       "16.156 €",
+       "−8.844 €"
+      ],
+      [
+       "Jahr 2",
+       "80%",
+       "60.208 €",
+       "29.000 €",
+       "31.208 €",
+       "22.364 €"
+      ],
+      [
+       "Jahr 3",
+       "100%",
+       "75.260 €",
+       "29.000 €",
+       "46.260 €",
+       "68.624 €"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Der kumulierte Cashflow wird im Jahr 2 positiv: 8.844 € ÷ 31.208 € ≈ 0,28 Jahre, die Amortisation liegt also bei 1,28 Jahren, gerundet 15 Monate."
+    },
+    {
+     "type": "p",
+     "text": "Über drei Jahre stehen 180.624 € Einsparung 112.000 € Kosten gegenüber (25.000 € + 3 × 29.000 €). ROI = 68.624 € ÷ 112.000 € = 61%. Mit 8% abgezinst ergeben die Netto-Cashflows einen Kapitalwert von 53.438 €."
+    },
+    {
+     "type": "callout",
+     "title": "So lesen Sie das",
+     "text": "In diesem Beispiel stammt die Hälfte des Werts aus weniger Fehlern und über 40% aus weniger Stillstand. Die Einsparung bei der Einarbeitung ist klein, weil der Standardstandort nur sechs Personen pro Jahr einarbeitet. Ein Standort mit hoher Fluktuation oder vielen internen Wechseln sieht eine ganz andere Verteilung."
+    }
+   ]
+  },
+  {
+   "title": "Wie empfindlich reagiert das Ergebnis auf die Annahmen?",
+   "lead": "Die Wirkungsstufe hat den größten Effekt: Mit den Standardwerten reicht die jährliche Einsparung von 46.100 € (vorsichtig) bis 99.700 € (ambitioniert). Fehlerquote, Kosten je Fehler und Kosten je Stillstandsstunde bewegen das Ergebnis am stärksten.",
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "Wirkungsstufe",
+      "Einsparung pro Jahr",
+      "Amortisation",
+      "ROI über 3 Jahre",
+      "Kapitalwert (8%)"
+     ],
+     "rows": [
+      [
+       "Vorsichtig",
+       "46.100 €",
+       "> 36 Monate",
+       "−1%",
+       "≈ −5.900 €"
+      ],
+      [
+       "Typisch",
+       "75.260 €",
+       "15 Monate",
+       "61%",
+       "≈ 53.000 €"
+      ],
+      [
+       "Ambitioniert",
+       "99.700 €",
+       "10 Monate",
+       "114%",
+       "≈ 103.000 €"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Mit vorsichtigen Annahmen und den Beispielwerten für die Investition amortisiert sich der Fall nicht innerhalb von drei Jahren. Das ist eine nützliche Information, keine Schwäche: Sie zeigt, unter welchen Bedingungen die Investition sinnvoll ist und welche Eingaben Sie sorgfältig messen sollten."
+    },
+    {
+     "type": "h3",
+     "text": "Welche Eingaben wiegen am schwersten?"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Fehlerquote und Kosten je Fehler.** Qualität macht die Hälfte des Standardwerts aus. Halbieren Sie die Kosten je Fehler, sinkt die Einsparung bei typischer Wirkung um rund 18.750 € pro Jahr.",
+      "**Kosten je Stillstandsstunde.** Stillstand ist der zweite Treiber. Nutzen Sie den tatsächlich entgangenen Deckungsbeitrag je Stunde, kein theoretisches Maximum.",
+      "**Stillstandsstunden durch SOP-Fehler.** Zählen Sie nur Stopps, die durch Fehler oder Unsicherheit bei der Ausführung einer Arbeitsanweisung entstehen. Zu großzügiges Zählen ist der häufigste Fehler.",
+      "**Neue Werker pro Jahr.** An Standorten mit hoher Fluktuation, Leiharbeit oder Jobrotation kann die Einarbeitung zum größten Treiber werden."
+     ]
+    },
+    {
+     "type": "callout",
+     "title": "Praxistipp",
+     "text": "Zeigen Sie dem Controlling alle drei Stufen, stützen Sie die Entscheidung auf typisch und benennen Sie, welche Eingaben Sie im Pilot prüfen. Eine Bandbreite ist glaubwürdiger als eine exakt wirkende Einzelzahl."
+    }
+   ]
+  },
+  {
+   "title": "Wie erheben Sie belastbare Daten für die Nullmessung?",
+   "lead": "Erheben Sie zwei bis vier Wochen lang Daten für den Prozess, den Sie pilotieren wollen, mit Definitionen, die Sie nach dem Go-live wieder verwenden. Die meisten Eingaben liegen bereits in MES, CMMS, QM- und HR-System vor; den Rest messen Sie mit einfachen Zeitaufnahmen.",
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "Eingabe",
+      "Wo Sie sie finden",
+      "Tipp"
+     ],
+     "rows": [
+      [
+       "Werker, die mit SOPs arbeiten",
+       "Schichtpläne, HR",
+       "Personen zählen, nicht VZÄ, in den betroffenen Prozessen"
+      ],
+      [
+       "Neue Werker pro Jahr",
+       "HR: Neueinstellungen, Leiharbeit, interne Wechsel",
+       "Jobrotation und Mehrfachqualifikation einbeziehen"
+      ],
+      [
+       "Einarbeitungsstunden je neuem Werker",
+       "Schulungsnachweise, Schichtleiter",
+       "Stunden bis zur selbstständigen Arbeit, inklusive Patenstunden"
+      ],
+      [
+       "Ausführungen je Werker",
+       "MES, Auftragsdaten, Schichtbuch",
+       "Nur Ausführungen der betroffenen Arbeitsanweisungen"
+      ],
+      [
+       "Fehlerquote",
+       "QM-System, Nacharbeits- und Ausschussmeldungen",
+       "Nur Fehler aus der menschlichen Ausführung"
+      ],
+      [
+       "Kosten je Fehler",
+       "Controlling, Qualität",
+       "Nacharbeitsstunden, Ausschussmaterial, Reklamationsbearbeitung"
+      ],
+      [
+       "Stillstand durch SOP-Fehler",
+       "MES/OEE-Stillstandsgründe, CMMS",
+       "Stopps durch Fehler oder Unsicherheit bei der Ausführung kennzeichnen"
+      ],
+      [
+       "Kosten je Stillstandsstunde",
+       "Controlling",
+       "Entgangener Deckungsbeitrag plus Leerlaufkosten"
+      ],
+      [
+       "Experteneinsätze",
+       "Servicerechnungen, Reisekosten",
+       "Externe und interne Experten, die zum Standort reisen"
+      ]
+     ]
+    },
+    {
+     "type": "checklist",
+     "items": [
+      "Definitionen mit Qualität und Controlling abstimmen, bevor Sie messen.",
+      "Dieselben Schichten und Produkte vor und nach dem Go-live messen.",
+      "Ausnahmen (Produktanläufe, große Störungen) getrennt erfassen.",
+      "Rohdaten aufbewahren; das Controlling wird danach fragen.",
+      "Notieren, wer welche Zahl wann geliefert hat."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Wie präsentieren Sie den Business Case dem Controlling?",
+   "lead": "Präsentieren Sie den Business Case als Bandbreite mit transparenten Annahmen, einer Nutzungskurve und einem Pilot, der die kritischen Eingaben überprüft. Das Controlling akzeptiert Unsicherheit, aber keine versteckten Annahmen.",
+   "blocks": [
+    {
+     "type": "steps",
+     "items": [
+      {
+       "t": "Mit dem Problem in Euro beginnen",
+       "d": "Zeigen Sie die heutigen Kosten von Fehlern, Stillstand und Einarbeitung für den betroffenen Prozess, auf Basis Ihrer Nullmessung."
+      },
+      {
+       "t": "Die vier Formeln zeigen",
+       "d": "Machen Sie jeden Euro auf eine Eingabe und deren Quelle rückführbar. Keine Blackbox."
+      },
+      {
+       "t": "Drei Szenarien präsentieren",
+       "d": "Vorsichtig, typisch und ambitioniert, jeweils mit Amortisation, ROI über drei Jahre und Kapitalwert."
+      },
+      {
+       "t": "Den eigenen Kalkulationszins verwenden",
+       "d": "Ersetzen Sie die 8% durch den Kalkulationszins oder WACC Ihres Unternehmens, falls abweichend."
+      },
+      {
+       "t": "Beispielbeträge ersetzen",
+       "d": "Nutzen Sie das tatsächliche Angebot für Lizenzen, Geräte und Implementierung statt der Beispielwerte des Rechners."
+      },
+      {
+       "t": "Pilot als Entscheidungspunkt vorschlagen",
+       "d": "Beantragen Sie ein begrenztes Budget für 8 bis 12 Wochen mit vereinbarten Erfolgskriterien, bevor Sie über den Rollout entscheiden."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Der PDF-Bericht aus dem Rechner enthält alle Annahmen, den Cashflow pro Jahr und einen Vorschlag für ein oder zwei Pilotprozesse. ActARion unterstützt Sie dabei, die Annahmen zu prüfen, die Nullmessung aufzusetzen und den Pilot mit der Plattform DeepSight durchzuführen. [Kundenzahl: gemessenes Pilotergebnis eines Referenzkunden ergänzen, z. B. weniger Einarbeitungsstunden]"
+    },
+    {
+     "type": "callout",
+     "title": "Checkliste für das Controlling-Gespräch",
+     "text": "Nullmessung mit Quellen, drei Szenarien, Sensitivität der drei wichtigsten Eingaben, Ihre eigenen Investitionsbeträge, der Kalkulationszins Ihres Unternehmens, Pilotplan mit Erfolgskriterien und Entscheidungstermin."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wie wird der ROI digitaler Arbeitsanweisungen berechnet?",
+   "a": "Als ROI über drei Jahre: Einsparung über drei Jahre minus Kosten über drei Jahre, geteilt durch die Kosten über drei Jahre. Die Einsparung wächst mit einer Nutzung von 60%, 80% und 100%."
+  },
+  {
+   "q": "Was ist eine realistische Amortisationszeit?",
+   "a": "Mit den Standardwerten und Beispielbeträgen des Rechners 15 Monate bei typischer und 10 Monate bei ambitionierter Wirkung. Bei vorsichtiger Wirkung amortisiert sich der Standardfall nicht innerhalb von 36 Monaten. Ihre eigenen Daten entscheiden."
+  },
+  {
+   "q": "Sind die Investitionsbeträge im Rechner ein Preis?",
+   "a": "Nein. 29.000 € pro Jahr und 25.000 € einmalig sind anpassbare Beispielannahmen. Ersetzen Sie sie durch Ihr tatsächliches Angebot."
+  },
+  {
+   "q": "Warum zählt nur Stillstand durch SOP-Fehler?",
+   "a": "Weil digitale Arbeitsanweisungen nur Stillstand beeinflussen, der durch Fehler oder Unsicherheit bei der Ausführung entsteht. Jeden ungeplanten Stillstand mitzuzählen, würde den Business Case überzeichnen."
+  },
+  {
+   "q": "Können wir unseren eigenen Kalkulationszins verwenden?",
+   "a": "Ja. Der Rechner nutzt 8%. Verwenden Sie in Ihrem Business Case den Kalkulationszins oder WACC Ihres Controllings."
+  }
+ ],
+ "sources": [
+  {
+   "title": "ActARion ROI-Rechner",
+   "url": "https://www.actarion.com/de/ressourcen/roi-rechner"
+  },
+  {
+   "title": "Investopedia: Net Present Value (NPV)",
+   "url": "https://www.investopedia.com/terms/n/npv.asp"
+  },
+  {
+   "title": "Investopedia: Payback Period",
+   "url": "https://www.investopedia.com/terms/p/paybackperiod.asp"
+  }
+ ],
+ "cta": {
+  "title": "Kostenloses Erstgespräch vereinbaren",
+  "text": "Unsicher bei den Annahmen? Prüfen Sie sie mit Mark Dercksen (DACH). In 30 Minuten sehen wir uns Ihre Eingaben an und schlagen ein oder zwei Pilotprozesse vor."
+ }
+}

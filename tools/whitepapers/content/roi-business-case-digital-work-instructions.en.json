@@ -1,0 +1,637 @@
+{
+ "slug": "roi-business-case-digital-work-instructions",
+ "lang": "en",
+ "title": "The business case for digital work instructions: ROI method, assumptions and ranges",
+ "subtitle": "How the ActARion ROI calculator works: four savings formulas, the finance model behind payback, ROI and NPV, a worked example and how to defend the numbers in front of finance",
+ "keyword": "roi digital work instructions",
+ "metaTitle": "ROI of digital work instructions: business case | ActARion",
+ "metaDescription": "The business case for digital and AR work instructions: four savings formulas, payback, 3-year ROI and NPV, a worked example, ranges and baseline data.",
+ "audience": "Operations and plant managers, controllers and finance, CI and L&D managers preparing an investment decision",
+ "readingTime": 13,
+ "answer": "The ROI of digital work instructions comes from four sources: shorter training, fewer errors, less downtime and fewer expert visits. With the calculator's default inputs, savings at full adoption are €75,260 a year, with payback in 15 months, a 3-year ROI of 61% and an NPV of about €53k. Conservative to ambitious assumptions give €46,100 to €99,700.",
+ "keyTakeaways": [
+  "Every euro in the business case traces back to one of four transparent formulas: training, quality, downtime and expert visits.",
+  "The finance model phases adoption at 60%, 80% and 100% over three years and discounts net cash flow at 8%.",
+  "With default inputs: €75,260 savings per year, payback in 15 months, 3-year ROI of 61% and NPV of about €53k.",
+  "The impact level matters more than any single input: conservative assumptions do not pay back within three years with the default investment, ambitious ones in 10 months.",
+  "Finance trusts a business case built on your own baseline data and confirmed by a measured pilot, not on vendor benchmarks."
+ ],
+ "chapters": [
+  {
+   "title": "What should a business case for digital work instructions answer?",
+   "lead": "A business case must show where savings come from, when the investment pays back and how sure you can be. That means transparent formulas, your own baseline data, a phased adoption curve and a range rather than one number.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Digital work instructions replace paper or PDF procedures with visual, step-by-step guidance on a tablet, smartphone or smart glasses, optionally with augmented reality (AR). The question finance asks is not whether that is modern, but whether it pays back."
+    },
+    {
+     "type": "callout",
+     "title": "Definition: ROI",
+     "text": "Return on investment (ROI) is the net gain of an investment divided by its cost. In this paper ROI always means 3-year ROI: (savings over three years − costs over three years) ÷ costs over three years."
+    },
+    {
+     "type": "p",
+     "text": "The ActARion ROI calculator on our website uses exactly the method described here. Every number in this whitepaper can be reproduced in the calculator. The calculator, the mobile flow and the PDF report share one calculation engine, so the results never differ between them."
+    },
+    {
+     "type": "h3",
+     "text": "Two ways to calculate"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Quick estimate:** ten inputs about your operation, an industry preset and an impact level. Suitable for a first conversation and an order-of-magnitude answer.",
+      "**Per use case:** separate before/after inputs for assembly, changeover, maintenance, fault recovery and training. Suitable once you know which process you want to pilot."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Both routes use the same finance model. This paper mainly follows the quick estimate, because its defaults produce the worked example that finance teams usually see first."
+    },
+    {
+     "type": "callout",
+     "title": "Important",
+     "text": "The calculator gives an estimate, not a quote. Investment figures are adjustable example assumptions. Use your own figures wherever you have them."
+    }
+   ]
+  },
+  {
+   "title": "Where do the savings come from? Four formulas",
+   "lead": "Savings come from four sources: shorter training, fewer errors and less scrap, less downtime caused by procedure errors, and fewer on-site expert visits. Each has its own formula, so every euro can be traced and challenged.",
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "Savings source",
+      "Formula (quick estimate)",
+      "Default inputs (Other manufacturing)"
+     ],
+     "rows": [
+      [
+       "Training",
+       "new operators × (training hours × reduction %) × (operator rate + trainer rate)",
+       "6 new operators per year, 24 hours each, €40 + €60 per hour"
+      ],
+      [
+       "Quality (errors and scrap)",
+       "operators × SOP executions × error rate × reduction % × cost per error",
+       "25 operators, 400 executions per operator per year, 3% error rate, €250 per error"
+      ],
+      [
+       "Downtime",
+       "downtime hours from SOP errors × reduction % × cost per hour",
+       "40 hours per year, €2,000 per hour"
+      ],
+      [
+       "Expert visits (optional)",
+       "visits × 50% × cost per visit",
+       "Off by default; 10 visits, €1,500 per visit when switched on"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "What each formula counts"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Training** counts both the new operator's hours and the trainer's or buddy's hours, because both are paid while the new colleague learns. New operators include internal transfers, not only new hires.",
+      "**Quality** counts the share of SOP executions with an error, rework or scrap. Cost per error includes rework, scrap and complaints.",
+      "**Downtime** counts only downtime caused by procedure errors, not all unplanned downtime. This keeps the estimate defensible.",
+      "**Expert visits** assume remote support halves on-site visits. Switch it on only if external or central experts travel to your site today."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Impact levels"
+    },
+    {
+     "type": "p",
+     "text": "The reduction percentages are set by one choice: conservative, typical or ambitious. Typical is the default."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Impact level",
+      "Fewer errors",
+      "Shorter training",
+      "Less downtime"
+     ],
+     "rows": [
+      [
+       "Conservative",
+       "30%",
+       "25%",
+       "25%"
+      ],
+      [
+       "Typical",
+       "50%",
+       "40%",
+       "40%"
+      ],
+      [
+       "Ambitious",
+       "70%",
+       "50%",
+       "50%"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Industry presets"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Industry",
+      "Operators",
+      "New per year",
+      "Training h",
+      "Executions",
+      "Error rate",
+      "Cost/error",
+      "Downtime h",
+      "Cost/hour"
+     ],
+     "rows": [
+      [
+       "Food & beverage",
+       "25",
+       "6",
+       "24",
+       "400",
+       "3%",
+       "€250",
+       "40",
+       "€2,000"
+      ],
+      [
+       "Pharma",
+       "30",
+       "8",
+       "40",
+       "300",
+       "2%",
+       "€500",
+       "30",
+       "€5,000"
+      ],
+      [
+       "Packaging",
+       "20",
+       "5",
+       "20",
+       "500",
+       "4%",
+       "€200",
+       "50",
+       "€1,500"
+      ],
+      [
+       "Logistics",
+       "35",
+       "10",
+       "16",
+       "600",
+       "5%",
+       "€150",
+       "60",
+       "€1,000"
+      ],
+      [
+       "Other manufacturing",
+       "25",
+       "6",
+       "24",
+       "400",
+       "3%",
+       "€250",
+       "40",
+       "€2,000"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Presets are starting points, not benchmarks for your site. Replace them with your own figures as soon as you have them."
+    },
+    {
+     "type": "h3",
+     "text": "Formulas per use case"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Assembly:** assemblies × (error rate today − error rate with guidance) × cost per error.",
+      "**Changeover:** changeovers × minutes saved × cost per minute + changeovers × start-up scrap avoided.",
+      "**Maintenance:** unplanned downtime hours × reduction × cost per hour + emergency visits × 50% × cost per visit.",
+      "**Fault recovery:** incidents × (MTTR today − MTTR with remote expert) × cost per hour + visits × 60% × €1,500.",
+      "**Training:** new operators × training hours saved × (operator + trainer rate) + new operators × scrap avoided per new operator."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "How are payback, 3-year ROI and NPV calculated?",
+   "lead": "Annual savings at full adoption are phased in at 60%, 80% and 100% over three years. Annual costs are deducted each year, the one-time cost at the start, and net cash flow is discounted at 8% for the NPV.",
+   "blocks": [
+    {
+     "type": "steps",
+     "items": [
+      {
+       "t": "Annual savings",
+       "d": "Sum of the four savings at full adoption."
+      },
+      {
+       "t": "Adoption curve",
+       "d": "Year 1 counts 60% of savings, year 2 counts 80%, year 3 counts 100%. Real roll-outs take time: users, content and processes need to mature."
+      },
+      {
+       "t": "Net cash flow",
+       "d": "Net per year = savings × adoption − annual cost. At the start the one-time cost is a negative cash flow."
+      },
+      {
+       "t": "Payback",
+       "d": "The moment cumulative cash flow reaches zero, interpolated linearly within the year and shown in months. If it does not happen within 36 months, the calculator shows > 36 months."
+      },
+      {
+       "t": "3-year ROI",
+       "d": "(savings over three years − costs over three years) ÷ costs over three years. Costs over three years = one-time cost + 3 × annual cost."
+      },
+      {
+       "t": "NPV",
+       "d": "Net present value: the one-time cost plus each year's net cash flow discounted at 8% per year."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Investment assumptions"
+    },
+    {
+     "type": "p",
+     "text": "The calculator starts with two adjustable example values: **€29,000 per year** (licences, devices and content upkeep) and **€25,000 one-time** (implementation and first instructions). These are indicative assumptions to make the model work, not a price and not a quote. Your actual investment depends on scope, number of users, devices and integration, and should replace these values in your own business case."
+    },
+    {
+     "type": "callout",
+     "title": "Why 8%?",
+     "text": "A discount rate converts future cash into today's value. 8% is a common hurdle rate for operational investments; if your finance department uses its own WACC or hurdle rate, use that instead. The method stays the same."
+    }
+   ]
+  },
+  {
+   "title": "What does the worked example with default values show?",
+   "lead": "With the default inputs (Other manufacturing, typical impact, investment example values), savings at full adoption are €75,260 a year. Payback comes after 15 months, 3-year ROI is 61% and NPV is about €53k.",
+   "blocks": [
+    {
+     "type": "kpis",
+     "items": [
+      {
+       "n": "€75,260",
+       "l": "savings per year at full adoption"
+      },
+      {
+       "n": "15 months",
+       "l": "payback"
+      },
+      {
+       "n": "61%",
+       "l": "3-year ROI"
+      },
+      {
+       "n": "≈ €53k",
+       "l": "NPV at 8%"
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Savings per source"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Source",
+      "Calculation",
+      "Per year",
+      "Share"
+     ],
+     "rows": [
+      [
+       "Training",
+       "6 × (24 h × 40%) × (€40 + €60)",
+       "€5,760",
+       "8%"
+      ],
+      [
+       "Quality",
+       "25 × 400 × 3% × 50% × €250",
+       "€37,500",
+       "50%"
+      ],
+      [
+       "Downtime",
+       "40 h × 40% × €2,000",
+       "€32,000",
+       "43%"
+      ],
+      [
+       "Expert visits",
+       "switched off",
+       "€0",
+       "0%"
+      ],
+      [
+       "Total",
+       "",
+       "€75,260",
+       "100%"
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Cash flow over three years"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Period",
+      "Adoption",
+      "Savings",
+      "Costs",
+      "Net",
+      "Cumulative"
+     ],
+     "rows": [
+      [
+       "Start",
+       "",
+       "",
+       "€25,000",
+       "−€25,000",
+       "−€25,000"
+      ],
+      [
+       "Year 1",
+       "60%",
+       "€45,156",
+       "€29,000",
+       "€16,156",
+       "−€8,844"
+      ],
+      [
+       "Year 2",
+       "80%",
+       "€60,208",
+       "€29,000",
+       "€31,208",
+       "€22,364"
+      ],
+      [
+       "Year 3",
+       "100%",
+       "€75,260",
+       "€29,000",
+       "€46,260",
+       "€68,624"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Cumulative cash flow turns positive during year 2: €8,844 ÷ €31,208 ≈ 0.28 of the year, so payback is 1.28 years, rounded to 15 months."
+    },
+    {
+     "type": "p",
+     "text": "Over three years savings total €180,624 against €112,000 in costs (€25,000 + 3 × €29,000). ROI = €68,624 ÷ €112,000 = 61%. Discounted at 8%, the net cash flows give an NPV of €53,438."
+    },
+    {
+     "type": "callout",
+     "title": "Read this correctly",
+     "text": "In this example, half of the value comes from fewer errors and over 40% from less downtime. Training savings are small because the default site only onboards six people a year. A site with high turnover or many internal transfers will see a very different mix."
+    }
+   ]
+  },
+  {
+   "title": "How sensitive is the result to the assumptions?",
+   "lead": "The impact level has the largest effect: with default inputs, annual savings range from €46,100 (conservative) to €99,700 (ambitious). Error rate, cost per error and cost per downtime hour are the inputs that move the result most.",
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "Impact level",
+      "Savings per year",
+      "Payback",
+      "3-year ROI",
+      "NPV (8%)"
+     ],
+     "rows": [
+      [
+       "Conservative",
+       "€46,100",
+       "> 36 months",
+       "−1%",
+       "≈ −€5.9k"
+      ],
+      [
+       "Typical",
+       "€75,260",
+       "15 months",
+       "61%",
+       "≈ €53k"
+      ],
+      [
+       "Ambitious",
+       "€99,700",
+       "10 months",
+       "114%",
+       "≈ €103k"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "With conservative assumptions and the default investment values, the case does not pay back within three years. That is useful information, not a weakness: it shows which conditions must hold for the investment to make sense, and it points to the inputs worth measuring carefully."
+    },
+    {
+     "type": "h3",
+     "text": "Which inputs matter most?"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Error rate and cost per error.** Quality is half of the default value. Halving the cost per error removes about €18,750 per year at typical impact.",
+      "**Cost per downtime hour.** Downtime is the second driver. Use the real contribution margin lost per hour, not a theoretical maximum.",
+      "**Downtime hours from SOP errors.** Count only stops caused by procedure errors or uncertainty. Over-counting is the most common mistake.",
+      "**New operators per year.** On sites with high turnover, temporary staff or frequent job rotation, training can become the largest driver."
+     ]
+    },
+    {
+     "type": "callout",
+     "title": "Practical advice",
+     "text": "Present all three levels to finance, base your decision on typical, and show which inputs you will verify in the pilot. A range is more credible than a single precise-looking number."
+    }
+   ]
+  },
+  {
+   "title": "How do you collect reliable baseline data?",
+   "lead": "Collect two to four weeks of baseline data for the process you plan to pilot, using definitions you will reuse after go-live. Most inputs already exist in MES, CMMS, quality and HR systems; the rest can be measured with simple time studies.",
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "Input",
+      "Where to find it",
+      "Tip"
+     ],
+     "rows": [
+      [
+       "Operators working with SOPs",
+       "Shift rosters, HR",
+       "Count people, not FTE, on the processes in scope"
+      ],
+      [
+       "New operators per year",
+       "HR: hires, temps, internal transfers",
+       "Include job rotation and cross-training"
+      ],
+      [
+       "Training hours per new operator",
+       "Training records, team leaders",
+       "Hours until independent work, including buddy time"
+      ],
+      [
+       "SOP executions per operator",
+       "MES, order data, shift logs",
+       "Executions of the procedures in scope only"
+      ],
+      [
+       "Error rate",
+       "Quality system, rework and scrap logs, NCRs",
+       "Only errors caused by the human execution of a procedure"
+      ],
+      [
+       "Cost per error",
+       "Controlling, quality",
+       "Rework labour, scrap material, complaint handling"
+      ],
+      [
+       "Downtime from SOP errors",
+       "MES/OEE stop reasons, CMMS",
+       "Tag stops caused by procedure errors or uncertainty"
+      ],
+      [
+       "Cost per downtime hour",
+       "Controlling",
+       "Lost contribution margin plus idle labour"
+      ],
+      [
+       "Expert visits",
+       "Service invoices, travel expenses",
+       "External and internal experts who travel to the site"
+      ]
+     ]
+    },
+    {
+     "type": "checklist",
+     "items": [
+      "Agree definitions with quality and controlling before you measure.",
+      "Measure the same shifts and products before and after go-live.",
+      "Record exceptions (new product launches, major breakdowns) separately.",
+      "Keep the raw data; finance will ask for it.",
+      "Note who supplied each number and when."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "How do you present the business case to finance?",
+   "lead": "Present the business case as a range with transparent assumptions, a phased adoption curve and a pilot that will verify the critical inputs. Finance accepts uncertainty; it does not accept hidden assumptions.",
+   "blocks": [
+    {
+     "type": "steps",
+     "items": [
+      {
+       "t": "Start with the problem in euros",
+       "d": "Show today's cost of errors, downtime and training for the process in scope, based on your baseline."
+      },
+      {
+       "t": "Show the four formulas",
+       "d": "Make every euro traceable to an input and its source. No black box."
+      },
+      {
+       "t": "Present three scenarios",
+       "d": "Conservative, typical and ambitious, with payback, 3-year ROI and NPV for each."
+      },
+      {
+       "t": "Use their discount rate",
+       "d": "Replace the 8% with your company's hurdle rate or WACC if it differs."
+      },
+      {
+       "t": "Replace example investment values",
+       "d": "Use the actual offer for licences, devices and implementation instead of the calculator's example values."
+      },
+      {
+       "t": "Propose a pilot as a decision gate",
+       "d": "Ask for a limited budget for 8 to 12 weeks, with agreed success criteria, before committing to roll-out."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "The ActARion PDF report from the calculator contains all assumptions, the yearly cash flow and a proposal for one or two pilot processes. ActARion helps you validate the assumptions, set up the baseline measurement and run the pilot with the DeepSight platform. [customer figure: measured pilot result from a reference customer, e.g. reduction in training hours]"
+    },
+    {
+     "type": "callout",
+     "title": "Checklist for the finance meeting",
+     "text": "Baseline data with sources, three scenarios, sensitivity of the top three inputs, your own investment figures, the company discount rate, pilot plan with success criteria and decision date."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "How is the ROI of digital work instructions calculated?",
+   "a": "As 3-year ROI: savings over three years minus costs over three years, divided by costs over three years. Savings are phased in at 60%, 80% and 100% adoption."
+  },
+  {
+   "q": "What is a realistic payback period?",
+   "a": "With the calculator's default inputs and example investment values, 15 months at typical impact and 10 months at ambitious impact. At conservative impact the default case does not pay back within 36 months. Your own data decides."
+  },
+  {
+   "q": "Are the investment figures in the calculator a price?",
+   "a": "No. €29,000 per year and €25,000 one-time are adjustable example assumptions. Replace them with your actual offer."
+  },
+  {
+   "q": "Why is downtime limited to SOP errors?",
+   "a": "Because digital work instructions only influence downtime caused by procedure errors or uncertainty. Counting all unplanned downtime would overstate the case."
+  },
+  {
+   "q": "Can we use our own discount rate?",
+   "a": "Yes. The calculator uses 8%. In your business case, use the hurdle rate or WACC that your finance department applies."
+  }
+ ],
+ "sources": [
+  {
+   "title": "ActARion ROI calculator",
+   "url": "https://www.actarion.com/en/resources/roi-calculator"
+  },
+  {
+   "title": "Investopedia: Net Present Value (NPV)",
+   "url": "https://www.investopedia.com/terms/n/npv.asp"
+  },
+  {
+   "title": "Investopedia: Payback Period",
+   "url": "https://www.investopedia.com/terms/p/paybackperiod.asp"
+  }
+ ],
+ "cta": {
+  "title": "Book a free intake call",
+  "text": "Unsure about the assumptions? Check them with Jack Kessels (Benelux) or Mark Dercksen (DACH). In 30 minutes we review your inputs and propose one or two pilot processes."
+ }
+}
