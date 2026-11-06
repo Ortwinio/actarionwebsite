@@ -40,7 +40,7 @@ export function HomeDesign({ routeKey: _routeKey, locale }: { routeKey: string; 
       <section className={`mx-auto max-w-site flex flex-wrap items-center gap-[18px] px-5 pb-6 pt-7 md:gap-14 md:px-6 md:pb-[88px] md:pt-[72px]`}>
         <div className="flex min-w-0 flex-[1_1_460px] flex-col gap-[18px] md:gap-7">
           <p className={eyebrow}>{t.eyebrow}</p>
-          <h1 className="m-0 font-display text-[42px] font-extrabold leading-none tracking-[-0.035em] md:text-[clamp(42px,5.4vw,80px)] md:leading-[0.98]">{t.h1}</h1>
+          <h1 className="m-0 font-display text-[42px] font-extrabold leading-none tracking-[-0.035em] [hyphens:manual] [-webkit-hyphens:manual] md:text-[clamp(42px,5.4vw,80px)] md:leading-[0.98]">{t.h1}</h1>
           <p className="m-0 max-w-[560px] text-[17px] leading-[1.5] text-muted md:text-[20px]">{t.lead}</p>
           <div className="flex flex-col gap-[10px] md:flex-row md:flex-wrap md:gap-3">
             <a href={demo} className="inline-flex h-14 items-center justify-center rounded-full bg-primary px-[30px] text-[17px] font-bold text-white no-underline hover:bg-primary-hover hover:text-white md:h-[58px]">{t.ctaDemo}</a>
