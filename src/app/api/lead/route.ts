@@ -31,7 +31,7 @@ export async function POST(req: Request) {
       method: 'POST',
       headers: { Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        from: process.env.LEAD_FROM_EMAIL || 'ActARion website <website@actarion.com>',
+        from: process.env.LEAD_FROM_EMAIL || 'ActARion website <website@notifications.actarion.com>',
         to,
         ...(body.kind === 'onsite' ? { cc: [general] } : {}),
         reply_to: email,
