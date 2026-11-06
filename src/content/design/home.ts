@@ -6,7 +6,8 @@ const L = (nl: string, en: string, de: string): L3 => ({ nl, en, de });
 
 export const homeText = {
   eyebrow: L('Digitale werkinstructies met AR · implementatiepartner in Europa', 'Digital work instructions with AR · implementation partner in Europe', 'Digitale Arbeitsanweisungen mit AR · Implementierungspartner in Europa'),
-  h1: L('Werkinstructies die zich eerst bewijzen.', 'Work instructions that prove themselves first.', 'Arbeitsanweisungen, die sich zuerst beweisen.'),
+  // \u00AD = soft hyphen: the only place these compounds may break (Werk-instructies, Arbeits-anweisungen).
+  h1: L('Werk\u00ADinstructies die zich eerst bewijzen.', 'Work instructions that prove themselves first.', 'Arbeits\u00ADanweisungen, die sich zuerst beweisen.'),
   lead: L('Minder fouten, sneller inwerken en kortere stilstand, gemeten op uw eigen werkvloer. ActARion kiest met u het proces met de meeste impact, voert een meetbare pilot uit en laat de oplossing operationeel landen.', 'Fewer errors, faster onboarding and less downtime, measured on your own shop floor. ActARion picks the process with the most impact with you, runs a measurable pilot and makes the solution work in daily operations.', 'Weniger Fehler, schnellere Einarbeitung und kürzerer Stillstand, gemessen in Ihrer eigenen Produktion. ActARion wählt mit Ihnen den Prozess mit der größten Wirkung, führt einen messbaren Pilot durch und bringt die Lösung in den Betrieb.'),
   ctaDemo: L('Plan een gesprek met een expert', 'Book a call with an expert', 'Gespräch mit einem Experten'),
   ctaRoi: L('Bereken uw ROI', 'Calculate your ROI', 'ROI berechnen'),
