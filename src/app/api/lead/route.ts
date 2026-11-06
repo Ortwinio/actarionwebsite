@@ -39,7 +39,13 @@ export async function POST(req: Request) {
         text: lines,
       }),
     });
-    if (!res.ok) return NextResponse.json({ error: 'mail' }, { status: 502 });
+    if (!res.ok) {
+      console.error('[lead] resend', res.status, lines);
+      return NextResponse.json({ error: 'mail' }, { status: 502 });
+    }
+  } else {
+    // No mail key yet: keep the lead in the Vercel logs (search "[lead]") so nothing is lost.
+    console.log('[lead]', JSON.stringify({ ...body, website: undefined, to }));
   }
   return NextResponse.json({ ok: true });
 }
