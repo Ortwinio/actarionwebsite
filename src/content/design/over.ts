@@ -25,6 +25,7 @@ export interface OverCopy {
   partnersCta: string;
   imageNoteStrong: string;
   imageNote: string;
+  groupAlt: string;
   ctaHeading: string;
 }
 
@@ -50,9 +51,9 @@ export const overCopy: Record<Locale, OverCopy> = {
     talkTo: 'Plan een gesprek met {voornaam}',
     linkedinLabel: '{naam} op LinkedIn',
     team: [
-      { slug: 'jack-kessels', naam: 'Jack Kessels', voornaam: 'Jack', rol: 'Managing Partner', regio: 'Benelux', cta: true, img: img.jk, alt: 'Pentekening van Jack Kessels, managing partner Benelux', bio: 'Jack heeft ruime ervaring in operationeel leiderschap in food, FMCG en interim-transformaties. Hij leidde complexe operationele opdrachten en verbeterprogramma’s en zet verandering om in meetbaar resultaat op de werkvloer. Zijn aanpak is pragmatisch en draait om mensen.', punten: ['Use cases met veel impact vinden voor AR en AI in de operatie', 'Een gezamenlijke roadmap voor pilot en uitrol opstellen', 'De juiste technologie-, implementatie- en opleidingspartners verbinden'] },
-      { slug: 'mark-dercksen', naam: 'Mark Dercksen', voornaam: 'Mark', rol: 'Oprichter en Managing Partner', regio: 'DACH', cta: true, img: img.md, alt: 'Pentekening van Mark Dercksen, oprichter en managing partner DACH', bio: 'Ruime ervaring in commerciële, operationele en transformatierollen in internationale B2B-omgevingen: salesleiderschap, key accounts, operational excellence en verandermanagement.', punten: ['Een sterk netwerk van klanten en partners in Duitsland, Oostenrijk en Zwitserland', 'AR- en AI-projecten afstemmen op lokale praktijk, regels en cultuur', 'Implementaties robuust en schaalbaar inbedden in het dagelijkse werk'] },
-      { slug: 'ortwin-verreck', naam: 'Ortwin Verreck', voornaam: 'Ortwin', rol: 'Oprichter en advisory board', regio: 'Oprichter', cta: false, img: img.ov, alt: 'Pentekening van Ortwin Verreck, oprichter van ActARion', bio: 'Ondernemer met een lange staat van dienst in het bouwen en opschalen van digitale bedrijven in Europa. Voor ActARion leidde en adviseerde hij bedrijven in digitale marketing, AI en SaaS, altijd gericht op meetbaar resultaat op de werkvloer.', punten: ['Werkinstructies en trainingsprocessen digitaliseren', 'AI en AR invoeren in operationele omgevingen', 'Ecosystemen van technologie- en implementatiepartners bouwen'] },
+      { slug: 'jack-kessels', naam: 'Jack Kessels', voornaam: 'Jack', rol: 'Managing Partner', regio: 'Benelux', cta: true, img: img.jk, alt: 'Foto van Jack Kessels, managing partner Benelux', bio: 'Jack heeft ruime ervaring in operationeel leiderschap in food, FMCG en interim-transformaties. Hij leidde complexe operationele opdrachten en verbeterprogramma’s en zet verandering om in meetbaar resultaat op de werkvloer. Zijn aanpak is pragmatisch en draait om mensen.', punten: ['Use cases met veel impact vinden voor AR en AI in de operatie', 'Een gezamenlijke roadmap voor pilot en uitrol opstellen', 'De juiste technologie-, implementatie- en opleidingspartners verbinden'] },
+      { slug: 'mark-dercksen', naam: 'Mark Dercksen', voornaam: 'Mark', rol: 'Oprichter en Managing Partner', regio: 'DACH', cta: true, img: img.md, alt: 'Foto van Mark Dercksen, oprichter en managing partner DACH', bio: 'Ruime ervaring in commerciële, operationele en transformatierollen in internationale B2B-omgevingen: salesleiderschap, key accounts, operational excellence en verandermanagement.', punten: ['Een sterk netwerk van klanten en partners in Duitsland, Oostenrijk en Zwitserland', 'AR- en AI-projecten afstemmen op lokale praktijk, regels en cultuur', 'Implementaties robuust en schaalbaar inbedden in het dagelijkse werk'] },
+      { slug: 'ortwin-verreck', naam: 'Ortwin Verreck', voornaam: 'Ortwin', rol: 'Oprichter en advisory board', regio: 'Oprichter', cta: false, img: img.ov, alt: 'Foto van Ortwin Verreck, oprichter van ActARion', bio: 'Ondernemer met een lange staat van dienst in het bouwen en opschalen van digitale bedrijven in Europa. Voor ActARion leidde en adviseerde hij bedrijven in digitale marketing, AI en SaaS, altijd gericht op meetbaar resultaat op de werkvloer.', punten: ['Werkinstructies en trainingsprocessen digitaliseren', 'AI en AR invoeren in operationele omgevingen', 'Ecosystemen van technologie- en implementatiepartners bouwen'] },
     ],
     howEyebrow: 'Hoe we werken',
     howH2: 'Van vraag naar opschaling in vier stappen.',
@@ -66,8 +67,9 @@ export const overCopy: Record<Locale, OverCopy> = {
     partnersEyebrow: 'Partners',
     partnersH2: 'Eén platform, een sterk netwerk van partners.',
     partnersCta: 'Bekijk alle partners',
+    groupAlt: 'Jack Kessels, Mark Dercksen en Ortwin Verreck in gesprek aan tafel',
     imageNoteStrong: 'Over onze beelden.',
-    imageNote: "Alle illustraties zijn pentekeningen in de ActARion-kleuren. De portretten van het management zijn getekend naar hun eigen foto's van actarion.com. Overige werksituaties tonen geen herkenbare personen, locaties of klanten.",
+    imageNote: "Alle illustraties zijn pentekeningen in de ActARion-kleuren. Het management staat op eigen foto's. Overige werksituaties tonen geen herkenbare personen, locaties of klanten.",
     ctaHeading: 'Liever eerst even kennismaken?',
   },
   en: {
@@ -89,9 +91,9 @@ export const overCopy: Record<Locale, OverCopy> = {
     talkTo: 'Schedule a call with {voornaam}',
     linkedinLabel: '{naam} on LinkedIn',
     team: [
-      { slug: 'jack-kessels', naam: 'Jack Kessels', voornaam: 'Jack', rol: 'Managing Partner', regio: 'Benelux', cta: true, img: img.jk, alt: 'Pen drawing of Jack Kessels, managing partner Benelux', bio: 'Jack has extensive experience in operational leadership in food, FMCG and interim transformations. He has led complex operational assignments and improvement programmes and turns change into measurable results on the shop floor. His approach is pragmatic and people-centred.', punten: ['Finding high-impact use cases for AR and AI in operations', 'Drawing up a joint roadmap for pilot and roll-out', 'Connecting the right technology, implementation and training partners'] },
-      { slug: 'mark-dercksen', naam: 'Mark Dercksen', voornaam: 'Mark', rol: 'Founder and Managing Partner', regio: 'DACH', cta: true, img: img.md, alt: 'Pen drawing of Mark Dercksen, founder and managing partner DACH', bio: 'Extensive experience in commercial, operational and transformation roles in international B2B environments: sales leadership, key accounts, operational excellence and change management.', punten: ['A strong network of clients and partners in Germany, Austria and Switzerland', 'Aligning AR and AI projects with local practice, regulations and culture', 'Embedding implementations robustly and scalably in everyday work'] },
-      { slug: 'ortwin-verreck', naam: 'Ortwin Verreck', voornaam: 'Ortwin', rol: 'Founder and advisory board', regio: 'Founder', cta: false, img: img.ov, alt: 'Pen drawing of Ortwin Verreck, founder of ActARion', bio: 'Entrepreneur with a long track record of building and scaling digital businesses in Europe. Before ActARion he led and advised companies in digital marketing, AI and SaaS, always focused on measurable results on the shop floor.', punten: ['Digitising work instructions and training processes', 'Introducing AI and AR in operational environments', 'Building ecosystems of technology and implementation partners'] },
+      { slug: 'jack-kessels', naam: 'Jack Kessels', voornaam: 'Jack', rol: 'Managing Partner', regio: 'Benelux', cta: true, img: img.jk, alt: 'Photo of Jack Kessels, managing partner Benelux', bio: 'Jack has extensive experience in operational leadership in food, FMCG and interim transformations. He has led complex operational assignments and improvement programmes and turns change into measurable results on the shop floor. His approach is pragmatic and people-centred.', punten: ['Finding high-impact use cases for AR and AI in operations', 'Drawing up a joint roadmap for pilot and roll-out', 'Connecting the right technology, implementation and training partners'] },
+      { slug: 'mark-dercksen', naam: 'Mark Dercksen', voornaam: 'Mark', rol: 'Founder and Managing Partner', regio: 'DACH', cta: true, img: img.md, alt: 'Photo of Mark Dercksen, founder and managing partner DACH', bio: 'Extensive experience in commercial, operational and transformation roles in international B2B environments: sales leadership, key accounts, operational excellence and change management.', punten: ['A strong network of clients and partners in Germany, Austria and Switzerland', 'Aligning AR and AI projects with local practice, regulations and culture', 'Embedding implementations robustly and scalably in everyday work'] },
+      { slug: 'ortwin-verreck', naam: 'Ortwin Verreck', voornaam: 'Ortwin', rol: 'Founder and advisory board', regio: 'Founder', cta: false, img: img.ov, alt: 'Photo of Ortwin Verreck, founder of ActARion', bio: 'Entrepreneur with a long track record of building and scaling digital businesses in Europe. Before ActARion he led and advised companies in digital marketing, AI and SaaS, always focused on measurable results on the shop floor.', punten: ['Digitising work instructions and training processes', 'Introducing AI and AR in operational environments', 'Building ecosystems of technology and implementation partners'] },
     ],
     howEyebrow: 'How we work',
     howH2: 'From question to scale-up in four steps.',
@@ -105,8 +107,9 @@ export const overCopy: Record<Locale, OverCopy> = {
     partnersEyebrow: 'Partners',
     partnersH2: 'One platform, a strong network of partners.',
     partnersCta: 'View all partners',
+    groupAlt: 'Jack Kessels, Mark Dercksen and Ortwin Verreck in conversation at a table',
     imageNoteStrong: 'About our images.',
-    imageNote: 'All illustrations are pen drawings in the ActARion colours. The management portraits are drawn from their own photos on actarion.com. Other work situations show no recognisable people, locations or clients.',
+    imageNote: 'All illustrations are pen drawings in the ActARion colours. The management is shown in their own photos. Other work situations show no recognisable people, locations or clients.',
     ctaHeading: 'Would you like to get acquainted first?',
   },
   de: {
@@ -128,9 +131,9 @@ export const overCopy: Record<Locale, OverCopy> = {
     talkTo: 'Gespräch mit {voornaam} vereinbaren',
     linkedinLabel: '{naam} auf LinkedIn',
     team: [
-      { slug: 'jack-kessels', naam: 'Jack Kessels', voornaam: 'Jack', rol: 'Managing Partner', regio: 'Benelux', cta: true, img: img.jk, alt: 'Federzeichnung von Jack Kessels, Managing Partner Benelux', bio: 'Jack verfügt über umfangreiche Erfahrung in operativer Führung in Food, FMCG und Interim-Transformationen. Er leitete komplexe operative Mandate und Verbesserungsprogramme und setzt Veränderung in messbare Ergebnisse in der Fertigung um. Sein Ansatz ist pragmatisch und stellt den Menschen in den Mittelpunkt.', punten: ['Use Cases mit hoher Wirkung für AR und KI im Betrieb finden', 'Eine gemeinsame Roadmap für Pilot und Rollout erstellen', 'Die richtigen Technologie-, Implementierungs- und Schulungspartner verbinden'] },
-      { slug: 'mark-dercksen', naam: 'Mark Dercksen', voornaam: 'Mark', rol: 'Gründer und Managing Partner', regio: 'DACH', cta: true, img: img.md, alt: 'Federzeichnung von Mark Dercksen, Gründer und Managing Partner DACH', bio: 'Umfangreiche Erfahrung in kaufmännischen, operativen und Transformationsrollen in internationalen B2B-Umfeldern: Vertriebsleitung, Key Accounts, Operational Excellence und Change Management.', punten: ['Ein starkes Netzwerk aus Kunden und Partnern in Deutschland, Österreich und der Schweiz', 'AR- und KI-Projekte auf lokale Praxis, Vorschriften und Kultur abstimmen', 'Implementierungen robust und skalierbar im Arbeitsalltag verankern'] },
-      { slug: 'ortwin-verreck', naam: 'Ortwin Verreck', voornaam: 'Ortwin', rol: 'Gründer und Advisory Board', regio: 'Gründer', cta: false, img: img.ov, alt: 'Federzeichnung von Ortwin Verreck, Gründer von ActARion', bio: 'Unternehmer mit langjähriger Erfahrung im Aufbau und in der Skalierung digitaler Unternehmen in Europa. Vor ActARion leitete und beriet er Unternehmen in den Bereichen digitales Marketing, KI und SaaS, stets mit Fokus auf messbare Ergebnisse in der Praxis.', punten: ['Arbeitsanweisungen und Schulungsprozesse digitalisieren', 'KI und AR in operativen Umgebungen einführen', 'Ökosysteme aus Technologie- und Implementierungspartnern aufbauen'] },
+      { slug: 'jack-kessels', naam: 'Jack Kessels', voornaam: 'Jack', rol: 'Managing Partner', regio: 'Benelux', cta: true, img: img.jk, alt: 'Foto von Jack Kessels, Managing Partner Benelux', bio: 'Jack verfügt über umfangreiche Erfahrung in operativer Führung in Food, FMCG und Interim-Transformationen. Er leitete komplexe operative Mandate und Verbesserungsprogramme und setzt Veränderung in messbare Ergebnisse in der Fertigung um. Sein Ansatz ist pragmatisch und stellt den Menschen in den Mittelpunkt.', punten: ['Use Cases mit hoher Wirkung für AR und KI im Betrieb finden', 'Eine gemeinsame Roadmap für Pilot und Rollout erstellen', 'Die richtigen Technologie-, Implementierungs- und Schulungspartner verbinden'] },
+      { slug: 'mark-dercksen', naam: 'Mark Dercksen', voornaam: 'Mark', rol: 'Gründer und Managing Partner', regio: 'DACH', cta: true, img: img.md, alt: 'Foto von Mark Dercksen, Gründer und Managing Partner DACH', bio: 'Umfangreiche Erfahrung in kaufmännischen, operativen und Transformationsrollen in internationalen B2B-Umfeldern: Vertriebsleitung, Key Accounts, Operational Excellence und Change Management.', punten: ['Ein starkes Netzwerk aus Kunden und Partnern in Deutschland, Österreich und der Schweiz', 'AR- und KI-Projekte auf lokale Praxis, Vorschriften und Kultur abstimmen', 'Implementierungen robust und skalierbar im Arbeitsalltag verankern'] },
+      { slug: 'ortwin-verreck', naam: 'Ortwin Verreck', voornaam: 'Ortwin', rol: 'Gründer und Advisory Board', regio: 'Gründer', cta: false, img: img.ov, alt: 'Foto von Ortwin Verreck, Gründer von ActARion', bio: 'Unternehmer mit langjähriger Erfahrung im Aufbau und in der Skalierung digitaler Unternehmen in Europa. Vor ActARion leitete und beriet er Unternehmen in den Bereichen digitales Marketing, KI und SaaS, stets mit Fokus auf messbare Ergebnisse in der Praxis.', punten: ['Arbeitsanweisungen und Schulungsprozesse digitalisieren', 'KI und AR in operativen Umgebungen einführen', 'Ökosysteme aus Technologie- und Implementierungspartnern aufbauen'] },
     ],
     howEyebrow: 'Wie wir arbeiten',
     howH2: 'Von der Frage zur Skalierung in vier Schritten.',
@@ -144,8 +147,9 @@ export const overCopy: Record<Locale, OverCopy> = {
     partnersEyebrow: 'Partner',
     partnersH2: 'Eine Plattform, ein starkes Partnernetzwerk.',
     partnersCta: 'Alle Partner ansehen',
+    groupAlt: 'Jack Kessels, Mark Dercksen und Ortwin Verreck im Gespräch am Tisch',
     imageNoteStrong: 'Über unsere Bilder.',
-    imageNote: 'Alle Illustrationen sind Federzeichnungen in den ActARion-Farben. Die Porträts der Geschäftsleitung wurden nach ihren eigenen Fotos auf actarion.com gezeichnet. Andere Arbeitssituationen zeigen keine erkennbaren Personen, Standorte oder Kunden.',
+    imageNote: 'Alle Illustrationen sind Federzeichnungen in den ActARion-Farben. Die Geschäftsleitung ist auf eigenen Fotos zu sehen. Andere Arbeitssituationen zeigen keine erkennbaren Personen, Standorte oder Kunden.',
     ctaHeading: 'Lieber erst einmal kennenlernen?',
   },
 };
