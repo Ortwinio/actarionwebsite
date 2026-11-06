@@ -6,7 +6,7 @@ import { Analytics } from '@/components/Analytics';
 import { ConsentBanner } from '@/components/ConsentBanner';
 import { JsonLd } from '@/components/JsonLd';
 import { getUi, htmlLang, isLocale, locales } from '@/lib/i18n';
-import { graph, isNonProduction, organizationSchema, siteUrl, websiteSchema } from '@/lib/seo';
+import { graph, organizationSchema, siteUrl, websiteSchema } from '@/lib/seo';
 import '../globals.css';
 
 // Self-hosted at build time by next/font: no request to Google at runtime (GDPR + speed).
@@ -48,8 +48,6 @@ export default async function LocaleLayout({ children, params }: { children: Rea
         {children}
         <Footer locale={locale} />
         <ConsentBanner locale={locale} />
-        {/* Review button: only on preview deployments, never in production HTML. */}
-        {isNonProduction && <script src="/review/review.js" defer />}
       </body>
     </html>
   );

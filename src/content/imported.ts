@@ -32054,7 +32054,7 @@ export const importedPages: Record<'en' | 'nl' | 'de', Record<string, Partial<Pa
    "heroImage": "Pentekening: een tablet met een digitale checklist, afgevinkte stappen en fotobewijs, naast een papieren klembord"
   },
   "solDwi": {
-   "metaTitle": "Digitale werkinstructies met AI en AR | ActARion",
+   "metaTitle": "Digitale werkinstructies: minder fouten | ActARion",
    "metaDescription": "Digitale werkinstructies die je SOP's omzetten in stappen met AR op tablet of AR-bril. Minder fouten, sneller inwerken en een volledige audit trail.",
    "h1": "Digitale werkinstructies: minder fouten, elke stap vastgelegd",
    "lead": "Digitale werkinstructies die je SOP's omzetten in stappen met AR op tablet of AR-bril. Minder fouten, sneller inwerken en een volledige audit trail.",

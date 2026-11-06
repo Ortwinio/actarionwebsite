@@ -120,7 +120,7 @@ interface Card {
   detail?: { href: string; label: string };
 }
 
-function NetworkCard({ n, locale }: { n: Card; locale: Locale }) {
+function NetworkCard({ n, locale, H = 'h3' }: { n: Card; locale: Locale; H?: 'h2' | 'h3' }) {
   const c = networkCopy[locale];
   return (
     <li id={n.id} className="flex scroll-mt-24 flex-col gap-3 rounded-[22px] border border-line bg-white p-5">
@@ -132,7 +132,7 @@ function NetworkCard({ n, locale }: { n: Card; locale: Locale }) {
         {n.soort && <span className="self-start rounded-full bg-sky px-3 py-1.5 font-mono text-[13px]">{n.soort}</span>}
         <RegionChip region={n.region} locale={locale} />
       </div>
-      <h3 className="m-0 text-lg font-bold leading-tight">{n.naam}</h3>
+      <H className="m-0 text-lg font-bold leading-tight">{n.naam}</H>
       <p className="m-0 flex-grow text-[15px] leading-[1.45] text-muted">{n.text}</p>
       <div className="flex flex-wrap items-center gap-x-4">
         <a href={n.url} target="_blank" rel="nofollow noopener" className="inline-flex min-h-[44px] items-center gap-1 font-bold">{c.visit} ↗<span className="sr-only">{partnersCopy[locale].newWindow}</span></a>
@@ -171,7 +171,7 @@ function NetworkSection({ locale, asPageTitle = false }: { locale: Locale; asPag
         <p className="text-lg leading-normal text-muted">{c.lead}</p>
       </div>
       <ul className="m-0 grid list-none gap-4 p-0 [grid-template-columns:repeat(auto-fill,minmax(260px,1fr))]">
-        {[...main, ...network].map((n) => <NetworkCard key={n.id} n={n} locale={locale} />)}
+        {[...main, ...network].map((n) => <NetworkCard key={n.id} n={n} locale={locale} H={asPageTitle ? 'h2' : 'h3'} />)}
       </ul>
     </section>
   );

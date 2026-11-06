@@ -62,6 +62,9 @@ for loc, pages in data.items():
         if 'related' in pg:
             pg['related'] = [r for r in pg['related'] if r not in ('partnerPotentify', 'partnerSimplyChange')]
 
+# Unique NL title for the solution page (was identical to the home page)
+data['nl']['solDwi']['metaTitle'] = 'Digitale werkinstructies: minder fouten | ActARion'
+
 legal.apply(data)  # company details and liability cap (Mark, 5 Nov 2026)
 for loc, pages in data.items():
     for k in ('privacy', 'terms', 'imprint'):
