@@ -51,8 +51,8 @@ function TeamCards({ t, locale, H = 'h3' }: { t: OverCopy; locale: Locale; H?: '
     <div className="grid grid-cols-[repeat(auto-fit,minmax(min(340px,100%),1fr))] gap-6">
       {t.team.map((m) => (
         <article key={m.slug} id={m.slug} className="flex flex-col overflow-hidden rounded-[28px] border border-line bg-white">
-          <div className="border-b border-line bg-canvas">
-            <Image src={m.img} alt={m.alt} width={440} height={440} sizes="(max-width: 760px) 100vw, 400px" loading="lazy" className="block aspect-[4/3] w-full object-cover object-[50%_30%]" />
+          <div className="flex justify-center border-b border-line bg-canvas px-7 pt-7">
+            <Image src={m.img} alt={m.alt} width={300} height={300} sizes="300px" loading="lazy" className="block aspect-square w-[300px] max-w-full object-cover" />
           </div>
           <div className="flex flex-grow flex-col gap-3.5 p-7">
             <div className="flex flex-wrap items-start justify-between gap-3">

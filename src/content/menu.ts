@@ -277,6 +277,6 @@ export const ctaExpertText = {
   region: L('Waar zit u?', 'Where are you based?', 'Wo sind Sie?'),
   meta: L('30 min · online · NL, EN of DE', '30 min · online · EN, NL or DE', '30 Min. · online · DE, EN oder NL'),
   cta: L('Plan een gesprek met ', 'Book a call with ', 'Gespräch mit '),
-  altJack: L('Foto van Jack Kessels', 'Photo of Jack Kessels', 'Foto von Jack Kessels'),
-  altMark: L('Foto van Mark Dercksen', 'Photo of Mark Dercksen', 'Foto von Mark Dercksen'),
+  altJack: L('Pentekening van Jack Kessels', 'Pen drawing of Jack Kessels', 'Federzeichnung von Jack Kessels'),
+  altMark: L('Pentekening van Mark Dercksen', 'Pen drawing of Mark Dercksen', 'Federzeichnung von Mark Dercksen'),
 };
